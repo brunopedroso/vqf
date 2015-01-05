@@ -35,31 +35,30 @@ title:
   </ul>
 
   <br/>
-
+  
+* Mamãe eu quero (Bb) 
+* Alalalaô (Bb)
 * Saca-rolhas (Gm) [as águas vão rolar]
-* Quem sabe sabe (Gm)
 * Turma do funil (Gm) [chegou a turma do funil]
 * Índio quer apito (Gm)
-  
-  <br/>
 
+  <br/>
+  
+* Cachaça (Bb) [se você pensa que cahcaça é água]
 * Jardineira (Bb) [o jardineira por que estás tão triste]
 * Mulata Bossa Nova (Bb)
 * Vassourinhas (Bb)
-* Cachaça (Bb) [se você pensa que cahcaça é água]
-  
+* Cueca (Bb) [eu mato, eu mato...]
+
   <br/>
 
-* Mamãe eu quero (Bb) 
-* Alalalaô (Bb)
+* Quem sabe sabe (Gm)
 * Me dá um dinheiro aí (Bb) [ei você aí]
-* Cueca (Bb) [eu mato, eu mato...]
-  
-  <br/>
-  
 * Canoa (Bb) [se a canoa não virar...]
 * Cabeleira do zezé (Bb) [olha a cabeleria do zezé]
 * Sassaricando (Bb)
-
+  
   <br/>
+
+
 
