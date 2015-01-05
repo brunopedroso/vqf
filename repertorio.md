@@ -3,7 +3,6 @@ layout: default
 title: 
 ---
 
-  
 ## Repertório
 
   Esse é o repertório básico que precisamos ensaiar. Outras músicas podem (devem) entrar à medida em que o tempo seja suficiente. Sugiram! Mas primeiro, precisamos garantir esse aí...
@@ -17,11 +16,24 @@ title:
 
   <br/>
 
-* O abre alas (Dm)
-* Bandeira branca (Dm)
-* Circo (F)
-* Taí (Gm)
+  <ul>
+    <li>
+      <a href="https://www.dropbox.com/s/uq0zz267jfot23t/1_AbreAlas.mp3?dl=0" target="_blank">O abre alas (Dm)</a>
+    </li>
   
+    <li>
+      <a href="https://www.dropbox.com/s/g2oa0bfso5vjdel/2_BandeiraBranca.mp3?dl=0" target="_blank">Bandeira branca (Dm)</a>
+    </li>
+
+    <li>
+      <a href="https://www.dropbox.com/s/jgjkqxavdzyyp22/3_Circo.mp3?dl=0" target="_blank">Circo (F)</a>
+    </li>
+
+    <li>
+      <a href="https://www.dropbox.com/s/g96xabpdw7hj5ct/4_Tai.mp3?dl=0" target="_blank">Taí (Gm)</a>
+    </li>
+  </ul>
+
   <br/>
 
 * Saca-rolhas (Gm) [as águas vão rolar]
