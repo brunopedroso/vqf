@@ -5,16 +5,9 @@ title:
 
 ## Repertório
 
-  Esse é o repertório básico que precisamos ensaiar. Outras músicas podem (devem) entrar à medida em que o tempo seja suficiente. Sugiram! Mas primeiro, precisamos garantir esse aí...
-
-
-  À medida em que eu for gravando mais músicas, vou adicionando elas aí.
-
-  Elas estão organizadas em pequenos blocos apenas pra gente se organizar durante os ensaios.
+  Vamos manter aqui o repertório básico do bloco.
   
-  É importante que todos tirem as músicas (nesses tons!) sozinhos em casa pra gente não perder tempo nos ensaios!
-
-  <br/>
+  Esse ano teremos bem poucos ensaios, então precisamos que vocês **estudem as músicas em casa ANTES dos ensaios** pra gente não perder tempo precioso nos ensaios:
 
   <ul>
     <li>
@@ -32,33 +25,14 @@ title:
     <li>
       <a href="https://www.dropbox.com/s/g96xabpdw7hj5ct/4_Tai.mp3?dl=0" target="_blank">Taí (Gm)</a>
     </li>
+    
+    <li>
+      ... vou colocar mais músicas aqui à medida em que formos ensaiando ...
+    </li>
+    
+    
   </ul>
 
   <br/>
   
-* Mamãe eu quero (Bb) 
-* Alalalaô (Bb)
-* Saca-rolhas (Gm) [as águas vão rolar]
-* Turma do funil (Gm) [chegou a turma do funil]
-* Índio quer apito (Gm)
-
-  <br/>
   
-* Cachaça (Bb) [se você pensa que cahcaça é água]
-* Jardineira (Bb) [o jardineira por que estás tão triste]
-* Mulata Bossa Nova (Bb)
-* Vassourinhas (Bb)
-* Cueca (Bb) [eu mato, eu mato...]
-
-  <br/>
-
-* Quem sabe sabe (Gm)
-* Me dá um dinheiro aí (Bb) [ei você aí]
-* Canoa (Bb) [se a canoa não virar...]
-* Cabeleira do zezé (Bb) [olha a cabeleria do zezé]
-* Sassaricando (Bb)
-  
-  <br/>
-
-
-
