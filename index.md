@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 
+title: Carnaval de rua em Brasília. Com elegância.
 ---
 
 <style type="text/css" media="screen">
@@ -36,7 +36,7 @@ title:
 
 <br>
 
-## Carnaval de rua em Brasília, com elegância.
+## Carnaval de rua em Brasília. Com elegância.
 
 
 <div class="caixa" style='margin-top:80px'>
