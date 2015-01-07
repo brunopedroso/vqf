@@ -31,11 +31,14 @@
         font-weight: normal;
         color: #333;
       }
-      
+
       h1 {
-        font-size: 7em;
         color: white;
+        font-size: 4em;
       }
+      
+      @media (min-width: 1050px) { h1 { font-size: 7em; } }
+      @media (max-width: 550px) { h1 { font-size: 3em; } }
       
       h2 {
         font-size: 4em;
@@ -64,11 +67,9 @@
       <div class="carousel-inner" role="listbox">
         <div class="item active">
           <img src="img/header.png" alt="First slide">
-          <div class="container">
             <div class="carousel-caption">
               <h1>Vai Quem Fica</h1>
             </div>
-          </div>
         </div>
       </div>
 
