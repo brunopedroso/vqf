@@ -70,6 +70,15 @@
   </head>
   <body>
     
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.0";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+    
     <div style='float:left; width:100%; background: url(img/header.png); background-repeat: no-repeat; background-size: 100%;'>
       
       <div style='text-align:center; margin: 12% 0 10% 24%;'>
