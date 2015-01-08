@@ -95,15 +95,15 @@ title: Carnaval de rua em Brasília. Com elegância.
 
   <img src='img/fotos/fotol12.png' class='img_l' />
 
-  Que tal se pudéssemos brincar, ao mesmo tempo, ao lado dos filhos, dos amigos e da vovó? 
+  E se a gente pudesse brincar, ao mesmo tempo, ao lado dos filhos, dos amigos e da vovó? 
 
 </div>
 
 <div class="caixa">
 
-  <img src='img/fotos/fotor11.png' class='img_r' />
+  <img src='img/fotos/fotor11.png' class='img_r' style='width:59%'/>
 
-  Porque multidão apertada? Não podemos brincar confortáveis, sem esconder as carteiras? 
+  Porque multidão apertada? Não podemos brincar confortáveis, de chinelos e sem esconder as carteiras? 
 
 </div>
 
@@ -111,7 +111,7 @@ title: Carnaval de rua em Brasília. Com elegância.
 
   <img src='img/fotos/fotol10.png' class='img_l' />
 
-  E ouvir, num volume que nos permita cantar juntos e conversar, uma marchinha linda e sem pressa com o mesmo velho versinho que ainda emociona? 
+  E ouvir, sem gritaria e sem pressa, uma marchinha linda, com o mesmo velho versinho que ainda emociona? <br>
 
 </div>
 
@@ -127,7 +127,7 @@ title: Carnaval de rua em Brasília. Com elegância.
 
   <img src='img/fotos/fotol3.png' class='img_l' />
 
-  Façamos um carnaval de rua com elegância. Fantasias e instrumentos a postos!
+  Façamos um carnaval de rua com elegância! Fantasias e instrumentos a postos!
 
 </div>
 
@@ -141,6 +141,8 @@ title: Carnaval de rua em Brasília. Com elegância.
 
 
   Talvez você ainda não tenha percebido, mas o [carnaval](http://www.ebc.com.br/noticias/brasil/2013/02/em-brasilia-blocos-de-rua-atraem-familias-e-criancas-no-domingo-de-carnaval) de [Brasília](https://www.facebook.com/babydolldenylon) está [mudando](https://aparelhinho.wordpress.com/sobre/).
+
+  <br>
 
   E nós queremos fazer parte disso.
   
