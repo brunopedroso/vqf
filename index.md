@@ -51,9 +51,9 @@ title: Carnaval de rua em Brasília. Com elegância.
   
   <img src='img/fotos/fotol2.png' class='img_l' style='width:55%'/>
 
-  Ou então se conformam com o carnaval que sobrou e dão uma passada no Pacotão e no Galinho pra ver um pouco de esbórnia e voltar aborrecidos pra casa. Ou vão ao sambódromo imitar a televisão.
+  Ou então se conformam com o carnaval que sobrou, saem pra ver um pouco de esbórnia e voltam frustrados pra casa porque o carnaval estava 'vazio'. Ou vão ao sambódromo imitar a televisão.
 
-  <br>
+  <br><br>
 
   Será?
 
@@ -65,7 +65,7 @@ title: Carnaval de rua em Brasília. Com elegância.
 
   Carnaval hoje em dia é uma multidão enorme (a maior possível), apertada, com um bando de estranhos bêbados e suados passando a mão em todo mundo, ao som de um xeco xeco alto e acelerado. Acho que o carnaval perdeu mesmo seu significado.
 
-  <br>
+  <br><br>
 
   Será?
 
