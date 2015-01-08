@@ -28,8 +28,8 @@ title: Carnaval de rua em Brasília. Com elegância.
   .caixa {
     width:100%;
     font-size:1.6em;
-    margin-top:20px;
-    height:400px;
+    margin:20px 0 120px 0;
+    float: left;
   }
   
 </style>
@@ -44,6 +44,10 @@ title: Carnaval de rua em Brasília. Com elegância.
   <img src='img/fotos/fotor3.png' class='img_r' />
 
   Brasília é a cidade sem carnaval, sem tradição. Ruas vazias. Todos viajam pra brincar (ou pra se esconder) em outros cantos.
+  
+  <br><br>
+  
+  Será?
   
 </div>
 
@@ -71,7 +75,7 @@ title: Carnaval de rua em Brasília. Com elegância.
 
 </div>
 
-<div class="caixa" style='margin-top:80px'>
+<div class="caixa" style=''>
 
   <img src='img/fotos/fotol13.png' class='img_l'/>
 
@@ -135,11 +139,18 @@ title: Carnaval de rua em Brasília. Com elegância.
 
 </div>
 
+
+  Talvez você ainda não tenha percebido, mas o [carnaval](http://www.ebc.com.br/noticias/brasil/2013/02/em-brasilia-blocos-de-rua-atraem-familias-e-criancas-no-domingo-de-carnaval) de [Brasília](https://www.facebook.com/babydolldenylon) está [mudando](https://aparelhinho.wordpress.com/sobre/).
+
+  E nós queremos fazer parte disso.
+  
+  <br>
+
 <div class="caixa">
 
   <img src='img/fotos/fotol11.png' class='img_l' />
 
-  Neste carnaval, em algum lugar da cidade, o <b>Vai Quem Fica</b> arrasta suas sandálias pelo terceiro ano consecutivo.
+  Neste carnaval, em algum lugar da cidade, o <b style='white-space: nowrap;'>Vai Quem Fica</b> arrasta suas sandálias pelo terceiro ano consecutivo.
 
 </div>
 
