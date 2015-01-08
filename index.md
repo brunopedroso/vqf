@@ -174,14 +174,16 @@ Se seu coração bater na mesma cadência, e você quiser nos acompanhar, **insc
     
     <form action="//github.us2.list-manage.com/subscribe/post?u=1add2b0d2d8fac83d25d4a1fe&amp;id=5a781cb5f1" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
         <div id="mc_embed_signup_scroll">
-          <div class="mc-field-group">
-          	<label for="mce-EMAIL">Email  <span class="asterisk">*</span>
-          </label>
-          	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-          </div>
+
           <div class="mc-field-group">
           	<label for="mce-FNAME">Primeiro Nome </label>
           	<input type="text" value="" name="FNAME" class="" id="mce-FNAME">
+          </div>
+
+          <div class="mc-field-group">
+          	<label for="mce-EMAIL">Email  <span class="asterisk">*</span>
+            </label>
+          	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
           </div>
         	<div id="mce-responses" class="clear">
         		<div class="response" id="mce-error-response" style="display:none"></div>
