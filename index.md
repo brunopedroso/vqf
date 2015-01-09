@@ -28,7 +28,7 @@ title: Carnaval de rua em Brasília. Com elegância.
   .caixa {
     width:100%;
     font-size:1.6em;
-    margin:20px 0 120px 0;
+    margin:20px 0 60px 0;
     float: left;
   }
   
