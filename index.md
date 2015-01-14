@@ -210,7 +210,7 @@ Se seu coração bater na mesma cadência, e você quiser nos acompanhar, **insc
 <div class="caixa">
   <div style='margin:0 auto; width:400px; font-size:0.8em'>
     Que tal &nbsp;
-    <div class="fb-share-button" data-href="http://brunopedroso.github.io/vqf/" data-layout="button"></div>
+    <div class="fb-share-button" data-href="http://brunopedroso.github.io/vqf/" data-layout="box_count"></div>
     &nbsp; isso com seus amigos?
   </div>
 </div>
