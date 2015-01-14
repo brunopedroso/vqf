@@ -15,18 +15,26 @@ title: Repertório
     
     <li>
       <a href="https://s3.amazonaws.com/brunopedroso/vqf/b1/1_AbreAlas.mp3" target="_blank">O abre alas (Dm)</a>
+      <a href="https://s3.amazonaws.com/brunopedroso/vqf/b1/abre_alas_C.pdf" target="_blank">partitura_C</a>
+      <a href="https://s3.amazonaws.com/brunopedroso/vqf/b1/abre_alas_Bb.pdf" target="_blank">partitura_Bb</a>
     </li>
   
     <li>
       <a href="https://s3.amazonaws.com/brunopedroso/vqf/b1/2_BandeiraBranca.mp3" target="_blank">Bandeira branca (Dm)</a>
+      <a href="https://s3.amazonaws.com/brunopedroso/vqf/b1/bandeira_branca_C.pdf" target="_blank">partitura_C</a>
+      <a href="https://s3.amazonaws.com/brunopedroso/vqf/b1/bandeira_branca_Bb.pdf" target="_blank">partitura_Bb</a>
     </li>
 
     <li>
       <a href="https://s3.amazonaws.com/brunopedroso/vqf/b1/3_Circo.mp3" target="_blank">Circo (F)</a>
+      <a href="https://s3.amazonaws.com/brunopedroso/vqf/b1/circo_C_sem_ritmo.pdf" target="_blank">partitura_C</a>
+      <a href="https://s3.amazonaws.com/brunopedroso/vqf/b1/circo_Bb_sem_ritmo.pdf" target="_blank">partitura_Bb</a>
     </li>
 
     <li>
       <a href="https://s3.amazonaws.com/brunopedroso/vqf/b1/4_Tai.mp3" target="_blank">Taí (Gm)</a>
+      <a href="https://s3.amazonaws.com/brunopedroso/vqf/b1/tai_C_sem_ritmo.pdf" target="_blank">partitura_C</a>
+      <a href="https://s3.amazonaws.com/brunopedroso/vqf/b1/tai_Bb_sem_ritmo.pdf" target="_blank">partitura_Bb</a>
     </li>
     
   </ul>
