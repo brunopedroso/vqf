@@ -18,7 +18,7 @@ Vamos te avisar sobre tudo o que for rolar.
   </div>
 
   <div style='float:left' >
-    <div class="fb-share-button" data-href="http://brunopedroso.github.io/vqf/" data-layout="button"></div>  
+    <div class="fb-share-button" data-href="http://brunopedroso.github.io/vqf/" data-layout="button_count"></div>  
   </div>
   
 </div>
