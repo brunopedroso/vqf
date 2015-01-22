@@ -7,20 +7,26 @@ title: Repertório
   td {
     padding: 5px 10px;
   }
+  
+  h4 {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top:30px;
+  }
 </style>
+
+<br/>
 
 ## Repertório
 
-  Vamos manter aqui o repertório básico do bloco.
-  
-  Esse ano teremos bem poucos ensaios, então precisamos que vocês **estudem as músicas em casa ANTES dos ensaios** pra gente não perder tempo precioso nos ensaios:
-  
-  <br/>
+<br/>
+
 
   <table>
 
     <tr>
       <td>
+        <h4>BLOCO 1</h4>
       </td>
       <td colspan='3'>
         Partituras
@@ -81,6 +87,13 @@ title: Repertório
       </td>
     </tr>
 
+
+    <tr>
+      <td colspan='4'>
+        <h4>BLOCO 2</h4>
+      </td>
+    </tr>
+
     
     <tr>
       <td>
@@ -123,7 +136,7 @@ title: Repertório
 
     <tr>
       <td>
-        <a href="https://s3.amazonaws.com/brunopedroso/vqf/b2/4_Funil.mp3" target="_blank">A turma do funil (Gm)</a>
+        <a href="https://s3.amazonaws.com/brunopedroso/vqf/b2/4_Funil.mp3" target="_blank">A turma do funil (Dm)</a>
       </td><td>
         <a href="https://s3.amazonaws.com/brunopedroso/vqf/b2/a_turma_do_funil_C_sem_ritmo.pdf" target="_blank">C</a>
       </td><td>
@@ -146,6 +159,60 @@ title: Repertório
       </td>
 
     </tr>
+    
+    
+    
+    <tr>
+      <td colspan='4'>
+        <h4>BLOCO 3</h4>
+      </td>
+    </tr>
+
+    
+    <tr>
+      <td>
+        <a href="https://s3.amazonaws.com/brunopedroso/vqf/b3/1_quem_sabe_sabe.mp3" target="_blank">Quem sabe sabe (Gm)</a>
+      </td><td>
+        <a href="https://s3.amazonaws.com/brunopedroso/vqf/b3/1_quem_sabe_sabe_C.pdf" target="_blank">C</a>
+      </td><td>
+        <a href="https://s3.amazonaws.com/brunopedroso/vqf/b3/1_quem_sabe_sabe_Bb.pdf" target="_blank">Bb</a>
+      </td><td>
+        <a href="https://s3.amazonaws.com/brunopedroso/vqf/b3/1_quem_sabe_sabe_Eb.pdf" target="_blank">Eb</a>
+      </td>
+
+    </tr>
+  
+    <tr>
+      <td>
+        Pierrot apaixonado (Bb)
+      </td><td>
+        <a href="https://s3.amazonaws.com/brunopedroso/vqf/b3/2_pierrot_apaixonado_C.pdf" target="_blank">C</a>
+      </td><td>
+        <a href="https://s3.amazonaws.com/brunopedroso/vqf/b3/2_pierrot_apaixonado_Bb.pdf" target="_blank">Bb</a>
+      </td><td>
+        <a href="https://s3.amazonaws.com/brunopedroso/vqf/b3/2_pierrot_apaixonado_Eb.pdf" target="_blank">Eb</a>
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        <a href="https://s3.amazonaws.com/brunopedroso/vqf/b3/3_Cachaca.mp3" target="_blank">Cachaça (Bb)</a>
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        <a href="https://s3.amazonaws.com/brunopedroso/vqf/b3/4_jardineira.mp3" target="_blank">Jardineira (Bb)</a>
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        <a href="https://s3.amazonaws.com/brunopedroso/vqf/b3/5_a_taca_do_mundo.mp3" target="_blank">A taça do mundo (Bb)</a>
+      </td>
+
+    </tr>
+    
     
   </table>
   
