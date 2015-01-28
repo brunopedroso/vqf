@@ -59,6 +59,18 @@ title: Repertório
 
     <tr>
       <td>
+        <a href="https://s3.amazonaws.com/brunopedroso/vqf/b2/4_Funil.mp3" target="_blank">A turma do funil (Dm)</a>
+      </td><td>
+        <a href="https://s3.amazonaws.com/brunopedroso/vqf/b2/a_turma_do_funil_C_sem_ritmo.pdf" target="_blank">C</a>
+      </td><td>
+        <a href="https://s3.amazonaws.com/brunopedroso/vqf/b2/a_turma_do_funil_Bb_sem_ritmo.pdf" target="_blank">Bb</a>
+      </td><td>
+        <a href="https://s3.amazonaws.com/brunopedroso/vqf/b2/a_turma_do_funil_Eb_sem_ritmo.pdf" target="_blank">Eb</a>
+      </td>
+    </tr>
+
+    <tr>
+      <td>
         <a href="https://s3.amazonaws.com/brunopedroso/vqf/b1/3_Circo.mp3" target="_blank">Circo (F)</a>
       </td><td>
         <a href="https://s3.amazonaws.com/brunopedroso/vqf/b1/circo_C_sem_ritmo.pdf" target="_blank">C</a>
@@ -69,17 +81,7 @@ title: Repertório
       </td>
     </tr>
 
-    <tr>
-      <td>
-        <a href="https://s3.amazonaws.com/brunopedroso/vqf/b1/4_Tai.mp3" target="_blank">Taí (Gm)</a>
-      </td><td>
-        <a href="https://s3.amazonaws.com/brunopedroso/vqf/b1/tai_C_sem_ritmo.pdf" target="_blank">C</a>
-      </td><td>
-        <a href="https://s3.amazonaws.com/brunopedroso/vqf/b1/tai_Bb_sem_ritmo.pdf" target="_blank">Bb</a>
-      </td><td>
-        <a href="https://s3.amazonaws.com/brunopedroso/vqf/b1/tai_Eb_sem_ritmo.pdf" target="_blank">Eb</a>
-      </td>
-    </tr>
+
     
     <tr>
       <td>
@@ -123,6 +125,18 @@ title: Repertório
 
     <tr>
       <td>
+        <a href="https://s3.amazonaws.com/brunopedroso/vqf/b1/4_Tai.mp3" target="_blank">Taí (Gm)</a>
+      </td><td>
+        <a href="https://s3.amazonaws.com/brunopedroso/vqf/b1/tai_C_sem_ritmo.pdf" target="_blank">C</a>
+      </td><td>
+        <a href="https://s3.amazonaws.com/brunopedroso/vqf/b1/tai_Bb_sem_ritmo.pdf" target="_blank">Bb</a>
+      </td><td>
+        <a href="https://s3.amazonaws.com/brunopedroso/vqf/b1/tai_Eb_sem_ritmo.pdf" target="_blank">Eb</a>
+      </td>
+    </tr>
+
+    <tr>
+      <td>
         <a href="https://s3.amazonaws.com/brunopedroso/vqf/b2/3_Sacarolhas.mp3" target="_blank">Sacarolhas (Gm)</a>
       </td><td>
         <a href="https://s3.amazonaws.com/brunopedroso/vqf/b2/saca_rolhas_C_sem_ritmo.pdf" target="_blank">C</a>
@@ -130,19 +144,6 @@ title: Repertório
         <a href="https://s3.amazonaws.com/brunopedroso/vqf/b2/saca_rolhas_Bb_sem_ritmo.pdf" target="_blank">Bb</a>
       </td><td>
         <a href="https://s3.amazonaws.com/brunopedroso/vqf/b2/saca_rolhas_Eb_sem_ritmo.pdf" target="_blank">Eb</a>
-      </td>
-
-    </tr>
-
-    <tr>
-      <td>
-        <a href="https://s3.amazonaws.com/brunopedroso/vqf/b2/4_Funil.mp3" target="_blank">A turma do funil (Dm)</a>
-      </td><td>
-        <a href="https://s3.amazonaws.com/brunopedroso/vqf/b2/a_turma_do_funil_C_sem_ritmo.pdf" target="_blank">C</a>
-      </td><td>
-        <a href="https://s3.amazonaws.com/brunopedroso/vqf/b2/a_turma_do_funil_Bb_sem_ritmo.pdf" target="_blank">Bb</a>
-      </td><td>
-        <a href="https://s3.amazonaws.com/brunopedroso/vqf/b2/a_turma_do_funil_Eb_sem_ritmo.pdf" target="_blank">Eb</a>
       </td>
 
     </tr>
