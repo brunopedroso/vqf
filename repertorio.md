@@ -15,11 +15,7 @@ title: Repertório
   }
 </style>
 
-<br/>
-
 ## Repertório
-
-<br/>
 
 
   <table>

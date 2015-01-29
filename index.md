@@ -34,12 +34,9 @@ title: Carnaval de rua em Brasília. Com elegância.
   
 </style>
 
-<br>
-
 ## Carnaval de rua em Brasília. Com elegância.
 
-
-<div class="caixa" style='margin-top:80px'>
+<div class="caixa" style='margin-top:60px'>
 
   <img src='img/fotos/fotor3.png' class='img_r' />
 
