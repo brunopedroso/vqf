@@ -17,7 +17,7 @@ A roda começa quando chegar a primeira pessoa (normalmente sou eu) e a gente fi
 
 A gente começa tocando o Abre Alas, pra pedir licença. Tocamos umas duas vezes e começamos a andar. Aí é só ladeira abaixo!
 
-Quando o bloco voltar à sua posição inicial (a gente sempre volta), a roda se restabelece e o pessoal fica de boa até a hora que acontecer.
+Quando o bloco voltar parar (normalmente a gente volta à posição inicial), a roda se restabelece e o pessoal fica de boa até a hora que acontecer.
 
 ### O dono da música
 
@@ -60,14 +60,14 @@ O que não pode rolar **de jeito nenhum** é a maioria das pessoas parar de toca
 
 A *Levada* é aquele momento em que ainda não começamos a tocar música nenhuma, mas já está rolando um ritmo na bateria e os outros instrumentos já estão começando a arpejar um acorde, fazer uma firulinha, coisa e tal. Esse momento pode (deve!) ser bem tranquilo, sem ansiedade nenhuma para começar a próxima música. Podemos ficar váááários compassos assim, se olhar, curtir um pouco, tomar um gole...
 
-Mas durante a *Levada* temos a **responsabilidade coletiva** de manter o ritmo e uma sombra de harmonia **constantes**, pra música **não parar**. Se a gente não assume essa responsabilidade com o peito estufado, volta e meia a gente vai acabar a música 'esvaziando'... parando cada um numa hora, soando a peido de velho. Credo! Assumamos a responsabilidade e o nosso papel na roda!
+Mas durante a *Levada* temos a **responsabilidade coletiva** de manter o ritmo e uma sombra de harmonia **constantes**, pra música **não parar**. Se a gente não assume essa responsabilidade com o peito estufado, volta e meia a gente vai acabar a música 'esvaziando'... parando cada um numa hora, soando a peido de velho. Credo! Não vamos deixar isso acontecer. Se não tiver um sinal claro pra parar, continuem tocando a levada!
 
-Os instrumentos podem tocar mais baixo, e um tocador ou outro pode até parar de tocar um pouco, tomar uma cerveja, fumar um cigarro. Mas não podemos parar **todos** de uma vez, em hipótese nenhuma! A menos que haja um sinal claro para finalizarmos a *Levada* (como nos finais de blocos) devemos ficar 'na maciota', sem parar. Sem se cansar... mas sem parar também!
+Os instrumentos podem tocar mais baixo, e um tocador ou outro pode até parar de tocar um pouco, tomar uma cerveja, fumar um cigarro. Mas não podemos parar **todos** de uma vez, em hipótese nenhuma! A menos que haja um sinal claro para finalizarmos a *Levada* (como nos finais de blocos) devemos ficar 'na maciota', sem parar. Vamos tocar de boa, sem se cansar... mas sem parar também!
 
 
 ### Iniciando a próxima música
 
-Depois de um tempinho descansando na *Levada*, o dono da próxima música vai dar uma olhada geral pros demais, preparar o instrumento do modo mais explícito que puder, e puxa a música. De preferência com uma frase bem bonita e marcada, com os demais apoiando com firmeza. Aí começamos a outra música, e vamos em frente música por música do próximo bloco.
+Depois de um tempinho descansando na *Levada*, o dono da próxima música vai dar uma olhada geral pros demais, preparar o instrumento do modo mais explícito que puder, e puxar a música. De preferência com uma frase bem bonita e marcada, com os demais apoiando com firmeza. Aí começamos a outra música, e vamos em frente música por música do próximo bloco.
     
 
 ### Terminando um bloco de músicas
@@ -76,7 +76,7 @@ Ao final da última música do bloco, o dono dessa última música fica respons�
 
 ### Como fica a porra toda, então?
 
-Assim:
+O repertório já na ordem certa, com as transições, fica assim:
 
 <pre>
 roda
