@@ -17,7 +17,7 @@ A roda começa quando chegar a primeira pessoa (normalmente sou eu) e a gente fi
 
 A gente começa tocando o Abre Alas, pra pedir licença. Tocamos umas duas vezes e começamos a andar. Aí é só ladeira abaixo!
 
-Quando o bloco voltar parar (normalmente a gente volta à posição inicial), a roda se restabelece e o pessoal fica de boa até a hora que acontecer.
+Quando o bloco parar (normalmente a gente volta à posição inicial), a roda se restabelece e o pessoal fica de boa até a hora que acontecer.
 
 ### O dono da música
 
