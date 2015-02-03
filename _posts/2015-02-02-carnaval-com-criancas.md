@@ -65,7 +65,7 @@ Não precisamos beber guaraná. Mas também não precisamos encher a cara!
 
 Será que não sabemos achar um meio termo e fazer uma brincadeira que seja saudável e divertida pra todo mundo?
 
-Claro que isso é possível! Nós vimos isso acontecer no Cordão Umbilical, lá no Rio! Nós já fizemos isso dois anos seguidos no Vai Quem Fica e foi massa demais!
+Claro que isso é possível! Nós vimos isso acontecer no Cordão Umbilical, lá no Rio! Já vimos isso acontecer no Tesourinhas aqui em Bsb... Nós já fizemos isso dois anos seguidos no Vai Quem Fica e foi massa demais!
 
 <img src='../../../img/com_crianca/IMG_1212.png'  class='img_l'>
 
