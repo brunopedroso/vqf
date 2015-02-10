@@ -4,6 +4,10 @@ title: "Combinações musicais"
 description: "Combinações musicais"
 ---
 
+**Essas combinações já estão defasadas!!**
+
+A versão certa agora é <a href='/2015/02/10/combinacoes-finais.html'>essa!</a>
+
 ##  Combinações musicais
 
 Pra gente tentar se entender um pouco melhor, tanto nesses últimos ensaios como no dia do bloquinho, compilei aqui as combinações que tentei comunicar no último ensaio.

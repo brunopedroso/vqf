@@ -49,6 +49,12 @@ description: "Combinações finais"
   
   Vamos andar o mais 'blocados' possível para não deixar ninguém passar, mas também não precisa exagerar, pra não ficar desconfortável (o trombone, por exemplo, precisa de algum espaço)
   
+  
+### Repertório
+  
+  <a href='https://s3.amazonaws.com/brunopedroso/vqf/repertorio.pdf'>Aqui está nosso repertório em versão para imprimir.</a>
+  
+  
 ### Forma das músicas
   
   Todas as músicas serão tocadas no seguinte padrão:

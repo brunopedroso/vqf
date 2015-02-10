@@ -17,7 +17,8 @@ title: Repertório
 
 ## Repertório
 
-
+  <a href='https://s3.amazonaws.com/brunopedroso/vqf/repertorio.pdf'>Aqui está nosso repertório em versão para imprimir.</a>
+  
   <table>
 
     <tr>
