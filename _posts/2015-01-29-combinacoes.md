@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "VQF: Ensaio de 25/jan/2015"
-description: "Ensaio Geral de 25/jan/2015, na 206N"
+title: "Combinações musicais"
+description: "Combinações musicais"
 ---
 
 ##  Combinações musicais
