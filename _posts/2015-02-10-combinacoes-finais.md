@@ -57,14 +57,6 @@ description: "Combinações finais"
     cantamos AAB
     tocamos AAB - A
 
-  As únicas exceções são **Alalaô**, **Cachaça** e **Jardineira** que, como já tem as entradas da parte B muito conhecidas, precisam ser feitas sem repetir a parte A:
-  
-    tocamos AB AB
-    cantamos AB
-    tocamos AB - A
-    
-  Mas ainda assim, perceba que o padrão 2 - 1 - 1 é o mesmo!
-  
   Veja que no final faremos um AAB só, e uma parte A solitária, de 'coda', para acabar. 
   
   Depois dessa parte A de 'coda', sempre acabaremos 'caindo na levada', e o dono da música puxa a próxima.
@@ -75,16 +67,36 @@ description: "Combinações finais"
   
   Durante as levadas, descansem, tomem um gole, mas vamos tentar deixar pelo menos um ou dois instrumentos harmonizando.
   
+#### Exceções
+
+   1) **Alalaô**, **Cachaça** e **Jardineira** já tem as entradas da parte B muito conhecidas, então precisam ser feitas sem repetir a parte A:
+  
+    tocamos AB AB
+    cantamos AB
+    tocamos AB - A
+    
+  Mas ainda assim, perceba que o padrão '2 - 1 - 1 - coda' é o mesmo!
+  
+  2) O **Circo**, nós não cantamos. Essa vamos fazer apenas 
+    
+    pópópópó 4x
+    the saints go marchin in 2x
+    pópópópó 2x
+  
+  3) O final da **Turma do Funil** é com a repetição da última frase 3 vezes - "nós é que bebemos e eles que ficam tontos".
+  
   
 ### Troca de uma música pra outra
   
   **Esqueçam por completo aquilo tudo que eu escrevi** sobre nos entreolharmos e coisa e tal. Eu vou dar o sinal para chamar a atenção de todos quando estivermos mudando de uma parte tocada para uma cantada e quando estivermos tocando aquela última parte A de 'coda', logo antes de terminar a música e cair na levada, ou logo antes de finalizar um bloco. 
   
+  A única música que tem um final combinado é o Abre Alas, que tem introdução. (Aliás, lembrem-se: a introdução é tocada 2x e ao final nós sempre faremos aquela viradinha e breque. Algumas pessoas nos ensaios começaram direto, no próximo compasso, sem a viradinha...)
+  
   Vou arrumar um apito e tentarei ser o mais explícito possível com os sinais.. Quando virem meu sinal, toquem a parte em que estivermos até o fim antes de tomar a ação sinalizada.
   
   De qualquer modo, vou seguir a regra "se alguém vacilar e entrar em outra parte A (ou na B), todo mundo acompanha". Então se for a hora de parar, mas eu não parar, vem comigo que deve ser porque alguém não parou. Aí eu dou o sinal de novo assim que puder e a gente tenta parar de novo.
   
-  Ah, sim: A bateria só para nos finais dos blocos, quando eu puxar aquela escalinha terminando. Vou dar um sinal explícito de 'terminar' nessas horas.
+  A bateria só para nos finais dos blocos, quando eu puxar aquela escalinha terminando. Vou dar um sinal explícito de 'terminar' nessas horas.
   
   
 ### Andamentos
