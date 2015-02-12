@@ -84,7 +84,7 @@ Foi como eu me senti quando não consegui fazer meus amigos chegarem na hora cer
 
 ### enfim...
 
-<img src='../../../img/b.jpg' class='img_r' style='width:35%; margin-top:0'>
+<img src='../../../img/b.JPG' class='img_r' style='width:35%; margin-top:0'>
 
 Tudo isso pra dizer que você pode chegar ao bloco **no horário que quiser.**
 
