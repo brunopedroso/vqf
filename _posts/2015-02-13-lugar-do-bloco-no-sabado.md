@@ -15,6 +15,33 @@ description: "Lugar do bloco no sábado"
 
 ### É chegada a hora.
 
+Amanhã,
+
+A tristeza vai transformar-se em alegria,
+
+E o sol vai brilhar no céu de um novo dia,
+
+Vamos sair pelas ruas, pelas ruas da cidade,
+
+Peito aberto,
+
+Cara ao sol da felicidade.
+
+
+E no canto de amor assim,
+
+Sempre vão surgir em mim, novas fantasias,
+
+Sinto vibrando no ar,
+
+E sei que não é vã, a cor da esperança,
+
+A esperança do amanhã.
+
+(Cartola)
+
+### onde?
+
 O bloco vai se concentrar, 
 
 no **sábado dia 14/fev/2015**, 
