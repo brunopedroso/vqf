@@ -21,7 +21,7 @@ vamos nos concentrar a partir das **9:00**
 
 na entrada da **315 norte** (residencial).
 
-Tem uma sobra linda lá!
+Tem uma sombra linda lá!
 
 Aproveitamos para dar nosso apoio ao movimento dos moradores que estão tentando evitar a construção de um posto de gasolina lá.
 
