@@ -17,7 +17,7 @@ description: "Lugar do bloco na segunda"
 
 Amanhã, **segunda feira dia 16/fev/2015** 
 
-vamos nos concentrar a partir das **9:30** 
+vamos nos concentrar a partir das **9:00** 
 
 na entrada da **315 norte** (residencial).
 
