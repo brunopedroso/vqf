@@ -205,7 +205,7 @@ title: Brasília e o carnaval mais bonito do mundo
 
    O bloco sai é no sábado <br/>
    Segunda, tem repeteco <br/>
-   Sempre às nove da manhã <br/>
+   Sempre às nove da matina <br/>
    Armamos nosso boteco <br/>
 
  </div>
