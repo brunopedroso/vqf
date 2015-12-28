@@ -91,15 +91,15 @@ title: Brasília e o carnaval mais bonito do mundo
 <script type="text/javascript" charset="utf-8">
   
   window.imagens = [
-    'img/fotos_2015/foto1.jpg',
-    'img/fotos_2015/foto2.jpg',
-    'img/fotos_2015/foto3.jpg',
-    'img/fotos_2015/foto4.jpg',
-    'img/fotos_2015/foto5.jpg',
-    'img/fotos_2015/foto6.jpg',
-    'img/fotos_2015/foto7.jpg',
-    'img/fotos_2015/foto8.jpg',
-    'img/fotos_2015/foto9.jpg',
+    './img/fotos_2015/foto1.jpg',
+    './img/fotos_2015/foto2.jpg',
+    './img/fotos_2015/foto3.jpg',
+    './img/fotos_2015/foto4.jpg',
+    './img/fotos_2015/foto5.jpg',
+    './img/fotos_2015/foto6.jpg',
+    './img/fotos_2015/foto7.jpg',
+    './img/fotos_2015/foto8.jpg',
+    './img/fotos_2015/foto9.jpg',
   ];
   
   
