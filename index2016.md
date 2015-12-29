@@ -38,10 +38,17 @@ title: Brasília e o carnaval mais bonito do mundo
   .fundo {
     /* setado pelo JS: background-image: url(/img/fotos_2015/10397981_971882149502797_169845247255961071_n.jpg); */
     background: url(images/bg.jpg) no-repeat center center fixed; 
+
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    
+    background-attachment: scroll;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
 
     position: fixed;
     top:0;
@@ -57,6 +64,7 @@ title: Brasília e o carnaval mais bonito do mundo
     
     display:table;
     width:100%;
+    height: 100vh;
   }
   
   
@@ -123,13 +131,19 @@ title: Brasília e o carnaval mais bonito do mundo
     
     $('#fundo').css({height: $(window).height()});
     
-    usaImagem(0);
+    window.index = 0;
+    usaImagem(window.index);
     
     $(window).scroll(function(e) {
         var index = Math.floor(document.body.scrollTop / 280);
-        if(index > 8)
-          index = 8;
-        usaImagem(index);
+        if(index > 8) index = 8;
+        
+        // não volta as imagens
+        if(index > window.index) {
+          window.index = index;
+        }
+        
+        usaImagem(window.index);
     });
     
   })
