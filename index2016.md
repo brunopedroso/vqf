@@ -1,7 +1,7 @@
 ---
 layout: branco
 title: Brasília e o carnaval mais bonito do mundo
-img_capa: ./img/fotos_2015/foto1.jpg
+img_capa: http://brunopedroso.github.io/vqf/img/fotos_2015/foto2.jpg
 ---
 
 <style type="text/css" media="screen">
