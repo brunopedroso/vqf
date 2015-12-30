@@ -1,6 +1,7 @@
 ---
 layout: branco
 title: Brasília e o carnaval mais bonito do mundo
+img_capa: ./img/fotos_2015/foto1.jpg
 ---
 
 <style type="text/css" media="screen">
