@@ -75,7 +75,7 @@ img_capa: http://brunopedroso.github.io/vqf/img/fotos_2015/foto1.jpg
   }
     
   .coluna {
-    background-color:rgba(1,1,1,0.5);
+    background-color:rgba(1,1,1,0.6);
     padding: 0 50px;
     position: absolute;
   }
