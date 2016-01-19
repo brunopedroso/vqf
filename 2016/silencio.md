@@ -1,7 +1,7 @@
 ---
 layout: branco
 title: Ocupando os espaços e os corações
-img_capa: http://brunopedroso.github.io/vqf/img/fotos_2015/foto1.jpg
+img_capa: http://brunopedroso.github.io/vqf/img/fotos_2015/foto15.jpg
 imgs:
   - '../img/fotos_2015/foto10.jpg'
   - '../img/fotos_2015/foto11.jpg'
