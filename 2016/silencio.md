@@ -21,9 +21,9 @@ imgs:
 
 <div class="caixa">
 
-  Brasília, nos últimos anos, vem encontrando sua identidade carnavalesca. <br/><br/>
+  Brasília está encontrando sua identidade carnavalesca. <br/><br/>
   
-  O carnaval de rua toma forma e desconstrói a velha lógica elitista dos bailes, trancados em clubes.<br/><br/>
+  O carnaval de rua toma forma e nos traz de volta o orgulho.<br/><br/>
   
   Para quem nasceu aqui, e ama o carnaval, é um grande sonho que se realiza.<br/>
   Especialmente agora que nossa primeira geração de candangos estamos todos com filhos pequenos. <br/><br/>
@@ -39,7 +39,7 @@ imgs:
   Querem acabar com a praça Onze. <br/><br/>
   Não vamos deixar.<br/><br/>
   
-  Ocuparemos nosso espaço, que é direito. <br/><br/>
+  Ocuparemos nosso espaço, que é de direito. <br/><br/>
   
   E o faremos, de novo, com muita elegância! <br/><br/>
 
