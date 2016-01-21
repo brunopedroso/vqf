@@ -151,9 +151,9 @@ blocos:
 
 ## Repertório
 
-  <a href='partituras/repertorio_script.pdf' target='_blank'>Aqui está nosso repertório em versão para imprimir.</a>
+  <a href='partituras/repertorio_script.pdf' target='_blank'>Versão impressa GRANDE.</a>
   
-  <a href='partituras/repertorio_pequeno.pdf' target='_blank'>Aqui está nosso repertório pequenininho para imprimir.</a>
+  <a href='partituras/repertorio_pequeno.pdf' target='_blank'>Versão impressa PEQUENA (pra colar nos instrumentos no dia).</a>
   
   <table>
 
