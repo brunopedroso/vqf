@@ -153,6 +153,8 @@ blocos:
 
   <a href='partituras/repertorio_script.pdf' target='_blank'>Aqui está nosso repertório em versão para imprimir.</a>
   
+  <a href='partituras/repertorio_pequeno.pdf' target='_blank'>Aqui está nosso repertório pequenininho para imprimir.</a>
+  
   <table>
 
     {% for bloco in page.blocos  %}
