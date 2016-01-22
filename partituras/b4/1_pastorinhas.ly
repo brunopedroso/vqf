@@ -23,7 +23,7 @@ parteum = \relative c' {
 	
 	\mark "primeira"	
 
-  	r4 d' bes' cis,    a'2. g4~   g1    r4 d g d    f2. ees4~  ees1
+  	r4 d' bes' fis    a2. g4~   g1    r4 d g d    f2. ees4~  ees1
     r2 c4 d    ees2 g4 fis    a2 a2   r2 fis4 g   a2 d4 a   d1
 
 	r4 d4 c bes   bes2. ees,4~   ees1  r2 a4 c   bes2 a4 fis   a2. g4~   g1
