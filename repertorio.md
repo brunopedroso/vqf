@@ -101,9 +101,9 @@ blocos:
     musicas:
       - nome: 'Pastorinhas (Gm)'
         link_gravacao: ''
-        link_c:  ''
-        link_bb: ''
-        link_eb: ''
+        link_c:  'partituras/b4/1_pastorinhas_C.pdf'
+        link_bb: 'partituras/b4/1_pastorinhas_Bb.pdf'
+        link_eb: 'partituras/b4/1_pastorinhas_Eb.pdf'
       - nome: 'Taí (Gm)'
         link_gravacao: 'https://s3.amazonaws.com/brunopedroso/vqf/b1/4_Tai.mp3'
         link_c:  'partituras/b4/2_tai_C_sem_ritmo.pdf'
