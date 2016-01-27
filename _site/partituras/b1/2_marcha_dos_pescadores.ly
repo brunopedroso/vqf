@@ -23,7 +23,7 @@ parteum = \relative c' {
 	
 	\mark "primeira"	
 
-  	r4 d f g a g f e d2 a' g1
+  	r4 d' f g a g f e d2 a' g1
 	r4 f a4. g8 f1
 	r4 e g4. f8 e1 
 
@@ -61,15 +61,15 @@ partedois = \relative c' {
 
 	\mark "segunda"
 
-	r2 a'2 c1~ c2 bes e,1~ e2 g4 a bes2 a c bes4 g a1~ a2 r2
+	r2 a''2 c1~ c2 bes e,1~ e2 g4 a bes2 a c bes4 g a1
 
 	\break
 
-	r2 f4 g a2. g4 bes2 a g g4 f e e e f g2 a f e d
+	r2 f4 g a2. g4 bes2 a g g4 f e e e f g2 a f e d1
 
 	\break
 
-	r2 f4 g a2. g4 bes2 a g g4 f e e e f g2 a f e d
+	r2 f4 g a2. g4 bes2 a g g4 f e e e f g2 a f e d1
 
 
 }

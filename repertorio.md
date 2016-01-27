@@ -72,9 +72,9 @@ blocos:
     musicas:
       - nome: 'Máscara Negra (Bb)'
         link_gravacao: ''
-        link_c:  ''
-        link_bb: ''
-        link_eb: ''
+        link_c:  'partituras/b3/1_mascara_negra_C.pdf'
+        link_bb: 'partituras/b3/1_mascara_negra_Bb.pdf'
+        link_eb: 'partituras/b3/1_mascara_negra_Eb.pdf'
       - nome: 'Cachaça (Bb)'
         link_gravacao: 'https://s3.amazonaws.com/brunopedroso/vqf/b3/3_Cachaca.mp3'
         link_c:  'partituras/b3/2_cachaca_C.pdf'
