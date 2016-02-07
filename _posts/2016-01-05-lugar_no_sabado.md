@@ -44,9 +44,9 @@ Lembre-se de vir com muito axé, fantasias, crianças e velhos!
 
 Nossa concentração será ao lado da Panificadora 108 norte (na frente do Beirute norte, do outro lado da rua).
 
-<img src='../../../img/2016/fotolugar1.png' >
-<img src='../../../img/2016/fotolugar2.png' >
-<img style='width:100%' src='../../../img/2016/fotolugar3.png' >
+<img src='../../../img/2016/fotolugar1_1.png' >
+<img src='../../../img/2016/fotolugar1_2.png' >
+<img src='../../../img/2016/fotolugar1_3.png' style='width:100%' >
 
 
 
