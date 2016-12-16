@@ -133,7 +133,7 @@ letraTr = \lyricmode {
   
 
 \book {
-  \bookOutputSuffix "Sax Alto Eb"
+  \bookOutputSuffix "Eb"
   \header {
    title = "Que bonito é"
    composer = "Luis Bandeira"
@@ -158,8 +158,9 @@ letraTr = \lyricmode {
     >>
   }
 }
+
 \book {
-  \bookOutputSuffix "Metais em Bb"
+  \bookOutputSuffix "Bb"
   \header {
    title = "Que bonito é"
    composer = "Luis Bandeira"
@@ -183,6 +184,30 @@ letraTr = \lyricmode {
  }
 }
 
+\book {
+  \bookOutputSuffix "C"
+  \header {
+   title = "Que bonito é"
+   composer = "Luis Bandeira"
+   instrument = "Instrumentos em C"
+   arranger = "Bloco Vai Quem Fica"
+   copyright = "(ɔ)" 
+   tagline = "Criado com Software Livre - Lilypond"  % removida mensagem de lilypond 
+ }
+  \score {
+    <<
+  \new Voice = "metais" {
+    \time 2/4
+    \clef G
+    \transpose c ees, {\hide Stem \trompete}
+
+  }
+  \new Lyrics \lyricsto "metais" {
+    \letraTr
+      } >>
+%   \layout {}
+ }
+}
 
 % Seção para midi, com parte ainda por fazer de bateria
 % drh = \drummode { cymc4.^"crash" hhc16^"h.h." hh hhc8 hho hhc8 hh16 hh hhc4 r4 r2 }
