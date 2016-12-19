@@ -141,7 +141,7 @@ blocos:
         link_c:  'partituras/novas/que_bonito_eh-C.pdf'
         link_bb: 'partituras/novas/que_bonito_eh-Bb.pdf'
         link_eb: 'partituras/novas/que_bonito_eh-Eb.pdf'
-      - nome: 'Madeira que Cumpi não Rói'
+      - nome: 'Madeira que Cupim não Rói'
         link_gravacao: 'partituras/novas/madeira_que_cupim_nao_roi.pdf'
         link_c:  ''
         link_bb: ''
