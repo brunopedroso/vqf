@@ -34,7 +34,7 @@ blocos:
         link_c: 'http://rudemechanicalorchestra.org/music/african-marketplace'
         link_bb: 'http://rudemechanicalorchestra.org/music/african-marketplace'
         link_eb: 'http://rudemechanicalorchestra.org/music/african-marketplace'
-        
+
   - nome: "BLOCO 2"
     musicas:
       - nome: 'Pierrot Apaixonado (Bb)'
@@ -67,7 +67,7 @@ blocos:
         link_c:  ''
         link_bb: ''
         link_eb: ''
-          
+
   - nome: "BLOCO 3"
     musicas:
       - nome: 'Máscara Negra (Bb)'
@@ -124,8 +124,8 @@ blocos:
         link_c:  'partituras/b4/5_indio_quer_apito_C_sem_ritmo.pdf'
         link_bb: 'partituras/b4/5_indio_quer_apito_Bb_sem_ritmo.pdf'
         link_eb: 'partituras/b4/5_indio_quer_apito_Eb_sem_ritmo.pdf'
-        
-    
+
+
   - nome: "SAIDEIRA"
     musicas:
       - nome: 'Bandeira Branca (Dm)'
@@ -133,6 +133,19 @@ blocos:
         link_c:  'partituras/saideira/bandeira_branca_C.pdf'
         link_bb: 'partituras/saideira/bandeira_branca_Bb.pdf'
         link_eb: 'partituras/saideira/bandeira_branca_Eb.pdf'
+
+  - nome: "Novas"
+    musicas:
+      - nome: 'Que Bonito É'
+        link_gravacao: ''
+        link_c:  'partituras/novas/que_bonito_eh-C.pdf'
+        link_bb: 'partituras/novas/que_bonito_eh-Bb.pdf'
+        link_eb: 'partituras/novas/que_bonito_eh-Eb.pdf'
+      - nome: 'Madeira que Cumpi não Rói'
+        link_gravacao: 'partituras/novas/madeira_que_cupim_nao_roi.pdf'
+        link_c:  ''
+        link_bb: ''
+        link_eb: ''
 ---
 
 
@@ -141,7 +154,7 @@ blocos:
   td {
     padding: 5px 10px;
   }
-  
+
   h4 {
     font-size: 1.5em;
     font-weight: bold;
@@ -152,13 +165,13 @@ blocos:
 ## Repertório
 
   <a href='partituras/repertorio_script.pdf' target='_blank'>Versão impressa GRANDE.</a>
-  
+
   <a href='partituras/repertorio_pequeno.pdf' target='_blank'>Versão impressa PEQUENA (pra colar nos instrumentos no dia).</a>
-  
+
   <table>
 
     {% for bloco in page.blocos  %}
-    
+
       <tr>
         <td>
           <h4>{{bloco.nome}}</h4>
@@ -167,9 +180,9 @@ blocos:
           Partituras
         </td>
       </tr>
-      
+
       {% for musica in bloco.musicas  %}
-      
+
         <tr>
           <td>
             {% if musica.link_gravacao != '' %}
@@ -189,39 +202,38 @@ blocos:
             {% else %}
               -
             {% endif %}
-            
+
           </td><td>
             {% if musica.link_eb != '' %}
               <a href="{{musica.link_eb}}" target="_blank">Eb</a>
             {% else %}
               -
             {% endif %}
-            
+
           </td>
         </tr>
-      
+
       {% endfor  %}
-      
+
       <tr>
         <td>
           &nbsp;
         </td>
       </tr>
-      
+
     {% endfor  %}
-    
+
 
   </table>
-  
-  
-  
-  
 
-  
-  
-  
-  
-  
-  
-  
-  
+
+
+
+
+
+
+
+
+
+
+
