@@ -146,6 +146,18 @@ blocos:
         link_c:  ''
         link_bb: ''
         link_eb: ''
+      - nome: 'Praieira'
+        link_gravacao: 'partituras/novas/chico-science-praieira-Sopros_Juntos.midi'
+        link_c:  'chico-science-praieira-Trombone_em_C.pdf'
+        link_bb: 'chico-science-praieira-Trompete_em_Bb.pdf'
+	link_eb: 'chico-science-praieira-Sax_Alto_Eb.pdf'
+	link_bb2: 'chico-science-praieira-Final_do_Refrão_em_Bb.pdf'
+      - nome: 'Folia de Reis'
+        link_gravacao: 'partituras/novas/Folia de reis.midi'
+        link_c:  'Folia de reis-Trombone_em_C.pdf'
+        link_bb: 'Folia de reis-Trombone_em_C.pdf'
+	link_eb: 'Folia de reis-Sax_Alto_Eb.pdf'
+
 ---
 
 
