@@ -1,4 +1,4 @@
-﻿\version "2.18.2" 
+\version "2.18.2" 
 \markup { \vspace #2 }
 
 DCfine = {
@@ -124,7 +124,7 @@ baixoparteC = \relative c' {
 	  \time 4/4
 	  \clef G
 	  \key e \major
-	  \transpose g e {
+	  \transpose g d {
 	  \intromel
 	  \melparteA
 	  \melparteB
@@ -155,7 +155,7 @@ baixoparteC = \relative c' {
 	  \time 4/4
 	  \key g \major
 	  \clef G
-	  \transpose g g'{
+	  \transpose g f'{
 	  \introbaixo
 	  \baixoparteA
 	  \baixoparteB
@@ -185,6 +185,7 @@ baixoparteC = \relative c' {
 	  \time 4/4
 	  \clef G
 	  \key g \major
+	  \transpose g f {
 	  \intromel
 	  \melparteA
 	  \melparteB
@@ -192,6 +193,7 @@ baixoparteC = \relative c' {
 	  \melparteBac
 	  \melparteC
 	  \DCfine
+	  }
 	   
     }
   >>
@@ -215,7 +217,7 @@ baixoparteC = \relative c' {
 	  \time 4/4
 	  \clef G
 	  \key a \major
-	  \transpose g a {
+	  \transpose g g {
 	  \intromel
 	  \melparteA
 	  \melparteB
@@ -236,6 +238,7 @@ baixoparteC = \relative c' {
 	  \voiceOne
 	  \time 4/4
 	  \clef G
+	  \transpose g f {
 	  \intromel
 	  \unfoldRepeats
 	  \melparteA
@@ -247,6 +250,7 @@ baixoparteC = \relative c' {
 	  \melparteBac
 	  \unfoldRepeats
 	  \melparteC
+	  }
 	   
     }
  
@@ -255,7 +259,7 @@ baixoparteC = \relative c' {
 	  \voiceTwo
 	  \time 4/4
 	  \clef F
-	  \transpose c c,, {
+	  \transpose c bes,, {
 	    \introbaixo
 	    \unfoldRepeats  
 	    \baixoparteA
