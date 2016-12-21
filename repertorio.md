@@ -2,128 +2,231 @@
 layout: default
 title: Repertório
 blocos:
+
   - nome: "BLOCO 1"
     musicas:
-      - nome: 'O Abre Alas (Dm)'
-        link_gravacao: 'https://s3.amazonaws.com/brunopedroso/vqf/b1/1_AbreAlas.mp3'
-        link_c: 'partituras/b1/1_abre_alas_C.pdf'
-        link_bb: 'partituras/b1/1_abre_alas_Bb.pdf'
-        link_eb: 'partituras/b1/1_abre_alas_Eb.pdf'
       - nome: 'Marcha dos Pescadores (Dm)'
         link_gravacao: ''
         link_c: 'partituras/b1/2_marcha_dos_pescadores_C.pdf'
         link_bb: 'partituras/b1/2_marcha_dos_pescadores_Bb.pdf'
         link_eb: 'partituras/b1/2_marcha_dos_pescadores_Eb.pdf'
+      - nome: 'Eu Vi Mamãe Oxum na Cachoeira (Dm)'
+        link_gravacao: ''
+        link_c: ''
+        link_bb: ''
+        link_eb: ''
+      - nome: 'O Abre Alas (Dm)'
+        link_gravacao: 'https://s3.amazonaws.com/brunopedroso/vqf/b1/1_AbreAlas.mp3'
+        link_c: 'partituras/b1/1_abre_alas_C.pdf'
+        link_bb: 'partituras/b1/1_abre_alas_Bb.pdf'
+        link_eb: 'partituras/b1/1_abre_alas_Eb.pdf'
+
+  - nome: "Intervalo curto"
+
+  - nome: "BLOCO 2"
+    musicas:
       - nome: 'Turma do Funil (Dm)'
         link_gravacao: 'https://s3.amazonaws.com/brunopedroso/vqf/b2/4_Funil.mp3'
         link_c: 'partituras/b1/3_a_turma_do_funil_C_sem_ritmo.pdf'
         link_bb: 'partituras/b1/3_a_turma_do_funil_Bb_sem_ritmo.pdf'
         link_eb: 'partituras/b1/3_a_turma_do_funil_Eb_sem_ritmo.pdf'
-      - nome: 'Circo (F)'
-        link_gravacao: 'https://s3.amazonaws.com/brunopedroso/vqf/b1/3_Circo.mp3'
-        link_c: 'partituras/b1/4_circo_C_sem_ritmo.pdf'
-        link_bb: 'partituras/b1/4_circo_Bb_sem_ritmo.pdf'
-        link_eb: 'partituras/b1/4_circo_Eb_sem_ritmo.pdf'
-      - nome: 'Mulata bossa nova (F)'
-        link_gravacao: ''
-        link_c: 'partituras/b1/5_mulata_bossa_nova_C.pdf'
-        link_bb: 'partituras/b1/5_mulata_bossa_nova_Bb.pdf'
-        link_eb: 'partituras/b1/5_mulata_bossa_nova_Eb.pdf'
-      - nome: 'African Marketplace (F)'
-        link_gravacao: 'http://rudemechanicalorchestra.org/music/african-marketplace'
-        link_c: 'http://rudemechanicalorchestra.org/music/african-marketplace'
-        link_bb: 'http://rudemechanicalorchestra.org/music/african-marketplace'
-        link_eb: 'http://rudemechanicalorchestra.org/music/african-marketplace'
 
-  - nome: "BLOCO 2"
-    musicas:
-      - nome: 'Pierrot Apaixonado (Bb)'
-        link_gravacao: 'https://s3.amazonaws.com/brunopedroso/vqf/b3/2_Pierrot.mp3'
-        link_c:  'partituras/b2/1_pierrot_apaixonado_C.pdf'
-        link_bb: 'partituras/b2/1_pierrot_apaixonado_Bb.pdf'
-        link_eb: 'partituras/b2/1_pierrot_apaixonado_Eb.pdf'
-      - nome: 'Jardineira (Bb)'
-        link_gravacao: 'https://s3.amazonaws.com/brunopedroso/vqf/b3/4_jardineira.mp3'
-        link_c:  'partituras/b2/2_jardineira_C.pdf'
-        link_bb: 'partituras/b2/2_jardineira_Bb.pdf'
-        link_eb: 'partituras/b2/2_jardineira_Eb.pdf'
-      - nome: 'A taça do mundo (Bb)'
-        link_gravacao: 'https://s3.amazonaws.com/brunopedroso/vqf/b3/5_a_taca_do_mundo.mp3'
+      - nome: 'Touradas em Madri (Dm)'
+        link_gravacao: ''
         link_c:  ''
         link_bb: ''
         link_eb: ''
-      - nome: 'Aurora (Bb)'
-        link_gravacao: ''
-        link_c:  'partituras/b2/4_aurora_C.pdf'
-        link_bb: 'partituras/b2/4_aurora_Bb.pdf'
-        link_eb: 'partituras/b2/4_aurora_Eb.pdf'
+
       - nome: 'Alalaô (Bb)'
         link_gravacao: 'https://s3.amazonaws.com/brunopedroso/vqf/b2/2_Alalao.mp3'
         link_c:  'partituras/b2/5_alalao_C_sem_ritmo.pdf'
         link_bb: 'partituras/b2/5_alalao_Bb_sem_ritmo.pdf'
         link_eb: 'partituras/b2/5_alalao_Eb_sem_ritmo.pdf'
-      - nome: 'Vassourinhas (Bb)'
+
+      - nome: 'Índio quer apito (Gm)'
+        link_gravacao: 'https://s3.amazonaws.com/brunopedroso/vqf/b2/5_Indio.mp3'
+        link_c:  'partituras/b4/5_indio_quer_apito_C_sem_ritmo.pdf'
+        link_bb: 'partituras/b4/5_indio_quer_apito_Bb_sem_ritmo.pdf'
+        link_eb: 'partituras/b4/5_indio_quer_apito_Eb_sem_ritmo.pdf'
+
+      - nome: 'Aurora (Bb)'
+        link_gravacao: ''
+        link_c:  'partituras/b2/4_aurora_C.pdf'
+        link_bb: 'partituras/b2/4_aurora_Bb.pdf'
+        link_eb: 'partituras/b2/4_aurora_Eb.pdf'
+
+  - nome: "----- INTERVALO LONGO ---- "
+
+  - nome: "BLOCO 3"
+    musicas:
+
+      - nome: 'Pierrot Apaixonado (Bb)'
+        link_gravacao: 'https://s3.amazonaws.com/brunopedroso/vqf/b3/2_Pierrot.mp3'
+        link_c:  'partituras/b2/1_pierrot_apaixonado_C.pdf'
+        link_bb: 'partituras/b2/1_pierrot_apaixonado_Bb.pdf'
+        link_eb: 'partituras/b2/1_pierrot_apaixonado_Eb.pdf'
+
+      - nome: 'Circo (F)'
+        link_gravacao: 'https://s3.amazonaws.com/brunopedroso/vqf/b1/3_Circo.mp3'
+        link_c: 'partituras/b1/4_circo_C_sem_ritmo.pdf'
+        link_bb: 'partituras/b1/4_circo_Bb_sem_ritmo.pdf'
+        link_eb: 'partituras/b1/4_circo_Eb_sem_ritmo.pdf'
+      - nome: 'African Marketplace (F)'
+        link_gravacao: 'http://rudemechanicalorchestra.org/music/african-marketplace'
+        link_c: 'http://rudemechanicalorchestra.org/music/african-marketplace'
+        link_bb: 'http://rudemechanicalorchestra.org/music/african-marketplace'
+        link_eb: 'http://rudemechanicalorchestra.org/music/african-marketplace'
+      - nome: 'Caravan (Fm)'
         link_gravacao: ''
         link_c:  ''
         link_bb: ''
         link_eb: ''
 
-  - nome: "BLOCO 3"
+  - nome: "Intervalo curto"
+
+  - nome: "BLOCO 4"
     musicas:
-      - nome: 'Máscara Negra (Bb)'
+
+      - nome: 'Máscara Negra (F) <mudar tom das partituras!>'
         link_gravacao: ''
         link_c:  'partituras/b3/1_mascara_negra_C.pdf'
         link_bb: 'partituras/b3/1_mascara_negra_Bb.pdf'
         link_eb: 'partituras/b3/1_mascara_negra_Eb.pdf'
-      - nome: 'Cachaça (Bb)'
-        link_gravacao: 'https://s3.amazonaws.com/brunopedroso/vqf/b3/3_Cachaca.mp3'
-        link_c:  'partituras/b3/2_cachaca_C.pdf'
-        link_bb: 'partituras/b3/2_cachaca_Bb.pdf'
-        link_eb: 'partituras/b3/2_cachaca_Eb.pdf'
+
+      - nome: 'Jardineira (Bb)'
+        link_gravacao: 'https://s3.amazonaws.com/brunopedroso/vqf/b3/4_jardineira.mp3'
+        link_c:  'partituras/b2/2_jardineira_C.pdf'
+        link_bb: 'partituras/b2/2_jardineira_Bb.pdf'
+        link_eb: 'partituras/b2/2_jardineira_Eb.pdf'
+
       - nome: 'Mamãe eu quero (Bb)'
         link_gravacao: 'https://s3.amazonaws.com/brunopedroso/vqf/b2/1_Mamae.mp3'
         link_c:  'partituras/b3/3_mamae_C_sem_ritmo.pdf'
         link_bb: 'partituras/b3/3_mamae_Bb_sem_ritmo.pdf'
         link_eb: 'partituras/b3/3_mamae_Eb_sem_ritmo.pdf'
-      - nome: 'Cabeleira do Zezé (Bb)'
+
+      - nome: 'Cachaça (Bb)'
+        link_gravacao: 'https://s3.amazonaws.com/brunopedroso/vqf/b3/3_Cachaca.mp3'
+        link_c:  'partituras/b3/2_cachaca_C.pdf'
+        link_bb: 'partituras/b3/2_cachaca_Bb.pdf'
+        link_eb: 'partituras/b3/2_cachaca_Eb.pdf'
+
+  - nome: "Intervalo curto"
+
+  - nome: "BLOCO 5"
+    musicas:
+
+      - nome: 'Nanã (Dm)'
         link_gravacao: ''
-        link_c:  'partituras/b3/4_cabeleira_do_zeze_C.pdf'
-        link_bb: 'partituras/b3/4_cabeleira_do_zeze_Bb.pdf'
-        link_eb: 'partituras/b3/4_cabeleira_do_zeze_Eb.pdf'
+        link_c:  ''
+        link_bb: ''
+        link_eb: ''
+
+      - nome: 'Take 5 (Dm)'
+        link_gravacao: ''
+        link_c:  ''
+        link_bb: ''
+        link_eb: ''
+
+  - nome: "----- INTERVALO LONGO ---- "
+
+  - nome: "BLOCO 6"
+    musicas:
+
+      - nome: 'Mulata bossa nova (F)'
+        link_gravacao: ''
+        link_c: 'partituras/b1/5_mulata_bossa_nova_C.pdf'
+        link_bb: 'partituras/b1/5_mulata_bossa_nova_Bb.pdf'
+        link_eb: 'partituras/b1/5_mulata_bossa_nova_Eb.pdf'
+
       - nome: 'Me dá um dinheiro aí (Bb)'
         link_gravacao: ''
         link_c:  ''
         link_bb: ''
         link_eb: ''
 
+      - nome: 'Cabeleira do Zezé (Bb)'
+        link_gravacao: ''
+        link_c:  'partituras/b3/4_cabeleira_do_zeze_C.pdf'
+        link_bb: 'partituras/b3/4_cabeleira_do_zeze_Bb.pdf'
+        link_eb: 'partituras/b3/4_cabeleira_do_zeze_Eb.pdf'
 
-  - nome: "BLOCO 4"
+      - nome: 'Vassourinhas (Bb)'
+        link_gravacao: ''
+        link_c:  ''
+        link_bb: ''
+        link_eb: ''
+
+  - nome: "Intervalo curto"
+
+  - nome: "BLOCO 7"
     musicas:
       - nome: 'Pastorinhas (Gm)'
         link_gravacao: ''
         link_c:  'partituras/b4/1_pastorinhas_C.pdf'
         link_bb: 'partituras/b4/1_pastorinhas_Bb.pdf'
         link_eb: 'partituras/b4/1_pastorinhas_Eb.pdf'
+
+      - nome: 'Madeira que Cupim não Rói (Em)'
+        link_gravacao: 'partituras/novas/madeira_que_cupim_nao_roi.pdf'
+        link_c:  ''
+        link_bb: ''
+        link_eb: ''
+
+      - nome: 'Praieira (Cm)'
+        link_gravacao: 'partituras/novas/chico-science-praieira-Sopros_Juntos.midi'
+        link_c: 'partituras/novas/chico-science-praieira-Trombone_em_C.pdf'
+        link_bb: 'partituras/novas/chico-science-praieira-Trompete_em_Bb.pdf'
+        link_eb: 'partituras/novas/chico-science-praieira-Sax_Alto_Eb.pdf'
+        link_bb2: 'partituras/novas/chico-science-praieira-Final_do_Refrão_em_Bb.pdf'
+
+  - nome: "----- INTERVALO LONGO ---- "
+
+  - nome: "BLOCO 8"
+    musicas:
+
+      - nome: 'Folia de Reis (F)'
+        link_gravacao: 'partituras/novas/Folia de reis.midi'
+        link_c:  'partituras/novas/Folia de reis-Trombone_em_C.pdf'
+        link_bb: 'partituras/novas/Folia de reis-Trompete_em_Bb.pdf'
+        link_eb: 'partituras/novas/Folia de reis-Sax_Alto_Eb.pdf'
+
+      - nome: 'Benguelê (F)'
+        link_gravacao: ''
+        link_c:  ''
+        link_bb: ''
+        link_eb: ''
+
+      - nome: 'Corta Jaca (Dm)'
+        link_gravacao: ''
+        link_c:  ''
+        link_bb: ''
+        link_eb: ''
+
+  - nome: "Intervalo curto"
+
+  - nome: "BLOCO 9"
+    musicas:
       - nome: 'Taí (Gm)'
         link_gravacao: 'https://s3.amazonaws.com/brunopedroso/vqf/b1/4_Tai.mp3'
         link_c:  'partituras/b4/2_tai_C_sem_ritmo.pdf'
         link_bb: 'partituras/b4/2_tai_Bb_sem_ritmo.pdf'
         link_eb: 'partituras/b4/2_tai_Eb_sem_ritmo.pdf'
-      - nome: 'Saca-rolhas (Gm)'
-        link_gravacao: 'https://s3.amazonaws.com/brunopedroso/vqf/b2/3_Sacarolhas.mp3'
-        link_c:  'partituras/b4/3_saca_rolhas_C_sem_ritmo.pdf'
-        link_bb: 'partituras/b4/3_saca_rolhas_Bb_sem_ritmo.pdf'
-        link_eb: 'partituras/b4/3_saca_rolhas_Eb_sem_ritmo.pdf'
+
       - nome: 'Quem sabe sabe (Gm)'
         link_gravacao: 'https://s3.amazonaws.com/brunopedroso/vqf/b3/1_quem_sabe_sabe.mp3'
         link_c:  'partituras/b4/4_quem_sabe_sabe_C.pdf'
         link_bb: 'partituras/b4/4_quem_sabe_sabe_Bb.pdf'
         link_eb: 'partituras/b4/4_quem_sabe_sabe_Eb.pdf'
-      - nome: 'Índio quer apito (Gm)'
-        link_gravacao: 'https://s3.amazonaws.com/brunopedroso/vqf/b2/5_Indio.mp3'
-        link_c:  'partituras/b4/5_indio_quer_apito_C_sem_ritmo.pdf'
-        link_bb: 'partituras/b4/5_indio_quer_apito_Bb_sem_ritmo.pdf'
-        link_eb: 'partituras/b4/5_indio_quer_apito_Eb_sem_ritmo.pdf'
+
+      - nome: 'Saca-rolhas (Gm)'
+        link_gravacao: 'https://s3.amazonaws.com/brunopedroso/vqf/b2/3_Sacarolhas.mp3'
+        link_c:  'partituras/b4/3_saca_rolhas_C_sem_ritmo.pdf'
+        link_bb: 'partituras/b4/3_saca_rolhas_Bb_sem_ritmo.pdf'
+        link_eb: 'partituras/b4/3_saca_rolhas_Eb_sem_ritmo.pdf'
+
+
+
 
 
   - nome: "SAIDEIRA"
@@ -134,29 +237,7 @@ blocos:
         link_bb: 'partituras/saideira/bandeira_branca_Bb.pdf'
         link_eb: 'partituras/saideira/bandeira_branca_Eb.pdf'
 
-  - nome: "Novas"
-    musicas:
-      - nome: 'Que Bonito É'
-        link_gravacao: ''
-        link_c:  'partituras/novas/que_bonito_eh-C.pdf'
-        link_bb: 'partituras/novas/que_bonito_eh-Bb.pdf'
-        link_eb: 'partituras/novas/que_bonito_eh-Eb.pdf'
-      - nome: 'Madeira que Cupim não Rói'
-        link_gravacao: 'partituras/novas/madeira_que_cupim_nao_roi.pdf'
-        link_c:  ''
-        link_bb: ''
-        link_eb: ''
-      - nome: 'Praieira'
-        link_gravacao: 'partituras/novas/chico-science-praieira-Sopros_Juntos.midi'
-        link_c: 'partituras/novas/chico-science-praieira-Trombone_em_C.pdf'
-        link_bb: 'partituras/novas/chico-science-praieira-Trompete_em_Bb.pdf'
-        link_eb: 'partituras/novas/chico-science-praieira-Sax_Alto_Eb.pdf'
-        link_bb2: 'partituras/novas/chico-science-praieira-Final_do_Refrão_em_Bb.pdf'
-      - nome: 'Folia de Reis'
-        link_gravacao: 'partituras/novas/Folia de reis.midi'
-        link_c:  'partituras/novas/Folia de reis-Trombone_em_C.pdf'
-        link_bb: 'partituras/novas/Folia de reis-Trompete_em_Bb.pdf'
-        link_eb: 'partituras/novas/Folia de reis-Sax_Alto_Eb.pdf'
+
 ---
 
 
@@ -174,10 +255,6 @@ blocos:
 </style>
 
 ## Repertório
-
-  <a href='partituras/repertorio_script.pdf' target='_blank'>Versão impressa GRANDE.</a>
-
-  <a href='partituras/repertorio_pequeno.pdf' target='_blank'>Versão impressa PEQUENA (pra colar nos instrumentos no dia).</a>
 
   <table>
 
