@@ -123,7 +123,7 @@ baixoparteC = \relative c' {
 	  \voiceOne
 	  \time 4/4
 	  \clef G
-	  \key e \major
+	  \key d \major
 	  \transpose g d {
 	  \intromel
 	  \melparteA
@@ -153,7 +153,7 @@ baixoparteC = \relative c' {
 <<
 	\new Voice = "baixo" {
 	  \time 4/4
-	  \key g \major
+	  \key f \major
 	  \clef G
 	  \transpose g f'{
 	  \introbaixo
@@ -216,7 +216,7 @@ baixoparteC = \relative c' {
 	  \voiceOne
 	  \time 4/4
 	  \clef G
-	  \key a \major
+	  \key g \major
 	  \transpose g g {
 	  \intromel
 	  \melparteA
