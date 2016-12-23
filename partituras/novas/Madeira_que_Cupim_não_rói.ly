@@ -55,7 +55,7 @@ flauta = \relative c'' {
     \marcaA
     \transpose e g {
       \relative g' {r8 gis (cis dis | e4 gis8 ais8~) | ais8_[ fisis (dis d!] | cis2) |
-    bis8. dis16 gis g! fis8~ |fis2 | r8 e->~ e16_[ dis (e fis] | gis_[ a gis8)] r4 |
+    bis8. dis16 gis g! fis8~ |fis2 | r8 e->~ e16_[ dis (e fis] | gis_[ a gis8)] r4 | r2 |
     r2 | r8 dis ais'( gis | ais gis dis b) | cis2~ | cis2 |
     r8 fis->~ fis16_[ e dis cis] | bis_[ dis gis8] r4
     \marcaB
@@ -85,7 +85,7 @@ clarinete = \relative c'' {
     \marcaA
     \transpose e g {
       \relative g'' {r8 gis (cis dis | e4 gis8 ais8~) | ais8_[ fisis (dis d!] | cis2) |
-    bis8. dis16 gis g! fis8~ |fis2 | r8 e->~ e16_[ dis (e fis] | gis_[ a gis8)] r4 |
+    bis8. dis16 gis g! fis8~ |fis2 | r8 e->~ e16_[ dis (e fis] | gis_[ a gis8)] r4 | r2 |
     r2 | r8 dis, ais'( gis | ais gis dis b) | dis2~ | dis2 |
     r8 fis->~ fis16_[ e dis cis] | bis_[ dis gis8] r4 
     \marcaB
@@ -113,7 +113,7 @@ saxaltoetrombone = \relative c'' {
     cis^[ r gis'] r |
     r2 \marcaA
     r8 gis, (cis dis | e4 gis8 ais8~) | ais8_[ fisis (dis d!] | cis2) |
-    bis8. dis16 gis g! fis8~ |fis2 | r8 e->~ e16_[ dis (e fis] | gis_[ a gis8)] r4 |
+    bis8. dis16 gis g! fis8~ |fis2 | r8 e->~ e16_[ dis (e fis] | gis_[ a gis8)] r4 | r2 |
     r2 | r2 | r2 | g!2~ | g!2 |
     r8 fis~ fis16_[ e dis cis] | bis_[ dis gis8] r4 
     \marcaB
@@ -141,7 +141,7 @@ trompete = \relative c' {
     \marcaA
     \transpose e g {
       \relative g' {r8 gis (cis dis | e4 gis,8 ais8~) | ais8_[ fisis (dis d!] | cis2) |
-    bis8. dis16 gis g! fis8~ |fis2 | r8 e->~ e16_[ dis (e fis] | gis_[ a gis8)] r4 |
+    bis8. dis16 gis g! fis8~ |fis2 | r8 e->~ e16_[ dis (e fis] | gis_[ a gis8)] r4 | r2 |
     r2 | r8 dis ais'( gis | ais gis dis b) | dis2~ | dis2 |
     r8 fis->~ fis16_[ e dis cis] | bis_[ dis gis8] r4 
     \marcaB
@@ -158,8 +158,61 @@ trompete = \relative c' {
     e,8 r   e4:32\ff\fermata \bar "|."
 }
 
+melodiaintro = \relative c'' {
+  \override Stem.direction = #DOWN
+   r2 | e'2\fermata~ |e8 r8 r4 | r8 b-> e-> d-> | \break
+      \Segno
+   c4->~ c16 b8 a16 | c b8 a16 g a b8~ | b_[ e-> b-> g->] | e'16_[ b8 g16] e8 fis8~ | fis_[ c'-> a-> fis->] | \break
+   c'16 a8 fis16 dis8 e~ | e8._[ fis16] g_[ a b8] | r8 b-> e-> d-> |c4->~ c16 b8 a16 | c b8 a16 g a b8~ | \break
+   b_[ e-> b-> g->] |  e'16_[ b8 g16] e8 fis8~ | fis4 r16 a8 b16 | c b8 a16 g8 fis | 
+    \Coda
+    e^[ r e'] r |  \break
+}
 
+melodiacanto = \relative c'' {
+    r4 b,8 b'~  
+    \marcaA
+    b g4 e8 | c4 b8 ais~ | ais2~ | ais8 cis fis e] | \break
+    dis2~ | dis16 b8 cis16 dis e8 fis16 | g2~ | g4 b,8 b'~ | b g4 e8 | \break
+    b4 cis8 d~ | d2~ | d8^[ fis a gis] |  g^[ fis e d] | cis4 g'8 fis~ | \break
+    fis2~ | fis4 b,8 b'~
+    \marcaB
+    b g4 e8 | c4 b8 ais~ |  \break
+    ais ais4.~ | ais8^[ cis fis e] | dis2~ | dis16 b8 cis16 dis e8 fis16 | gis2~ |  \break
+    gis2 | a8^[ a fis g] | a^[ gis a b] | a g4.~ | g8^[ b, e g] |  \break
+    b^[ b a g] | fis^[ e dis fis] | e b'4 b8 | a4 g8 c,~ | c a'4 g8 | \break
+    fis^[ e d c] | b4. b8 | e^[ fis g e] | fis4. b8 | fis^[ g a fis] | g b4 b8 | \break
+    a4 g8 c~ | c a4 g8 | fis^[ e d c] | b4. b8 | \break
+    b^[ e g b~] | b a4 b8 | c16 b8 a16 g8 fis | e4 r4 | r2 
+  
+    \DSCoda
+   r2\fermata \bar "|."
+}
 
+letra = \lyricmode {
+   _ _ _ _ _ _ _ _ _
+   _ _ _ _ _ _ _ _ 
+   _ _ _ _ _ _ _ _ 
+   _ _ _ _ _ _ _ _ 
+   _ _ _ _ _ _ _ _ 
+   _ _ _ _ _ _ _ _ 
+   _ _ _ _ _ _ _ _ 
+   _ _ _ _ _
+  Ma dei ra do Ro sa rinho
+  Vem a ci da-de su a fa ma mos trar
+  E traz com seu pes so al
+  Seu es tan dar te tão o ri gi nal
+  
+  Não vem pra fa zer ba ru lho
+  Vem só di zer, e com sa tis fa ção
+  Quei ram ou não quei ram os ju í zes
+  O nos so blo co é de fa to cam pe ão
+  
+  E se-a qui es ta mos, can tan do-es ta can ção
+  Vi e mos de fen der a nos sa tra di ção
+  E di zer bem al to que-a in jus ti ça dói
+  Nós so mos “Ma dei ra”, de lei que cu pim não rói
+}
 \book {
   \bookOutputSuffix "Sax Alto Eb"
   \header {
@@ -286,11 +339,60 @@ trompete = \relative c' {
  }
 }
 
+\book {
+  \bookOutputSuffix "Melodia em C"
+  \header {
+    title = "Madeira que Cupim não Rói"
+    composer = "Capiba"
+    instrument = "Melodia"
+    arranger = "Bloco Vai Quem Fica (transcrito arranjo de Duda)"
+    copyright = "(ɔ) - CC BY-SA 4.0" 
+    tagline = "Criado com Software Livre - Lilypond"  % removida mensagem de lilypond 
+  }
+  \score {
+     <<
+	\new Voice = "melodiap" {
+	  \oneVoice
+	  \time 2/4
+	  \clef G
+	  \key g \major
+	  \melodiaintro
+	  \melodiacanto
+    }
+    \addlyrics {
+      \letra
+    }
+  >>
+ }
+}
+
+\header {
+    title = "Madeira que Cupim não Rói"
+    composer = "Capiba"
+    instrument = "Todos juntos"
+    arranger = "Bloco Vai Quem Fica (transcrito arranjo de Duda)"
+    copyright = "(ɔ) - CC BY-SA 4.0" 
+    tagline = "Criado com Software Livre - Lilypond"  % removida mensagem de lilypond 
+}
 \score {
   <<
-	\new Voice = "sax" {
+       \new Voice = "flauta" {
 	  \set midiInstrument = #"flute"
 	  \voiceOne
+	  \time 2/4
+	  \clef G
+	    \flauta
+      }
+       \new Voice = "clarinete" {
+	  \set midiInstrument = #"clarinet"
+	  \voiceTwo
+	  \time 2/4
+	  \clef G
+	    \flauta
+      }
+      	\new Voice = "sax" {
+	  \set midiInstrument = #"flute"
+	  \voiceTwo
 	  \time 2/4
 	  \clef G
 	  \transpose e g {
@@ -298,39 +400,34 @@ trompete = \relative c' {
 	  }
 	   
     }
- 
-    \new Voice = "trombone" {
+         \new Voice = "trompete" {
+	  \set midiInstrument = #"trumpet"
+	  \voiceOne
+	  \time 2/4
+	  \clef G
+	    \trompete
+      }
+      \new Voice = "trombone" {
 	  \set midiInstrument = #"trombone"
-	  \voiceTwo
+	  \voiceOne
 	  \time 2/4
 	  \clef F
 	  \transpose e g,,, {
 	    \saxaltoetrombone
 	}
       }
-       \new Voice = "flauta" {
-	  \set midiInstrument = #"flute"
-	  \voiceThree
-	  \time 2/4
-	  \clef G
-	    \flauta
-      }
-       \new Voice = "clarinete" {
-	  \set midiInstrument = #"clarinet"
+       \new Voice = "melodia" {
+	  \set midiInstrument = #"choir aahs"
+	  \set midiMinimumVolume = #0.7
+	  \set midiMaximumVolume = #0.95
 	  \voiceFour
 	  \time 2/4
 	  \clef G
-	    \flauta
-      }
-         \new Voice = "trompete" {
-	  \set midiInstrument = #"trumpet"
-	  \voiceFour
-	  \time 2/4
-	  \clef G
-	    \trompete
-      }
+	    \melodiaintro
+	    \melodiacanto
+       }
     >>
-    \layout {}
+%    \layout {}
  \midi {
 	  \tempo 4 = 118
 	    \context {
