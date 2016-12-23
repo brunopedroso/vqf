@@ -120,7 +120,7 @@ baixoparteC = \relative c' {
   \score {
      <<
 	\new Voice = "sax" {
-	  \voiceOne
+	  \oneVoice
 	  \time 4/4
 	  \clef G
 	  \key d \major
@@ -181,7 +181,7 @@ baixoparteC = \relative c' {
   \score {
      <<
 	\new Voice = "flauta" {
-	  \voiceOne
+	  \oneVoice
 	  \time 4/4
 	  \clef G
 	  \key g \major
@@ -213,7 +213,7 @@ baixoparteC = \relative c' {
   \score {
      <<
 	\new Voice = "trompete" {
-	  \voiceOne
+	  \oneVoice
 	  \time 4/4
 	  \clef G
 	  \key g \major
