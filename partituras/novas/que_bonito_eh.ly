@@ -1,5 +1,4 @@
 \version "2.18.2"
-\markup { \vspace #2 }
 % Música em tom relativamente simples para Eb / Bb
 saxoAlto =   \relative c'' {
   \key d \major

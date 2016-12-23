@@ -1,5 +1,4 @@
 \version "2.18.2" 
-\markup { \vspace #2 }
 
 DCfine = {
   \once \override Score.RehearsalMark #'break-visibility = #'#(#t #t #f)

@@ -1,5 +1,4 @@
 \version "2.18.2"
-\markup { \vspace #2 }
 
 intrometais = \relative c' {
   \repeat volta 4 { a8. c16 r4 d8. e16 r4}
@@ -322,7 +321,6 @@ baixo = \drummode {
       \new DrumVoice { \stemDown \unfoldRepeats \baixo }
     >>
 	>>
- 	\layout {}
       	\midi {
 	  \tempo 4 = 103
 	    \context {

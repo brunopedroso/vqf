@@ -1,5 +1,5 @@
 \version "2.18.2" 
-\markup { \vspace #2 }
+
 Segno = {
   \mark \markup { \musicglyph #"scripts.segno" }
 }
@@ -230,6 +230,7 @@ letra = \lyricmode {
 	  \time 2/4
 	  \clef G
 	  \key e \major
+	  \markup { \vspace #2 }
 	  \saxaltoetrombone
 	   
     }
@@ -366,14 +367,6 @@ letra = \lyricmode {
  }
 }
 
-\header {
-    title = "Madeira que Cupim não Rói"
-    composer = "Capiba"
-    instrument = "Todos juntos"
-    arranger = "Bloco Vai Quem Fica (transcrito arranjo de Duda)"
-    copyright = "(ɔ) - CC BY-SA 4.0" 
-    tagline = "Criado com Software Livre - Lilypond"  % removida mensagem de lilypond 
-}
 \score {
   <<
        \new Voice = "flauta" {
