@@ -123,10 +123,10 @@ blocos:
         link_eb: ''
 
       - nome: 'Take 5 (Dm)'
-        link_gravacao: ''
-        link_c:  ''
-        link_bb: ''
-        link_eb: ''
+        link_gravacao: 'partituras/novas/take_five.midi'
+        link_c:  'partituras/novas/take_five-Instrumentos_em_C.pdf'
+        link_bb: 'partituras/novas/take_five-Instrumentos_em_Bb.pdf'
+        link_eb: 'partituras/novas/take_five-Sax_Alto_em_Eb.pdf'
 
   - nome: "----- INTERVALO LONGO ---- "
 
@@ -152,10 +152,10 @@ blocos:
         link_eb: 'partituras/b3/4_cabeleira_do_zeze_Eb.pdf'
 
       - nome: 'Vassourinhas (Bb)'
-        link_gravacao: ''
-        link_c:  ''
-        link_bb: ''
-        link_eb: ''
+        link_gravacao: 'partituras/novas/Vassourinhas.midi'
+        link_c:  'partituras/novas/Vassourinhas-Instrumentos_em_C.pdf'
+        link_bb: 'partituras/novas/Vassourinhas-Clarinete_e_Sax_tenor_em_Bb.pdf'
+        link_eb: 'partituras/novas/Vassourinhas-Sax_Alto_Eb.pdf'
 
   - nome: "Intervalo curto"
 
@@ -198,10 +198,10 @@ blocos:
         link_eb: ''
 
       - nome: 'Corta Jaca (Dm)'
-        link_gravacao: ''
-        link_c:  ''
-        link_bb: ''
-        link_eb: ''
+        link_gravacao: 'partituras/novas/Corta_Jaca.midi'
+        link_c:  'partituras/novas/Corta_Jaca.pdf'
+        link_bb: 'partituras/novas/Corta_Jaca-Clarinete_e_Sax_tenor_em_Bb.pdf'
+        link_eb: 'partituras/novas/Corta_Jaca-Sax_alto_em_Eb.pdf'
 
   - nome: "Intervalo curto"
 
