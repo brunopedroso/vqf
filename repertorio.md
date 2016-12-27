@@ -11,7 +11,7 @@ blocos:
         link_bb: 'partituras/b1/2_marcha_dos_pescadores_Bb.pdf'
         link_eb: 'partituras/b1/2_marcha_dos_pescadores_Eb.pdf'
       - nome: 'Eu Vi Mamãe Oxum na Cachoeira (Dm)'
-        link_gravacao: ''
+        link_gravacao: 'https://www.youtube.com/watch?v=ou5w5tm5FOY'
         link_c: ''
         link_bb: ''
         link_eb: ''
@@ -32,7 +32,7 @@ blocos:
         link_eb: 'partituras/b1/3_a_turma_do_funil_Eb_sem_ritmo.pdf'
 
       - nome: 'Touradas em Madri (Dm)'
-        link_gravacao: ''
+        link_gravacao: 'https://www.youtube.com/watch?v=PFE2UNSu5Hs'
         link_c:  ''
         link_bb: ''
         link_eb: ''
@@ -77,7 +77,7 @@ blocos:
         link_bb: 'http://rudemechanicalorchestra.org/music/african-marketplace'
         link_eb: 'http://rudemechanicalorchestra.org/music/african-marketplace'
       - nome: 'Caravan (Fm)'
-        link_gravacao: ''
+        link_gravacao: 'https://www.youtube.com/watch?v=r95flkZciJE'
         link_c:  ''
         link_bb: ''
         link_eb: ''
@@ -117,7 +117,7 @@ blocos:
     musicas:
 
       - nome: 'Nanã (Dm)'
-        link_gravacao: ''
+        link_gravacao: 'https://www.youtube.com/watch?v=w60jsjMfSS0'
         link_c:  ''
         link_bb: ''
         link_eb: ''
@@ -173,6 +173,12 @@ blocos:
         link_bb: 'partituras/novas/Madeira_que_Cupim_nao_roi-Trompete_em_Bb.pdf'
         link_eb: 'partituras/novas/Madeira_que_Cupim_nao_roi-Sax_Alto_Eb.pdf'
 
+      - nome: 'Frevo e Ciranda (Em)'
+        link_gravacao: 'https://www.youtube.com/watch?v=db-b7w5zZY4'
+        link_c:  ''
+        link_bb: ''
+        link_eb: ''
+
       - nome: 'Praieira (Cm)'
         link_gravacao: 'partituras/novas/chico-science-praieira-Sopros_Juntos.midi'
         link_c: 'partituras/novas/chico-science-praieira-Trombone_em_C.pdf'
@@ -192,7 +198,7 @@ blocos:
         link_eb: 'partituras/novas/Folia de reis-Sax_Alto_Eb.pdf'
 
       - nome: 'Benguelê (F)'
-        link_gravacao: ''
+        link_gravacao: 'https://www.youtube.com/watch?v=DMXSecu0yEY'
         link_c:  ''
         link_bb: ''
         link_eb: ''
