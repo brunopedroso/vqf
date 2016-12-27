@@ -1,5 +1,4 @@
-﻿\version "2.18.2" 
-\markup { \vspace #2 }
+\version "2.18.2" 
 
 DCfine = {
   \once \override Score.RehearsalMark #'break-visibility = #'#(#t #t #f)
@@ -120,11 +119,11 @@ baixoparteC = \relative c' {
   \score {
      <<
 	\new Voice = "sax" {
-	  \voiceOne
+	  \oneVoice
 	  \time 4/4
 	  \clef G
-	  \key e \major
-	  \transpose g e {
+	  \key d \major
+	  \transpose g d {
 	  \intromel
 	  \melparteA
 	  \melparteB
@@ -153,9 +152,9 @@ baixoparteC = \relative c' {
 <<
 	\new Voice = "baixo" {
 	  \time 4/4
-	  \key g \major
+	  \key f \major
 	  \clef G
-	  \transpose g g'{
+	  \transpose g f'{
 	  \introbaixo
 	  \baixoparteA
 	  \baixoparteB
@@ -181,10 +180,11 @@ baixoparteC = \relative c' {
   \score {
      <<
 	\new Voice = "flauta" {
-	  \voiceOne
+	  \oneVoice
 	  \time 4/4
 	  \clef G
 	  \key g \major
+	  \transpose g f {
 	  \intromel
 	  \melparteA
 	  \melparteB
@@ -192,6 +192,7 @@ baixoparteC = \relative c' {
 	  \melparteBac
 	  \melparteC
 	  \DCfine
+	  }
 	   
     }
   >>
@@ -211,11 +212,11 @@ baixoparteC = \relative c' {
   \score {
      <<
 	\new Voice = "trompete" {
-	  \voiceOne
+	  \oneVoice
 	  \time 4/4
 	  \clef G
-	  \key a \major
-	  \transpose g a {
+	  \key g \major
+	  \transpose g g {
 	  \intromel
 	  \melparteA
 	  \melparteB
@@ -236,6 +237,7 @@ baixoparteC = \relative c' {
 	  \voiceOne
 	  \time 4/4
 	  \clef G
+	  \transpose g f {
 	  \intromel
 	  \unfoldRepeats
 	  \melparteA
@@ -247,6 +249,7 @@ baixoparteC = \relative c' {
 	  \melparteBac
 	  \unfoldRepeats
 	  \melparteC
+	  }
 	   
     }
  
@@ -255,7 +258,7 @@ baixoparteC = \relative c' {
 	  \voiceTwo
 	  \time 4/4
 	  \clef F
-	  \transpose c c,, {
+	  \transpose c bes,, {
 	    \introbaixo
 	    \unfoldRepeats  
 	    \baixoparteA
