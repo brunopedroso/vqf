@@ -168,10 +168,10 @@ blocos:
         link_eb: 'partituras/b4/1_pastorinhas_Eb.pdf'
 
       - nome: 'Madeira que Cupim não Rói (Em)'
-        link_gravacao: 'partituras/novas/Madeira_que_Cupim_não_rói.midi'
-        link_c:  'partituras/novas/Madeira_que_Cupim_não_rói-Melodia_em_C.pdf'
-        link_bb: 'partituras/novas/Madeira_que_Cupim_não_rói-Trompete_em_Bb.pdf'
-        link_eb: 'partituras/novas/Madeira_que_Cupim_não_rói-Sax_Alto_Eb.pdf'
+        link_gravacao: 'partituras/novas/Madeira_que_Cupim_nao_roi.midi'
+        link_c:  'partituras/novas/Madeira_que_Cupim_nao_roi-Melodia_em_C.pdf'
+        link_bb: 'partituras/novas/Madeira_que_Cupim_nao_roi-Trompete_em_Bb.pdf'
+        link_eb: 'partituras/novas/Madeira_que_Cupim_nao_roi-Sax_Alto_Eb.pdf'
 
       - nome: 'Praieira (Cm)'
         link_gravacao: 'partituras/novas/chico-science-praieira-Sopros_Juntos.midi'
