@@ -1,4 +1,4 @@
-\version "2.18.2" 
+\version "2.18.2"
 
 Segno = {
   \mark \markup { \musicglyph #"scripts.segno" }
@@ -40,7 +40,7 @@ DSCoda = {
    \break
         \mark \markup {\musicglyph #"scripts.coda"}
 }
-  
+
 
 flauta = \relative c'' {
   \override Stem.direction = #DOWN
@@ -51,7 +51,7 @@ flauta = \relative c'' {
    b_[ e-> b-> g->] |  e'16_[ b8 g16] e8 fis8~ | fis4 r16 a8 b16 | c b8 a16 g8 fis |
     \Coda
     e^[ r e'] r |
-    r2 
+    r2
     \marcaA
     \transpose e g {
       \relative g' {r8 gis (cis dis | e4 gis8 ais8~) | ais8_[ fisis (dis d!] | cis2) |
@@ -65,7 +65,7 @@ flauta = \relative c'' {
     r2 | r2 | r2 | r2 | r8 cis,4 fis8 |
     b4 a | gis16_[ (a fis gis)] e8 r8 | r2 | r8 bis4.->~ | bis2\( | cis8\) r8 r4 |
     r2 | r8 cis4.\( | dis4\)~ dis8_[ cis16 (dis] | e_[ fis gis8)] r4 |
-    r2 | r8 bis4.->~ | bis2 | r4 cis8-> r8 | r8 gis-> cis-> b-> 
+    r2 | r8 bis4.->~ | bis2 | r4 cis8-> r8 | r8 gis-> cis-> b->
       }
     }
     \DSCoda
@@ -81,13 +81,13 @@ clarinete = \relative c'' {
    b_[ e-> b-> g->] |  e'16_[ b8 g16] e8 fis8~ | fis4 r16 a8 b16 | c b8 a16 g8 fis |
     \Coda
     e^[ r g'] r |
-    r2 
+    r2
     \marcaA
     \transpose e g {
       \relative g'' {r8 gis (cis dis | e4 gis8 ais8~) | ais8_[ fisis (dis d!] | cis2) |
     bis8. dis16 gis g! fis8~ |fis2 | r8 e->~ e16_[ dis (e fis] | gis_[ a gis8)] r4 | r2 |
     r2 | r8 dis, ais'( gis | ais gis dis b) | dis2~ | dis2 |
-    r8 fis->~ fis16_[ e dis cis] | bis_[ dis gis8] r4 
+    r8 fis->~ fis16_[ e dis cis] | bis_[ dis gis8] r4
     \marcaB
     r8 gis (cis dis | e4 gis8 ais8~) |
     ais_[ fisis (dis d!] | cis2) | bis8. dis16 gis_[ g! fis8~] | fis2 | r8 gis,4-> cis8->~ |
@@ -95,7 +95,7 @@ clarinete = \relative c'' {
     r2 | r2 | r2 | r2 | r8 cis,4 fis8 |
     b4 a | gis16_[ (a fis gis)] e8 r8 | r2 | r8 fis4.->~ | fis2\( | e8\) r8 r4 |
     r2 | r8 cis4.\( | dis4\)~ dis8_[ cis16 (dis] | e_[ fis gis8)] r4 |
-    r2 | r8 fis4.->~ | fis2 | r4 e'8-> r8 | r8 gis,-> cis-> b-> 
+    r2 | r8 fis4.->~ | fis2 | r4 e'8-> r8 | r8 gis,-> cis-> b->
       }
     }
     \DSCoda
@@ -115,7 +115,7 @@ saxaltoetrombone = \relative c'' {
     r8 gis, (cis dis | e4 gis8 ais8~) | ais8_[ fisis (dis d!] | cis2) |
     bis8. dis16 gis g! fis8~ |fis2 | r8 e->~ e16_[ dis (e fis] | gis_[ a gis8)] r4 | r2 |
     r2 | r2 | r2 | g!2~ | g!2 |
-    r8 fis~ fis16_[ e dis cis] | bis_[ dis gis8] r4 
+    r8 fis~ fis16_[ e dis cis] | bis_[ dis gis8] r4
     \marcaB
     r8 gis, (cis dis | e4 gis8 ais8~) |
     ais_[ fisis (dis d!] | cis2) | bis8. dis16 gis_[ g! fis8~] | fis2 | r8 gis,4-> cis8->~ |
@@ -123,7 +123,7 @@ saxaltoetrombone = \relative c'' {
     r2 | r2 | r2 | r2 | r8 cis,,4 fis8 |
     b4 a | gis16_[ (a fis gis)] e8 r8 | r2 | r8 dis'4.->~ | dis2\( | gis8\) r8 r4 |
     r2 | r8 cis,4.\( | dis4\)~ dis8_[ cis16 (dis] | e_[ fis gis8)] r4 |
-    r2 | r8 dis4.->~ | dis2 | r4 gis8-> r8 | r8 gis-> cis-> b-> 
+    r2 | r8 dis4.->~ | dis2 | r4 gis8-> r8 | r8 gis-> cis-> b->
     \DSCoda
     cis,8 r   gis'4\ff\fermata \bar "|."
 }
@@ -137,13 +137,13 @@ trompete = \relative c' {
    b_[ e-> b-> g->] |  e'16_[ b8 g16] e8 fis8~ | fis4 r16 a8 b16 | c b8 a16 g8 fis |
     \Coda
     e^[ r g'] r |
-    r2 
+    r2
     \marcaA
     \transpose e g {
       \relative g' {r8 gis (cis dis | e4 gis,8 ais8~) | ais8_[ fisis (dis d!] | cis2) |
     bis8. dis16 gis g! fis8~ |fis2 | r8 e->~ e16_[ dis (e fis] | gis_[ a gis8)] r4 | r2 |
     r2 | r8 dis ais'( gis | ais gis dis b) | dis2~ | dis2 |
-    r8 fis->~ fis16_[ e dis cis] | bis_[ dis gis8] r4 
+    r8 fis->~ fis16_[ e dis cis] | bis_[ dis gis8] r4
     \marcaB
     r8 gis (cis dis | e4 gis,8 ais8~) |
     ais_[ fisis (dis d!] | cis2) | bis8. dis16 gis_[ g! fis8~] | fis2 | r8 gis4-> cis8->~ |
@@ -151,7 +151,7 @@ trompete = \relative c' {
     r2 | r2 | r2 | r2 | r8 cis,4 fis8 |
     b4 a | gis16_[ (a fis gis)] e8 r8 | r2 | r8 fis4.->~ | fis2\( | e8\) r8 r4 |
     r2 | r8 cis4.\( | dis4\)~ dis8_[ cis16 (dis] | e_[ fis gis8)] r4 |
-    r2 | r8 fis4.->~ | fis2 | r4 e'8-> r8 | r8 gis,-> cis-> b-> 
+    r2 | r8 fis4.->~ | fis2 | r4 e'8-> r8 | r8 gis,-> cis-> b->
       }
     }
     \DSCoda
@@ -164,13 +164,13 @@ melodiaintro = \relative c'' {
       \Segno
    c4->~ c16 b8 a16 | c b8 a16 g a b8~ | b_[ e-> b-> g->] | e'16_[ b8 g16] e8 fis8~ | fis_[ c'-> a-> fis->] | \break
    c'16 a8 fis16 dis8 e~ | e8._[ fis16] g_[ a b8] | r8 b-> e-> d-> |c4->~ c16 b8 a16 | c b8 a16 g a b8~ | \break
-   b_[ e-> b-> g->] |  e'16_[ b8 g16] e8 fis8~ | fis4 r16 a8 b16 | c b8 a16 g8 fis | 
+   b_[ e-> b-> g->] |  e'16_[ b8 g16] e8 fis8~ | fis4 r16 a8 b16 | c b8 a16 g8 fis |
     \Coda
     e^[ r e'] r |  \break
 }
 
 melodiacanto = \relative c'' {
-    r4 b,8 b'~  
+    r4 b,8 b'~
     \marcaA
     b g4 e8 | c4 b8 ais~ | ais2~ | ais8 cis fis e] | \break
     dis2~ | dis16 b8 cis16 dis e8 fis16 | g2~ | g4 b,8 b'~ | b g4 e8 | \break
@@ -183,31 +183,31 @@ melodiacanto = \relative c'' {
     b^[ b a g] | fis^[ e dis fis] | e b'4 b8 | a4 g8 c,~ | c a'4 g8 | \break
     fis^[ e d c] | b4. b8 | e^[ fis g e] | fis4. b8 | fis^[ g a fis] | g b4 b8 | \break
     a4 g8 c~ | c a4 g8 | fis^[ e d c] | b4. b8 | \break
-    b^[ e g b~] | b a4 b8 | c16 b8 a16 g8 fis | e4 r4 | r2 
-  
+    b^[ e g b~] | b a4 b8 | c16 b8 a16 g8 fis | e4 r4 | r2
+
     \DSCoda
    r2\fermata \bar "|."
 }
 
 letra = \lyricmode {
    _ _ _ _ _ _ _ _ _
-   _ _ _ _ _ _ _ _ 
-   _ _ _ _ _ _ _ _ 
-   _ _ _ _ _ _ _ _ 
-   _ _ _ _ _ _ _ _ 
-   _ _ _ _ _ _ _ _ 
-   _ _ _ _ _ _ _ _ 
+   _ _ _ _ _ _ _ _
+   _ _ _ _ _ _ _ _
+   _ _ _ _ _ _ _ _
+   _ _ _ _ _ _ _ _
+   _ _ _ _ _ _ _ _
+   _ _ _ _ _ _ _ _
    _ _ _ _ _
   Ma dei ra do Ro sa rinho
   Vem a ci da-de su a fa ma mos trar
   E traz com seu pes so al
   Seu es tan dar te tão o ri gi nal
-  
+
   Não vem pra fa zer ba ru lho
   Vem só di zer, e com sa tis fa ção
   Quei ram ou não quei ram os ju í zes
   O nos so blo co é de fa to cam pe ão
-  
+
   E se-a qui es ta mos, can tan do-es ta can ção
   Vi e mos de fen der a nos sa tra di ção
   E di zer bem al to que-a in jus ti ça dói
@@ -220,8 +220,8 @@ letra = \lyricmode {
     composer = "Capiba"
     instrument = "Sax Alto em Eb"
     arranger = "Bloco Vai Quem Fica (transcrito arranjo de Duda)"
-    copyright = "(ɔ) - CC BY-SA 4.0" 
-    tagline = "Criado com Software Livre - Lilypond"  % removida mensagem de lilypond 
+    copyright = "(ɔ) - CC BY-SA 4.0"
+    tagline = "Criado com Software Livre - Lilypond"  % removida mensagem de lilypond
   }
   \score {
      <<
@@ -232,7 +232,7 @@ letra = \lyricmode {
 	  \key e \major
 	  \markup { \vspace #2 }
 	  \saxaltoetrombone
-	   
+
     }
   >>
    \layout {
@@ -251,8 +251,8 @@ letra = \lyricmode {
     composer = "Capiba"
     instrument = "Trombone em C"
     arranger = "Bloco Vai Quem Fica (transcrito arranjo de Duda)"
-    copyright = "(ɔ) - CC BY-SA 4.0" 
-    tagline = "Criado com Software Livre - Lilypond"  % removida mensagem de lilypond 
+    copyright = "(ɔ) - CC BY-SA 4.0"
+    tagline = "Criado com Software Livre - Lilypond"  % removida mensagem de lilypond
   }
 \score {
 <<
@@ -264,7 +264,7 @@ letra = \lyricmode {
 	  \transpose e g,,{
 	  \saxaltoetrombone
 	}
-	}   
+	}
 	>>
       }
  }
@@ -275,8 +275,8 @@ letra = \lyricmode {
     composer = "Capiba"
     instrument = "Flauta em C"
     arranger = "Bloco Vai Quem Fica (transcrito arranjo de Duda)"
-    copyright = "(ɔ) - CC BY-SA 4.0" 
-    tagline = "Criado com Software Livre - Lilypond"  % removida mensagem de lilypond 
+    copyright = "(ɔ) - CC BY-SA 4.0"
+    tagline = "Criado com Software Livre - Lilypond"  % removida mensagem de lilypond
   }
   \score {
      <<
@@ -285,7 +285,7 @@ letra = \lyricmode {
 	  \time 2/4
 	  \clef G
 	  \key g \major
-	  \flauta	   
+	  \flauta
     }
   >>
  }
@@ -297,8 +297,8 @@ letra = \lyricmode {
     composer = "Capiba"
     instrument = "Clarinete em Bb"
     arranger = "Bloco Vai Quem Fica (transcrito arranjo de Duda)"
-    copyright = "(ɔ) - CC BY-SA 4.0" 
-    tagline = "Criado com Software Livre - Lilypond"  % removida mensagem de lilypond 
+    copyright = "(ɔ) - CC BY-SA 4.0"
+    tagline = "Criado com Software Livre - Lilypond"  % removida mensagem de lilypond
   }
   \score {
      <<
@@ -308,7 +308,7 @@ letra = \lyricmode {
 	  \clef G
 	  \key a \major
 	  \transpose g a, {
-	    \clarinete	   
+	    \clarinete
 	  }
     }
   >>
@@ -322,8 +322,8 @@ letra = \lyricmode {
     composer = "Capiba"
     instrument = "Trompete em Bb"
     arranger = "Bloco Vai Quem Fica (transcrito arranjo de Duda)"
-    copyright = "(ɔ) - CC BY-SA 4.0" 
-    tagline = "Criado com Software Livre - Lilypond"  % removida mensagem de lilypond 
+    copyright = "(ɔ) - CC BY-SA 4.0"
+    tagline = "Criado com Software Livre - Lilypond"  % removida mensagem de lilypond
   }
   \score {
      <<
@@ -345,25 +345,54 @@ letra = \lyricmode {
   \header {
     title = "Madeira que Cupim não Rói"
     composer = "Capiba"
-    instrument = "Melodia"
+    instrument = "Melodia C"
     arranger = "Bloco Vai Quem Fica (transcrito arranjo de Duda)"
-    copyright = "(ɔ) - CC BY-SA 4.0" 
-    tagline = "Criado com Software Livre - Lilypond"  % removida mensagem de lilypond 
+    copyright = "(ɔ) - CC BY-SA 4.0"
+    tagline = "Criado com Software Livre - Lilypond"  % removida mensagem de lilypond
   }
   \score {
      <<
-	\new Voice = "melodiap" {
-	  \oneVoice
-	  \time 2/4
-	  \clef G
-	  \key g \major
-	  \melodiaintro
-	  \melodiacanto
+    \new Voice = "melodiap" {
+      \oneVoice
+      \time 2/4
+      \clef G
+      \key g \major
+      \melodiaintro
+      \melodiacanto
     }
     \addlyrics {
       \letra
     }
-  >>
+    >>
+ }
+}
+
+\book {
+  \bookOutputSuffix "Melodia em Bb"
+  \header {
+    title = "Madeira que Cupim não Rói"
+    composer = "Capiba"
+    instrument = "Melodia Bb"
+    arranger = "Bloco Vai Quem Fica (transcrito arranjo de Duda)"
+    copyright = "(ɔ) - CC BY-SA 4.0"
+    tagline = "Criado com Software Livre - Lilypond"  % removida mensagem de lilypond
+  }
+  \score {
+     <<
+  	\new Voice = "melodiap" {
+  	  \oneVoice
+  	  \time 2/4
+  	  \clef G
+      \transpose g a {
+    	  \key g \major
+  	    \melodiaintro
+  	  	\melodiacanto
+  	  }
+    }
+    \addlyrics {
+      \letra
+    }
+    >>
  }
 }
 
@@ -391,7 +420,7 @@ letra = \lyricmode {
 	  \transpose e g {
 	    \saxaltoetrombone
 	  }
-	   
+
     }
          \new Voice = "trompete" {
 	  \set midiInstrument = #"trumpet"
