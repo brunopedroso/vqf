@@ -307,8 +307,8 @@ blocos:
             {% endif %}
 
           </td><td>
-            {% if musica.link_midi != ''%}
-              <a href="{{musica.link_midi}}" target=_blank">arr. midi</a>
+            {% if musica.link_midi != '' %}
+              <a href="{{musica.link_midi}}" target="_blank">arr. midi</a>
             {% else %}
               -
             {% endif %}
