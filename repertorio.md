@@ -33,9 +33,10 @@ blocos:
 
       - nome: 'Touradas em Madri (Dm)'
         link_gravacao: 'https://www.youtube.com/watch?v=PFE2UNSu5Hs'
-        link_c:  'https://osborges.ddns.net:9093/nextcloud/index.php/apps/audioplayer/getpublicaudiostreamTouradas%20em%20Madrid.mp3?token=LnNB73czptpumJE'
-        link_bb: ''
-        link_eb: ''
+	link_gravacao: 'https://osborges.ddns.net:9093/nextcloud/index.php/apps/audioplayer/getpublicaudiostreamTouradas%20em%20Madrid.mp3?token=LnNB73czptpumJE'
+        link_c:  'novas/partituras/Touradas_em_Madrid-Trombone_em_C.pdf'
+        link_bb: 'novas/partituras/Touradas_em_Madrid-Trompetes_em_Bb.pdf'
+        link_eb: 'novas/partituras/Touradas_em_Madrid-Sax_Alto_Eb.pdf'
 
       - nome: 'Alalaô (Bb)'
         link_gravacao: 'https://s3.amazonaws.com/brunopedroso/vqf/b2/2_Alalao.mp3'
@@ -207,7 +208,7 @@ blocos:
         link_gravacao: 'partituras/novas/Corta_Jaca.midi'
         link_c:  'partituras/novas/Corta_Jaca.pdf'
         link_bb: 'partituras/novas/Corta_Jaca-Clarinete_e_Sax_Tenor_em_Bb.pdf'
-        link_eb: 'partituras/novas/Corta_Jaca-Sax_alto_em_Eb.pdf'
+        link_eb: 'partituras/novas/Corta_Jaca-Sax_Alto_em_Eb.pdf'
 
   - nome: "Intervalo curto"
 
