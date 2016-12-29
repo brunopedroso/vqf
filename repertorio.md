@@ -33,7 +33,7 @@ blocos:
 
       - nome: 'Touradas em Madri (Dm)'
         link_gravacao: 'https://www.youtube.com/watch?v=PFE2UNSu5Hs'
-        link_gravacao: 'https://osborges.ddns.net:9093/nextcloud/index.php/apps/audioplayer/getpublicaudiostreamTouradas%20em%20Madrid.mp3?token=LnNB73czptpumJE'
+        link_midi: 'https://osborges.ddns.net:9093/nextcloud/index.php/apps/audioplayer/getpublicaudiostreamTouradas%20em%20Madrid.mp3?token=LnNB73czptpumJE'
         link_c:  'novas/partituras/Touradas_em_Madrid-Trombone_em_C.pdf'
         link_bb: 'novas/partituras/Touradas_em_Madrid-Trompetes_em_Bb.pdf'
         link_eb: 'novas/partituras/Touradas_em_Madrid-Sax_Alto_Eb.pdf'
@@ -170,6 +170,7 @@ blocos:
 
       - nome: 'Madeira que Cupim não Rói (Em)'
         link_gravacao: 'partituras/novas/Madeira_que_Cupim_nao_roi.midi'
+        link_midi: 'https://osborges.ddns.net:9093/nextcloud/index.php/apps/audioplayer/getpublicaudiostreamMadeira+que+cupim+nao+roi-vqf.mp3'
         link_c:  'partituras/novas/Madeira_que_Cupim_nao_roi-Melodia_em_C.pdf'
         link_bb: 'partituras/novas/Madeira_que_Cupim_nao_roi-Trompete_em_Bb.pdf'
         link_eb: 'partituras/novas/Madeira_que_Cupim_nao_roi-Sax_Alto_Eb.pdf'
@@ -271,7 +272,7 @@ blocos:
         <td>
           <h4>{{bloco.nome}}</h4>
         </td>
-        <td colspan='3'>
+        <td colspan='4'>
           Partituras
         </td>
       </tr>
@@ -305,7 +306,12 @@ blocos:
               -
             {% endif %}
 
-          </td>
+          </td><td>
+            {% if musica.link_midi != ''%}
+              <a href="{{musica.link_midi}}" target=_blank">arr. midi</a>
+            {% else %}
+              -
+            {% endif %}
         </tr>
 
       {% endfor  %}
