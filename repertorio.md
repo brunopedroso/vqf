@@ -33,7 +33,7 @@ blocos:
 
       - nome: 'Touradas em Madri (Dm)'
         link_gravacao: 'https://www.youtube.com/watch?v=PFE2UNSu5Hs'
-        link_c:  'https://osborges.ddns.net:9093/nextcloud/index.php/s/LnNB73czptpumJE'
+        link_c:  'https://osborges.ddns.net:9093/nextcloud/index.php/apps/audioplayer/getpublicaudiostreamTouradas%20em%20Madrid.mp3?token=LnNB73czptpumJE'
         link_bb: ''
         link_eb: ''
 
