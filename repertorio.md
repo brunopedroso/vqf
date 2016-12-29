@@ -33,7 +33,7 @@ blocos:
 
       - nome: 'Touradas em Madri (Dm)'
         link_gravacao: 'https://www.youtube.com/watch?v=PFE2UNSu5Hs'
-	link_gravacao: 'https://osborges.ddns.net:9093/nextcloud/index.php/apps/audioplayer/getpublicaudiostreamTouradas%20em%20Madrid.mp3?token=LnNB73czptpumJE'
+        link_gravacao: 'https://osborges.ddns.net:9093/nextcloud/index.php/apps/audioplayer/getpublicaudiostreamTouradas%20em%20Madrid.mp3?token=LnNB73czptpumJE'
         link_c:  'novas/partituras/Touradas_em_Madrid-Trombone_em_C.pdf'
         link_bb: 'novas/partituras/Touradas_em_Madrid-Trompetes_em_Bb.pdf'
         link_eb: 'novas/partituras/Touradas_em_Madrid-Sax_Alto_Eb.pdf'
