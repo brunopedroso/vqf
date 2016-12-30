@@ -38,9 +38,9 @@ blocos:
       - nome: 'Touradas em Madri (Dm)'
         link_gravacao: 'https://www.youtube.com/watch?v=PFE2UNSu5Hs'
         link_midi: 'https://osborges.ddns.net:9093/nextcloud/index.php/apps/audioplayer/getpublicaudiostreamTouradas%20em%20Madrid.mp3?token=LnNB73czptpumJE'
-        link_c:  'novas/partituras/Touradas_em_Madrid-Trombone_em_C.pdf'
-        link_bb: 'novas/partituras/Touradas_em_Madrid-Trompetes_em_Bb.pdf'
-        link_eb: 'novas/partituras/Touradas_em_Madrid-Sax_Alto_Eb.pdf'
+        link_c:  'partituras/novas/Touradas_em_Madrid-Trombone_em_C.pdf'
+        link_bb: 'partituras/novas/Touradas_em_Madrid-Trompetes_em_Bb.pdf'
+        link_eb: 'partituras/novas/Touradas_em_Madrid-Sax_Alto_Eb.pdf'
 
       - nome: 'Alalaô (Bb)'
         link_gravacao: 'https://s3.amazonaws.com/brunopedroso/vqf/b2/2_Alalao.mp3'
@@ -337,13 +337,6 @@ blocos:
               -
             {% endif %}
 
-          </td><td>
-            {% if musica.link_midi != '' %}
-              <a href="{{musica.link_midi}}" target="_blank">midi</a>
-            {% else %}
-              -
-            {% endif %}
-            
           </td>
         </tr>
 
