@@ -1,29 +1,25 @@
 \header {
   title = "Marcha dos pescadores"
   composer =  "Dorival Caymmi"
-  arranger = "Bloco Vai Quem Fica"
-  copyright = "(ɔ) - CC BY-SA 4.0" 
-  tagline = "Criado com Software Livre - Lilypond"
 }
-%#(set-global-staff-size 26)
-\layout{
-	indent = 0
-	ragged-right = ##t
-	 \set Score.markFormatter = #format-mark-box-letters
+#(set-global-staff-size 18)
 
-    \context {
-      \Score
-      %\override BarLine #'transparent = ##t
-      \override SpacingSpanner.base-shortest-duration = #(ly:make-moment 1/64)
-    }
+\include "../formatoversos.ly"
+
+minhajangada = \relative c' {
+  d'8 f g | a g f e d4 a' | g2 \bar "" \break
 }
 
 parteum = \relative c' {
 	\key d \minor
-  	s2 r8 \mark \default d' f g | a g f e d4 a' | g2 \bar "" \break
+	\huge
+	
+  	\partial 2
+  	r8 \mark \default
+  	\minhajangada
   	r8 f a8. g16 | f2 r8 e g8. f16 | e2 \bar "" \break
-  	r8 d f g | a g f e d4 d' | c2 \bar "" \break
-  	r8 bes d8. c16 | bes2 r8 a c8. bes16 | a2 \bar "" \break
+  	r8 \minhajangada
+  	r8 bes'' d8. c16 | bes2 r8 a c8. bes16 | a2 \bar "" \break
   	r8 d, f g | a g f e d4 a' | g2 \bar "" \break
   	r8 f a g | f e g f e4 f | d2 r4 \bar "" \break
   	
@@ -48,15 +44,13 @@ letraum = \lyricmode {
 
 partedois = \relative c' {
 
-	\mark \default
-
-	a''| c2. bes4 | e,2. \bar "" \break
+	\mark \default 
+	a''| c2. bes4 | e,2 r4 \bar "" \break
 	g8 a | \tuplet 5/4 {bes4 a c bes g } | a2 r4 \bar "" \break
 	f8 g | a4 g bes a | g4 g8 f e[ e] \bar "" \break
 	e f | g4 a f e | d2 r4 \bar "" \break
 	f8 g | a4 g bes a | g4 g8 f e[ e] \bar "" \break
-	e f | g4 a f e |
-	d2\fermata r \bar "|."
+	e f | g4 a f e | d2\fermata r \bar "|."
 
 
 }
@@ -72,11 +66,6 @@ letradois = \lyricmode {
 	
 }
 
-melodiatoda = {
-  \parteum
-  \partedois
-}
-
 letratoda = \lyricmode {
         \letraum
         \letradois
@@ -89,17 +78,19 @@ letratoda = \lyricmode {
   }
   \score {
 	<<
-	\new Voice = "um" {
-	  \voiceOne
-	  \set midiInstrument = #"alto sax"
-		\transpose bes g {
+	  \new TimeSig	\compassoseparado
+	  \new Staff {
+	    \new Voice = "um" {
+	      \voiceOne
+	      \set midiInstrument = #"alto sax"
+	      \transpose bes g {
 			\parteum
+			\skip 256 \bar "" \break 
 			\partedois
 		}
-	}
-	\addlyrics {
-	  \letratoda
-	}
+	    }
+	    \addlyrics { \letratoda}
+	  }
 	>>
 	\layout {}
 	}
@@ -114,7 +105,9 @@ letratoda = \lyricmode {
     <<
       \new Voice = "trombone" {
         \oneVoice
-        \melodiatoda
+        \parteum
+        \skip 256 \bar "" \break 
+        \partedois
         \addlyrics {
           \letratoda
         }
@@ -130,14 +123,20 @@ letratoda = \lyricmode {
   }
   \score {
     <<
-      \new Voice = "trompete" {
+      \new Staff  \with { \remove "Time_signature_engraver" } {
+      \new Voice = "trompete" \with {
+         \remove "Forbid_line_break_engraver"
+      }{
         \oneVoice
         \transpose f g, {
-        \melodiatoda
+        \parteum
+        \skip 256 \bar "" \break 
+        \partedois
         }
         \addlyrics {
           \letratoda
         }
+      }
       }
     >>
   }
@@ -150,6 +149,7 @@ letratoda = \lyricmode {
       \new Voice = "melodia" {
         \oneVoice
         \parteum
+        \skip 256 \bar "" \break 
         \partedois
       }
     >>
