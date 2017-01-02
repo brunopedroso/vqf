@@ -37,8 +37,8 @@ Portanto, nosso calendário de ensaios está mais que fechado:
 O **REPERTORIO** já está quase fechado tb: [CLIQUE AQUI]({{base}}/repertorio.html).
 
 Essa será a sequência exata em que tocaremos as músicas. Então daqui pra frente vamos tentar sempre tocar o repertório de cabo a rabo nos ensaios.
-
-Tirem as músicas direitinho em casa, pra podermos nos focar no coletivo e nos detalhes no ensaio.
+apro
+Tirem as músicas direitinho em casa, pra podermos aproveitar os ensaios pra focar no coletivo e nos detalhes.
 
 Axé.
 
