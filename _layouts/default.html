@@ -6,33 +6,33 @@
 
     <title>{% if page.title %} {{ page.title }} - {% endif %} Vai Quem Fica</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    
+
     {% if page.title %}
     <meta property="og:title" content="{{ page.title }}">
     <meta name="title" content="{{ page.title }}" />
     {% endif %}
-    
+
     {% if page.description %}
     <meta property="og:description" content="{{ page.description }}">
     <meta name="description" content="{{ page.description }}" />
-    
+
     {% endif %}
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
 
     <style type="text/css" media="screen">
-    
+
       body {
         font-family: Georgia, "Times New Roman", Times, serif;
         color: #555;
       }
-      
+
       p, li {
         font-size: 1.3em;
         margin:20px 0;
       }
-      
+
       h1, .h1,
       h2, .h2,
       h3, .h3,
@@ -49,10 +49,10 @@
         color: white;
         font-size: 4em;
       }
-      
+
       @media (min-width: 1050px) { h1 { font-size: 7em; } }
       @media (max-width: 550px) { h1 { font-size: 2em; } }
-      
+
       h2 {
         font-size: 4em;
         margin: 35px 0;
@@ -62,21 +62,21 @@
         font-size: 2.5em;
         margin: 40px 0 20px 0;
       }
-      
+
       h4 {
         font-size: 2em;
       }
-      
+
       .img_rodape{
         width:12.2%;
         margin:0;
       }
-      
+
     </style>
 
   </head>
   <body>
-    
+
     <div id="fb-root"></div>
     <script>(function(d, s, id) {
       var js, fjs = d.getElementsByTagName(s)[0];
@@ -85,31 +85,31 @@
       js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.0";
       fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));</script>
-    
-    <div style='float:left; width:100%; background: url(http://brunopedroso.github.io/vqf/img/header.png); background-repeat: no-repeat; background-size: 100%; position:inline-block;'>
-      
+
+    <div style='float:left; width:100%; background: url(http://brunopedroso.github.io/vqf/img/header2017.jpg); background-repeat: no-repeat; background-size: 100%; position:inline-block;'>
+
       <div style='text-align:center; padding: 10% 0% 5% 30%'>
         <h1 style=''>Vai Quem Fica</h1>
       </div>
 
     </div>
-    
+
     <div class="container">
 
         <div class="row">
 
           <div class="col-sm-offset-2 col-sm-8" style='margin-top:0px'>
-            
+
             <div class="blog-post">
               {{ content }}
             </div>
-            
+
           </div>
-          
+
         </div>
-        
+
     </div>
-        
+
   </body>
 </html>
 
