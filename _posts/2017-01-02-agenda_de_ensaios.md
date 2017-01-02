@@ -3,6 +3,7 @@ layout: default
 title: "Agenda de Ensaios 2017"
 description: "Agenda de Ensaios 2017"
 ---
+{% include base.html %}
 
 <style type="text/css" media="screen">
 
@@ -33,7 +34,7 @@ Portanto, nosso calendário de ensaios está mais que fechado:
 
 ... No nosso já tradicional cantinho, **lá na 216n**.
 
-O **REPERTORIO** já está quase fechado tb: [CLIQUE AQUI](/repertorio.html).
+O **REPERTORIO** já está quase fechado tb: [CLIQUE AQUI]({{base}}/repertorio.html).
 
 Essa será a sequência exata em que tocaremos as músicas. Então daqui pra frente vamos tentar sempre tocar o repertório de cabo a rabo nos ensaios.
 
