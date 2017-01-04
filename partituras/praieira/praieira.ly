@@ -1,6 +1,15 @@
 \version "2.18.2"
 
+\header {
+   title = "Praieira"
+   composer = "Chico Science"
+   arranger = "Bloco Vai Quem Fica"
+   copyright = "(ɔ) - CC BY-SA 4.0" 
+   tagline = "Criado com Software Livre - Lilypond"  % removida mensagem de lilypond 
+ }
+
 intrometais = \relative c' {
+  \key c \major
   \repeat volta 4 { a8. c16 r4 d8. e16 r4}
   \alternative {
     {a,8. c16~c4 e,2}
@@ -107,23 +116,16 @@ baixo = \drummode {
   \repeat volta 2 {r1 | r1 }
   \repeat volta 56 {bd4 bd bd bd}
 }
+
 \book {
   \bookOutputSuffix "Trompete em Bb"
   \header {
-   title = "Praieira"
-   composer = "Chico Science"
    instrument = "Trompete em Bb"
-   arranger = "Bloco Vai Quem Fica"
-   copyright = "(ɔ) - CC BY-SA 4.0" 
-   tagline = "Criado com Software Livre - Lilypond"  % removida mensagem de lilypond 
  }
  \score {
   <<
 	\new Voice = "trompete" {
 	  \set midiInstrument = #"trumpet"
-	  \time 4/4
-	  \clef G
-	  \key d \minor
 	  \transpose c f {
 	  %\hide Stem
 	  \intrometais
@@ -152,19 +154,12 @@ baixo = \drummode {
 \book {
   \bookOutputSuffix "Sax Alto Eb"
   \header {
-   title = "Praieira"
-   composer = "Chico Science"
    instrument = "Sax Alto em Eb"
-   arranger = "Bloco Vai Quem Fica"
-   copyright = "(ɔ) - CC BY-SA 4.0" 
-   tagline = "Criado com Software Livre - Lilypond"  % removida mensagem de lilypond 
  }
  \score {
   <<
 	\new Voice = "saxalto" {
 	  \set midiInstrument = #"alto sax"
-	  \time 4/4
-	  \clef G
 	  \transpose c c' {
 	  %\hide Stem
 	  \intrometais
@@ -193,33 +188,30 @@ baixo = \drummode {
 \book {
   \bookOutputSuffix "Trombone em C"
   \header {
-    title = "Praieira"
-    composer = "Chico Science"
     instrument = "Trombone em C"
-    arranger = "Bloco Vai Quem Fica"
-    copyright = "(ɔ) - CC BY-SA 4.0" 
-    tagline = "Criado com Software Livre - Lilypond"  % removida mensagem de lilypond 
   }
   \score {
     <<
-      \new Voice = "metaisb" {
+      \new Voice = "metaisc" {
 	  \set midiInstrument = #"trombone"
 	  \voiceTwo
 	  \time 4/4
 	  \clef G
-	  \unfoldRepeats \transpose c ees \intrometais 
-	  \transpose c ees \melodiaAB 
-	  \transpose c ees \meiucaB
-	  \transpose c ees \melodiaBB
-	  \transpose c ees \coro
-	  \unfoldRepeats \transpose c ees \intrometais
-	  \transpose c ees \melodiaAB 
-	  \transpose c ees \meiucaB
-	  \transpose c ees \melodiaBB
-	  \transpose c ees \coro
-	  \unfoldRepeats \transpose c ees \intrometais
-	  \unfoldRepeats \transpose c ees \intrometais
-	  \transpose c ees \melodiaAB
+	  \transpose c ees {
+	    \intrometais 
+	    \melodiaAB 
+	    \meiucaB
+	    \melodiaBB
+	    \coro
+	    \intrometais
+	    \melodiaAB 
+	    \meiucaB
+	    \melodiaBB
+	    \coro
+	    \intrometais
+	    \intrometais
+	    \melodiaAB
+      }
       }
       >>
   }
@@ -227,12 +219,7 @@ baixo = \drummode {
 \book {
   \bookOutputSuffix "Final do Refrão em Bb"
   \header {
-    title = "Praieira"
-    composer = "Chico Science"
     instrument = "Final Refrão"
-    arranger = "Bloco Vai Quem Fica"
-    copyright = "(ɔ) - CC BY-SA 4.0" 
-    tagline = "Criado com Software Livre - Lilypond"  % removida mensagem de lilypond 
   }
   \score {
     <<
@@ -251,38 +238,42 @@ baixo = \drummode {
 \book {
   \bookOutputSuffix "Sopros Juntos"
   \header {
-   title = "Praieira"
-   composer = "Chico Science"
    instrument = "Sopros Juntos"
-   arranger = "Bloco Vai Quem Fica"
-   copyright = "(ɔ) - CC BY-SA 4.0" 
-   tagline = "Criado com Software Livre - Lilypond"  % removida mensagem de lilypond 
  }
   \score {
 	<<
-	\new Voice = "sopros" {
-	  \set midiInstrument = #"alto sax"
-	  \voiceOne
-	  \time 4/4
-	  \clef G
-	  \unfoldRepeats \transpose c ees \introsopros 
-	  \transpose c ees \melodiaAA 
-	  \transpose c ees \meiucaA
-	  \transpose c ees \melodiaBA
-	  \transpose c ees \coro
-	  \unfoldRepeats \transpose c ees \reintroA
-	  \transpose c ees \melodiaAA 
-	  \transpose c ees \meiucaA
-	  \transpose c ees \melodiaBA
-	  \transpose c ees \coro
-	  \unfoldRepeats \transpose c ees \reintroA
-	  \unfoldRepeats \transpose c ees \reintroA
-	  \transpose c ees \melodiaAA
-	  \transpose c ees {a'2 r2}
-	  
+	  \new Staff {
+	    \set Staff.instrumentName = #"Sax Alto"
+	    \new Voice = "sopros" {
+	      \set midiInstrument = #"alto sax"
+	      \oneVoice
+	      \voiceOne
+	      \time 4/4
+	      \clef G
+	      \unfoldRepeats \transpose c ees \introsopros 
+	      \transpose c ees \melodiaAA 
+	      \transpose c ees \meiucaA
+	      \transpose c ees \melodiaBA
+	      \transpose c ees \coro
+	      \unfoldRepeats \transpose c ees \reintroA
+	      \transpose c ees \melodiaAA 
+	      \transpose c ees \meiucaA
+	      \transpose c ees \melodiaBA
+	      \transpose c ees \coro
+	      \unfoldRepeats \transpose c ees \reintroA
+	      \unfoldRepeats \transpose c ees \reintroA
+	      \transpose c ees \melodiaAA
+	      \transpose c ees {a'2 r2}
+	    }
 	}
+		\new Lyrics \lyricsto "sopros" {
+        \letra
+	}
+	\new Staff {
+	  \set Staff.instrumentName = #"Trombone"
 	\new Voice = "metaisb" {
 	  \set midiInstrument = #"trombone"
+	  \oneVoice
 	  \voiceTwo
 	  \time 4/4
 	  \clef G
@@ -300,27 +291,26 @@ baixo = \drummode {
 	  \unfoldRepeats \transpose c ees \intrometais
 	  \transpose c ees \melodiaAB
 	}
+	}
+	\new Staff {
 	\new Voice = "cantoreintro" {
+	  \set Staff.instrumentName = #"Clarinete"
 	  \set midiInstrument = #"clarinet"
+	  \oneVoice
 	  \voiceThree
 	  \time 4/4
 	  \clef G
 	  \unfoldRepeats \transpose c ees \reintroV
 	  \unfoldRepeats \transpose c ees \reintroV
 	}
-	\new Lyrics \lyricsto "sopros" {
-        \letra
-    }
-        \new DrumStaff \with {
-%       drumStyleTable = #timbales-style
-%       \override StaffSymbol.line-count = #2
-%       \override BarLine.bar-extent = #'(-1 . 1)
-    } <<
-      \set Staff.instrumentName = #"drums"
+	}
+        \new DrumStaff {
+          \set Staff.instrumentName = #"Percussão"
       \new DrumVoice { \stemUp \unfoldRepeats \cima }
       \new DrumVoice { \stemDown \unfoldRepeats \baixo }
-    >>
+        }
 	>>
+ 	\layout {}
       	\midi {
 	  \tempo 4 = 103
 	    \context {

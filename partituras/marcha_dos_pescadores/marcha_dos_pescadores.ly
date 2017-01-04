@@ -1,113 +1,166 @@
-
-\layout{
-	indent = 0
-	ragged-right = ##t
-
-    \context {
-      \Score
-      %\override BarLine #'transparent = ##t
-    }
+\header {
+  title = "Marcha dos pescadores"
+  composer =  "Dorival Caymmi"
 }
+#(set-global-staff-size 18)
 
+\include "../formatoversos.ly"
 
-\header{
-  title = "Marcha dos pescadores (ritmo simplificado)"
-  subtitle = "Para instrumentos em Eb"
+minhajangada = \relative c' {
+  d'8 f g | a g f e d4 a' | g2 \bar "" \break
 }
-
-\markup { \vspace #2 }
-
 
 parteum = \relative c' {
 	\key d \minor
+	\huge
 	
-	\mark "primeira"	
-
-  	r4 d' f g a g f e d2 a' g1
-	r4 f a4. g8 f1
-	r4 e g4. f8 e1 
-
-	\break
-
-  	r4 d f g a g f e d2 d' c1
-	r4 bes d4. c8 bes1
-	r4 a c4. bes8 a1 
-
-	\break
-
-  	r4 d, f g a g f e d2 a' g1
-	r4 f a g f e g f e2 f d1
+  	\partial 2
+  	r8 \mark \default
+  	\minhajangada
+  	r8 f a8. g16 | f2 r8 e g8. f16 | e2 \bar "" \break
+  	r8 \minhajangada
+  	r8 bes'' d8. c16 | bes2 r8 a c8. bes16 | a2 \bar "" \break
+  	r8 d, f g | a g f e d4 a' | g2 \bar "" \break
+  	r8 f a g | f e g f e4 f | d2 r4 \bar "" \break
+  	
 
 }
 
 letraum = \lyricmode {
  	
-	Mi -- nha -- jan -- ga -- da -- vai -- sa -- ir -- pro -- mar
-	Vou -- tra -- ba -- lhar -- 
-	Meu -- bem -- que -- rer
+	Mi nha jan ga da vai sa ir pro mar
+	Vou tra ba lhar 
+	Meu bem que rer
 
-	Se -- Deus -- qui -- ser -- quan -- doeu --  vol -- tar --  do --  mar -- 
-	Um --  pei -- xe --  bom --  eu --  vou --  tra -- zer -- 
+	Se Deus qui ser quan do-eu  vol tar  do  mar 
+	Um  pei xe  bom  eu  vou  tra zer 
 
-	Meus --  com -- pa -- nhei -- ros --  tam -- bém --  vão --  vol -- tar -- 
-	Ea --  Deus --  do --  céu --  va -- mos --  a -- gra -- de -- cer
+	Meus  com pa nhei ros  tam bém  vão  vol tar 
+	E-a  Deus  do  céu  va mos  a gra de cer
 
 
 }
 
 
 partedois = \relative c' {
-	\key d \minor
 
-	\mark "segunda"
-
-	r2 a''2 c1~ c2 bes e,1~ e2 g4 a bes2 a c bes4 g a1
-
-	\break
-
-	r2 f4 g a2. g4 bes2 a g g4 f e e e f g2 a f e d1
-
-	\break
-
-	r2 f4 g a2. g4 bes2 a g g4 f e e e f g2 a f e d1
+	\mark \default 
+	a''| c2. bes4 | e,2 r4 \bar "" \break
+	g8 a | \tuplet 5/4 {bes4 a c bes g } | a2 r4 \bar "" \break
+	f8 g | a4 g bes a | g4 g8 f e[ e] \bar "" \break
+	e f | g4 a f e | d2 r4 \bar "" \break
+	f8 g | a4 g bes a | g4 g8 f e[ e] \bar "" \break
+	e f | g4 a f e | d2\fermata r \bar "|."
 
 
 }
 
 letradois = \lyricmode { 
 
-	A -- deus -- A -- deus --  pes -- ca -- dor --  nàoes -- que -- ça --  de --  mim -- 
-	Vou -- re -- zar --  pra --  ter --  bom --  tem -- po --  meu --  nê -- go --  pra --  não --  ter --  tem -- po  -- ru -- im -- 
-	Vou --  fa -- zer --  su -- a  -- ca -- mi -- nha --  ma -- ci -- a --  per -- fu -- ma -- da --  dea -- le -- crim
+	A deus A deus  
+	Pes ca dor  não-es que ça  de  mim 
+	Vou re zar  pra  ter  bom  tem po,  meu  nê go,  
+	Pra  não  ter  tem po  ru im 
+	Vou  fa zer  su a  ca mi nha  ma ci a
+	Per fu ma da  dea le crim
 	
 }
 
-\score {
-	<<
-	\new Voice = "um" {
-		\transpose bes g {
-			\parteum
-		}
-	}
-	\new Lyrics \lyricsto "um" {
+letratoda = \lyricmode {
         \letraum
-    }
-	>>
+        \letradois
 }
 
-\markup { \vspace #2 }
-
-\score {
+\book {
+  \bookOutputName "marcha_dos_pescadores_Eb"
+  \header{
+  instrument = "Para instrumentos em Eb"
+  }
+  \score {
 	<<
-	\new Voice = "dois" {
-		\transpose bes g {
+	  \new TimeSig	\compassoseparado
+	  \new Staff {
+	    \new Voice = "um" {
+	      \voiceOne
+	      \set midiInstrument = #"alto sax"
+	      \transpose bes g {
+			\parteum
+			\skip 256 \bar "" \break 
 			\partedois
 		}
-	}
-	\new Lyrics \lyricsto "dois" {
-        \letradois
-    }
+	    }
+	    \addlyrics { \letratoda}
+	  }
 	>>
+	\layout {}
+	}
 }
 
+\book {
+  \bookOutputName "marcha_dos_pescadores_C"
+   \header{
+  instrument = "Para instrumentos em C"
+  }
+  \score {
+    <<
+      \new Voice = "trombone" {
+        \oneVoice
+        \parteum
+        \skip 256 \bar "" \break 
+        \partedois
+        \addlyrics {
+          \letratoda
+        }
+      }
+    >>
+  }
+}
+
+\book {
+  \bookOutputName "marcha_dos_pescadores_Bb"
+   \header{
+  instrument = "Para instrumentos em Bb"
+  }
+  \score {
+    <<
+      \new Staff  \with { \remove "Time_signature_engraver" } {
+      \new Voice = "trompete" \with {
+         \remove "Forbid_line_break_engraver"
+      }{
+        \oneVoice
+        \transpose f g, {
+        \parteum
+        \skip 256 \bar "" \break 
+        \partedois
+        }
+        \addlyrics {
+          \letratoda
+        }
+      }
+      }
+    >>
+  }
+}
+
+\book {
+  \bookOutputName "marcha_dos_pescadores_Geral"
+  \score {
+    <<
+      \new Voice = "melodia" {
+        \oneVoice
+        \parteum
+        \skip 256 \bar "" \break 
+        \partedois
+      }
+    >>
+    \layout {}
+    	\midi {
+	  \tempo 4 = 70
+	  \context {
+	    \Voice
+	    \consists "Staff_performer"
+	    }
+	}
+  }
+}
 \version "2.18.2"  % necessary for upgrading to future LilyPond versions.
