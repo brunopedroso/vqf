@@ -10,6 +10,27 @@
 }
 
 
+ intro = \relative c' {
+  \key f \major
+
+  \mark "intro"
+
+  r4 r16  f8 f16
+
+  bes16 bes8 bes16  d16 d8 d16   f8. d16
+
+     r16  f,8 f16   \break
+
+
+  a16 a8 a16        c16 c8 c16   e8. d16
+
+     r16  a8 a16   \break
+
+
+  g16 g8 g16    bes16 bes8 bes16   d8. c16   r16 g8 a16  f2
+
+}
+
 parteum = \relative c' {
   \key f \major
 
@@ -137,6 +158,19 @@ letratres = \lyricmode {
     \new Voice = "um" {
       \time 2/4
       \transpose g' g' {
+        \intro
+      }
+    }
+    >>
+  }
+
+  \markup { \vspace #2 }
+
+  \score {
+    <<
+    \new Voice = "um" {
+      \time 2/4
+      \transpose g' g' {
         \parteum
       }
     }
@@ -189,6 +223,19 @@ letratres = \lyricmode {
    arranger = "Bloco Vai Quem Fica"
    copyright = "(ɔ) - CC BY-SA 4.0"
    tagline = "Criado com Software Livre - Lilypond"  % removida mensagem de lilypond
+  }
+
+  \markup { \vspace #2 }
+
+  \score {
+    <<
+    \new Voice = "um" {
+      \time 2/4
+      \transpose g' g' {
+        \intro
+      }
+    }
+    >>
   }
 
   \markup { \vspace #2 }
@@ -258,6 +305,19 @@ letratres = \lyricmode {
     <<
     \new Voice = "um" {
       \time 2/4
+      \transpose g' g' {
+        \intro
+      }
+    }
+    >>
+  }
+
+  \markup { \vspace #2 }
+
+  \score {
+    <<
+    \new Voice = "um" {
+      \time 2/4
       \transpose bes g {
         \parteum
       }
@@ -308,6 +368,7 @@ letratres = \lyricmode {
   \new Voice = "um" {
     \time 2/4
     \transpose g' g' {
+      \intro
       \parteum
       \partedois
       \partetres
