@@ -39,7 +39,12 @@ blocos:
 
       - nome: 'Touradas em Madri (Dm)'
         links:
-          'gravacao': 'https://www.youtube.com/watch?v=PFE2UNSu5Hs'
+          'youtube': 'https://www.youtube.com/watch?v=PFE2UNSu5Hs'
+          'geral':  'partituras/touradas_em_madrid/Touradas_em_Madrid.pdf'
+          'tromb':    'partituras/touradas_em_madrid/Touradas_em_Madrid-Trombone_em_C.pdf'
+          'tromp':    'partituras/touradas_em_madrid/Touradas_em_Madrid-Trompetes_em_Bb.pdf'
+          'alto':    'partituras/touradas_em_madrid/Touradas_em_Madrid-Sax_Alto_Eb.pdf'
+          'tenor_clarin':    'partituras/touradas_em_madrid/Touradas_em_Madrid-Clarinete_e_Sax_Tenor_em_Bb.pdf'
 
       - nome: 'Alalaô (Bb)'
         links:
