@@ -214,6 +214,7 @@ blocos:
           'part C':  'partituras/benguele/benguele-C.pdf'
           'part Bb': 'partituras/benguele/benguele-Bb.pdf'
           'part Eb': 'partituras/benguele/benguele-Eb.pdf'
+          'midi':    'partituras/benguele/benguele.midi'
 
       - nome: 'Corta Jaca (Dm)'
         links:
