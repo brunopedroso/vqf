@@ -48,17 +48,15 @@ partedois = \relative c' {
 
   \break
 
-  r4 r16 c'8 bes16   bes16 g8 g16   g16 e8 e16   e16 e8 e16   e16 d8 c16   e16 r8 e16~   e16 d8 c16   e16 r8 e16   e16 d8 c16
+  r4 r16 c'8 bes16   bes16 g8 g16   g16 e8 e16   e16 e8 e16   e16 d8 c16
 
-  \break
+  e16 r8 e16~   e16 d8 c16   e16 r8 e16   e16 d8 c16
 
   e16 g8 g16   g16 g8 f16  a2   r16 g8 g16   g16 g8 f16  f2
 
   \break
 
   r16 g8 g16     g16 g8 f16  a2   r16 g8 g16   g16 g8 f16
-
-  \break
 
 }
 
@@ -74,6 +72,7 @@ letradois = \lyricmode {
 
   Ô va mo sa ra vá   ô va mo sa ra
 
+
 }
 
 partetres = \relative c' {
@@ -81,15 +80,40 @@ partetres = \relative c' {
 
 	\mark "terceira"
 
-  f4 r16 c'8 d16  ees16 ees8 ees16  ees16 ees8 d16  c4
+  f4
 
+  r16 c'8 d16   ees16 ees8 ees16  ees16 ees8 d16
+
+  c8 c8
+
+  r16 c8 d16   ees16 ees8 ees16   ees16 ees8 d16
+
+  \break
+
+  c4
+
+  r16 c8 d16   ees16 ees8 ees16   ees16 ees8 d16
+
+  f16
+
+  r8 c16   c16 c8 bes16   d16 r8 bes16   bes16 bes8 a16
+
+  \break
+
+  c16 r8 a16  a16 a8 g16   bes2~ bes2  f2~ f4. r8
 
 
 }
 
 letratres = \lyricmode {
 
-  vá ma mãe zim ba che gou tá no rei no
+  vá
+  ma mãe zim ba che gou tá no ter reiro
+  ca fi o to pe diu pra fa lar
+  ma mãe zim ba man dou me cha mar
+  va mu sa ra vá   va mu sa ra vá   va mu sa ra vá
+
+  ê
 
 }
 
