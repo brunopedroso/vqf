@@ -5,9 +5,11 @@ blocos:
 
   - nome: "BLOCO 1"
     musicas:
+      - nome: 'Siré de Exu (F)'
+        links:
+          'youtube': 'https://www.youtube.com/watch?v=Ee5Y99ZtiZQ'
       - nome: 'Marcha dos Pescadores (Dm)'
         links:
-          'gravacao': ''
           'c': 'partituras/marcha_dos_pescadores/marcha_dos_pescadores_C.pdf'
           'bb': 'partituras/marcha_dos_pescadores/marcha_dos_pescadores_Bb.pdf'
           'eb': 'partituras/marcha_dos_pescadores/marcha_dos_pescadores_Eb.pdf'
