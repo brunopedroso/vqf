@@ -130,7 +130,6 @@ letratres = \lyricmode {
    tagline = "Criado com Software Livre - Lilypond"  % removida mensagem de lilypond
   }
 
-
   \markup { \vspace #2 }
 
   \score {
@@ -170,6 +169,128 @@ letratres = \lyricmode {
     \new Voice = "um" {
       \time 2/4
       \transpose g' g' {
+        \partetres
+      }
+    }
+    \new Lyrics \lyricsto "um" {
+      \letratres
+    }
+    >>
+  }
+
+}
+
+\book {
+  \bookOutputSuffix "Bb"
+  \header {
+   title = "Benguelê"
+   composer = "Pixinguinha"
+   instrument = "Melodia - Instrumentos em Bb"
+   arranger = "Bloco Vai Quem Fica"
+   copyright = "(ɔ) - CC BY-SA 4.0"
+   tagline = "Criado com Software Livre - Lilypond"  % removida mensagem de lilypond
+  }
+
+  \markup { \vspace #2 }
+
+  \score {
+    <<
+    \new Voice = "um" {
+      \time 2/4
+      \transpose bes c' {
+        \parteum
+      }
+    }
+    \new Lyrics \lyricsto "um" {
+      \letraum
+    }
+    >>
+  }
+
+  \markup { \vspace #2 }
+
+  \score {
+    <<
+    \new Voice = "um" {
+      \time 2/4
+      \transpose bes c' {
+        \partedois
+      }
+    }
+    \new Lyrics \lyricsto "um" {
+      \letradois
+    }
+    >>
+  }
+
+  \markup { \vspace #2 }
+
+  \score {
+    <<
+    \new Voice = "um" {
+      \time 2/4
+      \transpose bes c' {
+        \partetres
+      }
+    }
+    \new Lyrics \lyricsto "um" {
+      \letratres
+    }
+    >>
+  }
+
+}
+
+\book {
+  \bookOutputSuffix "Eb"
+  \header {
+   title = "Benguelê"
+   composer = "Pixinguinha"
+   instrument = "Melodia - Instrumentos em Eb"
+   arranger = "Bloco Vai Quem Fica"
+   copyright = "(ɔ) - CC BY-SA 4.0"
+   tagline = "Criado com Software Livre - Lilypond"  % removida mensagem de lilypond
+  }
+
+  \markup { \vspace #2 }
+
+  \score {
+    <<
+    \new Voice = "um" {
+      \time 2/4
+      \transpose bes g {
+        \parteum
+      }
+    }
+    \new Lyrics \lyricsto "um" {
+      \letraum
+    }
+    >>
+  }
+
+  \markup { \vspace #2 }
+
+  \score {
+    <<
+    \new Voice = "um" {
+      \time 2/4
+      \transpose bes g {
+        \partedois
+      }
+    }
+    \new Lyrics \lyricsto "um" {
+      \letradois
+    }
+    >>
+  }
+
+  \markup { \vspace #2 }
+
+  \score {
+    <<
+    \new Voice = "um" {
+      \time 2/4
+      \transpose bes g {
         \partetres
       }
     }

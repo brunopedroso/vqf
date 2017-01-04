@@ -210,7 +210,10 @@ blocos:
 
       - nome: 'Benguelê (F)'
         links:
-          'gravacao': 'https://www.youtube.com/watch?v=DMXSecu0yEY'
+          'youtube': 'https://www.youtube.com/watch?v=DMXSecu0yEY'
+          'part C':  'partituras/benguele/benguele-C.pdf'
+          'part Bb': 'partituras/benguele/benguele-Bb.pdf'
+          'part Eb': 'partituras/benguele/benguele-Eb.pdf'
 
       - nome: 'Corta Jaca (Dm)'
         links:
