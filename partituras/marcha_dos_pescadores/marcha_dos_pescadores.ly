@@ -103,15 +103,16 @@ letratoda = \lyricmode {
   }
   \score {
     <<
+      \new TimeSig	\compassoseparado
+      \new Staff {
       \new Voice = "trombone" {
         \oneVoice
         \parteum
         \skip 256 \bar "" \break 
         \partedois
-        \addlyrics {
-          \letratoda
         }
-      }
+	\addlyrics { \letratoda}  
+    }
     >>
   }
 }
