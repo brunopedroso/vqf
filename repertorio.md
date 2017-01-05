@@ -5,9 +5,11 @@ blocos:
 
   - nome: "BLOCO 1"
     musicas:
+      - nome: 'Siré de Exu (F)'
+        links:
+          'youtube': 'https://www.youtube.com/watch?v=Ee5Y99ZtiZQ'
       - nome: 'Marcha dos Pescadores (Dm)'
         links:
-          'gravacao': ''
           'c': 'partituras/marcha_dos_pescadores/marcha_dos_pescadores_C.pdf'
           'bb': 'partituras/marcha_dos_pescadores/marcha_dos_pescadores_Bb.pdf'
           'eb': 'partituras/marcha_dos_pescadores/marcha_dos_pescadores_Eb.pdf'
@@ -15,9 +17,6 @@ blocos:
       - nome: 'Eu Vi Mamãe Oxum na Cachoeira (Dm)'
         links:
           'gravacao': 'https://www.youtube.com/watch?v=ou5w5tm5FOY'
-          'c': ''
-          'bb': ''
-          'eb': ''
 
       - nome: 'O Abre Alas (Dm)'
         links:
@@ -40,10 +39,12 @@ blocos:
 
       - nome: 'Touradas em Madri (Dm)'
         links:
-          'gravacao': 'https://www.youtube.com/watch?v=PFE2UNSu5Hs'
-          'c':  ''
-          'bb': ''
-          'eb': ''
+          'youtube': 'https://www.youtube.com/watch?v=PFE2UNSu5Hs'
+          'geral':  'partituras/touradas_em_madrid/Touradas_em_Madrid.pdf'
+          'tromb':    'partituras/touradas_em_madrid/Touradas_em_Madrid-Trombone_em_C.pdf'
+          'tromp':    'partituras/touradas_em_madrid/Touradas_em_Madrid-Trompetes_em_Bb.pdf'
+          'alto':    'partituras/touradas_em_madrid/Touradas_em_Madrid-Sax_Alto_Eb.pdf'
+          'tenor_clarin':    'partituras/touradas_em_madrid/Touradas_em_Madrid-Clarinete_e_Sax_Tenor_em_Bb.pdf'
 
       - nome: 'Alalaô (Bb)'
         links:
@@ -61,7 +62,6 @@ blocos:
 
       - nome: 'Aurora (Bb)'
         links:
-          'gravacao': ''
           'c':  'partituras/aurora/aurora_C.pdf'
           'bb': 'partituras/aurora/aurora_Bb.pdf'
           'eb': 'partituras/aurora/aurora_Eb.pdf'
@@ -95,9 +95,6 @@ blocos:
       - nome: 'Caravan (Fm)'
         links:
           'gravacao': 'https://www.youtube.com/watch?v=r95flkZciJE'
-          'c':  ''
-          'bb': ''
-          'eb': ''
 
   - nome: "Intervalo curto"
 
@@ -106,7 +103,6 @@ blocos:
 
       - nome: 'Máscara Negra (F) <mudar tom das partituras!>'
         links:
-          'gravacao': ''
           'c':  'partituras/mascara_negra/mascara_negra_C.pdf'
           'bb': 'partituras/mascara_negra/mascara_negra_Bb.pdf'
           'eb': 'partituras/mascara_negra/mascara_negra_Eb.pdf'
@@ -140,9 +136,6 @@ blocos:
       - nome: 'Nanã (Dm)'
         links:
           'gravacao': 'https://www.youtube.com/watch?v=w60jsjMfSS0'
-          'c':  ''
-          'bb': ''
-          'eb': ''
 
       - nome: 'Take 5 (Dm)'
         links:
@@ -164,15 +157,9 @@ blocos:
           'eb': 'partituras/mulata_bossa_nova/mulata_bossa_nova_Eb.pdf'
 
       - nome: 'Me dá um dinheiro aí (Bb)'
-        links:
-          'gravacao': ''
-          'c':  ''
-          'bb': ''
-          'eb': ''
 
       - nome: 'Cabeleira do Zezé (Bb)'
         links:
-          'gravacao': ''
           'c':  'partituras/cabeleira_do_zeze/cabeleira_do_zeze_C.pdf'
           'bb': 'partituras/cabeleira_do_zeze/cabeleira_do_zeze_Bb.pdf'
           'eb': 'partituras/cabeleira_do_zeze/cabeleira_do_zeze_Eb.pdf'
@@ -191,7 +178,6 @@ blocos:
 
       - nome: 'Pastorinhas (Gm)'
         links:
-          'gravacao': ''
           'c':  'partituras/pastorinhas/pastorinhas_C.pdf'
           'bb': 'partituras/pastorinhas/pastorinhas_Bb.pdf'
           'eb': 'partituras/pastorinhas/pastorinhas_Eb.pdf'
@@ -206,9 +192,6 @@ blocos:
       - nome: 'Frevo e Ciranda (Em)'
         links:
           'gravacao': 'https://www.youtube.com/watch?v=db-b7w5zZY4'
-          'c':  ''
-          'bb': ''
-          'eb': ''
 
       - nome: 'Praieira (Cm)'
         links:
@@ -232,10 +215,11 @@ blocos:
 
       - nome: 'Benguelê (F)'
         links:
-          'gravacao': 'https://www.youtube.com/watch?v=DMXSecu0yEY'
-          'c':  ''
-          'bb': ''
-          'eb': ''
+          'youtube': 'https://www.youtube.com/watch?v=DMXSecu0yEY'
+          'part C':  'partituras/benguele/benguele-C.pdf'
+          'part Bb': 'partituras/benguele/benguele-Bb.pdf'
+          'part Eb': 'partituras/benguele/benguele-Eb.pdf'
+          'midi':    'partituras/benguele/benguele.midi'
 
       - nome: 'Corta Jaca (Dm)'
         links:
