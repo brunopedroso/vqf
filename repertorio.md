@@ -192,6 +192,9 @@ blocos:
       - nome: 'Frevo e Ciranda (Em)'
         links:
           'gravacao': 'https://www.youtube.com/watch?v=db-b7w5zZY4'
+          'c':   'partituras/frevo_e_ciranda/frevo_e_ciranda-melodia_C.pdf'
+          'bb':  'partituras/frevo_e_ciranda/frevo_e_ciranda-melodia_Bb.pdf'
+          'eb':  'partituras/frevo_e_ciranda/frevo_e_ciranda-melodia_Eb.pdf'
 
       - nome: 'Praieira (Cm)'
         links:
