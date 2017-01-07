@@ -11,8 +11,7 @@
 parteum = \relative c' {
   \time 2/4
   \key bes \major
-  \mark \default
-  r8 d8  d d | f4 d8 bes | ees c4 a8 | bes2 |
+  r8 \mark \default d8  d d | f4 d8 bes | ees c4 a8 | bes2 |
   
   
   \break
@@ -91,14 +90,17 @@ letratoda = {
   }
   \score {
     <<
-      \new Voice = "saxalto" {
-        \transpose bes g' {
-          \parteum
-          \skip 256 \bar "" \break 
-          \partedois
-        }
-      }
-      \addlyrics {\letratoda}
+      \new TimeSig \compassoseparado
+	\new Staff {
+	  \new Voice = "saxalto" {
+	    \transpose bes g' {
+	      \parteum
+	      \skip 256 \bar "" \break 
+	      \partedois
+	    }
+	  }
+	  \addlyrics {\letratoda}
+	}
     >>
     \layout {}
   }
@@ -111,12 +113,15 @@ letratoda = {
   }
   \score {
     <<
-      \new Voice = "tromboneC" {
-        \parteum
-        \skip 256 \bar "" \break 
-          \partedois
-      }
-      \addlyrics {\letratoda}
+      \new TimeSig \compassoseparado
+	\new Staff {
+	  \new Voice = "tromboneC" {
+	    \parteum
+	    \skip 256 \bar "" \break 
+	    \partedois
+	  }
+	\addlyrics {\letratoda}
+	}
     >>
     \layout {}
     \midi {
@@ -135,14 +140,16 @@ letratoda = {
   }
   \score {
     <<
-      \new Voice = "saxalto" {
-        \transpose bes c' {
-          \parteum
-          \skip 256 \bar "" \break 
-          \partedois
-        }
-      }
-      \addlyrics {\letratoda}
+      \new TimeSig \compassoseparado
+	\new Staff {
+	  \new Voice = "saxalto" {
+	    \transpose bes c' {
+	      \parteum\skip 256 \bar "" \break 
+	      \partedois
+	    }
+	  }
+	  \addlyrics {\letratoda}
+	}
     >>
     \layout {}
   }
