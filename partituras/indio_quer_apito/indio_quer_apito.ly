@@ -1,6 +1,6 @@
 \header{
   title = "Índio quer apito"
-  composer = ""
+  composer = "Haroldo Lobo e Milton de Oliveira"
 }
 \include "../formatoversos.ly"
 
