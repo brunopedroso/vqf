@@ -2,7 +2,8 @@
 #(set-global-staff-size 17)
 
 \header{
-  title = "Circo"
+  title = "Circo da Alegria"
+  composer = "Cid Guerreiro e Dito"
 }
 
 
@@ -21,7 +22,7 @@ melodia = \relative c'' {
 chegouchegou = \relative c'' {
   \key f \major
   \time 2/4
-  \partial 4 { r8 c8 ^\markup { \large \bold \box "B"} } | f4 a8 g~ | g bes4 g8 | f e d c | d c
+  \partial 4 { r8 c8 ^\markup { \large \bold \box "B"} } | f4 a8 g~ | g bes4 g8 | e e d c | d c
   \bar "" \break
    r8 c8 | f4 a8 g~ | g bes4 g8 | f e d c | d c
    \bar "" \break
@@ -62,13 +63,16 @@ letrachegou = \lyricmode {
    \markup {\vspace #2 }
   \score {
     <<
-    \new Voice = "saxalto2" {
-      \transpose bes g {
-        \unfoldRepeats
-        \chegouchegou
-      }
-    }
+      \new TimeSig \compassoseparado
+      \new Staff {
+        \new Voice = "saxalto2" {
+          \transpose bes g {
+            \unfoldRepeats
+            \chegouchegou
+          }
+        }
       \addlyrics \letrachegou
+      }
     >>
     \layout {}
   }
@@ -95,13 +99,16 @@ letrachegou = \lyricmode {
    \markup {\vspace #2 }
   \score {
     <<
-    \new Voice = "trompete2" {
-      \transpose bes c {
-        \unfoldRepeats
-        \chegouchegou
+      \new TimeSig \compassoseparado
+      \new Staff {
+        \new Voice = "trompete2" {
+          \transpose bes c {
+            \unfoldRepeats
+            \chegouchegou
       }
     }
       \addlyrics \letrachegou
+      }
     >>
     \layout {}
   }
@@ -128,15 +135,42 @@ letrachegou = \lyricmode {
   \markup {\vspace #2 }
   \score {
     <<
-    \new Voice = "trombone2" {
-      \transpose bes bes {
-        \unfoldRepeats
-        \chegouchegou
+      \new TimeSig \compassoseparado
+      \new Staff {
+        \new Voice = "trombone2" {
+          \transpose bes bes {
+            \unfoldRepeats
+            \chegouchegou
       }
     }
       \addlyrics \letrachegou
+      }
     >>
     \layout {}
+  }
+}
+
+\book {
+  \bookOutputName "circo_midi"
+  \header {
+    instrument = "Para instrumentos em C"
+  }
+  \score {
+    <<
+      \new TimeSig \compassoseparado
+      \new Staff {
+        \new Voice = "trombone" {
+          \transpose bes bes {
+            \melodia
+            \unfoldRepeats
+            \chegouchegou
+          }
+        }
+      }
+    >>
+    \midi {
+      \tempo 4 = 160
+    }
   }
 }
 \version "2.18.2"  % necessary for upgrading to future LilyPond versions.
