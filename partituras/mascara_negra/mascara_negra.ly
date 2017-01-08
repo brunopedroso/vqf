@@ -1,110 +1,179 @@
+\include "../formatoversos.ly"
 
-\layout{
-	indent = 0
-	ragged-right = ##t
-
-    \context {
-      \Score
-      %\override BarLine #'transparent = ##t
-    }
-}
-
+#(set-global-staff-size 16)
 
 \header{
-  title = "Máscara Negra (ritmo simplificado)"
-  subtitle = "Para instrumentos em Eb"
+  title = "Máscara Negra"
+  composer = "Zé Keti"
 }
-
-\markup { \vspace #2 }
-
 
 parteum = \relative c' {
 	\key bes \major
-	
-	\mark "primeira"	
-
-  	r2 d'4 c   d2 f,   f4 ees' d c   d2 f,2  r1
-	f4 d' c bes   fis d' c bes   d2 g,2 
+	\time 2/4
+	\partial 4 { d'8 \mark \default c} | d8. f,  f8 ~| f ees' d c |  d8. f, r8 | r2 | 
 	\break
-	r2 c4 d   ees ees ees ees   f ees d c   d d ees e   f2 f4 d   f2 ees4 c   g2 a2 bes1
-
+	f8 d' c bes |   fis d' c bes |  d8. g, r8 | r4
+	\bar "" \break
+	c8 d | ees ees ees ees |  f ees d c  | d d ees e |  f8 f r8 
+	\bar "" \break
+	d | \tuplet 3/2 {f4 ees c } | g4 a | bes2 | r2 |
+	\break
 }
 
 letraum = \lyricmode {
  	
-	Quan -- to --  ri -- so -- oh --  quan -- taa -- le -- gri -- a --  
-	Mais --  de --  mil --  pa -- lha -- ços --  no --  sa -- lã -- ão  -- 
-	Ar -- le -- quim --  es -- tá  -- cho -- ran -- do --  pe -- loa -- mor --  da --  Co -- lom -- bi -- na -- 	No --  mei -- o --  da --  mul -- ti -- dão	
+	Quan to ri so oh quan ta-a le gri a 
+	Mais de mil pa lha ços no sa lã ão  
+	Ar le quim es tá cho ran do pe lo-a mor da Co lom bi na 
+	No mei o da mul ti dão	
 
 
 }
 
 
 partedois = \relative c' {
-	\key bes \major
-
-	\mark "segunda"
-
-	d2 ees4 f   bes,2 c4 d   ees2 f4 g   c,2 d4 ees   f2 g4 a   f2 g4 a  c2 bes4 a   bes1
-	\break
-	c2 bes4 a    g2 a4 bes    f1   r4 g g a   ees1   r4 f f g   d2 c4 bes   c1
-	
-	\break
-	d2 ees4 f   bes,2 c4 d    ees2 f4 g   c,2 d4 ees   f2 g4 a  f2 g4 a  c2 bes4 a   aes2 g2
-	\break
-
-	r2 c4 d    ees2 f   d4 d4 bes4 c4   d2 ees   c a4 bes    c2 d  b1 r1
-	\break
-	r2 c4 d    ees2 f   d4 d4 bes4 c4   d2 ees   c a4 bes    c2 d  bes1
+   \mark \default
+   \repeat volta 2 {
+  \tuplet 3/2 {d4 ees f} |  \tuplet 3/2 {bes, c d } | \tuplet 3/2 {ees 
+                                                                                  
+%  \bar "" \break  
+  
+  f g } | \tuplet 3/2 { c, d ees } |  \tuplet 3/2 { f g 
+  \bar "" \break 
+  a } | \tuplet 3/2 { f g a }
+  }
+  \alternative {
+    { \tuplet 3/2 { c bes a } |  bes2
+  
+  \bar "" \break
+  
+  \tuplet 3/2 { c4 bes a } | \tuplet 3/2 { g a bes} | f2 | r8
+  %\bar "" \break
+  g8 g a | ees2 | r8 f f g |  \tuplet 3/2 { d4 c bes} |   c2
+  \bar "" \break }
+    {
+      \tuplet 3/2 {c'4 bes a} |   aes4 g }
+  }
+  \bar "" \break 
+  \repeat volta 2 {
+  r c8 d  |  ees4 f8 d~ | d c 
+  %\bar "" \break 
+  bes c | d4 ees8 c8~ | 
+  \bar "" \break 
+  c4 a8  bes | 
+  }
+  \alternative {
+    {c4 d8 b8 ~ | b2 | r2
+    \bar "" \break 
+    }
+    {c4 d8 bes8~ | bes2 | r2 }
+  }
 
 
 }
 
 letradois = \lyricmode { 
 
-	Foi -- bom --  te --  ver --  ou -- tra --  vez -- 
-	Tá --  fa -- zen -- do --  um --  a -- no -- 	Foi --  no --  car -- na -- val --  que --  pas -- sou -- 
+	Foi bom te ver ou tra vez 
+	Tá fa zen do um a no 
+	Foi no car na val que pas sou 
 	
-	Eu --  sou --  a -- que -- le --  Pier -- rô -- 	Que --  tea -- bra -- çou --  e --  te --  bei -- jou -- meu --  a -- mor -- 
-	Na --  mes -- ma --  más -- ca -- ra --  ne -- gra  -- 
-	Quees -- con -- deo --  teu --  ros -- to -- 
-	Eu --  que -- ro --  ma -- tar --  a --  sau -- da -- de -- 
+	Eu sou a que le Pier rô 
+	Que te-a bra çou e te bei jou meu a mor 
+
+	Na mes ma más ca ra ne gra  
+	Que-es con de-o teu ros to 
+	Eu que ro ma tar a sau da de 
 	
-	Vou --  bei -- jar -- tea -- go -- ra -- 	Não --  me --  le -- vea --  mal  -- 
-	Ho -- jeé --  car -- na -- val -- 	
-	Vou --  bei -- jar -- tea -- go -- ra --  
-	Não --  me --  le -- vea --  mal  -- 
-	Ho -- jeé --  car -- na -- val	
+	Vou bei jar te-a go ra 
+	Não me le ve-a mal  
+	Ho je-é car na val 
+	
+	Vou bei jar te-a go ra 
+	Não me le ve-a mal  
+	Ho je-é car na val	
 
 
 }
 
-\score {
-	<<
-	\new Voice = "um" {
-		\transpose bes g {
-			\parteum
-		}
-	}
-	\new Lyrics \lyricsto "um" {
-        \letraum
-    }
-	>>
+letratoda = {
+  \letraum
+  \letradois
 }
 
-\markup { \vspace #2 }
-
-\score {
-	<<
-	\new Voice = "dois" {
-		\transpose bes g {
-			\partedois
+\book {
+  \bookOutputName "mascara_negra_Eb"
+  \header {
+    instrument = "Para instrumentos em Eb"
+  }
+  \score {
+    <<
+      \new TimeSig \compassoseparado
+      \new Staff {
+        \new Voice = "saxalto" {
+          \transpose bes d {
+            \parteum
+            \skip 256 \bar "" \break
+            \unfoldRepeats
+            \partedois
 		}
 	}
-	\new Lyrics \lyricsto "dois" {
-        \letradois
+	\addlyrics {\letratoda}
+      }
+    >>
+    \layout {}
+  }
+}
+
+\book {
+  \bookOutputName "mascara_negra_Bb"
+  \header {
+    instrument = "Para instrumentos em Bb"
+  }
+  \score {
+    <<
+      \new TimeSig \compassoseparado
+      \new Staff {
+        \new Voice = "trompete" {
+          \transpose bes g {
+            \parteum
+            \skip 256 \bar "" \break
+            \unfoldRepeats
+            \partedois
+		}
+	}
+	\addlyrics {\letratoda}
+      }
+    >>
+    \layout {}
+  }
+}
+
+\book {
+  \bookOutputName "mascara_negra_C"
+  \header {
+    instrument = "Para instrumentos em C"
+  }
+  \score {
+    <<
+      \new TimeSig \compassoseparado
+      \new Staff {
+        \new Voice = "trombone" {
+          \transpose bes f {
+            \parteum
+            \skip 256 \bar "" \break
+            \unfoldRepeats
+            \partedois
+		}
+	}
+	\addlyrics {\letratoda}
+      }
+    >>
+    \layout {}
+    \midi {
+    \tempo 4 = 120
     }
-	>>
+  }
 }
 
 \version "2.18.2"  % necessary for upgrading to future LilyPond versions.
