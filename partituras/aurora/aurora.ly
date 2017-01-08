@@ -1,95 +1,143 @@
+\include "../formatoversos.ly"
 
-\layout{
-	indent = 0
-	ragged-right = ##t
-
-    \context {
-      \Score
-      %\override BarLine #'transparent = ##t
-    }
-}
-
+%#(set-global-staff-size 17)
 
 \header{
-  title = "Aurora (ritmo simplificado)"
-  subtitle = "Para instrumentos em Eb"
+  title = "Aurora"
+  composer = \markup {
+    \right-column {
+      "Mário Lago e"
+      "Roberto Roberti"
+      " "
+    }
+  }
 }
-
-\markup { \vspace #2 }
 
 
 parteum = \relative c' {
 	\key bes \major
+	\time 2/4
+	\repeat volta 2 {
+  	\partial 4  f'8 \mark \default f  | f g f e  | g f4. ~ | f8 
+  	
+  	\bar "" \break
+  	
+  	d f bes  | g2 ~ | g4 ees | d8 c4. | r2 | r4
+
+	\bar "" \break
+
+	ees8 ees  | ees f ees d |  f ees4. | r8 
 	
-	\mark "primeira"	
-
-  	r2 f'4 f   f g f e   g f2.  r4 d4 f bes   ges2. r4  ees2 d c2. r4
-
-	\break
-
-	r2 ees4 ees   ees f ees d   f ees2.  r4 c4 ees a   g2. r4  a2 c bes2.
+	\bar "" \break 
 	
+	c ees a |  g2 | r4  a4 | c8 bes4. | r4  
+	}
 }
 
 letraum = \lyricmode {
  	
-	Se -- vo -- cê  -- fos -- se  -- sin -- ce -- ra --  ô  -- ô --  ô --  ô --  Au -- ro -- ra -- 
-	Ai --  meu --  Deus --  que --  bom --  que --  e -- ra --  ô --  ô  -- ô  -- ô  -- Au -- ro -- ra
+	Se vo cê  fos se  sin ce ra ô  ô ô ô Au ro ra 
+	Ai meu Deus que bom que e ra ô ô  ô  ô  Au ro ra
 
 
 }
 
 
 partedois = \relative c' {
-	\key bes \major
-
-	\mark "segunda"
-
-	r2. d'4 ees ees g g ees ees g g ees d c d ees2 r2
-	\break
-	r2. ees4 d d f f d d f f d c bes c d2 r2
-	\break
-	r2. ees4   d c d ees   g g r d   c bes c d    f f2.
-	\break
-	r4 d4 f bes   g2. r2  a c bes~ bes2 r2
+	r8 \mark \default d'8  | ees ees g g | ees ees g g | ees d c d | ees4
+	\bar "" \break
+	r8 ees |d d f f d d f f d c bes c d4
+	\bar "" \break
+	r8 d |  c b c ees |  g g r d  | c bes c d  |  f f r4 |
+	\bar "" \break
+	r8 d f bes |  g2 | r4  a4 | c8 bes4. | r2 | 
 
 
 }
 
 letradois = \lyricmode { 
 
-	Um -- lin -- doa -- par -- ta -- men -- to  -- com  -- por -- tei -- roee -- le -- va -- dor -- 
-	E --  ar --  re -- fri -- ge -- ra -- do --  pa -- raos --  di -- as --  de --  ca -- lor -- 
-	Mo -- re -- naan -- tes --  do --  no -- me --  vo -- cê --  te -- ri -- aa -- go -- ra -- 
-	ô --  ô --  ô --  ô --  Au -- ro -- ra
+	Um lin do-a par ta men to  com  por tei ro-e-e le va dor 
+	E ar re fri ge ra do pa ra-os di as de ca lor 
+	Mo re na-an tes do no me vo cê te ri a-a go ra 
+	ô ô ô ô Au ro ra
 }
 
-\score {
-	<<
-	\new Voice = "um" {
+letratoda = {
+  \letraum
+  \letradois
+}
+
+\book {
+  \bookOutputName "aurora_Eb"
+  \header {
+    instrument = "Para instrumentos em Eb"
+  }
+  \score {
+    <<
+      \new TimeSig \compassoseparado
+      \new Staff {
+        \new Voice = "um" {
 		\transpose bes g {
 			\parteum
-		}
-	}
-	\new Lyrics \lyricsto "um" {
-        \letraum
-    }
-	>>
-}
-
-\markup { \vspace #2 }
-
-\score {
-	<<
-	\new Voice = "dois" {
-		\transpose bes g {
+			\skip 256 \bar "" \break 
 			\partedois
 		}
 	}
-	\new Lyrics \lyricsto "dois" {
-        \letradois
+	\addlyrics \letratoda
     }
 	>>
+	\layout {}
+  }
+}
+
+\book {
+  \bookOutputName "aurora_C"
+  \header {
+    instrument = "Para instrumentos em C"
+  }
+  \score {
+    <<
+      \new TimeSig \compassoseparado
+      \new Staff {
+        \new Voice = "um" {
+		\transpose bes bes {
+			\parteum
+			\skip 256 \bar "" \break 
+			\partedois
+		}
+	}
+	\addlyrics \letratoda
+    }
+	>>
+	\layout {}
+	\midi {
+	\tempo 4 = 140}
+  }
+}
+
+
+\book {
+  \bookOutputName "aurora_Bb"
+  \header {
+    instrument = "Para instrumentos em Bb"
+  }
+  \score {
+    <<
+      \new TimeSig \compassoseparado
+      \new Staff {
+        \new Voice = "um" {
+		\transpose bes c {
+			\parteum
+			\skip 256 \bar "" \break 
+			\partedois
+		}
+	}
+	\addlyrics \letratoda
+    }
+	>>
+	\layout {}
+  }
 }
 
 \version "2.18.2"  % necessary for upgrading to future LilyPond versions.
