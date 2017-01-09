@@ -22,7 +22,7 @@ description: "Agenda de Ensaios 2017"
 
 <br/>
 
-Valeu galera! O ensaio foi massa demais! Ainda podemos melhorar muita coisa, mas temos tempo. Esse ano é de loooooonge o ano em que estamos melhores preparados, e com a maior antecedência. Acreditem!
+Valeu galera! O último ensaio foi massa demais! Ainda podemos melhorar muita coisa, mas temos tempo. Esse ano é de loooooonge o ano em que estamos melhores preparados, e com a maior antecedência. Acreditem!
 
 Vamos continuar forte nos estudos e fazer um carnaval digno de um ano de "jubileu" rs...
 
@@ -40,7 +40,9 @@ Além disso, quero deixar registrado que combinamos, ao longo dessa semana,
   focar os estudos nos blocos 5 e 7.
 </span>
 
-Então, todo mundo, estudem essas músicas para sábado!!!
+(o repertório está [aqui]({{base}}/repertorio.html))
+
+**Estudem essas músicas para o próximo sábado!!!**
 
 (claro que é pra estudar todas, mas coloquem um pouco de prioridade nessas agora. Semana que vem a gente pega outras!)
 
