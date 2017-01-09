@@ -28,9 +28,11 @@ O sábado de carnaval esse ano é 25/fev. Isso nos dá 7 semanas para ensaiar.
 
 Portanto, nosso calendário de ensaios está mais que fechado:
 
-<span style='font-size: 30px; font-weight: bold'>
-  ENSAIOS TODO SÁBADO, ÀS 16:00,
+<span style='font-size: 30px;'>
+  ENSAIOS TODO SÁBADO, <b>ÀS 15:00</b>
 </span>
+
+**(ATENÇÃO: era às 16:00. Mudamos pras 15:00!!!)**
 
 ... No nosso já tradicional cantinho, **lá na 216n**.
 
