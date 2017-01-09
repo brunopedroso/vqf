@@ -95,6 +95,10 @@ blocos:
       - nome: 'Caravan (Fm)'
         links:
           'gravacao': 'https://www.youtube.com/watch?v=r95flkZciJE'
+          'c':  'partituras/caravan/caravan_C.pdf'
+          'bb': 'partituras/caravan/caravan_Bb.pdf'
+          'eb': 'partituras/caravan/caravan_Eb.pdf'
+
 
   - nome: "Intervalo curto"
 
