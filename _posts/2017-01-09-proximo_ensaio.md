@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Agenda de Ensaios 2017"
-description: "Agenda de Ensaios 2017"
+title: "Instruções para o próximo ensaio"
+description: "Instruções para o próximo ensaio"
 ---
 {% include base.html %}
 
