@@ -162,11 +162,9 @@ blocos:
 
       - nome: 'Me dá um dinheiro aí (Bb)'
 
-      - nome: 'Cabeleira do Zezé (Bb)'
+      - nome: 'Marcha da Cueca (Bb)'
         links:
-          'c':  'partituras/cabeleira_do_zeze/cabeleira_do_zeze_C.pdf'
-          'bb': 'partituras/cabeleira_do_zeze/cabeleira_do_zeze_Bb.pdf'
-          'eb': 'partituras/cabeleira_do_zeze/cabeleira_do_zeze_Eb.pdf'
+          'youtube': 'https://www.youtube.com/watch?v=cngmqvgxJvw'
 
       - nome: 'Vassourinhas (Bb)'
         links:
