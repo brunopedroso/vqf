@@ -171,9 +171,9 @@ blocos:
       - nome: 'Vassourinhas (Bb)'
         links:
           'gravacao': 'partituras/vassourinhas/vassourinhas.midi'
-          'c':  'partituras/vassourinhas/vassourinhas-Instrumentos_em_C.pdf'
-          'bb': 'partituras/vassourinhas/vassourinhas-Clarinete_e_Sax_Tenor_em_Bb.pdf'
-          'eb': 'partituras/vassourinhas/vassourinhas-Sax_Alto_Eb.pdf'
+          'c':  'partituras/vassourinhas/Vassourinhas-Instrumentos_em_C.pdf'
+          'bb': 'partituras/vassourinhas/Vassourinhas-Clarinete_e_Sax_Tenor_em_Bb.pdf'
+          'eb': 'partituras/vassourinhas/Vassourinhas-Sax_Alto_Eb.pdf'
 
   - nome: "Intervalo curto"
 
@@ -231,9 +231,9 @@ blocos:
       - nome: 'Corta Jaca (Dm)'
         links:
           'gravacao': 'partituras/corta_jaca/corta_jaca.midi'
-          'c':  'partituras/corta_jaca/corta_jaca.pdf'
-          'bb': 'partituras/corta_jaca/corta_jaca-Clarinete_e_Sax_Tenor_em_Bb.pdf'
-          'eb': 'partituras/corta_jaca/corta_jaca-Sax_alto_em_Eb.pdf'
+          'c':  'partituras/corta_jaca/Corta_Jaca.pdf'
+          'bb': 'partituras/corta_jaca/Corta_Jaca-Clarinete_e_Sax_Tenor_em_Bb.pdf'
+          'eb': 'partituras/corta_jaca/Corta_Jaca-Sax_alto_em_Eb.pdf'
 
   - nome: "Intervalo curto"
 
