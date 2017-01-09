@@ -233,7 +233,7 @@ blocos:
           'gravacao': 'partituras/corta_jaca/corta_jaca.midi'
           'c':  'partituras/corta_jaca/Corta_Jaca.pdf'
           'bb': 'partituras/corta_jaca/Corta_Jaca-Clarinete_e_Sax_Tenor_em_Bb.pdf'
-          'eb': 'partituras/corta_jaca/Corta_Jaca-Sax_alto_em_Eb.pdf'
+          'eb': 'partituras/corta_jaca/Corta_Jaca-Sax_Alto_em_Eb.pdf'
 
   - nome: "Intervalo curto"
 
