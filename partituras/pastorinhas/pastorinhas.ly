@@ -1,93 +1,165 @@
-
-\layout{
-	indent = 0
-	ragged-right = ##t
-
-    \context {
-      \Score
-      %\override BarLine #'transparent = ##t
-    }
-}
-
+\include "../formatoversos.ly"
+#(set-global-staff-size 14)
 
 \header{
-  title = "Pastorinhas (ritmo simplificado)"
-  subtitle = "Para instrumentos em Eb"
+  title = "As Pastorinhas"
+  composer = ""
 }
 
-\markup { \vspace #2 }
-
-
 parteum = \relative c' {
-	\key g \minor
-	
-	\mark "primeira"	
+  \key g \minor
+  \time 2/4
 
-  	r4 d' bes' fis    a2. g4~   g1    r4 d g d    f2. ees4~  ees1
-    r2 c4 d    ees2 g4 fis    a2 a2   r2 fis4 g   a2 d4 a   d1
-
-	r4 d4 c bes   bes2. ees,4~   ees1  r2 a4 c   bes2 a4 fis   a2. g4~   g1
-	r2 d'4 c   bes2 a4 g   e1  a1   r2 fis4 g   a2 fis4 a  g1
+  r4  \mark \default d' | bes' fis | a2 | g |
+  \break
+  r4 d | g d  |  f2 | ees2  |
+  \break
+  \tuplet 3/2 {r4 c d} |    \tuplet 3/2 { ees g fis} | a2 | a 
+  \break
+  \tuplet 3/2 {r4 fis g} |  \tuplet 3/2 {a d a} |  d2~ | d |
+  \break
+  r4 d | c bes   | bes2 | ees,2 |
+  \break
+  \tuplet 3/2 { r4 a c } | \tuplet 3/2 { bes a fis }  | a2 | g2 |
+  \break
+  \tuplet 3/2 { r4 d' c } | \tuplet 3/2 { bes a g } |  e2 | a2 | 
+  \break
+  \tuplet 3/2  { r4 fis g} | \tuplet 3/2 {a fis a } | g4 r4 | r2 |
+  \break
 
 }
 
 letraum = \lyricmode {
- 	
-	Aes -- tre -- la --  d'al -- va --  no  -- céu  -- des -- pon -- ta -- 	E --  a --  lu -- aan -- da  -- ton -- ta --  com --  ta -- ma -- nhoes -- plen -- dor -- 
-	Eas --  pas -- to -- ri -- nhas --  pra --  con -- so -- lo --  da --  lu -- a -- 	Vão  -- can -- tan -- do --  na --  ru -- a  -- lin -- dos --  ver -- sos --  dea -- mor
+
+  A-es tre la d'al va 
+  No céu des pon ta
+  E a lu a-an da ton ta 
+  Com ta ma nho-es plen dor
+  E-as pas to ri nhas 
+  Pra con so lo da lu a
+  Vão can tan do na ru a 
+  Lin dos ver sos de-a mor
 
 
 }
 
 
 partedois = \relative c' {
-	\key g \major
-
-	\mark "segunda"
-
-	r2 b' d b'  a1    g2. b4   a2 g4 fis   a g e e    g1      fis1 
-
-	r2 d e c'  b1    a2. c4   b1         r4 a4 g fis   a g fis g  b2 g  d 
-
-	b2 d b'    a1    g1       r4 g fis g   d'2 b4 a   a1  g1
-
-	r4 g g g   g2 a4 bes   b1   d1   b2 g4 b   a2 fis4 a  g1
-
-}
-
-letradois = \lyricmode { 
-
-	Lin -- da  -- pas -- to -- ra --  mo -- re -- na --  da --  cor --  de --  ma -- da -- le -- na --  
-	Tu --  não --  tens --  pe -- na --  de --  mim -- 	Que --  vi -- vo --  ton -- to --  com --  o --  teu --  o -- lhar -- 	Lin -- da --  cri -- an -- ça --  tu --  não --  me --  sais --  da --  lem -- bran -- ça --  Meu --  co -- ra -- ção --  não --  se --  can -- sa -- 	De --  sem -- pre --  sem -- pre --  tea -- mar
+  \key g \major
+  r4 \mark \default b' | d b' | a4. g8~ | g4 
+  \bar "" \break
+  r8 b8 |  a g4 fis8 |  a g e e  | g4. fis8~ | fis2
+  \break
+  r4 d | e c' | b4. a8~ | a4
+  \bar "" \break
+  r8 c8 |  b2 | r8 a8 g fis | a g fis g  | b4 g | d8\staccato
+  \bar "" \break
+  r8 b4 d b' | a4. g8~ | g2 |  
+  \break
+  r8 g fis g | \tuplet 3/2 {d'4 b a} | a4. g8~ | g2 |
+  \break
+  r8 g g g | \tuplet 3/2 {g4 a bes} | b4. d8~ | d2 |
+  \break
+  \tuplet 3/2 { b4 g b } | \tuplet 3/2 { a fis a } g2 ~| g2\fermata \bar "|."
 
 }
 
-\score {
-	<<
-	\new Voice = "um" {
-		\transpose bes g {
-			\parteum
-		}
-	}
-	\new Lyrics \lyricsto "um" {
-        \letraum
-    }
-	>>
+letradois = \lyricmode {
+
+  Lin da pas to ra 
+  Mo re na, da cor de ma da le na
+  Tu não tens pe na de mim
+  Que vi vo ton to com o teu o lhar
+  Lin da cri an ça 
+  tu não me sais da lem bran ça 
+  Meu co ra ção não se can sa
+  De sem pre, sem pre te-a mar
+
 }
 
-\markup { \vspace #2 }
-
-\score {
-	<<
-	\new Voice = "dois" {
-		\transpose bes g {
-			\partedois
-		}
-	}
-	\new Lyrics \lyricsto "dois" {
-        \letradois
-    }
-	>>
+letratoda = {
+  \letraum
+  \letradois
 }
+
+\book {
+  \bookOutputName "pastorinhas_Eb"
+  \header {
+    instrument = "Para instrumentos em Eb"
+  }
+  \score {
+    <<
+      \new TimeSig \compassoseparado
+      \new Staff {
+        \new Voice = "saxalto" {
+          \transpose bes g {
+            \parteum
+            \pulalinha
+            \partedois
+          }
+        }
+        \addlyrics \letratoda
+      }
+    >>
+    \layout {}
+  }
+}
+
+\book {
+  \bookOutputName "pastorinhas_Bb"
+  \header {
+    instrument = "Para instrumentos em Bb"
+  }
+  \score {
+    <<
+      \new TimeSig \compassoseparado
+      \new Staff {
+        \new Voice = "trompete" {
+          \transpose bes c {
+            \parteum
+            \pulalinha
+            \partedois
+          }
+        }
+        \addlyrics \letratoda
+      }
+    >>
+    \layout {}
+  }
+}
+
+\book {
+  \bookOutputName "pastorinhas_C"
+  \header {
+    instrument = "Para instrumentos em C"
+  }
+  \score {
+    <<
+      \new TimeSig \compassoseparado
+      \new Staff {
+        \new Voice = "trombone" {
+          \set midiInstrument = #"trombone"
+          \transpose bes bes {
+            \parteum
+            \pulalinha
+            \partedois
+          }
+        }
+        \addlyrics \letratoda
+      }
+    >>
+    \layout {}
+    \midi {
+      \tempo 4 = 90
+      \context {
+        \Voice 
+          \consists "Staff_performer"
+      }
+      }
+  }
+}
+
+
+
 
 \version "2.18.2"  % necessary for upgrading to future LilyPond versions.
