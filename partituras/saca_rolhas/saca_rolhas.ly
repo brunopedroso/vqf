@@ -1,110 +1,144 @@
-
-\layout{
-	indent = 0
-	ragged-right = ##t
-
-    \context {
-      \Score
-      \override BarLine #'transparent = ##t
-    }
-}
-
+\include "../formatoversos.ly"
+#(set-global-staff-size 19)
 
 \header{
-  title = "Saca rolhas (sem ritmo)"
-  subtitle = "Para instrumentos em Eb"
+ title = "Saca-rolhas"
+ composer = "Zé da Zilda"
+ 
 }
 
-\markup { \vspace #2 }
 
-
-parteum = \relative c' {
+parteum = \relative c'' {
 	\key bes \major
-	
-	\mark "primeira"	
-
-  	d g ges f e ees  r r c c ees g fis g fis g fis g ees d
+	\time 2/4
+	\repeat volta 2 {
+	\tuplet 3/2 {g4 \mark \default bes a } | \tuplet 3/2 {g f ees } | d
+ 	\bar "" \break
+ 	r8 d g ges f e ees2 |
+ 	\break
+ 	r8 c c ees | g fis g fis | g fis g ees | d2
 	\break
-
-	bes bes d g fis g fis g fis g gis a fis   r r r
+	r8 bes bes d | g fis g fis | g fis g gis | a8. fis16~ fis4 |
 	\break
-
-	d a' g fis    r1 d4 bes' a g 
+	r8 d a' g | fis4 r | 
 	\break
-
-	bes a g f ees d    r r 
-	
-}
+	r8  d bes'a | } 
+	\tuplet 3/2 {g4 } 
+	\bar "" \break
+	}
 
 letraum = \lyricmode {
  
-	As -- á -- guas --  vão --  ro -- lar
-	Gar -- ra -- fa --  chei -- a --  eu --  não --  que -- ro --  ver --  so -- brar
-	Eu --  pas -- soa  -- mão --  no --  sa -- ca --  sa -- ca --  sa -- ca --  ro -- lhas
-	E --  be -- boa  -- té --  me --  a -- fo -- gar
-	Dei -- xaas --  á -- guas --  ro -- lar
-
+	(gar/garra) Dei xa-as á guas ro lar
+	As á guas vão ro lar
+	Gar ra fa chei a eu não que ro ver so brar
+	Eu pas so-a mão no sa ca sa ca sa ca ro lhas
+	E be bo-a té me a fo (gar)
 }
 
 
 partedois = \relative c' {
-	\key g \minor
-
-	\mark "segunda"
-
-	g' a bes a g f ees c d ees    r r
+	
+	\mark \default \tuplet 3/2 { g' a } | \tuplet 3/2 {bes4 a g } | f8 ees4 c16 d16 | ees2 ~|
 	\break
 
-	g a bes a g g d bes c d    r r
-	\break
+	\tuplet 3/2 { ees4 g a } | \tuplet 3/2 { bes a g } | g8 d4 bes16 c16 | d4. 
+	\bar "" \break
 
-	d g fis g fis g fis g gis a fis   r
-	\break
+	d8 g fis g fis g fis g gis a fis4. | r8
+	\bar "" \break
 
-	d a' g g fis r   d bes' a a g   r
-	\break
-
-	bes a g f ees d    r r
+	d a' g | g8. fis16 ~ fis4 | r8  
+	\bar "" \break
+	d bes' a |  \tuplet 3/2 {<a g> (g) bes4 a}
 
 }
 
 letradois = \lyricmode { 
 
-	Sea --  po -- lí -- cia --  por --  is -- so --  me --  pren -- der
-	Mas --  na --  úl -- ti -- ma --  ho -- ra --  me --  sol -- tar
-	Eu --  pe -- goo --  sa -- ca --  sa -- ca --  sa -- ca --  ro -- lhas
-	Nin -- guém --  mea  -- gar -- ra
-	Nin -- guém  -- mea -- gar -- ra
-	
-	Dei -- xaas --  á -- guas --  ro -- lar
+	Se-a po lí cia por is so me pren der
+	Mas na úl ti ma ho ra me sol tar
+	Eu pe go-o sa ca sa ca sa ca ro lhas
+	Nin guém me-a gar ra
+	Nin guém me-a gar-ra
+	(Dei xa-as...)
 }
 
-\score {
-	<<
-	\new Voice = "um" {
-		\transpose bes g' {
-			\parteum
-		}
-	}
-	\new Lyrics \lyricsto "um" {
-        \letraum
-    }
+letratoda = {
+  \letraum
+  \letradois
+}
+
+\book {
+  \bookOutputName "saca_rolhas_Eb"
+  \header {
+    instrument = "Para instrumentos em Eb"
+  }
+  \score {
+    <<
+      \new TimeSig \compassoseparado
+      \new Staff {
+        \new Voice = "saxalto" {
+          \transpose bes g' {
+            \parteum
+            \pulalinha
+            \partedois
+          }
+        }
+	\addlyrics \letratoda
+  }
 	>>
+	\layout {}
+  }
 }
 
-\markup { \vspace #2 }
-
-\score {
-	<<
-	\new Voice = "dois" {
-		\transpose bes g' {
-			\partedois
-		}
-	}
-	\new Lyrics \lyricsto "dois" {
-        \letradois
-    }
+\book {
+  \bookOutputName "saca_rolhas_Bb"
+  \header {
+    instrument = "Para instrumentos em Bb"
+  }
+  \score {
+    <<
+      \new TimeSig \compassoseparado
+      \new Staff {
+        \new Voice = "trompete" {
+          \transpose bes c' {
+            \parteum
+            \pulalinha
+            \partedois
+          }
+        }
+	\addlyrics \letratoda
+  }
 	>>
+	\layout {}
+  }
 }
 
-\version "2.18.2"  % necessary for upgrading to future LilyPond versions.
+\book {
+  \bookOutputName "saca_rolhas_C"
+  \header {
+    instrument = "Para instrumentos em C"
+  }
+  \score {
+    <<
+      \new TimeSig \compassoseparado
+      \new Staff {
+        \new Voice = "trombone" {
+          \transpose bes bes' {
+            \parteum
+            \pulalinha
+            \partedois
+          }
+        }
+	\addlyrics \letratoda
+  }
+	>>
+	\layout {}
+	\midi {
+	  \tempo 4 = 120
+	}
+  }
+}
+
+\version "2.18.2" % necessary for upgrading to future LilyPond versions.
