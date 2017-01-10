@@ -168,18 +168,16 @@ blocos:
           'eb': 'partituras/me_da_um_dinheiro_aih/me_da_um_dinheiro_ai_Eb.pdf'
 
 
-      - nome: 'Cabeleira do Zezé (Bb)'
+      - nome: 'Marcha da Cueca (Bb)'
         links:
-          'c':  'partituras/cabeleira_do_zeze/cabeleira_do_zeze_C.pdf'
-          'bb': 'partituras/cabeleira_do_zeze/cabeleira_do_zeze_Bb.pdf'
-          'eb': 'partituras/cabeleira_do_zeze/cabeleira_do_zeze_Eb.pdf'
+          'youtube': 'https://www.youtube.com/watch?v=cngmqvgxJvw'
 
       - nome: 'Vassourinhas (Bb)'
         links:
           'gravacao': 'partituras/vassourinhas/vassourinhas.midi'
-          'c':  'partituras/vassourinhas/vassourinhas-Instrumentos_em_C.pdf'
-          'bb': 'partituras/vassourinhas/vassourinhas-Clarinete_e_Sax_Tenor_em_Bb.pdf'
-          'eb': 'partituras/vassourinhas/vassourinhas-Sax_Alto_Eb.pdf'
+          'c':  'partituras/vassourinhas/Vassourinhas-Instrumentos_em_C.pdf'
+          'bb': 'partituras/vassourinhas/Vassourinhas-Clarinete_e_Sax_Tenor_em_Bb.pdf'
+          'eb': 'partituras/vassourinhas/Vassourinhas-Sax_Alto_Eb.pdf'
 
   - nome: "Intervalo curto"
 
@@ -237,9 +235,9 @@ blocos:
       - nome: 'Corta Jaca (Dm)'
         links:
           'gravacao': 'partituras/corta_jaca/corta_jaca.midi'
-          'c':  'partituras/corta_jaca/corta_jaca.pdf'
-          'bb': 'partituras/corta_jaca/corta_jaca-Clarinete_e_Sax_Tenor_em_Bb.pdf'
-          'eb': 'partituras/corta_jaca/corta_jaca-Sax_alto_em_Eb.pdf'
+          'c':  'partituras/corta_jaca/Corta_Jaca.pdf'
+          'bb': 'partituras/corta_jaca/Corta_Jaca-Clarinete_e_Sax_Tenor_em_Bb.pdf'
+          'eb': 'partituras/corta_jaca/Corta_Jaca-Sax_Alto_em_Eb.pdf'
 
   - nome: "Intervalo curto"
 
