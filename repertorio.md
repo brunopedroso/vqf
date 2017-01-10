@@ -161,6 +161,12 @@ blocos:
           'eb': 'partituras/mulata_bossa_nova/mulata_bossa_nova_Eb.pdf'
 
       - nome: 'Me dá um dinheiro aí (Bb)'
+        links:
+          'gravacao': ''
+          'c':  'partituras/me_da_um_dinheiro_aih/me_da_um_dinheiro_ai_C.pdf'
+          'bb': 'partituras/me_da_um_dinheiro_aih/me_da_um_dinheiro_ai_Bb.pdf'
+          'eb': 'partituras/me_da_um_dinheiro_aih/me_da_um_dinheiro_ai_Eb.pdf'
+
 
       - nome: 'Cabeleira do Zezé (Bb)'
         links:
