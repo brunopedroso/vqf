@@ -1,104 +1,145 @@
-
-\layout{
-	indent = 0
-	ragged-right = ##t
-
-    \context {
-      \Score
-      \override BarLine #'transparent = ##t
-    }
-}
-
+\include "../formatoversos.ly"
+#(set-global-staff-size 15)
 
 \header{
-  title = "Taí (sem ritmo)"
-  subtitle = "Para instrumentos em Eb"
+ title = "Taí (Pra Você Gostar de Mim)"
+ composer = "Joubert de Carvalho"
 }
-
-\markup { \vspace #2 }
-
 
 parteum = \relative c' {
 	\key g \minor
 	
-	\mark "primeira"	
-
-  	d c ees c a' a fis fis d d c c bes r r r
+ 	s4 \mark \default d | c r |
+ 	\break
+ 	ees4 c8 a'~ | a a fis fis | d d c c | bes2
 	
 	\break
 
-	d bes g' g f f ees ees d d c r
+	d4 bes8 g'~ | g g f f | ees ees d d | c2 
 
 	\break
 
-	c ees d c ees d  c c bes bes a a g r r
-
+	c4 ees8 d ~ | d4 r | 
+	\break
+	c ees8 d ~ | d4 c8 c | bes bes a a | g2 |
 	\break
 
 }
 
 letraum = \lyricmode { 
-	Ta -- í -- eu -- fiz -- tu -- do -- pra -- vo -- cê -- gos -- tar -- de -- mim
-	Ah -- meu -- bem -- não -- faz as -- sim -- co -- mi -- go -- não
-	Vo -- cê -- tem -- vo -- cê -- tem -- que -- me -- dar -- seu -- co -- ra -- ção
+	Ta í! 
+	eu fiz tu do pra vo cê gos tar de mim
+	Ah meu bem não faz as sim co mi go não!
+	Vo cê tem, Vo cê tem que me dar seu co ra ção!
 }
 
 
 partedois = \relative c' {
-	\key g \minor
+	r8 \mark \default bes d bes | g g bes d | g4 fis8 a ~ | a2
+	\break
 
-	\mark "segunda"
+	r8 d, d c | a a c fis | a4 g8 bes ~ | bes2
+
+	\break
+
+	r8 bes a g | f4 ees8 c | a'4 g8 g ~ |
+	\break
 	
-	bes d bes g g bes d g fis a r r
-
-	fis d c a a cis e a g bes r r
+	g8 d4 bes8  |f'4 ees8 d~  | d c4 bes8 | a4 ees'8 d~ | d2
 
 	\break
 
-	bes a g f ees c a' g g d bes f' ees d c bes a ees' d r
-
+	r8 bes' a g | f ees4 c8 | a'4 g8 bes ~ |
 	\break
-
-	bes' a g f ees c a' g bes a g f ees d c bes a bes g
+	bes a4 g8 | f4 ees8 d~ |d c4 bes8 | a4 bes8 g | g4\fermata \bar "|."
 
 }
 
 letradois = \lyricmode { 
 
-	Es -- sa -- his -- tó -- ria  -- de  -- gos -- tar  -- deal  -- guém -- 
-	Já --  é --  ma -- ni -- a --  queas  -- pes -- so -- as  -- têm -- 
-	Se --  mea -- ju -- das -- se --  nos -- so  -- se -- nhor -- 
-	Eu --  não --  pen -- sa -- ri -- a --  mais  -- no  -- a -- mor -- 
-	Se --  mea -- ju -- das -- se --  nos -- so --  se -- nhor -- 
-	Eu --  não --  pen -- sa -- ri -- a --  mais  -- no  -- a -- mor
+	Es sa his tó ria de gos tar de-al guém,
+	Já é ma ni a que-as pes so as têm!
+	Se me-a ju das se Nos so Se nhor,
+	Eu não pen sa ri a mais no a mor 
+	Se me-a ju das se nos so se nhor 
+	Eu não pen sa ri a mais no a mor
 }
 
-\score {
-	<<
-	\new Voice = "um" {
-		\transpose bes g' {
-			\parteum
-		}
+letratoda = {
+ \letraum
+ \letradois
+}
+
+\book {
+ \bookOutputName "taih_Eb"
+ \header {
+  instrument = "Para instrumentos em Eb"
+ }
+ \score {
+  <<
+   \new TimeSig \compassoseparado
+   \new Staff {
+    \new Voice = "sax alto" {
+     \transpose bes g' {
+      \parteum
+      \pulalinha
+      \partedois
+     }
 	}
-	\new Lyrics \lyricsto "um" {
-        \letraum
-    }
+	\addlyrics \letratoda
+  }
 	>>
+	\layout {}
+ }
 }
 
-\markup { \vspace #2 }
-
-\score {
-	<<
-	\new Voice = "dois" {
-		\transpose bes g' {
-			\partedois
-		}
+\book {
+ \bookOutputName "taih_Bb"
+ \header {
+  instrument = "Para instrumentos em Bb"
+ }
+ \score {
+  <<
+   \new TimeSig \compassoseparado
+   \new Staff {
+    \new Voice = "trompete" {
+     \transpose bes c' {
+      \parteum
+      \pulalinha
+      \partedois
+     }
 	}
-	\new Lyrics \lyricsto "dois" {
-        \letradois
-    }
+	\addlyrics \letratoda
+  }
 	>>
+	\layout {}
+ }
 }
 
-\version "2.18.2"  % necessary for upgrading to future LilyPond versions.
+\book {
+ \bookOutputName "taih_C"
+ \header {
+  instrument = "Para instrumentos em C"
+ }
+ \score {
+  <<
+   \new TimeSig \compassoseparado
+   \new Staff {
+    \new Voice = "trombone" {
+     \transpose bes bes' {
+      \parteum
+      \pulalinha
+      \partedois
+     }
+	}
+	\addlyrics \letratoda
+  }
+	>>
+	\layout {}
+	\midi {
+	 \tempo 4 = 120
+	}
+ }
+}
+
+\version "2.18.2" % necessary for upgrading to future LilyPond versions.
