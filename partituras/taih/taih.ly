@@ -1,5 +1,5 @@
 \include "../formatoversos.ly"
-#(set-global-staff-size 15)
+#(set-global-staff-size 18)
 
 \header{
  title = "Taí (Pra Você Gostar de Mim)"
