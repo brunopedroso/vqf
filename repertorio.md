@@ -105,7 +105,7 @@ blocos:
   - nome: "BLOCO 4"
     musicas:
 
-      - nome: 'Máscara Negra (F) <mudar tom das partituras!>'
+      - nome: 'Máscara Negra (F)'
         links:
           'c':  'partituras/mascara_negra/mascara_negra_C.pdf'
           'bb': 'partituras/mascara_negra/mascara_negra_Bb.pdf'
