@@ -1,5 +1,5 @@
 ---
-layout: branco
+layout: layout2016
 title: Vai Quem Fica 2016
 img_capa: http://brunopedroso.github.io/vqf/img/fotos_2015/foto1.jpg
 imgs:
@@ -22,7 +22,7 @@ imgs:
   e nem vamos buscar fora. <br/>
   Vamos é fazer o nosso <br/>
   lá no fundo quintal. <br/>
-  
+
 </div>
 
 <div class="caixa">
@@ -103,7 +103,7 @@ imgs:
    quando o momento chegar <br/>
    Se quiseres saber é facinho <br/>
    basta o imêio deixar <br/>
-  
+
  </div>
 
  <br>
