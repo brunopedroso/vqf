@@ -45,6 +45,23 @@ DSCoda = {
         \mark \markup {\musicglyph #"scripts.coda"}
 }
 
+DSFine = {
+  \bar "||"
+    \cadenzaOn
+      \stopStaff
+      \repeat unfold 1 {
+          s2
+          \bar ""
+        }
+    \once \override TextScript.extra-offset = #'( 0 . -3.0 )
+        \once \override TextScript.word-space = #1.5
+        <>^\markup { \center-column { "Ao " \musicglyph #"scripts.segno" "e " \line { \center-column {\italic "Fine" }} } }
+         \repeat unfold 2 {
+          s2
+          \bar ""
+        }
+}
+
 DCapoCoda = {
   \bar "||"
     \cadenzaOn
@@ -61,6 +78,15 @@ DCapoCoda = {
    \cadenzaOff
    \break
         \mark \markup {\musicglyph #"scripts.coda"}
+}
+
+pulalinha = {
+  \cadenzaOn
+  \stopStaff
+  \markup {""}
+  \bar "" \break
+  \startStaff
+  \cadenzaOff
 }
 
 \layout {
