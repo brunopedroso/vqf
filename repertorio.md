@@ -171,6 +171,9 @@ blocos:
       - nome: 'Marcha da Cueca (Bb)'
         links:
           'youtube': 'https://www.youtube.com/watch?v=cngmqvgxJvw'
+          'c':  'partituras/marcha_da_cueca/marcha_da_cueca_C.pdf'
+          'bb': 'partituras/marcha_da_cueca/marcha_da_cueca_Bb.pdf'
+          'eb': 'partituras/marcha_da_cueca/marcha_da_cueca_Eb.pdf'          
 
       - nome: 'Vassourinhas (Bb)'
         links:
