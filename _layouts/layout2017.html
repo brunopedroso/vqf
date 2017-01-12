@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=0.6">
+
+    <title>{% if page.title %} {{ page.title }} - {% endif %} Vai Quem Fica</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <meta property="og:type" content="article">
+
+    {% if page.title %}
+    <meta property="og:title" content="{{ page.title }}">
+    <meta name="title" content="{{ page.title }}" />
+    {% endif %}
+
+    {% if page.description %}
+    <meta property="og:description" content="{{ page.description }}">
+    <meta name="description" content="{{ page.description }}" />
+
+    {% endif %}
+
+    {% if page.img_capa %}
+    <meta property="og:image" content="{{ page.img_capa }}">
+    <link rel="image_src" href="{{ page.img_capa }}" />
+    {% endif %}
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+
+    <style type="text/css" media="screen">
+
+      body {
+        font-family: Georgia, "Times New Roman", Times, serif;
+        color: #555;
+      }
+
+      p, li {
+        font-size: 1.3em;
+        margin:20px 0;
+      }
+
+      p {
+        line-height:1.7em;
+        font-size:1.6em;
+      }
+
+      h1, .h1,
+      h2, .h2,
+      h3, .h3,
+      h4, .h4,
+      h5, .h5,
+      h6, .h6 {
+        margin-top: 0;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-weight: normal;
+        color: #333;
+      }
+
+      h1 {
+        color: white;
+        font-size: 4em;
+        padding: 100px 0 20px 0;
+        font-size:4em;
+      }
+
+      @media (min-width: 1050px) { h1 { font-size: 7em; } }
+      @media (max-width: 550px) { h1 { font-size: 2em; } }
+
+      h2 {
+        font-size: 4em;
+        margin: 35px 0;
+      }
+
+      h3 {
+        font-size: 2.5em;
+        margin: 40px 0 20px 0;
+      }
+
+      h4 {
+        font-size: 2em;
+      }
+
+      .img_rodape{
+        width:12.2%;
+        margin:0;
+      }
+
+      .img_r {
+        float:right;
+        margin-left:20px;
+        width:60%;
+      }
+
+      .img_l {
+        float:left;
+        margin-right:20px;
+        width:60%;
+      }
+
+      .caixa {
+        width:100%;
+        font-size:1.5em;
+        margin:20px 0 0 0;
+        float: left;
+        line-height: 2em;
+      }
+
+      .fundo {
+        /* setado pelo JS: background-image: url(/img/fotos_2015/10397981_971882149502797_169845247255961071_n.jpg); */
+        background: url(images/bg.jpg) no-repeat center center fixed;
+
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+
+        background-attachment: scroll;
+
+        background-position: center;
+        background-repeat: no-repeat;
+        z-index: -1;
+
+        position: fixed;
+        top:0;
+        left:0;
+
+        width: 100%;
+        height: 100%;
+
+      }
+
+      body {
+        background-color: black;
+
+        display:table;
+        width:100%;
+        height: 100vh;
+      }
+
+
+      body, h1, h2, h3, h4 {
+        font-family:  sans-serif;
+        color: white;
+        font-weight: 100;
+      }
+
+      .coluna {
+        background-color:rgba(1,1,1,0.6);
+        padding: 0 50px;
+        position: absolute;
+      }
+
+
+      .container {
+        background-color: rgba(0,0,0,0);
+      }
+
+      #mc_embed_signup {
+        color: black;
+      }
+
+    </style>
+
+    <link href='https://fonts.googleapis.com/css?family=Asap:400,700italic' rel='stylesheet' type='text/css'>
+
+    <script type="text/javascript" charset="utf-8" src='https://code.jquery.com/jquery-2.1.4.min.js'></script>
+
+  </head>
+  <body>
+
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.0";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+    <div class="container">
+
+        <div class="row">
+
+          <div class="col-sm-8 coluna" style='margin-top:0px'>
+
+            <div class="blog-post">
+
+              {{ content }}
+
+            </div>
+
+            <br/>
+
+
+          </div>
+
+         </div>
+
+        </div>
+
+    </div>
+
+    <div class='fundo' style="background-image: url('./img/fotos_2015/foto7.jpg')" />
+
+  </body>
+</html>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-58346111-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
