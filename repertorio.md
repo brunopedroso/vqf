@@ -8,6 +8,7 @@ blocos:
       - nome: 'Siré de Exu (F)'
         links:
           'youtube': 'https://www.youtube.com/watch?v=Ee5Y99ZtiZQ'
+          'letra': 'partituras/sireh_exu/sireh_exu.txt'
       - nome: 'Marcha dos Pescadores (Dm)'
         links:
           'c': 'partituras/marcha_dos_pescadores/marcha_dos_pescadores_C.pdf'
@@ -173,7 +174,7 @@ blocos:
           'youtube': 'https://www.youtube.com/watch?v=cngmqvgxJvw'
           'c':  'partituras/marcha_da_cueca/marcha_da_cueca_C.pdf'
           'bb': 'partituras/marcha_da_cueca/marcha_da_cueca_Bb.pdf'
-          'eb': 'partituras/marcha_da_cueca/marcha_da_cueca_Eb.pdf'          
+          'eb': 'partituras/marcha_da_cueca/marcha_da_cueca_Eb.pdf'
 
       - nome: 'Vassourinhas (Bb)'
         links:

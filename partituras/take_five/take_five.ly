@@ -1,13 +1,13 @@
- 
+
 parteAsax = \relative c'' {
-  \partial 2 { b8 e g a }| ais b a g e4 b d | 
+  \partial 2 { b8 e g a }| ais b a g e4 b d |
   e8 e4 e4. g8 e( \grace {g e)} d4 | \break
   e8 e4 e4. d8 b( \grace {d b)} a4 |
   b8 b4 b4. b8 e g a | ais b a g e4 b d | \break
   e8 e4 e4. d8 b( \grace {d b)}  a4 |
   b8 b4 b4. g'8 e( \grace {g e)} d4 |
   e8 e4 e4. r2
-} 
+}
 
 parteBsax = \relative c'' {
   \repeat volta 2 {
@@ -15,7 +15,7 @@ parteBsax = \relative c'' {
   }
   \alternative {
     {c8 e4 c8 a4 fis8 g a ais | b ais b c d4 d8 cis d dis |}
-    {c8 e4 c8 a4 fis8 g d' c } 
+    {c8 e4 c8 a4 fis8 g d' c }
   }
   b r4
   \parteAsax
@@ -27,13 +27,13 @@ parteBinstrumentoemC = \relative c'' {
   }
   \alternative {
     {c8 e4 c8 a4 fis8 g a ais | b ais b c d4 d8 cis d dis |}
-    {c8 e4 c8 a4 fis8 g d' c } 
+    {c8 e4 c8 a4 fis8 g d' c }
   }
   b r4
   \transpose c c' {
   \parteAsax
   }
-  
+
 }
 \book {
   \bookOutputSuffix "Sax Alto em Eb"
@@ -42,8 +42,8 @@ parteBinstrumentoemC = \relative c'' {
    composer = "Paul Desmond"
    instrument = "Sax Alto em Eb"
    arranger = "Bloco Vai Quem Fica"
-   copyright = "(ɔ) - CC - BY-SA 4.0" 
-   tagline = "Criado com Software Livre - Lilypond"  % removida mensagem de lilypond 
+   copyright = "(ɔ) - CC - BY-SA 4.0"
+   tagline = "Criado com Software Livre - Lilypond"  % removida mensagem de lilypond
  }
 \score {
   <<
@@ -67,8 +67,8 @@ parteBinstrumentoemC = \relative c'' {
    composer = "Paul Desmond"
    instrument = "Instrumentos em Bb"
    arranger = "Bloco Vai Quem Fica"
-   copyright = "(ɔ) - CC - BY-SA 4.0" 
-   tagline = "Criado com Software Livre - Lilypond"  % removida mensagem de lilypond 
+   copyright = "(ɔ) - CC - BY-SA 4.0"
+   tagline = "Criado com Software Livre - Lilypond"  % removida mensagem de lilypond
  }
  \score {
   <<
@@ -78,7 +78,7 @@ parteBinstrumentoemC = \relative c'' {
         \time 5/4
         \clef G
         \key g \major
-        \transpose c c {
+        \transpose c c, {
         \parteAsax
         \parteBsax
         }
@@ -96,8 +96,8 @@ parteBinstrumentoemC = \relative c'' {
    composer = "Paul Desmond"
    instrument = "Melodia - Instrumentos em C"
    arranger = "Bloco Vai Quem Fica"
-   copyright = "(ɔ) - CC - BY-SA 4.0" 
-   tagline = "Criado com Software Livre - Lilypond"  % removida mensagem de lilypond 
+   copyright = "(ɔ) - CC - BY-SA 4.0"
+   tagline = "Criado com Software Livre - Lilypond"  % removida mensagem de lilypond
  }
  \score {
   <<

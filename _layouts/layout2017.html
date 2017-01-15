@@ -103,7 +103,7 @@
       .caixa {
         width:100%;
         font-size:1.5em;
-        margin:20px 0 60px 0;
+        margin:20px 0 0 0;
         float: left;
         line-height: 2em;
       }
@@ -142,8 +142,9 @@
 
 
       body, h1, h2, h3, h4 {
-        font-family: 'Asap', sans-serif;
+        font-family:  sans-serif;
         color: white;
+        font-weight: 100;
       }
 
       .coluna {
@@ -152,11 +153,6 @@
         position: absolute;
       }
 
-      @media (min-width: 768px) {
-        .coluna {
-          right: 40px;
-        }
-      }
 
       .container {
         background-color: rgba(0,0,0,0);
@@ -173,7 +169,7 @@
     <script type="text/javascript" charset="utf-8" src='https://code.jquery.com/jquery-2.1.4.min.js'></script>
 
   </head>
-  <body style="overflow:hidden">
+  <body>
 
     <div id="fb-root"></div>
     <script>(function(d, s, id) {
@@ -188,81 +184,26 @@
 
         <div class="row">
 
-          <div class="col-sm-offset-4 col-sm-8 coluna" style='margin-top:0px'>
+          <div class="col-sm-8 coluna" style='margin-top:0px'>
 
             <div class="blog-post">
 
-              <script type="text/javascript" charset="utf-8">
-
-                window.imagens = [
-                  {% for img in page.imgs  %}
-                    '{{img}}', {% endfor  %}
-                ];
-
-
-                function usaImagem(i) {
-                  if(window.imagem_usada != i) {
-                    window.imagem_usada = i;
-                    var div_usado  =  i    % 2;
-                    var div_a_usar = (i+1) % 2
-
-                    $('.fundo'+div_usado).animate({'opacity': 0}, 2000);
-                    $('.fundo'+div_a_usar).css('background-image', "url(" + window.imagens[i] + ")");
-                    $('.fundo'+div_a_usar).animate({'opacity': 1}, 2000);
-
-                  }
-                }
-
-                $(function(){
-
-                  $('body').prepend("<div class='fundo fundo0' />")
-                  $('body').prepend("<div class='fundo fundo1'/>")
-
-                  $('#fundo').css({height: $(window).height()});
-
-                  window.index = 0;
-                  usaImagem(window.index);
-
-                  $(window).scroll(function(e) {
-                      var index = Math.floor(document.body.scrollTop / 280);
-                      if(index > 8) index = 8;
-
-                      // não volta as imagens
-                      if(index > window.index) {
-                        window.index = index;
-                      }
-
-                      usaImagem(window.index);
-                  });
-
-                })
-
-              </script>
-
               {{ content }}
-
-                <br/>
-
-              </div>
-
-
-              <br/>
-
-              <div class="caixa">
-                <div style='margin:0 auto; width:400px; font-size:0.8em'>
-                  <!-- box_count -->
-                  <div class="fb-share-button" data-layout="button"></div>
-
-                </div>
-              </div>
 
             </div>
 
+            <br/>
+
+
           </div>
+
+         </div>
 
         </div>
 
     </div>
+
+    <div class='fundo' style="background-image: url('./img/fotos_2015/foto7.jpg')" />
 
   </body>
 </html>
