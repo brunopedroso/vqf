@@ -9,23 +9,25 @@
     }
 }
 
+#(set-global-staff-size 16)
 
  intro = \relative c' {
   \key f \major
 
   \mark "intro"
 
-  r4 r16  f16 g16 a16
+  \partial 4 r16  f16 g16 a16
 
   bes16 bes8 bes16  d16 d8 d16   f16 d f d
 
-     r16  f,8 f16   \break
+    \bar ""   \break
+     r16  f,8 f16
 
 
   a16 a8 a16        c16 c8 c16   e16 d e d
 
-     r16  a8 a16   \break
-
+     \bar ""   \break
+     r16  a8 a16
 
   g16 g8 g16    bes16 bes8 bes16   d8. c16   r16 g8 a16  f2
 
@@ -231,7 +233,7 @@ letratres = \lyricmode {
     <<
     \new Voice = "um" {
       \time 2/4
-      \transpose g' g' {
+      \transpose g' a' {
         \intro
       }
     }
@@ -305,7 +307,7 @@ letratres = \lyricmode {
     <<
     \new Voice = "um" {
       \time 2/4
-      \transpose g' g' {
+      \transpose bes' g' {
         \intro
       }
     }
