@@ -9,6 +9,10 @@ blocos:
         links:
           'youtube': 'https://www.youtube.com/watch?v=Ee5Y99ZtiZQ'
           'letra': 'partituras/sireh_exu/sireh_exu.txt'
+          'c': 'partituras/sireh_exu/sireh_exu-C.pdf'
+          'bb': 'partituras/sireh_exu/sireh_exu-Bb.pdf'
+          'eb': 'partituras/sireh_exu/sireh_exu-Eb.pdf'
+          
       - nome: 'Marcha dos Pescadores (Dm)'
         links:
           'c': 'partituras/marcha_dos_pescadores/marcha_dos_pescadores_C.pdf'
@@ -18,6 +22,9 @@ blocos:
       - nome: 'Eu Vi Mamãe Oxum na Cachoeira (Dm)'
         links:
           'gravacao': 'https://www.youtube.com/watch?v=ou5w5tm5FOY'
+          'c': 'partituras/eu_vi_mamae_oxum_na_cachoeira/mamae_oxum-C.pdf'
+          'bb': 'partituras/eu_vi_mamae_oxum_na_cachoeira/mamae_oxum-Bb.pdf'
+          'eb': 'partituras/eu_vi_mamae_oxum_na_cachoeira/mamae_oxum-Eb.pdf'
 
       - nome: 'O Abre Alas (Dm)'
         links:
