@@ -1,15 +1,11 @@
+\include "../formatoversos.ly"
+\include "../marcaspadronizadas.ly"
 
-\layout{
-	indent = 0
-	ragged-right = ##t
-
-    \context {
-      \Score
-      %\override BarLine #'transparent = ##t
-    }
-}
-
-#(set-global-staff-size 16)
+\header {
+   title = "Benguelê"
+   composer = "Pixinguinha"
+ }
+#(set-global-staff-size 13)
 
  intro = \relative c' {
   \key f \major
@@ -145,15 +141,10 @@ letratres = \lyricmode {
 \book {
   \bookOutputSuffix "C"
   \header {
-   title = "Benguelê"
-   composer = "Pixinguinha"
    instrument = "Melodia - Instrumentos em C"
-   arranger = "Bloco Vai Quem Fica"
-   copyright = "(ɔ) - CC BY-SA 4.0"
-   tagline = "Criado com Software Livre - Lilypond"  % removida mensagem de lilypond
   }
 
-  \markup { \vspace #2 }
+  \markup { \vspace #1 }
 
   \score {
     <<
@@ -166,7 +157,7 @@ letratres = \lyricmode {
     >>
   }
 
-  \markup { \vspace #2 }
+  \markup { \vspace #1 }
 
   \score {
     <<
@@ -182,7 +173,7 @@ letratres = \lyricmode {
     >>
   }
 
-  \markup { \vspace #2 }
+  \markup { \vspace #1 }
 
   \score {
     <<
@@ -198,7 +189,7 @@ letratres = \lyricmode {
     >>
   }
 
-  \markup { \vspace #2 }
+  \markup { \vspace #1 }
 
   \score {
     <<
@@ -219,32 +210,23 @@ letratres = \lyricmode {
 \book {
   \bookOutputSuffix "Bb"
   \header {
-   title = "Benguelê"
-   composer = "Pixinguinha"
    instrument = "Melodia - Instrumentos em Bb"
-   arranger = "Bloco Vai Quem Fica"
-   copyright = "(ɔ) - CC BY-SA 4.0"
-   tagline = "Criado com Software Livre - Lilypond"  % removida mensagem de lilypond
   }
 
-  \markup { \vspace #2 }
+  \markup { \vspace #1 }
 
   \score {
     <<
     \new Voice = "um" {
       \time 2/4
-<<<<<<< HEAD
-      \transpose g' a' {
-=======
       \transpose bes c' {
->>>>>>> 0ad59a9313c486047e6f422d85ab5c29d9df0fc5
         \intro
       }
     }
     >>
   }
 
-  \markup { \vspace #2 }
+  \markup { \vspace #1 }
 
   \score {
     <<
@@ -260,7 +242,7 @@ letratres = \lyricmode {
     >>
   }
 
-  \markup { \vspace #2 }
+  \markup { \vspace #1 }
 
   \score {
     <<
@@ -276,7 +258,7 @@ letratres = \lyricmode {
     >>
   }
 
-  \markup { \vspace #2 }
+  \markup { \vspace #1 }
 
   \score {
     <<
@@ -297,32 +279,23 @@ letratres = \lyricmode {
 \book {
   \bookOutputSuffix "Eb"
   \header {
-   title = "Benguelê"
-   composer = "Pixinguinha"
    instrument = "Melodia - Instrumentos em Eb"
-   arranger = "Bloco Vai Quem Fica"
-   copyright = "(ɔ) - CC BY-SA 4.0"
-   tagline = "Criado com Software Livre - Lilypond"  % removida mensagem de lilypond
   }
 
-  \markup { \vspace #2 }
+  \markup { \vspace #1 }
 
   \score {
     <<
     \new Voice = "um" {
       \time 2/4
-<<<<<<< HEAD
-      \transpose bes' g' {
-=======
       \transpose bes g {
->>>>>>> 0ad59a9313c486047e6f422d85ab5c29d9df0fc5
         \intro
       }
     }
     >>
   }
 
-  \markup { \vspace #2 }
+  \markup { \vspace #1 }
 
   \score {
     <<
@@ -338,7 +311,7 @@ letratres = \lyricmode {
     >>
   }
 
-  \markup { \vspace #2 }
+  \markup { \vspace #1 }
 
   \score {
     <<
@@ -354,7 +327,7 @@ letratres = \lyricmode {
     >>
   }
 
-  \markup { \vspace #2 }
+  \markup { \vspace #1 }
 
   \score {
     <<
