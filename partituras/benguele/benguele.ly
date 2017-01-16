@@ -233,7 +233,11 @@ letratres = \lyricmode {
     <<
     \new Voice = "um" {
       \time 2/4
+<<<<<<< HEAD
       \transpose g' a' {
+=======
+      \transpose bes c' {
+>>>>>>> 0ad59a9313c486047e6f422d85ab5c29d9df0fc5
         \intro
       }
     }
@@ -307,7 +311,11 @@ letratres = \lyricmode {
     <<
     \new Voice = "um" {
       \time 2/4
+<<<<<<< HEAD
       \transpose bes' g' {
+=======
+      \transpose bes g {
+>>>>>>> 0ad59a9313c486047e6f422d85ab5c29d9df0fc5
         \intro
       }
     }
