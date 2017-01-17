@@ -3,6 +3,8 @@ layout: default
 title: Carnaval de rua em Brasília. Com elegância.
 ---
 
+{% include base.html %}
+
 <style type="text/css" media="screen">
   h3 {
     margin: 20px 0;
@@ -160,11 +162,9 @@ Se seu coração bater na mesma cadência, e você quiser nos acompanhar, **insc
 
 <img src='img/fotos/fotol9.png' class='img_l' style='width:25%; margin-top:15px' />
 
-<div style='width:70%; margin:20px 0 40px 0; float: left;'>
+<div style='width:70%; margin:20px 0 40px 0; float: left;font-size: 16px'>
 
-  <!-- Begin MailChimp Signup Form -->
-
-  <!--End mc_embed_signup-->
+  (se quiser participar do próximo ano, <a href='{{base}}'>clique aqui</a>)
 
   <br/>
 

@@ -14,6 +14,8 @@ imgs:
   - './img/fotos_2015/foto9.jpg'
 ---
 
+{% include base.html %}
+
 # Vai Quem Fica 2016
 
 <div class="caixa">
@@ -112,3 +114,7 @@ imgs:
 
    <!-- Begin MailChimp Signup Form -->
    <!--End mc_embed_signup-->
+
+   (se quiser participar do próximo ano, <a href='{{base}}'>clique aqui</a>)
+
+</div>
