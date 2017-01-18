@@ -1,31 +1,29 @@
+\include "../formatoversos.ly"
+\include "../marcaspadronizadas.ly"
 
-\layout{
-	indent = 0
-	ragged-right = ##t
-
-    \context {
-      \Score
-      %\override BarLine #'transparent = ##t
-    }
-}
-
+\header {
+   title = "Benguelê"
+   composer = "Pixinguinha"
+ }
+#(set-global-staff-size 13)
 
  intro = \relative c' {
   \key f \major
 
   \mark "intro"
 
-  r4 r16  f16 g16 a16
+  \partial 4 r16  f16 g16 a16
 
   bes16 bes8 bes16  d16 d8 d16   f16 d f d
 
-     r16  f,8 f16   \break
+    \bar ""   \break
+     r16  f,8 f16
 
 
   a16 a8 a16        c16 c8 c16   e16 d e d
 
-     r16  a8 a16   \break
-
+     \bar ""   \break
+     r16  a8 a16
 
   g16 g8 g16    bes16 bes8 bes16   d8. c16   r16 g8 a16  f2
 
@@ -143,15 +141,10 @@ letratres = \lyricmode {
 \book {
   \bookOutputSuffix "C"
   \header {
-   title = "Benguelê"
-   composer = "Pixinguinha"
    instrument = "Melodia - Instrumentos em C"
-   arranger = "Bloco Vai Quem Fica"
-   copyright = "(ɔ) - CC BY-SA 4.0"
-   tagline = "Criado com Software Livre - Lilypond"  % removida mensagem de lilypond
   }
 
-  \markup { \vspace #2 }
+  \markup { \vspace #1 }
 
   \score {
     <<
@@ -164,7 +157,7 @@ letratres = \lyricmode {
     >>
   }
 
-  \markup { \vspace #2 }
+  \markup { \vspace #1 }
 
   \score {
     <<
@@ -180,7 +173,7 @@ letratres = \lyricmode {
     >>
   }
 
-  \markup { \vspace #2 }
+  \markup { \vspace #1 }
 
   \score {
     <<
@@ -196,7 +189,7 @@ letratres = \lyricmode {
     >>
   }
 
-  \markup { \vspace #2 }
+  \markup { \vspace #1 }
 
   \score {
     <<
@@ -217,15 +210,10 @@ letratres = \lyricmode {
 \book {
   \bookOutputSuffix "Bb"
   \header {
-   title = "Benguelê"
-   composer = "Pixinguinha"
    instrument = "Melodia - Instrumentos em Bb"
-   arranger = "Bloco Vai Quem Fica"
-   copyright = "(ɔ) - CC BY-SA 4.0"
-   tagline = "Criado com Software Livre - Lilypond"  % removida mensagem de lilypond
   }
 
-  \markup { \vspace #2 }
+  \markup { \vspace #1 }
 
   \score {
     <<
@@ -238,7 +226,7 @@ letratres = \lyricmode {
     >>
   }
 
-  \markup { \vspace #2 }
+  \markup { \vspace #1 }
 
   \score {
     <<
@@ -254,7 +242,7 @@ letratres = \lyricmode {
     >>
   }
 
-  \markup { \vspace #2 }
+  \markup { \vspace #1 }
 
   \score {
     <<
@@ -270,7 +258,7 @@ letratres = \lyricmode {
     >>
   }
 
-  \markup { \vspace #2 }
+  \markup { \vspace #1 }
 
   \score {
     <<
@@ -291,15 +279,10 @@ letratres = \lyricmode {
 \book {
   \bookOutputSuffix "Eb"
   \header {
-   title = "Benguelê"
-   composer = "Pixinguinha"
    instrument = "Melodia - Instrumentos em Eb"
-   arranger = "Bloco Vai Quem Fica"
-   copyright = "(ɔ) - CC BY-SA 4.0"
-   tagline = "Criado com Software Livre - Lilypond"  % removida mensagem de lilypond
   }
 
-  \markup { \vspace #2 }
+  \markup { \vspace #1 }
 
   \score {
     <<
@@ -312,7 +295,7 @@ letratres = \lyricmode {
     >>
   }
 
-  \markup { \vspace #2 }
+  \markup { \vspace #1 }
 
   \score {
     <<
@@ -328,7 +311,7 @@ letratres = \lyricmode {
     >>
   }
 
-  \markup { \vspace #2 }
+  \markup { \vspace #1 }
 
   \score {
     <<
@@ -344,7 +327,7 @@ letratres = \lyricmode {
     >>
   }
 
-  \markup { \vspace #2 }
+  \markup { \vspace #1 }
 
   \score {
     <<

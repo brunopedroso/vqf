@@ -7,7 +7,7 @@
 }
 
 \include "../formatoversos.ly"
-#(set-global-staff-size 16)
+#(set-global-staff-size 13)
 
 \layout {
   \context {
@@ -18,6 +18,29 @@
 
 
 pretudo = {  \clef "treble^8" \key bes \major \time 2/4}
+
+introgeral = \relative e''''{
+  \partial 4. g4 -"Intro" d8 ~
+  \bar "||"
+  d8 bes4 a8 ~ \bar "||" \mark \markup { \musicglyph #"scripts.segno" }
+  a8 r16 c16 es16 d8 c16 | 
+  a8 fis8 d8 g8 ~ | 
+  g8 r16 bes16 d16 c8 bes16 | 
+  d8 c8 bes8 a8 ~ | 
+  a8 r16 c16 es16 d8 c16 | 
+  es8 d8 c8 bes8 ~ | 
+  bes8 g'4 d8 ~ | 
+  d8 bes4 a8 ~ | \barNumberCheck #10
+  a8 r16 c16 es16 d8 c16 | 
+  a8 fis8 d8 g8 ~ | 
+  g8 r16 bes16 d16 c8 bes16 | 
+  d8 c8 bes8 a8 ~ \bar "||"
+  a8 r16 d,16 fis16 -\markup{ \bold\italic {To Coda} } fis8 fis16 | 
+  a8 a8 c8 bes8 ~ | 
+  bes8 a8 g8 f8 ~ \bar ".|" \break
+  f4 %r4 retirado para juntar
+}
+
 intromelodia = {
    \partial 4. r8 -"" r4
   R2 |
@@ -28,7 +51,8 @@ intromelodia = {
 }
 
 melodia =  \relative d'' {
-  r4  d4 | 
+  %\partial 4 retirado para juntar
+  d4 | 
   \repeat volta 2 {
     bes'4 g8 bes8 ~ | 
     bes8 a8 g8 bes8 ~ | 
@@ -39,30 +63,38 @@ melodia =  \relative d'' {
     r8 d8 |
     a'8 g8 f8 g8 ~ 
     g8. d16 bes'8 g8 ~ |
-    \bar "||"
+    \bar "||" \break
   }
   \alternative {
-    {  g8 \bar "" \break r d4 }
-    { g8 \bar "" \break g8 a8 bes8}
+    {  g8 r d4 }
+    { g8 g8 a8 bes8}
     }
    \repeat volta 2 {
     | 
     c8. a16 c8 c8 | \break
     r16 c8 c16 bes8 a8 |
-    g8 r16 d16 bes'8 g8 ~ | 
-    g8. \bar "" \break
-    bes16 bes16 a8 g16 |
-    d16 d8 d16 fis8 d8 ~ |
-    d8. \bar "" \break
-    d16 a'16 g8 fis16
+    g8 r16 d16 bes'8 g8 ~ | \break
+    g8. bes16 bes16 a8 g16 |
+    d16 d8 d16 fis8 d8 ~ | \break
+    d8. d16 a'16 g8 fis16
     \bar "||"
   }
   \alternative {
-    {g8. d16 bes'8 g8 ~ | g8 \bar "" \break g8 a8 bes8}
+    {g8. d16 bes'8 g8 ~ | \break
+     g8 g8 a8 bes8}
     {g8 r8 r4| R2 %-\markup { \italic {D.S. al Coda}}
      \bar "|."}
     }
     
+}
+
+
+letraintro = \lyricmode {
+  _ _ _ _ _ _ _ _ _ _ _ _
+  _ _ _ _ _ _ _ _ _ _ _ _
+  _ _ _ _ _ _ _ _ _ _ _ _
+  _ _ _ _ _ _ _ _ _ _ _ _
+  _ _ _ _ _ _ _ _ _ _ _
 }
 
 letra = \lyricmode {
@@ -100,11 +132,12 @@ letra = \lyricmode {
         \new Voice = "Melodia/Voz" {
           \transpose bes g {
           \pretudo
+          \introgeral
           \unfoldRepeats
           \melodia 
           }
         }
-        \addlyrics  {\letra}
+        \addlyrics  {\letraintro \letra}
     }
     >>
   \layout {}
@@ -128,11 +161,12 @@ letra = \lyricmode {
         \new Voice = "trompete" {
           \transpose bes a {
           \pretudo
+          \introgeral
           \unfoldRepeats
           \melodia 
           }
         }
-        \addlyrics  {\letra}
+        \addlyrics  {\letraintro \letra}
     }
     >>
   \layout {}
@@ -155,11 +189,12 @@ letra = \lyricmode {
         \new Voice = "saxalto" {
           \transpose bes e {
           \pretudo
+          \introgeral
           \unfoldRepeats
           \melodia 
           }
         }
-        \addlyrics  {\letra}
+        \addlyrics  {\letraintro \letra}
     }
     >>
   \layout {}
