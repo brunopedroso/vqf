@@ -12,7 +12,7 @@ blocos:
           'c': 'partituras/sireh_exu/sireh_exu-C.pdf'
           'bb': 'partituras/sireh_exu/sireh_exu-Bb.pdf'
           'eb': 'partituras/sireh_exu/sireh_exu-Eb.pdf'
-          
+
       - nome: 'Marcha dos Pescadores (Dm)'
         links:
           'c': 'partituras/marcha_dos_pescadores/marcha_dos_pescadores_C.pdf'
@@ -190,6 +190,10 @@ blocos:
           'bb': 'partituras/vassourinhas/Vassourinhas-Clarinete_e_Sax_Tenor_em_Bb.pdf'
           'eb': 'partituras/vassourinhas/Vassourinhas-Sax_Alto_Eb.pdf'
 
+      - nome: 'Cabelo de fogo (Cm)'
+        links:
+          'youtube': 'https://www.youtube.com/watch?v=orm4PuCYysA'
+
   - nome: "Intervalo curto"
 
   - nome: "BLOCO 7"
@@ -228,6 +232,13 @@ blocos:
   - nome: "BLOCO 8"
     musicas:
 
+      - nome: 'Corta Jaca (Dm)'
+        links:
+          'gravacao': 'partituras/corta_jaca/corta_jaca.midi'
+          'c':  'partituras/corta_jaca/Corta_Jaca.pdf'
+          'bb': 'partituras/corta_jaca/Corta_Jaca-Clarinete_e_Sax_Tenor_em_Bb.pdf'
+          'eb': 'partituras/corta_jaca/Corta_Jaca-Sax_Alto_em_Eb.pdf'
+
       - nome: 'Folia de Reis (F)'
         links:
           'gravacao': 'partituras/folia_de_reis/folia_de_reis.midi'
@@ -242,13 +253,6 @@ blocos:
           'part Bb': 'partituras/benguele/benguele-Bb.pdf'
           'part Eb': 'partituras/benguele/benguele-Eb.pdf'
           'midi':    'partituras/benguele/benguele.midi'
-
-      - nome: 'Corta Jaca (Dm)'
-        links:
-          'gravacao': 'partituras/corta_jaca/corta_jaca.midi'
-          'c':  'partituras/corta_jaca/Corta_Jaca.pdf'
-          'bb': 'partituras/corta_jaca/Corta_Jaca-Clarinete_e_Sax_Tenor_em_Bb.pdf'
-          'eb': 'partituras/corta_jaca/Corta_Jaca-Sax_Alto_em_Eb.pdf'
 
   - nome: "Intervalo curto"
 
