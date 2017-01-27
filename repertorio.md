@@ -147,7 +147,23 @@ blocos:
 
       - nome: 'Nanã (Dm)'
         links:
-          'gravacao': 'https://www.youtube.com/watch?v=w60jsjMfSS0'
+          'completa': 'partituras/coisa5/COISA5.mp3'
+          'percussa': 'partituras/coisa5/percussao/Coisa5-VQF_FINAL_Drum_Set.pdf'
+
+          'sax_alto': 'partituras/coisa5/sax_alto/Coisa5-VQF_FINAL_AltoSax.pdf'
+          'sax_alto_som': 'partituras/coisa5/sax_alto/Coisa5-VQF_FINAL_Alto_Sax.mp3'
+
+          'sax_baritono': 'partituras/coisa5/sax_baritono/Coisa5-VQF_FINAL_BaritoneSax.pdf'
+          'sax_baritono_som': 'partituras/coisa5/sax_baritono/Coisa5-VQF_FINAL_BaritoneSax.mp3'
+
+          'sax_tenor': 'partituras/coisa5/sax_tenor/Coisa5-VQF_FINAL_TenorSax.pdf'
+          'sax_tenor_som': 'partituras/coisa5/sax_tenor/Coisa5-VQF_FINAL_TenorSax.mp3'
+
+          'trombone': 'partituras/coisa5/trombone/Coisa5-VQF_FINAL_Trombone.pdf'
+          'trombone_som': 'partituras/coisa5/trombone/Coisa5-VQF_FINAL_Trombone.mp3'
+
+          'trompete': 'partituras/coisa5/trompete/Coisa5-VQF_FINAL_Trumpet_Bb.pdf'
+          'trompete_som': 'partituras/coisa5/trompete/Coisa5-VQF_FINAL_Trompete.mp3'
 
       - nome: 'Take 5 (Dm)'
         links:
