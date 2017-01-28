@@ -31,7 +31,7 @@ letraum = \lyricmode {
 }
 
 
-partedois = \relative c' {
+partedois = \relative c'' {
    \mark \default
    \repeat volta 2 {
   \tuplet 3/2 {d4 ees f} |  \tuplet 3/2 {bes, c d } | \tuplet 3/2 {ees 
@@ -139,7 +139,7 @@ letratoda = {
             \parteum
             \skip 256 \bar "" \break
             \unfoldRepeats
-            \partedois
+            \transpose c c, {\partedois}
 		}
 	}
 	\addlyrics {\letratoda}
