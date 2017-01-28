@@ -50,7 +50,7 @@ intromelodia = {
   R2 | R2 |
 }
 
-melodia =  \relative d'' {
+melodia =  \relative d''' {
   %\partial 4 retirado para juntar
   d4 | 
   \repeat volta 2 {
@@ -159,7 +159,7 @@ letra = \lyricmode {
       \new TimeSig \compassoseparado
       \new Staff {
         \new Voice = "trompete" {
-          \transpose bes a {
+          \transpose bes a, {
           \pretudo
           \introgeral
           \unfoldRepeats
