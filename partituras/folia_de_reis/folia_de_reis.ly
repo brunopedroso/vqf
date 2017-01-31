@@ -1,4 +1,5 @@
 \version "2.18.2" 
+\markup { \vspace #2 }
 
 DCfine = {
   \once \override Score.RehearsalMark #'break-visibility = #'#(#t #t #f)
@@ -15,7 +16,7 @@ melparteA = \relative c'' {
    }
   \alternative { 
     {g2 r8 d'8 e16 d8 b16}
-    {g2 r8 f'8 f16 f8 f16}
+    {g2 r8 <b d f> <b d f>16 <b d f>8 <b d f>16}
   }
 }
 melparteB =\relative c'' {
@@ -25,7 +26,7 @@ melparteB =\relative c'' {
       g4 e8 g8. b8.  a8.  g16 | 
     }
     \alternative {
-      {g2 r8 f'8 f16 f8 f16}
+      {g2 r8 <b d f> <b d f>16 <b d f>8 <b d f>16}
       {g2 r8 d8 e16 d8 b16}
     }
 
@@ -38,18 +39,18 @@ melparteBac =\relative c'' {
       g4 e8 g8. b8.  a8.  g16 | 
     }
     \alternative {
-      {g2 r8 f'8 f16 f8 f16}
-      {g2 r16 d8 d16 d16 d8 d16~}
+      {g2 r8 <g b d f> <g b d f>16 <g b d f>8 <g b d f>16}
+      {g2 r16 <g b d>8 <g b d>16 <g b d>16 <g b d>8 <g b d>16~}
     }
 
 } 
 
 melparteC = \relative c'' {
-   d16 d8 d16 d8 d8 e d f e16 d16~ |
+   <g b d>16 <g b d>8 <g b d>16 <g b d>8 <g b d> e'8 d f e16 d16~ |
    d4 r4 r16 d8 d16 d8 d16 cis16~ |
    cis16 cis8 cis16 d8 cis16 c!8 c8 c16 d8 c16 b16~ |
-   b16 b'8. r4  r16 f,8 f16 f16 f8 f16 |
-   f16 f8 f16 f8 f8 f e f e16 d16~ |
+   b16 b'8. r4  r16  <b, d f>8 <b d f>16 <b d f>16 <b d f>8 <b d f>16 |
+   <b d f>16 <b d f>8 <b d f>16 <b d f>8 <b d f>8 <b d f> e f e16 d16~ |
    d4 g4 r16 d8 d16 d8 d16 cis16~ |
    cis16 cis8 cis16 d8 cis16 c!8 c8 c16 d8 c16 b16~ |
    b2  r8 d8 e16 d8 b16
@@ -123,13 +124,13 @@ baixoparteC = \relative c' {
 	  \time 4/4
 	  \clef G
 	  \key d \major
-	  \transpose g d {
-	  \intromel
-	  \melparteA
-	  \melparteB
-	  \melparteA
-	  \melparteBac
-	  \melparteC
+	  \transpose g d' {
+	    \intromel
+	    \melparteA
+	    \melparteB
+	    \melparteA
+	    \melparteBac
+	    \melparteC
 	  \DCfine
 	}
 	   
@@ -190,7 +191,7 @@ baixoparteC = \relative c' {
 	  \melparteB
 	  \melparteA
 	  \melparteBac
-	  \melparteC
+	  transpose c c' {\melparteC}
 	  \DCfine
 	  }
 	   
@@ -237,6 +238,7 @@ baixoparteC = \relative c' {
 	  \voiceOne
 	  \time 4/4
 	  \clef G
+	  \key f \major
 	  \transpose g f {
 	  \intromel
 	  \unfoldRepeats
@@ -258,6 +260,7 @@ baixoparteC = \relative c' {
 	  \voiceTwo
 	  \time 4/4
 	  \clef F
+	  \key f \major
 	  \transpose c bes,, {
 	    \introbaixo
 	    \unfoldRepeats  
