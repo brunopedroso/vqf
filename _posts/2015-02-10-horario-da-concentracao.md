@@ -15,13 +15,23 @@ description: "Horário de concentração"
     float:left;
     margin-left: 0;
   }
-  
+
   .img_r {
     float:right;
     margin-right: 0;
   }
-  
+
 </style>
+
+<br/><br/>
+#### **ATENÇÃO:** Isso foi escrito em 10 de fevereiro de 2015!
+**CUIDADO** para não confundir o compromisso de horário! Nosso compromisso pra 2017 é:
+* concentração a partir de 8:30
+* Exu onã às 9:30 em ponto!
+
+Contro com todos para cumprirmos com esse compromisso.
+
+**Amo vocês todos!**
 
 ### Horário de concentração
 
@@ -41,13 +51,13 @@ Não, não é isso.
 
 O que acontece é que o carnaval não é apenas o momento em que o bloco está andando. Em que estamos tocando o repertório que ensaiamos. Pra falar a verdade, essa não é nem mesmo a parte 'mais importante'. Longe disso!
 
-O compromisso de tocar aquelas músicas, naqueles dias, naqueles horários, com algum público convidado; de ensaiar tudo direitinho... Tudo isso não passa de uma mera desculpa para ficarmos juntos, tocar, beber, curtir. Juntos e descontraídos. 
+O compromisso de tocar aquelas músicas, naqueles dias, naqueles horários, com algum público convidado; de ensaiar tudo direitinho... Tudo isso não passa de uma mera desculpa para ficarmos juntos, tocar, beber, curtir. Juntos e descontraídos.
 
-E isso poderia acontecer a qualquer tempo. Nem precisava ser no carnaval. O carnaval só é particularmente conveniente porque é um dos raros momentos na vida em que de fato internalizamos uma espécie de 'permissão coletiva' para brincar. É quando podemos até beber cerveja de manhã sem que as pessoas nos olhem torto! 
+E isso poderia acontecer a qualquer tempo. Nem precisava ser no carnaval. O carnaval só é particularmente conveniente porque é um dos raros momentos na vida em que de fato internalizamos uma espécie de 'permissão coletiva' para brincar. É quando podemos até beber cerveja de manhã sem que as pessoas nos olhem torto!
 
 Portanto, no fundo, o 'compromisso' do desfile, dos ensaios, etc. é apenas uma desculpa conveniente e socialmente aceita. O que importa mesmo é a gente se reunir e celebrar a nossa amizade. Só isso.
 
-E o que normalmente acontece é que durante o 'desfile' nós estamos curtindo, mas sempre com uma dose extra de ansiedade e compromisso. Então esse **NÃO É** o momento em que a gente mais se curte. Simplesmente não é! 
+E o que normalmente acontece é que durante o 'desfile' nós estamos curtindo, mas sempre com uma dose extra de ansiedade e compromisso. Então esse **NÃO É** o momento em que a gente mais se curte. Simplesmente não é!
 
 No final do bloco, na roda que fazemos depois que a gente já desfilou, a gente também costuma ficar bem mais a vontade. Tocar o que quiser, improvisar, errar, rir... parar de tocar um pouco... Mas o final é também um momento em que a gente já está meio cansado, algumas pessoas já foram embora, o sol já está forte...
 
@@ -78,7 +88,7 @@ Se você participa desse grupo desde 2013, deve saber que eu simplesmente **nunc
 
 Isso porque a essência do que estamos fazendo é a espontaneidade. Não faria absolutamente nenhum sentido se alguém fosse a um ensaio ou ao bloco por obrigação.
 
-É claro que eu fico triste quando qualquer um de vocês não aparece, ou chega atrasado e perde algum momento mágico que nós vivemos. Meu coração dói. Mas dói de forma natural. Não porque você não cumpriu o seu compromisso. Dói simplesmente porque aquele momento não vai mais voltar... e eu sinto (por um bom tempo) uma saudade profunda do momento que não vivemos juntos. 
+É claro que eu fico triste quando qualquer um de vocês não aparece, ou chega atrasado e perde algum momento mágico que nós vivemos. Meu coração dói. Mas dói de forma natural. Não porque você não cumpriu o seu compromisso. Dói simplesmente porque aquele momento não vai mais voltar... e eu sinto (por um bom tempo) uma saudade profunda do momento que não vivemos juntos.
 
 Foi como eu me senti quando não consegui fazer meus amigos chegarem na hora certa no Ghandi, ou no Boitatá nas vezes seguintes. Mas é uma saudade boa, no fim das contas. Superado o primeiro momento de tristeza, entendo que cada um tem seu momento e que o que acontece é exatamente aquilo que devia ter acontecido. Lamento, mas entendo.
 
@@ -90,7 +100,7 @@ Tudo isso pra dizer que você pode chegar ao bloco **no horário que quiser.**
 
 Não poderemos esperar pra sempre. O bloco vai ter que sair por volta das 11 por respeito aos demais.
 
-Lamentarei profundamente se você perder o começo da roda, mas entenderei. 
+Lamentarei profundamente se você perder o começo da roda, mas entenderei.
 
 Se você não chegar, torço para que ano que vem o bloco aconteça de novo, e que você tenha uma chance de viver aquilo conosco no futuro.
 
