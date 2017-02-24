@@ -29,7 +29,7 @@ description: "Horário de concentração"
 * concentração a partir de 8:30
 * Exu onã às 9:30 em ponto!
 
-Contro com todos para cumprirmos com esse compromisso.
+Conto com todos para cumprirmos com esse compromisso.
 
 **Amo vocês todos!**
 
