@@ -38,6 +38,32 @@ blocos:
         links:
           'yt': 'https://www.youtube.com/watch?v=TuPFzT8BJag'
 
+      - nome: 'Pegando fogo (F)'
+        links:
+          'yt': 'https://www.youtube.com/watch?v=vtpZdHOyL_Q'
+
+      - nome: 'Chuva Suor e Cerveja (F)'
+        links:
+          'yt': 'https://www.youtube.com/watch?v=PhFxuVUMFn8'
+
+      - nome: 'Meia lua inteira (F)'
+        links:
+          'yt': 'https://www.youtube.com/watch?v=GszhZlipskg'
+
+      - nome: 'Diplomata (Gm)'
+        links:
+          'yt': 'https://www.youtube.com/watch?v=W_0CSKXh4Q0'
+
+      - nome: 'Chan Chan (Dm)'
+        links:
+          'yt': 'https://www.youtube.com/watch?v=UXwLBS3yUkA'
+
+      - nome: 'Sing Sing Sin (Em)'
+        links:
+          'yt': 'https://www.youtube.com/watch?v=r2S1I_ien6A'
+
+
+
 
   - nome: "Músicas Velhas"
     musicas:
