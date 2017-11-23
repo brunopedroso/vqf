@@ -58,7 +58,7 @@ blocos:
         links:
           'yt': 'https://www.youtube.com/watch?v=UXwLBS3yUkA'
 
-      - nome: 'Sing Sing Sin (Em)'
+      - nome: 'Sing Sing Sing (Em)'
         links:
           'yt': 'https://www.youtube.com/watch?v=r2S1I_ien6A'
 
