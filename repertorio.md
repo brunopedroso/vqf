@@ -3,9 +3,8 @@ layout: default
 title: Repertório
 blocos:
 
-  - nome: "Músicas Novas"
+  - nome: "Donato"
     musicas:
-
       - nome: 'Emoriô (Dm)'
       - nome: 'A Rã (Dm)'
         links:
@@ -20,19 +19,31 @@ blocos:
           'tuba': 'partituras/a_ra/a_ra_Tuba.pdf'
       - nome: 'Bananeira (Dm)'
 
-      - nome: 'ângelus (D)'
-        links:
-          'yt': 'https://www.youtube.com/watch?v=3K3qJVKBlh4'
-      - nome: 'The fool on the hill (D)'
+
+  - nome: "Lento"
+    musicas:
+      - nome: 'The fool on the hill (C)'
         links:
           'yt': 'https://www.youtube.com/watch?v=_Wt0I60ZGp0'
-      - nome: 'O tremzinho do caipira (D)'
+      - nome: 'ângelus (C)'
+        links:
+          'yt': 'https://www.youtube.com/watch?v=3K3qJVKBlh4'
+      - nome: 'O tremzinho do caipira (C)'
         links:
           'yt': 'https://www.youtube.com/watch?v=DC8oFe5bkeY'
+
 
       - nome: 'Pelo Telefone (Bb)'
         links:
           'yt': 'https://www.youtube.com/watch?v=woLpDB4jjDU'
+
+
+  - nome: "Balancê"
+    musicas:
+
+      - nome: 'Chuva Suor e Cerveja (C)'
+        links:
+          'yt': 'https://www.youtube.com/watch?v=PhFxuVUMFn8'
 
       - nome: 'O Balancê (F)'
         links:
@@ -42,31 +53,21 @@ blocos:
         links:
           'yt': 'https://www.youtube.com/watch?v=vtpZdHOyL_Q'
 
-      - nome: 'Chuva Suor e Cerveja (F)'
+      - nome: 'Mulata bossa nova (F)'
         links:
-          'yt': 'https://www.youtube.com/watch?v=PhFxuVUMFn8'
+          'gravacao': ''
+          'c':  'partituras/mulata_bossa_nova/mulata_bossa_nova_C.pdf'
+          'bb': 'partituras/mulata_bossa_nova/mulata_bossa_nova_Bb.pdf'
+          'eb': 'partituras/mulata_bossa_nova/mulata_bossa_nova_Eb.pdf'
 
-      - nome: 'Meia lua inteira (F)'
-        links:
-          'yt': 'https://www.youtube.com/watch?v=GszhZlipskg'
 
-      - nome: 'Diplomata (Gm)'
-        links:
-          'yt': 'https://www.youtube.com/watch?v=W_0CSKXh4Q0'
+
+  - nome: "Dm lento"
+    musicas:
 
       - nome: 'Chan Chan (Dm)'
         links:
           'yt': 'https://www.youtube.com/watch?v=UXwLBS3yUkA'
-
-      - nome: 'Sing Sing Sing (Em)'
-        links:
-          'yt': 'https://www.youtube.com/watch?v=r2S1I_ien6A'
-
-
-
-
-  - nome: "Músicas Velhas"
-    musicas:
 
       - nome: 'Marcha dos Pescadores (Dm)'
         links:
@@ -104,6 +105,10 @@ blocos:
           'alto':    'partituras/touradas_em_madrid/Touradas_em_Madrid-Sax_Alto_Eb.pdf'
           'tenor_clarin':    'partituras/touradas_em_madrid/Touradas_em_Madrid-Clarinete_e_Sax_Tenor_em_Bb.pdf'
 
+
+  - nome: "Jazz"
+    musicas:
+
       - nome: 'Nanã (Dm)'
         links:
           'completa': 'partituras/coisa5/COISA5.mp3'
@@ -131,22 +136,15 @@ blocos:
           'bb': 'partituras/take_five/take_five-Instrumentos_em_Bb.pdf'
           'eb': 'partituras/take_five/take_five-Sax_Alto_em_Eb.pdf'
 
-      - nome: 'Corta Jaca (Dm)'
+
+  - nome: "African"
+    musicas:
+
+      - nome: 'Máscara Negra (F)'
         links:
-          'gravacao': 'partituras/corta_jaca/corta_jaca.midi'
-          'c':  'partituras/corta_jaca/Corta_Jaca.pdf'
-          'bb': 'partituras/corta_jaca/Corta_Jaca-Clarinete_e_Sax_Tenor_em_Bb.pdf'
-          'eb': 'partituras/corta_jaca/Corta_Jaca-Sax_Alto_em_Eb.pdf'
-
-      - nome: 'Bandeira Branca (Dm)'
-        links:
-          'gravacao': 'https://s3.amazonaws.com/brunopedroso/vqf/b1/2_BandeiraBranca.mp3'
-          'c':  'partituras/bandeira_branca/bandeira_branca_C.pdf'
-          'bb': 'partituras/bandeira_branca/bandeira_branca_Bb.pdf'
-          'eb': 'partituras/bandeira_branca/bandeira_branca_Eb.pdf'
-
-
-
+          'c':  'partituras/mascara_negra/mascara_negra_C.pdf'
+          'bb': 'partituras/mascara_negra/mascara_negra_Bb.pdf'
+          'eb': 'partituras/mascara_negra/mascara_negra_Eb.pdf'
 
       - nome: 'Circo (F)'
         links:
@@ -162,18 +160,23 @@ blocos:
           'bb': 'http://rudemechanicalorchestra.org/music/african-marketplace'
           'eb': 'http://rudemechanicalorchestra.org/music/african-marketplace'
 
-      - nome: 'Máscara Negra (F)'
+      - nome: 'Caravan (Fm)'
         links:
-          'c':  'partituras/mascara_negra/mascara_negra_C.pdf'
-          'bb': 'partituras/mascara_negra/mascara_negra_Bb.pdf'
-          'eb': 'partituras/mascara_negra/mascara_negra_Eb.pdf'
+          'gravacao': 'https://www.youtube.com/watch?v=r95flkZciJE'
+          'c':  'partituras/caravan/caravan_C.pdf'
+          'bb': 'partituras/caravan/caravan_Bb.pdf'
+          'eb': 'partituras/caravan/caravan_Eb.pdf'
 
-      - nome: 'Mulata bossa nova (F)'
+
+  - nome: "Maxixes"
+    musicas:
+
+      - nome: 'Corta Jaca (Dm)'
         links:
-          'gravacao': ''
-          'c':  'partituras/mulata_bossa_nova/mulata_bossa_nova_C.pdf'
-          'bb': 'partituras/mulata_bossa_nova/mulata_bossa_nova_Bb.pdf'
-          'eb': 'partituras/mulata_bossa_nova/mulata_bossa_nova_Eb.pdf'
+          'gravacao': 'partituras/corta_jaca/corta_jaca.midi'
+          'c':  'partituras/corta_jaca/Corta_Jaca.pdf'
+          'bb': 'partituras/corta_jaca/Corta_Jaca-Clarinete_e_Sax_Tenor_em_Bb.pdf'
+          'eb': 'partituras/corta_jaca/Corta_Jaca-Sax_Alto_em_Eb.pdf'
 
       - nome: 'Folia de Reis (F)'
         links:
@@ -181,6 +184,10 @@ blocos:
           'c':  'partituras/folia_de_reis/folia_de_reis-Trombone_em_C.pdf'
           'bb': 'partituras/folia_de_reis/folia_de_reis-Trompete_em_Bb.pdf'
           'eb': 'partituras/folia_de_reis/folia_de_reis-Sax_Alto_Eb.pdf'
+
+      - nome: 'Meia lua inteira (F)'
+        links:
+          'yt': 'https://www.youtube.com/watch?v=GszhZlipskg'
 
       - nome: 'Benguelê (F)'
         links:
@@ -190,26 +197,16 @@ blocos:
           'part Eb': 'partituras/benguele/benguele-Eb.pdf'
           'midi':    'partituras/benguele/benguele.midi'
 
-      - nome: 'Caravan (Fm)'
-        links:
-          'gravacao': 'https://www.youtube.com/watch?v=r95flkZciJE'
-          'c':  'partituras/caravan/caravan_C.pdf'
-          'bb': 'partituras/caravan/caravan_Bb.pdf'
-          'eb': 'partituras/caravan/caravan_Eb.pdf'
 
-      - nome: 'Índio quer apito (Gm)'
-        links:
-          'gravacao': 'https://s3.amazonaws.com/brunopedroso/vqf/b2/5_Indio.mp3'
-          'c':  'partituras/indio_quer_apito/indio_quer_apito_C.pdf'
-          'bb': 'partituras/indio_quer_apito/indio_quer_apito_Bb.pdf'
-          'eb': 'partituras/indio_quer_apito/indio_quer_apito_Eb.pdf'
+
+  - nome: "Marchinhas Gm"
+    musicas:
 
       - nome: 'Pastorinhas (Gm)'
         links:
           'c':  'partituras/pastorinhas/pastorinhas_C.pdf'
           'bb': 'partituras/pastorinhas/pastorinhas_Bb.pdf'
           'eb': 'partituras/pastorinhas/pastorinhas_Eb.pdf'
-
 
       - nome: 'Taí (Gm)'
         links:
@@ -232,19 +229,17 @@ blocos:
           'bb': 'partituras/saca_rolhas/saca_rolhas_Bb.pdf'
           'eb': 'partituras/saca_rolhas/saca_rolhas_Eb.pdf'
 
-
-      - nome: 'Alalaô (Bb)'
+      - nome: 'Índio quer apito (Gm)'
         links:
-          'gravacao': 'https://s3.amazonaws.com/brunopedroso/vqf/b2/2_Alalao.mp3'
-          'c':  'partituras/alalao/alalao_C.pdf'
-          'bb': 'partituras/alalao/alalao_Bb.pdf'
-          'eb': 'partituras/alalao/alalao_Eb.pdf'
+          'gravacao': 'https://s3.amazonaws.com/brunopedroso/vqf/b2/5_Indio.mp3'
+          'c':  'partituras/indio_quer_apito/indio_quer_apito_C.pdf'
+          'bb': 'partituras/indio_quer_apito/indio_quer_apito_Bb.pdf'
+          'eb': 'partituras/indio_quer_apito/indio_quer_apito_Eb.pdf'
 
-      - nome: 'Aurora (Bb)'
-        links:
-          'c':  'partituras/aurora/aurora_C.pdf'
-          'bb': 'partituras/aurora/aurora_Bb.pdf'
-          'eb': 'partituras/aurora/aurora_Eb.pdf'
+
+
+  - nome: "Marchinhas Bb 1"
+    musicas:
 
       - nome: 'Pierrot Apaixonado (Bb)'
         links:
@@ -261,12 +256,30 @@ blocos:
           'bb': 'partituras/jardineira/jardineira_Bb.pdf'
           'eb': 'partituras/jardineira/jardineira_Eb.pdf'
 
+      - nome: 'Aurora (Bb)'
+        links:
+          'c':  'partituras/aurora/aurora_C.pdf'
+          'bb': 'partituras/aurora/aurora_Bb.pdf'
+          'eb': 'partituras/aurora/aurora_Eb.pdf'
+
+
+      - nome: 'Alalaô (Bb)'
+        links:
+          'gravacao': 'https://s3.amazonaws.com/brunopedroso/vqf/b2/2_Alalao.mp3'
+          'c':  'partituras/alalao/alalao_C.pdf'
+          'bb': 'partituras/alalao/alalao_Bb.pdf'
+          'eb': 'partituras/alalao/alalao_Eb.pdf'
+
       - nome: 'Mamãe eu quero (Bb)'
         links:
           'gravacao': 'https://s3.amazonaws.com/brunopedroso/vqf/b2/1_Mamae.mp3'
           'c':  'partituras/mamae_eu_quero/mamae_eu_quero_C.pdf'
           'bb': 'partituras/mamae_eu_quero/mamae_eu_quero_Bb.pdf'
           'eb': 'partituras/mamae_eu_quero/mamae_eu_quero_Eb.pdf'
+
+
+  - nome: "Marchinhas Bb 2"
+    musicas:
 
       - nome: 'Cachaça (Bb)'
         links:
@@ -281,7 +294,6 @@ blocos:
           'c':  'partituras/me_da_um_dinheiro_aih/me_da_um_dinheiro_ai_C.pdf'
           'bb': 'partituras/me_da_um_dinheiro_aih/me_da_um_dinheiro_ai_Bb.pdf'
           'eb': 'partituras/me_da_um_dinheiro_aih/me_da_um_dinheiro_ai_Eb.pdf'
-
 
       - nome: 'Marcha da Cueca (Bb)'
         links:
@@ -298,18 +310,9 @@ blocos:
           'eb': 'partituras/vassourinhas/Vassourinhas-Sax_Alto_Eb.pdf'
 
 
-      - nome: 'Cabelo de fogo (Cm)'
-        links:
-          'youtube': 'https://www.youtube.com/watch?v=orm4PuCYysA'
 
-      - nome: 'Praieira (Cm)'
-        links:
-          'gravacao': 'partituras/praieira/praieira-Sopros_Juntos.midi'
-          'c':   'partituras/praieira/praieira-Trombone_em_C.pdf'
-          'bb':  'partituras/praieira/praieira-Trompete_em_Bb.pdf'
-          'eb':  'partituras/praieira/praieira-Sax_Alto_Eb.pdf'
-          'bb2': 'partituras/praieira/praieira-Final_do_Refrão_em_Bb.pdf'
-
+  - nome: "Frevos"
+    musicas:
 
       - nome: 'Madeira que Cupim não Rói (Em)'
         links:
@@ -325,6 +328,43 @@ blocos:
           'bb':  'partituras/frevo_e_ciranda/frevo_e_ciranda-melodia_Bb.pdf'
           'eb':  'partituras/frevo_e_ciranda/frevo_e_ciranda-melodia_Eb.pdf'
 
+      - nome: 'Cabelo de fogo (Cm)'
+        links:
+          'youtube': 'https://www.youtube.com/watch?v=orm4PuCYysA'
+
+      - nome: 'Praieira (Cm)'
+        links:
+          'gravacao': 'partituras/praieira/praieira-Sopros_Juntos.midi'
+          'c':   'partituras/praieira/praieira-Trombone_em_C.pdf'
+          'bb':  'partituras/praieira/praieira-Trompete_em_Bb.pdf'
+          'eb':  'partituras/praieira/praieira-Sax_Alto_Eb.pdf'
+          'bb2': 'partituras/praieira/praieira-Final_do_Refrão_em_Bb.pdf'
+
+
+
+  - nome: "Perdidas"
+    musicas:
+
+      - nome: 'Diplomata (Gm)'
+        links:
+          'yt': 'https://www.youtube.com/watch?v=W_0CSKXh4Q0'
+
+      - nome: 'Sing Sing Sing (Em)'
+        links:
+          'yt': 'https://www.youtube.com/watch?v=r2S1I_ien6A'
+
+
+
+
+  - nome: "Saideira"
+    musicas:
+
+      - nome: 'Bandeira Branca (Dm)'
+        links:
+          'gravacao': 'https://s3.amazonaws.com/brunopedroso/vqf/b1/2_BandeiraBranca.mp3'
+          'c':  'partituras/bandeira_branca/bandeira_branca_C.pdf'
+          'bb': 'partituras/bandeira_branca/bandeira_branca_Bb.pdf'
+          'eb': 'partituras/bandeira_branca/bandeira_branca_Eb.pdf'
 
 ---
 
