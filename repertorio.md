@@ -17,7 +17,8 @@ blocos:
           'tromb': 'partituras/a_ra/a_ra_Trombone.pdf'
           'tromp': 'partituras/a_ra/a_ra_Trompetes.pdf'
           'tuba': 'partituras/a_ra/a_ra_Tuba.pdf'
-      - nome: 'Bananeira (Dm)'
+
+      - nome: 'Bananeira (Gm)'
 
 
   - nome: "Lento"
@@ -33,9 +34,6 @@ blocos:
           'yt': 'https://www.youtube.com/watch?v=DC8oFe5bkeY'
 
 
-      - nome: 'Pelo Telefone (Bb)'
-        links:
-          'yt': 'https://www.youtube.com/watch?v=woLpDB4jjDU'
 
 
   - nome: "Balancê"
@@ -344,6 +342,10 @@ blocos:
 
   - nome: "Perdidas"
     musicas:
+
+      - nome: 'Pelo Telefone (Bb)'
+        links:
+          'yt': 'https://www.youtube.com/watch?v=woLpDB4jjDU'
 
       - nome: 'Diplomata (Gm)'
         links:
