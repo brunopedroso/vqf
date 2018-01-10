@@ -6,6 +6,12 @@ blocos:
   - nome: "Donato"
     musicas:
       - nome: 'Emoriô (Dm)'
+	links:
+	  'mid': 'partituras/emorioh/emorioh_C.midi'
+	  'c': 'partituras/emorioh/emorioh_C.pdf'
+	  'bb': 'partituras/emorioh/emorioh_Bb.pdf'
+	  'eb': 'partituras/emorioh/emorioh_Eb.pdf'
+
       - nome: 'A Rã (Dm)'
         links:
           'mid': 'partituras/a_ra/a_ra.mid'
@@ -25,7 +31,7 @@ blocos:
     musicas:
       - nome: 'The fool on the hill (C)'
         links:
-          'mid': 'partituras/fool_on_the_hill.mid'
+          'mid': 'partituras/fool_on_the_hill.midi'
           'yt': 'https://www.youtube.com/watch?v=_Wt0I60ZGp0'
           'c': 'partituras/fool_on_the_hill/fool_on_the_hill_C.pdf'
           'bb': 'partituras/fool_on_the_hill/fool_on_the_hill_Bb.pdf'
