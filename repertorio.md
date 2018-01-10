@@ -6,7 +6,7 @@ blocos:
   - nome: "Donato"
     musicas:
       - nome: 'Emoriô (Dm)'
-	links:
+        links:
 	  'mid': 'partituras/emorioh/emorioh_C.midi'
 	  'c': 'partituras/emorioh/emorioh_C.pdf'
 	  'bb': 'partituras/emorioh/emorioh_Bb.pdf'
