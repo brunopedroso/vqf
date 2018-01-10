@@ -101,7 +101,7 @@ letratoda = {
 }
 
 \book {
-  \bookOutputName "the_fool_on_the_hill_Eb"
+  \bookOutputName "fool_on_the_hill_Eb"
   \header {
     instrument = "Instrumentos em Eb"
   }
@@ -124,7 +124,7 @@ letratoda = {
 }
 
 \book {
-  \bookOutputName "the_fool_on_the_hill_C"
+  \bookOutputName "fool_on_the_hill_C"
   \header {
     instrument = "Instrumentos em C"
   }
@@ -151,7 +151,7 @@ letratoda = {
 }
 
 \book {
-  \bookOutputName "the_fool_on_the_hill_Bb"
+  \bookOutputName "fool_on_the_hill_Bb"
   \header {
     instrument = "Instrumentos em Bb"
   }
