@@ -13,7 +13,7 @@ parteum = \relative c'' {
   \time 4/4
   \key d \minor
   \repeat volta 2 {
-  \mark \default d2~d8 a8 c8. a16 | g2 r2 |
+  d2~\mark \default d8 a8 c8. a16 | g2 r2 |
   g2~g8 f8 a8. f16 | g2 r|
   }
   
