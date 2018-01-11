@@ -117,7 +117,7 @@ letradois = \lyricmode {
 	\new Voice = "baixo" {
 	  \time 4/4
 	  \clef G
-	  \transpose g g{
+	  \transpose g g'{
 	    \unfoldRepeats
 	    \parteum
 	}
