@@ -7,10 +7,10 @@ blocos:
     musicas:
       - nome: 'Emoriô (Dm)'
         links:
-	  'mid': 'partituras/emorioh/emorioh_C.midi'
-	  'c': 'partituras/emorioh/emorioh_C.pdf'
-	  'bb': 'partituras/emorioh/emorioh_Bb.pdf'
-	  'eb': 'partituras/emorioh/emorioh_Eb.pdf'
+          'mid': 'partituras/emorioh/emorioh_C.midi'
+          'c': 'partituras/emorioh/emorioh_C.pdf'
+          'bb': 'partituras/emorioh/emorioh_Bb.pdf'
+          'eb': 'partituras/emorioh/emorioh_Eb.pdf'
 
       - nome: 'A Rã (Dm)'
         links:
@@ -34,13 +34,13 @@ blocos:
           'mid': 'partituras/fool_on_the_hill.midi'
           'yt': 'https://www.youtube.com/watch?v=_Wt0I60ZGp0'
           'c': 'partituras/fool_on_the_hill/fool_on_the_hill_C.pdf'
-          'bb': 'partituras/fool_on_the_hill/fool_on_the_hill_Bb.pdf'
-          'eb': 'partituras/fool_on_the_hill/fool_on_the_hill_Eb.pdf'
-          
+          'bb': 'partituras/fool_on_the_hill/fool_on_the_hill_Bb.pdf'
+          'eb': 'partituras/fool_on_the_hill/fool_on_the_hill_Eb.pdf'
+
       - nome: 'ângelus (C)'
         links:
           'yt': 'https://www.youtube.com/watch?v=3K3qJVKBlh4'
-      - nome: 'O trenzinho do caipira (C)'
+      - nome: 'O trenzinho do caipira (C)'
         links:
           'yt': 'https://www.youtube.com/watch?v=DC8oFe5bkeY'
 
