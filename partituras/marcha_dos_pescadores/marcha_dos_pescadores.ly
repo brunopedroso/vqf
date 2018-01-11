@@ -17,9 +17,9 @@ parteum = \relative c' {
   	\partial 2
   	r8 \mark \default
   	\minhajangada
-  	r8 f a8. g16 | f2 r8 e g8. f16 | e2 \bar "" \break
+  	r8 f' a8. g16 | f2 r8 e g8. f16 | e2 \bar "" \break
   	r8 \minhajangada
-  	r8 bes'' d8. c16 | bes2 r8 a c8. bes16 | a2 \bar "" \break
+  	r8 bes' d8. c16 | bes2 r8 a c8. bes16 | a2 \bar "" \break
   	r8 d, f g | a g f e d4 a' | g2 \bar "" \break
   	r8 f a g | f e g f e4 f | d2 r4 \bar "" \break
   	
