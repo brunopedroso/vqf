@@ -7,10 +7,10 @@ blocos:
     musicas:
       - nome: 'Emoriô (Dm)'
         links:
-          'mid': 'partituras/emorioh/emorioh_C.midi'
-          'c': 'partituras/emorioh/emorioh_C.pdf'
-          'bb': 'partituras/emorioh/emorioh_Bb.pdf'
-          'eb': 'partituras/emorioh/emorioh_Eb.pdf'
+          'mid': 'partituras/emorioh/emorioh_C.midi'
+          'c': 'partituras/emorioh/emorioh_C.pdf'
+          'bb': 'partituras/emorioh/emorioh_Bb.pdf'
+          'eb': 'partituras/emorioh/emorioh_Eb.pdf'
 
       - nome: 'A Rã (Dm)'
         links:
@@ -31,11 +31,11 @@ blocos:
     musicas:
       - nome: 'The fool on the hill (C)'
         links:
-          'mid': 'partituras/fool_on_the_hill.midi'
-          'yt': 'https://www.youtube.com/watch?v=_Wt0I60ZGp0'
-          'c': 'partituras/fool_on_the_hill/fool_on_the_hill_C.pdf'
-          'bb': 'partituras/fool_on_the_hill/fool_on_the_hill_Bb.pdf'
-          'eb': 'partituras/fool_on_the_hill/fool_on_the_hill_Eb.pdf'
+          'mid': 'partituras/fool_on_the_hill.midi'
+          'yt': 'https://www.youtube.com/watch?v=_Wt0I60ZGp0'
+          'c': 'partituras/fool_on_the_hill/fool_on_the_hill_C.pdf'
+          'bb': 'partituras/fool_on_the_hill/fool_on_the_hill_Bb.pdf'
+          'eb': 'partituras/fool_on_the_hill/fool_on_the_hill_Eb.pdf'
 
       - nome: 'ângelus (C)'
         links:
@@ -56,7 +56,7 @@ blocos:
           'c': 'partituras/chuva_suor_e_cerveja/chuva_suor_e_cerveja_C.pdf'
           'bb': 'partituras/chuva_suor_e_cerveja/chuva_suor_e_cerveja_Bb.pdf'
           'eb': 'partituras/chuva_suor_e_cerveja/chuva_suor_e_cerveja_Eb.pdf'
-          - nome: 'O Balancê (F)'
+      - nome: 'O Balancê (F)'
         links:
           'yt': 'https://www.youtube.com/watch?v=TuPFzT8BJag'
 
