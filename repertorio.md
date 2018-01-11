@@ -53,8 +53,10 @@ blocos:
       - nome: 'Chuva Suor e Cerveja (C)'
         links:
           'yt': 'https://www.youtube.com/watch?v=PhFxuVUMFn8'
-
-      - nome: 'O Balancê (F)'
+          'c': 'partituras/chuva_suor_e_cerveja/chuva_suor_e_cerveja_C.pdf'
+          'bb': 'partituras/chuva_suor_e_cerveja/chuva_suor_e_cerveja_Bb.pdf'
+          'eb': 'partituras/chuva_suor_e_cerveja/chuva_suor_e_cerveja_Eb.pdf'
+          - nome: 'O Balancê (F)'
         links:
           'yt': 'https://www.youtube.com/watch?v=TuPFzT8BJag'
 
