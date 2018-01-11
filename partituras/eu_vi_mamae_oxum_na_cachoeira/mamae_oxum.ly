@@ -5,19 +5,26 @@
   composer = "Umbanda"
   arranjadopor = "Felipe SilverWood Cope"
 }
-#(set-global-staff-size 20)
+#(set-global-staff-size 18)
 
 parteum = \relative b {
   \clef "treble" 
   \key d \minor
   \time 4/4 
-  \tempo 4=100 \partial 4 a4 | 
+  \tempo 4=100 \partial 4 a4 |
+  \repeat volta 2 {
   d8 cis8 d8 e8 f8 e8 f8 g8 | 
   a4. a4. r8 
   \bar "" \break
-  a | bes8 a8 g8 a8 bes4 c4 | a2 r8 
-  \bar "" \break
-  a bes a8 | 
+  a | bes8 a8 g8 a8 bes4 c4 
+  }
+  \alternative {
+    { a2 r4  \bar "" \break a,}
+    { a'2 r8  
+      \bar "" \break
+  a bes a8 | }
+  }
+
   \repeat volta 2 {
     g8. f16 e16 f16 g8~g 
     \bar "" \break
@@ -34,6 +41,8 @@ parteum = \relative b {
 }
 
 letraum = \lyricmode {
+  Eu vi ma -- mãe o -- xum na ca -- cho -- ei -- ra
+  Sen -- ta -- da na bei -- ra do rio
   Eu vi ma -- mãe o -- xum na ca -- cho -- ei -- ra
   Sen -- ta -- da na bei -- ra do rio
   Co -- lhen -- do lí -- rio li -- ru -- lê
@@ -66,6 +75,7 @@ letradois = \lyricmode {
 	  \time 4/4
 	  \clef G
 	  \transpose g e' {
+	    \unfoldRepeats
 	    \parteum
 	}
 	\addlyrics \letraum
@@ -102,12 +112,12 @@ letradois = \lyricmode {
   \header {
     instrument = "Instrumentos em C"
   }
-\score {
-<<
+  \score {
+      <<
 	\new Voice = "baixo" {
 	  \time 4/4
 	  \clef G
-	  \transpose g g{
+	  \transpose g g'{
 	    \unfoldRepeats
 	    \parteum
 	}

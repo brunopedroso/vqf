@@ -16,27 +16,33 @@ parteum = \transpose g c {
     | % 5
     \once \override TupletBracket #'stencil = ##f
     \times 2/3  {
-      b8 \mf -. b8 ( -. b8 ) -.
+      \mark \default b8 \mf -. b8 ( -. b8 ) -.
     }
-    b2 b4 | % 6
-    c8 d8 ( e8 ) e2 c8 | % 7
-    d8 e16 ( -. fis16 ) -. g8 g8 g8 g8 fis8 d8 | % 8
+    b2 \bar "" \break b4 | % 6
+    c8 d8 ( e8 ) e2 \bar "" \break
+    c8 | % 7
+    d8 e16 ( -. fis16 ) -. g8 g8 g8 \bar "" \break
+    g8 fis8 d8 | % 8
     \once \override TupletBracket #'stencil = ##f
     \times 2/3  {
       e8 ( a8 ) a8
     }
-    a2 d,4 | % 9
+    a2 \bar "" \break d,4 | % 9
     \once \override TupletBracket #'stencil = ##f
     \times 2/3  {
       e8 ( a8 ) a8
     }
-    a8 g8 b8 a4 e16 d16 | \barNumberCheck #7
-    e8 g8 g8 e8 g8 ( e4 ) d8 | % 11
+    a8 g8 b8 a4 \bar "" \break
+    e16 d16 | \barNumberCheck #7
+    e8 g8 g8 e8 g8 ( e4 ) \bar "" \break
+    d8 | % 11
     \once \override TupletBracket #'stencil = ##f
     \times 2/3  {
       e8 ( a8 ) g8
     }
-    a8 g8 a8 ( b8 ) g8 ( e8 ) | % 12
+    a8 g8 a8 ( b8 )  \bar "" \break 
+    \skip 256 \bar "" \break
+    \mark \default  g8 ( e8 ) | % 12
 }
 }
 
@@ -44,26 +50,29 @@ letraum = \lyricmode {
 
 Day after day, a lone-on a hill
 The man with_the foo lish grin is sit ting perfec tly still
-No body wants to know him
-They can see that he's just a fool
-But he_ne ver gi ves an_an swer_But_the   
+No bo dy wants to know him
+They can see that_he's just a fool
+But he_ne ver gives an_an swer 
 
 }
 
 
 partedois = \transpose g c {
   \relative g'' {
-    \key bes \major g8 ( d8 ) es8 ( c8 ) d4 c8 ( d8 ) | % 13
-    es4 d8 ( c8 ) c4 d8 ( es8 ) | % 14
-    f4 es8 ( d8 ) es4 f8 ( g8 ) | % 15
-    a4 bes8 ( a8 ) g2 | % 16
+    \key bes \major g8 ( d8 ) es8 ( c8 ) d4 \bar "" \break
+    c8 ( d8 ) | % 13
+    es4 d8 ( c8 ) c4 \bar "" \break
+    d8 ( es8 ) | % 14
+    f4 es8 ( d8 ) es4 \bar "" \break
+    f8 ( g8 ) | % 15
+    a4 bes8 ( a8 ) g2 % 16
   \bar "|." 
   }
 }
 
 letradois = \lyricmode { 
  
-Fool on_the hill
+But_the  Fool on_the hill
 Sees_the sun going down
 And_the eyes in_his head
 See_the world spinning round
@@ -101,7 +110,7 @@ letratoda = {
 }
 
 \book {
-  \bookOutputName "the_fool_on_the_hill_Eb"
+  \bookOutputName "fool_on_the_hill_Eb"
   \header {
     instrument = "Instrumentos em Eb"
   }
@@ -112,7 +121,7 @@ letratoda = {
 	  \new Voice = "saxalto" {
 	    \transpose bes g' {
 	      \parteum
- 	      \skip 256 \bar "" \break 
+%  	      \skip 256 \bar "" \break 
 	      \partedois
 	    }
 	  }
@@ -124,7 +133,7 @@ letratoda = {
 }
 
 \book {
-  \bookOutputName "the_fool_on_the_hill_C"
+  \bookOutputName "fool_on_the_hill_C"
   \header {
     instrument = "Instrumentos em C"
   }
@@ -134,7 +143,7 @@ letratoda = {
 	\new Staff {
 	  \new Voice = "tromboneC" {
 	    \parteum
- 	    \skip 256 \bar "" \break 
+% 	    \skip 256 \bar "" \break 
 	    \partedois
 	  }
 	\addlyrics {\letratoda}
@@ -151,7 +160,7 @@ letratoda = {
 }
 
 \book {
-  \bookOutputName "the_fool_on_the_hill_Bb"
+  \bookOutputName "fool_on_the_hill_Bb"
   \header {
     instrument = "Instrumentos em Bb"
   }
@@ -159,9 +168,10 @@ letratoda = {
     <<
       \new TimeSig \compassoseparado
 	\new Staff {
-	  \new Voice = "saxalto" {
+	  \new Voice = "saxtenor" {
 	    \transpose bes c' {
- 	      \parteum\skip 256 \bar "" \break 
+  	      \parteum
+%   	      \skip 256 \bar "" \break 
 	      \partedois
 	    }
 	  }
