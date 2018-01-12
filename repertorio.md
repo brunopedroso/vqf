@@ -40,6 +40,11 @@ blocos:
       - nome: 'ângelus (C)'
         links:
           'yt': 'https://www.youtube.com/watch?v=3K3qJVKBlh4'
+          'mid': 'partituras/angelus/angelus_C.midi'
+          'c': 'partituras/angelus/angelus_C.pdf'
+          'bb': 'partituras/angelus/angelus_Bb.pdf'
+          'eb': 'partituras/angelus/angelus_Eb.pdf'
+
       - nome: 'O trenzinho do caipira (C)'
         links:
           'yt': 'https://www.youtube.com/watch?v=DC8oFe5bkeY'
