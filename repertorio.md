@@ -3,79 +3,35 @@ layout: default
 title: Repertório
 blocos:
 
-  - nome: "Donato"
-    musicas:
-      - nome: 'Emoriô (Dm)'
-        links:
-          'mid': 'partituras/emorioh/emorioh_C.midi'
-          'c': 'partituras/emorioh/emorioh_C.pdf'
-          'bb': 'partituras/emorioh/emorioh_Bb.pdf'
-          'eb': 'partituras/emorioh/emorioh_Eb.pdf'
-
-      - nome: 'A Rã (Dm)'
-        links:
-          'mid': 'partituras/a_ra/a_ra.mid'
-          'mp3': 'partituras/a_ra/a_ra_FINAL.mp3'
-          'geral': 'partituras/a_ra/a_ra_GERAL.pdf'
-          'harmonia': 'partituras/a_ra/a_ra_Harmonia.pdf'
-          'sax_bar': 'partituras/a_ra/a_ra_SaxBaritono.pdf'
-          'sax_ten': 'partituras/a_ra/a_ra_SaxTenor.pdf'
-          'tromb': 'partituras/a_ra/a_ra_Trombone.pdf'
-          'tromp': 'partituras/a_ra/a_ra_Trompetes.pdf'
-          'tuba': 'partituras/a_ra/a_ra_Tuba.pdf'
-
-      - nome: 'Bananeira (Gm)'
-
-
-  - nome: "Lento"
-    musicas:
-      - nome: 'The fool on the hill (C)'
-        links:
-          'mid': 'partituras/fool_on_the_hill.midi'
-          'yt': 'https://www.youtube.com/watch?v=_Wt0I60ZGp0'
-          'c': 'partituras/fool_on_the_hill/fool_on_the_hill_C.pdf'
-          'bb': 'partituras/fool_on_the_hill/fool_on_the_hill_Bb.pdf'
-          'eb': 'partituras/fool_on_the_hill/fool_on_the_hill_Eb.pdf'
-
-      - nome: 'ângelus (C)'
-        links:
-          'yt': 'https://www.youtube.com/watch?v=3K3qJVKBlh4'
-          'mid': 'partituras/angelus/angelus_C.midi'
-          'c': 'partituras/angelus/angelus_C.pdf'
-          'bb': 'partituras/angelus/angelus_Bb.pdf'
-          'eb': 'partituras/angelus/angelus_Eb.pdf'
-
-      - nome: 'O trenzinho do caipira (C)'
-        links:
-          'yt': 'https://www.youtube.com/watch?v=DC8oFe5bkeY'
-
-
-
-
-  - nome: "Balancê"
+  - nome: "African"
     musicas:
 
-      - nome: 'Chuva Suor e Cerveja (C)'
+      - nome: 'Máscara Negra (F)'
         links:
-          'yt': 'https://www.youtube.com/watch?v=PhFxuVUMFn8'
-          'c': 'partituras/chuva_suor_e_cerveja/chuva_suor_e_cerveja_C.pdf'
-          'bb': 'partituras/chuva_suor_e_cerveja/chuva_suor_e_cerveja_Bb.pdf'
-          'eb': 'partituras/chuva_suor_e_cerveja/chuva_suor_e_cerveja_Eb.pdf'
-      - nome: 'O Balancê (F)'
-        links:
-          'yt': 'https://www.youtube.com/watch?v=TuPFzT8BJag'
+          'c':  'partituras/mascara_negra/mascara_negra_C.pdf'
+          'bb': 'partituras/mascara_negra/mascara_negra_Bb.pdf'
+          'eb': 'partituras/mascara_negra/mascara_negra_Eb.pdf'
 
-      - nome: 'Pegando fogo (F)'
+      - nome: 'Circo (F)'
         links:
-          'yt': 'https://www.youtube.com/watch?v=vtpZdHOyL_Q'
+          'gravacao': 'https://s3.amazonaws.com/brunopedroso/vqf/b1/3_Circo.mp3'
+          'c':  'partituras/circo/circo_C.pdf'
+          'bb': 'partituras/circo/circo_Bb.pdf'
+          'eb': 'partituras/circo/circo_Eb.pdf'
 
-      - nome: 'Mulata bossa nova (F)'
+      - nome: 'African Marketplace (F)'
         links:
-          'gravacao': ''
-          'c':  'partituras/mulata_bossa_nova/mulata_bossa_nova_C.pdf'
-          'bb': 'partituras/mulata_bossa_nova/mulata_bossa_nova_Bb.pdf'
-          'eb': 'partituras/mulata_bossa_nova/mulata_bossa_nova_Eb.pdf'
+          'gravacao': 'http://rudemechanicalorchestra.org/music/african-marketplace'
+          'c': 'http://rudemechanicalorchestra.org/music/african-marketplace'
+          'bb': 'http://rudemechanicalorchestra.org/music/african-marketplace'
+          'eb': 'http://rudemechanicalorchestra.org/music/african-marketplace'
 
+      - nome: 'Caravan (Fm)'
+        links:
+          'gravacao': 'https://www.youtube.com/watch?v=r95flkZciJE'
+          'c':  'partituras/caravan/caravan_C.pdf'
+          'bb': 'partituras/caravan/caravan_Bb.pdf'
+          'eb': 'partituras/caravan/caravan_Eb.pdf'
 
 
   - nome: "Dm lento"
@@ -111,147 +67,6 @@ blocos:
           'c':  'partituras/turma_do_funil/turma_do_funil_C.pdf'
           'bb': 'partituras/turma_do_funil/turma_do_funil_Bb.pdf'
           'eb': 'partituras/turma_do_funil/turma_do_funil_Eb.pdf'
-
-      - nome: 'Touradas em Madri (Dm)'
-        links:
-          'youtube': 'https://www.youtube.com/watch?v=PFE2UNSu5Hs'
-          'geral':  'partituras/touradas_em_madrid/Touradas_em_Madrid.pdf'
-          'tromb':    'partituras/touradas_em_madrid/Touradas_em_Madrid-Trombone_em_C.pdf'
-          'tromp':    'partituras/touradas_em_madrid/Touradas_em_Madrid-Trompetes_em_Bb.pdf'
-          'alto':    'partituras/touradas_em_madrid/Touradas_em_Madrid-Sax_Alto_Eb.pdf'
-          'tenor_clarin':    'partituras/touradas_em_madrid/Touradas_em_Madrid-Clarinete_e_Sax_Tenor_em_Bb.pdf'
-
-
-  - nome: "Jazz"
-    musicas:
-
-      - nome: 'Nanã (Dm)'
-        links:
-          'completa': 'partituras/coisa5/COISA5.mp3'
-          'percussa': 'partituras/coisa5/percussao/Coisa5-VQF_FINAL_Drum_Set.pdf'
-
-          'sax_alto': 'partituras/coisa5/sax_alto/Coisa5-VQF_FINAL_AltoSax.pdf'
-          'sax_alto_som': 'partituras/coisa5/sax_alto/Coisa5-VQF_FINAL_Alto_Sax.mp3'
-
-          'sax_baritono': 'partituras/coisa5/sax_baritono/Coisa5-VQF_FINAL_BaritoneSax.pdf'
-          'sax_baritono_som': 'partituras/coisa5/sax_baritono/Coisa5-VQF_FINAL_BaritoneSax.mp3'
-
-          'sax_tenor': 'partituras/coisa5/sax_tenor/Coisa5-VQF_FINAL_TenorSax.pdf'
-          'sax_tenor_som': 'partituras/coisa5/sax_tenor/Coisa5-VQF_FINAL_TenorSax.mp3'
-
-          'trombone': 'partituras/coisa5/trombone/Coisa5-VQF_FINAL_Trombone.pdf'
-          'trombone_som': 'partituras/coisa5/trombone/Coisa5-VQF_FINAL_Trombone.mp3'
-
-          'trompete': 'partituras/coisa5/trompete/Coisa5-VQF_FINAL_Trumpet_Bb.pdf'
-          'trompete_som': 'partituras/coisa5/trompete/Coisa5-VQF_FINAL_Trompete.mp3'
-
-      - nome: 'Take 5 (Dm)'
-        links:
-          'gravacao': 'partituras/take_five/take_five.midi'
-          'c':  'partituras/take_five/take_five-Instrumentos_em_C.pdf'
-          'bb': 'partituras/take_five/take_five-Instrumentos_em_Bb.pdf'
-          'eb': 'partituras/take_five/take_five-Sax_Alto_em_Eb.pdf'
-
-
-  - nome: "African"
-    musicas:
-
-      - nome: 'Máscara Negra (F)'
-        links:
-          'c':  'partituras/mascara_negra/mascara_negra_C.pdf'
-          'bb': 'partituras/mascara_negra/mascara_negra_Bb.pdf'
-          'eb': 'partituras/mascara_negra/mascara_negra_Eb.pdf'
-
-      - nome: 'Circo (F)'
-        links:
-          'gravacao': 'https://s3.amazonaws.com/brunopedroso/vqf/b1/3_Circo.mp3'
-          'c':  'partituras/circo/circo_C.pdf'
-          'bb': 'partituras/circo/circo_Bb.pdf'
-          'eb': 'partituras/circo/circo_Eb.pdf'
-
-      - nome: 'African Marketplace (F)'
-        links:
-          'gravacao': 'http://rudemechanicalorchestra.org/music/african-marketplace'
-          'c': 'http://rudemechanicalorchestra.org/music/african-marketplace'
-          'bb': 'http://rudemechanicalorchestra.org/music/african-marketplace'
-          'eb': 'http://rudemechanicalorchestra.org/music/african-marketplace'
-
-      - nome: 'Caravan (Fm)'
-        links:
-          'gravacao': 'https://www.youtube.com/watch?v=r95flkZciJE'
-          'c':  'partituras/caravan/caravan_C.pdf'
-          'bb': 'partituras/caravan/caravan_Bb.pdf'
-          'eb': 'partituras/caravan/caravan_Eb.pdf'
-
-
-  - nome: "Maxixes"
-    musicas:
-
-      - nome: 'Corta Jaca (Dm)'
-        links:
-          'gravacao': 'partituras/corta_jaca/corta_jaca.midi'
-          'c':  'partituras/corta_jaca/Corta_Jaca.pdf'
-          'bb': 'partituras/corta_jaca/Corta_Jaca-Clarinete_e_Sax_Tenor_em_Bb.pdf'
-          'eb': 'partituras/corta_jaca/Corta_Jaca-Sax_Alto_em_Eb.pdf'
-
-      - nome: 'Folia de Reis (F)'
-        links:
-          'gravacao': 'partituras/folia_de_reis/folia_de_reis.midi'
-          'c':  'partituras/folia_de_reis/folia_de_reis-Trombone_em_C.pdf'
-          'bb': 'partituras/folia_de_reis/folia_de_reis-Trompete_em_Bb.pdf'
-          'eb': 'partituras/folia_de_reis/folia_de_reis-Sax_Alto_Eb.pdf'
-
-      - nome: 'Meia lua inteira (F)'
-        links:
-          'yt': 'https://www.youtube.com/watch?v=GszhZlipskg'
-
-      - nome: 'Benguelê (F)'
-        links:
-          'youtube': 'https://www.youtube.com/watch?v=DMXSecu0yEY'
-          'part C':  'partituras/benguele/benguele-C.pdf'
-          'part Bb': 'partituras/benguele/benguele-Bb.pdf'
-          'part Eb': 'partituras/benguele/benguele-Eb.pdf'
-          'midi':    'partituras/benguele/benguele.midi'
-
-
-
-  - nome: "Marchinhas Gm"
-    musicas:
-
-      - nome: 'Pastorinhas (Gm)'
-        links:
-          'c':  'partituras/pastorinhas/pastorinhas_C.pdf'
-          'bb': 'partituras/pastorinhas/pastorinhas_Bb.pdf'
-          'eb': 'partituras/pastorinhas/pastorinhas_Eb.pdf'
-
-      - nome: 'Taí (Gm)'
-        links:
-          'gravacao': 'https://s3.amazonaws.com/brunopedroso/vqf/b1/4_Tai.mp3'
-          'c':  'partituras/taih/taih_C.pdf'
-          'bb': 'partituras/taih/taih_Bb.pdf'
-          'eb': 'partituras/taih/taih_Eb.pdf'
-
-      - nome: 'Quem sabe sabe (Gm)'
-        links:
-          'gravacao': 'https://s3.amazonaws.com/brunopedroso/vqf/b3/1_quem_sabe_sabe.mp3'
-          'c':  'partituras/quem_sabe_sabe/quem_sabe_sabe_C.pdf'
-          'bb': 'partituras/quem_sabe_sabe/quem_sabe_sabe_Bb.pdf'
-          'eb': 'partituras/quem_sabe_sabe/quem_sabe_sabe_Eb.pdf'
-
-      - nome: 'Saca-rolhas (Gm)'
-        links:
-          'gravacao': 'https://s3.amazonaws.com/brunopedroso/vqf/b2/3_Sacarolhas.mp3'
-          'c':  'partituras/saca_rolhas/saca_rolhas_C.pdf'
-          'bb': 'partituras/saca_rolhas/saca_rolhas_Bb.pdf'
-          'eb': 'partituras/saca_rolhas/saca_rolhas_Eb.pdf'
-
-      - nome: 'Índio quer apito (Gm)'
-        links:
-          'gravacao': 'https://s3.amazonaws.com/brunopedroso/vqf/b2/5_Indio.mp3'
-          'c':  'partituras/indio_quer_apito/indio_quer_apito_C.pdf'
-          'bb': 'partituras/indio_quer_apito/indio_quer_apito_Bb.pdf'
-          'eb': 'partituras/indio_quer_apito/indio_quer_apito_Eb.pdf'
-
 
 
   - nome: "Marchinhas Bb 1"
@@ -292,6 +107,114 @@ blocos:
           'c':  'partituras/mamae_eu_quero/mamae_eu_quero_C.pdf'
           'bb': 'partituras/mamae_eu_quero/mamae_eu_quero_Bb.pdf'
           'eb': 'partituras/mamae_eu_quero/mamae_eu_quero_Eb.pdf'
+
+
+  - nome: "Donato (afoxé)"
+    musicas:
+
+      - nome: 'A Rã (Dm)'
+        links:
+          'mid': 'partituras/a_ra/a_ra.mid'
+          'mp3': 'partituras/a_ra/a_ra_FINAL.mp3'
+          'geral': 'partituras/a_ra/a_ra_GERAL.pdf'
+          'harmonia': 'partituras/a_ra/a_ra_Harmonia.pdf'
+          'sax_bar': 'partituras/a_ra/a_ra_SaxBaritono.pdf'
+          'sax_ten': 'partituras/a_ra/a_ra_SaxTenor.pdf'
+          'tromb': 'partituras/a_ra/a_ra_Trombone.pdf'
+          'tromp': 'partituras/a_ra/a_ra_Trompetes.pdf'
+          'tuba': 'partituras/a_ra/a_ra_Tuba.pdf'
+
+      - nome: 'Emoriô (Dm)'
+        links:
+          'mid': 'partituras/emorioh/emorioh_C.midi'
+          'c': 'partituras/emorioh/emorioh_C.pdf'
+          'bb': 'partituras/emorioh/emorioh_Bb.pdf'
+          'eb': 'partituras/emorioh/emorioh_Eb.pdf'
+
+      - nome: 'Bananeira (Gm)'
+
+
+
+
+
+  - nome: "Balancê"
+    musicas:
+
+      - nome: 'Chuva Suor e Cerveja (C)'
+        links:
+          'yt': 'https://www.youtube.com/watch?v=PhFxuVUMFn8'
+          'c': 'partituras/chuva_suor_e_cerveja/chuva_suor_e_cerveja_C.pdf'
+          'bb': 'partituras/chuva_suor_e_cerveja/chuva_suor_e_cerveja_Bb.pdf'
+          'eb': 'partituras/chuva_suor_e_cerveja/chuva_suor_e_cerveja_Eb.pdf'
+      - nome: 'O Balancê (F)'
+        links:
+          'yt': 'https://www.youtube.com/watch?v=TuPFzT8BJag'
+
+      - nome: 'Pegando fogo (F)'
+        links:
+          'yt': 'https://www.youtube.com/watch?v=vtpZdHOyL_Q'
+
+      - nome: 'Mulata bossa nova (F)'
+        links:
+          'gravacao': ''
+          'c':  'partituras/mulata_bossa_nova/mulata_bossa_nova_C.pdf'
+          'bb': 'partituras/mulata_bossa_nova/mulata_bossa_nova_Bb.pdf'
+          'eb': 'partituras/mulata_bossa_nova/mulata_bossa_nova_Eb.pdf'
+
+
+  - nome: "Lento"
+    musicas:
+      - nome: 'The fool on the hill (C)'
+        links:
+          'mid': 'partituras/fool_on_the_hill.midi'
+          'yt': 'https://www.youtube.com/watch?v=_Wt0I60ZGp0'
+          'c': 'partituras/fool_on_the_hill/fool_on_the_hill_C.pdf'
+          'bb': 'partituras/fool_on_the_hill/fool_on_the_hill_Bb.pdf'
+          'eb': 'partituras/fool_on_the_hill/fool_on_the_hill_Eb.pdf'
+
+      - nome: 'ângelus (C)'
+        links:
+          'yt': 'https://www.youtube.com/watch?v=3K3qJVKBlh4'
+          'mid': 'partituras/angelus/angelus_C.midi'
+          'c': 'partituras/angelus/angelus_C.pdf'
+          'bb': 'partituras/angelus/angelus_Bb.pdf'
+          'eb': 'partituras/angelus/angelus_Eb.pdf'
+
+      - nome: 'O trenzinho do caipira (C)'
+        links:
+          'yt': 'https://www.youtube.com/watch?v=DC8oFe5bkeY'
+
+
+
+  - nome: "Maxixes"
+    musicas:
+
+      - nome: 'Corta Jaca (Dm)'
+        links:
+          'gravacao': 'partituras/corta_jaca/corta_jaca.midi'
+          'c':  'partituras/corta_jaca/Corta_Jaca.pdf'
+          'bb': 'partituras/corta_jaca/Corta_Jaca-Clarinete_e_Sax_Tenor_em_Bb.pdf'
+          'eb': 'partituras/corta_jaca/Corta_Jaca-Sax_Alto_em_Eb.pdf'
+
+      - nome: 'Folia de Reis (F)'
+        links:
+          'gravacao': 'partituras/folia_de_reis/folia_de_reis.midi'
+          'c':  'partituras/folia_de_reis/folia_de_reis-Trombone_em_C.pdf'
+          'bb': 'partituras/folia_de_reis/folia_de_reis-Trompete_em_Bb.pdf'
+          'eb': 'partituras/folia_de_reis/folia_de_reis-Sax_Alto_Eb.pdf'
+
+      - nome: 'Benguelê (F)'
+        links:
+          'youtube': 'https://www.youtube.com/watch?v=DMXSecu0yEY'
+          'part C':  'partituras/benguele/benguele-C.pdf'
+          'part Bb': 'partituras/benguele/benguele-Bb.pdf'
+          'part Eb': 'partituras/benguele/benguele-Eb.pdf'
+          'midi':    'partituras/benguele/benguele.midi'
+
+      - nome: 'Meia lua inteira (F)'
+        links:
+          'yt': 'https://www.youtube.com/watch?v=GszhZlipskg'
+
 
 
   - nome: "Marchinhas Bb 2"
@@ -348,18 +271,75 @@ blocos:
         links:
           'youtube': 'https://www.youtube.com/watch?v=orm4PuCYysA'
 
-      - nome: 'Praieira (Cm)'
-        links:
-          'gravacao': 'partituras/praieira/praieira-Sopros_Juntos.midi'
-          'c':   'partituras/praieira/praieira-Trombone_em_C.pdf'
-          'bb':  'partituras/praieira/praieira-Trompete_em_Bb.pdf'
-          'eb':  'partituras/praieira/praieira-Sax_Alto_Eb.pdf'
-          'bb2': 'partituras/praieira/praieira-Final_do_Refrão_em_Bb.pdf'
 
-
-
-  - nome: "Perdidas"
+  - nome: "Marchinhas Gm"
     musicas:
+
+      - nome: 'Pastorinhas (Gm)'
+        links:
+          'c':  'partituras/pastorinhas/pastorinhas_C.pdf'
+          'bb': 'partituras/pastorinhas/pastorinhas_Bb.pdf'
+          'eb': 'partituras/pastorinhas/pastorinhas_Eb.pdf'
+
+      - nome: 'Taí (Gm)'
+        links:
+          'gravacao': 'https://s3.amazonaws.com/brunopedroso/vqf/b1/4_Tai.mp3'
+          'c':  'partituras/taih/taih_C.pdf'
+          'bb': 'partituras/taih/taih_Bb.pdf'
+          'eb': 'partituras/taih/taih_Eb.pdf'
+
+      - nome: 'Quem sabe sabe (Gm)'
+        links:
+          'gravacao': 'https://s3.amazonaws.com/brunopedroso/vqf/b3/1_quem_sabe_sabe.mp3'
+          'c':  'partituras/quem_sabe_sabe/quem_sabe_sabe_C.pdf'
+          'bb': 'partituras/quem_sabe_sabe/quem_sabe_sabe_Bb.pdf'
+          'eb': 'partituras/quem_sabe_sabe/quem_sabe_sabe_Eb.pdf'
+
+      - nome: 'Saca-rolhas (Gm)'
+        links:
+          'gravacao': 'https://s3.amazonaws.com/brunopedroso/vqf/b2/3_Sacarolhas.mp3'
+          'c':  'partituras/saca_rolhas/saca_rolhas_C.pdf'
+          'bb': 'partituras/saca_rolhas/saca_rolhas_Bb.pdf'
+          'eb': 'partituras/saca_rolhas/saca_rolhas_Eb.pdf'
+
+      - nome: 'Índio quer apito (Gm)'
+        links:
+          'gravacao': 'https://s3.amazonaws.com/brunopedroso/vqf/b2/5_Indio.mp3'
+          'c':  'partituras/indio_quer_apito/indio_quer_apito_C.pdf'
+          'bb': 'partituras/indio_quer_apito/indio_quer_apito_Bb.pdf'
+          'eb': 'partituras/indio_quer_apito/indio_quer_apito_Eb.pdf'
+
+
+
+  - nome: "Desencaixadas"
+    musicas:
+
+      - nome: 'Nanã (Dm)'
+        links:
+          'completa': 'partituras/coisa5/COISA5.mp3'
+          'percussa': 'partituras/coisa5/percussao/Coisa5-VQF_FINAL_Drum_Set.pdf'
+
+          'sax_alto': 'partituras/coisa5/sax_alto/Coisa5-VQF_FINAL_AltoSax.pdf'
+          'sax_alto_som': 'partituras/coisa5/sax_alto/Coisa5-VQF_FINAL_Alto_Sax.mp3'
+
+          'sax_baritono': 'partituras/coisa5/sax_baritono/Coisa5-VQF_FINAL_BaritoneSax.pdf'
+          'sax_baritono_som': 'partituras/coisa5/sax_baritono/Coisa5-VQF_FINAL_BaritoneSax.mp3'
+
+          'sax_tenor': 'partituras/coisa5/sax_tenor/Coisa5-VQF_FINAL_TenorSax.pdf'
+          'sax_tenor_som': 'partituras/coisa5/sax_tenor/Coisa5-VQF_FINAL_TenorSax.mp3'
+
+          'trombone': 'partituras/coisa5/trombone/Coisa5-VQF_FINAL_Trombone.pdf'
+          'trombone_som': 'partituras/coisa5/trombone/Coisa5-VQF_FINAL_Trombone.mp3'
+
+          'trompete': 'partituras/coisa5/trompete/Coisa5-VQF_FINAL_Trumpet_Bb.pdf'
+          'trompete_som': 'partituras/coisa5/trompete/Coisa5-VQF_FINAL_Trompete.mp3'
+
+      - nome: 'Take 5 (Dm)'
+        links:
+          'gravacao': 'partituras/take_five/take_five.midi'
+          'c':  'partituras/take_five/take_five-Instrumentos_em_C.pdf'
+          'bb': 'partituras/take_five/take_five-Instrumentos_em_Bb.pdf'
+          'eb': 'partituras/take_five/take_five-Sax_Alto_em_Eb.pdf'
 
       - nome: 'Pelo Telefone (Bb)'
         links:
@@ -373,6 +353,22 @@ blocos:
         links:
           'yt': 'https://www.youtube.com/watch?v=r2S1I_ien6A'
 
+      - nome: 'Touradas em Madri (Dm)'
+        links:
+          'youtube': 'https://www.youtube.com/watch?v=PFE2UNSu5Hs'
+          'geral':  'partituras/touradas_em_madrid/Touradas_em_Madrid.pdf'
+          'tromb':    'partituras/touradas_em_madrid/Touradas_em_Madrid-Trombone_em_C.pdf'
+          'tromp':    'partituras/touradas_em_madrid/Touradas_em_Madrid-Trompetes_em_Bb.pdf'
+          'alto':    'partituras/touradas_em_madrid/Touradas_em_Madrid-Sax_Alto_Eb.pdf'
+          'tenor_clarin':    'partituras/touradas_em_madrid/Touradas_em_Madrid-Clarinete_e_Sax_Tenor_em_Bb.pdf'
+
+      - nome: 'Praieira (Cm)'
+        links:
+          'gravacao': 'partituras/praieira/praieira-Sopros_Juntos.midi'
+          'c':   'partituras/praieira/praieira-Trombone_em_C.pdf'
+          'bb':  'partituras/praieira/praieira-Trompete_em_Bb.pdf'
+          'eb':  'partituras/praieira/praieira-Sax_Alto_Eb.pdf'
+          'bb2': 'partituras/praieira/praieira-Final_do_Refrão_em_Bb.pdf'
 
 
 
@@ -411,8 +407,6 @@ blocos:
 ## Repertório
 
   <table>
-
-    <col width="20px" />
 
     {% for bloco in page.blocos  %}
 
