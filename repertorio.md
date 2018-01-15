@@ -40,6 +40,14 @@ blocos:
       - nome: 'Chan Chan (Dm)'
         links:
           'yt': 'https://www.youtube.com/watch?v=UXwLBS3yUkA'
+          'midi': 'partituras/chan_chan/chan_chan_Geral.midi'
+          'c': 'partituras/chan_chan/chan_chan_C.pdf'
+          'bb': 'partituras/chan_chan/chan_chan_Bb.pdf'
+          'eb': 'partituras/chan_chan/chan_chan_Eb.pdf'
+          'Tuba': 'partituras/chan_chan/chan_chan_Tuba.pdf'
+          'Guitarra': 'partituras/chan_chan/chan_chan_Geral.pdf'
+          'Geral': 'partituras/chan_chan/chan_chan_Geral.pdf'
+
 
       - nome: 'Marcha dos Pescadores (Dm)'
         links:
