@@ -1,11 +1,12 @@
 \include "../formatoversos.ly"
 \include "../marcaspadronizadas.ly"
 
-%#(set-global-staff-size 2)
+#(set-global-staff-size 14)
 
 \header{
   title = "Ângelus"
   composer =  "Milton Nascimento"
+  copyright = "(copyleft) - CC BY-SA 4.0"
 }
 
 parte_um= \relative c'' {
@@ -27,9 +28,10 @@ parte_um= \relative c'' {
     g'4 g8 e8~ | e2 |
     a4 a8 g8~ | g2 | d'2~ | d4. r8 | \break
 
-    e4 e8 c8~ | c2 |
+    e4 e8 c8~ | c2 | 
     e4 e8 d8~ | d2 |
-    c4 c8 c8  | a4 c4 | a2 | g2~ | g2 | r2 | \break
+    c4 c8 c8  | a4 c4 | a2 | g2~ | \break
+    g2 | r2 | \break
 
 }
 
