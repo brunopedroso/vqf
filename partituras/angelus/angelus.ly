@@ -28,7 +28,7 @@ parte_um= \relative c'' {
     g'4 g8 e8~ | e2 |
     a4 a8 g8~ | g2 | d'2~ | d4. r8 | \break
 
-    e4 e8 c8~ | c2 | 
+    e4 e8 c8~ | c2 |
     e4 e8 d8~ | d2 |
     c4 c8 c8  | a4 c4 | a2 | g2~ | \break
     g2 | r2 | \break
@@ -114,7 +114,7 @@ parte_dois = \relative c' {
           }
         }
         \new Voice = "dois" {
-          \transpose c g {
+          \transpose bes c {
             \parte_dois
           }
         }
@@ -138,7 +138,7 @@ parte_dois = \relative c' {
           }
         }
         \new Voice = "dois" {
-          \transpose c c {
+          \transpose bes g {
             \parte_dois
           }
         }
