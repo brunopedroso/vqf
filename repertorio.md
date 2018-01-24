@@ -191,7 +191,8 @@ blocos:
       - nome: 'O trenzinho do caipira (C)'
         links:
           'yt': 'https://www.youtube.com/watch?v=DC8oFe5bkeY'
-
+          'c': 'partituras/trenzinho/trenzinhoCaipiraC.png'
+          'bb': 'partituras/trenzinho/trenzinhoCaipiraBb.png'
 
 
   - nome: "Maxixes"
