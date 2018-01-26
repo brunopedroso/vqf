@@ -323,6 +323,12 @@ blocos:
   - nome: "Desencaixadas"
     musicas:
 
+      - nome: 'Pé na Tuba (Am)'
+        links:
+          'mp3': 'partituras/pe_na_tuba/pe_na_tuba.mp3'
+          'juntos': 'partituras/pe_na_tuba/pe_na_tuba_juntos.pdf'
+          'separados': 'partituras/pe_na_tuba/pe_na_tuba_separados.pdf'
+
       - nome: 'Nanã (Dm)'
         links:
           'completa': 'partituras/coisa5/COISA5.mp3'
