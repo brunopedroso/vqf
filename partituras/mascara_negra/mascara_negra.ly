@@ -112,7 +112,7 @@ letratoda = {
       \new Staff {
         \new Voice = "saxalto" {
           \transpose bes d {
-            \parteum
+            \transpose c c'  {\parteum}
             \skip 256 \bar "" \break
             \unfoldRepeats
             \partedois
@@ -139,7 +139,7 @@ letratoda = {
             \parteum
             \skip 256 \bar "" \break
             \unfoldRepeats
-            \transpose c c, {\partedois}
+            \partedois
 		}
 	}
 	\addlyrics {\letratoda}
