@@ -42,7 +42,7 @@ parte_dois = \relative c' {
 
     \mark \default |
 
-    c'4 c8 a8~ | a2 |
+    c''4 c8 a8~ | a2 |
     c4 c8 a8~ | a2 |
     g4 g8 e8~ | e2~ | e2 | r2 | \break
 
