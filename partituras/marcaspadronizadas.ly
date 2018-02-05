@@ -23,6 +23,11 @@ marcaB = {
     \once \override Score.RehearsalMark.font-size = #3
     \mark \markup { \box "B"}
 }
+marcaC = {
+  % \bar "||"
+    \once \override Score.RehearsalMark.font-size = #3
+    \mark \markup { \box "C"}
+}
 DSCoda = {
   \bar "||"
     \cadenzaOn
@@ -35,7 +40,7 @@ DSCoda = {
         \once \override TextScript.word-space = #1.5
         <>^\markup { \center-column { "Ao " \musicglyph #"scripts.segno" "e " \line { \center-column {\musicglyph #"scripts.coda" }} } }
          \repeat unfold 2 {
-          s1
+          s2
           \bar ""
         }
         % Resume bar count and show staff lines again
@@ -96,7 +101,7 @@ DCapoCoda = {
   }}
 }
 \paper {
-        markup-system-spacing #'basic-distance = #20
+        markup-system-spacing #'basic-distance = #17
     }
 
 
