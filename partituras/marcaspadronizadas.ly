@@ -13,9 +13,7 @@ Coda = {
 }
 
 marcaA = {
-  \bar "||"
-    \once \override Score.RehearsalMark.font-size = #3
-    \mark \markup { \box "A"}
+ \mark { \once \override Score.RehearsalMark.font-size = #3 \markup{\box "A"}}
 }
 
 marcaB = {
