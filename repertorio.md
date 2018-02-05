@@ -134,7 +134,7 @@ blocos:
 
       - nome: 'Emoriô (Dm)'
         links:
-          'mid': 'partituras/emorioh/emorioh_C.midi'
+          'midi': 'partituras/emorioh/emorioh_C.midi'
           'c': 'partituras/emorioh/emorioh_C.pdf'
           'bb': 'partituras/emorioh/emorioh_Bb.pdf'
           'eb': 'partituras/emorioh/emorioh_Eb.pdf'
@@ -157,6 +157,10 @@ blocos:
       - nome: 'O Balancê (F)'
         links:
           'yt': 'https://www.youtube.com/watch?v=TuPFzT8BJag'
+          'c': 'partituras/balanceh/balanceh_C.pdf'
+          'bb': 'partituras/balanceh/balanceh_Bb.pdf'
+          'eb': 'partituras/balanceh/balanceh_Eb.pdf'
+          'midi': 'partituras/balanceh/balanceh_C.midi'
 
       - nome: 'Pegando fogo (F)'
         links:
