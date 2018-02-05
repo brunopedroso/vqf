@@ -147,9 +147,6 @@ blocos:
           'eb': 'partituras/bananeira/bananeira_Eb.pdf'
 
 
-
-
-
   - nome: "Balancê"
     musicas:
 
