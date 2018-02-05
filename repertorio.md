@@ -167,6 +167,10 @@ blocos:
       - nome: 'Pegando fogo (F)'
         links:
           'yt': 'https://www.youtube.com/watch?v=vtpZdHOyL_Q'
+          'c': 'partituras/pegando_fogo/pegando_fogo_C.pdf'
+          'bb': 'partituras/pegando_fogo/pegando_fogo_Bb.pdf'
+          'eb': 'partituras/pegando_fogo/pegando_fogo_Eb.pdf'
+          'midi': 'partituras/pegando_fogo/pegando_fogo_C.midi'
 
       - nome: 'Mulata bossa nova (F)'
         links:
