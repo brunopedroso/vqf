@@ -203,6 +203,10 @@ blocos:
           'yt': 'https://www.youtube.com/watch?v=DC8oFe5bkeY'
           'c': 'partituras/trenzinho/trenzinhoCaipiraC.png'
           'bb': 'partituras/trenzinho/trenzinhoCaipiraBb.png'
+          'eb': 'partituras/trenzinho/trenzinho_Eb.pdf'
+          'c-letra': 'partituras/trenzinho/trenzinho_C.pdf'
+          'bb-letra': 'partituras/trenzinho/trenzinho_Bb.pdf'
+          'midi': 'partituras/trenzinho/trenzinho_C.midi'
 
 
   - nome: "Maxixes"
