@@ -279,6 +279,10 @@ blocos:
       - nome: 'Cabelo de fogo (Cm)'
         links:
           'youtube': 'https://www.youtube.com/watch?v=orm4PuCYysA'
+          'c':   'partituras/cabelo_de_fogo/cabelo_de_fogo_C.pdf'
+          'bb':  'partituras/cabelo_de_fogo/cabelo_de_fogo_Bb.pdf'
+          'eb':  'partituras/cabelo_de_fogo/cabelo_de_fogo_Eb.pdf'
+          'midi':  'partituras/cabelo_de_fogo/cabelo_de_fogo_C.midi'
 
 
   - nome: "Marchinhas Gm"
