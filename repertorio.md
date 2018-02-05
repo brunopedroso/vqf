@@ -140,6 +140,7 @@ blocos:
           'eb': 'partituras/emorioh/emorioh_Eb.pdf'
 
       - nome: 'Bananeira (Gm)'
+        links:
           'midi': 'partituras/bananeira/bananeira_C.midi'
           'c': 'partituras/bananeira/bananeira_C.pdf'
           'bb': 'partituras/bananeira/bananeira_Bb.pdf'
