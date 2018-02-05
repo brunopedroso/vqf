@@ -23,7 +23,7 @@ parteum = \relative c' {
 letraum = \lyricmode {
  	
 	Quan to ri so oh quan ta-a le gri a 
-	Mais de mil pa lha ços no sa lã ão  
+	Mais de mil pa lha ços no sa lã ão  
 	Ar le quim es tá cho ran do pe lo-a mor da Co lom bi na 
 	No mei o da mul ti dão	
 
@@ -79,7 +79,7 @@ letradois = \lyricmode {
 	Foi no car na val que pas sou 
 	
 	Eu sou a que le Pier rô 
-	Que te-a bra çou e te bei jou meu a mor 
+	Que te-a bra çou e te bei jou meu a mor 
 
 	Na mes ma más ca ra ne gra  
 	Que-es con de-o teu ros to 
@@ -101,28 +101,12 @@ letratoda = {
   \letradois
 }
 
-\book {
-  \bookOutputName "mascara_negra_Eb"
-  \header {
-    instrument = "Para instrumentos em Eb"
-  }
-  \score {
-    <<
-      \new TimeSig \compassoseparado
-      \new Staff {
-        \new Voice = "saxalto" {
-          \transpose bes d {
-            \parteum
-            \skip 256 \bar "" \break
-            \unfoldRepeats
-            \partedois
-		}
-	}
-	\addlyrics {\letratoda}
-      }
-    >>
-    \layout {}
-  }
+parteumsaxalto = {
+  \transpose c c' {\parteum}
+}
+
+partedoisclarinete = {
+  \transpose c c {\partedois}
 }
 
 \book {
@@ -139,7 +123,7 @@ letratoda = {
             \parteum
             \skip 256 \bar "" \break
             \unfoldRepeats
-            \transpose c c, {\partedois}
+            \partedoisclarinete
 		}
 	}
 	\addlyrics {\letratoda}
@@ -175,5 +159,29 @@ letratoda = {
     }
   }
 }
+\book {
+  \bookOutputName "mascara_negra_Eb"
+  \header {
+    instrument = "Para instrumentos em Eb"
+  }
+  \score {
+    <<
+      \new TimeSig \compassoseparado
+      \new Staff {
+        \new Voice = "saxalto" {
+          \transpose bes d {
+            \parteumsaxalto
+            \skip 256 \bar "" \break
+            \unfoldRepeats
+            \partedois
+		}
+	}
+	\addlyrics {\letratoda}
+      }
+    >>
+    \layout {}
+  }
+}
+
 
 \version "2.18.2"  % necessary for upgrading to future LilyPond versions.

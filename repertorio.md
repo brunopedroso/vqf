@@ -134,15 +134,17 @@ blocos:
 
       - nome: 'Emoriô (Dm)'
         links:
-          'mid': 'partituras/emorioh/emorioh_C.midi'
+          'midi': 'partituras/emorioh/emorioh_C.midi'
           'c': 'partituras/emorioh/emorioh_C.pdf'
           'bb': 'partituras/emorioh/emorioh_Bb.pdf'
           'eb': 'partituras/emorioh/emorioh_Eb.pdf'
 
       - nome: 'Bananeira (Gm)'
-
-
-
+        links:
+          'midi': 'partituras/bananeira/bananeira_C.midi'
+          'c': 'partituras/bananeira/bananeira_C.pdf'
+          'bb': 'partituras/bananeira/bananeira_Bb.pdf'
+          'eb': 'partituras/bananeira/bananeira_Eb.pdf'
 
 
   - nome: "Balancê"
@@ -157,10 +159,18 @@ blocos:
       - nome: 'O Balancê (F)'
         links:
           'yt': 'https://www.youtube.com/watch?v=TuPFzT8BJag'
+          'c': 'partituras/balanceh/balanceh_C.pdf'
+          'bb': 'partituras/balanceh/balanceh_Bb.pdf'
+          'eb': 'partituras/balanceh/balanceh_Eb.pdf'
+          'midi': 'partituras/balanceh/balanceh_C.midi'
 
       - nome: 'Pegando fogo (F)'
         links:
           'yt': 'https://www.youtube.com/watch?v=vtpZdHOyL_Q'
+          'c': 'partituras/pegando_fogo/pegando_fogo_C.pdf'
+          'bb': 'partituras/pegando_fogo/pegando_fogo_Bb.pdf'
+          'eb': 'partituras/pegando_fogo/pegando_fogo_Eb.pdf'
+          'midi': 'partituras/pegando_fogo/pegando_fogo_C.midi'
 
       - nome: 'Mulata bossa nova (F)'
         links:
@@ -193,6 +203,10 @@ blocos:
           'yt': 'https://www.youtube.com/watch?v=DC8oFe5bkeY'
           'c': 'partituras/trenzinho/trenzinhoCaipiraC.png'
           'bb': 'partituras/trenzinho/trenzinhoCaipiraBb.png'
+          'eb': 'partituras/trenzinho/trenzinho_Eb.pdf'
+          'c-letra': 'partituras/trenzinho/trenzinho_C.pdf'
+          'bb-letra': 'partituras/trenzinho/trenzinho_Bb.pdf'
+          'midi': 'partituras/trenzinho/trenzinho_C.midi'
 
 
   - nome: "Maxixes"
@@ -279,6 +293,10 @@ blocos:
       - nome: 'Cabelo de fogo (Cm)'
         links:
           'youtube': 'https://www.youtube.com/watch?v=orm4PuCYysA'
+          'c':   'partituras/cabelo_de_fogo/cabelo_de_fogo_C.pdf'
+          'bb':  'partituras/cabelo_de_fogo/cabelo_de_fogo_Bb.pdf'
+          'eb':  'partituras/cabelo_de_fogo/cabelo_de_fogo_Eb.pdf'
+          'midi':  'partituras/cabelo_de_fogo/cabelo_de_fogo_C.midi'
 
 
   - nome: "Marchinhas Gm"

@@ -1,6 +1,6 @@
 \header {
   arranger = "Bloco Vai Quem Fica"
-  copyright = "(ɔ) - CC BY-SA 4.0" 
+  copyright = "(copyleft) - CC BY-SA 4.0" 
   tagline = "Criado com Software Livre - Lilypond"
 }
 
@@ -13,15 +13,18 @@ Coda = {
 }
 
 marcaA = {
-  \bar "||"
-    \once \override Score.RehearsalMark.font-size = #3
-    \mark \markup { \box "A"}
+ \mark { \once \override Score.RehearsalMark.font-size = #3 \markup{\box "A"}}
 }
 
 marcaB = {
   \bar "||"
     \once \override Score.RehearsalMark.font-size = #3
     \mark \markup { \box "B"}
+}
+marcaC = {
+  % \bar "||"
+    \once \override Score.RehearsalMark.font-size = #3
+    \mark \markup { \box "C"}
 }
 DSCoda = {
   \bar "||"
@@ -35,7 +38,7 @@ DSCoda = {
         \once \override TextScript.word-space = #1.5
         <>^\markup { \center-column { "Ao " \musicglyph #"scripts.segno" "e " \line { \center-column {\musicglyph #"scripts.coda" }} } }
          \repeat unfold 2 {
-          s1
+          s2
           \bar ""
         }
         % Resume bar count and show staff lines again
@@ -80,14 +83,14 @@ DCapoCoda = {
         \mark \markup {\musicglyph #"scripts.coda"}
 }
 
-pulalinha = {
-  \cadenzaOn
-  \stopStaff
-  \markup {""}
-  \bar "" \break
-  \startStaff
-  \cadenzaOff
-}
+% pulalinha = {
+%   \cadenzaOn
+%   \stopStaff
+%   \markup {""}
+%   \bar "" \break
+%   \startStaff
+%   \cadenzaOff
+% }
 
 \layout {
   \context {
@@ -96,7 +99,7 @@ pulalinha = {
   }}
 }
 \paper {
-        markup-system-spacing #'basic-distance = #20
+        markup-system-spacing #'basic-distance = #17
     }
 
 
