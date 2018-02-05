@@ -1,6 +1,6 @@
 \header {
   arranger = "Bloco Vai Quem Fica"
-  copyright = "(ɔ) - CC BY-SA 4.0" 
+  copyright = "(copyleft) - CC BY-SA 4.0" 
   tagline = "Criado com Software Livre - Lilypond"
 }
 
@@ -80,14 +80,14 @@ DCapoCoda = {
         \mark \markup {\musicglyph #"scripts.coda"}
 }
 
-pulalinha = {
-  \cadenzaOn
-  \stopStaff
-  \markup {""}
-  \bar "" \break
-  \startStaff
-  \cadenzaOff
-}
+% pulalinha = {
+%   \cadenzaOn
+%   \stopStaff
+%   \markup {""}
+%   \bar "" \break
+%   \startStaff
+%   \cadenzaOff
+% }
 
 \layout {
   \context {
