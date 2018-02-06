@@ -13,18 +13,22 @@ Coda = {
 }
 
 marcaA = {
- \mark { \once \override Score.RehearsalMark.font-size = #3 \markup{\box "A"}}
+ \mark { 
+   \once \override Score.RehearsalMark.font-size = #3 
+   \markup{
+     \box "A"
+   }
+ }
 }
 
 marcaB = {
-  \bar "||"
-    \once \override Score.RehearsalMark.font-size = #3
-    \mark \markup { \box "B"}
+  \mark { \once \override Score.RehearsalMark.font-size = #3 \markup{\box "B"}
+  }
 }
 marcaC = {
-  % \bar "||"
-    \once \override Score.RehearsalMark.font-size = #3
-    \mark \markup { \box "C"}
+   \mark { 
+     \once \override Score.RehearsalMark.font-size = #3 \markup{\box "C"}
+   }
 }
 DSCoda = {
   \bar "||"
