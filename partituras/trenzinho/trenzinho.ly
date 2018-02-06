@@ -3,7 +3,6 @@
 
 \include "../formatoversos.ly"
 \include "../marcaspadronizadas.ly"
-\version "2.18.2"
 
 \header {
   encodingdate = "2018-02-05"
