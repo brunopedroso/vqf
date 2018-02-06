@@ -237,7 +237,10 @@ blocos:
       - nome: 'Meia lua inteira (F)'
         links:
           'yt': 'https://www.youtube.com/watch?v=GszhZlipskg'
-
+          'c':  'partituras/meia_lua_inteira/meia_lua_inteira_C.pdf'
+          'bb': 'partituras/meia_lua_inteira/meia_lua_inteira_Bb.pdf'
+          'eb': 'partituras/meia_lua_inteira/meia_lua_inteira_Eb.pdf'
+          'midi':  'partituras/meia_lua_inteira/meia_lua_inteira_C.midi'
 
 
   - nome: "Marchinhas Bb 2"
