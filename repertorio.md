@@ -388,6 +388,13 @@ blocos:
       - nome: 'Sing Sing Sing (Em)'
         links:
           'yt': 'https://www.youtube.com/watch?v=r2S1I_ien6A'
+          'geral': 'partituras/singsingsing/SingSingSing_FullScore.pdf'
+          'tromb1': 'partituras/singsingsing/SingSingSing_Trombone1.pdf'
+          'tromb2': 'partituras/singsingsing/SingSingSing_Trombone2.pdf'
+          'tuba': 'partituras/singsingsing/SingSingSing_Tuba.pdf'
+          'trump1' : 'partituras/singsingsing/SingSingSing_Trumpet1.pdf'
+          'trump1_clarin_solo' : 'partituras/singsingsing/SingSingSing_Trumpet1_ClarinetSoloDuet.pdf'
+          'clarin_solo' : 'partituras/singsingsing/SingSingSing_ClarinetSolo.pdf'
 
       - nome: 'Touradas em Madri (Dm)'
         links:
