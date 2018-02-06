@@ -30,6 +30,19 @@ marcaC = {
      \once \override Score.RehearsalMark.font-size = #3 \markup{\box "C"}
    }
 }
+
+marcaD = {
+   \mark { 
+     \once \override Score.RehearsalMark.font-size = #3 \markup{\box "D"}
+   }
+}
+
+marcaE = {
+   \mark { 
+     \once \override Score.RehearsalMark.font-size = #3 \markup{\box "E"}
+   }
+}
+
 DSCoda = {
   \bar "||"
     \cadenzaOn
