@@ -131,6 +131,7 @@ blocos:
           'tromb': 'partituras/a_ra/a_ra_Trombone.pdf'
           'tromp': 'partituras/a_ra/a_ra_Trompetes.pdf'
           'tuba': 'partituras/a_ra/a_ra_Tuba.pdf'
+          'Eb-melodia': 'partituras/a_ra/a_ra-melodia_Eb.pdf'
 
       - nome: 'Emoriô (Dm)'
         links:
