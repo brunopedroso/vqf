@@ -13,7 +13,7 @@
   encodingsoftware = "Lilypond"
 }
 
-compassoclave = {\key f \major \time 2/4 }
+compassoclave = {\key bes \major \time 2/4 }
 
 parteum =  \relative a'' {
   s8 \marcaA d,16 d16 d d8 d16~ | 
@@ -122,7 +122,7 @@ letratoda = {
       \new TimeSig \compassoseparado
       \new Staff {
         \new Voice = "trombone" {
-          \transpose f f {
+          \transpose bes f {
             \compassoclave
              \parteum
              \partedois
@@ -151,7 +151,7 @@ letratoda = {
      \new TimeSig \compassoseparado
       \new Staff {
         \new Voice = "trompete" {
-          \transpose f g, {
+          \transpose bes g {
             \compassoclave
             \parteum
             \partedois
@@ -176,7 +176,7 @@ letratoda = {
       \new TimeSig \compassoseparado
       \new Staff {
         \new Voice = "saxalto" {
-          \transpose f a {
+          \transpose bes d {
             \compassoclave
             \parteum
             \partedois
