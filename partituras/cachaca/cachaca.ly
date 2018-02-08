@@ -101,7 +101,7 @@ letradois = \lyricmode {
       \new TimeSig \compassoseparado
       \new Staff {
         \new Voice = "trompete" {
-          \transpose bes c {
+          \transpose bes c' {
             \voztoda
           }
         }
