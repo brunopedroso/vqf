@@ -237,7 +237,10 @@ blocos:
       - nome: 'Meia lua inteira (F)'
         links:
           'yt': 'https://www.youtube.com/watch?v=GszhZlipskg'
-
+          'c':  'partituras/meia_lua_inteira/meia_lua_inteira_C.pdf'
+          'bb': 'partituras/meia_lua_inteira/meia_lua_inteira_Bb.pdf'
+          'eb': 'partituras/meia_lua_inteira/meia_lua_inteira_Eb.pdf'
+          'midi':  'partituras/meia_lua_inteira/meia_lua_inteira_C.midi'
 
 
   - nome: "Marchinhas Bb 2"
@@ -377,6 +380,10 @@ blocos:
       - nome: 'Pelo Telefone (Bb)'
         links:
           'yt': 'https://www.youtube.com/watch?v=woLpDB4jjDU'
+          'c':  'partituras/pelo_telefone/pelo_telefone_C.pdf'
+          'bb': 'partituras/pelo_telefone/pelo_telefone_Bb.pdf'
+          'eb': 'partituras/pelo_telefone/pelo_telefone_Eb.pdf'
+          'midi':  'partituras/pelo_telefone/pelo_telefone_C.midi'
 
       - nome: 'Diplomata (Gm)'
         links:
