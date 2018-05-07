@@ -11,9 +11,20 @@ blocos:
         links:
           'yt':  'https://www.youtube.com/watch?v=ZbHJHPTikQA&feature=youtu.be'
 
-      - nome: 'Pra tirar côco (Dm)'
+      - nome: 'Pra tirar côco (Am)'
         links:
-          'yt (Am)': 'https://www.youtube.com/watch?v=0caahoVisao&feature=youtu.be'
+          'yt': 'https://www.youtube.com/watch?v=0caahoVisao&feature=youtu.be'
+          
+  - nome: "Maio"
+    musicas:
+
+      - nome: 'Cartaz (F)'
+        links:
+          'yt':  'https://www.youtube.com/watch?v=Ic2Z7-unNeY'
+
+      - nome: 'Pedras que cantam (Eb)'
+        links:
+          'gravação': '/sound/pedras_que_cantam.mpeg'
           
 
 ---
