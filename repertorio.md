@@ -24,7 +24,26 @@ blocos:
 
       - nome: 'Pedras que cantam (Eb)'
         links:
-          'gravação': '/sound/pedras_que_cantam.mpeg'
+          'gravação': 'http://brunopedroso.github.io/sound/pedras_que_cantam.mpeg'
+
+  - nome: "para 9/jun"
+    musicas:
+
+      - nome: 'A volta do Malandro (Bb)'
+        links:
+          'yt':  'https://www.youtube.com/watch?v=FE3-WIyFXhY'
+
+      - nome: 'Um canto de afoxé para o bloco do Ilê (Bb)'
+        links:
+          'yt (E)':  'https://www.youtube.com/watch?v=9eXbh-6xxUQ'
+
+  - nome: "para 30/jun"
+    musicas:
+
+      - nome: 'Bola de meia bola de guda (D)'
+        links:
+          'yt':  'https://www.youtube.com/watch?v=G9RS2BkbqHw'
+
           
 
 ---
