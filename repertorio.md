@@ -24,7 +24,7 @@ blocos:
 
       - nome: 'Pedras que cantam (Eb)'
         links:
-          'gravação': 'http://brunopedroso.github.io/sound/pedras_que_cantam.mpeg'
+          'gravação': 'http://brunopedroso.github.io/vqf/sound/pedras_que_cantam.mpeg'
 
   - nome: "para 9/jun"
     musicas:
