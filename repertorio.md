@@ -14,6 +14,10 @@ blocos:
       - nome: 'Pra tirar côco (Am)'
         links:
           'yt': 'https://www.youtube.com/watch?v=0caahoVisao&feature=youtu.be'
+          'midi':  'partituras/pra_tirar_coco/pra_tirar_coco.midi' 
+          'C':  'partituras/pra_tirar_coco/pra_tirar_coco_C.pdf'          
+          'Bb':  'partituras/pra_tirar_coco/pra_tirar_coco_Bb.pdf'          
+          'Eb':  'partituras/pra_tirar_coco/pra_tirar_coco_Eb.pdf'                    
           
   - nome: "Maio"
     musicas:
