@@ -111,7 +111,7 @@ letratoda = {
       \new TimeSig \compassoseparado
       \new Staff {
         \new Voice = "saxalto" {
-          \transpose f g {
+          \transpose d b {
             \parteum
             \partedois
             \partetres
@@ -134,7 +134,7 @@ letratoda = {
       \new TimeSig \compassoseparado
       \new Staff {
         \new Voice = "trombone" {
-          \transpose f bes {
+          \transpose d d {
             \parteum
             \partedois
             \partetres
@@ -160,7 +160,7 @@ letratoda = {
       \new TimeSig \compassoseparado
       \new Staff {
         \new Voice = "trompete" {
-          \transpose f c {
+          \transpose d e {
             \parteum
             \partedois
             \partetres

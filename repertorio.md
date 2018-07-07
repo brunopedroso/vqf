@@ -36,15 +36,19 @@ blocos:
       - nome: 'Um canto de afoxé para o bloco do Ilê (Bb)'
         links:
           'yt (E)':  'https://www.youtube.com/watch?v=9eXbh-6xxUQ'
+          'midi':  'partituras/canto_de_afoxeh/canto_de_afoxeh.midi' 
+          'C':  'partituras/canto_de_afoxeh/canto_de_afoxeh_C.pdf'
 
   - nome: "para 30/jun"
     musicas:
 
-      - nome: 'Bola de meia bola de guda (D)'
+      - nome: 'Bola de meia bola de gude (D)'
         links:
           'yt':  'https://www.youtube.com/watch?v=G9RS2BkbqHw'
-
-          
+          'midi':  'partituras/bola_de_meia/bola_de_meia.midi' 
+          'C':  'partituras/bola_de_meia/bola_de_meia_C.pdf'          
+          'Bb':  'partituras/bola_de_meia/bola_de_meia_Bb.pdf'          
+          'Eb':  'partituras/bola_de_meia/bola_de_meia_Eb.pdf'                    
 
 ---
 
