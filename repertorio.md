@@ -38,6 +38,8 @@ blocos:
           'yt (E)':  'https://www.youtube.com/watch?v=9eXbh-6xxUQ'
           'midi':  'partituras/canto_de_afoxeh/canto_de_afoxeh.midi' 
           'C':  'partituras/canto_de_afoxeh/canto_de_afoxeh_C.pdf'
+          'Bb':  'partituras/canto_de_afoxeh/canto_de_afoxeh_Bb.pdf'
+          'Eb':  'partituras/canto_de_afoxeh/canto_de_afoxeh_Eb.pdf'
 
   - nome: "para 30/jun"
     musicas:
