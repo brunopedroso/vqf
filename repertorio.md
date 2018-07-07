@@ -45,8 +45,10 @@ blocos:
       - nome: 'Bola de meia bola de gude (D)'
         links:
           'yt':  'https://www.youtube.com/watch?v=G9RS2BkbqHw'
-
-          
+          'midi':  'partituras/bola_de_meia/bola_de_meia.midi' 
+          'C':  'partituras/bola_de_meia/bola_de_meia_C.pdf'          
+          'Bb':  'partituras/bola_de_meia/bola_de_meia_Bb.pdf'          
+          'Eb':  'partituras/bola_de_meia/bola_de_meia_Eb.pdf'                    
 
 ---
 
