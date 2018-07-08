@@ -36,6 +36,10 @@ blocos:
       - nome: 'A volta do Malandro (Bb)'
         links:
           'yt':  'https://www.youtube.com/watch?v=FE3-WIyFXhY'
+          'midi':  'partituras/volta_do_malandro/volta_do_malandro.midi' 
+          'C':  'partituras/volta_do_malandro/volta_do_malandro_C.pdf'          
+          'Bb':  'partituras/volta_do_malandro/volta_do_malandro_Bb.pdf'          
+          'Eb':  'partituras/volta_do_malandro/volta_do_malandro_Eb.pdf'     
 
       - nome: 'Um canto de afoxé para o bloco do Ilê (Bb)'
         links:
