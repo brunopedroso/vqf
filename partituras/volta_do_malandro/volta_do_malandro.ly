@@ -14,36 +14,40 @@
 
 parteum =  \relative f'' {
   \clef "treble" \key bes \major \time 2/4 
-  f2 r16 as8 as16 as16 as8 as16 | 
-  g8. f16 d8 f8 ~ f2 | 
-  f2 r16 \bar "" \break
-  as8 as16 | 
-  g8. f16 d8 es8 ~ es2 ~ | 
-  es2 r16 es8 es16 es16 es8 es16 | 
-  es8. bes16 c8 d16 | 
-  d2 r16 d8 d16 d8 d8 | 
-  c8 bes8 g8 bes8 bes2 | 
-  bes2 r16 as'8 as16 as8 as8 | 
-  g8 f8 d8 f8 f2 ~ | 
-  f2 r16 as8 as16 as8 as8 | 
-  g8 f8 d8 f8 f2 ~ | 
+  f2 ~ | f2 | r16 as8 as16 as16 as8 as16 | 
+  g8. f16 d8 f8 ~ | f2~| f2 | 
+  r16 as8 as16 as16 as8 as16 | 
+  g8. f16 d8 es8 ~ | 
+  \break 
+  es2 ~ | es |
+  r16 es8 es16 es16 es8 es16 | 
+  es8. bes16 c8 d8~ | 
+  \break 
+  d2 ~| d2 r16 d8 d16 d8 d8 | 
+  c8 bes8 g8 bes8 ~ | bes2 ~ | bes2 |
+  r16 as'8 as16 as8 as8 | 
+  g8 f8 d8 f8 ~ | \break
+  f2 ~ | f2 |
+  r16 as8 as16 as8 as8 | 
+  g8 f8 d8 f8 ~|  f2 ~ | 
   f2 r16 d8 d16 d16 d8 d16 | 
-  d8 es8 f8 c8 | 
-  c8 bes8 c8 d8 -. -. r16 d8 d16 
-  d16 d8 d16 | 
-  fis8 g8 a8 bes8 -. bes2 ~ | 
-  bes2 -- r16  d8 d16 d8 d8 | 
-  c8 bes8 g8 bes8 ~ bes2 ~ | 
-  bes2 r16 r4..  | 
-  c8 bes8 g8 f8 f4. f8 | 
+  d8 es8 f8 c8 ~| 
+  \break
+  c2 ~ | c | 
+  r16 d8 d16 d16 d8 d16 | 
+  fis8 g8 a8 bes8 ~ |
+  \break
+  bes2 ~ | bes2 -- r16  d8 d16 d8 d8 | 
+  c8 bes8 g8 bes8 ~ 
+  \break
+  |bes2 ~ | bes2 | r16 des8 des16 des8 des |
+  c8 bes8 g8 f8 ~ | f2 ~| f2 | 
   r16 d8 d16 d16 d8 d16 d8  es8
-  f8 c8 | 
-  c2 r8 c4. ~ | 
-  c8 r8 r4 d,8 d16 d16 d8 d16 d16 | 
-  f8 d8 d8 -. c8  c8 bes8 ~ -! bes16 ~ bes16 ~ bes8 | 
-  bes2 r8 r16 r16 r4 | 
-  r1 | 
-  r1 \bar "|."
+  f8 c8 ~| 
+  \break
+  c2 ~|c | r16 d,8 d16 d16 d8 d16 | 
+  f8 d8 d8 c8  |  
+  bes2 ~| bes  \bar "|."
 }
 
 PartPOneVoiceTwo =  \relative as'' {
@@ -57,20 +61,20 @@ PartPOneVoiceTwo =  \relative as'' {
 }
 
 letratoda = \lyricmode {
-Eis o ma -- lan -- dro na pra -- ça ou -- tra vez
-Ca -- mi -- nhan -- do na pon -- ta dos pés
-Co -- mo quem pi -- sa nos co -- ra -- ções
-Que ro -- la -- ram nos ca -- ba -- rés
+Eis o ma -- lan -- dro na pra -- ça_ou -- tra vez \break
+Ca -- mi -- nhan -- do na pon -- ta dos pés \break
+Co -- mo quem pi -- sa nos co -- ra -- ções \break
+Que ro -- la -- ram nos ca -- ba -- rés \break
 
-En -- tre deu -- sas e bo -- fe -- tões
-En -- tre da -- dos e co -- ro -- néis
-En -- tre pa -- ran -- go -- lés e pa -- trões
-O ma -- lan -- dro an -- da as -- sim de viés
+En -- tre deu -- sas e bo -- fe -- tões \break
+En -- tre da -- dos e co -- ro -- néis \break
+En -- tre pa -- ran -- go -- lés e pa -- trões \break
+O ma -- lan -- dro_an -- da as -- sim de viés  \break
 
-Dei -- xa ba -- lan -- çar a ma -- ré
-E a po -- ei -- ra as -- sen -- tar no chão
-Dei -- xa a pra -- ça vi -- rar um sa -- lão
-Que o ma -- lan -- dro é o ba -- rão da ra -- lé
+Dei -- xa ba -- lan -- çar a ma -- ré  \break
+E_a po -- ei -- ra_as -- sen -- tar no chão  \break
+Dei -- xa_a pra -- ça vi -- rar um sa -- lão  \break
+Que_o ma -- lan -- dro_é o_ba -- rão da ra -- lé -- é
 }
 
 
@@ -88,7 +92,7 @@ Que o ma -- lan -- dro é o ba -- rão da ra -- lé
             \parteum
           }
         }
-        % \addlyrics \letratoda
+        \addlyrics \letratoda
       }
     >>
     \layout {}
@@ -109,7 +113,7 @@ Que o ma -- lan -- dro é o ba -- rão da ra -- lé
             \parteum
           }
         }
-        % \addlyrics \letratoda
+        \addlyrics \letratoda
       }
     >>
     \layout {}
@@ -129,12 +133,12 @@ Que o ma -- lan -- dro é o ba -- rão da ra -- lé
             \parteum
           }
         }
-        % \addlyrics \letratoda
+        \addlyrics \letratoda
       }
     >>
     \layout {}
     \midi {
-    \tempo 4 = 120
+    \tempo 4 = 110
     }
   }
 }
