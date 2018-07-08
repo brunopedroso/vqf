@@ -10,6 +10,10 @@ blocos:
       - nome: 'Watermelon man (F)'
         links:
           'yt':  'https://www.youtube.com/watch?v=ZbHJHPTikQA&feature=youtu.be'
+          'midi':  'partituras/watermelon_man/watermelon_man.midi' 
+          'C':  'partituras/watermelon_man/watermelon_man_C.pdf'          
+          'Bb':  'partituras/watermelon_man/watermelon_man_Bb.pdf'          
+          'Eb':  'partituras/watermelon_man/watermelon_man_Eb.pdf'                    
 
       - nome: 'Pra tirar côco (Am)'
         links:
