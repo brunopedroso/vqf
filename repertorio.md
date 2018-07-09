@@ -29,6 +29,10 @@ blocos:
       - nome: 'Cartaz (F)'
         links:
           'yt':  'https://www.youtube.com/watch?v=Ic2Z7-unNeY'
+          'midi':  'partituras/cartaz/cartaz.midi' 
+          'C':  'partituras/cartaz/cartaz_C.pdf'          
+          'Bb':  'partituras/cartaz/cartaz_Bb.pdf'          
+          'Eb':  'partituras/cartaz/cartaz_Eb.pdf'                    
 
       - nome: 'Pedras que cantam (Eb)'
         links:
