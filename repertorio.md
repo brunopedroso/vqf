@@ -10,10 +10,18 @@ blocos:
       - nome: 'Watermelon man (F)'
         links:
           'yt':  'https://www.youtube.com/watch?v=ZbHJHPTikQA&feature=youtu.be'
+          'midi':  'partituras/watermelon_man/watermelon_man.midi' 
+          'C':  'partituras/watermelon_man/watermelon_man_C.pdf'          
+          'Bb':  'partituras/watermelon_man/watermelon_man_Bb.pdf'          
+          'Eb':  'partituras/watermelon_man/watermelon_man_Eb.pdf'                    
 
       - nome: 'Pra tirar côco (Am)'
         links:
           'yt': 'https://www.youtube.com/watch?v=0caahoVisao&feature=youtu.be'
+          'midi':  'partituras/pra_tirar_coco/pra_tirar_coco.midi' 
+          'C':  'partituras/pra_tirar_coco/pra_tirar_coco_C.pdf'          
+          'Bb':  'partituras/pra_tirar_coco/pra_tirar_coco_Bb.pdf'          
+          'Eb':  'partituras/pra_tirar_coco/pra_tirar_coco_Eb.pdf'                    
           
   - nome: "Maio"
     musicas:
@@ -32,12 +40,18 @@ blocos:
       - nome: 'A volta do Malandro (Bb)'
         links:
           'yt':  'https://www.youtube.com/watch?v=FE3-WIyFXhY'
+          'midi':  'partituras/volta_do_malandro/volta_do_malandro.midi' 
+          'C':  'partituras/volta_do_malandro/volta_do_malandro_C.pdf'          
+          'Bb':  'partituras/volta_do_malandro/volta_do_malandro_Bb.pdf'          
+          'Eb':  'partituras/volta_do_malandro/volta_do_malandro_Eb.pdf'     
 
       - nome: 'Um canto de afoxé para o bloco do Ilê (Bb)'
         links:
           'yt (E)':  'https://www.youtube.com/watch?v=9eXbh-6xxUQ'
           'midi':  'partituras/canto_de_afoxeh/canto_de_afoxeh.midi' 
           'C':  'partituras/canto_de_afoxeh/canto_de_afoxeh_C.pdf'
+          'Bb':  'partituras/canto_de_afoxeh/canto_de_afoxeh_Bb.pdf'
+          'Eb':  'partituras/canto_de_afoxeh/canto_de_afoxeh_Eb.pdf'
 
   - nome: "para 30/jun"
     musicas:
