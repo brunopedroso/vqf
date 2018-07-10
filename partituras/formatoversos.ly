@@ -5,6 +5,7 @@
   tagline = "Criado com Software Livre - Lilypond"
 }
 
+
 pulalinha = {
   \cadenzaOn
   \stopStaff
@@ -38,6 +39,8 @@ pulalinha = {
 	  \Staff
 	  \remove "Time_signature_engraver"
 	}
+	% Compactar pausas de vários compassos
+	\compressFullBarRests  \override MultiMeasureRest.expand-limit = #3 
 	indent = 0
 	ragged-right = ##t
 	\set Score.markFormatter = #format-mark-box-letters
