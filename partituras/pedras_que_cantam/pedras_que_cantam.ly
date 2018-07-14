@@ -664,8 +664,8 @@ melodiatoda = \relative c'' {
       \new TimeSig \compassoseparado
       \new Staff {
         \new Voice = "flute" {
-          \key f \major
-          \transpose e f, {
+          \key ees \major
+          \transpose e es, {
            \melodiatoda
           }
         }
@@ -690,8 +690,8 @@ melodiatoda = \relative c'' {
       \new TimeSig \compassoseparado
       \new Staff {
         \new Voice = "trombone" {
-          \key g \major
-          \transpose d f, {
+          \key f \major
+          \transpose d es, {
            \melodiatoda
           }
         }
@@ -713,9 +713,9 @@ melodiatoda = \relative c'' {
     <<
       \new TimeSig \compassoseparado
       \new Staff {
-        \new Voice = "trombone" {
-          \key g \major
-          \transpose d d {
+        \new Voice = "saxalto" {
+          \key c \major
+          \transpose d c {
            \melodiatoda
           }
         }
@@ -877,42 +877,42 @@ melodiatoda = \relative c'' {
       \set Staff.instrumentName = "Clarineta Bb, Clarinet"
       \set Staff.shortInstrumentName = "Cl. Bb"
       \context Staff <<
-        \context Voice = "clarinete" { \transpose g f {\clarinete} }
+        \context Voice = "clarinete" { \transpose g es {\clarinete} }
       >>
     >>
     \new Staff <<
       \set Staff.instrumentName = "Saxofone Alto, Alto Sax"
       \set Staff.shortInstrumentName = "A. Sax"
       \context Staff <<
-        \context Voice = "saxalto" { \transpose d f {\saxalto} }
+        \context Voice = "saxalto" { \transpose d es {\saxalto} }
       >>
     >>
      \new Staff <<
        \set Staff.instrumentName = "Saxofone Tenor, Tenor Sax"
        \set Staff.shortInstrumentName = "Sax. Tn."
        \context Staff <<
-         \context Voice = "saxtenor" {\transpose d f { \saxtenor} }
+         \context Voice = "saxtenor" {\transpose d es { \saxtenor} }
        >>
      >>
       \new Staff <<
         \set Staff.instrumentName = "Trompete Piccolo em Bb, Trumpet"
         \set Staff.shortInstrumentName = "Tpt. Pic. Bb"
         \context Staff <<
-          \context Voice = "trompete" { \transpose d f {\trompete} }
+          \context Voice = "trompete" { \transpose d es {\trompete} }
         >>
       >>
        \new Staff <<
          \set Staff.instrumentName = "Trombone, Trombone"
          \set Staff.shortInstrumentName = "Tbn."
          \context Staff <<
-           \context Voice = "trombone" { \transpose g c {\trombone }}
+           \context Voice = "trombone" { \transpose g bes {\trombone }}
          >>
         >>
     \new Staff <<
       \set Staff.instrumentName = "Tuba"
       \set Staff.shortInstrumentName = "Tuba"
       \context Staff <<
-        \context Voice = "tuba" { \transpose d f {\tuba} }
+        \context Voice = "tuba" { \transpose d es {\tuba} }
       >>
     >>
 
