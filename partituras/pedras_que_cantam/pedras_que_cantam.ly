@@ -715,7 +715,7 @@ melodiatoda = \relative c'' {
       \new Staff {
         \new Voice = "saxalto" {
           \key c \major
-          \transpose d  bes {
+          \transpose d  bes, {
            \melodiatoda
           }
         }
