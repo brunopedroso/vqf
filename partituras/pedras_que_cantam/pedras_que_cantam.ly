@@ -715,7 +715,7 @@ melodiatoda = \relative c'' {
       \new Staff {
         \new Voice = "saxalto" {
           \key c \major
-          \transpose d c {
+          \transpose d  bes {
            \melodiatoda
           }
         }
@@ -834,7 +834,7 @@ melodiatoda = \relative c'' {
       \new TimeSig \compassoseparado
       \new Staff {
         \new Voice = "altosax" {
-          \transpose d f, {
+          \transpose d es, {
             \saxalto
           }
         }
