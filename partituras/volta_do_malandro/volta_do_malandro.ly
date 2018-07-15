@@ -109,7 +109,7 @@ Que_o ma -- lan -- dro_é o_ba -- rão da ra -- lé -- é
       \new TimeSig \compassoseparado
       \new Staff {
         \new Voice = "trombone" {
-          \transpose c g {
+          \transpose c a {
             \parteum
           }
         }
