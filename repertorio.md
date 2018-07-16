@@ -37,6 +37,12 @@ blocos:
       - nome: 'Pedras que cantam (Eb)'
         links:
           'gravação': 'http://brunopedroso.github.io/vqf/sound/pedras_que_cantam.mpeg'
+          'midi':  'partituras/pedras_que_cantam/pedras_que_cantam.midi' 
+          'C':  'partituras/pedras_que_cantam/pedras_que_cantam_C.pdf'          
+          'Bb':  'partituras/pedras_que_cantam/pedras_que_cantam_Bb.pdf'          
+          'Eb':  'partituras/pedras_que_cantam/pedras_que_cantam_Eb.pdf' 
+          'midi melodia': 'partituras/pedras_que_cantam/pedras_que_cantam_C.midi'
+          
 
   - nome: "para 9/jun"
     musicas:
