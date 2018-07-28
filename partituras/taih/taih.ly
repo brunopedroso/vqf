@@ -1,4 +1,7 @@
 \include "../formatoversos.ly"
+\include "../nomedasnotas.ly"
+\include "../marcaspadronizadas.ly"
+
 #(set-global-staff-size 18)
 
 \header{
@@ -140,6 +143,37 @@ letratoda = {
 	 \tempo 4 = 120
 	}
  }
+}
+
+#(set-global-staff-size 30)
+\book {
+ \bookOutputName "taih_Eb_notas"
+ \header {
+  instrument = "Para instrumentos em Eb"
+ }
+ \score {
+  <<
+   \new TimeSig \compassoseparado
+   \new Staff {
+    \new Voice = "sax alto" {
+     \transpose bes g' {
+       \easyHeadsOn
+       \teeny
+      \parteum
+      \pulalinha
+      \partedois
+     }
+	}
+	\addlyrics \letratoda
+  }
+	>>
+	\layout {
+	    \context {
+	    \Voice
+	    \consists \Gravador_nome_notas   
+	    }
+	    }
+	    }
 }
 
 \version "2.18.2" % necessary for upgrading to future LilyPond versions.
