@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Repert"
+title: Repert
 
 blocos:
 
@@ -212,7 +212,7 @@ blocos:
 
       - nome: 'Cantaloupe Island (F?)'
         links:
-          'yt':  '          'yt':  'https://www.youtube.com/watch?v=ZbHJHPTikQA&feature=youtu.be'
+          'yt':  'https://www.youtube.com/watch?v=ZbHJHPTikQA&feature=youtu.be'
 
  
   - nome: "Balancê"
