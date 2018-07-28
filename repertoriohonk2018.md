@@ -1,5 +1,5 @@
 ---
-layout: default
+lwayout: default
 title: Repertório
 
 blocos:
@@ -351,7 +351,6 @@ blocos:
           'mp3': 'partituras/pe_na_tuba/pe_na_tuba.mp3'
           'juntos': 'partituras/pe_na_tuba/pe_na_tuba_juntos.pdf'
           'separados': 'partituras/pe_na_tuba/pe_na_tuba_separados.pdf'
- 
 
   - nome: "Futuras"
     musicas:
