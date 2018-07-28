@@ -1,4 +1,5 @@
 \include "../formatoversos.ly"
+\include "../nomedasnotas.ly"
 #(set-global-staff-size 19)
 
 \header{
@@ -141,4 +142,33 @@ letratoda = {
   }
 }
 
+#(set-global-staff-size 30)
+\book {
+  \bookOutputName "saca_rolhas_Eb_notas"
+  \header {
+    instrument = "Eb"
+  }
+  \score {
+    <<
+      \new TimeSig \compassoseparado
+      \new Staff {
+        \new Voice = "saxalto" {
+          \transpose bes g' {
+            \easyHeadsOn
+            \teeny
+            \parteum
+            \pulalinha
+            \partedois
+          }
+        }
+	\addlyrics \letratoda
+  }
+	>>
+	\layout {
+	\context { 
+	\Voice 
+	\consists \Gravador_nome_notas
+	}}
+  }
+}
 \version "2.18.2" % necessary for upgrading to future LilyPond versions.
