@@ -155,6 +155,67 @@ blocos:
           'eb': 'partituras/bananeira/bananeira_Eb.pdf'
 
 
+  - nome: "African"
+    musicas:
+
+      - nome: 'African Marketplace (F)'
+        links:
+          'gravacao': 'http://rudemechanicalorchestra.org/music/african-marketplace'
+          'c': 'http://rudemechanicalorchestra.org/music/african-marketplace'
+          'bb': 'http://rudemechanicalorchestra.org/music/african-marketplace'
+          'eb': 'http://rudemechanicalorchestra.org/music/african-marketplace'
+
+      - nome: 'Caravan (Fm)'
+        links:
+          'gravacao': 'https://www.youtube.com/watch?v=r95flkZciJE'
+          'c':  'partituras/caravan/caravan_C.pdf'
+          'bb': 'partituras/caravan/caravan_Bb.pdf'
+          'eb': 'partituras/caravan/caravan_Eb.pdf'
+
+  - nome: "Jazz"
+    musicas:
+
+     - nome: 'Nanã (Dm)'
+        links:
+          'completa': 'partituras/coisa5/COISA5.mp3'
+          'percussa': 'partituras/coisa5/percussao/Coisa5-VQF_FINAL_Drum_Set.pdf'
+
+          'sax_alto': 'partituras/coisa5/sax_alto/Coisa5-VQF_FINAL_AltoSax.pdf'
+          'sax_alto_som': 'partituras/coisa5/sax_alto/Coisa5-VQF_FINAL_Alto_Sax.mp3'
+
+          'sax_baritono': 'partituras/coisa5/sax_baritono/Coisa5-VQF_FINAL_BaritoneSax.pdf'
+          'sax_baritono_som': 'partituras/coisa5/sax_baritono/Coisa5-VQF_FINAL_BaritoneSax.mp3'
+
+          'sax_tenor': 'partituras/coisa5/sax_tenor/Coisa5-VQF_FINAL_TenorSax.pdf'
+          'sax_tenor_som': 'partituras/coisa5/sax_tenor/Coisa5-VQF_FINAL_TenorSax.mp3'
+
+          'trombone': 'partituras/coisa5/trombone/Coisa5-VQF_FINAL_Trombone.pdf'
+          'trombone_som': 'partituras/coisa5/trombone/Coisa5-VQF_FINAL_Trombone.mp3'
+
+          'trompete': 'partituras/coisa5/trompete/Coisa5-VQF_FINAL_Trumpet_Bb.pdf'
+          'trompete_som': 'partituras/coisa5/trompete/Coisa5-VQF_FINAL_Trompete.mp3'
+
+      - nome: 'Take 5 (Dm)'
+        links:
+          'gravacao': 'partituras/take_five/take_five.midi'
+          'c':  'partituras/take_five/take_five-Instrumentos_em_C.pdf'
+          'bb': 'partituras/take_five/take_five-Instrumentos_em_Bb.pdf'
+          'eb': 'partituras/take_five/take_five-Sax_Alto_em_Eb.pdf'
+
+      - nome: 'Watermelon man (F)'
+        links:
+          'yt':  'https://www.youtube.com/watch?v=ZbHJHPTikQA&feature=youtu.be'
+          'midi':  'partituras/watermelon_man/watermelon_man.midi' 
+          'C':  'partituras/watermelon_man/watermelon_man_C.pdf'          
+          'Bb':  'partituras/watermelon_man/watermelon_man_Bb.pdf'          
+          'Eb':  'partituras/watermelon_man/watermelon_man_Eb.pdf'                    
+
+
+      - nome: 'Cantaloupe Island (F)'
+        links:
+          'yt':  'https://www.youtube.com/watch?v=ZbHJHPTikQA&feature=youtu.be'
+
+
 
 ---
 
