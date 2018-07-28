@@ -1,14 +1,17 @@
 
 \version "2.18.2"
 
+\include "../formatoversos.ly"
+\include "../marcaspadronizadas.ly"
+\include "../nomedasnotas.ly"
+
 \header {
   encodingsoftware = "Lilypond / recording midi from Walkband"
   encodingdate = "2018-07-08"
   composer = "Fagner"
   title = "Cartaz"
 }
-\include "../formatoversos.ly"
-\include "../marcaspadronizadas.ly"
+
 #(set-global-staff-size 16)
 
 
@@ -154,6 +157,43 @@ letratoda = \lyricmode {
     \layout {}
     \midi {
     \tempo 4 = 129
+    }
+  }
+}
+
+#(set-global-staff-size 30)
+
+\book {
+  \bookOutputName "cartaz_Eb_notas"
+  \header {
+     instrument = "Eb"
+  }
+  \score {
+    <<
+      \new TimeSig \compassoseparado
+      \new Staff {
+        \accidentalStyle Score.dodecaphonic
+        \new Voice = "saxalto" {
+          \transpose f d' {
+            \easyHeadsOn
+            \teeny
+            \intro
+            \pulalinha
+            \marcaA
+            \parteum
+            \pulalinha
+            \marcaB
+            \partedois
+          }
+        }
+        \addlyrics \letratoda
+      }
+    >>
+     \layout {
+    \context {
+      \Voice
+      \consists \Gravador_nome_notas
+    }
     }
   }
 }
