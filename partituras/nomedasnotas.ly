@@ -5,7 +5,7 @@
      ((note-head-interface engraver grob source-engraver)
       (let* ((context (ly:translator-context engraver))
 	    (note-names 
-	      (vector '"dó" '"ré" '"mi" '"fá" '"sol " '"lá" '"si")))
+	      (vector '"DÓ" '"RÉ" '"MI" '"FÁ" '"SOL " '"LÁ" '"SI")))
 	(ly:grob-set-property! grob 'note-names note-names))))))
 
 % Na partitura, criar um book com as seguintes configurações:
