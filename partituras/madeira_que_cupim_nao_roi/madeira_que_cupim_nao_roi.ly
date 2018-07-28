@@ -1,4 +1,7 @@
 \version "2.18.2"
+\include "../nomedasnotas.ly"
+\include "../formatoversos.ly"
+\include "../marcaspadronizadas.ly"
 
 Segno = {
   \mark \markup { \musicglyph #"scripts.segno" }
@@ -458,3 +461,48 @@ letra = \lyricmode {
 	  }
 	}
       }
+
+#(set-global-staff-size 30)
+
+\book {
+  \bookOutputSuffix "Eb_notas"
+  \header {
+    title = "Madeira que Cupim não Rói"
+    composer = "Capiba"
+    instrument = "Eb"
+    arranger = "Bloco Vai Quem Fica (transcrito arranjo de Duda)"
+    copyright = "(ɔ) - CC BY-SA 4.0"
+    tagline = "Criado com Software Livre - Lilypond"  % removida mensagem de lilypond
+  }
+  \score {
+     <<
+       \new Staff {
+         \accidentalStyle Score.dodecaphonic
+         
+	\new Voice = "saxalto" {
+	  \oneVoice
+	  \time 2/4
+	  \clef G
+	  \easyHeadsOn
+	  \key a \major
+	  \transpose g e {
+	    \teeny
+	    \melodiaintro
+	    \transpose e e'{
+	    \melodiacanto}
+	  }
+    }
+    \addlyrics {
+      \letra
+    }
+       }
+        
+  >>
+      \layout {
+    \context {
+      \Voice
+      \consists \Gravador_nome_notas
+    }
+    }
+ }
+}
