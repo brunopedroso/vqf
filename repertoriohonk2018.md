@@ -103,6 +103,59 @@ blocos:
           'midi melodia': 'partituras/pedras_que_cantam/pedras_que_cantam_C.midi'
 
 
+  - nome: "Malandro ilê"
+    musicas:
+
+      - nome: 'A volta do Malandro (Bb)'
+        links:
+          'yt':  'https://www.youtube.com/watch?v=FE3-WIyFXhY'
+          'midi':  'partituras/volta_do_malandro/volta_do_malandro.midi' 
+          'C':  'partituras/volta_do_malandro/volta_do_malandro_C.pdf'          
+          'Bb':  'partituras/volta_do_malandro/volta_do_malandro_Bb.pdf'          
+          'Eb':  'partituras/volta_do_malandro/volta_do_malandro_Eb.pdf'     
+          'ebnotas':  'partituras/volta_do_malandro/volta_do_malandro_Eb_notas.pdf'     
+
+      - nome: 'Um canto de afoxé para o bloco do Ilê (Bb)'
+        links:
+          'yt (E)':  'https://www.youtube.com/watch?v=9eXbh-6xxUQ'
+          'midi':  'partituras/canto_de_afoxeh/canto_de_afoxeh.midi' 
+          'C':  'partituras/canto_de_afoxeh/canto_de_afoxeh_C.pdf'
+          'Bb':  'partituras/canto_de_afoxeh/canto_de_afoxeh_Bb.pdf'
+          'Eb':  'partituras/canto_de_afoxeh/canto_de_afoxeh_Eb.pdf'
+          'ebnotas':  'partituras/canto_de_afoxeh/canto_de_afoxeh_Eb_notas.pdf'
+
+
+  - nome: "Donato (afoxé)"
+    musicas:
+
+      - nome: 'A Rã (Dm)'
+        links:
+          'mid': 'partituras/a_ra/a_ra.mid'
+          'mp3': 'partituras/a_ra/a_ra_FINAL.mp3'
+          'geral': 'partituras/a_ra/a_ra_GERAL.pdf'
+          'harmonia': 'partituras/a_ra/a_ra_Harmonia.pdf'
+          'sax_bar': 'partituras/a_ra/a_ra_SaxBaritono.pdf'
+          'sax_ten': 'partituras/a_ra/a_ra_SaxTenor.pdf'
+          'tromb': 'partituras/a_ra/a_ra_Trombone.pdf'
+          'tromp': 'partituras/a_ra/a_ra_Trompetes.pdf'
+          'tuba': 'partituras/a_ra/a_ra_Tuba.pdf'
+
+      - nome: 'Emoriô (Dm)'
+        links:
+          'midi': 'partituras/emorioh/emorioh_C.midi'
+          'c': 'partituras/emorioh/emorioh_C.pdf'
+          'bb': 'partituras/emorioh/emorioh_Bb.pdf'
+          'eb': 'partituras/emorioh/emorioh_Eb.pdf'
+
+      - nome: 'Bananeira (Gm)'
+        links:
+          'midi': 'partituras/bananeira/bananeira_C.midi'
+          'c': 'partituras/bananeira/bananeira_C.pdf'
+          'bb': 'partituras/bananeira/bananeira_Bb.pdf'
+          'eb': 'partituras/bananeira/bananeira_Eb.pdf'
+
+
+
 ---
 
 
