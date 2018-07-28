@@ -211,12 +211,6 @@ blocos:
           'Eb':  'partituras/watermelon_man/watermelon_man_Eb.pdf'                    
 
 
-      - nome: 'Cantaloupe Island (F)'
-        links:
-          'yt':  'https://www.youtube.com/watch?v=ZbHJHPTikQA&feature=youtu.be'
-
-
-
 ---
 
 
