@@ -172,6 +172,221 @@ blocos:
           'bb': 'partituras/caravan/caravan_Bb.pdf'
           'eb': 'partituras/caravan/caravan_Eb.pdf'
 
+  - nome: "Jazz"
+    musicas:
+
+      - nome: 'Nanã (Dm)'
+        links:
+          'completa': 'partituras/coisa5/COISA5.mp3'
+          'percussa': 'partituras/coisa5/percussao/Coisa5-VQF_FINAL_Drum_Set.pdf'
+
+          'sax_alto': 'partituras/coisa5/sax_alto/Coisa5-VQF_FINAL_AltoSax.pdf'
+          'sax_alto_som': 'partituras/coisa5/sax_alto/Coisa5-VQF_FINAL_Alto_Sax.mp3'
+
+          'sax_baritono': 'partituras/coisa5/sax_baritono/Coisa5-VQF_FINAL_BaritoneSax.pdf'
+          'sax_baritono_som': 'partituras/coisa5/sax_baritono/Coisa5-VQF_FINAL_BaritoneSax.mp3'
+
+          'sax_tenor': 'partituras/coisa5/sax_tenor/Coisa5-VQF_FINAL_TenorSax.pdf'
+          'sax_tenor_som': 'partituras/coisa5/sax_tenor/Coisa5-VQF_FINAL_TenorSax.mp3'
+
+          'trombone': 'partituras/coisa5/trombone/Coisa5-VQF_FINAL_Trombone.pdf'
+          'trombone_som': 'partituras/coisa5/trombone/Coisa5-VQF_FINAL_Trombone.mp3'
+
+          'trompete': 'partituras/coisa5/trompete/Coisa5-VQF_FINAL_Trumpet_Bb.pdf'
+          'trompete_som': 'partituras/coisa5/trompete/Coisa5-VQF_FINAL_Trompete.mp3'
+
+      - nome: 'Take 5 (Dm)'
+        links:
+          'gravacao': 'partituras/take_five/take_five.midi'
+          'c':  'partituras/take_five/take_five-Instrumentos_em_C.pdf'
+          'bb': 'partituras/take_five/take_five-Instrumentos_em_Bb.pdf'
+          'eb': 'partituras/take_five/take_five-Sax_Alto_em_Eb.pdf'
+
+      - nome: 'Watermelon man (F)'
+        links:
+          'yt':  'https://www.youtube.com/watch?v=ZbHJHPTikQA&feature=youtu.be'
+          'midi':  'partituras/watermelon_man/watermelon_man.midi' 
+          'C':  'partituras/watermelon_man/watermelon_man_C.pdf'          
+          'Bb':  'partituras/watermelon_man/watermelon_man_Bb.pdf'          
+          'Eb':  'partituras/watermelon_man/watermelon_man_Eb.pdf'                    
+
+
+      - nome: 'Cantaloupe Island (F)'
+        links:
+          'yt':  'https://www.youtube.com/watch?v=ZbHJHPTikQA&feature=youtu.be'
+
+ 
+  - nome: "Balancê"
+    musicas:
+
+      - nome: 'Chuva Suor e Cerveja (C)'
+        links:
+          'yt': 'https://www.youtube.com/watch?v=PhFxuVUMFn8'
+          'c': 'partituras/chuva_suor_e_cerveja/chuva_suor_e_cerveja_C.pdf'
+          'bb': 'partituras/chuva_suor_e_cerveja/chuva_suor_e_cerveja_Bb.pdf'
+          'eb': 'partituras/chuva_suor_e_cerveja/chuva_suor_e_cerveja_Eb.pdf'
+      - nome: 'O Balancê (F)'
+        links:
+          'yt': 'https://www.youtube.com/watch?v=TuPFzT8BJag'
+          'c': 'partituras/balanceh/balanceh_C.pdf'
+          'bb': 'partituras/balanceh/balanceh_Bb.pdf'
+          'eb': 'partituras/balanceh/balanceh_Eb.pdf'
+          'midi': 'partituras/balanceh/balanceh_C.midi'
+
+      - nome: 'Pegando fogo (F)'
+        links:
+          'yt': 'https://www.youtube.com/watch?v=vtpZdHOyL_Q'
+          'c': 'partituras/pegando_fogo/pegando_fogo_C.pdf'
+          'bb': 'partituras/pegando_fogo/pegando_fogo_Bb.pdf'
+          'eb': 'partituras/pegando_fogo/pegando_fogo_Eb.pdf'
+          'midi': 'partituras/pegando_fogo/pegando_fogo_C.midi'
+
+
+  - nome: "Dm lento"
+    musicas:
+
+      - nome: 'Chan Chan (Dm)'
+        links:
+          'yt': 'https://www.youtube.com/watch?v=UXwLBS3yUkA'
+          'midi': 'partituras/chan_chan/chan_chan_Geral.midi'
+          'c': 'partituras/chan_chan/chan_chan_C.pdf'
+          'bb': 'partituras/chan_chan/chan_chan_Bb.pdf'
+          'eb': 'partituras/chan_chan/chan_chan_Eb.pdf'
+          'Tuba': 'partituras/chan_chan/chan_chan_Tuba.pdf'
+          'Guitarra': 'partituras/chan_chan/chan_chan_Geral.pdf'
+          'Geral': 'partituras/chan_chan/chan_chan_Geral.pdf'
+
+
+      - nome: 'Marcha dos Pescadores (Dm)'
+        links:
+          'c': 'partituras/marcha_dos_pescadores/marcha_dos_pescadores_C.pdf'
+          'bb': 'partituras/marcha_dos_pescadores/marcha_dos_pescadores_Bb.pdf'
+          'eb': 'partituras/marcha_dos_pescadores/marcha_dos_pescadores_Eb.pdf'
+
+      - nome: 'Eu Vi Mamãe Oxum na Cachoeira (Dm)'
+        links:
+          'gravacao': 'https://www.youtube.com/watch?v=ou5w5tm5FOY'
+          'c': 'partituras/eu_vi_mamae_oxum_na_cachoeira/mamae_oxum-C.pdf'
+          'bb': 'partituras/eu_vi_mamae_oxum_na_cachoeira/mamae_oxum-Bb.pdf'
+          'eb': 'partituras/eu_vi_mamae_oxum_na_cachoeira/mamae_oxum-Eb.pdf'
+
+      - nome: 'O Abre Alas (Dm)'
+        links:
+          'gravacao': 'https://s3.amazonaws.com/brunopedroso/vqf/b1/1_AbreAlas.mp3'
+          'c':  'partituras/abre_alas/abre_alas_C.pdf'
+          'bb': 'partituras/abre_alas/abre_alas_Bb.pdf'
+          'eb': 'partituras/abre_alas/abre_alas_Eb.pdf'
+
+      - nome: 'Turma do Funil (Dm)'
+        links:
+          'gravacao': 'https://s3.amazonaws.com/brunopedroso/vqf/b2/4_Funil.mp3'
+          'c':  'partituras/turma_do_funil/turma_do_funil_C.pdf'
+          'bb': 'partituras/turma_do_funil/turma_do_funil_Bb.pdf'
+          'eb': 'partituras/turma_do_funil/turma_do_funil_Eb.pdf'
+
+
+  - nome: "Lento"
+    musicas:
+      - nome: 'The fool on the hill (C)'
+        links:
+          'mid': 'partituras/fool_on_the_hill.midi'
+          'yt': 'https://www.youtube.com/watch?v=_Wt0I60ZGp0'
+          'c': 'partituras/fool_on_the_hill/fool_on_the_hill_C.pdf'
+          'bb': 'partituras/fool_on_the_hill/fool_on_the_hill_Bb.pdf'
+          'eb': 'partituras/fool_on_the_hill/fool_on_the_hill_Eb.pdf'
+
+      - nome: 'ângelus (C)'
+        links:
+          'yt': 'https://www.youtube.com/watch?v=3K3qJVKBlh4'
+          'mid': 'partituras/angelus/angelus_C.midi'
+          'c': 'partituras/angelus/angelus_C.pdf'
+          'bb': 'partituras/angelus/angelus_Bb.pdf'
+          'eb': 'partituras/angelus/angelus_Eb.pdf'
+
+      - nome: 'O trenzinho do caipira (C)'
+        links:
+          'yt': 'https://www.youtube.com/watch?v=DC8oFe5bkeY'
+          'c': 'partituras/trenzinho/trenzinhoCaipiraC.png'
+          'bb': 'partituras/trenzinho/trenzinhoCaipiraBb.png'
+          'eb': 'partituras/trenzinho/trenzinho_Eb.pdf'
+          'c-letra': 'partituras/trenzinho/trenzinho_C.pdf'
+          'bb-letra': 'partituras/trenzinho/trenzinho_Bb.pdf'
+          'midi': 'partituras/trenzinho/trenzinho_C.midi'
+
+
+  - nome: "Maxixes (alternativas talvez)"
+    musicas:
+
+      - nome: 'Corta Jaca (Dm)'
+        links:
+          'gravacao': 'partituras/corta_jaca/corta_jaca.midi'
+          'c':  'partituras/corta_jaca/Corta_Jaca.pdf'
+          'bb': 'partituras/corta_jaca/Corta_Jaca-Clarinete_e_Sax_Tenor_em_Bb.pdf'
+          'eb': 'partituras/corta_jaca/Corta_Jaca-Sax_Alto_em_Eb.pdf'
+
+      - nome: 'Folia de Reis (F)'
+        links:
+          'gravacao': 'partituras/folia_de_reis/folia_de_reis.midi'
+          'c':  'partituras/folia_de_reis/folia_de_reis-Trombone_em_C.pdf'
+          'bb': 'partituras/folia_de_reis/folia_de_reis-Trompete_em_Bb.pdf'
+          'eb': 'partituras/folia_de_reis/folia_de_reis-Sax_Alto_Eb.pdf'
+
+      - nome: 'Benguelê (F)'
+        links:
+          'youtube': 'https://www.youtube.com/watch?v=DMXSecu0yEY'
+          'part C':  'partituras/benguele/benguele-C.pdf'
+          'part Bb': 'partituras/benguele/benguele-Bb.pdf'
+          'part Eb': 'partituras/benguele/benguele-Eb.pdf'
+          'midi':    'partituras/benguele/benguele.midi'
+
+      - nome: 'Meia lua inteira (F)'
+        links:
+          'yt': 'https://www.youtube.com/watch?v=GszhZlipskg'
+          'c':  'partituras/meia_lua_inteira/meia_lua_inteira_C.pdf'
+          'bb': 'partituras/meia_lua_inteira/meia_lua_inteira_Bb.pdf'
+          'eb': 'partituras/meia_lua_inteira/meia_lua_inteira_Eb.pdf'
+          'midi':  'partituras/meia_lua_inteira/meia_lua_inteira_C.midi'
+
+      - nome: 'Pé na Tuba (Am)'
+        links:
+          'mp3': 'partituras/pe_na_tuba/pe_na_tuba.mp3'
+          'juntos': 'partituras/pe_na_tuba/pe_na_tuba_juntos.pdf'
+          'separados': 'partituras/pe_na_tuba/pe_na_tuba_separados.pdf'
+ 
+
+  - nome: "Futuras"
+    musicas:
+
+      - nome: 'Pelo Telefone (Bb)'
+        links:
+          'yt': 'https://www.youtube.com/watch?v=woLpDB4jjDU'
+          'c':  'partituras/pelo_telefone/pelo_telefone_C.pdf'
+          'bb': 'partituras/pelo_telefone/pelo_telefone_Bb.pdf'
+          'eb': 'partituras/pelo_telefone/pelo_telefone_Eb.pdf'
+          'midi':  'partituras/pelo_telefone/pelo_telefone_C.midi'
+
+      - nome: 'Diplomata (Gm)'
+        links:
+          'yt': 'https://www.youtube.com/watch?v=W_0CSKXh4Q0'
+
+      - nome: 'Sing Sing Sing (Em)'
+        links:
+          'yt': 'https://www.youtube.com/watch?v=r2S1I_ien6A'
+          'geral': 'partituras/singsingsing/SingSingSing_FullScore.pdf'
+          'tromb1': 'partituras/singsingsing/SingSingSing_Trombone1.pdf'
+          'tromb2': 'partituras/singsingsing/SingSingSing_Trombone2.pdf'
+          'tuba': 'partituras/singsingsing/SingSingSing_Tuba.pdf'
+          'trump1' : 'partituras/singsingsing/SingSingSing_Trumpet1.pdf'
+          'trump1_clarin_solo' : 'partituras/singsingsing/SingSingSing_Trumpet1_ClarinetSoloDuet.pdf'
+          'clarin_solo' : 'partituras/singsingsing/SingSingSing_ClarinetSolo.pdf'
+
+      - nome: 'Bola de meia bola de gude (D)'
+        links:
+          'yt':  'https://www.youtube.com/watch?v=G9RS2BkbqHw'
+          'midi':  'partituras/bola_de_meia/bola_de_meia.midi' 
+          'C':  'partituras/bola_de_meia/bola_de_meia_C.pdf'          
+          'Bb':  'partituras/bola_de_meia/bola_de_meia_Bb.pdf'          
+          'Eb':  'partituras/bola_de_meia/bola_de_meia_Eb.pdf'                    
 
 ---
 
