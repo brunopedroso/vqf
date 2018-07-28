@@ -31,7 +31,7 @@ intro = \relative c''  {
 }
 
 queromedeitar = \relative c'' {
-  r8 c c c c c4 c8 ~ |c c c c c bes4 bes8 ~ | bes a f bes4 a g8~|
+  r8 c c c c bes4 c8 ~ |c c c c c bes4 a8 ~ |  a f bes4 a g8~|
 }
 parteum = \relative c'' {
  \queromedeitar
