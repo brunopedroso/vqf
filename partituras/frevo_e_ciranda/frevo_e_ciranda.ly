@@ -7,6 +7,8 @@
 }
 
 \include "../formatoversos.ly"
+\include "../nomedasnotas.ly"
+
 #(set-global-staff-size 13)
 
 \layout {
@@ -198,6 +200,45 @@ letra = \lyricmode {
     }
     >>
   \layout {}
+%   \midi {
+%     \tempo 4 = 160
+%     \context {
+%       \Voice
+%       \consists "Staff_performer"
+% 	    }
+%   }
+}
+}
+
+#(set-global-staff-size 20)
+
+\book {
+  \bookOutputSuffix "melodia_Eb_notas"
+  \header {     instrument = "Eb" }
+  \score {
+    <<
+      \new TimeSig \compassoseparado
+      \new Staff {
+        \accidentalStyle Score.dodecaphonic        
+        \new Voice = "saxalto" {
+          \transpose bes e {
+            \easyHeadsOn
+            \teeny
+          \pretudo
+          \introgeral
+          \unfoldRepeats
+          \melodia 
+          }
+        }
+        \addlyrics  {\letraintro \letra}
+    }
+    >>
+  \layout {
+  \context {
+    \Voice
+    \consists \Gravador_nome_notas
+  }
+  }
 %   \midi {
 %     \tempo 4 = 160
 %     \context {
