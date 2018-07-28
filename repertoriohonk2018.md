@@ -1,5 +1,5 @@
 ---
-lwayout: default
+layout: default
 title: Repertório
 
 blocos:
@@ -410,7 +410,7 @@ blocos:
 
   [CLIQUE AQUI](/VQF_2018_ensaios.pdf)
 
-## RepertórioHonk 2018
+## Repertório Honk 2018
 
   <table>
 
