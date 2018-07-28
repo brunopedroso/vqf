@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Repertório
+title: Repertório Honk 2018
+
 blocos:
 
   - nome: "Pra tirar coco"
-
     musicas:
 
 
