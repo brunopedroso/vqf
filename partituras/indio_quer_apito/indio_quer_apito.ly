@@ -3,6 +3,7 @@
   composer = "Haroldo Lobo e Milton de Oliveira"
 }
 \include "../formatoversos.ly"
+\include "../nomedasnotas.ly"
 
 %#(set-global-staff-size 17)
 
@@ -123,4 +124,37 @@ letratoda = {
     \layout {}
   }
 }
+
+#(set-global-staff-size 33)
+\book {
+  \bookOutputName "indio_quer_apito_Eb_notas"
+  \header {
+     instrument = "Eb"
+  }
+  \score {
+    <<
+      \new TimeSig \compassoseparado
+      \new Staff {
+        \accidentalStyle Score.dodecaphonic
+        \new Voice = "saxalto" {
+          \transpose bes g' {
+            \easyHeadsOn
+            \teeny
+            \parteum
+            \skip 256 \bar "" \break
+            \partedois
+          }
+        }
+        \addlyrics \letratoda
+      }
+    >>
+    \layout {
+    \context { 
+	\Voice 
+	\consists \Gravador_nome_notas
+    }
+    }
+  }
+}
+
 \version "2.18.2"  % necessary for upgrading to future LilyPond versions.
