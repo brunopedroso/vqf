@@ -313,7 +313,7 @@ blocos:
           'midi': 'partituras/trenzinho/trenzinho_C.midi'
 
 
-  - nome: "Maxixes (alternativa?)"
+  - nome: "Maxixes (alternativas talvez)"
     musicas:
 
       - nome: 'Corta Jaca (Dm)'
@@ -353,7 +353,7 @@ blocos:
           'separados': 'partituras/pe_na_tuba/pe_na_tuba_separados.pdf'
  
 
-  - nome: "Futuras (alternativas?)"
+  - nome: "Futuras"
     musicas:
 
       - nome: 'Pelo Telefone (Bb)'
