@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Repertório Honk 2018"
+title: Repertório
 
 blocos:
 
@@ -411,7 +411,7 @@ blocos:
 
   [CLIQUE AQUI](/VQF_2018_ensaios.pdf)
 
-## Repertório
+## RepertórioHonk 2018
 
   <table>
 
