@@ -157,6 +157,7 @@ Que_o ma -- lan -- dro_é o_ba -- rão da ra -- lé -- é
     <<
       \new TimeSig \compassoseparado
       \new Staff {
+        \accidentalStyle Score.dodecaphonic
         \new Voice = "saxalto" {
           \transpose c a, {
             \easyHeadsOn
