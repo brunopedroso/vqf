@@ -1,4 +1,5 @@
 \include "../formatoversos.ly"
+\include "../nomedasnotas.ly"
 
 \header{
   title = "Cabelo de Fogo"
@@ -198,5 +199,37 @@ codatrombone = \relative c'' {
     \layout {}
   }
 }
+
+#(set-global-staff-size 30)
+
+\book {
+  \bookOutputName "cabelo_de_fogo_Eb_notas"
+  \header {
+    instrument = "Eb"
+  }
+  \score {
+    <<
+	\new Staff {
+	  \accidentalStyle Score.dodecaphonic
+	  \new Voice = "saxalto" {
+	    \easyHeadsOn
+	    \teeny
+	     \parteumsaxalto
+	      \break
+	      \partedoissaxalto
+	      \break
+	      \partetressaxalto
+	  }
+	}
+    >>
+    \layout {
+    \context {
+      \Voice
+      \consists \Gravador_nome_notas
+    }
+    }
+  }
+}
+
   
 \version "2.18.2"  
