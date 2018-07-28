@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Repert
+title: "Repertório Honk 2018"
 
 blocos:
 
