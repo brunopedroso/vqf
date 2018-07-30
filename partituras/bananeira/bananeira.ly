@@ -181,7 +181,7 @@ letratoda = {
      instrument = "Para instrumentos em Eb"
   }
   \score {
-    <<
+    <<s
       \new TimeSig \compassoseparado
       \new Staff {
         \accidentalStyle Score.dodecaphonic
