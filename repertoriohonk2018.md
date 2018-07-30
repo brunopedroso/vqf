@@ -340,7 +340,7 @@ blocos:
           'c':  'partituras/corta_jaca/Corta_Jaca.pdf'
           'bb': 'partituras/corta_jaca/Corta_Jaca-Clarinete_e_Sax_Tenor_em_Bb.pdf'
           'eb': 'partituras/corta_jaca/Corta_Jaca-Sax_Alto_em_Eb.pdf'
-          'eb': 'partituras/corta_jaca/Corta_Jaca-Sax_Alto_em_Eb_notas.pdf'
+          'ebnotas': 'partituras/corta_jaca/Corta_Jaca-Eb_notas.pdf'
 
       - nome: 'Folia de Reis (F)'
         links:
