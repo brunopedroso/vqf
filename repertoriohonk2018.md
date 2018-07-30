@@ -331,6 +331,17 @@ blocos:
           'midi': 'partituras/trenzinho/trenzinho_C.midi'
 
 
+  - nome: "Tetris / Pé na Tuba"
+    musicas:
+    
+      - nome: 'Blues Cigano'
+      - links:
+          'gravacao': 'https://www.youtube.com/watch?v=9LvnJr-kjbE'
+          'c': 'partituras/blues_cigano/blues_cigano_C.pdf'
+          'bb': 'partituras/blues_cigano/blues_cigano_Bb.pdf'
+          'eb': 'partituras/blues_cigano/blues_cigano_Eb.pdf'
+          'ebnotas': 'partituras/blues_cigano/blues_cigano_Eb_notas.pdf'
+
   - nome: "Maxixes (alternativas talvez)"
     musicas:
 
@@ -340,7 +351,7 @@ blocos:
           'c':  'partituras/corta_jaca/Corta_Jaca.pdf'
           'bb': 'partituras/corta_jaca/Corta_Jaca-Clarinete_e_Sax_Tenor_em_Bb.pdf'
           'eb': 'partituras/corta_jaca/Corta_Jaca-Sax_Alto_em_Eb.pdf'
-          'eb': 'partituras/corta_jaca/Corta_Jaca-Sax_Alto_em_Eb_notas.pdf'
+          'ebnotas': 'partituras/corta_jaca/Corta_Jaca-Eb_notas.pdf'
 
       - nome: 'Folia de Reis (F)'
         links:
@@ -401,10 +412,10 @@ blocos:
       - nome: 'Bola de meia bola de gude (D)'
         links:
           'yt':  'https://www.youtube.com/watch?v=G9RS2BkbqHw'
-          'midi':  'partituras/bola_de_meia/bola_de_meia.midi' 
-          'C':  'partituras/bola_de_meia/bola_de_meia_C.pdf'          
-          'Bb':  'partituras/bola_de_meia/bola_de_meia_Bb.pdf'          
-          'Eb':  'partituras/bola_de_meia/bola_de_meia_Eb.pdf'                    
+          'midi':  'partituras/bola_de_meia/bola_de_meia.midi'
+          'C':  'partituras/bola_de_meia/bola_de_meia_C.pdf'
+          'Bb':  'partituras/bola_de_meia/bola_de_meia_Bb.pdf'
+          'Eb':  'partituras/bola_de_meia/bola_de_meia_Eb.pdf'
 
 ---
 
