@@ -1,5 +1,6 @@
 \include "../formatoversos.ly"
 \include "../marcaspadronizadas.ly"
+\include "../nomedasnotas.ly"
 
 #(set-global-staff-size 14)
 
@@ -145,6 +146,41 @@ parte_dois = \relative c' {
       }
     >>
     \layout {}
+
+  }
+}
+
+#(set-global-staff-size 30)
+
+\book {
+  \bookOutputName "angelus_Eb_notas"
+  \header {
+    instrument = "Eb"
+  }
+  \score {
+    <<
+      \new Staff {
+        \accidentalStyle Score.dodecaphonic
+        \new Voice = "um" {
+          \transpose bes g {
+            \easyHeadsOn
+            \teeny
+            \parte_um
+          }
+        }
+        \new Voice = "dois" {
+          \transpose bes g {
+            \parte_dois
+          }
+        }
+      }
+    >>
+    \layout {
+    \context {
+      \Voice
+      \consists \Gravador_nome_notas
+    }
+    }
 
   }
 }

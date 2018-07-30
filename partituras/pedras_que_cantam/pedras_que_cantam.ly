@@ -2,6 +2,9 @@
 \version "2.18.2"
 % automatically converted by musicxml2ly from /home/GuigUse/Música/Pedras que Cantam VQF-Pedras_que_Cantam_VQF.mxl
 
+\include "../formatoversos.ly"
+\include "../marcaspadronizadas.ly"
+\include "../nomedasnotas.ly"
 
 \header {
   encodingsoftware = "Musescore / Frescobaldi / Lilypond"
@@ -12,8 +15,7 @@
   source = "http://www2.secult.ce.gov.br/recursos/PublicWebBanco/Partituraacervo/POP000012.pdf"
 }
 
-\include "../formatoversos.ly"
-\include "../marcaspadronizadas.ly"
+
 #(set-global-staff-size 14)
 
 
@@ -715,7 +717,7 @@ melodiatoda = \relative c'' {
       \new Staff {
         \new Voice = "saxalto" {
           \key c \major
-          \transpose d  bes, {
+          \transpose d  bes, {
            \melodiatoda
           }
         }
@@ -834,7 +836,7 @@ melodiatoda = \relative c'' {
       \new TimeSig \compassoseparado
       \new Staff {
         \new Voice = "altosax" {
-          \transpose d es, {
+          \transpose d es, {
             \saxalto
           }
         }
@@ -920,3 +922,38 @@ melodiatoda = \relative c'' {
   \midi {}
 }
 }
+
+
+#(set-global-staff-size 30)
+
+\book {
+  \bookOutputName "pedras_que_cantam_Eb_notas"
+  \header {
+     instrument = "Eb"
+  }
+  \score {
+    <<
+      \new TimeSig \compassoseparado
+      \new Staff {
+        \accidentalStyle Score.dodecaphonic
+       \new Voice = "saxalto" {
+          \key c \major
+          \transpose d  bes, {
+            \easyHeadsOn
+            \teeny
+           \melodiatoda
+          }
+        }
+                \addlyrics {
+          \letratoda
+      }
+      }
+      >>
+     \layout {
+    \context {
+      \Voice
+      \consists \Gravador_nome_notas
+    }
+    }
+    }
+  }

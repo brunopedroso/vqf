@@ -1,5 +1,6 @@
 % \include "../formatoversos.ly"
 \include "../marcaspadronizadas.ly"
+\include "../nomedasnotas.ly"
 \version "2.18.2"
 % automatically converted by musicxml2ly from /home/GuigUse/Nextcloud/Musica/2018-vqf/chan_chan/1955156-Chan_Chan_.mxl
 
@@ -373,6 +374,26 @@ letratoda = \lyricmode {
 }
 
 \book {
+  \bookOutputName "chan_chan_Tuba"
+  \header {
+    instrument = "Tuba"
+  }
+  \score {
+    <<
+%       \new TimeSig \compassoseparado
+	\new Staff {
+	  \new Voice = "tuba" {
+	    \PartPFiveVoiceOne
+	   	  }
+% 	  \addlyrics {\letratoda}
+	}
+    >>
+    \layout {}
+  }
+}
+
+
+\book {
   \bookOutputName "chan_chan_Eb"
   \header {
     instrument = "Instrumentos em Eb"
@@ -391,21 +412,44 @@ letratoda = \lyricmode {
   }
 }
 
+
+#(set-global-staff-size 30)
 \book {
-  \bookOutputName "chan_chan_Tuba"
+  \bookOutputName "chan_chan_Eb_notas"
   \header {
-    instrument = "Tuba"
+    instrument = "Eb"
   }
   \score {
     <<
-%       \new TimeSig \compassoseparado
 	\new Staff {
-	  \new Voice = "tuba" {
-	    \PartPFiveVoiceOne
+   \accidentalStyle Score.dodecaphonic
+	  \new Voice = "saxalto" {
+	    \easyHeadsOn
+        \teeny
+        \PartPOneVoiceOne
 	   	  }
-% 	  \addlyrics {\letratoda}
 	}
     >>
-    \layout {}
+    \layout {
+    \context {
+    \Voice
+    \consists \Gravador_nome_notas
+    }
+    }
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -3,7 +3,7 @@
 
 \include "../formatoversos.ly"
 \include "../marcaspadronizadas.ly"
-\version "2.18.2"
+\include "../nomedasnotas.ly"
 
 #(set-global-staff-size 17)
 
@@ -149,3 +149,34 @@ letratoda = {
   }
 }
 
+#(set-global-staff-size 30)
+
+\book {
+  \bookOutputName "pegando_fogo_Eb_notas"
+  \header {
+     instrument = "Eb"
+  }
+  \score {
+    <<
+      \new TimeSig \compassoseparado
+      \new Staff {
+        \accidentalStyle Score.dodecaphonic
+        \new Voice = "saxalto" {
+          \transpose f d' {
+            \easyHeadsOn
+            \teeny
+            \parteum
+            \partedois
+          }
+        }
+        \addlyrics \letratoda
+      }
+    >>
+    \layout {
+      \context {
+      \Voice
+      \consists \Gravador_nome_notas
+    }
+    }
+  }
+}

@@ -1,4 +1,6 @@
 \include "../formatoversos.ly"
+\include "../nomedasnotas.ly"
+
 \version "2.18.2"
 \header {
   title = "Eu vi mamãe oxum na cachoeira"
@@ -158,3 +160,39 @@ letradois = \lyricmode {
 % 	  }
 % 	}
 %       }
+
+#(set-global-staff-size 30)
+
+\book {
+  \bookOutputSuffix "Eb_notas"
+  \header {
+    instrument = "Eb"
+  }
+  \score {
+     <<
+       \new Staff{
+         \accidentalStyle Score.dodecaphonic
+	\new Voice = "sax" {
+	  \voiceOne
+	  \time 4/4
+	  \clef G
+	  \transpose g e' {
+	    \easyHeadsOn
+	    \teeny
+	    \unfoldRepeats
+	    \parteum
+	}
+	
+	\addlyrics \letraum
+	   
+    }
+       }
+  >>
+  \layout {
+    \context {
+      \Voice
+      \consists \Gravador_nome_notas
+    }
+  }
+ }
+}

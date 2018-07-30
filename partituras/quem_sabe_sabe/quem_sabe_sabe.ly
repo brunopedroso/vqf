@@ -1,4 +1,6 @@
 \include "../formatoversos.ly"
+\include "../nomedasnotas.ly"
+
 #(set-global-staff-size 22)
 
 \header{
@@ -142,6 +144,39 @@ letratoda = {
 	}
  }
 }
+
+#(set-global-staff-size 30)
+
+\book {
+ \bookOutputName "quem_sabe_sabe_Eb_notas"
+ \header {
+  instrument = "Eb"
+ }
+ \score {
+  <<
+   \new TimeSig \compassoseparado
+   \new Staff {
+    \new Voice = "sax alto" {
+		\transpose bes g' {
+		  \easyHeadsOn
+		  \teeny
+			\parteum
+			\pulalinha
+			\partedois
+		}
+	}
+	\addlyrics \letratoda
+  }
+	>>
+	\layout {
+	\context {
+	\Voice
+	\consists \Gravador_nome_notas
+	}
+ }
+}
+}
+
 
 
 \version "2.18.2" % necessary for upgrading to future LilyPond versions.

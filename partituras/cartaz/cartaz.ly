@@ -1,14 +1,17 @@
 
 \version "2.18.2"
 
+\include "../formatoversos.ly"
+\include "../marcaspadronizadas.ly"
+\include "../nomedasnotas.ly"
+
 \header {
   encodingsoftware = "Lilypond / recording midi from Walkband"
   encodingdate = "2018-07-08"
   composer = "Fagner"
   title = "Cartaz"
 }
-\include "../formatoversos.ly"
-\include "../marcaspadronizadas.ly"
+
 #(set-global-staff-size 16)
 
 
@@ -28,7 +31,7 @@ intro = \relative c''  {
 }
 
 queromedeitar = \relative c'' {
-  r8 c c c c c4 c8 ~ |c c c c c bes4 bes8 ~ | bes a f bes4 a g8~|
+  r8 c c c c bes4 c8 ~ |c c c c c bes4 a8 ~ |  a f bes4 a g8~|
 }
 parteum = \relative c'' {
  \queromedeitar
@@ -154,6 +157,43 @@ letratoda = \lyricmode {
     \layout {}
     \midi {
     \tempo 4 = 129
+    }
+  }
+}
+
+#(set-global-staff-size 30)
+
+\book {
+  \bookOutputName "cartaz_Eb_notas"
+  \header {
+     instrument = "Eb"
+  }
+  \score {
+    <<
+      \new TimeSig \compassoseparado
+      \new Staff {
+        \accidentalStyle Score.dodecaphonic
+        \new Voice = "saxalto" {
+          \transpose f d' {
+            \easyHeadsOn
+            \teeny
+            \intro
+            \pulalinha
+            \marcaA
+            \parteum
+            \pulalinha
+            \marcaB
+            \partedois
+          }
+        }
+        \addlyrics \letratoda
+      }
+    >>
+     \layout {
+    \context {
+      \Voice
+      \consists \Gravador_nome_notas
+    }
     }
   }
 }

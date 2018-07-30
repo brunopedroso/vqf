@@ -14,24 +14,26 @@
 
 \include "../formatoversos.ly"
 \include "../marcaspadronizadas.ly"
+\include "../nomedasnotas.ly"
+
 
 parteum =  \relative g'' {
   \clef "treble" \key g \major \time 2/4 
   \partial 8 \marcaA g8 \repeat volta 2 {
     \mark \markup { \musicglyph #"scripts.segno" } | 
-    e8 g8 e8 g8 | e8 g8 e8 g8 | 
+    e8 g8 e8 g8 | e4. g8 | 
     e8 g8 e8 g8 |  fis4. fis8 | 
     dis8 fis8 dis8 fis8 | 
-    dis8 fis8 dis8 fis8 | 
+    dis4. fis8 | 
     dis8 fis8 dis8 fis8 | 
     g4. g8 | 
     e8 g8 e8 g8 | 
-    e8 g8 e8 g8 | 
+    e4. g8 | 
     e8 g8 e8 g8 | 
      fis4. fis8 | 
     dis8 fis8 dis8 fis8 | 
-    dis8 fis8 dis8 fis8 | 
-    b8 fis8 b16 a g fis |
+    \tuplet 3/4 {b8 b b} \tuplet 3/4 {a a a} |
+    \tuplet 3/4 {g g g} \tuplet 3/4 {fis fis fis}
     e8. e16 e8 e~ |
   }
 }
@@ -69,11 +71,11 @@ letraintro = \lyricmode {
   - - - - - - - - - - - 
   - - - - - - - - - - - 
   - - - - - - - - - - - 
-  - - - - - -
+  - -
 }
 letraum = \lyricmode {
   Eu quero me trepar no pé de coco
-Eu quero me trepar pra t -- rar co -- co
+Eu quero me trepar pra ti -- rar co -- co
 
 De -- pois eu quero quebrar o coco
 Pra saber se o coco é oco
@@ -165,6 +167,39 @@ letratoda = \lyricmode {
     \layout {}
     \midi {
     \tempo 4 = 190
+    }
+  }
+}
+
+#(set-global-staff-size 30)
+
+\book {
+  \bookOutputName "pra_tirar_coco_Eb_notas"
+  \header {
+     instrument = "Eb"
+  }
+  \score {
+    <<
+      \new TimeSig \compassoseparado
+      \new Staff {
+        \accidentalStyle Score.dodecaphonic
+        \new Voice = "sax alto" {
+          \transpose g a {
+            \easyHeadsOn
+            \teeny
+            \parteum
+            \parteliga
+            \partedois
+          }
+        }
+        \addlyrics \letratoda
+      }
+    >>
+    \layout {
+    \context {
+      \Voice
+      \consists \Gravador_nome_notas
+    }
     }
   }
 }

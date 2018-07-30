@@ -1,11 +1,14 @@
+
+\include "../formatoversos.ly"
+\include "../marcaspadronizadas.ly"
+\include "../nomedasnotas.ly"
+
 \header {
   title = "Um canto de afoxé para o bloco do Ilê"
   composer =  "Caetano Veloso e Moreno Veloso"
 }
 #(set-global-staff-size 14)
 
-\include "../formatoversos.ly"
-\include "../marcaspadronizadas.ly"
 
 parteum =  \relative c'   {
   \key e \major \repeat volta 2 {
@@ -122,4 +125,38 @@ I -- lê aiê,
 	    }
 	}
 	}
+}
+
+#(set-global-staff-size 30)
+
+\book {
+  \bookOutputName "canto_de_afoxeh_Eb_notas"
+  \header{
+  instrument = "Eb"
+  }
+  \score {
+	<<
+	  \new TimeSig	\compassoseparado
+	  \new Staff {
+        \accidentalStyle Score.dodecaphonic
+	    \new Voice = "um" {
+	      \voiceOne
+	      \set midiInstrument = #"trombone"
+	      \transpose e g {
+	        \easyHeadsOn
+	        \teeny
+			\parteum
+			\partedois
+		}
+	    }
+ 	    \addlyrics { \letratoda}
+	  }
+	>>
+	 \layout {
+    \context {
+      \Voice
+      \consists \Gravador_nome_notas
+    }
+    }
+  }
 }

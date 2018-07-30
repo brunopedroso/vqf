@@ -3,6 +3,7 @@
 
 \include "../formatoversos.ly"
 \include "../marcaspadronizadas.ly"
+\include "../nomedasnotas.ly"
 
 \header {
   encodingdate = "2018-02-05"
@@ -163,5 +164,37 @@ letratoda = {
       }
     >>
     \layout {}
+  }
+}
+
+#(set-global-staff-size 30)
+
+\book {
+  \bookOutputName "trenzinho_Eb_notas"
+  \header {
+     instrument = "Eb"
+  }
+  \score {
+    <<
+       \new TimeSig \compassoseparado
+      \new Staff {
+        \accidentalStyle Score.dodecaphonic
+        \new Voice = "saxalto" {
+          \transpose c a, {
+            \easyHeadsOn
+            \teeny
+            \parteum
+            \partedois
+          }
+        }
+        \addlyrics \letratoda
+      }
+    >>
+    \layout {
+    \context {
+      \Voice
+      \consists \Gravador_nome_notas
+    }
+    }
   }
 }

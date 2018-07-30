@@ -1,4 +1,6 @@
 \include "../formatoversos.ly"
+\include "../nomedasnotas.ly"
+
 \header{
   title = "Ô Abre Alas"
   composer =  "Chiquinha Gonzaga"
@@ -39,6 +41,7 @@ letra = \lyricmode {
 	Eu   sou   da   li  ra   não   pos  so   ne  gar
 	Ro  sa   de   ou  ro   é   quem   vai   ga  nhar
 }
+
 \book {
   \bookOutputName "abre_alas_Eb"
   \header{
@@ -111,4 +114,39 @@ letra = \lyricmode {
 	}
 }
 }
+
+#(set-global-staff-size 30)
+
+\book {
+  \bookOutputName "abre_alas_Eb_notas"
+  \header{
+  instrument = "Eb"
+  }
+\score {
+	<<
+	\new TimeSig \compassoseparado
+	\new Staff {
+	  \accidentalStyle Score.dodecaphonic
+	\new Voice = "um" {
+		\transpose bes g' {
+		  \easyHeadsOn
+		  \teeny
+			\musica
+		}
+	}
+	}
+	\new Lyrics \lyricsto "um" {
+        \letra
+    }
+	>>
+	\layout {
+	  \context {
+      \Voice
+      \consists \Gravador_nome_notas
+    }
+	}
+}
+}
+
+
 \version "2.18.2"  % necessary for upgrading to future LilyPond versions.

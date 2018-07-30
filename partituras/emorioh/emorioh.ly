@@ -1,4 +1,5 @@
 \include "../formatoversos.ly"
+\include "../nomedasnotas.ly"
 
 \header{
   title = "Emoriô"
@@ -131,5 +132,37 @@ letratoda = {
     \layout {}
   }
 }
-  
+
+#(set-global-staff-size 33)
+
+\book {
+  \bookOutputName "emorioh_Eb_notas"
+  \header {
+    instrument = "Instrumentos em Eb"
+  }
+  \score {
+    <<
+      \new TimeSig \compassoseparado
+	\new Staff {
+	  \accidentalStyle Score.dodecaphonic
+	  \new Voice = "saxalto" {
+	    \transpose bes g' {
+	      \easyHeadsOn
+	      \teeny
+	      \parteum
+	      \skip 256 \bar "" \break 
+	      \partedois
+	    }
+	  }
+	  \addlyrics {\letratoda}
+	}
+    >>
+    \layout {
+    \context {
+    \Voice
+    \consists \Gravador_nome_notas
+    }
+    }
+  }
+}
 \version "2.18.2"  

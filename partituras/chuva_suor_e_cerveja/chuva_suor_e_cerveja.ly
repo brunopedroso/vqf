@@ -1,8 +1,11 @@
+\include "../formatoversos.ly"
+\include "../nomedasnotas.ly"
+
 \header{
   title = "Chuva, Suor e Cerveja"
   composer = "Caetano Veloso"
 }
-\include "../formatoversos.ly"
+
 
 %#(set-global-staff-size 12)
 
@@ -155,6 +158,38 @@ letratoda = {
       }
     >>
     \layout {}
+  }
+}
+
+#(set-global-staff-size 30)
+
+\book {
+  \bookOutputName "chuva_suor_e_cerveja_Eb_notas"
+  \header {
+     instrument = "Eb"
+  }
+  \score {
+    <<
+      \new TimeSig \compassoseparado
+      \new Staff {
+        \accidentalStyle Score.dodecaphonic
+        \new Voice = "saxalto" {
+          \transpose g a {
+            \easyHeadsOn
+            \teeny
+            \parteum
+%             \skip 256 \bar "" \break
+            \partedois
+          }
+        }
+        \addlyrics \letratoda
+      }
+    >>
+    \layout {
+    \context {
+      \Voice
+      \consists \Gravador_nome_notas
+    }}
   }
 }
 \version "2.18.2"  % necessary for upgrading to future LilyPond versions.

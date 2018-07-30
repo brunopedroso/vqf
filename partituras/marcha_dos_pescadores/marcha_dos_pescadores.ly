@@ -1,10 +1,13 @@
+\include "../formatoversos.ly"
+\include "../nomedasnotas.ly"
+
 \header {
   title = "Marcha dos pescadores"
   composer =  "Dorival Caymmi"
 }
 #(set-global-staff-size 18)
 
-\include "../formatoversos.ly"
+
 
 minhajangada = \relative c' {
   d'8 f g | a g f e d4 a' | g2 \bar "" \break
@@ -164,4 +167,40 @@ letratoda = \lyricmode {
 	}
   }
 }
+
+#(set-global-staff-size 30)
+
+\book {
+  \bookOutputName "marcha_dos_pescadores_Eb_notas"
+  \header{
+  instrument = "Eb"
+  }
+  \score {
+	<<
+	  \new TimeSig	\compassoseparado
+	  \new Staff {
+	    \accidentalStyle Score.dodecaphonic
+	    \new Voice = "um" {
+	      \voiceOne
+	      \set midiInstrument = #"alto sax"
+	      \transpose bes g {
+	        \easyHeadsOn
+	        \teeny
+			\parteum
+			\pulalinha
+			\partedois
+		}
+	    }
+	    \addlyrics { \letratoda}
+	  }
+	>>
+	\layout {
+	  \context {
+      \Voice
+      \consists \Gravador_nome_notas
+    }
+	}
+	}
+}
+
 \version "2.18.2"  % necessary for upgrading to future LilyPond versions.

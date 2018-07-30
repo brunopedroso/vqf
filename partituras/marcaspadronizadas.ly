@@ -1,6 +1,6 @@
 \header {
   arranger = "Bloco Vai Quem Fica"
-  copyright = "(copyleft) - CC BY-SA 4.0" 
+  copyright = "(ɔ) - CC BY-SA 4.0" 
   tagline = "Criado com Software Livre - Lilypond"
 }
 

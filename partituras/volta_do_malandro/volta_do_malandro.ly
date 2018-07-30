@@ -2,14 +2,17 @@
 \version "2.18.2"
 % automatically converted by musicxml2ly from /home/GuigUse/Música/A_Volta_do_Malandro-melodia.mxl
 
+\include "../formatoversos.ly"
+\include "../marcaspadronizadas.ly"
+\include "../nomedasnotas.ly"
+
 \header {
   encodingsoftware = "MuseScore 3.0.0"
   encodingdate = "2018-07-07"
   composer = "Chico Buarque"
   title = "A Volta do Malandro"
 }
-\include "../formatoversos.ly"
-\include "../marcaspadronizadas.ly"
+
 #(set-global-staff-size 16)
 
 parteum =  \relative f'' {
@@ -119,6 +122,7 @@ Que_o ma -- lan -- dro_é o_ba -- rão da ra -- lé -- é
     \layout {}
   }
 }
+
 \book {
   \bookOutputName "volta_do_malandro_C"
   \header {
@@ -139,6 +143,36 @@ Que_o ma -- lan -- dro_é o_ba -- rão da ra -- lé -- é
     \layout {}
     \midi {
     \tempo 4 = 110
+    }
+  }
+}
+
+#(set-global-staff-size 30)
+\book {
+  \bookOutputName "volta_do_malandro_Eb_notas"
+  \header {
+     instrument = "Eb"
+  }
+  \score {
+    <<
+      \new TimeSig \compassoseparado
+      \new Staff {
+        \accidentalStyle Score.dodecaphonic
+        \new Voice = "saxalto" {
+          \transpose c a, {
+            \easyHeadsOn
+            \teeny
+            \parteum
+          }
+        }
+        \addlyrics \letratoda
+      }
+    >>
+     \layout {
+    \context {
+      \Voice
+      \consists \Gravador_nome_notas
+    }
     }
   }
 }

@@ -10,6 +10,8 @@
 }
 \include "../formatoversos.ly"
 \include "../marcaspadronizadas.ly"
+\include "../nomedasnotas.ly"
+
 #(set-global-staff-size 18)
 
 
@@ -105,4 +107,35 @@ Do you un -- der -- stand wa -- ter -- mel -- on man
     \tempo 4 = 110
     }
   }
+}
+
+#(set-global-staff-size 30)
+
+\book {
+  \bookOutputName "watermelon_man_Eb_notas"
+  \header {
+     instrument = "Eb"
+  }
+  \score {
+    <<
+      \new TimeSig \compassoseparado
+      \new Staff {
+        \accidentalStyle Score.dodecaphonic
+        \new Voice = "trombone" {
+          \transpose f d' {
+            \easyHeadsOn
+            \teeny
+            \parteum
+          }
+        }
+        \addlyrics \letratoda
+      }
+    >>
+    \layout {
+      \context {
+      \Voice
+      \consists \Gravador_nome_notas
+    }
+    }
+}
 }
