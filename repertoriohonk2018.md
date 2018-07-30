@@ -146,6 +146,7 @@ blocos:
           'c': 'partituras/emorioh/emorioh_C.pdf'
           'bb': 'partituras/emorioh/emorioh_Bb.pdf'
           'eb': 'partituras/emorioh/emorioh_Eb.pdf'
+          'ebnotas': 'partituras/emorioh/emorioh_Eb_notas.pdf'
 
       - nome: 'Bananeira (Gm)'
         links:
@@ -153,6 +154,7 @@ blocos:
           'c': 'partituras/bananeira/bananeira_C.pdf'
           'bb': 'partituras/bananeira/bananeira_Bb.pdf'
           'eb': 'partituras/bananeira/bananeira_Eb.pdf'
+          'ebnotas': 'partituras/bananeira/bananeira_Eb_notas.pdf'
 
 
   - nome: "African"
@@ -171,6 +173,7 @@ blocos:
           'c':  'partituras/caravan/caravan_C.pdf'
           'bb': 'partituras/caravan/caravan_Bb.pdf'
           'eb': 'partituras/caravan/caravan_Eb.pdf'
+          'eb': 'partituras/caravan/caravan_Eb_notas.pdf'
 
   - nome: "Jazz"
     musicas:
@@ -201,14 +204,16 @@ blocos:
           'c':  'partituras/take_five/take_five-Instrumentos_em_C.pdf'
           'bb': 'partituras/take_five/take_five-Instrumentos_em_Bb.pdf'
           'eb': 'partituras/take_five/take_five-Sax_Alto_em_Eb.pdf'
+          'eb': 'partituras/take_five/take_five-Eb_notas.pdf'
 
       - nome: 'Watermelon man (F)'
         links:
           'yt':  'https://www.youtube.com/watch?v=ZbHJHPTikQA&feature=youtu.be'
           'midi':  'partituras/watermelon_man/watermelon_man.midi' 
-          'C':  'partituras/watermelon_man/watermelon_man_C.pdf'          
-          'Bb':  'partituras/watermelon_man/watermelon_man_Bb.pdf'          
-          'Eb':  'partituras/watermelon_man/watermelon_man_Eb.pdf'                    
+          'C':  'partituras/watermelon_man/watermelon_man_C.pdf'
+          'Bb':  'partituras/watermelon_man/watermelon_man_Bb.pdf'
+          'Eb':  'partituras/watermelon_man/watermelon_man_Eb.pdf'
+          'ebnotas':  'partituras/watermelon_man/watermelon_man_Eb_notas.pdf'
 
 
       - nome: 'Cantaloupe Island (F)'
@@ -225,12 +230,15 @@ blocos:
           'c': 'partituras/chuva_suor_e_cerveja/chuva_suor_e_cerveja_C.pdf'
           'bb': 'partituras/chuva_suor_e_cerveja/chuva_suor_e_cerveja_Bb.pdf'
           'eb': 'partituras/chuva_suor_e_cerveja/chuva_suor_e_cerveja_Eb.pdf'
+          'ebnotas': 'partituras/chuva_suor_e_cerveja/chuva_suor_e_cerveja_Eb_notas.pdf'
+
       - nome: 'O Balancê (F)'
         links:
           'yt': 'https://www.youtube.com/watch?v=TuPFzT8BJag'
           'c': 'partituras/balanceh/balanceh_C.pdf'
           'bb': 'partituras/balanceh/balanceh_Bb.pdf'
           'eb': 'partituras/balanceh/balanceh_Eb.pdf'
+          'ebnotas': 'partituras/balanceh/balanceh_Eb_notas.pdf'
           'midi': 'partituras/balanceh/balanceh_C.midi'
 
       - nome: 'Pegando fogo (F)'
@@ -239,6 +247,7 @@ blocos:
           'c': 'partituras/pegando_fogo/pegando_fogo_C.pdf'
           'bb': 'partituras/pegando_fogo/pegando_fogo_Bb.pdf'
           'eb': 'partituras/pegando_fogo/pegando_fogo_Eb.pdf'
+          'ebnotas': 'partituras/pegando_fogo/pegando_fogo_Eb_notas.pdf'
           'midi': 'partituras/pegando_fogo/pegando_fogo_C.midi'
 
 
@@ -252,6 +261,7 @@ blocos:
           'c': 'partituras/chan_chan/chan_chan_C.pdf'
           'bb': 'partituras/chan_chan/chan_chan_Bb.pdf'
           'eb': 'partituras/chan_chan/chan_chan_Eb.pdf'
+          'ebnotas': 'partituras/chan_chan/chan_chan_Eb_notas.pdf'
           'Tuba': 'partituras/chan_chan/chan_chan_Tuba.pdf'
           'Guitarra': 'partituras/chan_chan/chan_chan_Geral.pdf'
           'Geral': 'partituras/chan_chan/chan_chan_Geral.pdf'
@@ -262,6 +272,7 @@ blocos:
           'c': 'partituras/marcha_dos_pescadores/marcha_dos_pescadores_C.pdf'
           'bb': 'partituras/marcha_dos_pescadores/marcha_dos_pescadores_Bb.pdf'
           'eb': 'partituras/marcha_dos_pescadores/marcha_dos_pescadores_Eb.pdf'
+          'ebnotas': 'partituras/marcha_dos_pescadores/marcha_dos_pescadores_Eb_notas.pdf'
 
       - nome: 'Eu Vi Mamãe Oxum na Cachoeira (Dm)'
         links:
@@ -269,6 +280,7 @@ blocos:
           'c': 'partituras/eu_vi_mamae_oxum_na_cachoeira/mamae_oxum-C.pdf'
           'bb': 'partituras/eu_vi_mamae_oxum_na_cachoeira/mamae_oxum-Bb.pdf'
           'eb': 'partituras/eu_vi_mamae_oxum_na_cachoeira/mamae_oxum-Eb.pdf'
+          'ebnotas': 'partituras/eu_vi_mamae_oxum_na_cachoeira/mamae_oxum-Eb_notas.pdf'
 
       - nome: 'O Abre Alas (Dm)'
         links:
@@ -276,6 +288,7 @@ blocos:
           'c':  'partituras/abre_alas/abre_alas_C.pdf'
           'bb': 'partituras/abre_alas/abre_alas_Bb.pdf'
           'eb': 'partituras/abre_alas/abre_alas_Eb.pdf'
+          'ebnotas': 'partituras/abre_alas/abre_alas_Eb_notas.pdf'
 
       - nome: 'Turma do Funil (Dm)'
         links:
@@ -283,6 +296,7 @@ blocos:
           'c':  'partituras/turma_do_funil/turma_do_funil_C.pdf'
           'bb': 'partituras/turma_do_funil/turma_do_funil_Bb.pdf'
           'eb': 'partituras/turma_do_funil/turma_do_funil_Eb.pdf'
+          'ebnotas': 'partituras/turma_do_funil/turma_do_funil_Eb_notas.pdf'
 
 
   - nome: "Lento"
@@ -294,6 +308,7 @@ blocos:
           'c': 'partituras/fool_on_the_hill/fool_on_the_hill_C.pdf'
           'bb': 'partituras/fool_on_the_hill/fool_on_the_hill_Bb.pdf'
           'eb': 'partituras/fool_on_the_hill/fool_on_the_hill_Eb.pdf'
+          'ebnotas': 'partituras/fool_on_the_hill/fool_on_the_hill_Eb_notas.pdf'
 
       - nome: 'ângelus (C)'
         links:
@@ -302,6 +317,7 @@ blocos:
           'c': 'partituras/angelus/angelus_C.pdf'
           'bb': 'partituras/angelus/angelus_Bb.pdf'
           'eb': 'partituras/angelus/angelus_Eb.pdf'
+          'ebnotas': 'partituras/angelus/angelus_Eb_notas.pdf'
 
       - nome: 'O trenzinho do caipira (C)'
         links:
@@ -309,6 +325,7 @@ blocos:
           'c': 'partituras/trenzinho/trenzinhoCaipiraC.png'
           'bb': 'partituras/trenzinho/trenzinhoCaipiraBb.png'
           'eb': 'partituras/trenzinho/trenzinho_Eb.pdf'
+          'ebnotas': 'partituras/trenzinho/trenzinho_Eb_notas.pdf'
           'c-letra': 'partituras/trenzinho/trenzinho_C.pdf'
           'bb-letra': 'partituras/trenzinho/trenzinho_Bb.pdf'
           'midi': 'partituras/trenzinho/trenzinho_C.midi'
@@ -323,6 +340,7 @@ blocos:
           'c':  'partituras/corta_jaca/Corta_Jaca.pdf'
           'bb': 'partituras/corta_jaca/Corta_Jaca-Clarinete_e_Sax_Tenor_em_Bb.pdf'
           'eb': 'partituras/corta_jaca/Corta_Jaca-Sax_Alto_em_Eb.pdf'
+          'eb': 'partituras/corta_jaca/Corta_Jaca-Sax_Alto_em_Eb_notas.pdf'
 
       - nome: 'Folia de Reis (F)'
         links:
