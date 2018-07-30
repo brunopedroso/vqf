@@ -1,4 +1,4 @@
-
+\include "../nomedasnotas.ly"
 \version "2.18.2"
 
 \header {
@@ -339,5 +339,45 @@ saxalto =  \relative a' {
 	}
 	>>
 	\layout {}
+     }    
+}
+
+#(set-global-staff-size 30)
+
+\book {
+  \bookOutputSuffix "Eb_notas"
+  \header {
+    title = "Corta Jaca (Gaúcho de cá e lá)"
+    composer =  "Francisca Gonzaga (1847-1935)"
+    instrument = "Eb"
+    arranger = "Bloco Vai Quem Fica"
+    copyright = "(ɔ) - CC BY-SA 4.0" 
+    tagline = "Criado com Software Livre - Lilypond"  % removida mensagem de lilypond 
+  }
+  \score {
+     <<
+       \new Staff {
+         \accidentalStyle Score.dodecaphonic
+	\new Voice = "sax alto" {
+	  \set midiInstrument = #"alto sax"
+	  \oneVoice
+	  \voiceOne
+	  \time 2/4
+	  \clef G
+	  \key d \major
+	  \transpose f d {
+	    \easyHeadsOn
+	    \teeny
+	    \saxalto
+	  }
+	}
+       }
+	>>
+	\layout {
+	\context {
+      \Voice
+      \consists \Gravador_nome_notas
+    }
+	}
      }    
 }

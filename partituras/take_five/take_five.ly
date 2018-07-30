@@ -1,3 +1,4 @@
+\include "../nomedasnotas.ly"
 
 parteAsax = \relative c'' {
   \partial 2 { b8 e g a }| ais b a g e4 b d |
@@ -142,4 +143,38 @@ parteBinstrumentoemC = \relative c'' {
 	  }
 	}
  }
+ 
+\book {
+  \bookOutputSuffix "Eb_notas"
+  \header {
+   title = "Take Five"
+   composer = "Paul Desmond"
+   instrument = "Sax Alto em Eb"
+   arranger = "Bloco Vai Quem Fica"
+   copyright = "(ɔ) - CC - BY-SA 4.0"
+   tagline = "Criado com Software Livre - Lilypond"  % removida mensagem de lilypond
+ }
+\score {
+  <<
+    \new Staff {
+      \accidentalStyle Score.dodecaphonic
+      \time 5/4
+      \clef G
+      \key d \major
+      \transpose g d {
+        \easyHeadsOn
+        \teeny
+      \parteAsax
+      \parteBsax
+      }
+    }
+  >>
+  \layout {
+    \context {
+      \Voice
+      \consists \Gravador_nome_notas
+    }
+  }
+}
+}
 \version "2.18.2"

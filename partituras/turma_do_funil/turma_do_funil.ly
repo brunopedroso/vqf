@@ -1,4 +1,6 @@
 \include "../formatoversos.ly"
+\include "../nomedasnotas.ly"
+
 \header{
   title = "A turma do funil (sem ritmo)"
   composer = \markup {\right-column { 
@@ -79,6 +81,7 @@ letratoda = {
   \letraum
   \letradois
 }
+
 \book {
   \bookOutputName "turma_do_funil_Eb"
   \header {
@@ -154,5 +157,39 @@ letratoda = {
     \layout {}
   }
 }
+
+#(set-global-staff-size 30)
+
+\book {
+  \bookOutputName "turma_do_funil_Eb_notas"
+  \header {
+    instrument = "Eb"
+  }
+  \score {
+    <<
+     \new TimeSig \compassoseparado
+	\new Staff {
+	  \accidentalStyle Score.dodecaphonic
+	  \new Voice = "saxalto" {
+	    \transpose bes d' {
+	      \easyHeadsOn
+	      \teeny
+	      \parteum
+	      \skip 256 \bar "" \break
+	      \partedois
+	    }
+	  }
+	  \addlyrics {\letratoda }
+	}
+    >>
+    \layout {
+      \context {
+      \Voice
+      \consists \Gravador_nome_notas
+    }
+    }
+  }
+}
+
 
 \version "2.18.2"  % necessary for upgrading to future LilyPond versions.

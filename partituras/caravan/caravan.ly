@@ -1,4 +1,5 @@
 \include "../marcaspadronizadas.ly"
+\include "../nomedasnotas.ly"
 %#(set-global-staff-size 16)
 
 \header {
@@ -108,6 +109,34 @@ melodiaprincipal =  \relative c'' {
     \layout {}
     \midi {
       \tempo 4 = 130
+    }
+  }
+}
+
+#(set-global-staff-size 30)
+\book {
+  \bookOutputName "caravan_Eb_notas"
+  \header {
+    instrument = "Para instrumentos em Eb"
+  }
+  \score {
+    <<
+      \new Staff <<
+        \accidentalStyle Score.dodecaphonic
+      \new Voice = "saxalto" {
+        \transpose bes g' {
+          \easyHeadsOn
+          \teeny
+        \melodiaprincipal
+        }
+      }
+      >>
+    >>
+    \layout {
+      \context {
+      \Voice
+      \consists \Gravador_nome_notas
+    }
     }
   }
 }

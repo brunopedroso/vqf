@@ -1,5 +1,6 @@
 \include "../formatoversos.ly"
 \include "../marcaspadronizadas.ly"
+\include "../nomedasnotas.ly"
 \version "2.18.2"
 
 #(set-global-staff-size 16)
@@ -137,3 +138,35 @@ letratoda = {
     \layout {}
   }
 }
+
+#(set-global-staff-size 30)
+\book {
+  \bookOutputName "balanceh_Eb_notas"
+  \header {
+     instrument = "Para instrumentos em Eb"
+  }
+  \score {
+    <<
+      \new TimeSig \compassoseparado
+      \new Staff {
+        \accidentalStyle Score.dodecaphonic
+        \new Voice = "saxalto" {
+          \transpose a d' {
+            \easyHeadsOn
+            \teeny
+            \parteum
+            \transpose d' d{\partedois}
+          }
+        }
+        \addlyrics \letratoda
+      }
+    >>
+    \layout {
+    \context {
+      \Voice
+      \consists \Gravador_nome_notas
+    }
+    }
+  }
+}
+
