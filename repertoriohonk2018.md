@@ -333,8 +333,8 @@ blocos:
 
   - nome: "Tetris / Pé na Tuba"
     musicas:
-    
-      - nome: 'Blues Cigano'
+
+      - nome: 'Blues Cigano (Bm)'
       - links:
           'gravacao': 'https://www.youtube.com/watch?v=9LvnJr-kjbE'
           'c': 'partituras/blues_cigano/blues_cigano_C.pdf'
@@ -342,6 +342,23 @@ blocos:
           'eb': 'partituras/blues_cigano/blues_cigano_Eb.pdf'
           'ebnotas': 'partituras/blues_cigano/blues_cigano_Eb_notas.pdf'
 
+      - nome: 'Pé na Tuba (Am)'
+        links:
+          'mp3': 'partituras/pe_na_tuba/pe_na_tuba.mp3'
+          'juntos': 'partituras/pe_na_tuba/pe_na_tuba_juntos.pdf'
+          'separados': 'partituras/pe_na_tuba/pe_na_tuba_separados.pdf'
+
+      - nome: 'Tetris'
+        links:
+          'youtube': 'https://www.youtube.com/watch?v=ABdy87nQyX8'
+          'youtube2': 'https://www.youtube.com/watch?v=NmCCQxVBfyM'
+          'c':  'partituras/tetris/tetris-C.pdf'
+          'bb': 'partituras/tetris/tetris-Bb.pdf'
+          'eb': 'partituras/tetris/tetris-Eb.pdf'
+          'midi':    'partituras/tetris/tetris.midi'
+          'ebnotas': 'partituras/tetris/tetris_Eb_notas.pdf'
+
+ 
   - nome: "Maxixes (alternativas talvez)"
     musicas:
 
@@ -376,12 +393,7 @@ blocos:
           'eb': 'partituras/meia_lua_inteira/meia_lua_inteira_Eb.pdf'
           'midi':  'partituras/meia_lua_inteira/meia_lua_inteira_C.midi'
 
-      - nome: 'Pé na Tuba (Am)'
-        links:
-          'mp3': 'partituras/pe_na_tuba/pe_na_tuba.mp3'
-          'juntos': 'partituras/pe_na_tuba/pe_na_tuba_juntos.pdf'
-          'separados': 'partituras/pe_na_tuba/pe_na_tuba_separados.pdf'
- 
+
 
   - nome: "Futuras"
     musicas:
