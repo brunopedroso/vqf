@@ -138,7 +138,7 @@ letratoda = \lyricmode {
     \new Staff {
       \set Staff.instrumentName = "Canto"
       \context Staff <<
-        \context Voice = "melodia" { \transpose g e {\voiceOne \parteum \partedois }}
+        \context Voice = "melodia" { \transpose g a {\voiceOne \parteum \partedois }}
       \addlyrics { \letratoda}
       >>
       
@@ -161,7 +161,7 @@ letratoda = \lyricmode {
     \new Staff {
       \set Staff.instrumentName = "Canto"
       \context Staff <<
-        \context Voice = "melodia" { \transpose g b {\voiceOne \parteum \partedois }}
+        \context Voice = "melodia" { \transpose g e {\voiceOne \parteum \partedois }}
       \addlyrics { \letratoda}
       >>
       
@@ -184,7 +184,7 @@ letratoda = \lyricmode {
     \new Staff {
       \set Staff.instrumentName = ""
       \context Staff <<
-        \context Voice = "melodia" { \transpose g d' {\voiceOne \parteum \partedois }}
+        \context Voice = "melodia" { \transpose g g {\voiceOne \parteum \partedois }}
       \addlyrics { \letratoda}
       >>
       
@@ -202,7 +202,7 @@ letratoda = \lyricmode {
   <<
     \new Staff {
       \context Staff <<
-        \context Voice = "melodia" { \transpose g d' {\voiceOne \melodiamidi }}
+        \context Voice = "melodia" { \transpose g g {\voiceOne \melodiamidi }}
       >>
       
     }
