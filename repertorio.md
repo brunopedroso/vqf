@@ -225,6 +225,12 @@ blocos:
       - nome: 'Moliendo Café (Cm)'
         links:
           'yt': 'https://www.youtube.com/watch?v=QiHmiZQNgL4'
+          'c': 'partituras/moliendo_cafe/moliendo_cafe_C.pdf'
+          'bb': 'partituras/moliendo_cafe/moliendo_cafe_Bb.pdf'
+          'eb': 'partituras/moliendo_cafe/moliendo_cafe_Eb.pdf'
+          'ebnotas':  'partituras/moliendo_cafe/moliendo_cafe_Eb_notas.pdf'
+          'midi': 'partituras/moliendo_cafe/moliendo_cafe_C.midi'
+
 
   - nome: "Lento"
     musicas:
@@ -404,7 +410,7 @@ blocos:
   - nome: "Forrós"
     musicas:
 
-      - nome: 'Feira de mangai (Am)'
+      - nome: 'Feira de mangaio (Am)'
       - nome: 'Pra tirar côco (Am)'
         links:
           'yt': 'https://www.youtube.com/watch?v=0caahoVisao&feature=youtu.be'
