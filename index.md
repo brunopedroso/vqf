@@ -4,7 +4,7 @@ title: Vai Quem Fica 2017
 img_capa: http://brunopedroso.github.io/vqf/img/fotos_2015/foto9.jpg
 ---
 
-## Vai Quem Fica 2018
+## Vai Quem Fica 2019
 
 <div class="caixa">
 
