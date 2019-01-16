@@ -45,6 +45,8 @@ blocos:
           'c': 'partituras/marcha_dos_pescadores/marcha_dos_pescadores_C.pdf'
           'bb': 'partituras/marcha_dos_pescadores/marcha_dos_pescadores_Bb.pdf'
           'eb': 'partituras/marcha_dos_pescadores/marcha_dos_pescadores_Eb.pdf'
+          'ebnotas': 'partituras/marcha_dos_pescadores/marcha_dos_pescadores_Eb_notas.pdf'
+          'midi': 'partituras/marcha_dos_pescadores/marcha_dos_pescadores_Geral.midi'
 
       - nome: 'Eu Vi Mamãe Oxum na Cachoeira (Dm)'
         links:
