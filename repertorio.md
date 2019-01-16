@@ -19,6 +19,7 @@ blocos:
           'c':  'partituras/circo/circo_C.pdf'
           'bb': 'partituras/circo/circo_Bb.pdf'
           'eb': 'partituras/circo/circo_Eb.pdf'
+          'ebnotas': 'partituras/circo/circo_Eb_notas.pdf'
 
       - nome: 'African Marketplace (F)'
         links:
@@ -33,6 +34,7 @@ blocos:
           'c':  'partituras/caravan/caravan_C.pdf'
           'bb': 'partituras/caravan/caravan_Bb.pdf'
           'eb': 'partituras/caravan/caravan_Eb.pdf'
+          'ebnotas': 'partituras/caravan/caravan_Eb_notas.pdf'
 
 
   - nome: "Dm lento"

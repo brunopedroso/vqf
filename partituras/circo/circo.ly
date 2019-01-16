@@ -1,4 +1,6 @@
 \include "../formatoversos.ly"
+\include "../nomedasnotas.ly"
+
 #(set-global-staff-size 17)
 
 \header{
@@ -173,4 +175,66 @@ letrachegou = \lyricmode {
     }
   }
 }
+
+#(set-global-staff-size 30)
+
+\book {
+  \bookOutputName "circo_Eb_notas"
+  \header {
+     instrument = "Eb"
+  }
+  \score {
+    <<
+      \new TimeSig \compassoseparado   
+      \new Staff {
+        \accidentalStyle Score.dodecaphonic    
+        \new Voice = "saxalto" {
+          \transpose bes g {
+            \easyHeadsOn
+            \teeny
+            \melodia
+          }
+        }
+      }
+    >>
+    \layout {
+        \context {
+      \Voice
+      \consists \Gravador_nome_notas
+      }
+    \context {
+      \Score 
+      \override SpacingSpanner.base-shortest-duration = #(ly:make-moment 1/4)
+	}
+  }
+}
+   	  \score {
+		    <<
+		      \new TimeSig \compassoseparado
+		      \new Staff {
+		        \accidentalStyle Score.dodecaphonic    
+		        \new Voice = "saxalto2" {
+		          \transpose bes g {
+                 \easyHeadsOn
+		            \teeny
+		            \unfoldRepeats
+		            \chegouchegou
+		          }
+		        }
+		      \addlyrics \letrachegou
+		      }
+		    >>
+	    \layout {
+	        \context {
+	      \Voice
+	      \consists \Gravador_nome_notas
+	      }
+	    \context {
+	      \Score 
+	      \override SpacingSpanner.base-shortest-duration = #(ly:make-moment 1/4)
+			}
+		 }
+		 }
+}
+
 \version "2.18.2"  % necessary for upgrading to future LilyPond versions.
