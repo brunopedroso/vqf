@@ -54,6 +54,7 @@ blocos:
           'c': 'partituras/eu_vi_mamae_oxum_na_cachoeira/mamae_oxum-C.pdf'
           'bb': 'partituras/eu_vi_mamae_oxum_na_cachoeira/mamae_oxum-Bb.pdf'
           'eb': 'partituras/eu_vi_mamae_oxum_na_cachoeira/mamae_oxum-Eb.pdf'
+          'ebnotas': 'partituras/eu_vi_mamae_oxum_na_cachoeira/mamae_oxum-Eb_notas.pdf'
 
       - nome: 'O Abre Alas (Dm)'
         links:
