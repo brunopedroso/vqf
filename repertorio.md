@@ -57,13 +57,6 @@ blocos:
           'bb': 'partituras/abre_alas/abre_alas_Bb.pdf'
           'eb': 'partituras/abre_alas/abre_alas_Eb.pdf'
 
-      - nome: 'Turma do Funil (Dm)'
-        links:
-          'gravacao': 'https://s3.amazonaws.com/brunopedroso/vqf/b2/4_Funil.mp3'
-          'c':  'partituras/turma_do_funil/turma_do_funil_C.pdf'
-          'bb': 'partituras/turma_do_funil/turma_do_funil_Bb.pdf'
-          'eb': 'partituras/turma_do_funil/turma_do_funil_Eb.pdf'
-
       - nome: 'Touradas em Madri (Dm)'
         links:
           'youtube': 'https://www.youtube.com/watch?v=PFE2UNSu5Hs'
@@ -73,8 +66,15 @@ blocos:
           'alto':    'partituras/touradas_em_madrid/Touradas_em_Madrid-Sax_Alto_Eb.pdf'
           'tenor_clarin':    'partituras/touradas_em_madrid/Touradas_em_Madrid-Clarinete_e_Sax_Tenor_em_Bb.pdf'
 
+      - nome: 'Turma do Funil (Dm)'
+        links:
+          'gravacao': 'https://s3.amazonaws.com/brunopedroso/vqf/b2/4_Funil.mp3'
+          'c':  'partituras/turma_do_funil/turma_do_funil_C.pdf'
+          'bb': 'partituras/turma_do_funil/turma_do_funil_Bb.pdf'
+          'eb': 'partituras/turma_do_funil/turma_do_funil_Eb.pdf'
 
-  - nome: "Marchinhas Bb 1"
+
+  - nome: "Pierrot"
     musicas:
 
       - nome: 'Pierrot Apaixonado (Bb)'
@@ -162,16 +162,36 @@ blocos:
           'eb': 'partituras/bananeira/bananeira_Eb.pdf'
 
 
-  - nome: "Balancê"
+  - nome: "Latinas"
     musicas:
 
-      - nome: 'Não existe pecado do lado de baixo do equador (C)'
+      - nome: 'Chan Chan (Dm)'
         links:
-          'yt': 'https://www.youtube.com/watch?v=VmV_O7EW9IM'
+          'yt': 'https://www.youtube.com/watch?v=UXwLBS3yUkA'
+          'midi': 'partituras/chan_chan/chan_chan_Geral.midi'
+          'c': 'partituras/chan_chan/chan_chan_C.pdf'
+          'bb': 'partituras/chan_chan/chan_chan_Bb.pdf'
+          'eb': 'partituras/chan_chan/chan_chan_Eb.pdf'
+          'Tuba': 'partituras/chan_chan/chan_chan_Tuba.pdf'
+          'Guitarra': 'partituras/chan_chan/chan_chan_Geral.pdf'
+          'Geral': 'partituras/chan_chan/chan_chan_Geral.pdf'
 
-      - nome: 'Boi voador não pode (C)'
+      - nome: 'Carinito'
         links:
-          'yt': 'https://www.youtube.com/watch?v=YMjtso8qZSI'
+          'yt': 'https://www.youtube.com/watch?v=Op0dN_U4L5s'
+
+      - nome: 'Moliendo Café (Cm)'
+        links:
+          'yt': 'https://www.youtube.com/watch?v=QiHmiZQNgL4'
+          'c': 'partituras/moliendo_cafe/moliendo_cafe_C.pdf'
+          'bb': 'partituras/moliendo_cafe/moliendo_cafe_Bb.pdf'
+          'eb': 'partituras/moliendo_cafe/moliendo_cafe_Eb.pdf'
+          'ebnotas':  'partituras/moliendo_cafe/moliendo_cafe_Eb_notas.pdf'
+          'midi': 'partituras/moliendo_cafe/moliendo_cafe_C.midi'
+
+
+  - nome: "Balancê"
+    musicas:
 
       - nome: 'Chuva Suor e Cerveja (C)'
         links:
@@ -204,34 +224,6 @@ blocos:
           'eb': 'partituras/mulata_bossa_nova/mulata_bossa_nova_Eb.pdf'
 
 
-  - nome: "Latinas"
-    musicas:
-
-      - nome: 'Chan Chan (Dm)'
-        links:
-          'yt': 'https://www.youtube.com/watch?v=UXwLBS3yUkA'
-          'midi': 'partituras/chan_chan/chan_chan_Geral.midi'
-          'c': 'partituras/chan_chan/chan_chan_C.pdf'
-          'bb': 'partituras/chan_chan/chan_chan_Bb.pdf'
-          'eb': 'partituras/chan_chan/chan_chan_Eb.pdf'
-          'Tuba': 'partituras/chan_chan/chan_chan_Tuba.pdf'
-          'Guitarra': 'partituras/chan_chan/chan_chan_Geral.pdf'
-          'Geral': 'partituras/chan_chan/chan_chan_Geral.pdf'
-
-      - nome: 'Carinito'
-        links:
-          'yt': 'https://www.youtube.com/watch?v=Op0dN_U4L5s'
-
-      - nome: 'Moliendo Café (Cm)'
-        links:
-          'yt': 'https://www.youtube.com/watch?v=QiHmiZQNgL4'
-          'c': 'partituras/moliendo_cafe/moliendo_cafe_C.pdf'
-          'bb': 'partituras/moliendo_cafe/moliendo_cafe_Bb.pdf'
-          'eb': 'partituras/moliendo_cafe/moliendo_cafe_Eb.pdf'
-          'ebnotas':  'partituras/moliendo_cafe/moliendo_cafe_Eb_notas.pdf'
-          'midi': 'partituras/moliendo_cafe/moliendo_cafe_C.midi'
-
-
   - nome: "Lento"
     musicas:
       - nome: 'The fool on the hill (C)'
@@ -259,6 +251,23 @@ blocos:
           'c-letra': 'partituras/trenzinho/trenzinho_C.pdf'
           'bb-letra': 'partituras/trenzinho/trenzinho_Bb.pdf'
           'midi': 'partituras/trenzinho/trenzinho_C.midi'
+
+
+  - nome: "Pecado"
+    musicas:
+
+      - nome: 'Não existe pecado do lado de baixo do equador (C)'
+        links:
+          'yt': 'https://www.youtube.com/watch?v=VmV_O7EW9IM'
+
+      - nome: 'Boi voador não pode (C)'
+        links:
+          'yt': 'https://www.youtube.com/watch?v=YMjtso8qZSI'
+
+      - nome: 'Festa do interior (C)'
+        links:
+          'yt': 'https://www.youtube.com/watch?v=-MVsK3yyJKA'
+
 
   - nome: "Haiti"
     musicas:
@@ -295,16 +304,8 @@ blocos:
           'part Eb': 'partituras/benguele/benguele-Eb.pdf'
           'midi':    'partituras/benguele/benguele.midi'
 
-      - nome: 'Meia lua inteira (F)'
-        links:
-          'yt': 'https://www.youtube.com/watch?v=GszhZlipskg'
-          'c':  'partituras/meia_lua_inteira/meia_lua_inteira_C.pdf'
-          'bb': 'partituras/meia_lua_inteira/meia_lua_inteira_Bb.pdf'
-          'eb': 'partituras/meia_lua_inteira/meia_lua_inteira_Eb.pdf'
-          'midi':  'partituras/meia_lua_inteira/meia_lua_inteira_C.midi'
 
-
-  - nome: "Marchinhas Bb 2"
+  - nome: "Cachaça"
     musicas:
 
       - nome: 'Cachaça (Bb)'
@@ -363,7 +364,7 @@ blocos:
           'midi':  'partituras/cabelo_de_fogo/cabelo_de_fogo_C.midi'
 
 
-  - nome: "Marchinhas Gm"
+  - nome: "Pastorinhas"
     musicas:
 
       - nome: 'Pastorinhas (Gm)'
@@ -411,6 +412,9 @@ blocos:
     musicas:
 
       - nome: 'Feira de mangaio (Am)'
+        links:
+          'yt': 'https://www.youtube.com/watch?v=M-38_POSU1M'
+        
       - nome: 'Pra tirar côco (Am)'
         links:
           'yt': 'https://www.youtube.com/watch?v=0caahoVisao&feature=youtu.be'
@@ -426,18 +430,27 @@ blocos:
 
       - nome: 'bola de meia (G)'
 
-      - nome: '[X] A Banda (Eb)'
-      - nome: '[X] Reconvexo'
-
-      - nome: '[X] Bela Ciao'
-
       - nome: 'Watermellow man'
       - nome: 'Cantaloupe'
-
       - nome: 'Autumn leaves'
 
-      - nome: '[X] Coisa n1 (Moacir)'
+      - nome: 'Bela Ciao'
 
+      - nome: '[X] A Banda (Eb)'
+
+      - nome: '[X] Reconvexo'
+
+
+      - nome: 'Meia lua inteira (F)'
+        links:
+          'yt': 'https://www.youtube.com/watch?v=GszhZlipskg'
+          'c':  'partituras/meia_lua_inteira/meia_lua_inteira_C.pdf'
+          'bb': 'partituras/meia_lua_inteira/meia_lua_inteira_Bb.pdf'
+          'eb': 'partituras/meia_lua_inteira/meia_lua_inteira_Eb.pdf'
+          'midi':  'partituras/meia_lua_inteira/meia_lua_inteira_C.midi'
+
+      - nome: '[X] Coisa n1 (Moacir)'
+      
       - nome: 'Nanã (Dm)'
         links:
           'completa': 'partituras/coisa5/COISA5.mp3'
