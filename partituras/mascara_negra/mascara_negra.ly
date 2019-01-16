@@ -1,4 +1,5 @@
 \include "../formatoversos.ly"
+\include "../nomedasnotas.ly"
 
 #(set-global-staff-size 16)
 
@@ -181,6 +182,43 @@ partedoisclarinete = {
     >>
     \layout {}
   }
+}
+
+#(set-global-staff-size 30)
+
+\book {
+  \bookOutputName "mascara_negra_Eb_notas"
+  \header {
+     instrument = "Eb"
+  }
+  \score {
+    <<
+      \new TimeSig \compassoseparado
+      \new Staff {
+        \accidentalStyle Score.dodecaphonic
+        \new Voice = "saxalto" {
+          \transpose bes d {
+            \easyHeadsOn
+            \teeny
+            \parteumsaxalto
+%             \skip 256 \bar "" \pulalinha
+            \partedois
+          }
+        }
+        \addlyrics \letratoda
+      }
+    >>
+    \layout {
+        \context {
+      \Voice
+      \consists \Gravador_nome_notas
+      }
+    \context {
+      \Score 
+      \override SpacingSpanner.base-shortest-duration = #(ly:make-moment 1/4)
+	}
+  }
+}
 }
 
 
