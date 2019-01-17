@@ -72,6 +72,8 @@ blocos:
           'tromp':    'partituras/touradas_em_madrid/Touradas_em_Madrid-Trompetes_em_Bb.pdf'
           'alto':    'partituras/touradas_em_madrid/Touradas_em_Madrid-Sax_Alto_Eb.pdf'
           'tenor_clarin':    'partituras/touradas_em_madrid/Touradas_em_Madrid-Clarinete_e_Sax_Tenor_em_Bb.pdf'
+          'ebnotas':    'partituras/touradas_em_madrid/Touradas_em_Madrid-Sax_Alto_Eb_notas.pdf'
+          
 
       - nome: 'Turma do Funil (Dm)'
         links:

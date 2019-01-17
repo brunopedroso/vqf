@@ -155,6 +155,49 @@ letra = \lyricmode {
   
 }
 \book {
+  \bookOutputSuffix "Sax Alto Eb notas"
+  \header {
+    instrument = "Sax Alto em Eb"
+  }
+  \score {
+     <<
+	\new Staff{
+	  \accidentalStyle Score.dodecaphonic
+		\new Voice = "sax" {
+          \easyHeadsOn
+          \teeny
+			  	\trocacompasso
+				  \oneVoice
+				  \clef G
+				  \key d \major
+				  \transpose c a {
+				   \introgeral
+				   \time 4/4
+				   \Segno
+				   \base
+				   \melodiamadeirasmenor
+				   \key d \major
+				   \melodiamaior
+				   \DSCoda
+				   \notafinal
+					}
+			   }
+	    }
+  >>
+    \layout {
+        \context {
+      \Voice
+      \consists \Gravador_nome_notas
+      }
+    \context {
+      \Score 
+      \override SpacingSpanner.base-shortest-duration = #(ly:make-moment 1/4)
+	}
+  }
+ }
+}
+
+\book {
   \bookOutputSuffix "Sax Alto Eb"
   \header {
     instrument = "Sax Alto em Eb"
