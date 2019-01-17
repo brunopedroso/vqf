@@ -62,6 +62,7 @@ blocos:
           'c':  'partituras/abre_alas/abre_alas_C.pdf'
           'bb': 'partituras/abre_alas/abre_alas_Bb.pdf'
           'eb': 'partituras/abre_alas/abre_alas_Eb.pdf'
+          'ebnotas': 'partituras/abre_alas/abre_alas_Eb_notas.pdf'
 
       - nome: 'Touradas em Madri (Dm)'
         links:
