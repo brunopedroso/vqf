@@ -140,4 +140,40 @@ letratoda = {
   }
 }
 
+\book {
+  \bookOutputName "aurora_Eb_notas"
+  \header {
+    instrument = "Para instrumentos em Eb"
+  }
+  \score {
+    <<
+      \new TimeSig \compassoseparado
+      \new Staff {
+        \accidentalStyle Score.dodecaphonic
+        \new Voice = "um" {
+		\transpose bes g {
+      \easyHeadsOn
+       \teeny
+			\parteum
+			\skip 256 \bar "" \break 
+			\partedois
+		}
+	}
+	\addlyrics \letratoda
+    }
+	>>
+	\layout {
+	        \context {
+      \Voice
+      \consists \Gravador_nome_notas
+      }
+    \context {
+      \Score 
+      \override SpacingSpanner.base-shortest-duration = #(ly:make-moment 1/4)
+	}
+	}
+  }
+}
+
+
 \version "2.18.2"  % necessary for upgrading to future LilyPond versions.

@@ -102,12 +102,14 @@ blocos:
           'c':  'partituras/jardineira/jardineira_C.pdf'
           'bb': 'partituras/jardineira/jardineira_Bb.pdf'
           'eb': 'partituras/jardineira/jardineira_Eb.pdf'
+          'ebnotas': 'partituras/jardineira/jardineira_Eb_notas.pdf'
 
       - nome: 'Aurora (Bb)'
         links:
           'c':  'partituras/aurora/aurora_C.pdf'
           'bb': 'partituras/aurora/aurora_Bb.pdf'
           'eb': 'partituras/aurora/aurora_Eb.pdf'
+          'ebnotas': 'partituras/aurora/aurora_Eb_notas.pdf'
 
 
       - nome: 'Alalaô (Bb)'
