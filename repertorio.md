@@ -93,6 +93,7 @@ blocos:
           'c':  'partituras/pierrot_apaixonado/pierrot_apaixonado_C.pdf'
           'bb': 'partituras/pierrot_apaixonado/pierrot_apaixonado_Bb.pdf'
           'eb': 'partituras/pierrot_apaixonado/pierrot_apaixonado_Eb.pdf'
+          'ebnotas': 'partituras/pierrot_apaixonado/pierrot_apaixonado_Eb_notas.pdf'
 
 
       - nome: 'Jardineira (Bb)'
