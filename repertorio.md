@@ -118,6 +118,7 @@ blocos:
           'c':  'partituras/alalao/alalao_C.pdf'
           'bb': 'partituras/alalao/alalao_Bb.pdf'
           'eb': 'partituras/alalao/alalao_Eb.pdf'
+          'ebnotas': 'partituras/alalao/alalao_Eb_notas.pdf'
 
       - nome: 'Mamãe eu quero (Bb)'
         links:
