@@ -168,6 +168,7 @@ blocos:
           'c': 'partituras/emorioh/emorioh_C.pdf'
           'bb': 'partituras/emorioh/emorioh_Bb.pdf'
           'eb': 'partituras/emorioh/emorioh_Eb.pdf'
+          'ebnotas': 'partituras/emorioh/emorioh_Eb_notas.pdf'
 
       - nome: 'Bananeira (Gm)'
         links:
@@ -175,6 +176,7 @@ blocos:
           'c': 'partituras/bananeira/bananeira_C.pdf'
           'bb': 'partituras/bananeira/bananeira_Bb.pdf'
           'eb': 'partituras/bananeira/bananeira_Eb.pdf'
+          'ebnotas': 'partituras/bananeira/bananeira_Eb_notas.pdf'
 
 
   - nome: "Latinas"
@@ -187,6 +189,7 @@ blocos:
           'c': 'partituras/chan_chan/chan_chan_C.pdf'
           'bb': 'partituras/chan_chan/chan_chan_Bb.pdf'
           'eb': 'partituras/chan_chan/chan_chan_Eb.pdf'
+          'ebnotas': 'partituras/chan_chan/chan_chan_Eb_notas.pdf'
           'Tuba': 'partituras/chan_chan/chan_chan_Tuba.pdf'
           'Guitarra': 'partituras/chan_chan/chan_chan_Geral.pdf'
           'Geral': 'partituras/chan_chan/chan_chan_Geral.pdf'
@@ -214,6 +217,7 @@ blocos:
           'c': 'partituras/chuva_suor_e_cerveja/chuva_suor_e_cerveja_C.pdf'
           'bb': 'partituras/chuva_suor_e_cerveja/chuva_suor_e_cerveja_Bb.pdf'
           'eb': 'partituras/chuva_suor_e_cerveja/chuva_suor_e_cerveja_Eb.pdf'
+          'ebnotas': 'partituras/chuva_suor_e_cerveja/chuva_suor_e_cerveja_Eb_notas.pdf'
 
       - nome: 'O Balancê (F)'
         links:

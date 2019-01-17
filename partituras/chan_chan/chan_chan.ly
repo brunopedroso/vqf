@@ -414,6 +414,7 @@ letratoda = \lyricmode {
 
 
 #(set-global-staff-size 30)
+
 \book {
   \bookOutputName "chan_chan_Eb_notas"
   \header {
@@ -430,12 +431,16 @@ letratoda = \lyricmode {
 	   	  }
 	}
     >>
-    \layout {
-    \context {
-    \Voice
-    \consists \Gravador_nome_notas
-    }
-    }
+	\layout {
+	        \context {
+      \Voice
+      \consists \Gravador_nome_notas
+      }
+    \context {
+      \Score 
+      \override SpacingSpanner.base-shortest-duration = #(ly:make-moment 1/4)
+	}
+	}
   }
 }
 
