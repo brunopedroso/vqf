@@ -126,6 +126,7 @@ blocos:
           'c':  'partituras/mamae_eu_quero/mamae_eu_quero_C.pdf'
           'bb': 'partituras/mamae_eu_quero/mamae_eu_quero_Bb.pdf'
           'eb': 'partituras/mamae_eu_quero/mamae_eu_quero_Eb.pdf'
+          'ebnotas': 'partituras/mamae_eu_quero/mamae_eu_quero_Eb_notas.pdf'
 
 
   - nome: "Afoxés"
