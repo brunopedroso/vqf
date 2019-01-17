@@ -81,6 +81,7 @@ blocos:
           'c':  'partituras/turma_do_funil/turma_do_funil_C.pdf'
           'bb': 'partituras/turma_do_funil/turma_do_funil_Bb.pdf'
           'eb': 'partituras/turma_do_funil/turma_do_funil_Eb.pdf'
+          'ebnotas': 'partituras/turma_do_funil/turma_do_funil_Eb_notas.pdf'
 
 
   - nome: "Pierrot"
