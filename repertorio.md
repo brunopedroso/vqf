@@ -234,6 +234,7 @@ blocos:
           'c': 'partituras/pegando_fogo/pegando_fogo_C.pdf'
           'bb': 'partituras/pegando_fogo/pegando_fogo_Bb.pdf'
           'eb': 'partituras/pegando_fogo/pegando_fogo_Eb.pdf'
+          'ebnotas': 'partituras/pegando_fogo/pegando_fogo_Eb_notas.pdf'
           'midi': 'partituras/pegando_fogo/pegando_fogo_C.midi'
 
       - nome: 'Mulata bossa nova (F)'
@@ -242,6 +243,7 @@ blocos:
           'c':  'partituras/mulata_bossa_nova/mulata_bossa_nova_C.pdf'
           'bb': 'partituras/mulata_bossa_nova/mulata_bossa_nova_Bb.pdf'
           'eb': 'partituras/mulata_bossa_nova/mulata_bossa_nova_Eb.pdf'
+          'ebnotas': 'partituras/mulata_bossa_nova/mulata_bossa_nova_Eb_notas.pdf'
 
 
   - nome: "Lento"
@@ -253,6 +255,7 @@ blocos:
           'c': 'partituras/fool_on_the_hill/fool_on_the_hill_C.pdf'
           'bb': 'partituras/fool_on_the_hill/fool_on_the_hill_Bb.pdf'
           'eb': 'partituras/fool_on_the_hill/fool_on_the_hill_Eb.pdf'
+          'ebnotas': 'partituras/fool_on_the_hill/fool_on_the_hill_Eb_notas.pdf'
 
       - nome: 'ângelus (C)'
         links:
