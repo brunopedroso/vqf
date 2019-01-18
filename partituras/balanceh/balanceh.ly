@@ -166,6 +166,10 @@ letratoda = {
       \Voice
       \consists \Gravador_nome_notas
     }
+	    \context {
+	      \Score 
+	      \override SpacingSpanner.base-shortest-duration = #(ly:make-moment 1/4)
+			}
     }
   }
 }
