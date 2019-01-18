@@ -12,7 +12,7 @@ blocos:
           'bb': 'partituras/mascara_negra/mascara_negra_Bb.pdf'
           'eb': 'partituras/mascara_negra/mascara_negra_Eb.pdf'
           'ebnotas': 'partituras/mascara_negra/mascara_negra_Eb_notas.pdf'
-
+
       - nome: 'Circo (F)'
         links:
           'gravacao': 'https://s3.amazonaws.com/brunopedroso/vqf/b1/3_Circo.mp3'
