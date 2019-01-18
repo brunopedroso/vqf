@@ -225,6 +225,7 @@ blocos:
           'c': 'partituras/balanceh/balanceh_C.pdf'
           'bb': 'partituras/balanceh/balanceh_Bb.pdf'
           'eb': 'partituras/balanceh/balanceh_Eb.pdf'
+          'ebnotas': 'partituras/balanceh/balanceh_Eb_notas.pdf'
           'midi': 'partituras/balanceh/balanceh_C.midi'
 
       - nome: 'Pegando fogo (F)'
