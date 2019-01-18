@@ -143,7 +143,7 @@ letratoda = {
 \book {
   \bookOutputName "balanceh_Eb_notas"
   \header {
-     instrument = "Para instrumentos em Eb"
+     instrument = "Sax Alto Eb"
   }
   \score {
     <<
