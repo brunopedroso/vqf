@@ -73,7 +73,7 @@ blocos:
           'alto':    'partituras/touradas_em_madrid/Touradas_em_Madrid-Sax_Alto_Eb.pdf'
           'tenor_clarin':    'partituras/touradas_em_madrid/Touradas_em_Madrid-Clarinete_e_Sax_Tenor_em_Bb.pdf'
           'ebnotas':    'partituras/touradas_em_madrid/Touradas_em_Madrid-Sax_Alto_Eb_notas.pdf'
-          
+
 
       - nome: 'Turma do Funil (Dm)'
         links:
@@ -293,7 +293,7 @@ blocos:
       - nome: 'Haitian Fight Song (Gm)'
         links:
           'yt': 'https://www.youtube.com/watch?v=WPfSD0vJi8Y'
-          
+
       - nome: 'Haiti (Gm)'
         links:
           'yt': 'https://www.youtube.com/watch?v=nSJHrHrBkPI'
@@ -433,7 +433,7 @@ blocos:
       - nome: 'Feira de mangaio (Am)'
         links:
           'yt': 'https://www.youtube.com/watch?v=M-38_POSU1M'
-        
+
       - nome: 'Pra tirar côco (Am)'
         links:
           'yt': 'https://www.youtube.com/watch?v=0caahoVisao&feature=youtu.be'
@@ -469,7 +469,7 @@ blocos:
           'midi':  'partituras/meia_lua_inteira/meia_lua_inteira_C.midi'
 
       - nome: '[X] Coisa n1 (Moacir)'
-      
+
       - nome: 'Nanã (Dm)'
         links:
           'completa': 'partituras/coisa5/COISA5.mp3'
