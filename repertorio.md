@@ -194,9 +194,15 @@ blocos:
           'Guitarra': 'partituras/chan_chan/chan_chan_Geral.pdf'
           'Geral': 'partituras/chan_chan/chan_chan_Geral.pdf'
 
-      - nome: 'Carinito'
+      - nome: 'Cariñito'
         links:
           'yt': 'https://www.youtube.com/watch?v=Op0dN_U4L5s'
+          'c': 'partituras/carinito/carinito_tromboneC.pdf'
+          'bb': 'partituras/carinito/carinito_Bb.pdf'
+          'eb': 'partituras/carinito/carinito_Eb.pdf'
+          'Tuba': 'partituras/carinito/carinito_C_Tuba.pdf'
+          'ebnotas':  'partituras/carinito/carinito_Eb_notas.pdf'
+          'midi': 'partituras/carinito/carinito_C.midi'
 
       - nome: 'Moliendo Café (Cm)'
         links:

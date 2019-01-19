@@ -1,26 +1,27 @@
-\version "2.12.1"
-date = #(strftime "%d %B %Y" (localtime (current-time)))
+\version "2.18.2"
+
+% Música adaptada a partir de https://chaoticinsurrectionensemble.org/en/songs/carinito
+\include "../formatoversos.ly"
+\include "../marcaspadronizadas.ly"
+\include "../nomedasnotas.ly"
 
 
 \header {
   title = "Cariñito"
   composer = "Los Hijos del Sol / arr. Bruno"
-  source = ""
-  style = ""
-  copyright = \date
-  lastupdated = ""
-  tagline = ""
 }
 
-% music pieces
-%part: melody
-melody = {
-  \set Staff.instrumentName = "Melody "
+#(set-global-staff-size 16)
+
+
+% partes da música
+%parte: melodia
+melodiaintro = {
   \compressFullBarRests
   \key d \minor
   \relative c' {
     \repeat volta 2 {
-      d8 r16 a d8 r r4 c8 d |
+      d8 \marcaA r16 a d8 r r4 c8 d |
       f8 r16 c f8 r r2 |
       f8 r16 c f8 r r r16 f( a8) g16( f) |
       d8 r16 a d8 r r2 |
@@ -29,7 +30,13 @@ melody = {
       f8 r16 c f8 r r r16 f( a8) g16( f) |
       d8 r16 a d8 r r2 |
       R1*8 |
-      d8 r16 a d8 r r4 c8 d |
+    }
+    }
+}
+melodiaum = {
+  \relative c'{
+      \compressFullBarRests
+      d8 \marcaB r16 a d8 r r4 c8 d |
       f8 r16 c r4 r f,8 g |
       a4. c8 g4. a8 |
       f8. a'16[ a] r8 a16[ a] r g r f r e r |
@@ -41,7 +48,12 @@ melody = {
       c2 \grace e,16( f2) |
       d'2. c4 |
       c2 \grace e,16( f2) |
-      a8 r16 e r4 r a8 g |
+      }
+}
+
+melodiadois = {
+  relative c'{
+    a8 \marcaC r16 e r4 r a8 g |
       a8 r16 f r4 r f8 g |
       a4. c8 g4. a8 |
       f8. d16 r4 r2 |
@@ -49,38 +61,11 @@ melody = {
       a8 r16 f r4 r f8 g |
       a4. c8 g4. a8 |
       f8. d16 r4 r2 |
-    }
-
-    R1*8^"drum break"
-    \bar "||"
-
-    d'8 r16 a d8 r r4 c8 d |
-    f8 r16 c f8 r r2 |
-    f8 r16 c f8 r r r16 f( a8) g16( f) |
-    d8 r16 a d8 r r2 |
-    d8 r16 a d8 r r4 c8 d |
-    f8 r16 c f8 r r2 |
-    f8 r16 c f8 r r r16 f( a8) g16( f) |
-    d8 r16 a d8 r r2 |
-
-    \xNotesOn
-    c4^"hey!" c4^"hey!" c4^"hey!" c4^"hey!" |
-    c4^"hey!" c4^"hey!" c4^"hey!" c4^"hey!" |
-    c4^"hey!" c4^"hey!" c4^"hey!" c4^"hey!" |
-    c1^"heeey!" |
-    \xNotesOff
-
-    R1*4^"¡eso! ¡asi! ¡ayayay!"
-
-    r4 e2\p\< ~ e8\f r |
-    f8-^ r16 f-^ f8-^ r r2 |
-
   }
 }
 
-%part: bass
-bass = {
-  \set Staff.instrumentName = "Bass "
+%parte: baixo/tuba
+baixo = {
   \compressFullBarRests
   \key d \minor
   \relative c {
@@ -152,85 +137,143 @@ bass = {
   }
 }
 
-%layout
+
+% letra
+letraintro = \lyricmode {
+  - - - - - - - - - - - - - - - - 
+  - - - - - - - - - - - - - - - - 
+}
+letra = \lyricmode {
+Llo -- ro - por que -- rer -- te, por amar -- te y por de -- sear -- te.
+- - - - - -
+Llo -- ro por que -- rer -- te, por amar -- te y por de -- sear -- te.
+¡Ay ca -- ri -- ño! ¡Ay mi vi -- da!
+Nun -- ca, pe -- ro nun -- ca me aban -- do -- nes ca -- ri -- ñi -- to.
+Nun -- ca, pe -- ro nun -- ca me aban -- do -- nes ca -- ri -- ñi -- to. 
+}
+%leiaute
+
+letratoda = {
+  \letraintro
+  \letra
+}
 
 \book {
   \score {
     <<
       \tempo 4 = 90
-      \unfoldRepeats \new Staff \melody
-      \unfoldRepeats \new Staff \bass
+      \unfoldRepeats \new Staff \melodiaintro \break \melodiaum \break \melodiadois
+      \unfoldRepeats \new Staff \baixo
     >>
     \midi { }
   }
 }
 
-#(set-default-paper-size "letter" 'portrait)
-#(define output-suffix "C")
+
+
 \book {
-  \paper { }
-  \header { poet = "C / Do" }
+  \bookOutputName "carinito_C"
+  \header { poet = "C / Dó" }
   \score {
     <<
-      %\new Staff \melody
-      \new Staff \transpose c c, { \clef bass \melody }
-      \new Staff { \clef bass \bass }
+      %\new Staff \melodia
+      \new Staff \transpose c c { \melodiaintro \break \melodiaum \break \melodiadois }
+      \new Staff { \clef bass \baixo }
     >>
   }
 }
 
-%#(define output-suffix "Bflat")
-%\book {
-%  \paper { }
-%  \header { poet = "B flat / Si bémol" }
-%  \score {
-%    <<
-%      \new Staff { \transpose bes c'  \melody }
-%      \new Staff { \transpose bes c'' \bass }
-%    >>
-%  }
-%}
-
-#(define output-suffix "Eflat-melody")
 \book {
-  \paper { }
+  \bookOutputName "carinito_Bb"
+ \header { poet = "Bb / Si bémol" }
+ \score {
+   <<
+     \new Staff { 
+       \transpose bes c'  {
+         \melodiaintro  \melodiaum \break \melodiadois }
+     }
+     \new Staff { \transpose bes c'' \baixo }
+   >>
+ }
+}
+
+\book {
+    \bookOutputName "carinito_Eb"
+  \header { poet = "Eb/ Mi bemol" }
+  \score {
+    <<
+      \new TimeSig \compassoseparado
+      \new Staff {
+        \transpose ees c' { 
+          \melodiaintro 
+          \break
+          \melodiaum 
+          \break
+          \melodiadois }
+         \addlyrics \letratoda
+      }
+    >>
+  }
+}
+
+\book {
+  \bookOutputName "carinito_Eb_baixo"
   \header { poet = "E flat / Mi bémol" }
   \score {
     <<
-      \new Staff { \transpose ees c'  \melody }
+      \new Staff { \transpose ees c'' \baixo }
     >>
   }
 }
 
-#(define output-suffix "Eflat-bass")
 \book {
-  \paper { }
-  \header { poet = "E flat / Mi bémol" }
+  \bookOutputName "carinito_tromboneC"
+  \header { poet = "C / Dó" }
   \score {
     <<
-      \new Staff { \transpose ees c'' \bass }
+      \new Staff { \transpose f f'  \melodiaintro \break \melodiaum \break \melodiadois }
     >>
   }
 }
 
-#(define output-suffix "F-melody")
+
 \book {
-  \paper { }
-  \header { poet = "F / Fa" }
+  \bookOutputName "carinito_C_Tuba"
+  \header { poet = "C / Dó" }
   \score {
     <<
-      \new Staff { \transpose f c'  \melody }
+      \new Staff { \transpose f f'' \baixo }
     >>
   }
 }
 
-#(define output-suffix "F-bass")
+#(set-global-staff-size 30)
 \book {
-  \paper { }
-  \header { poet = "F / Fa" }
+    \bookOutputName "carinito_Eb_notas"
+  \header { poet = "Eb/ Mi bemol" }
   \score {
     <<
-      \new Staff { \transpose f c'' \bass }
+      \new TimeSig \compassoseparado
+      \new Staff {
+         \accidentalStyle Score.dodecaphonic
+        \transpose ees c' { 
+            \easyHeadsOn
+            \teeny
+          \melodiaintro \break
+          \melodiaum \break
+          \melodiadois }
+         \addlyrics \letratoda
+      }
     >>
+    \layout {
+    \context {
+      \Voice
+      \consists \Gravador_nome_notas
+    }
+	    \context {
+	      \Score 
+	      \override SpacingSpanner.base-shortest-duration = #(ly:make-moment 1/4)
+			}
+    }
   }
 }
