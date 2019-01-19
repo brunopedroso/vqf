@@ -177,7 +177,7 @@ letratoda = {
   \score {
     <<
       %\new Staff \melodia
-      \new Staff \transpose c c { \melodiaintro \break \melodiaum \break \melodiadois }
+      \new Staff \transpose d c { \melodiaintro \break \melodiaum \break \melodiadois }
       \new Staff { \clef bass \baixo }
     >>
   }
@@ -189,7 +189,7 @@ letratoda = {
  \score {
    <<
      \new Staff { 
-       \transpose bes c'  {
+       \transpose c c'  {
          \melodiaintro  \melodiaum \break \melodiadois }
      }
      \new Staff { \transpose bes c'' \baixo }
@@ -204,7 +204,7 @@ letratoda = {
     <<
       \new TimeSig \compassoseparado
       \new Staff {
-        \transpose ees c' { 
+        \transpose f c' { 
           \melodiaintro 
           \break
           \melodiaum 
@@ -221,7 +221,7 @@ letratoda = {
   \header { poet = "E flat / Mi bémol" }
   \score {
     <<
-      \new Staff { \transpose ees c'' \baixo }
+      \new Staff { \transpose f c'' \baixo }
     >>
   }
 }
@@ -231,7 +231,7 @@ letratoda = {
   \header { poet = "C / Dó" }
   \score {
     <<
-      \new Staff { \transpose f f'  \melodiaintro \break \melodiaum \break \melodiadois }
+      \new Staff { \transpose g f'  \melodiaintro \break \melodiaum \break \melodiadois }
     >>
   }
 }
@@ -242,7 +242,7 @@ letratoda = {
   \header { poet = "C / Dó" }
   \score {
     <<
-      \new Staff { \transpose f f'' \baixo }
+      \new Staff { \transpose g f'' \baixo }
     >>
   }
 }
@@ -256,7 +256,7 @@ letratoda = {
       \new TimeSig \compassoseparado
       \new Staff {
          \accidentalStyle Score.dodecaphonic
-        \transpose ees c' { 
+        \transpose f c' { 
             \easyHeadsOn
             \teeny
           \melodiaintro \break
