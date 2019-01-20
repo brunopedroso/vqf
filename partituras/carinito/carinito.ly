@@ -17,18 +17,19 @@
 % partes da música
 %parte: melodia
 melodiaintro = {
+		\time 4/4
   \compressFullBarRests
   \key d \minor
   \relative c' {
     \repeat volta 2 {
-      d8 \marcaA r16 a d8 r r4 c8 d |
-      f8 r16 c f8 r r2 |
-      f8 r16 c f8 r r r16 f( a8) g16( f) |
-      d8 r16 a d8 r r2 |
-      d8 r16 a d8 r r4 c8 d |
-      f8 r16 c f8 r r2 |
-      f8 r16 c f8 r r r16 f( a8) g16( f) |
-      d8 r16 a d8 r r2 |
+      d8. \marcaA a16 d8 r r4 c8 d |
+      f8. c16 f8 r r2 |
+      f8. c16 f8 r r r16 f( a8) g16( f) |
+      d8. a16 d8 r r2 |
+      d8. a16 d8 r r4 c8 d |
+      f8. c16 f8 r r2 |
+      f8. c16 f8 r r r16 f( a8) g16( f) |
+      d8. a16 d8 r r2 |
       R1*8 |
     }
     }
@@ -36,12 +37,12 @@ melodiaintro = {
 melodiaum = {
   \relative c'{
       \compressFullBarRests
-      d8 \marcaB r16 a d8 r r4 c8 d |
-      f8 r16 c r4 r f,8 g |
+      d8. \marcaB a16 d8 r r4 c8 d |
+      f8. c16 r4 r f,8 g |
       a4. c8 g4. a8 |
-      f8. a'16[ a] r8 a16[ a] r g r f r e r |
-      d8 r16 a r4 r c8 d |
-      f8 r16 c r4 r f,8 g |
+      f8. a'16 a r8 a16 a r g f e r8. |
+      d8. a16 r4 r c8 d |
+      f8. c16 r4 r f,8 g |
       a4. c8 g4. a8 |
       f8. d16 r4 r2 |
       d'2. c4 |
@@ -54,11 +55,11 @@ melodiaum = {
 melodiadois = {
   relative c'{
     a8 \marcaC r16 e r4 r a8 g |
-      a8 r16 f r4 r f8 g |
+      a8. f16 r4 r f8 g |
       a4. c8 g4. a8 |
       f8. d16 r4 r2 |
       a'8 r16 e r4 r a8 g |
-      a8 r16 f r4 r f8 g |
+      a8. f16 r4 r f8 g |
       a4. c8 g4. a8 |
       f8. d16 r4 r2 |
   }
@@ -66,18 +67,19 @@ melodiadois = {
 
 %parte: baixo/tuba
 baixo = {
+	\time 4/4
   \compressFullBarRests
   \key d \minor
   \relative c {
     \repeat volta 2 {
-      d8 r16 a d8 r r4 c8 d |
-      f8 r16 c f8 r r2 |
-      f8 r16 c f8 r r r16 f( a8) g16( f) |
-      d8 r16 a d8 r r2 |
-      d8 r16 a d8 r r4 c8 d |
-      f8 r16 c f8 r r2 |
-      f8 r16 c f8 r r r16 f( a8) g16( f) |
-      d8 r16 a d8 r r16 c c8 d e |
+      d8. a16 d8 r r4 c8 d |
+      f8. c16 f8 r r2 |
+      f8. c16 f8 r r r16 f( a8) g16( f) |
+      d8. a16 d8 r r2 |
+      d8. a16 d8 r r4 c8 d |
+      f8. c16 f8 r r2 |
+      f8. c16 f8 r r r16 f( a8) g16( f) |
+      d8. a16 d8 r r16 c c8 d e |
 
       f4 c8 f f,4 c'8 f |
       f,8. r16 c'8 f f,8. r16 c'8 f |
@@ -97,9 +99,9 @@ baixo = {
       d,8. r16 c8 d r16 f,16 f8 g a |
 
       d8. f a8 c,8. g' c8 |
-      a8. f a8 r16 f f8 g a |
+      a8. f a8. f16 f8 g a |
       d,8. f a8 c,8. g' c8 |
-      a8. f a8 r16 f f8 g a |
+      a8. f a8. f16 f8 g a |
       a,8. e' a8 a,8. e' a8 |
       d,8. f a8 d, c d e |
       f8. c bes8 a8. e' a8 |
@@ -107,20 +109,20 @@ baixo = {
       a,8. e' a8 a,8. e' a8 |
       d,8. f a8 d, c d e |
       f8. c bes8 a8. e' a8 |
-      d,8. a d8 r16 a a8 bes c |
+      d,8. a d8. a16 a8 bes c |
     }
 
     R1*8^"drum break"
     \bar "||"
 
-    d8 r16 a d8 r r4 c8 d |
-    f8 r16 c f8 r r2 |
-    f8 r16 c f8 r r r16 f( a8) g16( f) |
-    d8 r16 a d8 r r2 |
-    d8 r16 a d8 r r4 c8 d |
-    f8 r16 c f8 r r2 |
-    f8 r16 c f8 r r r16 f( a8) g16( f) |
-    d8 r16 a d8 r r16 c c8 d e |
+    d8. a16 d8 r r4 c8 d |
+    f8. c16 f8 r r2 |
+    f8. c16 f8 r r r16 f( a8) g16( f) |
+    d8. a16 d8 r r2 |
+    d8. a16 d8 r r4 c8 d |
+    f8. c16 f8 r r2 |
+    f8. c16 f8 r r r16 f( a8) g16( f) |
+    d8. a16 d8 r r16 c c8 d e |
 
     f4 c8 f f,4 c'8 f |
     f,8. r16 c'8 f f,8. r16 c'8 f |
@@ -173,38 +175,37 @@ letratoda = {
 
 \book {
   \bookOutputName "carinito_C"
-  \header { poet = "C / Dó" }
+  \header { poet = "C / Dó (Gm)" }
   \score {
     <<
       %\new Staff \melodia
-      \new Staff \transpose d c { \melodiaintro \break \melodiaum \break \melodiadois }
-      \new Staff { \clef bass \baixo }
+      \new Staff \transpose f bes' { \melodiaintro \break \melodiaum \break \melodiadois }
+      \new Staff { \clef bass f bes \baixo }
     >>
   }
 }
 
 \book {
   \bookOutputName "carinito_Bb"
- \header { poet = "Bb / Si bémol" }
+ \header { poet = "Bb / Si b (Gm->Am)" }
  \score {
    <<
      \new Staff { 
-       \transpose c c'  {
+       \transpose f c'  {
          \melodiaintro  \melodiaum \break \melodiadois }
      }
-     \new Staff { \transpose bes c'' \baixo }
    >>
  }
 }
 
 \book {
     \bookOutputName "carinito_Eb"
-  \header { poet = "Eb/ Mi bemol" }
+  \header { poet = "Eb/ Mi b (Gm->Em)" }
   \score {
     <<
       \new TimeSig \compassoseparado
       \new Staff {
-        \transpose f c' { 
+        \transpose f g' { 
           \melodiaintro 
           \break
           \melodiaum 
@@ -218,20 +219,20 @@ letratoda = {
 
 \book {
   \bookOutputName "carinito_Eb_baixo"
-  \header { poet = "E flat / Mi bémol" }
+  \header { poet = "Eb/Mi b (Gm)" }
   \score {
     <<
-      \new Staff { \transpose f c'' \baixo }
+      \new Staff { \transpose f g' \baixo }
     >>
   }
 }
 
 \book {
   \bookOutputName "carinito_tromboneC"
-  \header { poet = "C / Dó" }
+  \header { poet = "C / Dó (Gm)" }
   \score {
     <<
-      \new Staff { \transpose g f'  \melodiaintro \break \melodiaum \break \melodiadois }
+      \new Staff { \transpose f bes'  \melodiaintro \break \melodiaum \break \melodiadois }
     >>
   }
 }
@@ -239,10 +240,10 @@ letratoda = {
 
 \book {
   \bookOutputName "carinito_C_Tuba"
-  \header { poet = "C / Dó" }
+  \header { poet = "C / Dó (Gm)" }
   \score {
     <<
-      \new Staff { \transpose g f'' \baixo }
+      \new Staff { \transpose f bes'' \baixo }
     >>
   }
 }
@@ -250,13 +251,13 @@ letratoda = {
 #(set-global-staff-size 30)
 \book {
     \bookOutputName "carinito_Eb_notas"
-  \header { poet = "Eb/ Mi bemol" }
+  \header { poet = "Eb/ Mi b (Gm->Em)" }
   \score {
     <<
       \new TimeSig \compassoseparado
       \new Staff {
          \accidentalStyle Score.dodecaphonic
-        \transpose f c' { 
+        \transpose f g'' { 
             \easyHeadsOn
             \teeny
           \melodiaintro \break
