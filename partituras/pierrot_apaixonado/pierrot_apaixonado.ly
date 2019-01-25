@@ -1,4 +1,5 @@
 \include "../formatoversos.ly"
+\include "../nomedasnotas.ly"
 
 #(set-global-staff-size 16)
 
@@ -137,5 +138,41 @@ letratoda = {
 	}
   }
 }
+
+\book {
+  \bookOutputName "pierrot_apaixonado_Eb_notas"
+  \header {
+    instrument = "Para instrumentos em Eb"
+  }
+  \score {
+    <<
+      \new TimeSig \compassoseparado
+      \new Staff {
+        \accidentalStyle Score.dodecaphonic
+        \new Voice = "saxalto" {
+          \transpose bes g' {
+            \easyHeadsOn
+            \teeny
+            \parteum
+            \skip 256 \bar "" \break 
+            \unfoldRepeats \partedois
+          }
+        }
+        \addlyrics \letratoda
+      }
+	>>
+	\layout {
+	        \context {
+      \Voice
+      \consists \Gravador_nome_notas
+      }
+    \context {
+      \Score 
+      \override SpacingSpanner.base-shortest-duration = #(ly:make-moment 1/4)
+	}
+	}
+  }
+}
+
 
 \version "2.18.2"  % necessary for upgrading to future LilyPond versions.
