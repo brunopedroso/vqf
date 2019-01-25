@@ -1,4 +1,6 @@
 \include "../formatoversos.ly"
+\include "../nomedasnotas.ly"
+
 %#(set-global-staff-size 16)
 
 \header{
@@ -128,4 +130,42 @@ letratoda = {
 	}
   }
 }
+
+#(set-global-staff-size 30)
+
+\book {
+  \bookOutputName "mulata_bossa_nova_Eb_notas"
+  \header {
+    instrument = "Sax Alto Eb"
+  }
+  \score {
+    <<
+      \new TimeSig \compassoseparado
+     \new Staff {
+        \accidentalStyle Score.dodecaphonic
+         \new Voice = "saxalto" {
+          \transpose bes g {
+            \easyHeadsOn
+            \teeny
+            \parteum
+            \pulalinha
+            \partedois
+          }
+	}
+        \addlyrics \letratoda
+    }
+	>>
+    \layout {
+    \context {
+      \Voice
+      \consists \Gravador_nome_notas
+    }
+    \context {
+      \Score 
+      \override SpacingSpanner.base-shortest-duration = #(ly:make-moment 1/4)
+			}
+		}
+  }
+}
+
 \version "2.18.2"  % necessary for upgrading to future LilyPond versions.

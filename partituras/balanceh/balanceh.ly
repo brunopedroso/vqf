@@ -143,7 +143,7 @@ letratoda = {
 \book {
   \bookOutputName "balanceh_Eb_notas"
   \header {
-     instrument = "Para instrumentos em Eb"
+     instrument = "Sax Alto Eb"
   }
   \score {
     <<
@@ -166,6 +166,10 @@ letratoda = {
       \Voice
       \consists \Gravador_nome_notas
     }
+	    \context {
+	      \Score 
+	      \override SpacingSpanner.base-shortest-duration = #(ly:make-moment 1/4)
+			}
     }
   }
 }
