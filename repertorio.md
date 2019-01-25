@@ -253,6 +253,28 @@ blocos:
           'midi': 'partituras/trenzinho/trenzinho_C.midi'
 
 
+  - nome: "Bituca"
+    musicas:
+
+      - nome: 'ângelus (C)'
+        links:
+          'yt': 'https://www.youtube.com/watch?v=3K3qJVKBlh4'
+          'mid': 'partituras/angelus/angelus_C.midi'
+          'c': 'partituras/angelus/angelus_C.pdf'
+          'bb': 'partituras/angelus/angelus_Bb.pdf'
+          'eb': 'partituras/angelus/angelus_Eb.pdf'
+
+      - nome: 'Paula e Bebeto (G)'
+          'yt': 'https://www.youtube.com/watch?v=-T-esXst0sc'
+
+      - nome: 'Bola de Meia (G)'
+          'yt': 'https://www.youtube.com/watch?v=G9RS2BkbqHw'
+          'mid': 'partituras/bola_de_meia/bola_de_meia.midi'
+          'c': 'partituras/bola_de_meia/bola_de_meia_C.pdf'
+          'bb': 'partituras/bola_de_meia/bola_de_meia_Bb.pdf'
+          'eb': 'partituras/bola_de_meia/bola_de_meia_Eb.pdf'
+
+
   - nome: "Pecado"
     musicas:
 
@@ -428,7 +450,7 @@ blocos:
   - nome: "Desencaixadas"
     musicas:
 
-      - nome: 'bola de meia (G)'
+      
 
       - nome: 'Watermellow man'
       - nome: 'Cantaloupe'
