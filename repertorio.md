@@ -345,9 +345,11 @@ blocos:
           'eb': 'partituras/angelus/angelus_Eb.pdf'
 
       - nome: 'Paula e Bebeto (G)'
+        links:
           'yt': 'https://www.youtube.com/watch?v=-T-esXst0sc'
 
       - nome: 'Bola de Meia (G)'
+        links:
           'yt': 'https://www.youtube.com/watch?v=G9RS2BkbqHw'
           'mid': 'partituras/bola_de_meia/bola_de_meia.midi'
           'c': 'partituras/bola_de_meia/bola_de_meia_C.pdf'
