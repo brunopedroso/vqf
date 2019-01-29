@@ -198,7 +198,8 @@ letratoda = \lyricmode {
 \book {
   \bookOutputName "nao_existe_pecado_Eb_notas"
   \header {
-     instrument = "Para instrumentos em Eb"
+     title = \markup {\fontsize #-3 "Não existe pecado ao sul do Equador"}
+     instrument = "Eb"
   }
   \score {
     <<
