@@ -53,5 +53,11 @@ compassoseparado = { \numericTimeSignature \time 2/4 s1}
         markup-system-spacing #'basic-distance = #20
     }
 
+apertacompasso = \layout {
+          \context {
+	      \Score 
+	      \override SpacingSpanner.base-shortest-duration = #(ly:make-moment 1/8)
+ 	}
+       }
 
 \version "2.18.2"
