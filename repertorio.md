@@ -287,6 +287,11 @@ blocos:
       - nome: 'Não existe pecado do lado de baixo do equador (C)'
         links:
           'yt': 'https://www.youtube.com/watch?v=VmV_O7EW9IM'
+          'p.original': 'partituras/nao_existe_pecado/nao_existe_pecado-original-PtP06.pdf'
+          'mid': 'partituras/nao_existe_pecado/nao_existe_pecado_C.midi'
+          'c': 'partituras/nao_existe_pecado/nao_existe_pecado_C.pdf'
+          'bb': 'partituras/nao_existe_pecado/nao_existe_pecado_Bb.pdf'
+          'eb': 'partituras/nao_existe_pecado/nao_existe_pecado_Eb.pdf'
 
       - nome: 'Boi voador não pode (C)'
         links:
@@ -355,6 +360,7 @@ blocos:
           'c': 'partituras/bola_de_meia/bola_de_meia_C.pdf'
           'bb': 'partituras/bola_de_meia/bola_de_meia_Bb.pdf'
           'eb': 'partituras/bola_de_meia/bola_de_meia_Eb.pdf'
+          'ebnotas': 'partituras/bola_de_meia/bola_de_meia_Eb_notas.pdf'
 
   - nome: "Cachaça"
     musicas:
