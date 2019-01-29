@@ -292,6 +292,8 @@ blocos:
           'c': 'partituras/nao_existe_pecado/nao_existe_pecado_C.pdf'
           'bb': 'partituras/nao_existe_pecado/nao_existe_pecado_Bb.pdf'
           'eb': 'partituras/nao_existe_pecado/nao_existe_pecado_Eb.pdf'
+          'Tuba': 'partituras/nao_existe_pecado/nao_existe_pecado-original-PtP06.pdf'
+          'ebnotas': 'partituras/nao_existe_pecado/nao_existe_pecado_Eb_notas.pdf'
 
       - nome: 'Boi voador não pode (C)'
         links:
