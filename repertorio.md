@@ -298,6 +298,11 @@ blocos:
       - nome: 'Boi voador não pode (C)'
         links:
           'yt': 'https://www.youtube.com/watch?v=YMjtso8qZSI'
+          'c': 'partituras/boi_voador/boi_voador_C.pdf'
+          'bb': 'partituras/boi_voador/boi_voador_Bb.pdf'
+          'eb': 'partituras/boi_voador/boi_voador_Eb.pdf'
+          'ebnotas': 'partituras/boi_voador/boi_voador_Eb_notas.pdf'
+          'midi': 'partituras/boi_voador/boi_voador_C_no_tempo.midi'
 
       - nome: 'Festa do interior (C)'
         links:
