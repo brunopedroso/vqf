@@ -326,12 +326,18 @@ blocos:
           'bbTpt': 'partituras/festa_do_interior/festa_do_interior_Bb_tpt.pdf'
           'ebnotas': 'partituras/haitian_fight_song/haitian_fight_song_Eb_notas.pdf'
           'Tuba': 'partituras/haitian_fight_song/haitian_fight_song_C_Tuba.pdf'
-          'c':  'partituras/haitian_fight_song/haitian_fight_song_C_Geral.pdf'
+          'cgeral':  'partituras/haitian_fight_song/haitian_fight_song_C_Geral.pdf'
           'midi':  'partituras/haitian_fight_song/haitian_fight_song_Geral.midi'
 
       - nome: 'Haiti (Gm)'
         links:
           'yt': 'https://www.youtube.com/watch?v=nSJHrHrBkPI'
+          'c':  'partituras/haiti/haiti_C.pdf'
+          'bb': 'partituras/haiti/haiti_Bb.pdf'
+          'eb': 'partituras/haiti/haiti_Eb.pdf'
+          'ebnotas': 'partituras/haiti/haiti_Eb_notas.pdf'
+          'Tuba': 'partituras/haiti/haiti_C_Tuba.pdf'
+          'midi':  'partituras/haiti/haiti_C.midi'
 
   - nome: "Maxixes"
     musicas:
