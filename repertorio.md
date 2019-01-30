@@ -483,6 +483,13 @@ blocos:
           'midi': 'partituras/blues_cigano/blues_cigano_C.midi'
 
       - nome: 'Tetris (Am)'
+          'c': 'partituras/tetris/tetris_C.pdf'
+          'bb': 'partituras/tetris/tetris_Bb.pdf'
+          'eb': 'partituras/tetris/tetris_Eb.pdf'
+          'Tuba': 'partituras/tetris/tetris_C_Tuba.pdf'
+          'ebnotas':  'partituras/tetris/tetris_Eb_notas.pdf'
+          'midi': 'partituras/tetris/tetris_C.midi'
+
       - nome: 'Pé na tuba (Am)'
 
   - nome: "Forrós"
