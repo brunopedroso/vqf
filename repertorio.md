@@ -320,6 +320,14 @@ blocos:
       - nome: 'Haitian Fight Song (Gm)'
         links:
           'yt': 'https://www.youtube.com/watch?v=WPfSD0vJi8Y'
+          'c':  'partituras/haitian_fight_song/haitian_fight_song_C.pdf'
+          'bb': 'partituras/haitian_fight_song/haitian_fight_song_Bb.pdf'
+          'eb': 'partituras/haitian_fight_song/haitian_fight_song_Eb.pdf'
+          'bbTpt': 'partituras/festa_do_interior/festa_do_interior_Bb_tpt.pdf'
+          'ebnotas': 'partituras/haitian_fight_song/haitian_fight_song_Eb_notas.pdf'
+          'Tuba': 'partituras/haitian_fight_song/haitian_fight_song_C_Tuba.pdf'
+          'c':  'partituras/haitian_fight_song/haitian_fight_song_C_Geral.pdf'
+          'midi':  'partituras/haitian_fight_song/haitian_fight_song_Geral.midi'
 
       - nome: 'Haiti (Gm)'
         links:
