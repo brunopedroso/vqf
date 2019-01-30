@@ -475,6 +475,13 @@ blocos:
   - nome: "Gypsi"
     musicas:
       - nome: 'Blues Cigano (Dm)'
+          'c': 'partituras/blues_cigano/blues_cigano_C.pdf'
+          'bb': 'partituras/blues_cigano/blues_cigano_Bb.pdf'
+          'eb': 'partituras/blues_cigano/blues_cigano_Eb.pdf'
+          'Tuba': 'partituras/blues_cigano/blues_cigano_C_Tuba.pdf'
+          'ebnotas':  'partituras/blues_cigano/blues_cigano_Eb_notas.pdf'
+          'midi': 'partituras/blues_cigano/blues_cigano_C.midi'
+
       - nome: 'Tetris (Am)'
       - nome: 'Pé na tuba (Am)'
 
