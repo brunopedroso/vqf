@@ -489,6 +489,7 @@ blocos:
   - nome: "Gypsi"
     musicas:
       - nome: 'Blues Cigano (Dm)'
+        links:
           'c': 'partituras/blues_cigano/blues_cigano_C.pdf'
           'bb': 'partituras/blues_cigano/blues_cigano_Bb.pdf'
           'eb': 'partituras/blues_cigano/blues_cigano_Eb.pdf'
@@ -497,6 +498,7 @@ blocos:
           'midi': 'partituras/blues_cigano/blues_cigano_C.midi'
 
       - nome: 'Tetris (Am)'
+        links:
           'c': 'partituras/tetris/tetris_C.pdf'
           'bb': 'partituras/tetris/tetris_Bb.pdf'
           'eb': 'partituras/tetris/tetris_Eb.pdf'
@@ -505,6 +507,7 @@ blocos:
           'midi': 'partituras/tetris/tetris_C.midi'
 
       - nome: 'Pé na tuba (Am)'
+        links:
           'gravacao': 'partituras/pe_na_tuba/pe_na_tuba.mp3'
           'juntos': 'partituras/pe_na_tuba/pe_na_tuba_juntos.pdf'
           'separ': 'partituras/pe_na_tuba/pe_na_tuba_separados.pdf'
