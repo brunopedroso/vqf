@@ -491,6 +491,11 @@ blocos:
           'midi': 'partituras/tetris/tetris_C.midi'
 
       - nome: 'Pé na tuba (Am)'
+          'gravacao': 'partituras/pe_na_tuba/pe_na_tuba.mp3'
+          'juntos': 'partituras/pe_na_tuba/pe_na_tuba_juntos.pdf'
+          'separ': 'partituras/pe_na_tuba/pe_na_tuba_separados.pdf'
+
+
 
   - nome: "Forrós"
     musicas:
