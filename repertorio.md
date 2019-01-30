@@ -551,6 +551,13 @@ blocos:
       - nome: 'Watermellow man'
       - nome: 'Cantaloupe'
       - nome: 'Autumn leaves'
+        links:
+          'c': 'partituras/autumn_leaves/autumn_leaves_C.pdf'
+          'bb': 'partituras/autumn_leaves/autumn_leaves_Bb.pdf'
+          'eb': 'partituras/autumn_leaves/autumn_leaves_Eb.pdf'
+          'Tuba': 'partituras/autumn_leaves/autumn_leaves_C_Tuba.pdf'
+          'ebnotas':  'partituras/autumn_leaves/autumn_leaves_Eb_notas.pdf'
+          'midi': 'partituras/autumn_leaves/autumn_leaves_C.midi'
 
       - nome: 'Bela Ciao'
 
