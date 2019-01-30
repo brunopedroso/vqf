@@ -287,13 +287,13 @@ blocos:
       - nome: 'Não existe pecado do lado de baixo do equador (C)'
         links:
           'yt': 'https://www.youtube.com/watch?v=VmV_O7EW9IM'
-          'p.original': 'partituras/nao_existe_pecado/nao_existe_pecado-original-PtP06.pdf'
-          'mid': 'partituras/nao_existe_pecado/nao_existe_pecado_C.midi'
           'c': 'partituras/nao_existe_pecado/nao_existe_pecado_C.pdf'
           'bb': 'partituras/nao_existe_pecado/nao_existe_pecado_Bb.pdf'
           'eb': 'partituras/nao_existe_pecado/nao_existe_pecado_Eb.pdf'
           'Tuba': 'partituras/nao_existe_pecado/nao_existe_pecado-original-PtP06.pdf'
           'ebnotas': 'partituras/nao_existe_pecado/nao_existe_pecado_Eb_notas.pdf'
+          'p.original': 'partituras/nao_existe_pecado/nao_existe_pecado-original-PtP06.pdf'
+          'mid': 'partituras/nao_existe_pecado/nao_existe_pecado_C.midi'
 
       - nome: 'Boi voador não pode (C)'
         links:
@@ -307,6 +307,12 @@ blocos:
       - nome: 'Festa do interior (C)'
         links:
           'yt': 'https://www.youtube.com/watch?v=-MVsK3yyJKA'
+          'c': 'partituras/festa_do_interior/festa_do_interior_C.pdf'
+          'bb': 'partituras/festa_do_interior/festa_do_interior_Bb.pdf'
+          'eb': 'partituras/festa_do_interior/festa_do_interior_Eb.pdf'
+          'Tuba': 'partituras/festa_do_interior/festa_do_interior_C_Tuba.pdf'
+          'ebnotas':  'partituras/festa_do_interior/festa_do_interior_Eb_notas.pdf'
+          'midi': 'partituras/festa_do_interior/festa_do_interior_C.midi'
 
 
   - nome: "Haiti"
@@ -478,6 +484,12 @@ blocos:
       - nome: 'Feira de mangaio (Am)'
         links:
           'yt': 'https://www.youtube.com/watch?v=M-38_POSU1M'
+          'c': 'partituras/feira_de_mangaio/feira_de_mangaio_C.pdf'
+          'bb': 'partituras/feira_de_mangaio/feira_de_mangaio_Bb.pdf'
+          'eb': 'partituras/feira_de_mangaio/feira_de_mangaio_Eb.pdf'
+          'Tuba': 'partituras/feira_de_mangaio/feira_de_mangaio_C_Tuba.pdf'
+          'ebnotas':  'partituras/feira_de_mangaio/feira_de_mangaio_Eb_notas.pdf'
+          'midi': 'partituras/feira_de_mangaio/feira_de_mangaio_C.midi'
 
       - nome: 'Pra tirar côco (Am)'
         links:
