@@ -548,7 +548,14 @@ blocos:
 
       
 
-      - nome: 'Watermellow man'
+      - nome: 'Watermelon man'
+        links:
+          'c': 'partituras/watermelon_man/watermelon_man_C.pdf'
+          'bb': 'partituras/watermelon_man/watermelon_man_Bb.pdf'
+          'eb': 'partituras/watermelon_man/watermelon_man_Eb.pdf'
+          'Tuba': 'partituras/watermelon_man/watermelon_man_C_Tuba.pdf'
+          'ebnotas':  'partituras/watermelon_man/watermelon_man_Eb_notas.pdf'
+          'midi': 'partituras/watermelon_man/watermelon_man_C.midi'
       - nome: 'Cantaloupe'
       - nome: 'Autumn leaves'
         links:
@@ -575,6 +582,11 @@ blocos:
           'midi':  'partituras/meia_lua_inteira/meia_lua_inteira_C.midi'
 
       - nome: '[X] Coisa n1 (Moacir)'
+        links:
+          'c': 'partituras/coisa1/coisan1.pdf'
+          'bb': 'partituras/coisa1/coisan1.pdf'
+          'eb': 'partituras/coisa1/coisan1.pdf'
+          'Tuba': 'partituras/coisa1/coisan1.pdf'
 
       - nome: 'Nanã (Dm)'
         links:
