@@ -313,7 +313,7 @@ blocos:
           'eb': 'partituras/festa_do_interior/festa_do_interior_Eb.pdf'
           'Tuba': 'partituras/festa_do_interior/festa_do_interior_C_Tuba.pdf'
           'ebnotas':  'partituras/festa_do_interior/festa_do_interior_Eb_notas.pdf'
-          'midi': 'partituras/festa_do_interior/festa_do_interior_C.midi'
+          'midi': 'partituras/festa_do_interior/festa_do_interior.midi'
 
 
   - nome: "Haiti"
