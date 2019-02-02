@@ -263,15 +263,6 @@ blocos:
           'eb': 'partituras/fool_on_the_hill/fool_on_the_hill_Eb.pdf'
           'ebnotas': 'partituras/fool_on_the_hill/fool_on_the_hill_Eb_notas.pdf'
 
-      - nome: 'ângelus (C)'
-        links:
-          'yt': 'https://www.youtube.com/watch?v=3K3qJVKBlh4'
-          'mid': 'partituras/angelus/angelus_C.midi'
-          'c': 'partituras/angelus/angelus_C.pdf'
-          'bb': 'partituras/angelus/angelus_Bb.pdf'
-          'eb': 'partituras/angelus/angelus_Eb.pdf'
-          'ebnotas': 'partituras/angelus/angelus_Eb_notas.pdf'
-
       - nome: 'O trenzinho do caipira (C)'
         links:
           'yt': 'https://www.youtube.com/watch?v=DC8oFe5bkeY'
@@ -377,15 +368,6 @@ blocos:
           'bb': 'partituras/angelus/angelus_Bb.pdf'
           'eb': 'partituras/angelus/angelus_Eb.pdf'
 
-      - nome: 'Paula e Bebeto (G)'
-        links:
-          'yt': 'https://www.youtube.com/watch?v=-T-esXst0sc'
-          'mid': 'partituras/paula_e_bebeto/paula_e_bebeto_C.midi'
-          'c': 'partituras/paula_e_bebeto/paula_e_bebeto_C.pdf'
-          'bb': 'partituras/paula_e_bebeto/paula_e_bebeto_Bb.pdf'
-          'eb': 'partituras/paula_e_bebeto/paula_e_bebeto_Eb.pdf'
-          'ebnotas': 'partituras/paula_e_bebeto/paula_e_bebeto_Eb_notas.pdf'
-
       - nome: 'Bola de Meia (G)'
         links:
           'yt': 'https://www.youtube.com/watch?v=G9RS2BkbqHw'
@@ -394,6 +376,15 @@ blocos:
           'bb': 'partituras/bola_de_meia/bola_de_meia_Bb.pdf'
           'eb': 'partituras/bola_de_meia/bola_de_meia_Eb.pdf'
           'ebnotas': 'partituras/bola_de_meia/bola_de_meia_Eb_notas.pdf'
+
+      - nome: 'Paula e Bebeto (G)'
+        links:
+          'yt': 'https://www.youtube.com/watch?v=-T-esXst0sc'
+          'mid': 'partituras/paula_e_bebeto/paula_e_bebeto_C.midi'
+          'c': 'partituras/paula_e_bebeto/paula_e_bebeto_C.pdf'
+          'bb': 'partituras/paula_e_bebeto/paula_e_bebeto_Bb.pdf'
+          'eb': 'partituras/paula_e_bebeto/paula_e_bebeto_Eb.pdf'
+          'ebnotas': 'partituras/paula_e_bebeto/paula_e_bebeto_Eb_notas.pdf'
 
   - nome: "Cachaça"
     musicas:
