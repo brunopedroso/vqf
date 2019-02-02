@@ -116,7 +116,7 @@ letratoda = \lyricmode {
       \new Staff {
         \new Voice = "saxalto" {
           \tempo 4 = 83 {
-            \transpose c g, {
+            \transpose c aes, {
             \parteum
 %             \skip 256 \bar "" \break
              \partedois
@@ -135,7 +135,7 @@ letratoda = \lyricmode {
       \new TimeSig \compassoseparado
       \new Staff {
         \new Voice = "saxalto" {
-           \transpose c g, {
+           \transpose c aes, {
           \tempo 4 = 80 {
             \unfoldRepeats {
               \intro
@@ -163,7 +163,7 @@ letratoda = \lyricmode {
       \new Staff {
         \new Voice = "saxalto" {
           \tempo 4 = 83 {
-            \transpose c a, {
+            \transpose c bes, {
             \parteum
 %             \skip 256 \bar "" \break
              \partedois
@@ -190,7 +190,7 @@ letratoda = \lyricmode {
       \new Staff {
         \new Voice = "saxalto" {
           \tempo 4 = 83 {
-            \transpose c e {
+            \transpose c f {
             \parteum
 %             \skip 256 \bar "" \break
              \partedois
