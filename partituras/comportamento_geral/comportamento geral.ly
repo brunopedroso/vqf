@@ -179,6 +179,32 @@ letratoda = \lyricmode {
   }
 }
 
+\book {
+  \bookOutputName "comportamento_geral_Eb"
+  \header {
+     instrument = "Para instrumentos em Eb"
+  }
+  \score {
+    <<
+      \new TimeSig \compassoseparado
+      \new Staff {
+        \new Voice = "saxalto" {
+          \tempo 4 = 83 {
+            \transpose c e {
+            \parteum
+%             \skip 256 \bar "" \break
+             \partedois
+            }
+          }
+        }
+        \addlyrics \letratoda
+      }
+
+    >>
+    \layout{
+    }
+  }
+}
 
 #(set-global-staff-size 38)
 \book {
@@ -217,29 +243,3 @@ letratoda = \lyricmode {
   }
 }
 
-\book {
-  \bookOutputName "comportamento_geral_Eb"
-  \header {
-     instrument = "Para instrumentos em Eb"
-  }
-  \score {
-    <<
-      \new TimeSig \compassoseparado
-      \new Staff {
-        \new Voice = "saxalto" {
-          \tempo 4 = 83 {
-            \transpose c e {
-            \parteum
-%             \skip 256 \bar "" \break
-             \partedois
-            }
-          }
-        }
-        \addlyrics \letratoda
-      }
-
-    >>
-    \layout{
-    }
-  }
-}
