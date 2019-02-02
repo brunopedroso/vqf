@@ -572,6 +572,14 @@ blocos:
 
       - nome: '[X] Reconvexo'
 
+      - nome: 'Comportamento Geral (Em?)'
+        links:
+          'c': 'partituras/comportamento_geral/comportamento_geral_C.pdf'
+          'bb': 'partituras/comportamento_geral/comportamento_geral_Bb.pdf'
+          'eb': 'partituras/comportamento_geral/comportamento_geral_Eb.pdf'
+          'Tuba': 'partituras/comportamento_geral/comportamento_geral_C_Tuba.pdf'
+          'ebnotas':  'partituras/comportamento_geral/comportamento_geral_Eb_notas.pdf'
+          'midi': 'partituras/comportamento_geral/comportamento_geral.midi'
 
       - nome: 'Meia lua inteira (F)'
         links:
