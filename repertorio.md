@@ -270,6 +270,7 @@ blocos:
           'c': 'partituras/angelus/angelus_C.pdf'
           'bb': 'partituras/angelus/angelus_Bb.pdf'
           'eb': 'partituras/angelus/angelus_Eb.pdf'
+          'ebnotas': 'partituras/angelus/angelus_Eb_notas.pdf'
 
       - nome: 'O trenzinho do caipira (C)'
         links:
@@ -287,14 +288,32 @@ blocos:
       - nome: 'Não existe pecado do lado de baixo do equador (C)'
         links:
           'yt': 'https://www.youtube.com/watch?v=VmV_O7EW9IM'
+          'c': 'partituras/nao_existe_pecado/nao_existe_pecado_C.pdf'
+          'bb': 'partituras/nao_existe_pecado/nao_existe_pecado_Bb.pdf'
+          'eb': 'partituras/nao_existe_pecado/nao_existe_pecado_Eb.pdf'
+          'Tuba': 'partituras/nao_existe_pecado/nao_existe_pecado-original-PtP06.pdf'
+          'ebnotas': 'partituras/nao_existe_pecado/nao_existe_pecado_Eb_notas.pdf'
+          'p.original': 'partituras/nao_existe_pecado/nao_existe_pecado-original-PtP06.pdf'
+          'mid': 'partituras/nao_existe_pecado/nao_existe_pecado_C.midi'
 
       - nome: 'Boi voador não pode (C)'
         links:
           'yt': 'https://www.youtube.com/watch?v=YMjtso8qZSI'
+          'c': 'partituras/boi_voador/boi_voador_C.pdf'
+          'bb': 'partituras/boi_voador/boi_voador_Bb.pdf'
+          'eb': 'partituras/boi_voador/boi_voador_Eb.pdf'
+          'ebnotas': 'partituras/boi_voador/boi_voador_Eb_notas.pdf'
+          'midi': 'partituras/boi_voador/boi_voador_C_no_tempo.midi'
 
       - nome: 'Festa do interior (C)'
         links:
           'yt': 'https://www.youtube.com/watch?v=-MVsK3yyJKA'
+          'c': 'partituras/festa_do_interior/festa_do_interior_C.pdf'
+          'bb': 'partituras/festa_do_interior/festa_do_interior_Bb.pdf'
+          'eb': 'partituras/festa_do_interior/festa_do_interior_Eb.pdf'
+          'Tuba': 'partituras/festa_do_interior/festa_do_interior_C_Tuba.pdf'
+          'ebnotas':  'partituras/festa_do_interior/festa_do_interior_Eb_notas.pdf'
+          'midi': 'partituras/festa_do_interior/festa_do_interior.midi'
 
 
   - nome: "Haiti"
@@ -302,10 +321,24 @@ blocos:
       - nome: 'Haitian Fight Song (Gm)'
         links:
           'yt': 'https://www.youtube.com/watch?v=WPfSD0vJi8Y'
+          'c':  'partituras/haitian_fight_song/haitian_fight_song_C.pdf'
+          'bb': 'partituras/haitian_fight_song/haitian_fight_song_Bb.pdf'
+          'eb': 'partituras/haitian_fight_song/haitian_fight_song_Eb.pdf'
+          'bbTpt': 'partituras/festa_do_interior/festa_do_interior_Bb_tpt.pdf'
+          'ebnotas': 'partituras/haitian_fight_song/haitian_fight_song_Eb_notas.pdf'
+          'Tuba': 'partituras/haitian_fight_song/haitian_fight_song_C_Tuba.pdf'
+          'cgeral':  'partituras/haitian_fight_song/haitian_fight_song_C_Geral.pdf'
+          'midi':  'partituras/haitian_fight_song/haitian_fight_song_Geral.midi'
 
       - nome: 'Haiti (Gm)'
         links:
           'yt': 'https://www.youtube.com/watch?v=nSJHrHrBkPI'
+          'c':  'partituras/haiti/haiti_C.pdf'
+          'bb': 'partituras/haiti/haiti_Bb.pdf'
+          'eb': 'partituras/haiti/haiti_Eb.pdf'
+          'ebnotas': 'partituras/haiti/haiti_Eb_notas.pdf'
+          'Tuba': 'partituras/haiti/haiti_C_Tuba.pdf'
+          'midi':  'partituras/haiti/haiti_C.midi'
 
   - nome: "Maxixes"
     musicas:
@@ -347,6 +380,11 @@ blocos:
       - nome: 'Paula e Bebeto (G)'
         links:
           'yt': 'https://www.youtube.com/watch?v=-T-esXst0sc'
+          'mid': 'partituras/paula_e_bebeto/paula_e_bebeto_C.midi'
+          'c': 'partituras/paula_e_bebeto/paula_e_bebeto_C.pdf'
+          'bb': 'partituras/paula_e_bebeto/paula_e_bebeto_Bb.pdf'
+          'eb': 'partituras/paula_e_bebeto/paula_e_bebeto_Eb.pdf'
+          'ebnotas': 'partituras/paula_e_bebeto/paula_e_bebeto_Eb_notas.pdf'
 
       - nome: 'Bola de Meia (G)'
         links:
@@ -355,6 +393,7 @@ blocos:
           'c': 'partituras/bola_de_meia/bola_de_meia_C.pdf'
           'bb': 'partituras/bola_de_meia/bola_de_meia_Bb.pdf'
           'eb': 'partituras/bola_de_meia/bola_de_meia_Eb.pdf'
+          'ebnotas': 'partituras/bola_de_meia/bola_de_meia_Eb_notas.pdf'
 
   - nome: "Cachaça"
     musicas:
@@ -456,8 +495,30 @@ blocos:
   - nome: "Gypsi"
     musicas:
       - nome: 'Blues Cigano (Dm)'
+        links:
+          'c': 'partituras/blues_cigano/blues_cigano_C.pdf'
+          'bb': 'partituras/blues_cigano/blues_cigano_Bb.pdf'
+          'eb': 'partituras/blues_cigano/blues_cigano_Eb.pdf'
+          'Tuba': 'partituras/blues_cigano/blues_cigano_C_Tuba.pdf'
+          'ebnotas':  'partituras/blues_cigano/blues_cigano_Eb_notas.pdf'
+          'midi': 'partituras/blues_cigano/blues_cigano_C.midi'
+
       - nome: 'Tetris (Am)'
+        links:
+          'c': 'partituras/tetris/tetris_C.pdf'
+          'bb': 'partituras/tetris/tetris_Bb.pdf'
+          'eb': 'partituras/tetris/tetris_Eb.pdf'
+          'Tuba': 'partituras/tetris/tetris_C_Tuba.pdf'
+          'ebnotas':  'partituras/tetris/tetris_Eb_notas.pdf'
+          'midi': 'partituras/tetris/tetris_C.midi'
+
       - nome: 'Pé na tuba (Am)'
+        links:
+          'gravacao': 'partituras/pe_na_tuba/pe_na_tuba.mp3'
+          'juntos': 'partituras/pe_na_tuba/pe_na_tuba_juntos.pdf'
+          'separ': 'partituras/pe_na_tuba/pe_na_tuba_separados.pdf'
+
+
 
   - nome: "Forrós"
     musicas:
@@ -465,6 +526,12 @@ blocos:
       - nome: 'Feira de mangaio (Am)'
         links:
           'yt': 'https://www.youtube.com/watch?v=M-38_POSU1M'
+          'c': 'partituras/feira_de_mangaio/feira_de_mangaio_C.pdf'
+          'bb': 'partituras/feira_de_mangaio/feira_de_mangaio_Bb.pdf'
+          'eb': 'partituras/feira_de_mangaio/feira_de_mangaio_Eb.pdf'
+          'Tuba': 'partituras/feira_de_mangaio/feira_de_mangaio_C_Tuba.pdf'
+          'ebnotas':  'partituras/feira_de_mangaio/feira_de_mangaio_Eb_notas.pdf'
+          'midi': 'partituras/feira_de_mangaio/feira_de_mangaio_C.midi'
 
       - nome: 'Pra tirar côco (Am)'
         links:
@@ -481,9 +548,23 @@ blocos:
 
       
 
-      - nome: 'Watermellow man'
+      - nome: 'Watermelon man'
+        links:
+          'c': 'partituras/watermelon_man/watermelon_man_C.pdf'
+          'bb': 'partituras/watermelon_man/watermelon_man_Bb.pdf'
+          'eb': 'partituras/watermelon_man/watermelon_man_Eb.pdf'
+          'Tuba': 'partituras/watermelon_man/watermelon_man_C_Tuba.pdf'
+          'ebnotas':  'partituras/watermelon_man/watermelon_man_Eb_notas.pdf'
+          'midi': 'partituras/watermelon_man/watermelon_man_C.midi'
       - nome: 'Cantaloupe'
       - nome: 'Autumn leaves'
+        links:
+          'c': 'partituras/autumn_leaves/autumn_leaves_C.pdf'
+          'bb': 'partituras/autumn_leaves/autumn_leaves_Bb.pdf'
+          'eb': 'partituras/autumn_leaves/autumn_leaves_Eb.pdf'
+          'Tuba': 'partituras/autumn_leaves/autumn_leaves_C_Tuba.pdf'
+          'ebnotas':  'partituras/autumn_leaves/autumn_leaves_Eb_notas.pdf'
+          'midi': 'partituras/autumn_leaves/autumn_leaves_C.midi'
 
       - nome: 'Bela Ciao'
 
@@ -491,6 +572,14 @@ blocos:
 
       - nome: '[X] Reconvexo'
 
+      - nome: 'Comportamento Geral (Em?)'
+        links:
+          'c': 'partituras/comportamento_geral/comportamento_geral_C.pdf'
+          'bb': 'partituras/comportamento_geral/comportamento_geral_Bb.pdf'
+          'eb': 'partituras/comportamento_geral/comportamento_geral_Eb.pdf'
+          'Tuba': 'partituras/comportamento_geral/comportamento_geral_C_Tuba.pdf'
+          'ebnotas':  'partituras/comportamento_geral/comportamento_geral_Eb_notas.pdf'
+          'midi': 'partituras/comportamento_geral/comportamento_geral.midi'
 
       - nome: 'Meia lua inteira (F)'
         links:
@@ -501,6 +590,11 @@ blocos:
           'midi':  'partituras/meia_lua_inteira/meia_lua_inteira_C.midi'
 
       - nome: '[X] Coisa n1 (Moacir)'
+        links:
+          'c': 'partituras/coisa1/coisan1.pdf'
+          'bb': 'partituras/coisa1/coisan1.pdf'
+          'eb': 'partituras/coisa1/coisan1.pdf'
+          'Tuba': 'partituras/coisa1/coisan1.pdf'
 
       - nome: 'Nanã (Dm)'
         links:
