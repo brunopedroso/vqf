@@ -4,7 +4,7 @@ grep -e 'C.pdf' -e '^  - nome' ../../repertorio.md | sed "s/.*: \+\\x27\(.*\)\x2
 grep nome listaC.txt | sed 's/.* "\(.*\)"/\1/g'|  sed 's/ \([[:alpha:]]\)/_\1/g' - > blocos.txt
 while read i 
 do 
-  convert -density 150 -size 595x842 -font Roboto -pointsize 50 caption:"\n\n   BLOCO\n\n   ${i}" -page A4 "$i".pdf
+  convert -density 150 -size 595x842 -pointsize 50 caption:"\n\n   BLOCO\n\n   ${i}" -page A4 "$i".pdf
 done < blocos.txt 
 
 sed 's/partituras/../g' listaC.txt | sed  's/.* "\(.*\)"/\1\.pdf/g' | sed 's/ \([[:alpha:]]\)/_\1/g' - > listaCcomblocos.txt
@@ -35,6 +35,6 @@ pdftk capa.pdf $(cat listaEbnotascomblocos.txt) cat output songbookEbnotas.pdf
 
 
 #for i in ; do
-# convert -density 150 -size 595x842 -font Roboto -pointsize 50 caption:"\n\n   BLOCOX" -page A4 $.pdf
+# convert -density 150 -size 595x842 -pointsize 50 caption:"\n\n   BLOCOX" -page A4 $.pdf
 #rascunho da criação da capa
-#convert desenhocapa.png -density 150 -pointsize 30 -font Roboto caption:"\n\n                           Songbook\n                2019\n                          v. 02-02-2019" -append  -page A4 capa.pdf
+#convert desenhocapa.png -density 150 -pointsize 30 caption:"\n\n                           Songbook\n                2019\n                          v. 02-02-2019" -append  -page A4 capa.pdf
