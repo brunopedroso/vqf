@@ -22,6 +22,14 @@ grep -e 'Eb.pdf' -e '^  - nome' ../../repertorio.md | sed "s/.*: \+\\x27\(.*\)\x
 sed 's/partituras/../g' listaEb.txt | sed  's/.* "\(.*\)"/\1\.pdf/g'| sed 's/ \([[:alpha:]]\)/_\1/g' - > listaEbcomblocos.txt
 pdftk capa.pdf $(cat listaEbcomblocos.txt) cat output songbookEb.pdf
 
+grep -e 'Eb_notas.pdf' -e '^  - nome' ../../repertorio.md | sed "s/.*: \+\\x27\(.*\)\x27/\1/g" - > listaEbnotas.txt 
+sed 's/partituras/../g' listaEbnotas.txt | sed  's/.* "\(.*\)"/\1\.pdf/g'| sed 's/ \([[:alpha:]]\)/_\1/g' - > listaEbnotascomblocos.txt
+pdftk capa.pdf $(cat listaEbnotascomblocos.txt) cat output songbookEbnotas.pdf
+
+
+
+
+
 
 # Falta criar arquivos com nomes dos blocos a partir dos nomes, e incluir na lista de arquivos
 
