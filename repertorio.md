@@ -676,7 +676,10 @@ blocos:
 
 
 
-
+tons:
+  - C
+  - Bb
+  - Eb
 
 ---
 
@@ -698,9 +701,29 @@ blocos:
 
 ## Ensaios
 
-  Todos os sábados às 15:00 até o carnaval
+<pre>
+  FEVEREIRO/2019
+
+    sab 2  - Ensaio e aniversário do Silvinho (casa da Giu)
+
+    sab 9  - Ensaio e aniversário da Camila (perto da 206. Teremos cortejo no final)
+
+    sex 15 - Tapera
+    sab 16 - Casamento na ponta do Lago norte
+
+    sab 23 - Ensaio e aniversário Cora
+    dom 24 - CCBB (que horas?)
+
+  MAR
+    2 - !!! SÁBADO DE CARNAVAL !!!
+    4 - !!! SEGUNDA DE CARNAVAL !!!
+</pre>
 
 ## Repertório
+
+  {% for tom in page.tons  %}
+  <a href='partituras/songbooks/songbook{{ tom }}.pdf' target='_blank'>Songboog em {{ tom }}</a><br/>
+  {% endfor %}
 
   <table>
 
