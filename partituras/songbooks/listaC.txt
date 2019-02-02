@@ -30,7 +30,6 @@ partituras/pegando_fogo/pegando_fogo_C.pdf
 partituras/mulata_bossa_nova/mulata_bossa_nova_C.pdf
   - nome: "Lento"
 partituras/fool_on_the_hill/fool_on_the_hill_C.pdf
-partituras/angelus/angelus_C.pdf
 partituras/trenzinho/trenzinho_C.pdf
   - nome: "Pecado"
 partituras/nao_existe_pecado/nao_existe_pecado_C.pdf
@@ -44,8 +43,8 @@ partituras/folia_de_reis/folia_de_reis-Trombone_em_C.pdf
 partituras/benguele/benguele-C.pdf
   - nome: "Bituca"
 partituras/angelus/angelus_C.pdf
-partituras/paula_e_bebeto/paula_e_bebeto_C.pdf
 partituras/bola_de_meia/bola_de_meia_C.pdf
+partituras/paula_e_bebeto/paula_e_bebeto_C.pdf
   - nome: "Cachaça"
 partituras/cachaca/cachaca_C.pdf
 partituras/me_da_um_dinheiro_aih/me_da_um_dinheiro_ai_C.pdf
@@ -67,11 +66,12 @@ partituras/tetris/tetris_C.pdf
   - nome: "Forrós"
 partituras/feira_de_mangaio/feira_de_mangaio_C.pdf
 partituras/pra_tirar_coco/pra_tirar_coco_C.pdf          
+  - nome: "Saideira"
+partituras/bandeira_branca/bandeira_branca_C.pdf
+  - nome: "Sambas"
   - nome: "Desencaixadas"
 partituras/watermelon_man/watermelon_man_C.pdf
 partituras/autumn_leaves/autumn_leaves_C.pdf
 partituras/comportamento_geral/comportamento_geral_C.pdf
 partituras/meia_lua_inteira/meia_lua_inteira_C.pdf
 partituras/take_five/take_five-Instrumentos_em_C.pdf
-  - nome: "Saideira"
-partituras/bandeira_branca/bandeira_branca_C.pdf

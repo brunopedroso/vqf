@@ -30,7 +30,6 @@ partituras/pegando_fogo/pegando_fogo_Eb.pdf
 partituras/mulata_bossa_nova/mulata_bossa_nova_Eb.pdf
   - nome: "Lento"
 partituras/fool_on_the_hill/fool_on_the_hill_Eb.pdf
-partituras/angelus/angelus_Eb.pdf
 partituras/trenzinho/trenzinho_Eb.pdf
   - nome: "Pecado"
 partituras/nao_existe_pecado/nao_existe_pecado_Eb.pdf
@@ -45,8 +44,8 @@ partituras/folia_de_reis/folia_de_reis-Sax_Alto_Eb.pdf
 partituras/benguele/benguele-Eb.pdf
   - nome: "Bituca"
 partituras/angelus/angelus_Eb.pdf
-partituras/paula_e_bebeto/paula_e_bebeto_Eb.pdf
 partituras/bola_de_meia/bola_de_meia_Eb.pdf
+partituras/paula_e_bebeto/paula_e_bebeto_Eb.pdf
   - nome: "Cachaça"
 partituras/cachaca/cachaca_Eb.pdf
 partituras/me_da_um_dinheiro_aih/me_da_um_dinheiro_ai_Eb.pdf
@@ -68,11 +67,12 @@ partituras/tetris/tetris_Eb.pdf
   - nome: "Forrós"
 partituras/feira_de_mangaio/feira_de_mangaio_Eb.pdf
 partituras/pra_tirar_coco/pra_tirar_coco_Eb.pdf                  
+  - nome: "Saideira"
+partituras/bandeira_branca/bandeira_branca_Eb.pdf
+  - nome: "Sambas"
   - nome: "Desencaixadas"
 partituras/watermelon_man/watermelon_man_Eb.pdf
 partituras/autumn_leaves/autumn_leaves_Eb.pdf
 partituras/comportamento_geral/comportamento_geral_Eb.pdf
 partituras/meia_lua_inteira/meia_lua_inteira_Eb.pdf
 partituras/take_five/take_five-Sax_Alto_em_Eb.pdf
-  - nome: "Saideira"
-partituras/bandeira_branca/bandeira_branca_Eb.pdf

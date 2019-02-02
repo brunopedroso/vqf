@@ -31,7 +31,6 @@ Balancê.pdf
 ../mulata_bossa_nova/mulata_bossa_nova_Bb.pdf
 Lento.pdf
 ../fool_on_the_hill/fool_on_the_hill_Bb.pdf
-../angelus/angelus_Bb.pdf
 ../trenzinho/trenzinho_Bb.pdf
 Pecado.pdf
 ../nao_existe_pecado/nao_existe_pecado_Bb.pdf
@@ -46,8 +45,8 @@ Maxixes.pdf
 ../benguele/benguele-Bb.pdf
 Bituca.pdf
 ../angelus/angelus_Bb.pdf
-../paula_e_bebeto/paula_e_bebeto_Bb.pdf
 ../bola_de_meia/bola_de_meia_Bb.pdf
+../paula_e_bebeto/paula_e_bebeto_Bb.pdf
 Cachaça.pdf
 ../cachaca/cachaca_Bb.pdf
 ../me_da_um_dinheiro_aih/me_da_um_dinheiro_ai_Bb.pdf
@@ -69,6 +68,9 @@ Gypsi.pdf
 Forrós.pdf
 ../feira_de_mangaio/feira_de_mangaio_Bb.pdf
 ../pra_tirar_coco/pra_tirar_coco_Bb.pdf          
+Saideira.pdf
+../bandeira_branca/bandeira_branca_Bb.pdf
+Sambas.pdf
 Desencaixadas.pdf
 ../watermelon_man/watermelon_man_Bb.pdf
 ../autumn_leaves/autumn_leaves_Bb.pdf
@@ -76,5 +78,3 @@ Desencaixadas.pdf
 ../meia_lua_inteira/meia_lua_inteira_Bb.pdf
 ../coisa5/trompete/Coisa5-VQF_FINAL_Trumpet_Bb.pdf
 ../take_five/take_five-Instrumentos_em_Bb.pdf
-Saideira.pdf
-../bandeira_branca/bandeira_branca_Bb.pdf

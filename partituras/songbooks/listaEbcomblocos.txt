@@ -30,7 +30,6 @@ Balancê.pdf
 ../mulata_bossa_nova/mulata_bossa_nova_Eb.pdf
 Lento.pdf
 ../fool_on_the_hill/fool_on_the_hill_Eb.pdf
-../angelus/angelus_Eb.pdf
 ../trenzinho/trenzinho_Eb.pdf
 Pecado.pdf
 ../nao_existe_pecado/nao_existe_pecado_Eb.pdf
@@ -45,8 +44,8 @@ Maxixes.pdf
 ../benguele/benguele-Eb.pdf
 Bituca.pdf
 ../angelus/angelus_Eb.pdf
-../paula_e_bebeto/paula_e_bebeto_Eb.pdf
 ../bola_de_meia/bola_de_meia_Eb.pdf
+../paula_e_bebeto/paula_e_bebeto_Eb.pdf
 Cachaça.pdf
 ../cachaca/cachaca_Eb.pdf
 ../me_da_um_dinheiro_aih/me_da_um_dinheiro_ai_Eb.pdf
@@ -68,11 +67,12 @@ Gypsi.pdf
 Forrós.pdf
 ../feira_de_mangaio/feira_de_mangaio_Eb.pdf
 ../pra_tirar_coco/pra_tirar_coco_Eb.pdf                  
+Saideira.pdf
+../bandeira_branca/bandeira_branca_Eb.pdf
+Sambas.pdf
 Desencaixadas.pdf
 ../watermelon_man/watermelon_man_Eb.pdf
 ../autumn_leaves/autumn_leaves_Eb.pdf
 ../comportamento_geral/comportamento_geral_Eb.pdf
 ../meia_lua_inteira/meia_lua_inteira_Eb.pdf
 ../take_five/take_five-Sax_Alto_em_Eb.pdf
-Saideira.pdf
-../bandeira_branca/bandeira_branca_Eb.pdf

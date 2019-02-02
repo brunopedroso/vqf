@@ -31,7 +31,6 @@ partituras/pegando_fogo/pegando_fogo_Bb.pdf
 partituras/mulata_bossa_nova/mulata_bossa_nova_Bb.pdf
   - nome: "Lento"
 partituras/fool_on_the_hill/fool_on_the_hill_Bb.pdf
-partituras/angelus/angelus_Bb.pdf
 partituras/trenzinho/trenzinho_Bb.pdf
   - nome: "Pecado"
 partituras/nao_existe_pecado/nao_existe_pecado_Bb.pdf
@@ -46,8 +45,8 @@ partituras/folia_de_reis/folia_de_reis-Trompete_em_Bb.pdf
 partituras/benguele/benguele-Bb.pdf
   - nome: "Bituca"
 partituras/angelus/angelus_Bb.pdf
-partituras/paula_e_bebeto/paula_e_bebeto_Bb.pdf
 partituras/bola_de_meia/bola_de_meia_Bb.pdf
+partituras/paula_e_bebeto/paula_e_bebeto_Bb.pdf
   - nome: "Cachaça"
 partituras/cachaca/cachaca_Bb.pdf
 partituras/me_da_um_dinheiro_aih/me_da_um_dinheiro_ai_Bb.pdf
@@ -69,6 +68,9 @@ partituras/tetris/tetris_Bb.pdf
   - nome: "Forrós"
 partituras/feira_de_mangaio/feira_de_mangaio_Bb.pdf
 partituras/pra_tirar_coco/pra_tirar_coco_Bb.pdf          
+  - nome: "Saideira"
+partituras/bandeira_branca/bandeira_branca_Bb.pdf
+  - nome: "Sambas"
   - nome: "Desencaixadas"
 partituras/watermelon_man/watermelon_man_Bb.pdf
 partituras/autumn_leaves/autumn_leaves_Bb.pdf
@@ -76,5 +78,3 @@ partituras/comportamento_geral/comportamento_geral_Bb.pdf
 partituras/meia_lua_inteira/meia_lua_inteira_Bb.pdf
 partituras/coisa5/trompete/Coisa5-VQF_FINAL_Trumpet_Bb.pdf
 partituras/take_five/take_five-Instrumentos_em_Bb.pdf
-  - nome: "Saideira"
-partituras/bandeira_branca/bandeira_branca_Bb.pdf

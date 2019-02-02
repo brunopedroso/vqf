@@ -30,7 +30,6 @@ Balancê.pdf
 ../mulata_bossa_nova/mulata_bossa_nova_C.pdf
 Lento.pdf
 ../fool_on_the_hill/fool_on_the_hill_C.pdf
-../angelus/angelus_C.pdf
 ../trenzinho/trenzinho_C.pdf
 Pecado.pdf
 ../nao_existe_pecado/nao_existe_pecado_C.pdf
@@ -44,8 +43,8 @@ Maxixes.pdf
 ../benguele/benguele-C.pdf
 Bituca.pdf
 ../angelus/angelus_C.pdf
-../paula_e_bebeto/paula_e_bebeto_C.pdf
 ../bola_de_meia/bola_de_meia_C.pdf
+../paula_e_bebeto/paula_e_bebeto_C.pdf
 Cachaça.pdf
 ../cachaca/cachaca_C.pdf
 ../me_da_um_dinheiro_aih/me_da_um_dinheiro_ai_C.pdf
@@ -67,11 +66,12 @@ Gypsi.pdf
 Forrós.pdf
 ../feira_de_mangaio/feira_de_mangaio_C.pdf
 ../pra_tirar_coco/pra_tirar_coco_C.pdf          
+Saideira.pdf
+../bandeira_branca/bandeira_branca_C.pdf
+Sambas.pdf
 Desencaixadas.pdf
 ../watermelon_man/watermelon_man_C.pdf
 ../autumn_leaves/autumn_leaves_C.pdf
 ../comportamento_geral/comportamento_geral_C.pdf
 ../meia_lua_inteira/meia_lua_inteira_C.pdf
 ../take_five/take_five-Instrumentos_em_C.pdf
-Saideira.pdf
-../bandeira_branca/bandeira_branca_C.pdf
