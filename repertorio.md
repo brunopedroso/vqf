@@ -360,7 +360,7 @@ blocos:
   - nome: "Bituca"
     musicas:
 
-      - nome: 'ângelus (C)'
+      - nome: 'Ângelus (C)'
         links:
           'yt': 'https://www.youtube.com/watch?v=3K3qJVKBlh4'
           'mid': 'partituras/angelus/angelus_C.midi'
