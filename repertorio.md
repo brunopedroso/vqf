@@ -263,15 +263,6 @@ blocos:
           'eb': 'partituras/fool_on_the_hill/fool_on_the_hill_Eb.pdf'
           'ebnotas': 'partituras/fool_on_the_hill/fool_on_the_hill_Eb_notas.pdf'
 
-      - nome: 'ângelus (C)'
-        links:
-          'yt': 'https://www.youtube.com/watch?v=3K3qJVKBlh4'
-          'mid': 'partituras/angelus/angelus_C.midi'
-          'c': 'partituras/angelus/angelus_C.pdf'
-          'bb': 'partituras/angelus/angelus_Bb.pdf'
-          'eb': 'partituras/angelus/angelus_Eb.pdf'
-          'ebnotas': 'partituras/angelus/angelus_Eb_notas.pdf'
-
       - nome: 'O trenzinho do caipira (C)'
         links:
           'yt': 'https://www.youtube.com/watch?v=DC8oFe5bkeY'
@@ -369,22 +360,13 @@ blocos:
   - nome: "Bituca"
     musicas:
 
-      - nome: 'ângelus (C)'
+      - nome: 'Ângelus (C)'
         links:
           'yt': 'https://www.youtube.com/watch?v=3K3qJVKBlh4'
           'mid': 'partituras/angelus/angelus_C.midi'
           'c': 'partituras/angelus/angelus_C.pdf'
           'bb': 'partituras/angelus/angelus_Bb.pdf'
           'eb': 'partituras/angelus/angelus_Eb.pdf'
-
-      - nome: 'Paula e Bebeto (G)'
-        links:
-          'yt': 'https://www.youtube.com/watch?v=-T-esXst0sc'
-          'mid': 'partituras/paula_e_bebeto/paula_e_bebeto_C.midi'
-          'c': 'partituras/paula_e_bebeto/paula_e_bebeto_C.pdf'
-          'bb': 'partituras/paula_e_bebeto/paula_e_bebeto_Bb.pdf'
-          'eb': 'partituras/paula_e_bebeto/paula_e_bebeto_Eb.pdf'
-          'ebnotas': 'partituras/paula_e_bebeto/paula_e_bebeto_Eb_notas.pdf'
 
       - nome: 'Bola de Meia (G)'
         links:
@@ -394,6 +376,15 @@ blocos:
           'bb': 'partituras/bola_de_meia/bola_de_meia_Bb.pdf'
           'eb': 'partituras/bola_de_meia/bola_de_meia_Eb.pdf'
           'ebnotas': 'partituras/bola_de_meia/bola_de_meia_Eb_notas.pdf'
+
+      - nome: 'Paula e Bebeto (G)'
+        links:
+          'yt': 'https://www.youtube.com/watch?v=-T-esXst0sc'
+          'mid': 'partituras/paula_e_bebeto/paula_e_bebeto_C.midi'
+          'c': 'partituras/paula_e_bebeto/paula_e_bebeto_C.pdf'
+          'bb': 'partituras/paula_e_bebeto/paula_e_bebeto_Bb.pdf'
+          'eb': 'partituras/paula_e_bebeto/paula_e_bebeto_Eb.pdf'
+          'ebnotas': 'partituras/paula_e_bebeto/paula_e_bebeto_Eb_notas.pdf'
 
   - nome: "Cachaça"
     musicas:
@@ -542,6 +533,55 @@ blocos:
           'Eb':  'partituras/pra_tirar_coco/pra_tirar_coco_Eb.pdf'                  
           'ebnotas':  'partituras/pra_tirar_coco/pra_tirar_coco_Eb_notas.pdf'  
 
+  - nome: "Saideira"
+    musicas:
+
+      - nome: 'Bandeira Branca (Dm)'
+        links:
+          'gravacao': 'https://s3.amazonaws.com/brunopedroso/vqf/b1/2_BandeiraBranca.mp3'
+          'c':  'partituras/bandeira_branca/bandeira_branca_C.pdf'
+          'bb': 'partituras/bandeira_branca/bandeira_branca_Bb.pdf'
+          'eb': 'partituras/bandeira_branca/bandeira_branca_Eb.pdf'
+
+  - nome: "Sambas"
+    musicas:
+      - nome: 'Fita Amarela (Dm)'
+        autor: 'Noel Rosa'
+        inicio: 'Quando eu morrer'
+      - nome: 'Filosofia (Dm)'
+        autor: 'Noel Rosa'
+        inicio: 'O mundo me condena'
+      - nome: 'Na cadência so Samba (Dm)'
+        autor: 'Novos Baianos'
+        inicio: 'Sei que vou morrer não sei o dia'
+      
+      - nome: 'Me deixa em paz (Gm)'
+        autor: 'Monsueto'
+        inicio: 'Se você não me queria'
+      - nome: 'Sem compromisso (Gm)'
+        autor: 'Chico Buarque'
+        inicio: 'Você só dança com ele'
+
+      - nome: 'Direito de sambar (Cm)'
+        autor: 'Batatinha'
+        inicio: 'É proibido sonhar'
+      - nome: 'Imitação (Cm)'
+        autor: 'Batatinha'
+        inicio: 'Ninguém sabe quem sou eu'
+
+      - nome: 'Felicidade (G)'
+        autor: 'Tom Jobim'
+        inicio: 'Tristeza não tem fim'
+
+      - nome: 'Aquarela do Brasil (F)'
+        autor: 'Ari Barroso'
+        inicio: 'Brasil, meu Brasil brasileiro'
+      - nome: 'Isso aqui o que é (F)'
+        autor: 'Ari Barroso'
+        inicio: 'Isso aqui ô ô'
+      - nome: 'O Bêbado e a equilibrista (F)'
+        autor: 'João Bosco'
+        inicio: 'Caía a tarde feito um viaduto'
 
   - nome: "Desencaixadas"
     musicas:
@@ -636,16 +676,10 @@ blocos:
 
 
 
-
-  - nome: "Saideira"
-    musicas:
-
-      - nome: 'Bandeira Branca (Dm)'
-        links:
-          'gravacao': 'https://s3.amazonaws.com/brunopedroso/vqf/b1/2_BandeiraBranca.mp3'
-          'c':  'partituras/bandeira_branca/bandeira_branca_C.pdf'
-          'bb': 'partituras/bandeira_branca/bandeira_branca_Bb.pdf'
-          'eb': 'partituras/bandeira_branca/bandeira_branca_Eb.pdf'
+tons:
+  - C
+  - Bb
+  - Eb
 
 ---
 
@@ -667,9 +701,29 @@ blocos:
 
 ## Ensaios
 
-  Todos os sábados às 15:00 até o carnaval
+<pre>
+  FEVEREIRO/2019
+
+    sab 2  - Ensaio e aniversário do Silvinho (casa da Giu)
+
+    sab 9  - Ensaio e aniversário da Camila (perto da 206. Teremos cortejo no final)
+
+    sex 15 - Tapera
+    sab 16 - Casamento na ponta do Lago norte
+
+    sab 23 - Ensaio e aniversário Cora
+    dom 24 - CCBB (que horas?)
+
+  MAR
+    2 - !!! SÁBADO DE CARNAVAL !!!
+    4 - !!! SEGUNDA DE CARNAVAL !!!
+</pre>
 
 ## Repertório
+
+  {% for tom in page.tons  %}
+  <a href='partituras/songbooks/songbook{{ tom }}.pdf' target='_blank'>Songboog em {{ tom }}</a><br/>
+  {% endfor %}
 
   <table>
 
@@ -694,6 +748,15 @@ blocos:
           <td>
             {{musica.nome}}
           </td>
+
+          {% if musica.inicio %}
+            <td colspan='2' style='font-size: 0.8em; color:#999 '>
+              {{ musica.autor }}
+            </td>
+            <td colspan='3' style='font-size: 0.8em; color:#999 '>
+              {{ musica.inicio }}...
+            </td>
+          {% endif %}
 
           {% for link in musica.links %}
             <td>
