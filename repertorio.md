@@ -704,15 +704,21 @@ tons:
 <pre>
   FEVEREIRO/2019
 
-    sab 2  - Ensaio e aniversário do Silvinho (casa da Giu)
+    ter 5  - Ensaio de noite
 
     sab 9  - Ensaio e aniversário da Camila (perto da 206. Teremos cortejo no final)
+    
+    ter 12 - Ensaio de noite
 
     sex 15 - Tapera
     sab 16 - Casamento na ponta do Lago norte
+    
+    ter 19 - Ensaio de noite
 
     sab 23 - Ensaio e aniversário Cora
     dom 24 - CCBB (que horas?)
+
+    ter 26 - Ensaio de noite
 
   MAR
     2 - !!! SÁBADO DE CARNAVAL !!!
