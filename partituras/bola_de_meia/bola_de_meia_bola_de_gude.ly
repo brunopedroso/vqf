@@ -161,7 +161,7 @@ letratoda = \lyricmode {
     \new Staff {
       \set Staff.instrumentName = "Canto"
       \context Staff <<
-        \context Voice = "melodia" { \transpose g e {\voiceOne \parteum \partedois }}
+        \context Voice = "melodia" { \transpose g e' {\voiceOne \parteum \partedois }}
       \addlyrics { \letratoda}
       >>
       
@@ -217,3 +217,40 @@ letratoda = \lyricmode {
   }
   }
 }
+
+#(set-global-staff-size 38)
+\book {
+  \bookOutputName "bola_de_meia_Eb_notas"
+   \header{
+  instrument = "Para instrumentos em Eb"
+  }
+  \score {
+  <<
+    \new TimeSig	\compassoseparado
+    \new Staff {
+           \accidentalStyle Score.dodecaphonic
+      \set Staff.instrumentName = "Canto"
+      \context Staff <<
+        \context Voice = "melodia" { 
+            \easyHeadsOn
+            \teeny
+						\transpose g e' {\voiceOne \parteum \partedois }}
+      \addlyrics { \letratoda}
+      >>
+      
+    }
+
+  >>
+  
+  \layout {
+             \apertacompasso
+    \context {
+      \Voice
+      \consists \Gravador_nome_notas
+    } 	
+}
+  }
+}
+
+
+

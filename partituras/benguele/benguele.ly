@@ -288,7 +288,7 @@ letratres = \lyricmode {
     <<
     \new Voice = "um" {
       \time 2/4
-      \transpose bes g {
+      \transpose bes g' {
         \intro
       }
     }
@@ -301,7 +301,7 @@ letratres = \lyricmode {
     <<
     \new Voice = "um" {
       \time 2/4
-      \transpose bes g {
+      \transpose bes g' {
         \parteum
       }
     }
@@ -317,7 +317,7 @@ letratres = \lyricmode {
     <<
     \new Voice = "um" {
       \time 2/4
-      \transpose bes g {
+      \transpose bes g' {
         \partedois
       }
     }
@@ -333,7 +333,7 @@ letratres = \lyricmode {
     <<
     \new Voice = "um" {
       \time 2/4
-      \transpose bes g {
+      \transpose bes g' {
         \partetres
       }
     }
