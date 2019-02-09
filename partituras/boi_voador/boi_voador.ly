@@ -28,6 +28,7 @@ intro = \relative c'' {
 }
 }
 
+
 parteum = \relative c'' {
   \break \marcaB
   g2  | a4 g8 g ~| g f e g ~| g f8 r4 | 
@@ -36,6 +37,8 @@ parteum = \relative c'' {
   c2 | g4 c8 bes~ |bes a g bes~ |bes a8 r4 |\break
   d2 | a4 d | c2 |
 }
+
+
 
 partedois = \relative c'' {
   b4 r8 \pulalinha 
@@ -79,6 +82,31 @@ Se -- gu -- ra_es -- se boi
 Proi -- bi -- do vo -- ar
 
 }
+
+acordesintro = \chordmode {
+    \key c \major
+	\time 2/4
+  \partial 4 c4 \marcaA
+  \repeat volta 2 {c2 | d:m | g:7 | 
+  c | a:7 | d:m | g:7 | c }
+}
+
+acordesum = \chordmode {
+  c2 | a:7 | d:m | d:m |
+  d:m | g:7 | c | c    |
+  c:7 | c:7 | f |  f  |
+  d:m | g:7  | c |  
+}
+acordesdois = \chordmode {
+  c2 | \time 6/8 {
+    \repeat volta 2 {
+      c4. | c | c | c |
+      g:7 | g:7 | c  | c |  
+    }
+  }
+}
+
+
 letratoda = \lyricmode {
   \letraintro
   \letraum
