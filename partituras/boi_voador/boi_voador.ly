@@ -106,6 +106,12 @@ acordesdois = \chordmode {
   }
 }
 
+acordetodo = {
+  \acordesintro
+  \acordesum
+  \acordesdois
+}
+
 
 letratoda = \lyricmode {
   \letraintro
@@ -238,6 +244,36 @@ letratoda = \lyricmode {
       \Voice
       \consists \Gravador_nome_notas
     }
+    }
+  }
+}
+
+#(set-global-staff-size 13)
+
+\book {
+  \bookOutputName "boi_voador_letra"
+  \header {
+     instrument = "Para Voz e cordas"
+  }
+  \score {
+    <<
+      \new TimeSig \compassoseparado
+      \new Staff {
+          \new Voice = "saxalto" {
+           \tempo 4 = 125 {
+             \new ChordNames {\acordetodo}
+            \intro
+            \parteum
+            \partedois
+          }
+         
+        }
+        \addlyrics \letratoda
+      }
+
+    >>
+    \layout{
+       \include "../imprimirsoletras.ly"
     }
   }
 }
