@@ -680,8 +680,8 @@ tons:
   - C
   - Bb
   - Eb
-  - Ebnotas
-
+  - Eb_notas
+  - letra
 ---
 
 
