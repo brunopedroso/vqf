@@ -290,6 +290,7 @@ blocos:
       - nome: 'Boi voador não pode (C)'
         links:
           'yt': 'https://www.youtube.com/watch?v=YMjtso8qZSI'
+          'letra': 'partituras/boi_voador/boi_voador_letra.pdf'
           'c': 'partituras/boi_voador/boi_voador_C.pdf'
           'bb': 'partituras/boi_voador/boi_voador_Bb.pdf'
           'eb': 'partituras/boi_voador/boi_voador_Eb.pdf'
