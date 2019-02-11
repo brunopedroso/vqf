@@ -13,7 +13,7 @@ parteum = \relative c'' {
 	\Segno
 	\repeat volta 2 {
 	  c8 g4. | r4 c8. bes16~ | bes8 f 
-	  \bar "" \break 
+	  \bar "marcha_da_cueca_letra" \break 
 	  bes bes | bes bes bes g | a a a g \bar "||"
 	}
 	\alternative {
@@ -26,11 +26,11 @@ partedois = \relative c'' {
   \mark \default
   r8 d8 d c | \repeat volta 2 {
     ees c4. | 
-  \bar "" \break
+  \bar "marcha_da_cueca_letra" \break
   r8 c c bes | d bes4. | 
-  \bar "" \break
+  \bar "marcha_da_cueca_letra" \break
   r8 bes a g | f f
-  \bar "" \break
+  \bar "marcha_da_cueca_letra" \break
   f f | g g a a | c bes4.^\markup{\italic{\large "Fine"}} \bar "||" \Coda
   }
   \alternative {
@@ -138,3 +138,27 @@ letratoda = {
 }
 
 \version "2.18.2" % necessary for upgrading to future LilyPond versions.
+#(set-global-staff-size 20)
+
+\book {
+  \bookOutputName "marcha_da_cueca_letra"
+  \header {
+     instrument = "Letra e Acordes"
+  }
+   \score {
+    <<
+       \new Staff  {
+          \new Voice = "letra" {
+               \intro
+             \parteum
+             \partedois
+           }
+      }
+  %           \new ChordNames 
+  %           \acordetodo
+             \new Lyrics
+             \lyricsto "letra" \letratoda
+    >>
+           \include "../imprimirsoletras.ly"
+  }
+}

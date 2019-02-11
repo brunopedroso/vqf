@@ -276,14 +276,14 @@ saxtenordois = \relative g' {
   \marcaB
   r8 b4 a16 gis16 | 
   e8 e8 cis8 e8 |
-  e4 \bar "" \break  b'8 a16 gis16 | 
+  e4 \bar "pedras_que_cantam_letra" \break  b'8 a16 gis16 | 
   e8 e8 cis8 e8 | 
-  e8 \bar "" \break b'8 a8 gis8 | 
+  e8 \bar "pedras_que_cantam_letra" \break b'8 a8 gis8 | 
   e8 e8 e8 gis8 | 
   fis8 e8 cis8 b8 | R2 | \break
   r4 b'8 a16 gis16 | 
   e8 e8 cis8 e8 | 
-  e8 e8 \bar "" \break b'8 a16 gis16 | 
+  e8 e8 \bar "pedras_que_cantam_letra" \break b'8 a16 gis16 | 
   e8 e8 cis16 e16 e16 e16 | \break
   r8 b'8 a8 gis8 | 
   e8 e8 cis8 gis'8 | 
@@ -957,3 +957,27 @@ melodiatoda = \relative c'' {
     }
     }
   }
+#(set-global-staff-size 20)
+
+\book {
+  \bookOutputName "pedras_que_cantam_letra"
+  \header {
+     instrument = "Letra e Acordes"
+  }
+   \score {
+    <<
+       \new Staff  {
+          \new Voice = "letra" {
+               \intro
+             \parteum
+             \partedois
+           }
+      }
+  %           \new ChordNames 
+  %           \acordetodo
+             \new Lyrics
+             \lyricsto "letra" \letratoda
+    >>
+           \include "../imprimirsoletras.ly"
+  }
+}

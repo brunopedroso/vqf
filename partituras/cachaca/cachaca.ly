@@ -20,21 +20,21 @@ voztoda = \relative c' {
 	r f8 | f f f g | f4 ees8 d~ | d2 |
 	\break
 	}
-	s2 \bar "" \break 
-	 \mark \default f8 f f f | f g f e | g f4. |r4. \bar "" \break
+	s2 \bar "cachaca_letra" \break 
+	 \mark \default f8 f f f | f g f e | g f4. |r4. \bar "cachaca_letra" \break
 	d8 | f4-> r8 d | f4-> r8 e | ees2 | r2
 	\break
 	ees8 ees ees ees | ees4 d8 f~ | f ees4. | r8
-	\bar "" \break
+	\bar "cachaca_letra" \break
 	f f f | f4 f8 g | f4 ees8 d~ | d2
-	\bar "" \break
+	\bar "cachaca_letra" \break
 
 	f8 f f f | f4 e8 g8~ | g f4. | r2 |
 	\break 
 	bes8 bes bes bes |bes4 a8 aes~ | aes g4. | r4
-	\bar "" \break
+	\bar "cachaca_letra" \break
 	g8 g | g4 a | bes a | g f | a f | g f |ees c | g'4. f8 | r4
-	\bar "" \break
+	\bar "cachaca_letra" \break
 	g8 g | g4 a | bes a | g f |
 	\break
 	a f | g f | ees c| bes bes \bar "|."
@@ -138,3 +138,27 @@ letradois = \lyricmode {
 }
 
 \version "2.18.2"  % necessary for upgrading to future LilyPond versions.
+'#(set-global-staff-size 20)
+
+\book {
+  \bookOutputName "cachaca_letra"
+  \header {
+     instrument = "Letra e Acordes"
+  }
+   \score {
+    <<
+       \new Staff  {
+          \new Voice = "letra" {
+               \intro
+             \parteum
+             \partedois
+           }
+      }
+  %           \new ChordNames 
+  %           \acordetodo
+             \new Lyrics
+             \lyricsto "letra" \letratoda
+    >>
+           \include "../imprimirsoletras.ly"
+  }
+}'

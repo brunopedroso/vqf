@@ -3,7 +3,7 @@
 
 \header{
   title = "As Pastorinhas"
-  composer = ""
+  composer = "pastorinhas_letra"
 }
 
 parteum = \relative c' {
@@ -47,13 +47,13 @@ letraum = \lyricmode {
 partedois = \relative c' {
   \key g \major
   r4 \mark \default b' | d b' | a4. g8~ | g4 
-  \bar "" \break
+  \bar "pastorinhas_letra" \break
   r8 b8 |  a g4 fis8 |  a g e e  | g4. fis8~ | fis2
   \break
   r4 d | e c' | b4. a8~ | a4
-  \bar "" \break
+  \bar "pastorinhas_letra" \break
   r8 c8 |  b2 | r8 a8 g fis | a g fis g  | b4 g | d8\staccato
-  \bar "" \break
+  \bar "pastorinhas_letra" \break
   r8 b4 d b' | a4. g8~ | g2 |  
   \break
   r8 g fis g | \tuplet 3/2 {d'4 b a} | a4. g8~ | g2 |
@@ -163,3 +163,27 @@ letratoda = {
 
 
 \version "2.18.2"  % necessary for upgrading to future LilyPond versions.
+#(set-global-staff-size 20)
+
+\book {
+  \bookOutputName "pastorinhas_letra"
+  \header {
+     instrument = "Letra e Acordes"
+  }
+   \score {
+    <<
+       \new Staff  {
+          \new Voice = "letra" {
+               \intro
+             \parteum
+             \partedois
+           }
+      }
+  %           \new ChordNames 
+  %           \acordetodo
+             \new Lyrics
+             \lyricsto "letra" \letratoda
+    >>
+           \include "../imprimirsoletras.ly"
+  }
+}

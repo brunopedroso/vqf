@@ -19,14 +19,14 @@ parteum =  \relative f' {
   \repeat volta 2 {
     \key bes \major \time 2/4 | 
     r16 \marcaA bes16 bes bes bes c8 d16 | r16 c16 
-    \bar "" \break bes16 a16 g16 f16 bes8 | 
-    r16 a16 \bar "" \break
+    \bar "pelo_telefone_letra" \break bes16 a16 g16 f16 bes8 | 
+    r16 a16 \bar "pelo_telefone_letra" \break
     g16 f16 a8. g16 | 
     es2 |
-    r8 \bar "" \break
+    r8 \bar "pelo_telefone_letra" \break
     c'16 c c d8 es16 | 
     r16 d16 c16 bes16 a16 g16 c8 | 
-    r16 bes16 \bar "" \break
+    r16 bes16 \bar "pelo_telefone_letra" \break
     a16 g16 f8. g16 | 
     f2 | \break
   }
@@ -51,7 +51,7 @@ partetres = \relative f' {
   r16 c,8 d16 es8 f8 | 
   r16 d8 es16 f8 g8 | 
   r16 c,8 d16 es8 f8 | 
-  bes,8 r8 r16 \bar "" \break
+  bes,8 r8 r16 \bar "pelo_telefone_letra" \break
 }
 
 partequatro = \relative f' {
@@ -59,42 +59,42 @@ partequatro = \relative f' {
   
   bes8 bes16 ~|
   bes16 bes8 bes16 g16 bes16 f8 ~ | 
-  f8 es8 r16 \bar "" \break
+  f8 es8 r16 \bar "pelo_telefone_letra" \break
   a8 a16 ~ | 
   a16 a8 a16 d,16 f16 c8 ~ | 
-  c16 bes8.  r16 \bar "" \break
+  c16 bes8.  r16 \bar "pelo_telefone_letra" \break
   g'8 g16 ~| 
   g16 g8 g16 g8. f16 | 
-  a8 a8 \bar "" \break
+  a8 a8 \bar "pelo_telefone_letra" \break
   a8 g8 | 
   f8 es8 d8 c8 | 
   bes4 r4 
 }
 partecinco = \relative c'' {
-  r8 \bar "" \break
+  r8 \bar "pelo_telefone_letra" \break
   \marcaE bes8 bes8 a8 
   \repeat volta 2 {
     | 
     g8. g16 c8. g16 | 
-    c8 \bar "" \break
+    c8 \bar "pelo_telefone_letra" \break
     bes8 ~ bes16 a8 g16 | 
     f8. f16 bes8. f16 | 
-    bes8 \bar "" \break 
+    bes8 \bar "pelo_telefone_letra" \break 
     a8 ~ a16 g8 f16 | 
     es8. es16 a8. es16 | 
-    a8 \bar "" \break 
+    a8 \bar "pelo_telefone_letra" \break 
     g8 ~ g16 f8 es16 | 
     d8. d16 g8. d16 | 
-    f8 \bar "" \break 
+    f8 \bar "pelo_telefone_letra" \break 
     bes8 a8 as8 | 
     g8. g16 c8. g16 | 
-    c8 \bar "" \break
+    c8 \bar "pelo_telefone_letra" \break
     es8 ~ es16 d8 c16 | 
     f,8. f16 bes8. f16 | 
-    bes8 \bar "" \break
+    bes8 \bar "pelo_telefone_letra" \break
     d8 ~ d16 c8 bes16 | 
     es,8. es16 a8. es16 | 
-    a8 \bar "" \break
+    a8 \bar "pelo_telefone_letra" \break
     g8 ~ g16 f8 a16 | 
     bes8 d,8 g8 f8
   }
@@ -228,5 +228,29 @@ letratoda = {
       }
     >>
     \layout {}
+  }
+}
+#(set-global-staff-size 20)
+
+\book {
+  \bookOutputName "pelo_telefone_letra"
+  \header {
+     instrument = "Letra e Acordes"
+  }
+   \score {
+    <<
+       \new Staff  {
+          \new Voice = "letra" {
+               \intro
+             \parteum
+             \partedois
+           }
+      }
+  %           \new ChordNames 
+  %           \acordetodo
+             \new Lyrics
+             \lyricsto "letra" \letratoda
+    >>
+           \include "../imprimirsoletras.ly"
   }
 }

@@ -22,7 +22,7 @@ parteum = \relative c' {
   \break
   
   r8 d ees d | c8. c16 ees8 d | c c d ees | f f4 
-  \bar "" \break
+  \bar "alalao_letra" \break
   
   d8 | d d ees d | c c ees d | c c d ees | f f4. |
   \break
@@ -46,22 +46,22 @@ letraum = \lyricmode {
 partedois = \relative c' {
    r4  \mark \default d4 | f f | d bes | g4 g |   
   
-  \bar "" \break
+  \bar "alalao_letra" \break
   
   r8 d' c bes | c8. d16 c8 bes | c d c bes | d4->
   
-  \bar "" \break
+  \bar "alalao_letra" \break
   
   r8 f | f4 r8 f | f4 r8 f | f d c bes | d4 r | r2 
-  \bar "" \break
+  \bar "alalao_letra" \break
   
   bes4 f8 bes8~ | bes f bes f | bes2 | r 
   
-  \bar "" \break
+  \bar "alalao_letra" \break
   
   d4 bes8 d8~ | d bes d bes | d2 | r4 
   
-  \bar "" \break
+  \bar "alalao_letra" \break
   
   d | f2 | r8 g f d | bes2 | 
   
@@ -96,7 +96,7 @@ letratoda = {
 	  \new Voice = "saxalto" {
 	    \transpose bes g' {
 	      \parteum
-	      \skip 256 \bar "" \break 
+	      \skip 256 \bar "alalao_letra" \break 
 	      \partedois
 	    }
 	  }
@@ -118,7 +118,7 @@ letratoda = {
 	\new Staff {
 	  \new Voice = "tromboneC" {
 	    \parteum
-	    \skip 256 \bar "" \break 
+	    \skip 256 \bar "alalao_letra" \break 
 	    \partedois
 	  }
 	\addlyrics {\letratoda}
@@ -145,7 +145,7 @@ letratoda = {
 	\new Staff {
 	  \new Voice = "saxalto" {
 	    \transpose bes c' {
-	      \parteum\skip 256 \bar "" \break 
+	      \parteum\skip 256 \bar "alalao_letra" \break 
 	      \partedois
 	    }
 	  }
@@ -170,7 +170,7 @@ letratoda = {
             \easyHeadsOn
             \teeny
 	      \parteum
-	      \skip 256 \bar "" \break 
+	      \skip 256 \bar "alalao_letra" \break 
 	      \partedois
 	    }
 	  }
@@ -191,4 +191,27 @@ letratoda = {
 }
 
   
-\version "2.18.2"  
+\version "2.18.2"  '#(set-global-staff-size 20)
+
+\book {
+  \bookOutputName "alalao_letra"
+  \header {
+     instrument = "Letra e Acordes"
+  }
+   \score {
+    <<
+       \new Staff  {
+          \new Voice = "letra" {
+               \intro
+             \parteum
+             \partedois
+           }
+      }
+  %           \new ChordNames 
+  %           \acordetodo
+             \new Lyrics
+             \lyricsto "letra" \letratoda
+    >>
+           \include "../imprimirsoletras.ly"
+  }
+}'

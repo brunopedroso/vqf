@@ -25,13 +25,13 @@ parteum = \relative c' {
 	\break
 
 	bes8 bes a g | f8. f16 f8 f | f f d ees | f4 g4 | r8 
-	\bar "" \break
+	\bar "turma_do_funil_letra" \break
 
 	bes a g | fis4 fis8 fis | fis fis g a | bes4 g  |
 	\break
 
 	g8 bes g bes | d d a8 d | d c bes a | a g r4 | r4 
-	\bar "" \break
+	\bar "turma_do_funil_letra" \break
 
 }
 
@@ -49,16 +49,16 @@ letraum = \lyricmode {
 partedois = \relative c' {
   
    \mark \default bes'a fis | r8 fis g a | bes4 g | r8
-	\bar "" \break
+	\bar "turma_do_funil_letra" \break
 
 	bes a g | fis fis fis fis | fis fis g a | c2 | b4 r8
-	\bar "" \break
+	\bar "turma_do_funil_letra" \break
 
 	b c c c bes a a   r 
-	\bar "" \break
+	\bar "turma_do_funil_letra" \break
 
 	bes g bes g bes | d4-> r8
-	\bar "" \break
+	\bar "turma_do_funil_letra" \break
 
 	d | d ees d c | bes c bes a | g4\fermata s8..... \bar "|."
 
@@ -94,7 +94,7 @@ letratoda = {
 	  \new Voice = "saxalto" {
 	    \transpose bes d' {
 	      \parteum
-	      \skip 256 \bar "" \break
+	      \skip 256 \bar "turma_do_funil_letra" \break
 	      \partedois
 	    }
 	  }
@@ -117,7 +117,7 @@ letratoda = {
 	  \new Voice = "trombone" {
 	    \transpose bes f {
 	      \parteum
-	      \skip 256 \bar "" \break
+	      \skip 256 \bar "turma_do_funil_letra" \break
 	      \partedois
 	    }
 	  }
@@ -147,7 +147,7 @@ letratoda = {
 	  \new Voice = "trompete" {
 	    \transpose bes g {
 	      \parteum
-	      \skip 256 \bar "" \break
+	      \skip 256 \bar "turma_do_funil_letra" \break
 	      \partedois
 	    }
 	  }
@@ -175,7 +175,7 @@ letratoda = {
 	      \easyHeadsOn
 	      \teeny
 	      \parteum
-	      \skip 256 \bar "" \break
+	      \skip 256 \bar "turma_do_funil_letra" \break
 	      \partedois
 	    }
 	  }
@@ -196,3 +196,27 @@ letratoda = {
 }
 
 \version "2.18.2"  % necessary for upgrading to future LilyPond versions.
+#(set-global-staff-size 20)
+
+\book {
+  \bookOutputName "turma_do_funil_letra"
+  \header {
+     instrument = "Letra e Acordes"
+  }
+   \score {
+    <<
+       \new Staff  {
+          \new Voice = "letra" {
+               \intro
+             \parteum
+             \partedois
+           }
+      }
+  %           \new ChordNames 
+  %           \acordetodo
+             \new Lyrics
+             \lyricsto "letra" \letratoda
+    >>
+           \include "../imprimirsoletras.ly"
+  }
+}

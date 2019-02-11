@@ -10,7 +10,7 @@
 
 
 minhajangada = \relative c' {
-  d'8 f g | a g f e d4 a' | g2 \bar "" \break
+  d'8 f g | a g f e d4 a' | g2 \bar "marcha_dos_pescadores_letra" \break
 }
 
 parteum = \relative c' {
@@ -20,11 +20,11 @@ parteum = \relative c' {
   	\partial 2
   	r8 \mark \default
   	\minhajangada
-  	r8 f' a8. g16 | f2 r8 e g8. f16 | e2 \bar "" \break
+  	r8 f' a8. g16 | f2 r8 e g8. f16 | e2 \bar "marcha_dos_pescadores_letra" \break
   	r8 \minhajangada
-  	r8 bes' d8. c16 | bes2 r8 a c8. bes16 | a2 \bar "" \break
-  	r8 d, f g | a g f e d4 a' | g2 \bar "" \break
-  	r8 f a g | f e g f e4 f | d2 r4 \bar "" \break
+  	r8 bes' d8. c16 | bes2 r8 a c8. bes16 | a2 \bar "marcha_dos_pescadores_letra" \break
+  	r8 d, f g | a g f e d4 a' | g2 \bar "marcha_dos_pescadores_letra" \break
+  	r8 f a g | f e g f e4 f | d2 r4 \bar "marcha_dos_pescadores_letra" \break
   	
 
 }
@@ -48,11 +48,11 @@ letraum = \lyricmode {
 partedois = \relative c' {
 
 	\mark \default 
-	a''| c2. bes4 | e,2 r4 \bar "" \break
-	g8 a | \tuplet 5/4 {bes4 a c bes g } | a2 r4 \bar "" \break
-	f8 g | a4 g bes a | g4 g8 f e[ e] \bar "" \break
-	e f | g4 a f e | d2 r4 \bar "" \break
-	f8 g | a4 g bes a | g4 g8 f e[ e] \bar "" \break
+	a''| c2. bes4 | e,2 r4 \bar "marcha_dos_pescadores_letra" \break
+	g8 a | \tuplet 5/4 {bes4 a c bes g } | a2 r4 \bar "marcha_dos_pescadores_letra" \break
+	f8 g | a4 g bes a | g4 g8 f e[ e] \bar "marcha_dos_pescadores_letra" \break
+	e f | g4 a f e | d2 r4 \bar "marcha_dos_pescadores_letra" \break
+	f8 g | a4 g bes a | g4 g8 f e[ e] \bar "marcha_dos_pescadores_letra" \break
 	e f | g4 a f e | d2\fermata r \bar "|."
 
 
@@ -88,7 +88,7 @@ letratoda = \lyricmode {
 	      \set midiInstrument = #"alto sax"
 	      \transpose bes g {
 			\parteum
-			\skip 256 \bar "" \break 
+			\skip 256 \bar "marcha_dos_pescadores_letra" \break 
 			\partedois
 		}
 	    }
@@ -111,7 +111,7 @@ letratoda = \lyricmode {
       \new Voice = "trombone" {
         \oneVoice
         \parteum
-        \skip 256 \bar "" \break 
+        \skip 256 \bar "marcha_dos_pescadores_letra" \break 
         \partedois
         }
 	\addlyrics { \letratoda}  
@@ -134,7 +134,7 @@ letratoda = \lyricmode {
         \oneVoice
         \transpose f g, {
         \parteum
-        \skip 256 \bar "" \break 
+        \skip 256 \bar "marcha_dos_pescadores_letra" \break 
         \partedois
         }
         \addlyrics {
@@ -153,7 +153,7 @@ letratoda = \lyricmode {
       \new Voice = "melodia" {
         \oneVoice
         \parteum
-        \skip 256 \bar "" \break 
+        \skip 256 \bar "marcha_dos_pescadores_letra" \break 
         \partedois
       }
     >>
@@ -208,3 +208,27 @@ letratoda = \lyricmode {
 }
 
 \version "2.18.2"  % necessary for upgrading to future LilyPond versions.
+#(set-global-staff-size 20)
+
+\book {
+  \bookOutputName "marcha_dos_pescadores_letra"
+  \header {
+     instrument = "Letra e Acordes"
+  }
+   \score {
+    <<
+       \new Staff  {
+          \new Voice = "letra" {
+               \intro
+             \parteum
+             \partedois
+           }
+      }
+  %           \new ChordNames 
+  %           \acordetodo
+             \new Lyrics
+             \lyricsto "letra" \letratoda
+    >>
+           \include "../imprimirsoletras.ly"
+  }
+}

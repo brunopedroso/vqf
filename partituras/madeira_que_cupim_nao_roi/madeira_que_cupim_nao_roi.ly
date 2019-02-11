@@ -28,14 +28,14 @@ DSCoda = {
       \stopStaff
       \repeat unfold 1 {
           s1
-          \bar ""
+          \bar "madeira_que_cupim_nao_roi_letra"
         }
     \once \override TextScript.extra-offset = #'( 0 . -3.0 )
         \once \override TextScript.word-space = #1.5
         <>^\markup { \center-column { "Ao " \musicglyph #"scripts.segno" "e " \line { \center-column {\musicglyph #"scripts.coda" }} } }
          \repeat unfold 3 {
           s1
-          \bar ""
+          \bar "madeira_que_cupim_nao_roi_letra"
         }
         % Resume bar count and show staff lines again
      \startStaff
@@ -505,4 +505,27 @@ letra = \lyricmode {
     }
     }
  }
+}#(set-global-staff-size 20)
+
+\book {
+  \bookOutputName "madeira_que_cupim_nao_roi_letra"
+  \header {
+     instrument = "Letra e Acordes"
+  }
+   \score {
+    <<
+       \new Staff  {
+          \new Voice = "letra" {
+               \intro
+             \parteum
+             \partedois
+           }
+      }
+  %           \new ChordNames 
+  %           \acordetodo
+             \new Lyrics
+             \lyricsto "letra" \letratoda
+    >>
+           \include "../imprimirsoletras.ly"
+  }
 }

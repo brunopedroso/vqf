@@ -137,7 +137,7 @@ letratoda = \lyricmode {
           \tempo 4 = 125 {
             \intro
             \parteum
-%             \skip 256 \bar "" \break
+%             \skip 256 \bar "boi_voador_letra" \break
             \partedois
           }
         }
@@ -158,7 +158,7 @@ letratoda = \lyricmode {
             \unfoldRepeats {
               \intro
               \parteum
-%             \skip 256 \bar "" \break
+%             \skip 256 \bar "boi_voador_letra" \break
               \partedois
             }
           }
@@ -182,7 +182,7 @@ letratoda = \lyricmode {
           \transpose c a {
             \intro
             \parteum
-%             \skip 256 \bar "" \break
+%             \skip 256 \bar "boi_voador_letra" \break
             \partedois
           }
         }

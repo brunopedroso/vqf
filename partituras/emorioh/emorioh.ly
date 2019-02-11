@@ -34,10 +34,10 @@ letraum = \lyricmode {
 
 
 partedois = \relative c' {
-   \repeat volta 2 { r2 r8. \bar "" \break \mark \default d16 f g8 a16~ |
-   a16 a8 g16 a4 r8. \bar "" \break d,16 f a8 g16~|
-   g16 g8 f16 g8 r4. \bar "" \break d16 f a8 g16~|
-   g16 g8 f16 g8 r4. \bar "" \break f16 d c8 d16~ |
+   \repeat volta 2 { r2 r8. \bar "emorioh_letra" \break \mark \default d16 f g8 a16~ |
+   a16 a8 g16 a4 r8. \bar "emorioh_letra" \break d,16 f a8 g16~|
+   g16 g8 f16 g8 r4. \bar "emorioh_letra" \break d16 f a8 g16~|
+   g16 g8 f16 g8 r4. \bar "emorioh_letra" \break f16 d c8 d16~ |
    }
    \alternative {
      {d2 r }
@@ -73,7 +73,7 @@ letratoda = {
 	  \new Voice = "saxalto" {
 	    \transpose bes g' {
 	      \parteum
-	      \skip 256 \bar "" \break 
+	      \skip 256 \bar "emorioh_letra" \break 
 	      \partedois
 	    }
 	  }
@@ -95,7 +95,7 @@ letratoda = {
 	\new Staff {
 	  \new Voice = "tromboneC" {
 	    \parteum
-	    \skip 256 \bar "" \break 
+	    \skip 256 \bar "emorioh_letra" \break 
 	    \partedois
 	  }
 	\addlyrics {\letratoda}
@@ -122,7 +122,7 @@ letratoda = {
 	\new Staff {
 	  \new Voice = "saxalto" {
 	    \transpose bes c' {
-	      \parteum\skip 256 \bar "" \break 
+	      \parteum\skip 256 \bar "emorioh_letra" \break 
 	      \partedois
 	    }
 	  }
@@ -150,7 +150,7 @@ letratoda = {
 	      \easyHeadsOn
 	      \teeny
 	      \parteum
-	      \skip 256 \bar "" \break 
+	      \skip 256 \bar "emorioh_letra" \break 
 	      \partedois
 	    }
 	  }
@@ -170,4 +170,27 @@ letratoda = {
     }
   }
 }
-\version "2.18.2"  
+\version "2.18.2"  #(set-global-staff-size 20)
+
+\book {
+  \bookOutputName "emorioh_letra"
+  \header {
+     instrument = "Letra e Acordes"
+  }
+   \score {
+    <<
+       \new Staff  {
+          \new Voice = "letra" {
+               \intro
+             \parteum
+             \partedois
+           }
+      }
+  %           \new ChordNames 
+  %           \acordetodo
+             \new Lyrics
+             \lyricsto "letra" \letratoda
+    >>
+           \include "../imprimirsoletras.ly"
+  }
+}

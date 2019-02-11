@@ -222,7 +222,7 @@ parteumtubaLyricsOne =  \lyricmode { \letratoda }
           \transpose c c {
              \intro
             \parteum
-%             \skip 256 \bar "" 
+%             \skip 256 \bar "festa_do_interior_letra" 
              \partedois
           }
         }
@@ -242,7 +242,7 @@ parteumtubaLyricsOne =  \lyricmode { \letratoda }
           \transpose c c {
              \intro
             \parteum
-%             \skip 256 \bar "" 
+%             \skip 256 \bar "festa_do_interior_letra" 
              \partedois
           }
         }
@@ -267,7 +267,7 @@ parteumtubaLyricsOne =  \lyricmode { \letratoda }
           \transpose c d {
              \intro
             \parteum
-%             \skip 256 \bar "" 
+%             \skip 256 \bar "festa_do_interior_letra" 
              \partedois
           }
         }
@@ -293,7 +293,7 @@ parteumtubaLyricsOne =  \lyricmode { \letratoda }
           \transpose c a {
              \intro
             \parteum
-%             \skip 256 \bar "" 
+%             \skip 256 \bar "festa_do_interior_letra" 
              \partedois
           }
         }
@@ -319,7 +319,7 @@ parteumtubaLyricsOne =  \lyricmode { \letratoda }
           \transpose c d {
              \introtuba
             \parteumtuba
-%             \skip 256 \bar "" 
+%             \skip 256 \bar "festa_do_interior_letra" 
               \partedoistuba
           }
         }
@@ -362,5 +362,28 @@ parteumtubaLyricsOne =  \lyricmode { \letratoda }
       \consists \Gravador_nome_notas
     }
     }
+  }
+}#(set-global-staff-size 20)
+
+\book {
+  \bookOutputName "festa_do_interior_letra"
+  \header {
+     instrument = "Letra e Acordes"
+  }
+   \score {
+    <<
+       \new Staff  {
+          \new Voice = "letra" {
+               \intro
+             \parteum
+             \partedois
+           }
+      }
+  %           \new ChordNames 
+  %           \acordetodo
+             \new Lyrics
+             \lyricsto "letra" \letratoda
+    >>
+           \include "../imprimirsoletras.ly"
   }
 }
