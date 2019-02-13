@@ -111,5 +111,21 @@ tons:
 
   </table>
 
+####  VÍDEOS TAMBORINS ENSAIO 10/02
+
+[Treino Marchinha (1)](https://youtu.be/q1Ac5wB05eY)
+
+
+[Treino Marchinha (2)](https://youtu.be/qX5AbzGiJSc)
+
+
+[Afoxé A Rã (Bloco dos Afoxés)](https://youtu.be/FqPNEDHpnWc)
+
+
+[Treino várias batidas](https://youtu.be/YC3c9CTcyLk)
+
+
+[Treino de munheca](https://youtu.be/ncaB95APCnE)
+
 
 
