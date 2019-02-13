@@ -768,7 +768,7 @@ tons:
 </pre>
 
 ## Playlist de versões das músicas
-<iframe style="width: 630px; height: 75px;" scrolling="no" src="https://midia.borges.net.br:9093/share.php?id=2&amp;secret=vqf2019carnaval&amp;embed=true"></iframe>
+<iframe style="width: 630px; height: 90px;" scrolling="no" src="https://midia.borges.net.br:9093/share.php?id=2&amp;secret=vqf2019carnaval&amp;embed=true"></iframe>
 
 ## Repertório
 
