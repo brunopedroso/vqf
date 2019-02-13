@@ -78,7 +78,7 @@ letratoda = {
         \new Voice = "saxalto" {
           \transpose sol sol {
             \parteum
-%             \skip 256 \bar "" \break
+%             \skip 256 \bar "moliendo_cafe_letra" \break
             \partedois
           }
         }
@@ -106,7 +106,7 @@ letratoda = {
         \new Voice = "trombone" {
           \transpose mi sol' {
             \parteum
-%             \skip 256 \bar "" \break
+%             \skip 256 \bar "moliendo_cafe_letra" \break
             \partedois
           }
         }
@@ -137,7 +137,7 @@ letratoda = {
         \new Voice = "trompete" {
           \transpose sol do' {
             \parteum
-%             \skip 256 \bar "" \break
+%             \skip 256 \bar "moliendo_cafe_letra" \break
             \partedois
           }
         }
@@ -170,7 +170,7 @@ letratoda = {
             \easyHeadsOn
             \teeny
             \parteum
-%             \skip 256 \bar "" \pulalinha
+%             \skip 256 \bar "moliendo_cafe_letra" \pulalinha
             \partedois
           }
         }
@@ -190,3 +190,27 @@ letratoda = {
 }
 }
 \version "2.18.2"  % necessary for upgrading to future LilyPond versions.
+#(set-global-staff-size 20)
+
+\book {
+  \bookOutputName "moliendo_cafe_letra"
+  \header {
+     instrument = "Letra e Acordes"
+  }
+   \score {
+    <<
+       \new Staff  {
+          \new Voice = "letra" {
+               \intro
+             \parteum
+             \partedois
+           }
+      }
+  %           \new ChordNames 
+  %           \acordetodo
+             \new Lyrics
+             \lyricsto "letra" \letratoda
+    >>
+           \include "../imprimirsoletras.ly"
+  }
+}

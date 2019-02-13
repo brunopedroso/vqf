@@ -19,30 +19,30 @@ parteum = \transpose g c {
     \times 2/3  {
       \mark \default b8 \mf -. b8 ( -. b8 ) -.
     }
-    b2 \bar "" \break b4 | % 6
-    c8 d8 ( e8 ) e2 \bar "" \break
+    b2 \bar "fool_on_the_hill_letra" \break b4 | % 6
+    c8 d8 ( e8 ) e2 \bar "fool_on_the_hill_letra" \break
     c8 | % 7
-    d8 e16 ( -. fis16 ) -. g8 g8 g8 \bar "" \break
+    d8 e16 ( -. fis16 ) -. g8 g8 g8 \bar "fool_on_the_hill_letra" \break
     g8 fis8 d8 | % 8
     \once \override TupletBracket #'stencil = ##f
     \times 2/3  {
       e8 ( a8 ) a8
     }
-    a2 \bar "" \break d,4 | % 9
+    a2 \bar "fool_on_the_hill_letra" \break d,4 | % 9
     \once \override TupletBracket #'stencil = ##f
     \times 2/3  {
       e8 ( a8 ) a8
     }
-    a8 g8 b8 a4 \bar "" \break
+    a8 g8 b8 a4 \bar "fool_on_the_hill_letra" \break
     e16 d16 | \barNumberCheck #7
-    e8 g8 g8 e8 g8 ( e4 ) \bar "" \break
+    e8 g8 g8 e8 g8 ( e4 ) \bar "fool_on_the_hill_letra" \break
     d8 | % 11
     \once \override TupletBracket #'stencil = ##f
     \times 2/3  {
       e8 ( a8 ) g8
     }
-    a8 g8 a8 ( b8 )  \bar "" \break 
-    \skip 256 \bar "" \break
+    a8 g8 a8 ( b8 )  \bar "fool_on_the_hill_letra" \break 
+    \skip 256 \bar "fool_on_the_hill_letra" \break
     \mark \default  g8 ( e8 ) | % 12
 }
 }
@@ -60,11 +60,11 @@ But he_ne ver gives an_an swer
 
 partedois = \transpose g c {
   \relative g'' {
-    \key bes \major g8 ( d8 ) es8 ( c8 ) d4 \bar "" \break
+    \key bes \major g8 ( d8 ) es8 ( c8 ) d4 \bar "fool_on_the_hill_letra" \break
     c8 ( d8 ) | % 13
-    es4 d8 ( c8 ) c4 \bar "" \break
+    es4 d8 ( c8 ) c4 \bar "fool_on_the_hill_letra" \break
     d8 ( es8 ) | % 14
-    f4 es8 ( d8 ) es4 \bar "" \break
+    f4 es8 ( d8 ) es4 \bar "fool_on_the_hill_letra" \break
     f8 ( g8 ) | % 15
     a4 bes8 ( a8 ) g2 % 16
   \bar "|." 
@@ -122,7 +122,7 @@ letratoda = {
 	  \new Voice = "saxalto" {
 	    \transpose bes g' {
 	      \parteum
-%  	      \skip 256 \bar "" \break 
+%  	      \skip 256 \bar "fool_on_the_hill_letra" \break 
 	      \partedois
 	    }
 	  }
@@ -144,7 +144,7 @@ letratoda = {
 	\new Staff {
 	  \new Voice = "tromboneC" {
 	    \parteum
-% 	    \skip 256 \bar "" \break 
+% 	    \skip 256 \bar "fool_on_the_hill_letra" \break 
 	    \partedois
 	  }
 	\addlyrics {\letratoda}
@@ -172,7 +172,7 @@ letratoda = {
 	  \new Voice = "saxtenor" {
 	    \transpose bes c' {
   	      \parteum
-%   	      \skip 256 \bar "" \break 
+%   	      \skip 256 \bar "fool_on_the_hill_letra" \break 
 	      \partedois
 	    }
 	  }
@@ -200,7 +200,7 @@ letratoda = {
 	      \easyHeadsOn
 	      \teeny
 	      \parteum
-%  	      \skip 256 \bar "" \break 
+%  	      \skip 256 \bar "fool_on_the_hill_letra" \break 
 	      \partedois
 	    }
 	  }
@@ -218,3 +218,27 @@ letratoda = {
 
 
 \version "2.18.2"  
+#(set-global-staff-size 20)
+
+\book {
+  \bookOutputName "fool_on_the_hill_letra"
+  \header {
+     instrument = "Letra e Acordes"
+  }
+   \score {
+    <<
+       \new Staff  {
+          \new Voice = "letra" {
+               \intro
+             \parteum
+             \partedois
+           }
+      }
+  %           \new ChordNames 
+  %           \acordetodo
+             \new Lyrics
+             \lyricsto "letra" \letratoda
+    >>
+           \include "../imprimirsoletras.ly"
+  }
+}

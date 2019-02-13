@@ -257,12 +257,12 @@ letratoda = \lyricmode {
       \new TimeSig \compassoseparado
       \new Staff {
         \new Voice = "saxalto" {
-            \transpose e a {
+            \transpose g c {
         \tempo 4 = 125 {
 
 %             \intro
             \parteum
-%             \skip 256 \bar "" \break
+%             \skip 256 \bar "feira_de_mangaio_letra" \break
              \partedois
             }
           }
@@ -280,14 +280,16 @@ letratoda = \lyricmode {
       \new Staff {
 %				\trackB
         \new Voice = "saxalto" {
+          \transpose g c {
           \tempo 4 = 125 {
             \unfoldRepeats {
 %               \intro
               \parteum
-%             \skip 256 \bar "" \break
+%             \skip 256 \bar "feira_de_mangaio_letra" \break
                \partedois
             }
           }
+        }
         }
        }
     >>
@@ -305,10 +307,10 @@ letratoda = \lyricmode {
       \new TimeSig \compassoseparado
       \new Staff {
         \new Voice = "saxalto" {
-          \transpose c a {
+          \transpose g a {
 %             \intro
             \parteum
-%             \skip 256 \bar "" \break
+%             \skip 256 \bar "feira_de_mangaio_letra" \break
             \partedois
           }
         }
@@ -330,10 +332,10 @@ letratoda = \lyricmode {
       \new TimeSig \compassoseparado
       \new Staff {
         \new Voice = "trombone" {
-          \transpose c d {
+          \transpose g d {
 %             \intro
             \parteum
-%             \skip 256 \bar "" \break
+%             \skip 256 \bar "feira_de_mangaio_letra" \break
             \partedois
           }
         }
@@ -360,7 +362,7 @@ letratoda = \lyricmode {
         \new Voice = "saxalto" {
           \easyHeadsOn
           \teeny
-          \transpose c a {
+          \transpose g a {
 %             \intro
             \parteum
             \partedois
@@ -376,5 +378,29 @@ letratoda = \lyricmode {
       \consists \Gravador_nome_notas
     }
     }
+  }
+}
+#(set-global-staff-size 20)
+
+\book {
+  \bookOutputName "feira_de_mangaio_letra"
+  \header {
+     instrument = "Letra e Acordes"
+  }
+   \score {
+    <<
+       \new Staff  {
+          \new Voice = "letra" {
+               \intro
+             \parteum
+             \partedois
+           }
+      }
+  %           \new ChordNames 
+  %           \acordetodo
+             \new Lyrics
+             \lyricsto "letra" \letratoda
+    >>
+           \include "../imprimirsoletras.ly"
   }
 }

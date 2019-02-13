@@ -12,31 +12,31 @@ parteum = \relative c' {
 	\repeat volta 2 {
 
  	\partial 4 {d4 \mark \default } | e f | e d8 a8 ~ | a2 | r4
-	\bar "" \break 
+	\bar "bandeira_branca_letra" \break 
 	d4 | e f | g2 ~ | g2 | r4
 	
-	\bar "" \break
+	\bar "bandeira_branca_letra" \break
 	g4 | f e | bes' a |
 	\break
 	f d | a' g | f e | d2 ~ | d
 	
 	}
 	r4.
-	\bar "" \break
+	\bar "bandeira_branca_letra" \break
 
 }
 
 partedois = \relative c' {
         f8 | f f f g | f8 e8 ~ e8 bes'8 ~ | bes2 | r4.
  	
- 	\bar "" \break
+ 	\bar "bandeira_branca_letra" \break
 	
 	e,8 | e e e f | e8 d8 ~ d8 a'8 ~ | a2 | r4
 	
-	\bar "" \break
+	\bar "bandeira_branca_letra" \break
 
 	a, | d a8 bes~ |bes4 
-	\bar "" \break
+	\bar "bandeira_branca_letra" \break
 	d4 e f a g
 	 e f8 d~ |d2
 	
@@ -132,3 +132,27 @@ letratoda = {
 }
 
 \version "2.18.2" % necessary for upgrading to future LilyPond versions.
+'#(set-global-staff-size 20)
+
+\book {
+  \bookOutputName "bandeira_branca_letra"
+  \header {
+     instrument = "Letra e Acordes"
+  }
+   \score {
+    <<
+       \new Staff  {
+          \new Voice = "letra" {
+               \intro
+             \parteum
+             \partedois
+           }
+      }
+  %           \new ChordNames 
+  %           \acordetodo
+             \new Lyrics
+             \lyricsto "letra" \letratoda
+    >>
+           \include "../imprimirsoletras.ly"
+  }
+}'

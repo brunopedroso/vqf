@@ -14,9 +14,9 @@ parteum = \relative c' {
 	\partial 4 { d'8 \mark \default c} | d8. f,  f8 ~| f ees' d c |  d8. f, r8 | r2 | 
 	\break
 	f8 d' c bes |   fis d' c bes |  d8. g, r8 | r4
-	\bar "" \break
+	\bar "mascara_negra_letra" \break
 	c8 d | ees ees ees ees |  f ees d c  | d d ees e |  f8 f r8 
-	\bar "" \break
+	\bar "mascara_negra_letra" \break
 	d | \tuplet 3/2 {f4 ees c } | g4 a | bes2 | r2 |
 	\break
 }
@@ -37,35 +37,35 @@ partedois = \relative c'' {
    \repeat volta 2 {
   \tuplet 3/2 {d4 ees f} |  \tuplet 3/2 {bes, c d } | \tuplet 3/2 {ees 
                                                                                   
-%  \bar "" \break  
+%  \bar "mascara_negra_letra" \break  
   
   f g } | \tuplet 3/2 { c, d ees } |  \tuplet 3/2 { f g 
-  \bar "" \break 
+  \bar "mascara_negra_letra" \break 
   a } | \tuplet 3/2 { f g a }
   }
   \alternative {
     { \tuplet 3/2 { c bes a } |  bes2
   
-  \bar "" \break
+  \bar "mascara_negra_letra" \break
   
   \tuplet 3/2 { c4 bes a } | \tuplet 3/2 { g a bes} | f2 | r8
-  %\bar "" \break
+  %\bar "mascara_negra_letra" \break
   g8 g a | ees2 | r8 f f g |  \tuplet 3/2 { d4 c bes} |   c2
-  \bar "" \break }
+  \bar "mascara_negra_letra" \break }
     {
       \tuplet 3/2 {c'4 bes a} |   aes4 g }
   }
-  \bar "" \break 
+  \bar "mascara_negra_letra" \break 
   \repeat volta 2 {
   r c8 d  |  ees4 f8 d~ | d c 
-  %\bar "" \break 
+  %\bar "mascara_negra_letra" \break 
   bes c | d4 ees8 c8~ | 
-  \bar "" \break 
+  \bar "mascara_negra_letra" \break 
   c4 a8  bes | 
   }
   \alternative {
     {c4 d8 b8 ~ | b2 | r2
-    \bar "" \break 
+    \bar "mascara_negra_letra" \break 
     }
     {c4 d8 bes8~ | bes2 | r2 }
   }
@@ -122,7 +122,7 @@ partedoisclarinete = {
         \new Voice = "trompete" {
           \transpose bes g {
             \parteum
-            \skip 256 \bar "" \break
+            \skip 256 \bar "mascara_negra_letra" \break
             \unfoldRepeats
             \partedoisclarinete
 		}
@@ -146,7 +146,7 @@ partedoisclarinete = {
         \new Voice = "trombone" {
           \transpose bes f {
             \parteum
-            \skip 256 \bar "" \break
+            \skip 256 \bar "mascara_negra_letra" \break
             \unfoldRepeats
             \partedois
 		}
@@ -172,7 +172,7 @@ partedoisclarinete = {
         \new Voice = "saxalto" {
           \transpose bes d {
             \parteumsaxalto
-            \skip 256 \bar "" \break
+            \skip 256 \bar "mascara_negra_letra" \break
             \unfoldRepeats
             \partedois
 		}
@@ -201,7 +201,7 @@ partedoisclarinete = {
             \easyHeadsOn
             \teeny
             \parteumsaxalto
-%             \skip 256 \bar "" \pulalinha
+%             \skip 256 \bar "mascara_negra_letra" \pulalinha
             \partedois
           }
         }
@@ -223,3 +223,27 @@ partedoisclarinete = {
 
 
 \version "2.18.2"  % necessary for upgrading to future LilyPond versions.
+#(set-global-staff-size 20)
+
+\book {
+  \bookOutputName "mascara_negra_letra"
+  \header {
+     instrument = "Letra e Acordes"
+  }
+   \score {
+    <<
+       \new Staff  {
+          \new Voice = "letra" {
+               \intro
+             \parteum
+             \partedois
+           }
+      }
+  %           \new ChordNames 
+  %           \acordetodo
+             \new Lyrics
+             \lyricsto "letra" \letratoda
+    >>
+           \include "../imprimirsoletras.ly"
+  }
+}

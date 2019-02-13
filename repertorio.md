@@ -12,6 +12,7 @@ blocos:
           'bb': 'partituras/mascara_negra/mascara_negra_Bb.pdf'
           'eb': 'partituras/mascara_negra/mascara_negra_Eb.pdf'
           'ebnotas': 'partituras/mascara_negra/mascara_negra_Eb_notas.pdf'
+          'letra': 'partituras/mascara_negra/mascara_negra_letra.pdf'
 
       - nome: 'Circo (F)'
         links:
@@ -20,13 +21,14 @@ blocos:
           'bb': 'partituras/circo/circo_Bb.pdf'
           'eb': 'partituras/circo/circo_Eb.pdf'
           'ebnotas': 'partituras/circo/circo_Eb_notas.pdf'
+          'letra': 'partituras/circo/circo_letra.pdf'
 
       - nome: 'African Marketplace (F)'
         links:
           'gravacao': 'http://rudemechanicalorchestra.org/music/african-marketplace'
-          'c': 'http://rudemechanicalorchestra.org/music/african-marketplace'
-          'bb': 'http://rudemechanicalorchestra.org/music/african-marketplace'
-          'eb': 'http://rudemechanicalorchestra.org/music/african-marketplace'
+          'c': 'partituras/african_marketplace/african_marketplace_C.pdf'
+          'bb': 'partituras/african_marketplace/african_marketplace_Bb.pdf'
+          'eb': 'partituras/african_marketplace/african_marketplace_Eb.pdf'
 
       - nome: 'Caravan (Fm)'
         links:
@@ -35,6 +37,7 @@ blocos:
           'bb': 'partituras/caravan/caravan_Bb.pdf'
           'eb': 'partituras/caravan/caravan_Eb.pdf'
           'ebnotas': 'partituras/caravan/caravan_Eb_notas.pdf'
+          'letra': 'partituras/caravan/caravan_letra.pdf'
 
 
   - nome: "Dm lento"
@@ -46,6 +49,7 @@ blocos:
           'bb': 'partituras/marcha_dos_pescadores/marcha_dos_pescadores_Bb.pdf'
           'eb': 'partituras/marcha_dos_pescadores/marcha_dos_pescadores_Eb.pdf'
           'ebnotas': 'partituras/marcha_dos_pescadores/marcha_dos_pescadores_Eb_notas.pdf'
+          'letra': 'partituras/marcha_dos_pescadores/marcha_dos_pescadores_letra.pdf'
           'midi': 'partituras/marcha_dos_pescadores/marcha_dos_pescadores_Geral.midi'
 
       - nome: 'Eu Vi Mamãe Oxum na Cachoeira (Dm)'
@@ -55,6 +59,7 @@ blocos:
           'bb': 'partituras/eu_vi_mamae_oxum_na_cachoeira/mamae_oxum-Bb.pdf'
           'eb': 'partituras/eu_vi_mamae_oxum_na_cachoeira/mamae_oxum-Eb.pdf'
           'ebnotas': 'partituras/eu_vi_mamae_oxum_na_cachoeira/mamae_oxum-Eb_notas.pdf'
+          'letra': 'partituras/eu_vi_mamae_oxum_na_cachoeira/eu_vi_mamae_oxum_na_cachoeira_letra.pdf'
 
       - nome: 'O Abre Alas (Dm)'
         links:
@@ -63,6 +68,7 @@ blocos:
           'bb': 'partituras/abre_alas/abre_alas_Bb.pdf'
           'eb': 'partituras/abre_alas/abre_alas_Eb.pdf'
           'ebnotas': 'partituras/abre_alas/abre_alas_Eb_notas.pdf'
+          'letra': 'partituras/abre_alas/abre_alas_letra.pdf'
 
       - nome: 'Touradas em Madri (Dm)'
         links:
@@ -73,6 +79,7 @@ blocos:
           'alto':    'partituras/touradas_em_madrid/Touradas_em_Madrid-Sax_Alto_Eb.pdf'
           'tenor_clarin':    'partituras/touradas_em_madrid/Touradas_em_Madrid-Clarinete_e_Sax_Tenor_em_Bb.pdf'
           'ebnotas':    'partituras/touradas_em_madrid/Touradas_em_Madrid-Sax_Alto_Eb_notas.pdf'
+          'letra': 'partituras/touradas_em_madrid/touradas_em_madrid_letra.pdf'
 
 
       - nome: 'Turma do Funil (Dm)'
@@ -82,6 +89,7 @@ blocos:
           'bb': 'partituras/turma_do_funil/turma_do_funil_Bb.pdf'
           'eb': 'partituras/turma_do_funil/turma_do_funil_Eb.pdf'
           'ebnotas': 'partituras/turma_do_funil/turma_do_funil_Eb_notas.pdf'
+          'letra': 'partituras/turma_do_funil/turma_do_funil_letra.pdf'
 
 
   - nome: "Pierrot"
@@ -94,6 +102,7 @@ blocos:
           'bb': 'partituras/pierrot_apaixonado/pierrot_apaixonado_Bb.pdf'
           'eb': 'partituras/pierrot_apaixonado/pierrot_apaixonado_Eb.pdf'
           'ebnotas': 'partituras/pierrot_apaixonado/pierrot_apaixonado_Eb_notas.pdf'
+          'letra': 'partituras/pierrot_apaixonado/pierrot_apaixonado_letra.pdf'
 
 
       - nome: 'Jardineira (Bb)'
@@ -103,6 +112,7 @@ blocos:
           'bb': 'partituras/jardineira/jardineira_Bb.pdf'
           'eb': 'partituras/jardineira/jardineira_Eb.pdf'
           'ebnotas': 'partituras/jardineira/jardineira_Eb_notas.pdf'
+          'letra': 'partituras/jardineira/jardineira_letra.pdf'
 
       - nome: 'Aurora (Bb)'
         links:
@@ -110,6 +120,7 @@ blocos:
           'bb': 'partituras/aurora/aurora_Bb.pdf'
           'eb': 'partituras/aurora/aurora_Eb.pdf'
           'ebnotas': 'partituras/aurora/aurora_Eb_notas.pdf'
+          'letra': 'partituras/aurora/aurora_letra.pdf'
 
 
       - nome: 'Alalaô (Bb)'
@@ -119,6 +130,7 @@ blocos:
           'bb': 'partituras/alalao/alalao_Bb.pdf'
           'eb': 'partituras/alalao/alalao_Eb.pdf'
           'ebnotas': 'partituras/alalao/alalao_Eb_notas.pdf'
+          'letra': 'partituras/alalao/alalao_letra.pdf'
 
       - nome: 'Mamãe eu quero (Bb)'
         links:
@@ -127,6 +139,7 @@ blocos:
           'bb': 'partituras/mamae_eu_quero/mamae_eu_quero_Bb.pdf'
           'eb': 'partituras/mamae_eu_quero/mamae_eu_quero_Eb.pdf'
           'ebnotas': 'partituras/mamae_eu_quero/mamae_eu_quero_Eb_notas.pdf'
+          'letra': 'partituras/mamae_eu_quero/mamae_eu_quero_letra.pdf'
 
 
   - nome: "Afoxés"
@@ -139,7 +152,8 @@ blocos:
           'C':  'partituras/volta_do_malandro/volta_do_malandro_C.pdf'          
           'Bb':  'partituras/volta_do_malandro/volta_do_malandro_Bb.pdf'          
           'Eb':  'partituras/volta_do_malandro/volta_do_malandro_Eb.pdf'     
-          'ebnotas':  'partituras/volta_do_malandro/volta_do_malandro_Eb_notas.pdf'     
+          'ebnotas':  'partituras/volta_do_malandro/volta_do_malandro_Eb_notas.pdf'
+          'letra': 'partituras/volta_do_malandro/volta_do_malandro_letra.pdf'     
 
       - nome: 'Um canto de afoxé para o bloco do Ilê (Bb)'
         links:
@@ -149,6 +163,7 @@ blocos:
           'Bb':  'partituras/canto_de_afoxeh/canto_de_afoxeh_Bb.pdf'
           'Eb':  'partituras/canto_de_afoxeh/canto_de_afoxeh_Eb.pdf'
           'ebnotas':  'partituras/canto_de_afoxeh/canto_de_afoxeh_Eb_notas.pdf'
+          'letra': 'partituras/canto_de_afoxeh/canto_de_afoxeh_letra.pdf'
 
       - nome: 'A Rã (Dm)'
         links:
@@ -169,6 +184,7 @@ blocos:
           'bb': 'partituras/emorioh/emorioh_Bb.pdf'
           'eb': 'partituras/emorioh/emorioh_Eb.pdf'
           'ebnotas': 'partituras/emorioh/emorioh_Eb_notas.pdf'
+          'letra': 'partituras/emorioh/emorioh_letra.pdf'
 
       - nome: 'Bananeira (Gm)'
         links:
@@ -177,6 +193,7 @@ blocos:
           'bb': 'partituras/bananeira/bananeira_Bb.pdf'
           'eb': 'partituras/bananeira/bananeira_Eb.pdf'
           'ebnotas': 'partituras/bananeira/bananeira_Eb_notas.pdf'
+          'letra': 'partituras/bananeira/bananeira_letra.pdf'
 
 
   - nome: "Latinas"
@@ -190,6 +207,7 @@ blocos:
           'bb': 'partituras/chan_chan/chan_chan_Bb.pdf'
           'eb': 'partituras/chan_chan/chan_chan_Eb.pdf'
           'ebnotas': 'partituras/chan_chan/chan_chan_Eb_notas.pdf'
+          'letra': 'partituras/chan_chan/chan_chan_letra.pdf'
           'Tuba': 'partituras/chan_chan/chan_chan_Tuba.pdf'
           'Guitarra': 'partituras/chan_chan/chan_chan_Geral.pdf'
           'Geral': 'partituras/chan_chan/chan_chan_Geral.pdf'
@@ -202,6 +220,7 @@ blocos:
           'eb': 'partituras/carinito/carinito_Eb.pdf'
           'Tuba': 'partituras/carinito/carinito_C_Tuba.pdf'
           'ebnotas':  'partituras/carinito/carinito_Eb_notas.pdf'
+          'letra': 'partituras/carinito/carinito_letra.pdf'
           'midi': 'partituras/carinito/carinito_C.midi'
 
       - nome: 'Moliendo Café (Cm)'
@@ -211,6 +230,7 @@ blocos:
           'bb': 'partituras/moliendo_cafe/moliendo_cafe_Bb.pdf'
           'eb': 'partituras/moliendo_cafe/moliendo_cafe_Eb.pdf'
           'ebnotas':  'partituras/moliendo_cafe/moliendo_cafe_Eb_notas.pdf'
+          'letra': 'partituras/moliendo_cafe/moliendo_cafe_letra.pdf'
           'midi': 'partituras/moliendo_cafe/moliendo_cafe_C.midi'
 
 
@@ -224,6 +244,7 @@ blocos:
           'bb': 'partituras/chuva_suor_e_cerveja/chuva_suor_e_cerveja_Bb.pdf'
           'eb': 'partituras/chuva_suor_e_cerveja/chuva_suor_e_cerveja_Eb.pdf'
           'ebnotas': 'partituras/chuva_suor_e_cerveja/chuva_suor_e_cerveja_Eb_notas.pdf'
+          'letra': 'partituras/chuva_suor_e_cerveja/chuva_suor_e_cerveja_letra.pdf'
 
       - nome: 'O Balancê (F)'
         links:
@@ -232,6 +253,7 @@ blocos:
           'bb': 'partituras/balanceh/balanceh_Bb.pdf'
           'eb': 'partituras/balanceh/balanceh_Eb.pdf'
           'ebnotas': 'partituras/balanceh/balanceh_Eb_notas.pdf'
+          'letra': 'partituras/balanceh/balanceh_letra.pdf'
           'midi': 'partituras/balanceh/balanceh_C.midi'
 
       - nome: 'Pegando fogo (F)'
@@ -241,6 +263,7 @@ blocos:
           'bb': 'partituras/pegando_fogo/pegando_fogo_Bb.pdf'
           'eb': 'partituras/pegando_fogo/pegando_fogo_Eb.pdf'
           'ebnotas': 'partituras/pegando_fogo/pegando_fogo_Eb_notas.pdf'
+          'letra': 'partituras/pegando_fogo/pegando_fogo_letra.pdf'
           'midi': 'partituras/pegando_fogo/pegando_fogo_C.midi'
 
       - nome: 'Mulata bossa nova (F)'
@@ -250,6 +273,7 @@ blocos:
           'bb': 'partituras/mulata_bossa_nova/mulata_bossa_nova_Bb.pdf'
           'eb': 'partituras/mulata_bossa_nova/mulata_bossa_nova_Eb.pdf'
           'ebnotas': 'partituras/mulata_bossa_nova/mulata_bossa_nova_Eb_notas.pdf'
+          'letra': 'partituras/mulata_bossa_nova/mulata_bossa_nova_letra.pdf'
 
 
   - nome: "Lento"
@@ -262,6 +286,7 @@ blocos:
           'bb': 'partituras/fool_on_the_hill/fool_on_the_hill_Bb.pdf'
           'eb': 'partituras/fool_on_the_hill/fool_on_the_hill_Eb.pdf'
           'ebnotas': 'partituras/fool_on_the_hill/fool_on_the_hill_Eb_notas.pdf'
+          'letra': 'partituras/fool_on_the_hill/fool_on_the_hill_letra.pdf'
 
       - nome: 'O trenzinho do caipira (C)'
         links:
@@ -284,16 +309,19 @@ blocos:
           'eb': 'partituras/nao_existe_pecado/nao_existe_pecado_Eb.pdf'
           'Tuba': 'partituras/nao_existe_pecado/nao_existe_pecado-original-PtP06.pdf'
           'ebnotas': 'partituras/nao_existe_pecado/nao_existe_pecado_Eb_notas.pdf'
+          'letra': 'partituras/nao_existe_pecado/nao_existe_pecado_letra.pdf'
           'p.original': 'partituras/nao_existe_pecado/nao_existe_pecado-original-PtP06.pdf'
           'mid': 'partituras/nao_existe_pecado/nao_existe_pecado_C.midi'
 
       - nome: 'Boi voador não pode (C)'
         links:
           'yt': 'https://www.youtube.com/watch?v=YMjtso8qZSI'
+          'letra': 'partituras/boi_voador/boi_voador_letra.pdf'
           'c': 'partituras/boi_voador/boi_voador_C.pdf'
           'bb': 'partituras/boi_voador/boi_voador_Bb.pdf'
           'eb': 'partituras/boi_voador/boi_voador_Eb.pdf'
           'ebnotas': 'partituras/boi_voador/boi_voador_Eb_notas.pdf'
+          'letra': 'partituras/boi_voador/boi_voador_letra.pdf'
           'midi': 'partituras/boi_voador/boi_voador_C_no_tempo.midi'
 
       - nome: 'Festa do interior (C)'
@@ -304,6 +332,7 @@ blocos:
           'eb': 'partituras/festa_do_interior/festa_do_interior_Eb.pdf'
           'Tuba': 'partituras/festa_do_interior/festa_do_interior_C_Tuba.pdf'
           'ebnotas':  'partituras/festa_do_interior/festa_do_interior_Eb_notas.pdf'
+          'letra': 'partituras/festa_do_interior/festa_do_interior_letra.pdf'
           'midi': 'partituras/festa_do_interior/festa_do_interior.midi'
 
 
@@ -317,6 +346,8 @@ blocos:
           'eb': 'partituras/haitian_fight_song/haitian_fight_song_Eb.pdf'
           'bbTpt': 'partituras/festa_do_interior/festa_do_interior_Bb_tpt.pdf'
           'ebnotas': 'partituras/haitian_fight_song/haitian_fight_song_Eb_notas.pdf'
+          'letra': 'partituras/haitian_fight_song/haitian_fight_song_letra.pdf'
+          'letra': 'partituras/haiti/haiti_letra.pdf'
           'Tuba': 'partituras/haitian_fight_song/haitian_fight_song_C_Tuba.pdf'
           'cgeral':  'partituras/haitian_fight_song/haitian_fight_song_C_Geral.pdf'
           'midi':  'partituras/haitian_fight_song/haitian_fight_song_Geral.midi'
@@ -328,6 +359,7 @@ blocos:
           'bb': 'partituras/haiti/haiti_Bb.pdf'
           'eb': 'partituras/haiti/haiti_Eb.pdf'
           'ebnotas': 'partituras/haiti/haiti_Eb_notas.pdf'
+          'letra': 'partituras/haiti/haiti_letra.pdf'
           'Tuba': 'partituras/haiti/haiti_C_Tuba.pdf'
           'midi':  'partituras/haiti/haiti_C.midi'
 
@@ -376,6 +408,7 @@ blocos:
           'bb': 'partituras/bola_de_meia/bola_de_meia_Bb.pdf'
           'eb': 'partituras/bola_de_meia/bola_de_meia_Eb.pdf'
           'ebnotas': 'partituras/bola_de_meia/bola_de_meia_Eb_notas.pdf'
+          'letra': 'partituras/bola_de_meia/bola_de_meia_letra.pdf'
 
       - nome: 'Paula e Bebeto (G)'
         links:
@@ -385,6 +418,7 @@ blocos:
           'bb': 'partituras/paula_e_bebeto/paula_e_bebeto_Bb.pdf'
           'eb': 'partituras/paula_e_bebeto/paula_e_bebeto_Eb.pdf'
           'ebnotas': 'partituras/paula_e_bebeto/paula_e_bebeto_Eb_notas.pdf'
+          'letra': 'partituras/paula_e_bebeto/paula_e_bebeto_letra.pdf'
 
   - nome: "Cachaça"
     musicas:
@@ -492,6 +526,7 @@ blocos:
           'eb': 'partituras/blues_cigano/blues_cigano_Eb.pdf'
           'Tuba': 'partituras/blues_cigano/blues_cigano_C_Tuba.pdf'
           'ebnotas':  'partituras/blues_cigano/blues_cigano_Eb_notas.pdf'
+          'letra': 'partituras/blues_cigano/blues_cigano_letra.pdf'
           'midi': 'partituras/blues_cigano/blues_cigano_C.midi'
 
       - nome: 'Tetris (Am)'
@@ -501,6 +536,7 @@ blocos:
           'eb': 'partituras/tetris/tetris_Eb.pdf'
           'Tuba': 'partituras/tetris/tetris_C_Tuba.pdf'
           'ebnotas':  'partituras/tetris/tetris_Eb_notas.pdf'
+          'letra': 'partituras/tetris/tetris_letra.pdf'
           'midi': 'partituras/tetris/tetris_C.midi'
 
       - nome: 'Pé na tuba (Am)'
@@ -522,6 +558,7 @@ blocos:
           'eb': 'partituras/feira_de_mangaio/feira_de_mangaio_Eb.pdf'
           'Tuba': 'partituras/feira_de_mangaio/feira_de_mangaio_C_Tuba.pdf'
           'ebnotas':  'partituras/feira_de_mangaio/feira_de_mangaio_Eb_notas.pdf'
+          'letra': 'partituras/feira_de_mangaio/feira_de_mangaio_letra.pdf'
           'midi': 'partituras/feira_de_mangaio/feira_de_mangaio_C.midi'
 
       - nome: 'Pra tirar côco (Am)'
@@ -531,7 +568,8 @@ blocos:
           'C':  'partituras/pra_tirar_coco/pra_tirar_coco_C.pdf'          
           'Bb':  'partituras/pra_tirar_coco/pra_tirar_coco_Bb.pdf'          
           'Eb':  'partituras/pra_tirar_coco/pra_tirar_coco_Eb.pdf'                  
-          'ebnotas':  'partituras/pra_tirar_coco/pra_tirar_coco_Eb_notas.pdf'  
+          'ebnotas':  'partituras/pra_tirar_coco/pra_tirar_coco_Eb_notas.pdf'
+          'letra': 'partituras/pra_tirar_coco/pra_tirar_coco_letra.pdf'  
 
   - nome: "Saideira"
     musicas:
@@ -595,6 +633,7 @@ blocos:
           'eb': 'partituras/watermelon_man/watermelon_man_Eb.pdf'
           'Tuba': 'partituras/watermelon_man/watermelon_man_C_Tuba.pdf'
           'ebnotas':  'partituras/watermelon_man/watermelon_man_Eb_notas.pdf'
+          'letra': 'partituras/watermelon_man/watermelon_man_letra.pdf'
           'midi': 'partituras/watermelon_man/watermelon_man_C.midi'
       - nome: 'Cantaloupe'
       - nome: 'Autumn leaves'
@@ -604,6 +643,7 @@ blocos:
           'eb': 'partituras/autumn_leaves/autumn_leaves_Eb.pdf'
           'Tuba': 'partituras/autumn_leaves/autumn_leaves_C_Tuba.pdf'
           'ebnotas':  'partituras/autumn_leaves/autumn_leaves_Eb_notas.pdf'
+          'letra': 'partituras/autumn_leaves/autumn_leaves_letra.pdf'
           'midi': 'partituras/autumn_leaves/autumn_leaves_C.midi'
 
       - nome: 'Bela Ciao'
@@ -619,6 +659,7 @@ blocos:
           'eb': 'partituras/comportamento_geral/comportamento_geral_Eb.pdf'
           'Tuba': 'partituras/comportamento_geral/comportamento_geral_C_Tuba.pdf'
           'ebnotas':  'partituras/comportamento_geral/comportamento_geral_Eb_notas.pdf'
+          'letra': 'partituras/comportamento_geral/comportamento_geral_letra.pdf'
           'midi': 'partituras/comportamento_geral/comportamento_geral.midi'
 
       - nome: 'Meia lua inteira (F)'
@@ -680,7 +721,8 @@ tons:
   - C
   - Bb
   - Eb
-
+  - Eb_notas
+  - letra
 ---
 
 
@@ -724,6 +766,9 @@ tons:
     2 - !!! SÁBADO DE CARNAVAL !!!
     4 - !!! SEGUNDA DE CARNAVAL !!!
 </pre>
+
+## Playlist do repertório
+<iframe style="width: 100%; height: 90px;" scrolling="no" src="https://midia.borges.net.br:9093/share.php?id=2&amp;secret=vqf2019carnaval&amp;embed=true"></iframe>
 
 ## Repertório
 

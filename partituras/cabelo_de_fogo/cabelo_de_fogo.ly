@@ -232,4 +232,27 @@ codatrombone = \relative c'' {
 }
 
   
-\version "2.18.2"  
+\version "2.18.2"  '#(set-global-staff-size 20)
+
+\book {
+  \bookOutputName "cabelo_de_fogo_letra"
+  \header {
+     instrument = "Letra e Acordes"
+  }
+   \score {
+    <<
+       \new Staff  {
+          \new Voice = "letra" {
+               \intro
+             \parteum
+             \partedois
+           }
+      }
+  %           \new ChordNames 
+  %           \acordetodo
+             \new Lyrics
+             \lyricsto "letra" \letratoda
+    >>
+           \include "../imprimirsoletras.ly"
+  }
+}'

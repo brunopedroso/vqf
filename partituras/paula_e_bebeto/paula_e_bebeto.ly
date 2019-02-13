@@ -115,7 +115,7 @@ letratoda = \lyricmode {
             \transpose d g {
             \intro
             \parteum
-%             \skip 256 \bar "" \break
+%             \skip 256 \bar "paula_e_bebeto_letra" \break
             \partedois
             }
           }
@@ -138,7 +138,7 @@ letratoda = \lyricmode {
               \transpose d g {
               \intro
               \parteum
-%             \skip 256 \bar "" \break
+%             \skip 256 \bar "paula_e_bebeto_letra" \break
               \partedois
               }
             }
@@ -163,7 +163,7 @@ letratoda = \lyricmode {
           \transpose d e {
             \intro
             \parteum
-%             \skip 256 \bar "" \break
+%             \skip 256 \bar "paula_e_bebeto_letra" \break
             \partedois
           }
         }
@@ -188,7 +188,7 @@ letratoda = \lyricmode {
           \transpose d a {
             \intro
             \parteum
-%             \skip 256 \bar "" \break
+%             \skip 256 \bar "paula_e_bebeto_letra" \break
             \partedois
           }
         }
@@ -232,5 +232,29 @@ letratoda = \lyricmode {
       \consists \Gravador_nome_notas
     }
     }
+  }
+}
+#(set-global-staff-size 20)
+
+\book {
+  \bookOutputName "paula_e_bebeto_letra"
+  \header {
+     instrument = "Letra e Acordes"
+  }
+   \score {
+    <<
+       \new Staff  {
+          \new Voice = "letra" {
+               \intro
+             \parteum
+             \partedois
+           }
+      }
+  %           \new ChordNames 
+  %           \acordetodo
+             \new Lyrics
+             \lyricsto "letra" \letratoda
+    >>
+           \include "../imprimirsoletras.ly"
   }
 }

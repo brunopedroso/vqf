@@ -38,10 +38,10 @@ parteum = \relative c' {
     f'2 |
     r8 d8 d8 c8 |
     e4 r8 
-    \bar "" \break
+    \bar "me_da_um_dinheiro_aih_letra" \break
     bes8 |bes16 bes8 bes16 bes8 a8 |
     c4 r8 
-    \bar "" \break
+    \bar "me_da_um_dinheiro_aih_letra" \break
     bes8 |
   }
   \alternative {
@@ -77,11 +77,11 @@ partedois = \relative c'' {
   r8 f,8 a8 c8 |
   f4 r8 f8 |
   f8 e8 g8 f8 |   d4 
-  \bar "" \break
+  \bar "me_da_um_dinheiro_aih_letra" \break
   r8 f8 |
   f8 f8 e8 d8 |
   c8 f8 
-  \bar "" \break
+  \bar "me_da_um_dinheiro_aih_letra" \break
   r8 c8 |
   c16 c8 c16 d8 e | f2
 }
@@ -180,3 +180,27 @@ letratoda = {
 }
 
 \version "2.18.2"  % necessary for upgrading to future LilyPond versions.
+#(set-global-staff-size 20)
+
+\book {
+  \bookOutputName "me_da_um_dinheiro_aih_letra"
+  \header {
+     instrument = "Letra e Acordes"
+  }
+   \score {
+    <<
+       \new Staff  {
+          \new Voice = "letra" {
+               \intro
+             \parteum
+             \partedois
+           }
+      }
+  %           \new ChordNames 
+  %           \acordetodo
+             \new Lyrics
+             \lyricsto "letra" \letratoda
+    >>
+           \include "../imprimirsoletras.ly"
+  }
+}

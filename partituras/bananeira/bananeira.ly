@@ -17,27 +17,27 @@
 }
 
 bananeiranaosei = \relative a' {
-  c16 c a8 d \bar "" \break
+  c16 c a8 d \bar "bananeira_letra" \break
     a16 a | 
-    c c a d~d \bar "" \break 
+    c c a d~d \bar "bananeira_letra" \break 
     a c c | 
-    a16 a16 d8 a8 \bar "" \break 
+    a16 a16 d8 a8 \bar "bananeira_letra" \break 
     c16 d16 | 
-    e16 d16 c16 a16 ~ a8 \bar "" \break 
+    e16 d16 c16 a16 ~ a8 \bar "bananeira_letra" \break 
     d,16 d16  | 
-    f f  d8 g8 \bar "" \break
+    f f  d8 g8 \bar "bananeira_letra" \break
     d16 d16  | 
-    f16 f16 d16 g16 ~ g16 \bar "" \break
+    f16 f16 d16 g16 ~ g16 \bar "bananeira_letra" \break
     d16 f16 f16  | 
     d16 d16 g8 d8 f16 g16  | 
 }
 
 nofundodoquintal = \relative a' {
-  g2~ | g8 r16 \bar "" \break
+  g2~ | g8 r16 \bar "bananeira_letra" \break
   a16 c16 bes a g  | 
-  a2 ~ | a8. \bar "" \break
+  a2 ~ | a8. \bar "bananeira_letra" \break
   e'16 g16 f16 e16 d16 |
-  e2 ~| e8. \bar "" \break
+  e2 ~| e8. \bar "bananeira_letra" \break
   e16 g16 f16 e16 d16  | 
   e2 ~ | e4 r8 a,16 a
 }
@@ -50,11 +50,11 @@ parteum =  \relative a' {
   }
    \alternative {
      {a16 g16 f16 d16 ~ d8 a'16 a16}
-     {a16 g16 f16 d16 ~ d8 \bar "" }
+     {a16 g16 f16 d16 ~ d8 \bar "bananeira_letra" }
    }
 }
 partedois = \relative a' {
-  \bar "" \break \marcaB a8 \bar "||"
+  \bar "bananeira_letra" \break \marcaB a8 \bar "||"
    \nofundodoquintal
 }
 
@@ -209,4 +209,27 @@ letratoda = {
 
     }
   }
-}
+}'#(set-global-staff-size 20)
+
+\book {
+  \bookOutputName "bananeira_letra"
+  \header {
+     instrument = "Letra e Acordes"
+  }
+   \score {
+    <<
+       \new Staff  {
+          \new Voice = "letra" {
+               \intro
+             \parteum
+             \partedois
+           }
+      }
+  %           \new ChordNames 
+  %           \acordetodo
+             \new Lyrics
+             \lyricsto "letra" \letratoda
+    >>
+           \include "../imprimirsoletras.ly"
+  }
+}'

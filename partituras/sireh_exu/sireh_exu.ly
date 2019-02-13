@@ -203,3 +203,27 @@ letratoda = {
 }
 
 \version "2.18.2" % necessary for upgrading to future LilyPond versions.
+#(set-global-staff-size 20)
+
+\book {
+  \bookOutputName "sireh_exu_letra"
+  \header {
+     instrument = "Letra e Acordes"
+  }
+   \score {
+    <<
+       \new Staff  {
+          \new Voice = "letra" {
+               \intro
+             \parteum
+             \partedois
+           }
+      }
+  %           \new ChordNames 
+  %           \acordetodo
+             \new Lyrics
+             \lyricsto "letra" \letratoda
+    >>
+           \include "../imprimirsoletras.ly"
+  }
+}

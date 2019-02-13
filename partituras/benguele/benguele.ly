@@ -16,13 +16,13 @@
 
   bes16 bes8 bes16  d16 d8 d16   f16 d f d
 
-    \bar ""   \break
+    \bar "benguele_letra"   \break
      r16  f,8 f16
 
 
   a16 a8 a16        c16 c8 c16   e16 d e d
 
-     \bar ""   \break
+     \bar "benguele_letra"   \break
      r16  a8 a16
 
   g16 g8 g16    bes16 bes8 bes16   d8. c16   r16 g8 a16  f2
@@ -288,7 +288,7 @@ letratres = \lyricmode {
     <<
     \new Voice = "um" {
       \time 2/4
-      \transpose bes g {
+      \transpose bes g' {
         \intro
       }
     }
@@ -301,7 +301,7 @@ letratres = \lyricmode {
     <<
     \new Voice = "um" {
       \time 2/4
-      \transpose bes g {
+      \transpose bes g' {
         \parteum
       }
     }
@@ -317,7 +317,7 @@ letratres = \lyricmode {
     <<
     \new Voice = "um" {
       \time 2/4
-      \transpose bes g {
+      \transpose bes g' {
         \partedois
       }
     }
@@ -333,7 +333,7 @@ letratres = \lyricmode {
     <<
     \new Voice = "um" {
       \time 2/4
-      \transpose bes g {
+      \transpose bes g' {
         \partetres
       }
     }
@@ -370,3 +370,27 @@ letratres = \lyricmode {
 
 
 \version "2.18.2"  % necessary for upgrading to future LilyPond versions.
+'#(set-global-staff-size 20)
+
+\book {
+  \bookOutputName "benguele_letra"
+  \header {
+     instrument = "Letra e Acordes"
+  }
+   \score {
+    <<
+       \new Staff  {
+          \new Voice = "letra" {
+               \intro
+             \parteum
+             \partedois
+           }
+      }
+  %           \new ChordNames 
+  %           \acordetodo
+             \new Lyrics
+             \lyricsto "letra" \letratoda
+    >>
+           \include "../imprimirsoletras.ly"
+  }
+}'

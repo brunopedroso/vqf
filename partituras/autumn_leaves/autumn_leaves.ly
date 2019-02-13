@@ -162,7 +162,7 @@ letrabaixo = \lyricmode {
             \transpose g g {
  %            \intro
             \parteum
-%             \skip 256 \bar "" \break
+%             \skip 256 \bar "autumn_leaves_letra" \break
              \partedois
             }
           }
@@ -185,7 +185,7 @@ letrabaixo = \lyricmode {
               \transpose g g {
 %               \intro
               \parteum
-%             \skip 256 \bar "" \break
+%             \skip 256 \bar "autumn_leaves_letra" \break
               \partedois
               }              
             }
@@ -219,7 +219,7 @@ letrabaixo = \lyricmode {
           \transpose g e {
 %             \intro
             \parteum
-%             \skip 256 \bar "" \break
+%             \skip 256 \bar "autumn_leaves_letra" \break
             \partedois
           }
         }
@@ -244,7 +244,7 @@ letrabaixo = \lyricmode {
           \transpose g a {
 %             \intro
             \parteum
-%             \skip 256 \bar "" \break
+%             \skip 256 \bar "autumn_leaves_letra" \break
             \partedois
           }
         }
@@ -269,7 +269,7 @@ letrabaixo = \lyricmode {
           \transpose g g {
 %             \intro
             \parteumbaixo
-%             \skip 256 \bar "" \break
+%             \skip 256 \bar "autumn_leaves_letra" \break
           }
         }
         \addlyrics \letrabaixo
@@ -314,3 +314,27 @@ letrabaixo = \lyricmode {
     }
   }
 }
+'#(set-global-staff-size 20)
+
+\book {
+  \bookOutputName "autumn_leaves_letra"
+  \header {
+     instrument = "Letra e Acordes"
+  }
+   \score {
+    <<
+       \new Staff  {
+          \new Voice = "letra" {
+               \intro
+             \parteum
+             \partedois
+           }
+      }
+  %           \new ChordNames 
+  %           \acordetodo
+             \new Lyrics
+             \lyricsto "letra" \letratoda
+    >>
+           \include "../imprimirsoletras.ly"
+  }
+}'

@@ -15,7 +15,7 @@ musica = \relative c' {
   	e d4 f8~ |
   	f8 e d cis |
   	d2 |
-	%\bar ""
+	%\bar "abre_alas_letra"
 	\break
   	}
   	}
@@ -24,7 +24,7 @@ musica = \relative c' {
 	c bes4 d8~ |
 	d d c bes |
 	a2 
-	%\bar ""
+	%\bar "abre_alas_letra"
 	\break
 
 	r8 a cis e |
@@ -154,3 +154,27 @@ letra = \lyricmode {
 
 
 \version "2.18.2"  % necessary for upgrading to future LilyPond versions.
+'#(set-global-staff-size 20)
+
+\book {
+  \bookOutputName "abre_alas_letra"
+  \header {
+     instrument = "Letra e Acordes"
+  }
+   \score {
+    <<
+       \new Staff  {
+          \new Voice = "letra" {
+               \intro
+             \parteum
+             \partedois
+           }
+      }
+  %           \new ChordNames 
+  %           \acordetodo
+             \new Lyrics
+             \lyricsto "letra" \letratoda
+    >>
+           \include "../imprimirsoletras.ly"
+  }
+}'
