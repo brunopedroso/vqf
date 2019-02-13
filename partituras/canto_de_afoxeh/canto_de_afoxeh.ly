@@ -12,10 +12,10 @@
 
 parteum =  \relative c'   {
   \key e \major \repeat volta 2 {
-      e2 \marcaA  | fis4 gis8  e  ~| e4 \bar "" \break
+      e2 \marcaA  | fis4 gis8  e  ~| e4 \bar "canto_de_afoxeh_letra" \break
       \tuplet 3/2 {r8 cis' bes} | \tuplet 3/2 {g e cis~} \tuplet 3/2 {cis b ais~} | ais4 cis |
       dis fis8 e~ | e2 | r | \break
-      e | fis4 gis8 e ~| e4 \bar "" \break
+      e | fis4 gis8 e ~| e4 \bar "canto_de_afoxeh_letra" \break
       \tuplet 3/2 {r8 cis' b} | \tuplet 3/2 {gis e cis~} \tuplet 3/2 {cis b ais~} ||
       ais4 cis | dis fis8 e ~ | e2 | 
   }
@@ -25,8 +25,8 @@ parteum =  \relative c'   {
         }   
   }
 partedois = \relative c' {
-  e4 \pulalinha \pulalinha  \marcaB e | fis gis8 e~ |  e4 \bar "" \break
-  \tuplet 3/2 {r8 e cis} | \tuplet 3/2 {e cis e~} \tuplet 3/2 {e cis cis'~} | cis2 | \bar "" \break
+  e4 \pulalinha \pulalinha  \marcaB e | fis gis8 e~ |  e4 \bar "canto_de_afoxeh_letra" \break
+  \tuplet 3/2 {r8 e cis} | \tuplet 3/2 {e cis e~} \tuplet 3/2 {e cis cis'~} | cis2 | \bar "canto_de_afoxeh_letra" \break
   b4 gis8 e~ | e2 | r8 cis' gis b \bar "|."
 }
 
@@ -160,3 +160,27 @@ I -- lê aiê,
     }
   }
 }
+'#(set-global-staff-size 20)
+
+\book {
+  \bookOutputName "canto_de_afoxeh_letra"
+  \header {
+     instrument = "Letra e Acordes"
+  }
+   \score {
+    <<
+       \new Staff  {
+          \new Voice = "letra" {
+               \intro
+             \parteum
+             \partedois
+           }
+      }
+  %           \new ChordNames 
+  %           \acordetodo
+             \new Lyrics
+             \lyricsto "letra" \letratoda
+    >>
+           \include "../imprimirsoletras.ly"
+  }
+}'

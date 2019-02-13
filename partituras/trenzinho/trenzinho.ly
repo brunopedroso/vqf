@@ -52,22 +52,22 @@ partedois = \relative e'' {
     \times 2/3 {f8 e8 d8}
     | 
     \times 2/3  {
-      e8   e8 \bar "" \break e8
+      e8   e8 \bar "trenzinho_letra" \break e8
     }
     \times 2/3  {
       e8 d8 c8
     }
     | 
     \times 2/3  {
-      d8   d8 \bar "" \break d8
+      d8   d8 \bar "trenzinho_letra" \break d8
     }
     \times 2/3  {
       d8 c8 b8
     }
     | 
-    a4.  \bar "" \break  a8| 
+    a4.  \bar "trenzinho_letra" \break  a8| 
     d16 d d d d d c b  | 
-    a4. \bar "" \break a8 | 
+    a4. \bar "trenzinho_letra" \break a8 | 
     d16 d d d d d  c b | 
     a2   \fermata \fermata
   \bar "|."
@@ -196,5 +196,28 @@ letratoda = {
       \consists \Gravador_nome_notas
     }
     }
+  }
+}#(set-global-staff-size 20)
+
+\book {
+  \bookOutputName "trenzinho_letra"
+  \header {
+     instrument = "Letra e Acordes"
+  }
+   \score {
+    <<
+       \new Staff  {
+          \new Voice = "letra" {
+               \intro
+             \parteum
+             \partedois
+           }
+      }
+  %           \new ChordNames 
+  %           \acordetodo
+             \new Lyrics
+             \lyricsto "letra" \letratoda
+    >>
+           \include "../imprimirsoletras.ly"
   }
 }

@@ -52,9 +52,9 @@ partedois = \relative c' {
 	bes'2 (bes4) a4 g4. d8 ~ | d2 
 	\break
 	\tuplet 3/2 {bes'4 a g} | \tuplet 3/2 {f ees d} | c2 |r4.
-	\bar "" \break
+	\bar "quem_sabe_sabe_letra" \break
 	d8  ees c4. r8 g' f ees  d2 | r4.
-	\bar "" \break
+	\bar "quem_sabe_sabe_letra" \break
 	g8 | \tuplet 3/2 {g4 g g} | \tuplet 3/2 {g fis g} | a2 
 
 	}
@@ -180,3 +180,27 @@ letratoda = {
 
 
 \version "2.18.2" % necessary for upgrading to future LilyPond versions.
+#(set-global-staff-size 20)
+
+\book {
+  \bookOutputName "quem_sabe_sabe_letra"
+  \header {
+     instrument = "Letra e Acordes"
+  }
+   \score {
+    <<
+       \new Staff  {
+          \new Voice = "letra" {
+               \intro
+             \parteum
+             \partedois
+           }
+      }
+  %           \new ChordNames 
+  %           \acordetodo
+             \new Lyrics
+             \lyricsto "letra" \letratoda
+    >>
+           \include "../imprimirsoletras.ly"
+  }
+}

@@ -13,18 +13,18 @@ parteum = \relative c'' {
 	\key g \major
 	\time 2/4
 	\partial 4 d8 \mark \default d |
-	d d c c | r b \bar "" \break 
-	d d | d d c c | r b r \bar "" \break
+	d d c c | r b \bar "chuva_suor_e_cerveja_letra" \break 
+	d d | d d c c | r b r \bar "chuva_suor_e_cerveja_letra" \break
 	a | g fis g a | r c4. | r2 |
-	r4 \bar "" \break
+	r4 \bar "chuva_suor_e_cerveja_letra" \break
 	e8 e | e e d d |
-	r c \bar "" \break
-	e e | e e d d | r c16 c \bar "" \break
+	r c \bar "chuva_suor_e_cerveja_letra" \break
+	e e | e e d d | r c16 c \bar "chuva_suor_e_cerveja_letra" \break
 	c8 c16 c |
-	c8 b c d | r g4. | r2 | r4 \bar "" \break
-	d8 d | d d c c | r \bar "" \break
-	b16 b d8 d16 d | d8 d c c | r \bar "" \break
-	b b a | g a b c | r e4 \bar "" \break
+	c8 b c d | r g4. | r2 | r4 \bar "chuva_suor_e_cerveja_letra" \break
+	d8 d | d d c c | r \bar "chuva_suor_e_cerveja_letra" \break
+	b16 b d8 d16 d | d8 d c c | r \bar "chuva_suor_e_cerveja_letra" \break
+	b b a | g a b c | r e4 \bar "chuva_suor_e_cerveja_letra" \break
 	cis8 | 
 	r e4 d8 | r g4 e8 |
 	r g4 e8 | fis e d b | r2 | r | \break
@@ -51,20 +51,20 @@ letraum = \lyricmode {
 
 
 partedois = \relative c'' {
-    r8. \bar "" \break
+    r8. \bar "chuva_suor_e_cerveja_letra" \break
     \mark \default g'16 b b8 fis16 |
-    a a8 e16 g g8 d 16 | fis fis8 \bar "" \break
+    a a8 e16 g g8 d 16 | fis fis8 \bar "chuva_suor_e_cerveja_letra" \break
     c16 e e8 b16 |
-    d8 c a d | r8. \bar "" \break
-    g16 b b8 fis16 | a a8 e16 g g8 d 16 | fis fis8 \bar "" \break
+    d8 c a d | r8. \bar "chuva_suor_e_cerveja_letra" \break
+    g16 b b8 fis16 | a a8 e16 g g8 d 16 | fis fis8 \bar "chuva_suor_e_cerveja_letra" \break
     c16 e e8 b16 |
-    d8 c a g | r8. \bar "" \break
+    d8 c a g | r8. \bar "chuva_suor_e_cerveja_letra" \break
     g'16 b b8 fis16 |
-    a a8 e16 g g8 d 16 | fis fis8 \bar "" \break
+    a a8 e16 g g8 d 16 | fis fis8 \bar "chuva_suor_e_cerveja_letra" \break
     c16 e e8 b16 |
-    d8 c a d | r8. \bar "" \break
+    d8 c a d | r8. \bar "chuva_suor_e_cerveja_letra" \break
     g16 b b8 fis16 |
-    a a8 e16 g g8 d 16 | fis fis8 \bar "" \break
+    a a8 e16 g g8 d 16 | fis fis8 \bar "chuva_suor_e_cerveja_letra" \break
     c16 e e8 b16 |
     d8 e fis g |\break
   r4. b8 | d g, b d, | g4 d8 d \bar "|." 
@@ -101,7 +101,7 @@ letratoda = {
         \new Voice = "saxalto" {
           \transpose g a {
             \parteum
-%             \skip 256 \bar "" \break
+%             \skip 256 \bar "chuva_suor_e_cerveja_letra" \break
             \partedois
           }
         }
@@ -124,7 +124,7 @@ letratoda = {
         \new Voice = "trombone" {
           \transpose g c {
             \parteum
-%             \skip 256 \bar "" \break
+%             \skip 256 \bar "chuva_suor_e_cerveja_letra" \break
             \partedois
           }
         }
@@ -150,7 +150,7 @@ letratoda = {
         \new Voice = "trompete" {
           \transpose g d {
             \parteum
-%             \skip 256 \bar "" \break
+%             \skip 256 \bar "chuva_suor_e_cerveja_letra" \break
             \partedois
           }
         }
@@ -178,7 +178,7 @@ letratoda = {
             \easyHeadsOn
             \teeny
             \parteum
-%             \skip 256 \bar "" \break
+%             \skip 256 \bar "chuva_suor_e_cerveja_letra" \break
             \partedois
           }
         }
@@ -198,3 +198,27 @@ letratoda = {
   }
 }
 \version "2.18.2"  % necessary for upgrading to future LilyPond versions.
+'#(set-global-staff-size 20)
+
+\book {
+  \bookOutputName "chuva_suor_e_cerveja_letra"
+  \header {
+     instrument = "Letra e Acordes"
+  }
+   \score {
+    <<
+       \new Staff  {
+          \new Voice = "letra" {
+               \intro
+             \parteum
+             \partedois
+           }
+      }
+  %           \new ChordNames 
+  %           \acordetodo
+             \new Lyrics
+             \lyricsto "letra" \letratoda
+    >>
+           \include "../imprimirsoletras.ly"
+  }
+}'

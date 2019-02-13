@@ -175,4 +175,27 @@ Que_o ma -- lan -- dro_é o_ba -- rão da ra -- lé -- é
     }
     }
   }
+}#(set-global-staff-size 20)
+
+\book {
+  \bookOutputName "volta_do_malandro_letra"
+  \header {
+     instrument = "Letra e Acordes"
+  }
+   \score {
+    <<
+       \new Staff  {
+          \new Voice = "letra" {
+               \intro
+             \parteum
+             \partedois
+           }
+      }
+  %           \new ChordNames 
+  %           \acordetodo
+             \new Lyrics
+             \lyricsto "letra" \letratoda
+    >>
+           \include "../imprimirsoletras.ly"
+  }
 }

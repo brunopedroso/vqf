@@ -12,7 +12,7 @@ parteum = \relative c' {
 	\key f \major
 	
   	\partial 8 {c'8 \mark \default} | f f f f | a a   r8 
-  	\bar "" \break
+  	\bar "mulata_bossa_nova_letra" \break
   	c, | f f f f | a a r4  | r2 | 
   	\break
   	a2 | f4 a8 a ~ | a g4. | r2 |
@@ -169,3 +169,27 @@ letratoda = {
 }
 
 \version "2.18.2"  % necessary for upgrading to future LilyPond versions.
+#(set-global-staff-size 20)
+
+\book {
+  \bookOutputName "mulata_bossa_nova_letra"
+  \header {
+     instrument = "Letra e Acordes"
+  }
+   \score {
+    <<
+       \new Staff  {
+          \new Voice = "letra" {
+               \intro
+             \parteum
+             \partedois
+           }
+      }
+  %           \new ChordNames 
+  %           \acordetodo
+             \new Lyrics
+             \lyricsto "letra" \letratoda
+    >>
+           \include "../imprimirsoletras.ly"
+  }
+}

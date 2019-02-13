@@ -6,7 +6,8 @@ tons:
   - C
   - Bb
   - Eb
-
+  - Eb_notas
+  - letra
 ---
 
 <style type="text/css" media="screen">
@@ -47,6 +48,9 @@ tons:
     2 - !!! SÁBADO DE CARNAVAL !!!
     4 - !!! SEGUNDA DE CARNAVAL !!!
 </pre>
+
+## Playlist do repertório
+<iframe style="width: 100%; height: 90px;" scrolling="no" src="https://midia.borges.net.br:9093/share.php?id=2&amp;secret=vqf2019carnaval&amp;embed=true"></iframe>
 
 ## Repertório
 

@@ -13,13 +13,13 @@ parteum = \relative c' {
   	f8 \mark \default f f f | f4 e8 g~ |g f4. | r2
 	\break
 	f8 f f f | f4 d8 a'~ |a g4. | r
-	\bar "" \break
+	\bar "pierrot_apaixonado_letra" \break
 	g8 |  g g g a |  bes4 a8 g~ |g f 
-	\bar "" \break
+	\bar "pierrot_apaixonado_letra" \break
 	f g | a4 g8 f~ | f ees 
-	\bar "" \break
+	\bar "pierrot_apaixonado_letra" \break
 	ees f | g4 f8   ees~ | ees d4. | r8
-	\bar "" \break
+	\bar "pierrot_apaixonado_letra" \break
 }
 
 letraum = \lyricmode {
@@ -36,14 +36,14 @@ letraum = \lyricmode {
 
 partedois = \relative c' {
 	\repeat volta 2 {\mark \default g' f g | f g f g | f4 g8  f~ | f2 | r8
-	\bar "" \break
+	\bar "pierrot_apaixonado_letra" \break
 	aes g aes | g aes g aes | g4 aes8 g~ | g2 | r4.
-	\bar "" \break
+	\bar "pierrot_apaixonado_letra" \break
 	f8 | g g g a | bes4 c8 d~ | d c 
-	\bar "" \break
+	\bar "pierrot_apaixonado_letra" \break
 	bes a | g4. f8 | bes g bes g | bes4 c8 bes8~ | }
 	\alternative {
-	  { bes2\fermata | r8 \bar "" \break  }
+	  { bes2\fermata | r8 \bar "pierrot_apaixonado_letra" \break  }
 	  { bes4\fermata s8.... \bar "|."}
 	}
 
@@ -79,7 +79,7 @@ letratoda = {
         \new Voice = "saxalto" {
           \transpose bes g' {
             \parteum
-            \skip 256 \bar "" \break 
+            \skip 256 \bar "pierrot_apaixonado_letra" \break 
             \unfoldRepeats \partedois
           }
         }
@@ -102,7 +102,7 @@ letratoda = {
         \new Voice = "trompete" {
           \transpose bes c {
             \parteum
-            \skip 256 \bar "" \break 
+            \skip 256 \bar "pierrot_apaixonado_letra" \break 
             \unfoldRepeats \partedois
           }
         }
@@ -125,7 +125,7 @@ letratoda = {
         \new Voice = "trombone" {
           \transpose bes bes {
             \parteum
-            \skip 256 \bar "" \break 
+            \skip 256 \bar "pierrot_apaixonado_letra" \break 
             \unfoldRepeats \partedois
           }
         }
@@ -154,7 +154,7 @@ letratoda = {
             \easyHeadsOn
             \teeny
             \parteum
-            \skip 256 \bar "" \break 
+            \skip 256 \bar "pierrot_apaixonado_letra" \break 
             \unfoldRepeats \partedois
           }
         }
@@ -176,3 +176,27 @@ letratoda = {
 
 
 \version "2.18.2"  % necessary for upgrading to future LilyPond versions.
+#(set-global-staff-size 20)
+
+\book {
+  \bookOutputName "pierrot_apaixonado_letra"
+  \header {
+     instrument = "Letra e Acordes"
+  }
+   \score {
+    <<
+       \new Staff  {
+          \new Voice = "letra" {
+               \intro
+             \parteum
+             \partedois
+           }
+      }
+  %           \new ChordNames 
+  %           \acordetodo
+             \new Lyrics
+             \lyricsto "letra" \letratoda
+    >>
+           \include "../imprimirsoletras.ly"
+  }
+}

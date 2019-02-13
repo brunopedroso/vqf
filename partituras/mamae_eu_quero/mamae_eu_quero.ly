@@ -11,8 +11,8 @@
 pulalinha = {
   \cadenzaOn
   \stopStaff
-  \markup {""}
-  \bar "" \break
+  \markup {"mamae_eu_quero_letra"}
+  \bar "mamae_eu_quero_letra" \break
   \startStaff
   \cadenzaOff
 }
@@ -54,7 +54,7 @@ partedois = \relative c' {
 
 	d8 d d ees | f2 | g8 f ees f | g8 g8
 
-	\bar "" \break
+	\bar "mamae_eu_quero_letra" \break
 
 	g8 g | g bes a g | f bes a g | f ees d c | bes bes4.\fermata \bar "|."
 }
@@ -178,3 +178,27 @@ letratoda = {
 
 
 \version "2.18.2"  % necessary for upgrading to future LilyPond versions.
+#(set-global-staff-size 20)
+
+\book {
+  \bookOutputName "mamae_eu_quero_letra"
+  \header {
+     instrument = "Letra e Acordes"
+  }
+   \score {
+    <<
+       \new Staff  {
+          \new Voice = "letra" {
+               \intro
+             \parteum
+             \partedois
+           }
+      }
+  %           \new ChordNames 
+  %           \acordetodo
+             \new Lyrics
+             \lyricsto "letra" \letratoda
+    >>
+           \include "../imprimirsoletras.ly"
+  }
+}

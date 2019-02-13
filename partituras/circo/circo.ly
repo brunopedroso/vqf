@@ -25,14 +25,14 @@ chegouchegou = \relative c'' {
   \key f \major
   \time 2/4
   \partial 4 { r8 c8 ^\markup { \large \bold \box "B"} } | f4 a8 g~ | g bes4 g8 | e e d c | d c
-  \bar "" \break
+  \bar "circo_letra" \break
    r8 c8 | f4 a8 g~ | g bes4 g8 | f e d c | d c
-   \bar "" \break
+   \bar "circo_letra" \break
   \repeat volta 2 {
   r8 a | a bes d cis | c4 c8 e ~ | e e d c |
   }
   \alternative {
-    { d c \bar "" \break}
+    { d c \bar "circo_letra" \break}
     { f f}
   }
 }
@@ -238,3 +238,27 @@ letrachegou = \lyricmode {
 }
 
 \version "2.18.2"  % necessary for upgrading to future LilyPond versions.
+'#(set-global-staff-size 20)
+
+\book {
+  \bookOutputName "circo_letra"
+  \header {
+     instrument = "Letra e Acordes"
+  }
+   \score {
+    <<
+       \new Staff  {
+          \new Voice = "letra" {
+               \intro
+             \parteum
+             \partedois
+           }
+      }
+  %           \new ChordNames 
+  %           \acordetodo
+             \new Lyrics
+             \lyricsto "letra" \letratoda
+    >>
+           \include "../imprimirsoletras.ly"
+  }
+}'

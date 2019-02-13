@@ -109,7 +109,7 @@ letratoda = \lyricmode {
           \tempo 4 = 125 {
             \intro
             \parteum
-%             \skip 256 \bar "" \break
+%             \skip 256 \bar "nao_existe_pecado_letra" \break
             \partedois
           }
         }
@@ -131,7 +131,7 @@ letratoda = \lyricmode {
             \unfoldRepeats {
               \intro
               \parteum
-%             \skip 256 \bar "" \break
+%             \skip 256 \bar "nao_existe_pecado_letra" \break
               \partedois
             }
           }
@@ -155,7 +155,7 @@ letratoda = \lyricmode {
           \transpose c a {
             \intro
             \parteum
-%             \skip 256 \bar "" \break
+%             \skip 256 \bar "nao_existe_pecado_letra" \break
             \partedois
           }
         }
@@ -181,7 +181,7 @@ letratoda = \lyricmode {
           \transpose c d {
             \intro
             \parteum
-%             \skip 256 \bar "" \break
+%             \skip 256 \bar "nao_existe_pecado_letra" \break
             \partedois
           }
         }
@@ -212,7 +212,7 @@ letratoda = \lyricmode {
           \transpose c a {
             \intro
             \parteum
-%             \skip 256 \bar "" \break
+%             \skip 256 \bar "nao_existe_pecado_letra" \break
             \partedois
           }
         }
@@ -226,5 +226,29 @@ letratoda = \lyricmode {
       \consists \Gravador_nome_notas
     }
     }
+  }
+}
+#(set-global-staff-size 20)
+
+\book {
+  \bookOutputName "nao_existe_pecado_letra"
+  \header {
+     instrument = "Letra e Acordes"
+  }
+   \score {
+    <<
+       \new Staff  {
+          \new Voice = "letra" {
+               \intro
+             \parteum
+             \partedois
+           }
+      }
+  %           \new ChordNames 
+  %           \acordetodo
+             \new Lyrics
+             \lyricsto "letra" \letratoda
+    >>
+           \include "../imprimirsoletras.ly"
   }
 }

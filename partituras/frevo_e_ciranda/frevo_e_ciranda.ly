@@ -44,7 +44,7 @@ introgeral = \relative e''''{
 }
 
 intromelodia = {
-   \partial 4. r8 -"" r4
+   \partial 4. r8 -"frevo_e_ciranda_letra" r4
   R2 |
    \mark \markup { \musicglyph #"scripts.segno" } | 
   R2*12 | 
@@ -58,10 +58,10 @@ melodia =  \relative d''' {
   \repeat volta 2 {
     bes'4 g8 bes8 ~ | 
     bes8 a8 g8 bes8 ~ | 
-    bes8 g8 \bar "" \break
+    bes8 g8 \bar "frevo_e_ciranda_letra" \break
     r8 bes8 | 
     bes8 a8 g8 d8 ~ |
-    d8 d8 \bar "" \break
+    d8 d8 \bar "frevo_e_ciranda_letra" \break
     r8 d8 |
     a'8 g8 f8 g8 ~ 
     g8. d16 bes'8 g8 ~ |
@@ -247,4 +247,27 @@ letra = \lyricmode {
 % 	    }
 %   }
 }
+}#(set-global-staff-size 20)
+
+\book {
+  \bookOutputName "frevo_e_ciranda_letra"
+  \header {
+     instrument = "Letra e Acordes"
+  }
+   \score {
+    <<
+       \new Staff  {
+          \new Voice = "letra" {
+               \intro
+             \parteum
+             \partedois
+           }
+      }
+  %           \new ChordNames 
+  %           \acordetodo
+             \new Lyrics
+             \lyricsto "letra" \letratoda
+    >>
+           \include "../imprimirsoletras.ly"
+  }
 }

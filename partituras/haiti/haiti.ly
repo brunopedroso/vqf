@@ -122,7 +122,7 @@ letratoda = \lyricmode {
             \transpose f g {
             \intro
             \parteum
-%             \skip 256 \bar "" \break
+%             \skip 256 \bar "haiti_letra" \break
             \partedois
             }
           }
@@ -145,7 +145,7 @@ letratoda = \lyricmode {
               \transpose f g {
               \intro
               \parteum
-%             \skip 256 \bar "" \break
+%             \skip 256 \bar "haiti_letra" \break
               \partedois
               }
             }
@@ -170,7 +170,7 @@ letratoda = \lyricmode {
           \transpose aes g {
             \intro
             \parteum
-%             \skip 256 \bar "" \break
+%             \skip 256 \bar "haiti_letra" \break
             \partedois
           }
         }
@@ -195,7 +195,7 @@ letratoda = \lyricmode {
           \transpose f a {
             \intro
             \parteum
-%             \skip 256 \bar "" \break
+%             \skip 256 \bar "haiti_letra" \break
             \partedois
           }
         }
@@ -238,5 +238,29 @@ letratoda = \lyricmode {
       \consists \Gravador_nome_notas
     }
     }
+  }
+}
+#(set-global-staff-size 20)
+
+\book {
+  \bookOutputName "haiti_letra"
+  \header {
+     instrument = "Letra e Acordes"
+  }
+   \score {
+    <<
+       \new Staff  {
+          \new Voice = "letra" {
+               \intro
+             \parteum
+             \partedois
+           }
+      }
+  %           \new ChordNames 
+  %           \acordetodo
+             \new Lyrics
+             \lyricsto "letra" \letratoda
+    >>
+           \include "../imprimirsoletras.ly"
   }
 }

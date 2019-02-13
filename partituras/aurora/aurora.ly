@@ -20,15 +20,15 @@ parteum = \relative c' {
 	\repeat volta 2 {
   	\partial 4  f'8 \mark \default f  | f g f e  | g f4. ~ | f8 
   	
-  	\bar "" \break
+  	\bar "aurora_letra" \break
   	
   	d f bes  | g2 ~ | g4 ees | d8 c4. | r2 | r4
 
-	\bar "" \break
+	\bar "aurora_letra" \break
 
 	ees8 ees  | ees f ees d |  f ees4. | r8 
 	
-	\bar "" \break 
+	\bar "aurora_letra" \break 
 	
 	c ees a |  g2 | r4  a4 | c8 bes4. | r4  
 	}
@@ -45,11 +45,11 @@ letraum = \lyricmode {
 
 partedois = \relative c' {
 	r8 \mark \default d'8  | ees ees g g | ees ees g g | ees d c d | ees4
-	\bar "" \break
+	\bar "aurora_letra" \break
 	r8 ees |d d f f d d f f d c bes c d4
-	\bar "" \break
+	\bar "aurora_letra" \break
 	r8 d |  c b c ees |  g g r d  | c bes c d  |  f f r4 |
-	\bar "" \break
+	\bar "aurora_letra" \break
 	r8 d f bes |  g2 | r4  a4 | c8 bes4. | r2 | 
 
 
@@ -80,7 +80,7 @@ letratoda = {
         \new Voice = "um" {
 		\transpose bes g {
 			\parteum
-			\skip 256 \bar "" \break 
+			\skip 256 \bar "aurora_letra" \break 
 			\partedois
 		}
 	}
@@ -103,7 +103,7 @@ letratoda = {
         \new Voice = "um" {
 		\transpose bes bes {
 			\parteum
-			\skip 256 \bar "" \break 
+			\skip 256 \bar "aurora_letra" \break 
 			\partedois
 		}
 	}
@@ -129,7 +129,7 @@ letratoda = {
         \new Voice = "um" {
 		\transpose bes c {
 			\parteum
-			\skip 256 \bar "" \break 
+			\skip 256 \bar "aurora_letra" \break 
 			\partedois
 		}
 	}
@@ -155,7 +155,7 @@ letratoda = {
       \easyHeadsOn
        \teeny
 			\parteum
-			\skip 256 \bar "" \break 
+			\skip 256 \bar "aurora_letra" \break 
 			\partedois
 		}
 	}
@@ -177,3 +177,27 @@ letratoda = {
 
 
 \version "2.18.2"  % necessary for upgrading to future LilyPond versions.
+'#(set-global-staff-size 20)
+
+\book {
+  \bookOutputName "aurora_letra"
+  \header {
+     instrument = "Letra e Acordes"
+  }
+   \score {
+    <<
+       \new Staff  {
+          \new Voice = "letra" {
+               \intro
+             \parteum
+             \partedois
+           }
+      }
+  %           \new ChordNames 
+  %           \acordetodo
+             \new Lyrics
+             \lyricsto "letra" \letratoda
+    >>
+           \include "../imprimirsoletras.ly"
+  }
+}'

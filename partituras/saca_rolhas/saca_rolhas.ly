@@ -14,7 +14,7 @@ parteum = \relative c'' {
 	\time 2/4
 	\repeat volta 2 {
 	\tuplet 3/2 {g4 \mark \default bes a } | \tuplet 3/2 {g f ees } | d
- 	\bar "" \break
+ 	\bar "saca_rolhas_letra" \break
  	r8 d g ges f e ees2 |
  	\break
  	r8 c c ees | g fis g fis | g fis g ees | d2
@@ -25,7 +25,7 @@ parteum = \relative c'' {
 	\break
 	r8  d bes'a | } 
 	\tuplet 3/2 {g4 } 
-	\bar "" \break
+	\bar "saca_rolhas_letra" \break
 	}
 
 letraum = \lyricmode {
@@ -44,13 +44,13 @@ partedois = \relative c' {
 	\break
 
 	\tuplet 3/2 { ees4 g a } | \tuplet 3/2 { bes a g } | g8 d4 bes16 c16 | d4. 
-	\bar "" \break
+	\bar "saca_rolhas_letra" \break
 
 	d8 g fis g fis g fis g gis a fis4. | r8
-	\bar "" \break
+	\bar "saca_rolhas_letra" \break
 
 	d a' g | g8. fis16 ~ fis4 | r8  
-	\bar "" \break
+	\bar "saca_rolhas_letra" \break
 	d bes' a |  \tuplet 3/2 {<a g> (g) bes4 a}
 
 }
@@ -172,3 +172,27 @@ letratoda = {
   }
 }
 \version "2.18.2" % necessary for upgrading to future LilyPond versions.
+#(set-global-staff-size 20)
+
+\book {
+  \bookOutputName "saca_rolhas_letra"
+  \header {
+     instrument = "Letra e Acordes"
+  }
+   \score {
+    <<
+       \new Staff  {
+          \new Voice = "letra" {
+               \intro
+             \parteum
+             \partedois
+           }
+      }
+  %           \new ChordNames 
+  %           \acordetodo
+             \new Lyrics
+             \lyricsto "letra" \letratoda
+    >>
+           \include "../imprimirsoletras.ly"
+  }
+}

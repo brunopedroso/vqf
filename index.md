@@ -1,6 +1,6 @@
 ---
 layout: layout2017
-title: Vai Quem Fica 2017
+title: Vai Quem Fica 2019
 img_capa: http://brunopedroso.github.io/vqf/img/fotos_2015/foto9.jpg
 ---
 
