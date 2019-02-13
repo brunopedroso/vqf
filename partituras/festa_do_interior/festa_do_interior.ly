@@ -21,43 +21,49 @@ letraintro = \lyricmode {
   _ _ _ _ _ _ _ _
   _ _ _ _ _ _ _ _
   _ _ _ _ _ _ _ _
-  _ _ _ _
+  _ _ _
 }
+
+letradois = \lyricmode {
+  
+  _ Fa -- gu -- lhas, pon -- tas de a -- gu -- lhas
+  Bri -- lham es -- tre -- las de São Jo -- ão
+  Ba -- ba -- dos, xo -- tes e xa -- xa -- dos
+  Se -- gu -- ra_as pon -- tas meu co -- ra -- çã -- o
+  Bom -- bas na guer -- ra ma -- gi -- a
+  Nin -- guém ma -- ta -- va, nin -- guém mor -- ri -- a
+  Nas trin -- chei -- ras da ale -- gri -- a
+  O que ex -- plo -- di -- a e -- ra o a -- mor
+  Nas trin -- chei -- ras da ale -- gri -- a
+  O que ex -- plo -- di -- a e -- ra o a -- mor
+  Fa
+  % -- gu -- lhas, pon -- tas de agu -- lhas
+  % Bri -- lham es -- tre -- las de São João
+  % Ba -- ba -- dos, xo -- tes e xa -- xa -- dos
+  % Se -- gu -- ra as pon -- tas meu co -- ra -- ção
+  % Bom -- bas na guer -- ra-ma -- gia
+  % Nin -- guém ma -- ta -- va, nin -- guém mor -- ria
+  % Nas trin -- chei -- ras da ale -- gria
+  % O que ex -- plo -- dia era o amor
+  % Nas trin -- chei -- ras da ale -- gria
+  % O que ex -- plo -- dia era o amor
+  mor
+  _ _ _ 
+  E_ar -- di -- a a -- que -- la fo -- guei -- ra
+  Que me_es -- quen -- ta -- va a vi -- da_in -- tei -- ra
+  E -- ter -- na noi -- te sem -- pre_a pri -- mei -- ra
+  Fes -- ta do In -- te -- ri -- or 
+   _ _ _
+  E_ar 
+  % -- dia aque -- la fo -- guei -- ra
+  % Que me es -- quen -- ta a vi -- da in -- tei -- ra
+  % Eter -- na noi -- te sem -- pre a pri -- mei -- ra
+  Fes -- ta do In -- te -- ri -- or
+}
+
 letratoda = \lyricmode {
   \letraintro
-Fa -- gu -- lhas, pon -- tas de a -- gu -- lhas
-Bri -- lham es -- tre -- las de São Jo -- ão
-Ba -- ba -- dos, xo -- tes e xa -- xa -- dos
-Se -- gu -- ra_as pon -- tas meu co -- ra -- ção _
-Bom -- bas na guer -- ra ma -- gi -- a
-Nin -- guém ma -- ta -- va, nin -- guém mor -- ri -- a
-Nas trin -- chei -- ras da ale -- gri -- a
-O que ex -- plo -- di -- a e -- ra o a -- mor
-Nas trin -- chei -- ras da ale -- gri -- a
-O que ex -- plo -- di -- a e -- ra o a -- mor
-Fa
-% -- gu -- lhas, pon -- tas de agu -- lhas
-% Bri -- lham es -- tre -- las de São João
-% Ba -- ba -- dos, xo -- tes e xa -- xa -- dos
-% Se -- gu -- ra as pon -- tas meu co -- ra -- ção
-% Bom -- bas na guer -- ra-ma -- gia
-% Nin -- guém ma -- ta -- va, nin -- guém mor -- ria
-% Nas trin -- chei -- ras da ale -- gria
-% O que ex -- plo -- dia era o amor
-% Nas trin -- chei -- ras da ale -- gria
-% O que ex -- plo -- dia era o amor
-mor
-_ _ _ 
-E_ar -- di -- a a -- que -- la fo -- guei -- ra
-Que me_es -- quen -- ta -- va a vi -- da_in -- tei -- ra
-E -- ter -- na noi -- te sem -- pre_a pri -- mei -- ra
-Fes -- ta do In -- te -- ri -- or 
- _ _ _
-E_ar 
-% -- dia aque -- la fo -- guei -- ra
-% Que me es -- quen -- ta a vi -- da in -- tei -- ra
-% Eter -- na noi -- te sem -- pre a pri -- mei -- ra
-Fes -- ta do In -- te -- ri -- or
+\letradois
 }
 
 
@@ -115,6 +121,20 @@ partedois = \relative g'' {
   }
   c r c,16 e g c  
   \DSCoda   e,8 [e16 e] e8 [e] | e8 r4. \bar "|."
+}
+
+partedoisemcoda = \relative g'' {
+  \repeat volta 2 {
+    e16 [ e8 e16] b16 [ b8 b16] | gis16 [ gis8 gis16] \pulalinha
+    e8 e | a16 [ a8 a16] c c8 c16 | e8 \pulalinha
+    e d e | d4 a | r8 e' d e | f4 d~| d r8 \pulalinha
+    f~ |
+  }
+  \alternative {
+    {f e d c | b4 a8 g~ | g r8 c4 | cis4 d8 f }
+    {f e d f | e4 d8 c~ | }
+  }
+  c r c,16 e g c  
 }
 
 introtuba = \relative g {
@@ -363,7 +383,9 @@ parteumtubaLyricsOne =  \lyricmode { \letratoda }
     }
     }
   }
-}#(set-global-staff-size 20)
+}
+
+#(set-global-staff-size 20)
 
 \book {
   \bookOutputName "festa_do_interior_letra"
@@ -374,15 +396,14 @@ parteumtubaLyricsOne =  \lyricmode { \letratoda }
     <<
        \new Staff  {
           \new Voice = "letra" {
-               \intro
              \parteum
-             \partedois
+             \partedoisemcoda
            }
       }
   %           \new ChordNames 
   %           \acordetodo
              \new Lyrics
-             \lyricsto "letra" \letratoda
+             \lyricsto "letra" \letradois
     >>
            \include "../imprimirsoletras.ly"
   }

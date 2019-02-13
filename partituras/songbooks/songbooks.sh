@@ -32,5 +32,7 @@ shopt -s extglob
 rm !(song*).pdf
 rm *.txt
 
+# Comando para gerar booklet de 4 páginas por folha (8 frente e verso)
+pdftops songbookletra.pdf -| psbook -s24 | psnup -4 -PA4 | ps2pdf -sPAPERSIZE=a4  - songbookletrabooklet.pdf
 
 

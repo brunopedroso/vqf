@@ -10,17 +10,16 @@
         \override Accidental #'transparent = ##t
         \override NoteHead #'no-ledgers = ##t 
         \override Staff.StaffSymbol #'transparent = ##t
-        \override Score.NonMusicalPaperColumn.padding = #2
+         \override Score.NonMusicalPaperColumn.padding = #2
         \omit Staff.Clef
         \hide Staff.BarLine
         \hide Staff.Rest
         \context {
-                  \Staff
-                  #(layout-set-staff-size 6)
-              }
+          \Staff
+              #(layout-set-staff-size 6)
+        }
         \context { 
                  \Score
-                 padding = #50
                  \remove "Bar_number_engraver" 
                   \remove "Volta_engraver" 
                   \override SpacingSpanner.base-shortest-duration = #(ly:make-moment 1/128)
@@ -40,7 +39,7 @@
                                 #'((basic-distance . 5)
                                    (stretchability . 10)
                                    (minimum-distance . 5)
-                                   (padding . 5))
+                                    (padding . 5))
             
         } 
 
