@@ -767,8 +767,8 @@ tons:
     4 - !!! SEGUNDA DE CARNAVAL !!!
 </pre>
 
-# Playlist do repertório
-<iframe style="width: 60%; height: 90px;" scrolling="no" src="https://midia.borges.net.br:9093/share.php?id=2&amp;secret=vqf2019carnaval&amp;embed=true"></iframe>
+## Playlist do repertório
+<iframe style="width: 100%; height: 90px;" scrolling="no" src="https://midia.borges.net.br:9093/share.php?id=2&amp;secret=vqf2019carnaval&amp;embed=true"></iframe>
 
 ## Repertório
 
