@@ -8,6 +8,7 @@
 
 \include "../formatoversos.ly"
 \include "../nomedasnotas.ly"
+\include "../marcaspadronizadas.ly"
 
 #(set-global-staff-size 13)
 
@@ -234,6 +235,7 @@ letra = \lyricmode {
     }
     >>
   \layout {
+    \apertacompasso
   \context {
     \Voice
     \consists \Gravador_nome_notas
@@ -258,15 +260,13 @@ letra = \lyricmode {
     <<
        \new Staff  {
           \new Voice = "letra" {
-               \intro
-             \parteum
-             \partedois
+              \melodia
            }
       }
   %           \new ChordNames 
   %           \acordetodo
              \new Lyrics
-             \lyricsto "letra" \letratoda
+             \lyricsto "letra" \letra
     >>
            \include "../imprimirsoletras.ly"
   }
