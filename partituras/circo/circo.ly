@@ -9,7 +9,7 @@
 }
 
 
-melodia = \relative c'' {
+intro = \relative c'' {
   \clef G
   \time 2/4
   \key f \major
@@ -21,7 +21,7 @@ melodia = \relative c'' {
   r8 f e d | c4 d | e c | f2 |
 }
 
-chegouchegou = \relative c'' {
+parteum = \relative c'' {
   \key f \major
   \time 2/4
   \partial 4 { r8 c8 ^\markup { \large \bold \box "B"} } | f4 a8 g~ | g bes4 g8 | e e d c | d c
@@ -37,7 +37,7 @@ chegouchegou = \relative c'' {
   }
 }
 
-letrachegou = \lyricmode {
+letratoda = \lyricmode {
   Che gou, che gou, tá na ho ra da-a le gri a!
   Che gou, che gou, tá na ho ra da-a le gri a!
   O cir co tem pa lha ço, tem, tem to do di a!
@@ -55,7 +55,7 @@ letrachegou = \lyricmode {
       \new Staff {
         \new Voice = "saxalto" {
           \transpose bes g {
-            \melodia
+            \intro
           }
         }
       }
@@ -70,10 +70,10 @@ letrachegou = \lyricmode {
         \new Voice = "saxalto2" {
           \transpose bes g {
             \unfoldRepeats
-            \chegouchegou
+            \parteum
           }
         }
-      \addlyrics \letrachegou
+      \addlyrics \letratoda
       }
     >>
     \layout {}
@@ -91,7 +91,7 @@ letrachegou = \lyricmode {
       \new Staff {
         \new Voice = "trompete" {
           \transpose bes c {
-            \melodia
+            \intro
           }
         }
       }
@@ -106,10 +106,10 @@ letrachegou = \lyricmode {
         \new Voice = "trompete2" {
           \transpose bes c {
             \unfoldRepeats
-            \chegouchegou
+            \parteum
       }
     }
-      \addlyrics \letrachegou
+      \addlyrics \letratoda
       }
     >>
     \layout {}
@@ -127,7 +127,7 @@ letrachegou = \lyricmode {
       \new Staff {
         \new Voice = "trombone" {
           \transpose bes bes {
-            \melodia
+            \intro
           }
         }
       }
@@ -142,10 +142,10 @@ letrachegou = \lyricmode {
         \new Voice = "trombone2" {
           \transpose bes bes {
             \unfoldRepeats
-            \chegouchegou
+            \parteum
       }
     }
-      \addlyrics \letrachegou
+      \addlyrics \letratoda
       }
     >>
     \layout {}
@@ -163,9 +163,9 @@ letrachegou = \lyricmode {
       \new Staff {
         \new Voice = "trombone" {
           \transpose bes bes {
-            \melodia
+            \intro
             \unfoldRepeats
-            \chegouchegou
+            \parteum
           }
         }
       }
@@ -192,7 +192,7 @@ letrachegou = \lyricmode {
           \transpose bes g {
             \easyHeadsOn
             \teeny
-            \melodia
+            \intro
           }
         }
       }
@@ -218,10 +218,10 @@ letrachegou = \lyricmode {
                  \easyHeadsOn
 		            \teeny
 		            \unfoldRepeats
-		            \chegouchegou
+		            \parteum
 		          }
 		        }
-		      \addlyrics \letrachegou
+		      \addlyrics \letratoda
 		      }
 		    >>
 	    \layout {
@@ -238,7 +238,7 @@ letrachegou = \lyricmode {
 }
 
 \version "2.18.2"  % necessary for upgrading to future LilyPond versions.
-'#(set-global-staff-size 20)
+#(set-global-staff-size 20)
 
 \book {
   \bookOutputName "circo_letra"
@@ -249,9 +249,8 @@ letrachegou = \lyricmode {
     <<
        \new Staff  {
           \new Voice = "letra" {
-               \intro
+              \unfoldRepeats
              \parteum
-             \partedois
            }
       }
   %           \new ChordNames 
@@ -261,4 +260,4 @@ letrachegou = \lyricmode {
     >>
            \include "../imprimirsoletras.ly"
   }
-}'
+}
