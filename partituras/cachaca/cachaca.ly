@@ -156,7 +156,11 @@ letradois = \lyricmode {
         \context Voice = "melodia" { 
             \easyHeadsOn
             \teeny
-		\transpose bes g' {\voiceOne \voztoda }}
+		\transpose bes g' {
+		  \voiceOne 
+		  \voztoda 
+        }
+        }
       \addlyrics { \letratoda}
       >>
       
