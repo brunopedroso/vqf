@@ -19,7 +19,7 @@
   \set Score.markFormatter = #format-mark-box-letters
 }
 
-melodiaprincipal =  \relative c'' {
+parteum =  \relative c'' {
   \clef "treble" \key as \major \time 2/4 | 
   \tempo 4=120 
   \repeat volta 2 {
@@ -55,6 +55,22 @@ melodiaprincipal =  \relative c'' {
   c4 c4 \bar "|."
 }
 
+letratoda = \lyricmode {
+  Night and stars above that shine so bright
+  The mys -- tery of their fad -- ing light
+  That shines upon our cara -- van
+  Sleep upon my shoulder as we creep
+  Across the sand so I may keep
+  The memory of our cara -- van
+  This is so ex -- cit -- ing
+  You are so in -- vit -- ing
+  Rest -- ing in my arms
+  As I thrill to the ma -- gic charms
+  Of you be -- side me here be -- neath the blue
+  My dream of love is com -- ing true
+  With -- in our desert cara -- van
+}
+
 \book {
   \bookOutputName "caravan_Eb"
   \header {
@@ -65,7 +81,7 @@ melodiaprincipal =  \relative c'' {
       \new Staff <<
       \new Voice = "saxalto" {
         \transpose bes g' {
-        \melodiaprincipal
+        \parteum
         }
       }
       >>
@@ -84,7 +100,7 @@ melodiaprincipal =  \relative c'' {
       \new Staff <<
       \new Voice = "trompete" {
         \transpose bes c' {
-          \melodiaprincipal
+          \parteum
         }
       }
       >>
@@ -102,7 +118,7 @@ melodiaprincipal =  \relative c'' {
     <<
       \new Staff <<
       \new Voice = "trombone" {
-        \melodiaprincipal
+        \parteum
       }
       >>
     >>
@@ -127,7 +143,7 @@ melodiaprincipal =  \relative c'' {
         \transpose bes g' {
           \easyHeadsOn
           \teeny
-        \melodiaprincipal
+        \parteum
         }
       }
       >>
@@ -141,7 +157,9 @@ melodiaprincipal =  \relative c'' {
   }
 }
 
-\version "2.18.2"'#(set-global-staff-size 20)
+\version "2.18.2"
+
+#(set-global-staff-size 20)
 
 \book {
   \bookOutputName "caravan_letra"
@@ -152,9 +170,8 @@ melodiaprincipal =  \relative c'' {
     <<
        \new Staff  {
           \new Voice = "letra" {
-               \intro
+            \unfoldRepeats
              \parteum
-             \partedois
            }
       }
   %           \new ChordNames 
@@ -164,4 +181,4 @@ melodiaprincipal =  \relative c'' {
     >>
            \include "../imprimirsoletras.ly"
   }
-}'
+}
