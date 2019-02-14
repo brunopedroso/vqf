@@ -1,5 +1,7 @@
 \include "../formatoversos.ly"
 \include "../nomedasnotas.ly"
+\include "../marcaspadronizadas.ly"
+
 #(set-global-staff-size 19)
 
 \header{
@@ -30,11 +32,11 @@ parteum = \relative c'' {
 
 letraum = \lyricmode {
  
-	(gar/garra) Dei xa-as á guas ro lar
-	As á guas vão ro lar
-	Gar ra fa chei a eu não que ro ver so brar
-	Eu pas so-a mão no sa ca sa ca sa ca ro lhas
-	E be bo-a té me a fo (gar)
+	(...gar/garra) Dei -- xa_as á -- guas ro -- lar
+	As á -- guas vão ro -- lar
+	Gar -- ra -- fa chei -- a eu não que -- ro ver so -- brar
+	Eu pas -- so_a mão no sa -- ca sa -- ca sa -- ca ro -- lhas
+	E be -- bo_a -- té,  me a -- fo -- (gar)
 }
 
 
@@ -56,13 +58,12 @@ partedois = \relative c' {
 }
 
 letradois = \lyricmode { 
-
-	Se-a po lí cia por is so me pren der
-	Mas na úl ti ma ho ra me sol tar
-	Eu pe go-o sa ca sa ca sa ca ro lhas
-	Nin guém me-a gar ra
-	Nin guém me-a gar-ra
-	(Dei xa-as...)
+  Se_a po  -- lí  -- cia  por  is  -- so  me  pren  -- der
+  Mas  na  úl  -- ti  -- ma  ho  -- ra  me  sol  -- tar
+  Eu  pe  -- go_o  sa  -- ca  sa  -- ca  sa  -- ca  ro  -- lhas
+  Nin  -- guém  me_a  -- gar  -- ra
+  Nin  -- guém  me_a  -- gar_ra
+  (Dei  -- xa_as...)
 }
 
 letratoda = {
