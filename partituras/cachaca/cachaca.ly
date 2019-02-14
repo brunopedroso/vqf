@@ -1,4 +1,6 @@
 \include "../formatoversos.ly"
+\include "../marcaspadronizadas.ly"
+\include "../nomedasnotas.ly"
 
 #(set-global-staff-size 16)
 
@@ -138,7 +140,42 @@ letradois = \lyricmode {
 }
 
 \version "2.18.2"  % necessary for upgrading to future LilyPond versions.
-'#(set-global-staff-size 20)
+
+#(set-global-staff-size 38)
+\book {
+  \bookOutputName "cachaca_Eb_notas"
+   \header{
+  }
+  \score {
+  <<
+    \new TimeSig	\compassoseparado
+    \new Staff {
+           \accidentalStyle Score.dodecaphonic
+      \set Staff.instrumentName = "Canto"
+      \context Staff <<
+        \context Voice = "melodia" { 
+            \easyHeadsOn
+            \teeny
+		\transpose bes g' {\voiceOne \voztoda }}
+      \addlyrics { \letratoda}
+      >>
+      
+    }
+
+  >>
+  
+  \layout {
+             \apertacompasso
+    \context {
+      \Voice
+      \consists \Gravador_nome_notas
+    } 	
+}
+  }
+}
+
+
+#(set-global-staff-size 20)
 
 \book {
   \bookOutputName "cachaca_letra"
@@ -149,10 +186,8 @@ letradois = \lyricmode {
     <<
        \new Staff  {
           \new Voice = "letra" {
-               \intro
-             \parteum
-             \partedois
-           }
+               \voztoda
+          }
       }
   %           \new ChordNames 
   %           \acordetodo
@@ -161,4 +196,4 @@ letradois = \lyricmode {
     >>
            \include "../imprimirsoletras.ly"
   }
-}'
+}
