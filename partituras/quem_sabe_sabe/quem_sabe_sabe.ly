@@ -1,5 +1,6 @@
 \include "../formatoversos.ly"
 \include "../nomedasnotas.ly"
+\include "../marcaspadronizadas.ly"
 
 #(set-global-staff-size 22)
 
@@ -32,13 +33,13 @@ parteum = \relative c' {
 letraum = \lyricmode {
  	
 	
-	Quem sa be sa be 
-	Co nhe ce bem 
-	Co mo-é gos to so 
-	Gos tar de-al guém
+	Quem sa -- be sa -- be 
+	Co -- nhe -- ce bem 
+	Co -- mo_é gos -- to -- so 
+	Gos -- tar de_al -- guém
 	
 	%Adicionado pela volta
-	Gos tar de-al guém
+	Gos -- tar de_al -- guém
 
 }
 
@@ -62,10 +63,10 @@ partedois = \relative c' {
 
 letradois = \lyricmode { 
 
-	Ai, mo re na 
-	Dei xa-eu gos tar de vo cê 
-	Bo ê mio sa be be ber 
-	Bo ê mio tam bém tem que rer
+	Ai, mo -- re -- na 
+	Dei -- xa_eu gos tar de vo -- cê 
+	Boê -- mio sa -- be -- be -- ber 
+	Boê -- mio tam -- bém tem que -- rer
 }
 
 letratoda = {
@@ -169,12 +170,18 @@ letratoda = {
   }
 	>>
 	\layout {
+% 	  \apertacompasso
 	\context {
 	\Voice
 	\consists \Gravador_nome_notas
 	}
- }
-}
+	\context {
+	  \Score
+	  \override SpacingSpanner.base-shortest-duration =
+	  #(ly:make-moment 1/4)
+	}
+     }
+  }
 }
 
 
@@ -191,7 +198,6 @@ letratoda = {
     <<
        \new Staff  {
           \new Voice = "letra" {
-               \intro
              \parteum
              \partedois
            }
