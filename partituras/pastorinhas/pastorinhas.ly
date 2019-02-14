@@ -1,9 +1,12 @@
 \include "../formatoversos.ly"
+\include "../marcaspadronizadas.ly"
+\include "../nomedasnotas.ly"
+
 #(set-global-staff-size 14)
 
 \header{
   title = "As Pastorinhas"
-  composer = "pastorinhas_letra"
+  composer = "Carlos Alberto Ferreira Braga / Noel Rosa"
 }
 
 parteum = \relative c' {
@@ -163,7 +166,47 @@ letratoda = {
 
 
 \version "2.18.2"  % necessary for upgrading to future LilyPond versions.
-#(set-global-staff-size 20)
+
+#(set-global-staff-size 38)
+\book {
+  \bookOutputName "pastorinhas_Eb_notas"
+  \header {
+    instrument = "Para instrumentos em Eb"
+  }
+  \score {
+    <<
+      \new TimeSig \compassoseparado
+      \new Staff {
+        \accidentalStyle Score.dodecaphonic
+        \new Voice = "saxalto" {
+          \transpose bes g {
+            \teeny
+            \easyHeadsOn
+            \parteum
+            \pulalinha
+            \partedois
+          }
+        }
+        \addlyrics \letratoda
+      }
+    >>
+    \layout {
+              \apertacompasso
+              \context {
+                        \Voice 
+                        \consists \Gravador_nome_notas
+              }
+              \context {
+                \Score
+                \override SpacingSpanner.base-shortest-duration =
+                      #(ly:make-moment 1/4)
+              }
+    }
+  }
+}
+
+
+#(set-global-staff-size 13)
 
 \book {
   \bookOutputName "pastorinhas_letra"
@@ -174,7 +217,6 @@ letratoda = {
     <<
        \new Staff  {
           \new Voice = "letra" {
-               \intro
              \parteum
              \partedois
            }
