@@ -1,4 +1,7 @@
 \include "../formatoversos.ly"
+\include "../marcaspadronizadas.ly"
+\include "../nomedasnotas.ly"
+
 #(set-global-staff-size 21)
 
 \header{
@@ -106,6 +109,7 @@ letratoda = {
   }
 }
 
+\book {
   \bookOutputName "bandeira_branca_C"
   \header {
     instrument = "Para instrumentos em C"
@@ -131,8 +135,41 @@ letratoda = {
   }
 }
 
+\book {
+  \bookOutputName "bandeira_branca_Eb_notas"
+  \header {
+    instrument = "Eb"
+  }
+  \score {
+    <<
+      \new TimeSig \compassoseparado
+      \accidentalStyle Score.dodecaphonic
+      \new Staff {
+        \new Voice = "sax alto" {
+          \transpose bes g' {
+            \teeny
+            \easyHeadsOn
+            \parteum
+            \partedois
+          }
+        }
+        \addlyrics \letratoda
+      }
+    >>
+    \layout {
+      \context {
+        \Voice
+        \consists \Gravador_nome_notas
+      }
+    }
+  }
+}
+
 \version "2.18.2" % necessary for upgrading to future LilyPond versions.
-'#(set-global-staff-size 20)
+
+
+
+#(set-global-staff-size 20)
 
 \book {
   \bookOutputName "bandeira_branca_letra"
