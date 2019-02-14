@@ -254,6 +254,44 @@ saxalto =  \relative a' {
   }
 }
 
+letratoda = \lyricmode {
+  Nes -- te mun -- do de mi -- sé -- ri -- as
+  Quem im -- pe -- ra
+  É quem é mais fol -- ga -- zão
+  É quem sa -- be cor -- tar ja -- ca
+  Nos re -- que -- bros
+  De su -- pre -- ma, per -- fei -- ção, per -- fei -- ção
+  Ai, ai, co -- mo é bom dan -- çar, ai!
+  Cor -- ta-ja -- ca as -- sim, as -- sim, as -- sim
+  Me -- xe com o pé!
+  Ai, ai, tem fei -- ti -- ço tem, ai!
+  Cor -- ta meu ben -- zi -- nho as -- sim, as -- sim!
+  Es -- ta dan -- ça é bu -- li -- ço -- sa
+  Tão den -- go -- sa
+  Que to -- dos que -- rem dan -- çar
+  Não há ri -- cas ba -- ro -- ne -- sas
+  Nem mar -- que -- sas
+  Que não sai -- bam re -- que -- brar, re -- que -- brar
+  Es -- te pas -- so tem fei -- ti -- ço
+  Tal ou -- ri -- ço
+  Faz qual -- quer ho -- mem coió
+  Não há ve -- lho car -- ran -- cu -- do
+  Nem si -- su -- do
+  Que não caia em tro -- lo -- ló, tro -- lo -- ló
+  Quem me vir as -- sim ale -- gre
+  No Fla -- men -- go
+  Por cer -- to se há de ren -- der
+  Não re -- sis -- te com cer -- te -- za
+  Com cer -- te -- za
+  Es -- te jei -- to de me -- xer
+  Um fla -- men -- go tão gos -- to -- so
+  Tão rui -- do -- so
+  Va -- le bem meia-pa -- ta -- ca
+  Di -- zem to -- dos que na pon -- ta
+  Es -- tá na pon -- ta
+  Nos -- sa dan -- ça cor -- ta-ja -- ca, cor -- ta-ja -- ca!
+}
+
 % The score definition
 \score {
   <<
@@ -380,4 +418,29 @@ saxalto =  \relative a' {
     }
 	}
      }    
+}
+
+#(set-global-staff-size 14)
+
+\book {
+  \bookOutputName "corta_jaca_letra"
+  \header {
+     instrument = "Letra e Acordes"
+  }
+   \score {
+    <<
+       \new Staff  {
+          \new Voice = "letratoda" {
+%                \intro
+             \saxalto
+%              \partedois
+           }
+      }
+  %           \new ChordNames 
+  %           \acordetodo
+             \new Lyrics
+             \lyricsto "letratoda" \letratoda
+    >>
+           \include "../imprimirsoletras.ly"
+  }
 }
