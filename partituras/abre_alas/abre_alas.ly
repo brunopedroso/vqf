@@ -6,7 +6,7 @@
   composer =  "Chiquinha Gonzaga"
 }
 
-musica = \relative c' {
+parteum = \relative c' {
         \time 2/4
 	\clef G
 	\key d \minor
@@ -15,7 +15,7 @@ musica = \relative c' {
   	e d4 f8~ |
   	f8 e d cis |
   	d2 |
-	%\bar "abre_alas_letra"
+	%\bar "abre_alas_letratoda"
 	\break
   	}
   	}
@@ -24,7 +24,7 @@ musica = \relative c' {
 	c bes4 d8~ |
 	d d c bes |
 	a2 
-	%\bar "abre_alas_letra"
+	%\bar "abre_alas_letratoda"
 	\break
 
 	r8 a cis e |
@@ -35,7 +35,7 @@ musica = \relative c' {
 
 }
 
-letra = \lyricmode { 
+letratoda = \lyricmode { 
 	Ô  a  bre   a  las   que-eu   que  ro   pas  sar  
 	Ô  a  bre   a  las   que-eu   que  ro   pas  sar  
 	Eu   sou   da   li  ra   não   pos  so   ne  gar
@@ -53,12 +53,12 @@ letra = \lyricmode {
 	\new Staff {
 	\new Voice = "um" {
 		\transpose bes g' {
-			\musica
+			\parteum
 		}
 	}
 	}
 	\new Lyrics \lyricsto "um" {
-        \letra
+        \letratoda
     }
 	>>
 }
@@ -75,12 +75,12 @@ letra = \lyricmode {
 	\new Staff {
 	\new Voice = "um" {
 		\transpose c d {
-			\musica
+			\parteum
 		}
 	}
 	}
 	\new Lyrics \lyricsto "um" {
-        \letra
+        \letratoda
     }
 	>>
 }
@@ -96,11 +96,11 @@ letra = \lyricmode {
         \new Staff {
 	\new Voice = "um" {
 		\transpose c c {
-			\musica
+			\parteum
 		}
 	}
 	\addlyrics {
-        \letra
+        \letratoda
     }
         }
 	>>
@@ -131,12 +131,12 @@ letra = \lyricmode {
 		\transpose bes g' {
 		  \easyHeadsOn
 		  \teeny
-			\musica
+			\parteum
 		}
 	}
 	}
 	\new Lyrics \lyricsto "um" {
-        \letra
+        \letratoda
     }
 	>>
 	\layout {
@@ -154,7 +154,7 @@ letra = \lyricmode {
 
 
 \version "2.18.2"  % necessary for upgrading to future LilyPond versions.
-'#(set-global-staff-size 20)
+#(set-global-staff-size 20)
 
 \book {
   \bookOutputName "abre_alas_letra"
@@ -164,17 +164,17 @@ letra = \lyricmode {
    \score {
     <<
        \new Staff  {
-          \new Voice = "letra" {
-               \intro
+          \new Voice = "letratoda" {
+%                \intro
              \parteum
-             \partedois
+%              \partedois
            }
       }
   %           \new ChordNames 
   %           \acordetodo
              \new Lyrics
-             \lyricsto "letra" \letratoda
+             \lyricsto "letratoda" \letratoda
     >>
            \include "../imprimirsoletras.ly"
   }
-}'
+}
