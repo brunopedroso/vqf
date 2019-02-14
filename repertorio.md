@@ -55,6 +55,8 @@ tons:
 ## Repertório
 
   <a href='repertorio_lista'>Lista pra imprimir</a>
+  
+  <a href='repertorio_casorio'>Lista do casório</a>
 
 
   <h4>Songbooks</h4>

@@ -1,0 +1,153 @@
+blocos:
+  - nome: "Lento"
+    musicas:
+      - nome: 'The fool on the hill (C)'
+      - nome: 'O trenzinho do caipira (C)'
+
+  - nome: "No Beijo"
+    musicas:
+      - nome: 'Paula e Bebeto (G)'
+
+  - nome: "African"
+    musicas:
+      - nome: 'African Marketplace (F)'
+      - nome: 'Caravan (Fm)'
+
+  - nome: "Pierrot"
+    musicas:
+      - nome: 'Pierrot Apaixonado (Bb)'
+      - nome: 'Jardineira (Bb)'
+      - nome: 'Aurora (Bb)'
+      - nome: 'Alalaô (Bb)'
+      - nome: 'Mamãe eu quero (Bb)'
+   
+  - nome: 'Afoxés'
+    musicas:
+    - nome: 'A volta do Malandro (Bb)'
+    - nome: 'Um canto de afoxé para o bloco do Ilê (Bb)'
+    - nome: 'A Rã (Dm)'
+    - nome: 'Emoriô (Dm)'
+    - nome: 'Bananeira (Gm)'
+   
+  - nome: 'Latinas'
+    musicas:
+    - nome: 'Chan Chan (Dm)'
+    - nome: 'Cariñito'
+    - nome: 'Moliendo Café (Cm)'
+   
+  - nome: 'Balancê'
+    musicas:
+      - nome: 'Chuva Suor e Cerveja (C)'
+      - nome: 'O Balancê (F)'
+      - nome: 'Pegando fogo (F)'
+      - nome: 'Mulata bossa nova (F)'
+
+  - nome: 'Bituca'
+    musicas:
+      - nome: 'Ângelus (C)'
+      - nome: 'Bola de Meia (G)'
+
+  - nome: 'Maxixes'
+    musicas:
+      - nome: 'Corta Jaca (Dm)'
+      - nome: 'Folia de Reis (F)'
+      - nome: 'Benguelê (F)'
+   
+  - nome: 'Frevos'
+    musicas:
+      - nome: 'Madeira que Cupim não Rói (Em)'
+      - nome: 'Frevo e Ciranda (Em)'
+      - nome: 'Cabelo de fogo (Cm)'
+
+  - nome: 'Cachaça'
+    musicas:
+      - nome: 'Cachaça (Bb)'
+      - nome: 'Me dá um dinheiro aí (Bb)'
+      - nome: 'Marcha da Cueca (Bb)'
+      - nome: 'Vassourinhas (Bb)'
+
+  - nome: 'Gypsi'
+    musicas:
+      - nome: 'Blues Cigano (Dm)'
+      - nome: 'Tetris (Am)'
+      - nome: 'Pé na tuba (Am)'
+   
+  - nome: 'Pastorinhas'
+    musicas:
+      - nome: 'Pastorinhas (Gm)'
+      - nome: 'Taí (Gm)'
+      - nome: 'Quem sabe sabe (Gm)'
+      - nome: 'Saca-rolhas (Gm)'
+      - nome: 'Índio quer apito (Gm)'
+   
+  - nome: 'Pescadores'
+    musicas:
+      - nome: 'Marcha dos Pescadores (Dm)'
+      - nome: 'Eu Vi Mamãe Oxum na Cachoeira (Dm)'
+      - nome: 'O Abre Alas (Dm)'
+      - nome: 'Touradas em Madri (Dm)'
+      - nome: 'Turma do Funil (Dm)'
+
+  - nome: 'Pecado'
+    musicas:
+      - nome: 'Não existe pecado do lado de baixo do equador (C)'
+      - nome: 'Boi voador não pode (C)'
+      - nome: 'Festa do interior (C)'
+
+  - nome: 'Comportamento'
+    musicas:
+      - nome: 'Comportamento Geral (Fm)'
+      - nome: 'Bela Ciao (Fm)'
+
+  - nome: 'Saideira'
+    musicas:
+      - nome: 'Bandeira Branca (Dm)'
+   
+  - nome: 'Desencaixadas'
+    musicas:
+      - nome: 'Autumn leaves (Am)'
+      - nome: 'Pra tirar côco (Am)'
+      - nome: 'Haitian Fight Song (Gm)'
+
+
+  - nome: "Sambas"
+    musicas:
+      - nome: 'Fita Amarela (Dm)'
+        autor: 'Noel Rosa'
+        inicio: 'Quando eu morrer'
+      - nome: 'Filosofia (Dm)'
+        autor: 'Noel Rosa'
+        inicio: 'O mundo me condena'
+      - nome: 'Na cadência so Samba (Dm)'
+        autor: 'Novos Baianos'
+        inicio: 'Sei que vou morrer não sei o dia'
+      
+      - nome: 'Me deixa em paz (Gm)'
+        autor: 'Monsueto'
+        inicio: 'Se você não me queria'
+      - nome: 'Sem compromisso (Gm)'
+        autor: 'Chico Buarque'
+        inicio: 'Você só dança com ele'
+
+      - nome: 'Direito de sambar (Cm)'
+        autor: 'Batatinha'
+        inicio: 'É proibido sonhar'
+      - nome: 'Imitação (Cm)'
+        autor: 'Batatinha'
+        inicio: 'Ninguém sabe quem sou eu'
+
+      - nome: 'Felicidade (G)'
+        autor: 'Tom Jobim'
+        inicio: 'Tristeza não tem fim'
+
+      - nome: 'Aquarela do Brasil (F)'
+        autor: 'Ari Barroso'
+        inicio: 'Brasil, meu Brasil brasileiro'
+      - nome: 'Isso aqui o que é (F)'
+        autor: 'Ari Barroso'
+        inicio: 'Isso aqui ô ô'
+      - nome: 'O Bêbado e a equilibrista (F)'
+        autor: 'João Bosco'
+        inicio: 'Caía a tarde feito um viaduto'
+
+
