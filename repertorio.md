@@ -26,13 +26,7 @@ tons:
 ## Ensaios
 
 <pre>
-  FEVEREIRO/2019
-
-    ter 5  - Ensaio de noite
-
-    sab 9  - Ensaio e aniversário da Camila (perto da 206. Teremos cortejo no final)
-    
-    ter 12 - Ensaio de noite
+  FEVEREIRO
 
     sex 15 - Tapera
     sab 16 - Casamento na ponta do Lago norte
@@ -44,26 +38,49 @@ tons:
 
     ter 26 - Ensaio de noite
 
-  MAR
+  MARÇO
+
     2 - !!! SÁBADO DE CARNAVAL !!!
+
     4 - !!! SEGUNDA DE CARNAVAL !!!
+
 </pre>
 
-## Playlist do repertório
-<iframe style="width: 100%; height: 90px;" scrolling="no" src="https://midia.borges.net.br:9093/share.php?id=2&amp;secret=vqf2019carnaval&amp;embed=true"></iframe>
 
-## Repertório
+####  Vídeos Tamborins Ensaio 10/02
 
-  <a href='repertorio_lista'>Lista pra imprimir</a>
-  
-  <a href='repertorio_casorio'>Lista do casório</a>
+[Treino Marchinha (1)](https://youtu.be/q1Ac5wB05eY)
+
+[Treino Marchinha (2)](https://youtu.be/qX5AbzGiJSc)
+
+[Afoxé A Rã (Bloco dos Afoxés)](https://youtu.be/FqPNEDHpnWc)
+
+[Treino várias batidas](https://youtu.be/YC3c9CTcyLk)
+
+[Treino de munheca](https://youtu.be/ncaB95APCnE)
 
 
-  <h4>Songbooks</h4>
+
+#### Songboogs
 
   {% for tom in page.tons  %}
   <a href='partituras/songbooks/songbook{{ tom }}.pdf' target='_blank'>Songboog em {{ tom }}</a><br/>
   {% endfor %}
+
+
+#### Listas Para Impressão
+
+  <a href='repertorio_lista'>Repertório Carnaval</a>
+  
+  <a href='repertorio_casorio'>Lista do Casório</a>
+
+
+#### Playlist do Repertório
+
+<iframe style="width: 100%; height: 90px;" scrolling="no" src="https://midia.borges.net.br:9093/share.php?id=2&amp;secret=vqf2019carnaval&amp;embed=true"></iframe>
+
+
+## Repertório Completo
 
   <table>
 
@@ -112,22 +129,5 @@ tons:
 
 
   </table>
-
-####  VÍDEOS TAMBORINS ENSAIO 10/02
-
-[Treino Marchinha (1)](https://youtu.be/q1Ac5wB05eY)
-
-
-[Treino Marchinha (2)](https://youtu.be/qX5AbzGiJSc)
-
-
-[Afoxé A Rã (Bloco dos Afoxés)](https://youtu.be/FqPNEDHpnWc)
-
-
-[Treino várias batidas](https://youtu.be/YC3c9CTcyLk)
-
-
-[Treino de munheca](https://youtu.be/ncaB95APCnE)
-
 
 
