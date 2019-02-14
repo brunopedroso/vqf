@@ -1,5 +1,6 @@
 \include "../formatoversos.ly"
 \include "../marcaspadronizadas.ly"
+\include "../nomedasnotas.ly"
 
 \header {
    title = "Benguelê"
@@ -136,7 +137,32 @@ letratres = \lyricmode {
 
 }
 
+letratoda = \lyricmode {
+  \letraum
+  \letradois
+  \letratres
+}
 
+\score {
+  <<
+  \new Voice = "um" {
+    \time 2/4
+    \transpose g' g' {
+      \intro
+      \parteum
+      \partedois
+      \partetres
+    }
+  }
+  >>
+  \midi {
+    \tempo 4 = 100
+    \context {
+      \Voice
+      \consists "Staff_performer"
+    }
+  }
+}
 
 \book {
   \bookOutputSuffix "C"
@@ -346,23 +372,132 @@ letratres = \lyricmode {
 }
 
 
-\score {
-  <<
+
+
+#(set-global-staff-size 30)
+
+\book {
+  \bookOutputSuffix "Eb_notas"
+  \header {
+   instrument = "Melodia - Instrumentos em Eb"
+  }
+
+  \markup { \vspace #1 }
+
+  \score {
+    <<
+        \accidentalStyle Score.dodecaphonic
   \new Voice = "um" {
     \time 2/4
-    \transpose g' g' {
-      \intro
-      \parteum
-      \partedois
-      \partetres
+    \transpose bes g' {
+       \easyHeadsOn
+        \teeny
+        \intro
+      }
+    }
+    >>
+       \layout {
+      \apertacompasso
+
+	  \context {
+      \Voice
+      \consists \Gravador_nome_notas
+    }
+        \context {
+      \Score 
+      \override SpacingSpanner.base-shortest-duration = #(ly:make-moment 1/4)
+	}
     }
   }
-  >>
-  \midi {
-    \tempo 4 = 100
-    \context {
+
+  \markup { \vspace #1 }
+
+  \score {
+    <<
+         \accidentalStyle Score.dodecaphonic
+  \new Voice = "um" {
+    \time 2/4
+    \transpose bes g' {
+       \easyHeadsOn
+        \teeny
+        \parteum
+      }
+    }
+    \new Lyrics \lyricsto "um" {
+      \letraum
+    }
+    >>
+       \layout {
+      \apertacompasso
+
+	  \context {
       \Voice
-      \consists "Staff_performer"
+      \consists \Gravador_nome_notas
+    }
+        \context {
+      \Score 
+      \override SpacingSpanner.base-shortest-duration = #(ly:make-moment 1/4)
+	}
+    }
+  }
+
+  \markup { \vspace #1 }
+
+  \score {
+    <<
+     \accidentalStyle Score.dodecaphonic
+  \new Voice = "um" {
+    \time 2/4
+    \transpose bes g' {
+       \easyHeadsOn
+        \teeny        \partedois
+      }
+    }
+    \new Lyrics \lyricsto "um" {
+      \letradois
+    }
+    >>
+       \layout {
+      \apertacompasso
+	  \context {
+      \Voice
+      \consists \Gravador_nome_notas
+    }
+        \context {
+      \Score 
+      \override SpacingSpanner.base-shortest-duration = #(ly:make-moment 1/4)
+	}
+    }
+  }
+
+  \markup { \vspace #1 }
+
+  \score {
+    <<
+     \accidentalStyle Score.dodecaphonic
+    \new Voice = "um" {
+        \time 2/4
+        \transpose bes g' {
+       \easyHeadsOn
+        \teeny        \partetres
+      }
+    }
+    \new Lyrics \lyricsto "um" {
+      \letratres
+    }
+
+    >>
+    \layout {
+      \apertacompasso
+
+	  \context {
+      \Voice
+      \consists \Gravador_nome_notas
+    }
+        \context {
+      \Score 
+      \override SpacingSpanner.base-shortest-duration = #(ly:make-moment 1/4)
+	}
     }
   }
 }
@@ -370,7 +505,7 @@ letratres = \lyricmode {
 
 
 \version "2.18.2"  % necessary for upgrading to future LilyPond versions.
-'#(set-global-staff-size 20)
+#(set-global-staff-size 20)
 
 \book {
   \bookOutputName "benguele_letra"
@@ -393,4 +528,4 @@ letratres = \lyricmode {
     >>
            \include "../imprimirsoletras.ly"
   }
-}'
+}
