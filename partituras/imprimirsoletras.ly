@@ -5,6 +5,9 @@
         indent = #30
         short-indent = #30
         \override NoteHead #'transparent = ##t
+        \override KeySignature #'transparent = ##t
+        \override TupletBracket #'transparent = ##t
+        \override TupletNumber #'transparent = ##t
         \override Stem #'transparent = ##t
         \override Dots #'transparent = ##t
         \override Accidental #'transparent = ##t
