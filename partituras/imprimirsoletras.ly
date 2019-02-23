@@ -29,7 +29,8 @@
                   \override LyricText.font-size = #16
                   \override LyricSpace.font-size = #16 
                   \override LyricHyphen.font-size = #13
-        }
+                  \override KeySignature #'transparent = ##t
+         }
         \context { 
                   \Voice
                   \hide Tie

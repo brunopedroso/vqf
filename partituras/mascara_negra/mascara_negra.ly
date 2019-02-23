@@ -23,10 +23,11 @@ parteum = \relative c' {
 
 letraum = \lyricmode {
  	
-	Quan to ri so oh quan ta-a le gri a 
-	Mais de mil pa lha ços no sa lã ão  
-	Ar le quim es tá cho ran do pe lo-a mor da Co lom bi na 
-	No mei o da mul ti dão	
+	Quan -- to ri -- so, oh! Quan -- ta_a -- le -- gri -- a! 
+	Mais de mil pa -- lha -- ços no sa -- lã -- ão! 
+	Ar -- le -- quim es -- tá cho -- ran -- do 
+	pe -- lo_a -- mor da Co -- lom -- bi -- na 
+	No mei -- o da mul -- ti -- dão!	
 
 
 }
@@ -75,24 +76,24 @@ partedois = \relative c'' {
 
 letradois = \lyricmode { 
 
-	Foi bom te ver ou tra vez 
-	Tá fa zen do um a no 
-	Foi no car na val que pas sou 
+	Foi bom te ver ou tra -- vez, 
+	Está fa -- zen -- do um a -- no, 
+	Foi no car -- na -- val que pas -- sou! 
 	
-	Eu sou a que le Pier rô 
-	Que te-a bra çou e te bei jou meu a mor 
+	Eu sou a -- que -- le Pier -- rô, 
+	Que te_a -- bra -- çou e te bei -- jou meu a -- mor! 
 
-	Na mes ma más ca ra ne gra  
-	Que-es con de-o teu ros to 
-	Eu que ro ma tar a sau da de 
+	Na mes -- ma más -- ca -- ra ne -- gra  
+	Que_es -- con -- de_o teu ros -- to, 
+	Eu que -- ro ma -- tar a sau -- da -- de! 
 	
-	Vou bei jar te-a go ra 
-	Não me le ve-a mal  
-	Ho je-é car na val 
+	Vou bei -- jar te_a -- go -- ra, 
+	Não me le -- ve_a mal,  
+	Ho -- je_é car --  na -- val! 
 	
-	Vou bei jar te-a go ra 
-	Não me le ve-a mal  
-	Ho je-é car na val	
+	Vou bei -- jar te_a -- go -- ra,
+	Não me le -- ve_a mal,  
+	Ho -- je_é car -- na -- val!
 
 
 }
@@ -223,7 +224,7 @@ partedoisclarinete = {
 
 
 \version "2.18.2"  % necessary for upgrading to future LilyPond versions.
-#(set-global-staff-size 20)
+#(set-global-staff-size 16)
 
 \book {
   \bookOutputName "mascara_negra_letra"
@@ -236,6 +237,7 @@ partedoisclarinete = {
           \new Voice = "letra" {
                \intro
              \parteum
+             \unfoldRepeats
              \partedois
            }
       }
