@@ -1,3 +1,5 @@
+\version "2.18.2"  % necessary for upgrading to future LilyPond versions
+
 \include "../formatoversos.ly"
 \include "../nomedasnotas.ly"
 
@@ -104,7 +106,40 @@ letratoda = {
 }
 
 parteumsaxalto = {
-  \transpose c c' {\parteum}
+  \transpose c c' {
+  \parteum
+  }
+}
+
+
+acordesum = \chordmode {
+	\time 2/4
+%	s2 s2
+	\partial 4 { f4 } |
+	f2 | bes:m | c:7 | f |
+	f   | f:7   | bes:maj | bes:maj |
+	bes:maj | bes:m7 | a:m7 | d:7    |
+	g:m7   | c:7  | f | f 
+	
+}
+
+acordesdois = \chordmode {
+	f2 | gis:dim | g:m7 | g:m7 |
+	c:7 | c:7 | f | c:7 |
+	f | gis:dim | g:m7 | g:m7 |
+	c:7 | c:7   | f    | c:7   |
+% parte final do refrão
+	f  | gis:dim | g:m7 | g:m7 |
+	c:7 | c:7 | c:m7  | f:7 | 
+	bes:maj | b:m7 | a:m7 | d:7 |
+	g:m7 | c:7 | f | f:7 |
+	 bes:maj | b:m7 | a:m7 | d:7 |
+	g:m7 | c:7 | f |
+	 }
+
+acordetodo = \chordmode {
+	\acordesum
+	\acordesdois
 }
 
 partedoisclarinete = {
@@ -223,7 +258,6 @@ partedoisclarinete = {
 }
 
 
-\version "2.18.2"  % necessary for upgrading to future LilyPond versions.
 #(set-global-staff-size 16)
 
 \book {
@@ -235,14 +269,16 @@ partedoisclarinete = {
     <<
        \new Staff  {
           \new Voice = "letra" {
-               \intro
+ %            \intro
              \parteum
              \unfoldRepeats
              \partedois
            }
       }
-  %           \new ChordNames 
-  %           \acordetodo
+             \new ChordNames \with {               
+               \consists "Bar_engraver"
+               }
+             \acordetodo
              \new Lyrics
              \lyricsto "letra" \letratoda
     >>

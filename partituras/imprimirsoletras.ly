@@ -26,8 +26,8 @@
                  \remove "Bar_number_engraver" 
                   \remove "Volta_engraver" 
                   \override SpacingSpanner.base-shortest-duration = #(ly:make-moment 1/128)
-                  \override LyricText.font-size = #16
-                  \override LyricSpace.font-size = #16 
+                  \override LyricText.font-size = #14
+                  \override LyricSpace.font-size = #14
                   \override LyricHyphen.font-size = #13
                   \override KeySignature #'transparent = ##t
          }
@@ -37,11 +37,13 @@
                             }
         \context {
                  \ChordNames
-                 \override ChordName #'font-size = #13
+                 \set majorSevenSymbol = \markup { 7+ }                
+                 \override BarLine.bar-extent = #'(-2 . 2)             
+                 \override ChordName #'font-size = #14
 %                  \override ChordName #'font-series = #'bold
-                  \override VerticalAxisGroup.nonstaff-nonstaff-spacing =
+               \override VerticalAxisGroup.nonstaff-nonstaff-spacing =
                                 #'((basic-distance . 5)
-                                   (stretchability . 10)
+                                   (stretchability . 10)/
                                    (minimum-distance . 5)
                                     (padding . 5))
             
