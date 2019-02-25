@@ -258,7 +258,7 @@ partedoisclarinete = {
 }
 
 
-#(set-global-staff-size 16)
+#(set-global-staff-size 15)
 
 \book {
   \bookOutputName "mascara_negra_letra"

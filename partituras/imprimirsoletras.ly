@@ -2,8 +2,8 @@
 
 
 \layout {
-        indent = #30
-        short-indent = #30
+        indent = #25
+        short-indent = #25
         \override NoteHead #'transparent = ##t
         \override KeySignature #'transparent = ##t
         \override TupletBracket #'transparent = ##t
@@ -39,7 +39,7 @@
                  \ChordNames
                  \set majorSevenSymbol = \markup { 7+ }                
                  \override BarLine.bar-extent = #'(-2 . 2)             
-                 \override ChordName #'font-size = #14
+                 \override ChordName #'font-size = #13
 %                  \override ChordName #'font-series = #'bold
                \override VerticalAxisGroup.nonstaff-nonstaff-spacing =
                                 #'((basic-distance . 5)
