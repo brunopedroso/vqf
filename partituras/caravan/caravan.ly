@@ -56,12 +56,11 @@ parteum =  \relative c'' {
 }
 
 letratoda = \lyricmode {
-  Night and stars above that shine so bright
+  Night and stars a -- bove that shine so bright
   The mys -- tery of their fad -- ing light
-  That shines upon our cara -- van
-  Sleep upon my shoulder as we creep
-  Across the sand so I may keep
-  The memory of our cara -- van
+  That shines up -- on our ca -- ra -- van
+  _ _ _ _ _ _ _ _ _ _ _ 
+  _ _ _ _ _ _ _ _ _ _ _  _
   This is so ex -- cit -- ing
   You are so in -- vit -- ing
   Rest -- ing in my arms
@@ -71,6 +70,22 @@ letratoda = \lyricmode {
   With -- in our desert cara -- van
 }
 
+letratodacorde = \lyricmode {
+    Night and stars a -- bove that shine so bright
+  The mys -- tery of their fad -- ing light
+  That shines up -- on our ca -- ra -- van
+   Sleep up -- on my shoul -- der as we creep
+   A -- cross the sand so I may keep
+   The me -- mory of our cara -- van
+   _
+  This is so ex -- cit -- ing
+  You are so in -- vit -- ing
+  Rest -- ing in my arms
+  As I thrill to the ma % -- gic charms
+%   Of you be -- side me here be -- neath the blue
+%   My dream of love is com -- ing true
+%   With -- in our desert cara -- van
+}
 \book {
   \bookOutputName "caravan_Eb"
   \header {
@@ -120,6 +135,7 @@ letratoda = \lyricmode {
       \new Voice = "trombone" {
         \parteum
       }
+              \addlyrics \letratoda
       >>
     >>
     \layout {}
@@ -159,7 +175,9 @@ letratoda = \lyricmode {
 
 \version "2.18.2"
 
-#(set-global-staff-size 20)
+\include "cifra_caravan.ly"
+
+#(set-global-staff-size 14)
 
 \book {
   \bookOutputName "caravan_letra"
@@ -174,10 +192,12 @@ letratoda = \lyricmode {
              \parteum
            }
       }
-  %           \new ChordNames 
-  %           \acordetodo
+             \new ChordNames \with {               
+               \consists "Bar_engraver"
+               }
+             \acordetodo
              \new Lyrics
-             \lyricsto "letra" \letratoda
+             \lyricsto "letra" \letratodacorde
     >>
            \include "../imprimirsoletras.ly"
   }
