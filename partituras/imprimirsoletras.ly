@@ -2,6 +2,7 @@
 
 
 \layout {
+        #(layout-set-staff-size 6)
         indent = #25
         short-indent = #25
         \override NoteHead #'transparent = ##t
@@ -17,10 +18,6 @@
         \omit Staff.Clef
         \hide Staff.BarLine
         \hide Staff.Rest
-        \context {
-          \Staff
-              #(layout-set-staff-size 6)
-        }
         \context { 
                  \Score
                  \remove "Bar_number_engraver" 
