@@ -66,6 +66,8 @@ Em suma: por favor, por favor, por favor. Me ajudem. Confiem em mim. Não porque
 
 ----
 
+#### Combinados
+
 Isto posto, o que tenho a dizer não é muito e nem novo. Apenas pretende agora estar reunido e, de certo modo, documentado para que todos possam ler a qualquer tempo:
 
 **1) Precisamos andar 'blocados'** - em 2 ou 3 filas, dependendo do espaço que tivermos. Temos que nos dar espaço suficiente pra se mexer, mas não espaço o bastante pra que algum folião se coloque e permaneça entre nós. Passar de vez em quando tudo bem. Passar toda hora, ou ficar no meio é foda!
