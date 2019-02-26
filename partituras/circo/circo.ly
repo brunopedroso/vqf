@@ -237,8 +237,9 @@ letratoda = \lyricmode {
 		 }
 }
 
+\include "cifra_circo.ly"
 \version "2.18.2"  % necessary for upgrading to future LilyPond versions.
-#(set-global-staff-size 20)
+#(set-global-staff-size 15)
 
 \book {
   \bookOutputName "circo_letra"
@@ -253,8 +254,8 @@ letratoda = \lyricmode {
              \parteum
            }
       }
-  %           \new ChordNames 
-  %           \acordetodo
+             \new ChordNames 
+             \acordetodo
              \new Lyrics
              \lyricsto "letra" \letratoda
     >>
