@@ -34,7 +34,7 @@
                             }
         \context {
                  \ChordNames
-                 \set majorSevenSymbol = \markup { 7+ }                
+                 \set majorSevenSymbol = \markup { 7M }                
                  \override BarLine.bar-extent = #'(-2 . 2)             
                  \override ChordName #'font-size = #13
 %                  \override ChordName #'font-series = #'bold
