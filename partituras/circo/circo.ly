@@ -254,7 +254,9 @@ letratoda = \lyricmode {
              \parteum
            }
       }
-             \new ChordNames 
+             \new ChordNames \with {               
+               \consists "Bar_engraver"
+               }
              \acordetodo
              \new Lyrics
              \lyricsto "letra" \letratoda
