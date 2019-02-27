@@ -152,9 +152,10 @@ letratoda = \lyricmode {
 }
 }
 
+\include "cifra_abre_alas.ly"
 
 \version "2.18.2"  % necessary for upgrading to future LilyPond versions.
-#(set-global-staff-size 20)
+#(set-global-staff-size 15)
 
 \book {
   \bookOutputName "abre_alas_letra"
@@ -170,8 +171,10 @@ letratoda = \lyricmode {
 %              \partedois
            }
       }
-  %           \new ChordNames 
-  %           \acordetodo
+             \new ChordNames \with {               
+               \consists "Bar_engraver"
+               }
+             \acordetodo
              \new Lyrics
              \lyricsto "letratoda" \letratoda
     >>
