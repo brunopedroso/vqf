@@ -290,6 +290,33 @@ blocos:
           'bb-letra': 'partituras/trenzinho/trenzinho_Bb.pdf'
           'midi': 'partituras/trenzinho/trenzinho_C.midi'
 
+  - nome: "Gypsi"
+    musicas:
+      - nome: 'Blues Cigano (Dm)'
+        links:
+          'c': 'partituras/blues_cigano/blues_cigano_C.pdf'
+          'bb': 'partituras/blues_cigano/blues_cigano_Bb.pdf'
+          'eb': 'partituras/blues_cigano/blues_cigano_Eb.pdf'
+          'Tuba': 'partituras/blues_cigano/blues_cigano_C_Tuba.pdf'
+          'ebnotas':  'partituras/blues_cigano/blues_cigano_Eb_notas.pdf'
+          'letra': 'partituras/blues_cigano/blues_cigano_letra.pdf'
+          'midi': 'partituras/blues_cigano/blues_cigano_C.midi'
+
+      - nome: 'Tetris (Am)'
+        links:
+          'c': 'partituras/tetris/tetris_C.pdf'
+          'bb': 'partituras/tetris/tetris_Bb.pdf'
+          'eb': 'partituras/tetris/tetris_Eb.pdf'
+          'Tuba': 'partituras/tetris/tetris_C_Tuba.pdf'
+          'ebnotas':  'partituras/tetris/tetris_Eb_notas.pdf'
+          'letra': 'partituras/tetris/tetris_letra.pdf'
+          'midi': 'partituras/tetris/tetris_C.midi'
+
+      - nome: 'Pé na tuba (Am)'
+        links:
+          'gravacao': 'partituras/pe_na_tuba/pe_na_tuba.mp3'
+          'juntos': 'partituras/pe_na_tuba/pe_na_tuba_juntos.pdf'
+          'separ': 'partituras/pe_na_tuba/pe_na_tuba_separados.pdf'
 
   - nome: "Pecado"
     musicas:
@@ -403,36 +430,6 @@ blocos:
           'eb': 'partituras/paula_e_bebeto/paula_e_bebeto_Eb.pdf'
           'ebnotas': 'partituras/paula_e_bebeto/paula_e_bebeto_Eb_notas.pdf'
           'letra': 'partituras/paula_e_bebeto/paula_e_bebeto_letra.pdf'
-
-
-  - nome: "Gypsi"
-    musicas:
-      - nome: 'Blues Cigano (Dm)'
-        links:
-          'c': 'partituras/blues_cigano/blues_cigano_C.pdf'
-          'bb': 'partituras/blues_cigano/blues_cigano_Bb.pdf'
-          'eb': 'partituras/blues_cigano/blues_cigano_Eb.pdf'
-          'Tuba': 'partituras/blues_cigano/blues_cigano_C_Tuba.pdf'
-          'ebnotas':  'partituras/blues_cigano/blues_cigano_Eb_notas.pdf'
-          'letra': 'partituras/blues_cigano/blues_cigano_letra.pdf'
-          'midi': 'partituras/blues_cigano/blues_cigano_C.midi'
-
-      - nome: 'Tetris (Am)'
-        links:
-          'c': 'partituras/tetris/tetris_C.pdf'
-          'bb': 'partituras/tetris/tetris_Bb.pdf'
-          'eb': 'partituras/tetris/tetris_Eb.pdf'
-          'Tuba': 'partituras/tetris/tetris_C_Tuba.pdf'
-          'ebnotas':  'partituras/tetris/tetris_Eb_notas.pdf'
-          'letra': 'partituras/tetris/tetris_letra.pdf'
-          'midi': 'partituras/tetris/tetris_C.midi'
-
-      - nome: 'Pé na tuba (Am)'
-        links:
-          'gravacao': 'partituras/pe_na_tuba/pe_na_tuba.mp3'
-          'juntos': 'partituras/pe_na_tuba/pe_na_tuba_juntos.pdf'
-          'separ': 'partituras/pe_na_tuba/pe_na_tuba_separados.pdf'
-
 
   - nome: "Cachaça"
     musicas:
