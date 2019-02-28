@@ -236,7 +236,7 @@ partedoisclarinete = {
           \transpose bes d {
             \easyHeadsOn
             \teeny
-            \parteumsaxalto
+            \parteumsaxalto
 %             \skip 256 \bar "mascara_negra_letra" \pulalinha
             \partedois
           }
