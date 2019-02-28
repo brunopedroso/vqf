@@ -136,6 +136,44 @@ letratoda = \lyricmode {
 }
 
 
+\book {
+  \bookOutputName "jardineira_Eb"
+  \header{
+  instrument = "Para instrumentos em Eb"
+  }
+  \score {
+	  <<
+          \new TimeSig \compassoseparado
+  	  \new Voice = "um" {
+		  \transpose bes g {
+			  \parteum
+		  }
+	  }
+          
+	  \new Lyrics \lyricsto "um" {
+          \letraum
+      }
+	  >>
+  }
+  
+  \markup { \vspace #2 }
+  
+  \score {
+	  <<
+	  \new Voice = "dois" {
+		  \transpose bes g {
+			  \partedois
+		  }
+	  }
+	  \new Lyrics \lyricsto "dois" {
+          \letradois
+      }
+	  >>
+  }
+}
+
+
+
 #(set-global-staff-size 28)
 
 \book {
@@ -200,44 +238,9 @@ letratoda = \lyricmode {
   }
 }
 
-\book {
-  \bookOutputName "jardineira_Eb"
-  \header{
-  instrument = "Para instrumentos em Eb"
-  }
-  \score {
-	  <<
-          \new TimeSig \compassoseparado
-  	  \new Voice = "um" {
-		  \transpose bes g {
-			  \parteum
-		  }
-	  }
-          
-	  \new Lyrics \lyricsto "um" {
-          \letraum
-      }
-	  >>
-  }
-  
-  \markup { \vspace #2 }
-  
-  \score {
-	  <<
-	  \new Voice = "dois" {
-		  \transpose bes g {
-			  \partedois
-		  }
-	  }
-	  \new Lyrics \lyricsto "dois" {
-          \letradois
-      }
-	  >>
-  }
-}
+\include "cifra_jardineira.ly"
 
-
-#(set-global-staff-size 20)
+#(set-global-staff-size 15)
 
 \book {
   \bookOutputName "jardineira_letra"
@@ -248,13 +251,14 @@ letratoda = \lyricmode {
     <<
        \new Staff  {
           \new Voice = "letra" {
-%                \intro
              \parteum
              \partedois
            }
       }
-  %           \new ChordNames 
-  %           \acordetodo
+            \new ChordNames \with {
+              \consists "Bar_engraver"
+              }
+             \acordetodo
              \new Lyrics
              \lyricsto "letra" \letratoda
     >>
