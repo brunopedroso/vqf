@@ -2,7 +2,7 @@
 
 acordesum = \chordmode {
 	\time 2/4
-f2 | g:m | c:7| f
+f2 | g:m | c:7| f |
 f | g:m | c:7| f
 f | f   | c:7| f
 f | f   | c:7| f
