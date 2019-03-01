@@ -25,9 +25,9 @@ description: "Horário de concentração"
 
 <br/><br/>
 #### **ATENÇÃO:** Isso foi escrito em 10 de fevereiro de 2015!
-**CUIDADO** para não confundir o compromisso de horário! Nosso compromisso pra 2017 é:
-* concentração a partir de 8:30
-* Exu onã às 9:30 em ponto!
+**CUIDADO** para não confundir o compromisso de horário! Nosso compromisso pra 2019 é:
+* **concentração a partir de 8:00**
+* **Apito inicial e 1o bloco às 9:00 em ponto!**
 
 Conto com todos para cumprirmos com esse compromisso.
 
