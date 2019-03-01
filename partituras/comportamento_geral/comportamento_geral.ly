@@ -12,9 +12,9 @@
 }
 
 parteum = \relative c'' {
-  \tempo 2/4 \key a \minor
+  \time 2/4 \key a \minor
    \partial 8 a16 \marcaA a |
-  \repeat volta 2 { \Segno
+  \repeat volta 4 { \Segno
   a b b b ~ b8 \pulalinha
   c16 c | c d d d ~ d8 \pulalinha
   d16 c| \tuplet 3/2 {e8 d c} \tuplet 3/2 {e8 d c} |
@@ -105,6 +105,60 @@ letratoda = \lyricmode {
   \letradois
 }
 
+letracorde = \lyricmode {
+Vo -- cê de -- ve no -- tar que não tem mais tu -- tu
+e di -- zer que não_es -- tá preo -- cu -- pa -- do
+Vo -- cê de -- ve lu -- tar pe -- la xe -- pa da fei -- ra
+ e di -- zer que es -- tá re -- com -- pen -- sa -- do
+Vo -- cê de -- ve es -- tam -- par sem -- pre um ar de ale -- gria
+e di -- zer: 'tu -- do tem me -- lho -- ra -- do'
+Vo -- cê de -- ve re -- zar pe -- lo bem do pa -- trão
+e_es -- que -- cer que es -- tá de -- sem -- pre -- ga -- do
+
+Vo -- cê me -- re -- ce, vo -- cê me -- re -- ce
+Tu -- do vai bem, tu -- do le -- gal
+Cer -- ve -- ja, sam -- ba,_e_a -- ma -- nhã, seu Zé
+Se aca -- ba -- rem com_o teu Car -- na -- val?
+
+Vo -- cê me -- re -- ce, vo -- cê me -- re -- ce
+Tu -- do vai bem, tu -- do le -- gal
+Cer -- ve -- ja, sam -- ba, e ama -- nhã, seu Zé
+Se aca -- ba -- rem com o teu Car -- na -- val?
+
+Vo -- cê de -- ve apren -- der a bai -- xar a ca -- be -- ça
+E di -- zer sem -- pre: 'Mui -- to o -- bri -- ga-- do'
+São pa -- la -- vras que ain -- da te dei -- xam di -- zer
+Por ser ho -- mem bem dis -- ci -- pli -- na -- do
+De -- ve pois só fa -- zer pe -- lo bem da Na -- ção
+Tu -- do aqui -- lo que for or -- de -- na -- do
+Pra ga -- nhar um Fus -- cão no juí -- zo fi -- nal
+E di -- plo -- ma de bem com -- por -- ta -- do
+
+Vo -- cê me -- re -- ce, vo -- cê me -- re -- ce
+Tu -- do vai bem, tu -- do le -- gal
+Cer -- ve -- ja, sam -- ba, e ama -- nhã, seu Zé
+Se aca -- ba -- rem com o teu Car -- na -- val?
+
+Vo -- cê me -- re -- ce, vo -- cê me -- re -- ce
+Tu -- do vai bem, tu -- do le -- gal
+Cer -- ve -- ja, sam -- ba, e ama -- nhã, seu Zé
+Se aca -- ba -- rem com o teu Car -- na -- val?
+
+Vo -- cê me -- re -- ce, vo -- cê me -- re -- ce
+Tu -- do vai bem, tu -- do le -- gal
+
+E um Fus -- cão no juí -- zo fi -- nal
+Vo -- cê me -- re -- ce, vo -- cê me -- re -- ce
+
+E di -- plo -- ma de bem com -- por -- ta -- do
+Vo -- cê me -- re -- ce, vo -- cê me -- re -- ce
+
+Es -- que -- ça que es -- tá de -- sem -- pre -- ga -- do
+Vo -- cê me -- re -- ce, vo -- cê me -- re -- ce
+
+Tu -- do vai bem, tu -- do le -- gal
+}
+
 \book {
   \bookOutputName "comportamento_geral_C"
   \header {
@@ -138,9 +192,7 @@ letratoda = \lyricmode {
            \transpose c aes, {
           \tempo 4 = 80 {
             \unfoldRepeats {
-              \intro
               \parteum
-%             \skip 256 \bar "" \break
               \partedois
             }
             }
@@ -165,7 +217,6 @@ letratoda = \lyricmode {
           \tempo 4 = 83 {
             \transpose c bes, {
             \parteum
-%             \skip 256 \bar "" \break
              \partedois
             }
           }
@@ -192,7 +243,6 @@ letratoda = \lyricmode {
           \tempo 4 = 83 {
             \transpose c f {
             \parteum
-%             \skip 256 \bar "" \break
              \partedois
             }
           }
@@ -243,3 +293,32 @@ letratoda = \lyricmode {
   }
 }
 
+\include "../cifra-formatos.ly"
+#(set-global-staff-size 15)
+
+
+
+\book {
+  \bookOutputName "comportamento_geral_letra"
+  \header {
+     instrument = "Letra e Acordes"
+  }
+   \score {
+    <<
+       \new Staff  {
+          \new Voice = "letra" {
+            \unfoldRepeats
+             \parteum
+             \partedois
+             \parteum
+             \partedois
+           }
+      }
+  %           \new ChordNames 
+  %           \acordetodo
+             \new Lyrics
+             \lyricsto "letra" \letracorde
+    >>
+            \include "../imprimirsoletras.ly"
+  }
+}
