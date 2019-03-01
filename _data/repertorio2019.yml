@@ -487,7 +487,7 @@ blocos:
           'bb':  'partituras/frevo_e_ciranda/frevo_e_ciranda-melodia_Bb.pdf'
           'eb':  'partituras/frevo_e_ciranda/frevo_e_ciranda-melodia_Eb.pdf'
           'ebnotas':  'partituras/frevo_e_ciranda/frevo_e_ciranda-melodia_Eb_notas.pdf'
-          'letra':  'partituras/frevo_e_ciranda/frevo_e_ciranda-melodia_letra.pdf'
+          'letra':  'partituras/frevo_e_ciranda/frevo_e_ciranda_letra.pdf'
 
       - nome: 'Cabelo de fogo (Cm)'
         links:
@@ -508,7 +508,7 @@ blocos:
           'bb': 'partituras/pastorinhas/pastorinhas_Bb.pdf'
           'eb': 'partituras/pastorinhas/pastorinhas_Eb.pdf'
           'ebnotas': 'partituras/pastorinhas/pastorinhas_Eb_notas.pdf'
-          'letra': 'partituras/pastorinhas/pastorinhas_Eb_letra.pdf'
+          'letra': 'partituras/pastorinhas/pastorinhas_letra.pdf'
 
       - nome: 'Taí (Gm)'
         links:
