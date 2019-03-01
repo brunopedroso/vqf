@@ -379,9 +379,9 @@ blocos:
       - nome: 'Corta Jaca (Dm)'
         links:
           'gravacao': 'partituras/corta_jaca/corta_jaca.midi'
-          'c':  'partituras/corta_jaca/Corta_Jaca.pdf'
-          'bb': 'partituras/corta_jaca/Corta_Jaca-Clarinete_e_Sax_Tenor_em_Bb.pdf'
-          'eb': 'partituras/corta_jaca/Corta_Jaca-Sax_Alto_em_Eb.pdf'
+          'c':  'partituras/corta_jaca/corta_jaca.pdf'
+          'bb': 'partituras/corta_jaca/corta_jaca-Clarinete_e_Sax_Tenor_em_Bb.pdf'
+          'eb': 'partituras/corta_jaca/corta_jaca-Sax_Alto_em_Eb.pdf'
 
       - nome: 'Folia de Reis (F)'
         links:
@@ -571,7 +571,6 @@ blocos:
           'Tuba': 'partituras/haitian_fight_song/haitian_fight_song_C_Tuba.pdf'
           'cgeral':  'partituras/haitian_fight_song/haitian_fight_song_C_Geral.pdf'
           'midi':  'partituras/haitian_fight_song/haitian_fight_song_Geral.midi'
-          'letra': 'partituras/haitian_fight_song/haitian_fight_song_letra.pdf'
 
 
   - nome: "Sambas"
