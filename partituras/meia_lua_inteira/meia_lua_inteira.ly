@@ -2,6 +2,7 @@
 
 \include "../formatoversos.ly"
 \include "../marcaspadronizadas.ly"
+\include "../nomedasnotas.ly"
 
 #(set-global-staff-size 17)
 
@@ -176,7 +177,7 @@ letratoda = {
       \new TimeSig \compassoseparado
       \new Staff {
         \new Voice = "saxalto" {
-          \transpose bes d {
+          \transpose bes d' {
             \compassoclave
             \parteum
             \partedois
@@ -188,5 +189,69 @@ letratoda = {
       }
     >>
     \layout {}
+  }
+}
+
+#(set-global-staff-size 36)
+
+\book {
+  \bookOutputName "meia_lua_inteira_Eb_notas"
+  \header {
+     instrument = "Eb c/notas"
+  }
+  \score {
+    <<
+      \new TimeSig \compassoseparado
+      \new Staff {
+        \accidentalStyle Score.dodecaphonic
+        \new Voice = "saxalto" {
+          \transpose bes d' {
+              \easyHeadsOn
+	      \teeny
+            \compassoclave
+            \parteum
+            \partedois
+            \partetresrefrao
+            \partequatrointro
+          }
+        }
+        \addlyrics \letratoda
+      }
+    >>
+    \layout {
+    \context {
+    \Voice
+    \consists \Gravador_nome_notas
+    }
+    \context {
+      \Score 
+      \override SpacingSpanner.base-shortest-duration = #(ly:make-moment 1/4)
+	}
+  }
+}
+}
+
+#(set-global-staff-size 15)
+
+\book {
+  \bookOutputName "meia_lua_inteira_letra"
+  \header {
+     instrument = "Letra e Acordes"
+  }
+   \score {
+    <<
+       \new Staff  {
+          \new Voice = "letra" {
+               \intro
+             \parteum
+             \partedois
+           }
+      }
+  %           \new ChordNames 
+  %           \acordetodo
+             \new Lyrics
+             \lyricsto "letra" \letratoda
+    >>
+           \include "../imprimirsoletras.ly"
   }
 }
