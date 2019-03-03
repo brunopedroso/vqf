@@ -11,6 +11,8 @@ Gente, sábado foi lindo demais. Cada encontro, cada música, cada sombra. Inesq
 
 E amanhã também será!
 
+Concentração às 8h. Cortejo começa pontualmente às 9h.
+
 Reforço os pedidos de sempre: cuidado com o lixo e com os canteiros.
 
 Não joguem esse convite no facebook. Não mandem indiscriminadamente pras suas listas. Convide pessoas queridas e afins. Escolha a dedo.
