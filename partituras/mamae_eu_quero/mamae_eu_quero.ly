@@ -1,5 +1,6 @@
 \include "../formatoversos.ly"
 \include "../nomedasnotas.ly"
+\include "../marcaspadronizadas.ly"
 
 #(set-global-staff-size 16)
 
@@ -34,13 +35,12 @@ parteum = \relative c' {
 
 letraum = \lyricmode {
  
-	Ma mãe eu que ro
-	Ma mãe eu que ro
-	Ma mãe eu que ro ma ma ar
-
-	Dá a chu pe ta
-	Dá a chu pe ta
-	Dá a chu pe ta pro ne nem não cho ra ar
+  Ma -- mãe eu que -- ro, 
+  ma -- mãe eu que -- ro
+  Ma -- mãe eu que -- ro ma -- ma -- ar!
+  Dá a chu -- pe -- ta, 
+  dá a chu -- pe -- ta, 
+  Dá a chu -- pe -- ta pro be -- bê não cho -- ra-- ar!
 }
 
 
@@ -60,12 +60,15 @@ partedois = \relative c' {
 }
 
 letradois = \lyricmode { 
-
-	Dor me fi lhi nho do meu co ra ção
-	Pe ga-a ma ma dei ra-e vem en trar no meu cor dão
-	Eu te nho-u  ma-ir mã que se cha ma A na
-	De tan to pis car o o lho já fi cou sem a pes ta na
-
+  Dor -- me fi -- lhi -- nho do meu co -- ra -- ção
+  Pe -- ga_a ma -- ma -- dei -- ra_e vem en -- trar no meu cor -- dão
+  Eu te -- nho uma ir -- mã que se cha -- ma Ana
+  De tan -- to pis -- car o o -- lho já fi -- cou sem a pes -- ta -- na
+  
+%   Eu olho as pe -- que -- nas, mas da -- que -- le jei -- to
+%   E te -- nho mui -- ta pe -- na não ser cri -- an -- ça de pei -- to
+%   Eu te -- nho uma ir -- mã que é fe -- no -- me -- nal
+%   Ela é da bos -- sa e o ma -- ri -- do é um bo -- çal
 }
 
 letratoda = {
@@ -178,7 +181,8 @@ letratoda = {
 
 
 \version "2.18.2"  % necessary for upgrading to future LilyPond versions.
-#(set-global-staff-size 20)
+\include "cifra_mamae_eu_quero.ly"
+#(set-global-staff-size 14)
 
 \book {
   \bookOutputName "mamae_eu_quero_letra"
@@ -189,13 +193,14 @@ letratoda = {
     <<
        \new Staff  {
           \new Voice = "letra" {
-               \intro
              \parteum
              \partedois
            }
       }
-  %           \new ChordNames 
-  %           \acordetodo
+             \new ChordNames \with {
+               \consists "Bar_engraver"
+             }
+             \acordetodo
              \new Lyrics
              \lyricsto "letra" \letratoda
     >>

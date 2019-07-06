@@ -1,3 +1,5 @@
+\version "2.18.2"  % necessary for upgrading to future LilyPond versions
+
 \include "../formatoversos.ly"
 \include "../nomedasnotas.ly"
 
@@ -23,10 +25,11 @@ parteum = \relative c' {
 
 letraum = \lyricmode {
  	
-	Quan to ri so oh quan ta-a le gri a 
-	Mais de mil pa lha ços no sa lã ão  
-	Ar le quim es tá cho ran do pe lo-a mor da Co lom bi na 
-	No mei o da mul ti dão	
+	Quan -- to ri -- so, oh! Quan -- ta_a -- le -- gri -- a! 
+	Mais de mil pa -- lha -- ços no sa -- lã -- ão! 
+	Ar -- le -- quim es -- tá cho -- ran -- do 
+	pe -- lo_a -- mor da Co -- lom -- bi -- na 
+	No mei -- o da mul -- ti -- dão!	
 
 
 }
@@ -75,24 +78,24 @@ partedois = \relative c'' {
 
 letradois = \lyricmode { 
 
-	Foi bom te ver ou tra vez 
-	Tá fa zen do um a no 
-	Foi no car na val que pas sou 
+	Foi bom te ver ou tra -- vez, 
+	Está fa -- zen -- do um a -- no, 
+	Foi no car -- na -- val que pas -- sou! 
 	
-	Eu sou a que le Pier rô 
-	Que te-a bra çou e te bei jou meu a mor 
+	Eu sou a -- que -- le Pier -- rô, 
+	Que te_a -- bra -- çou e te bei -- jou meu a -- mor! 
 
-	Na mes ma más ca ra ne gra  
-	Que-es con de-o teu ros to 
-	Eu que ro ma tar a sau da de 
+	Na mes -- ma más -- ca -- ra ne -- gra  
+	Que_es -- con -- de_o teu ros -- to, 
+	Eu que -- ro ma -- tar a sau -- da -- de! 
 	
-	Vou bei jar te-a go ra 
-	Não me le ve-a mal  
-	Ho je-é car na val 
+	Vou bei -- jar te_a -- go -- ra, 
+	Não me le -- ve_a mal,  
+	Ho -- je_é car --  na -- val! 
 	
-	Vou bei jar te-a go ra 
-	Não me le ve-a mal  
-	Ho je-é car na val	
+	Vou bei -- jar te_a -- go -- ra,
+	Não me le -- ve_a mal,  
+	Ho -- je_é car -- na -- val!
 
 
 }
@@ -103,7 +106,40 @@ letratoda = {
 }
 
 parteumsaxalto = {
-  \transpose c c' {\parteum}
+  \transpose c c' {
+  \parteum
+  }
+}
+
+
+acordesum = \chordmode {
+	\time 2/4
+%	s2 s2
+	\partial 4 { f4 } |
+	f2 | bes:m | c:7 | f |
+	f   | f:7   | bes:maj | bes:maj |
+	bes:maj | bes:m7 | a:m7 | d:7    |
+	g:m7   | c:7  | f | f 
+	
+}
+
+acordesdois = \chordmode {
+	f2 | gis:dim | g:m7 | g:m7 |
+	c:7 | c:7 | f | c:7 |
+	f | gis:dim | g:m7 | g:m7 |
+	c:7 | c:7   | f    | c:7   |
+% parte final do refrão
+	f  | gis:dim | g:m7 | g:m7 |
+	c:7 | c:7 | c:m7  | f:7 | 
+	bes:maj | b:m7 | a:m7 | d:7 |
+	g:m7 | c:7 | f | f:7 |
+	 bes:maj | b:m7 | a:m7 | d:7 |
+	g:m7 | c:7 | f |
+	 }
+
+acordetodo = \chordmode {
+	\acordesum
+	\acordesdois
 }
 
 partedoisclarinete = {
@@ -200,7 +236,7 @@ partedoisclarinete = {
           \transpose bes d {
             \easyHeadsOn
             \teeny
-            \parteumsaxalto
+            \parteumsaxalto
 %             \skip 256 \bar "mascara_negra_letra" \pulalinha
             \partedois
           }
@@ -222,8 +258,7 @@ partedoisclarinete = {
 }
 
 
-\version "2.18.2"  % necessary for upgrading to future LilyPond versions.
-#(set-global-staff-size 20)
+#(set-global-staff-size 15)
 
 \book {
   \bookOutputName "mascara_negra_letra"
@@ -234,13 +269,16 @@ partedoisclarinete = {
     <<
        \new Staff  {
           \new Voice = "letra" {
-               \intro
+ %            \intro
              \parteum
+             \unfoldRepeats
              \partedois
            }
       }
-  %           \new ChordNames 
-  %           \acordetodo
+             \new ChordNames \with {               
+               \consists "Bar_engraver"
+               }
+             \acordetodo
              \new Lyrics
              \lyricsto "letra" \letratoda
     >>

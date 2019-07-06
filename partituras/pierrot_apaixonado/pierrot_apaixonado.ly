@@ -24,13 +24,12 @@ parteum = \relative c' {
 
 letraum = \lyricmode {
  	
-	Um pie rrô a pai xo na do 
-	Que vi vi a só can tan do 
-	Por cau sa deu ma co lom bi na 
-	A ca bou cho ran do 
-	A ca bou cho ran do
-
-
+    Um pier -- rô a -- pai -- xo -- na -- do
+    Que vi -- vi -- a só can -- tan -- do
+    Por cau -- sa de_u -- ma co -- lom -- bi -- na
+    A -- ca -- bou cho -- ran -- do,
+    a -- ca -- bou cho -- ran -- do
+    
 }
 
 
@@ -51,15 +50,16 @@ partedois = \relative c' {
 
 letradois = \lyricmode { 
 
-	A co lom bi na-en trou no bo te quim 
-	Be beu be beu sa iu as sim as sim 
-	Di zen do pi er rô ca ce te 
-	Vai to mar sor ve te com o ar le quim
-	
-	Um gran de-a mor tem sem pre-um tris te fim
-	Com o pier rô a con te ceu as sim
-	Le van do es se gran de chu te
-	Foi to mar ver mu te com a men do im
+    A co -- lom -- bi -- na_en -- trou num bu -- ti -- quim
+    Be -- beu, be -- beu, sa -- iu as -- sim, as -- sim
+    
+    Di -- zen -- do: Pi -- er -- rô, ca -- ce -- te!
+    Vai to -- mar sor -- ve -- te com o ar -- le -- quim!
+    
+    Um gran -- de amor tem sem -- pre_um tris -- te fim
+    Com o pier -- rô a -- con -- te -- ceu as -- sim
+    Le -- van -- do es -- se gran -- de chu -- te
+    Foi to -- mar ver -- mu -- te com a -- men -- do -- im
 }
 
 letratoda = {
@@ -100,7 +100,7 @@ letratoda = {
       \new TimeSig \compassoseparado
       \new Staff {
         \new Voice = "trompete" {
-          \transpose bes c {
+          \transpose bes c' {
             \parteum
             \skip 256 \bar "pierrot_apaixonado_letra" \break 
             \unfoldRepeats \partedois
@@ -174,9 +174,9 @@ letratoda = {
   }
 }
 
-
+\include "cifra_pierrot_apaixonado.ly"
 \version "2.18.2"  % necessary for upgrading to future LilyPond versions.
-#(set-global-staff-size 20)
+#(set-global-staff-size 15)
 
 \book {
   \bookOutputName "pierrot_apaixonado_letra"
@@ -187,13 +187,15 @@ letratoda = {
     <<
        \new Staff  {
           \new Voice = "letra" {
-               \intro
              \parteum
+             \unfoldRepeats
              \partedois
            }
       }
-  %           \new ChordNames 
-  %           \acordetodo
+             \new ChordNames \with {
+               \consists "Bar_engraver"
+             }
+             \acordetodo
              \new Lyrics
              \lyricsto "letra" \letratoda
     >>

@@ -5,7 +5,7 @@
 \header {
   title = "Eu vi mamãe oxum na cachoeira"
   composer = "Umbanda"
-  arranjadopor = "Felipe SilverWood Cope"
+  arranger = "arr: Felipe Silverwood Cope"
 }
 #(set-global-staff-size 18)
 
@@ -59,10 +59,15 @@ letraum = \lyricmode {
 }
 
 letradois = \lyricmode {
-  Ê areia do mar que o céu serena
-  Ê areia do mar que o céu serenou
-  Na areia do mar mar é areia
-  Maré cheia ê mar marejou
+  Ê a -- rei -- a do mar que_o céu se -- re -- na
+  Ê a -- rei -- a do mar que_o céu se -- re -- nou
+  Na a -- rei -- a do mar mar é a -- reia
+  Ma -- ré chei -- a ê mar ma -- re -- jou
+}
+
+letratoda = \lyricmode {
+  \letraum
+  \letradois
 }
 
 \book {
@@ -200,4 +205,33 @@ letradois = \lyricmode {
 		 }	
 	}
 }
+
+\include "cifra_mamame_oxum.ly"
  
+#(set-global-staff-size 15)
+
+\book {
+  \bookOutputName "mamae_oxum_letra"
+  \header {
+     instrument = "Letra e Acordes"
+  }
+   \score {
+    <<
+       \new Staff  {
+          \new Voice = "letra" {
+            \unfoldRepeats
+%                \intro
+             \parteum
+%              \partedois
+           }
+      }
+             \new ChordNames \with {               
+               \consists "Bar_engraver"
+               }
+             \acordetodo
+             \new Lyrics
+             \lyricsto "letra" \letratoda
+    >>
+           \include "../imprimirsoletras.ly"
+  }
+}

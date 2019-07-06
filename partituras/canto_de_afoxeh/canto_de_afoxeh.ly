@@ -12,10 +12,10 @@
 
 parteum =  \relative c'   {
   \key e \major \repeat volta 2 {
-      e2 \marcaA  | fis4 gis8  e  ~| e4 \bar "canto_de_afoxeh_letra" \break
+      e2 \marcaA  | fis4 gis8  e  ~| e4 \bar "" \break
       \tuplet 3/2 {r8 cis' bes} | \tuplet 3/2 {g e cis~} \tuplet 3/2 {cis b ais~} | ais4 cis |
       dis fis8 e~ | e2 | r | \break
-      e | fis4 gis8 e ~| e4 \bar "canto_de_afoxeh_letra" \break
+      e | fis4 gis8 e ~| e4 \bar "" \break
       \tuplet 3/2 {r8 cis' b} | \tuplet 3/2 {gis e cis~} \tuplet 3/2 {cis b ais~} ||
       ais4 cis | dis fis8 e ~ | e2 | 
   }
@@ -25,20 +25,35 @@ parteum =  \relative c'   {
         }   
   }
 partedois = \relative c' {
-  e4 \pulalinha \pulalinha  \marcaB e | fis gis8 e~ |  e4 \bar "canto_de_afoxeh_letra" \break
-  \tuplet 3/2 {r8 e cis} | \tuplet 3/2 {e cis e~} \tuplet 3/2 {e cis cis'~} | cis2 | \bar "canto_de_afoxeh_letra" \break
-  b4 gis8 e~ | e2 | r8 cis' gis b \bar "|."
+  e4 \pulalinha \pulalinha  \marcaC e | fis gis8 e~ |  e4 \bar "" \break
+  \tuplet 3/2 {r8 e cis} | \tuplet 3/2 {e cis e~} \tuplet 3/2 {e cis gis'~} | gis2 | \bar "" \break
+  fis4 e8 cis~ | cis2 | r8 cis' gis b \bar "|."
 }
 
-letratoda = \lyricmode {
+partetres = \relative c' {
+   \pulalinha \pulalinha  \marcaB e2 | fis4 gis8 e~ |  e4 \bar "" \break
+   \tuplet 3/2 {r8 e cis} | \tuplet 3/2 {e cis e~} \tuplet 3/2 {e cis cis'~} | cis2 | \bar "" \break
+  b4 gis8 e~ | e2 |
+}
+
+
+letraum = \lyricmode {
   I -- lê ai -- ê, Co -- mo vo -- cê é bo -- ni -- to de se ver
   I -- lê a -- iê, Que be -- le -- za mais bo -- ni -- ta de se ter
 (I -- lê aiê) 
-(I -- lê a -- iê) 
+ 
+}
+
+letraumponte = \lyricmode {
+  (I -- lê a -- iê)
+}
+
+letradois = \lyricmode {
 % I -- lê aiê co -- mo vo -- cê é bo -- ni -- to de se ver
 % Ilê aiê, que be -- le -- za mais bo -- ni -- ta de se ter
 I -- lê a -- iê, sua be -- le -- za se trans -- forma em vo -- cê
-I -- lê aiê, 
+(I -- lê aiê)
+
 % que ma -- nei -- ra mais fe -- liz de vi -- ver
 % (Ilê aiê) ilê aiê co -- mo vo -- cê é bo -- ni -- to de se ver
 % Ilê aiê, que be -- le -- za mais bo -- ni -- ta de se ter
@@ -47,6 +62,24 @@ I -- lê aiê,
 % (Ilê aiê) ilê aiê sua be -- le -- za se trans -- for -- ma em vo -- cê
 % Ilê aiê, que ma -- nei -- ra mais fe -- liz de vi -- ver
 % ilê aiê co -- mo vo -- cê é bo -- ni -- to de se ver
+}
+
+letratres = \lyricmode {
+  I -- lê ai -- ê, 
+  que ma -- nei -- ra mais fe -- liz de vi -- ver!
+}
+
+letratoda = \lyricmode {
+  \letraum
+  \letraumponte
+  \letradois
+  \letratres
+}
+
+letratodacorde = \lyricmode {
+  \letraum
+  \letradois
+  \letratres
 }
 \book {
   \bookOutputName "canto_de_afoxeh_Bb"
@@ -63,6 +96,7 @@ I -- lê aiê,
 	      \transpose e c' {
 			\parteum
 			\partedois
+			\partetres
 		}
 	    }
  	    \addlyrics { \letratoda}
@@ -87,6 +121,7 @@ I -- lê aiê,
 	      \transpose e g {
 			\parteum
 			\partedois
+			\partetres
 		}
 	    }
  	    \addlyrics { \letratoda}
@@ -111,6 +146,7 @@ I -- lê aiê,
 	      \transpose e bes {
 			\parteum
 			\partedois
+			\partetres
 		}
 	    }
  	    \addlyrics { \letratoda}
@@ -147,6 +183,7 @@ I -- lê aiê,
 	        \teeny
 			\parteum
 			\partedois
+			\partetres
 		}
 	    }
  	    \addlyrics { \letratoda}
@@ -160,7 +197,9 @@ I -- lê aiê,
     }
   }
 }
-'#(set-global-staff-size 20)
+
+\include "cifra_canto_de_afoxeh.ly"
+#(set-global-staff-size 15)
 
 \book {
   \bookOutputName "canto_de_afoxeh_letra"
@@ -171,16 +210,18 @@ I -- lê aiê,
     <<
        \new Staff  {
           \new Voice = "letra" {
-               \intro
              \parteum
              \partedois
+             \partetres
            }
       }
-  %           \new ChordNames 
-  %           \acordetodo
+             \new ChordNames \with {
+               \consists "Bar_engraver"
+             }
+             \acordetodo
              \new Lyrics
-             \lyricsto "letra" \letratoda
+             \lyricsto "letra" \letratodacorde
     >>
            \include "../imprimirsoletras.ly"
   }
-}'
+}

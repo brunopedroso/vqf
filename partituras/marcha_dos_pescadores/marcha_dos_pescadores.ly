@@ -207,8 +207,10 @@ letratoda = \lyricmode {
 	}
 }
 
+\include "cifra_marcha_dos_pescadores.ly"
+
 \version "2.18.2"  % necessary for upgrading to future LilyPond versions.
-#(set-global-staff-size 20)
+#(set-global-staff-size 15)
 
 \book {
   \bookOutputName "marcha_dos_pescadores_letra"
@@ -224,8 +226,10 @@ letratoda = \lyricmode {
              \partedois
            }
       }
-  %           \new ChordNames 
-  %           \acordetodo
+           \new ChordNames \with {               
+               \consists "Bar_engraver"
+               }
+           \acordetodo
              \new Lyrics
              \lyricsto "letra" \letratoda
     >>

@@ -2,8 +2,9 @@
 
 
 \layout {
-        indent = #30
-        short-indent = #30
+        #(layout-set-staff-size 6)
+        indent = #25
+        short-indent = #25
         \override NoteHead #'transparent = ##t
         \override KeySignature #'transparent = ##t
         \override TupletBracket #'transparent = ##t
@@ -17,33 +18,31 @@
         \omit Staff.Clef
         \hide Staff.BarLine
         \hide Staff.Rest
-        \context {
-          \Staff
-              #(layout-set-staff-size 6)
-        }
         \context { 
                  \Score
                  \remove "Bar_number_engraver" 
                   \remove "Volta_engraver" 
                   \override SpacingSpanner.base-shortest-duration = #(ly:make-moment 1/128)
-                  \override LyricText.font-size = #16
-                  \override LyricSpace.font-size = #16 
+                  \override LyricText.font-size = #14
+                  \override LyricSpace.font-size = #14
                   \override LyricHyphen.font-size = #13
-        }
+                  \override KeySignature #'transparent = ##t
+         }
         \context { 
                   \Voice
                   \hide Tie
                             }
         \context {
                  \ChordNames
+                 \set majorSevenSymbol = \markup {"7M"}                
+                 \override BarLine.bar-extent = #'(-2 . 2)             
                  \override ChordName #'font-size = #13
 %                  \override ChordName #'font-series = #'bold
-                  \override VerticalAxisGroup.nonstaff-nonstaff-spacing =
+               \override VerticalAxisGroup.nonstaff-nonstaff-spacing =
                                 #'((basic-distance . 5)
-                                   (stretchability . 10)
+                                   (stretchability . 10)/
                                    (minimum-distance . 5)
                                     (padding . 5))
             
         } 
-
 }

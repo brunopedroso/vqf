@@ -1,5 +1,6 @@
 \include "../formatoversos.ly"
 \include "../marcaspadronizadas.ly"
+\include "../nomedasnotas.ly"
 
 #(set-global-staff-size 17)
 
@@ -103,7 +104,7 @@ letratoda = {
       \new TimeSig \compassoseparado
       \new Staff {
         \new Voice = "saxalto" {
-          \transpose bes f' {
+          \transpose bes g {
             \parteum
           }
         }
@@ -124,7 +125,7 @@ letratoda = {
       \new TimeSig \compassoseparado
       \new Staff {
         \new Voice = "trompete" {
-          \transpose bes bes {
+          \transpose bes c {
             \parteum
           }
         }
@@ -145,7 +146,7 @@ letratoda = {
       \new TimeSig \compassoseparado
       \new Staff {
         \new Voice = "trombone" {
-          \transpose c bes {
+          \transpose c c {
             \parteum
           }
         }
@@ -157,5 +158,74 @@ letratoda = {
 	  \tempo 4 = 130
 	}
 	
+  }
+}
+
+#(set-global-staff-size 30)
+
+\book {
+  \bookOutputName "a_ra-melodia_Eb_notas"
+  \header{
+  instrument = "Eb"
+  }
+  \score {
+	<<
+	  \new TimeSig	\compassoseparado
+	  \new Staff {
+        \accidentalStyle Score.dodecaphonic
+	    \new Voice = "um" {
+	      \voiceOne
+	      \set midiInstrument = #"trombone"
+	      \transpose bes g {
+	        \easyHeadsOn
+	        \teeny
+			\parteum
+		}
+	    }
+ 	    \addlyrics { \letratoda}
+	  }
+	>>
+	 \layout {
+    \context {
+      \Voice
+      \consists \Gravador_nome_notas
+    }
+    }
+  }
+}
+
+\include "cifra_a_ra.ly"
+
+#(set-global-staff-size 15)
+
+% barratorta = 
+%   #(ly:make-stencil
+%     `(path 0.2
+%           `(rmoveto -1 -2
+%             rlineto 2 4
+%             ))
+%      (cons -0.5 2)
+%      (cons -4 4))
+
+\book {
+  \bookOutputName "a_ra_letra"
+  \header {
+     instrument = "Letra e Acordes"
+  }
+   \score {
+    <<
+       \new Staff  {
+          \new Voice = "letra" {
+             \parteum
+           }
+      }
+             \new ChordNames \with {
+               \consists "Bar_engraver"
+             }
+             \acordetodo
+             \new Lyrics
+             \lyricsto "letra" {\letraum \letradois}
+    >>
+           \include "../imprimirsoletras.ly"
   }
 }

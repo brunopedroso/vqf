@@ -175,7 +175,11 @@ Que_o ma -- lan -- dro_é o_ba -- rão da ra -- lé -- é
     }
     }
   }
-}#(set-global-staff-size 20)
+}
+
+\include "cifra_volta_do_malandro.ly"
+
+#(set-global-staff-size 15)
 
 \book {
   \bookOutputName "volta_do_malandro_letra"
@@ -186,13 +190,15 @@ Que_o ma -- lan -- dro_é o_ba -- rão da ra -- lé -- é
     <<
        \new Staff  {
           \new Voice = "letra" {
-               \intro
+%                \intro
              \parteum
-             \partedois
+%              \partedois
            }
       }
-  %           \new ChordNames 
-  %           \acordetodo
+             \new ChordNames \with {
+               \consists "Bar_engraver"
+             }
+             \acordetodo
              \new Lyrics
              \lyricsto "letra" \letratoda
     >>

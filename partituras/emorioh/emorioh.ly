@@ -1,5 +1,7 @@
+\version "2.18.2"  
 \include "../formatoversos.ly"
 \include "../nomedasnotas.ly"
+\include "../marcaspadronizadas.ly"
 
 \header{
   title = "Emoriô"
@@ -25,8 +27,8 @@ parteum = \relative c'' {
 
 letraum = \lyricmode {
   
-  Ê E mo ri ô
-  Ê E mo ri ô
+  Ê -- E -- mo -- ri -- ô
+  Ê -- E -- mo -- ri -- ô
 %   Ê E mo ri ô
 %   Ê E mo ri ô
   
@@ -34,31 +36,48 @@ letraum = \lyricmode {
 
 
 partedois = \relative c' {
-   \repeat volta 2 { r2 r8. \bar "emorioh_letra" \break \mark \default d16 f g8 a16~ |
-   a16 a8 g16 a4 r8. \bar "emorioh_letra" \break d,16 f a8 g16~|
-   g16 g8 f16 g8 r4. \bar "emorioh_letra" \break d16 f a8 g16~|
-   g16 g8 f16 g8 r4. \bar "emorioh_letra" \break f16 d c8 d16~ |
+   \repeat volta 2 { r2 r8. \bar "" \break \mark \default d16 f[ g8 a16~] \bar "|"
+   a16 a8 g16 a4 r8. \bar "" \break d,16 f[ a8 g16~] \bar "|"
+   g16 g8 f16 g4 r8. \bar "" \break d16 f[ a8 g16~] \bar "|"
+   g16 g8 f16 g4 r8. \bar "" \break f16 d[ c8 d16~] \bar "|"
    }
    \alternative {
      {d2 r }
-     {d4 d'8 d f f d  }
+     {d4 d'8 d f f d4  }
    }
   
 }
 
 letradois = \lyricmode { 
   
-  E mo ri ô de ve ser
-  U ma pa la vra na gô
-  U ma pa la vra de_a mor
-  Um pa la dar
-  -ar É mo ri pa ô
-  
+  E -- mo -- ri -- ô de -- ve ser
+  U -- ma pa -- la -- vra na -- gô
+  U -- ma pa -- la -- vra de_a -- mor
+  Um pa -- la -- dar
+ 
+}
+
+letrapontedois = \lyricmode {
+    -ar É -- mo -- ri -- pa -- ô
+}
+
+letratres = \lyricmode {
+  E -- mo -- riô de -- ve ser
+  Al -- gu -- ma coi -- sa de lá
+  O Sol, a Lua, o céu
+  Pra Oxa -- lá       emo -- ri -- paô  
 }
 
 letratoda = {
   \letraum
   \letradois
+  \letrapontedois
+}
+
+letratodacorde = {
+  \letraum
+  \letradois
+  \letratres
 }
 
 \book {
@@ -73,7 +92,6 @@ letratoda = {
 	  \new Voice = "saxalto" {
 	    \transpose bes g' {
 	      \parteum
-	      \skip 256 \bar "emorioh_letra" \break 
 	      \partedois
 	    }
 	  }
@@ -95,7 +113,6 @@ letratoda = {
 	\new Staff {
 	  \new Voice = "tromboneC" {
 	    \parteum
-	    \skip 256 \bar "emorioh_letra" \break 
 	    \partedois
 	  }
 	\addlyrics {\letratoda}
@@ -122,7 +139,7 @@ letratoda = {
 	\new Staff {
 	  \new Voice = "saxalto" {
 	    \transpose bes c' {
-	      \parteum\skip 256 \bar "emorioh_letra" \break 
+	      \parteum
 	      \partedois
 	    }
 	  }
@@ -150,7 +167,6 @@ letratoda = {
 	      \easyHeadsOn
 	      \teeny
 	      \parteum
-	      \skip 256 \bar "emorioh_letra" \break 
 	      \partedois
 	    }
 	  }
@@ -170,7 +186,12 @@ letratoda = {
     }
   }
 }
-\version "2.18.2"  #(set-global-staff-size 20)
+
+
+\include "../cifra-formatos.ly"
+\include "cifra_emorioh.ly"
+
+#(set-global-staff-size 15)
 
 \book {
   \bookOutputName "emorioh_letra"
@@ -181,15 +202,18 @@ letratoda = {
     <<
        \new Staff  {
           \new Voice = "letra" {
-               \intro
              \parteum
+             \partedois
              \partedois
            }
       }
-  %           \new ChordNames 
-  %           \acordetodo
+             \new ChordNames \with {
+               \consists "Bar_engraver"
+                \override BarLine #'stencil = \barracifra
+             }
+             \acordetodo
              \new Lyrics
-             \lyricsto "letra" \letratoda
+             \lyricsto "letra" \letratodacorde
     >>
            \include "../imprimirsoletras.ly"
   }
