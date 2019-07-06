@@ -1,23 +1,22 @@
 \version "2.18.2"
 
-
 \layout {
-        #(layout-set-staff-size 6)
-        indent = #25
-        short-indent = #25
-        \override NoteHead #'transparent = ##t
-        \override KeySignature #'transparent = ##t
-        \override TupletBracket #'transparent = ##t
-        \override TupletNumber #'transparent = ##t
-        \override Stem #'transparent = ##t
-        \override Dots #'transparent = ##t
-        \override Accidental #'transparent = ##t
-        \override NoteHead #'no-ledgers = ##t 
-        \override Staff.StaffSymbol #'transparent = ##t
-         \override Score.NonMusicalPaperColumn.padding = #2
-        \omit Staff.Clef
-        \hide Staff.BarLine
-        \hide Staff.Rest
+          #(layout-set-staff-size 6)
+         indent = #25
+         short-indent = #25
+         \override NoteHead #'transparent = ##t
+         \override KeySignature #'transparent = ##t
+         \override TupletBracket #'transparent = ##t
+         \override TupletNumber #'transparent = ##t
+         \override Stem #'transparent = ##t
+         \override Dots #'transparent = ##t
+         \override Accidental #'transparent = ##t
+         \override NoteHead #'no-ledgers = ##t 
+         \override Staff.StaffSymbol #'transparent = ##t
+          \override Score.NonMusicalPaperColumn.padding = #2
+          \hide Staff.Clef           % trocado omit Staff.Clef por hide
+         \hide Staff.BarLine
+         \hide Staff.Rest
         \context { 
                  \Score
                  \remove "Bar_number_engraver" 
@@ -34,7 +33,8 @@
                             }
         \context {
                  \ChordNames
-                 \set majorSevenSymbol = \markup {"7M"}                
+                 \set chordNamemajorSevenSymbol = \markup { "7M"}
+                 \set chordNameSeparator = \markup { \typewriter / }
                  \override BarLine.bar-extent = #'(-2 . 2)             
                  \override ChordName #'font-size = #13
 %                  \override ChordName #'font-series = #'bold
