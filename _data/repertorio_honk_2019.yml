@@ -94,7 +94,7 @@ blocos:
   - nome: "Latinas"
     musicas:
 
-      - nome: 'Bessame Muhco (Dm)'
+      - nome: 'Bésame Mucho (Dm)'
 
       - nome: 'Guantanamera (Dm)'
 
@@ -278,6 +278,11 @@ blocos:
       - nome: 'Bebê (Am)'
         links:
           'partitura': 'http://musicabrasilis.org.br/partituras/hermeto-pascoal-bebe'
+          'c': 'partituras/bebe/bebe_C.pdf'
+          'bb': 'partituras/bebe/bebe_Bb.pdf'
+          'eb': 'partituras/bebe/bebe_Eb.pdf'
+          'ebnotas': 'partituras/bebe/bebe_Eb_notas.pdf'
+          'midi': 'partituras/bebe/bebe_C.midi'
 
       - nome: 'Nanã (Dm)'
         links:
