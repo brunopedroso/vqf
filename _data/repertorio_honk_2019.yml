@@ -200,6 +200,7 @@ blocos:
 
       - nome: 'Bebê (Am)'
         links:
+          'yt': 'https://www.youtube.com/watch?v=EGqWRias96M'
           'partitura': 'http://musicabrasilis.org.br/partituras/hermeto-pascoal-bebe'
           'eb': 'partituras/take_five/take_five-Sax_Alto_em_Eb.pdf'
 
