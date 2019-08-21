@@ -62,7 +62,6 @@ Notem que anotei as formas, e que **são menos repetições do que fizemos nos e
   - Bituca
   - Jazz
   = Gypsi (opcional)
-  = Comportamento (opcional)
   - Cabelo de Fogo
 </pre>
 
