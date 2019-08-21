@@ -47,41 +47,26 @@ Notem que anotei as formas, e que **são menos repetições do que fizemos nos e
   - Bebê
   - Bituca
   - Jazz
-  = Latinas
-  = Maxixes
+  = Gypsi (opcional)
+  = Latinas (opcional)
+  = Maxixes (opcional)
   - Cabelo de Fogo
-
-  x Gypsi
-  x Comportamento
-
 </pre>
-
-Nos dois ensaios gerais que fizemos, esse reperório durou 2h. Pensei em retirar os dois blocos que acho que estão menos legais e fazermos menos repetição dos demais. (Marquei com **X** os que eu tiraria.)
-
-A gente também pode avaliar o tempo no meio do caminho e, se ver que não vai dar tempo, deixa de fazer o Latinas ou o Maxixes (por isso botei elas mais pra frente. Estão marcadas com **=**)
 
 
 ### Domingo (30min)
 <pre>
-  = Maxixes
+  - Maxixes
   - Bebê
-
-  = Latinas ou Afoxés
-
+  - Afoxés
   - Bituca
   - Jazz
+  = Gypsi (opcional)
+  = Comportamento (opcional)
   - Cabelo de Fogo
 </pre>
 
-Aqui o que pensei foi: olhando pro repertório da sexta, com 20min, só temos mais 10min de música pra completar 30min. Então acho q não rola mais de dois blocos.
-
-Acho q o Maxixes é ótimo pra começar, pq tem aquela levadinha do começo que é boa pra reunir a tropa.
-
-Isso nos deixaria a dura escolha entre Latinas e Afoxés pra completar. (Acho que eu fico com os Afoxés)
-
-Opções:
-* Acho q o Afoxés também pode servir de começo.
-* Podemos tirar o Bebê ou o Bituca pra por as Latinas. (Mas não sinto que vale a pena)
+Aqui o que pensei foi: olhando pro repertório da sexta, com 20min, só temos mais 10min de música pra completar 30min. Então acho q não rola mais de dois blocos (Maxixes e Afoxés).
 
 -------
 -------
