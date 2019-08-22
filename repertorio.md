@@ -43,12 +43,12 @@ Notem que anotei as formas, e que **são menos repetições do que fizemos nos e
 ### Sábado (1h)
 <pre>
   - African
-  - Afoxés
+  - Latinas
   - Bebê
   - Bituca
   - Jazz
   = Gypsi (opcional)
-  = Latinas (opcional)
+  = Afoxés (opcional)
   = Maxixes (opcional)
   - Cabelo de Fogo
 </pre>
