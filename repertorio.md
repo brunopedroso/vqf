@@ -23,59 +23,13 @@ tons:
 </style>
 
 
-## Repertório Honk 2019
+## Repertório VQF 2020
 
-
-### Sexta (20min)
-<pre>
-  - Bebê
-  - Bituca (AA-BB Lennon; AB Ângelus; AB-AB Bola de Meia; AB Paula e Bebeto)
-  - Jazz (AB-AB Mulatu; AB-AB-AB-AB Haitian; AB-AB Take5; 4 solos no Jericó)
-  - Cabelo de Fogo
-
-</pre>
-
-Minha idéia é fazer poucas repetições de cada música, pra dar tempo de fazer o cabelo de fogo no final tranquilo.
-
-Notem que anotei as formas, e que **são menos repetições do que fizemos nos ensaios!**
-
-
-### Sábado (1h)
-<pre>
-  - African
-  - Latinas
-  - Bebê
-  - Bituca
-  - Jazz
-  = Gypsi (opcional)
-  = Afoxés (opcional)
-  = Maxixes (opcional)
-  - Cabelo de Fogo
-</pre>
-
-
-### Domingo (30min)
-<pre>
-  - Maxixes
-  - Bebê
-  - Afoxés
-  - Bituca
-  - Jazz
-  = Gypsi (opcional)
-  - Cabelo de Fogo
-</pre>
-
-Aqui o que pensei foi: olhando pro repertório da sexta, com 20min, só temos mais 10min de música pra completar 30min. Então acho q não rola mais de dois blocos (Maxixes e Afoxés).
-
--------
--------
--------
-
-### Repertório dos ensaios:
+  <a href='/repertorio_lista'>Lista simples</a>
 
   <table>
 
-    {% for bloco in site.data.repertorio_honk_2019.blocos  %}
+    {% for bloco in site.data.repertorio2020.blocos  %}
 
       <tr>
         <td>

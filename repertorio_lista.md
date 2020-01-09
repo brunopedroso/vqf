@@ -43,7 +43,7 @@ title: Repertório - Lista
 
   <table>
 
-    {% for bloco in site.data.repertorio2019.blocos  %}
+    {% for bloco in site.data.repertorio2020.blocos  %}
 
       <tr>
         <td>
