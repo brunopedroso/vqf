@@ -23,11 +23,13 @@ tons:
 </style>
 
 
-## Repertório Honk 2019
+## Repertório VQF 2020
+
+  <a href='/repertorio_lista'>Lista simples</a>
 
   <table>
 
-    {% for bloco in site.data.repertorio_honk_2019.blocos  %}
+    {% for bloco in site.data.repertorio2020.blocos  %}
 
       <tr>
         <td>

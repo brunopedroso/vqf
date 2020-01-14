@@ -3,23 +3,6 @@ blocos:
   - nome: "African"
     musicas:
 
-      - nome: 'Máscara Negra (F)'
-        links:
-          'c':  'partituras/mascara_negra/mascara_negra_C.pdf'
-          'bb': 'partituras/mascara_negra/mascara_negra_Bb.pdf'
-          'eb': 'partituras/mascara_negra/mascara_negra_Eb.pdf'
-          'ebnotas': 'partituras/mascara_negra/mascara_negra_Eb_notas.pdf'
-          'letra': 'partituras/mascara_negra/mascara_negra_letra.pdf'
-
-      - nome: 'Circo (F)'
-        links:
-          'gravacao': 'https://s3.amazonaws.com/brunopedroso/vqf/b1/3_Circo.mp3'
-          'c':  'partituras/circo/circo_C.pdf'
-          'bb': 'partituras/circo/circo_Bb.pdf'
-          'eb': 'partituras/circo/circo_Eb.pdf'
-          'ebnotas': 'partituras/circo/circo_Eb_notas.pdf'
-          'letra': 'partituras/circo/circo_letra.pdf'
-
       - nome: 'African Marketplace (F)'
         links:
           'gravacao': 'http://rudemechanicalorchestra.org/music/african-marketplace'
@@ -161,6 +144,7 @@ blocos:
           'juntos': 'partituras/pe_na_tuba/pe_na_tuba_juntos.pdf'
           'separ': 'partituras/pe_na_tuba/pe_na_tuba_separados.pdf'
 
+
   - nome: "Comportamento"
     musicas:
 
@@ -178,6 +162,47 @@ blocos:
       - nome: 'Bela Ciao (Fm)'
         links:
           'yt': 'https://www.youtube.com/watch?v=V9sXDNMvZjA'
+
+
+  - nome: "Jazz"
+    musicas:
+
+      - nome: 'Mulatu Astatke - Yèkèrmo Sèw (Gm)'
+        links:
+          'yt': 'https://www.youtube.com/watch?v=qRtyE6Lqd4o'
+
+      - nome: 'Haitian Fight Song (Gm)'
+        links:
+          'yt': 'https://www.youtube.com/watch?v=WPfSD0vJi8Y'
+          'c':  'partituras/haitian_fight_song/haitian_fight_song_C.pdf'
+          'bb': 'partituras/haitian_fight_song/haitian_fight_song_Bb.pdf'
+          'eb': 'partituras/haitian_fight_song/haitian_fight_song_Eb.pdf'
+          'bbTpt': 'partituras/festa_do_interior/festa_do_interior_Bb_tpt.pdf'
+          'ebnotas': 'partituras/haitian_fight_song/haitian_fight_song_Eb_notas.pdf'
+          'Tuba': 'partituras/haitian_fight_song/haitian_fight_song_C_Tuba.pdf'
+          'cgeral':  'partituras/haitian_fight_song/haitian_fight_song_C_Geral.pdf'
+          'midi':  'partituras/haitian_fight_song/haitian_fight_song_Geral.midi'
+          'letra': 'partituras/haitian_fight_song/haitian_fight_song_letra.pdf'
+
+      - nome: 'Take Five (Dm)'
+        links:
+          'gravacao': 'partituras/take_five/take_five.midi'
+          'c':  'partituras/take_five/take_five-Instrumentos_em_C.pdf'
+          'bb': 'partituras/take_five/take_five-Instrumentos_em_Bb.pdf'
+
+      - nome: 'Joshua Fit The Battle Of Jericho (Dm)'
+        links:
+          'yt': 'https://www.youtube.com/watch?v=gHCHALeQkrs'
+
+
+  - nome: "Bebê"
+    musicas:
+
+      - nome: 'Bebê (Am)'
+        links:
+          'yt': 'https://www.youtube.com/watch?v=EGqWRias96M'
+          'partitura': 'http://musicabrasilis.org.br/partituras/hermeto-pascoal-bebe'
+          'eb': 'partituras/take_five/take_five-Sax_Alto_em_Eb.pdf'
 
 
   - nome: "Maxixes"
@@ -208,6 +233,10 @@ blocos:
 
   - nome: "Bituca"
     musicas:
+
+      - nome: 'Para Lennon e McCartney (Cm)'
+        links:
+          'yt': 'https://www.youtube.com/watch?v=e9-c8b76OMk'
 
       - nome: 'Ângelus (C)'
         links:
@@ -261,8 +290,8 @@ blocos:
           'bb':  'partituras/cabelo_de_fogo/cabelo_de_fogo_Bb.pdf'
           'eb':  'partituras/cabelo_de_fogo/cabelo_de_fogo_Eb.pdf'
           'midi':  'partituras/cabelo_de_fogo/cabelo_de_fogo_C.midi'
-
-  - nome: "Bebê"
+ 
+ - nome: "Bebê"
     musicas:
 
       - nome: 'Autumn leaves (Am)'
