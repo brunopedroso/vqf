@@ -77,7 +77,7 @@ blocos:
   - nome: "Latinas"
     musicas:
 
-      - nome: 'Bésame Mucho (Dm)'
+      - nome: 'Bessame Muhco (Dm)'
 
       - nome: 'Guantanamera (Dm)'
 
@@ -290,73 +290,4 @@ blocos:
           'bb':  'partituras/cabelo_de_fogo/cabelo_de_fogo_Bb.pdf'
           'eb':  'partituras/cabelo_de_fogo/cabelo_de_fogo_Eb.pdf'
           'midi':  'partituras/cabelo_de_fogo/cabelo_de_fogo_C.midi'
- 
- - nome: "Bebê"
-    musicas:
-
-      - nome: 'Autumn leaves (Am)'
-        links:
-          'c': 'partituras/autumn_leaves/autumn_leaves_C.pdf'
-          'bb': 'partituras/autumn_leaves/autumn_leaves_Bb.pdf'
-          'eb': 'partituras/autumn_leaves/autumn_leaves_Eb.pdf'
-          'Tuba': 'partituras/autumn_leaves/autumn_leaves_C_Tuba.pdf'
-          'ebnotas':  'partituras/autumn_leaves/autumn_leaves_Eb_notas.pdf'
-          'midi': 'partituras/autumn_leaves/autumn_leaves_C.midi'
-          'letra': 'partituras/autumn_leaves/autumn_leaves_letra.pdf'
-
-      - nome: 'Bebê (Am)'
-        links:
-          'partitura': 'http://musicabrasilis.org.br/partituras/hermeto-pascoal-bebe'
-          'c': 'partituras/bebe/bebe_C.pdf'
-          'bb': 'partituras/bebe/bebe_Bb.pdf'
-          'eb': 'partituras/bebe/bebe_Eb.pdf'
-          'ebnotas': 'partituras/bebe/bebe_Eb_notas.pdf'
-          'midi': 'partituras/bebe/bebe_C.midi'
-
-      - nome: 'Nanã (Dm)'
-        links:
-          'completa': 'partituras/coisa5/COISA5.mp3'
-          'percussa': 'partituras/coisa5/percussao/Coisa5-VQF_FINAL_Drum_Set.pdf'
-
-          'sax_alto': 'partituras/coisa5/sax_alto/Coisa5-VQF_FINAL_AltoSax.pdf'
-          'sax_alto_som': 'partituras/coisa5/sax_alto/Coisa5-VQF_FINAL_Alto_Sax.mp3'
-
-          'sax_baritono': 'partituras/coisa5/sax_baritono/Coisa5-VQF_FINAL_BaritoneSax.pdf'
-          'sax_baritono_som': 'partituras/coisa5/sax_baritono/Coisa5-VQF_FINAL_BaritoneSax.mp3'
-
-          'sax_tenor': 'partituras/coisa5/sax_tenor/Coisa5-VQF_FINAL_TenorSax.pdf'
-          'sax_tenor_som': 'partituras/coisa5/sax_tenor/Coisa5-VQF_FINAL_TenorSax.mp3'
-
-          'trombone': 'partituras/coisa5/trombone/Coisa5-VQF_FINAL_Trombone.pdf'
-          'trombone_som': 'partituras/coisa5/trombone/Coisa5-VQF_FINAL_Trombone.mp3'
-
-          'trompete': 'partituras/coisa5/trompete/Coisa5-VQF_FINAL_Trumpet_Bb.pdf'
-          'trompete_som': 'partituras/coisa5/trompete/Coisa5-VQF_FINAL_Trompete.mp3'
-
-
-
-  - nome: "Jazz"
-    musicas:
-
-      - nome: 'Haitian Fight Song (Gm)'
-        links:
-          'yt': 'https://www.youtube.com/watch?v=WPfSD0vJi8Y'
-          'c':  'partituras/haitian_fight_song/haitian_fight_song_C.pdf'
-          'bb': 'partituras/haitian_fight_song/haitian_fight_song_Bb.pdf'
-          'eb': 'partituras/haitian_fight_song/haitian_fight_song_Eb.pdf'
-          'bbTpt': 'partituras/festa_do_interior/festa_do_interior_Bb_tpt.pdf'
-          'ebnotas': 'partituras/haitian_fight_song/haitian_fight_song_Eb_notas.pdf'
-          'Tuba': 'partituras/haitian_fight_song/haitian_fight_song_C_Tuba.pdf'
-          'cgeral':  'partituras/haitian_fight_song/haitian_fight_song_C_Geral.pdf'
-          'midi':  'partituras/haitian_fight_song/haitian_fight_song_Geral.midi'
-          'letra': 'partituras/haitian_fight_song/haitian_fight_song_letra.pdf'
-
-      - nome: 'Take Five (Dm)'
-        links:
-          'gravacao': 'partituras/take_five/take_five.midi'
-          'c':  'partituras/take_five/take_five-Instrumentos_em_C.pdf'
-          'bb': 'partituras/take_five/take_five-Instrumentos_em_Bb.pdf'
-          'eb': 'partituras/take_five/take_five-Sax_Alto_em_Eb.pdf'
-
-      - nome: 'Jericó (Dm)'
 
