@@ -687,6 +687,15 @@ blocos:
           'trump1_clarin_solo' : 'partituras/singsingsing/SingSingSing_Trumpet1_ClarinetSoloDuet.pdf'
           'clarin_solo' : 'partituras/singsingsing/SingSingSing_ClarinetSolo.pdf'
 
+      - nome: 'Massa Real (Eb)'
+        links:
+          'yt': 'https://www.youtube.com/watch?v=EnEJ4TwMoQI'
+          'c':  'partituras/massa_real/massa_real_C.pdf'
+          'bb': 'partituras/massa_real/massa_real_Bb.pdf'
+          'eb': 'partituras/massa_real/massa_real_Eb.pdf'
+          'ebnotas': 'partituras/massa_real/massa_real_Eb_notas.pdf'
+          'letra': 'partituras/massa_real/massa_real_letra.pdf'
+
 
   - nome: "Sambas"
     musicas:
@@ -744,4 +753,47 @@ io: 'O mundo me condena'
         inicio: 'É proibido sonhar'
       - nome: 'Imitação (Cm)'
         autor: 'Batatinha'
-    
+        inicio: 'Ninguém sabe quem sou eu'
+
+      - nome: 'Felicidade (G)'
+        autor: 'Tom Jobim'
+        inicio: 'Tristeza não tem fim'
+
+      - nome: 'Aquarela do Brasil (F)'
+        autor: 'Ari Barroso'
+        inicio: 'Brasil, meu Brasil brasileiro'
+      - nome: 'Isso aqui o que é (F)'
+        autor: 'Ari Barroso'
+        inicio: 'Isso aqui ô ô'
+      - nome: 'O Bêbado e a equilibrista (F)'
+        autor: 'João Bosco'
+        inicio: 'Caía a tarde feito um viaduto'
+io: 'O mundo me condena'
+      - nome: 'Na cadência so Samba (Dm)'
+        autor: 'Novos Baianos'
+        inicio: 'Sei que vou morrer não sei o dia'
+      
+      - nome: 'Me deixa em paz (Gm)'
+        autor: 'Monsueto'
+        inicio: 'Se você não me queria'
+      - nome: 'Sem compromisso (Gm)'
+        autor: 'Chico Buarque'
+        inicio: 'Você só dança com ele'
+
+      - nome: 'Direito de sambar (Cm)'
+        autor: 'Batatinha'
+        inicio: 'É proibido sonhar'
+      - nome: 'Imitação (Cm)'
+        autor: 'Batatinha'
+        inicio: 'Ninguém sabe quem sou eu'
+
+      - nome: 'Felicidade (G)'
+        autor: 'Tom Jobim'
+        inicio: 'Tristeza não tem fim'
+
+      - nome: 'Aquarela do Brasil (F)'
+        autor: 'Ari Barroso'
+        inicio: 'Brasil, meu Brasil brasileiro'
+      - nome: 'Isso aqui o que é (F)'
+        autor: 'Ari Barroso'
+        inicio: 
