@@ -154,7 +154,7 @@ letratoda = \lyricmode {
   }
   \score {
     <<
-    %  \new TimeSig \compassoseparado
+      \new TimeSig \compassoseparado
       \new Staff {
         \new Voice = "saxalto" {
             \transpose do mib {
@@ -179,7 +179,7 @@ letratoda = \lyricmode {
   }
     \score {
     <<
-   %   \new TimeSig \compassoseparado
+      \new TimeSig \compassoseparado
       \new Staff {
 %				\trackB
         \new Voice = "saxalto" {
@@ -211,7 +211,7 @@ letratoda = \lyricmode {
   }
   \score {
     <<
-    %  \new TimeSig \compassoseparado
+      \new TimeSig \compassoseparado
       \new Staff {
         \new Voice = "saxalto" {
           \transpose do do {
@@ -240,7 +240,7 @@ letratoda = \lyricmode {
   }
   \score {
     <<
-    %  \new TimeSig \compassoseparado
+      \new TimeSig \compassoseparado
       \new Staff {
         \new Voice = "trombone" {
           \transpose do fa {
@@ -271,7 +271,7 @@ letratoda = \lyricmode {
   }
   \score {
     <<
- %     \new TimeSig \compassoseparado
+      \new TimeSig \compassoseparado
       \new Staff {
         \accidentalStyle Score.dodecaphonic
         \new Voice = "saxalto" {
