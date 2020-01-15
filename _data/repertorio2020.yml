@@ -543,6 +543,11 @@ blocos:
       - nome: 'Extra (Cm)'
         links:
           'yt': 'https://www.youtube.com/watch?v=mh9drfcfPuU&feature=youtu.be'
+          'c':  'partituras/extra/extra_C.pdf'
+          'bb': 'partituras/extra/extra_Bb.pdf'
+          'eb': 'partituras/extra/extra_Eb.pdf'
+          'ebnotas': 'partituras/extra/extra_Eb_notas.pdf'
+          'letra': 'partituras/extra/extra_letra.pdf'
 
       - nome: 'Andar com Fé (Eb)'
         links:
@@ -722,3 +727,21 @@ blocos:
       - nome: 'O Bêbado e a equilibrista (F)'
         autor: 'João Bosco'
         inicio: 'Caía a tarde feito um viaduto'
+io: 'O mundo me condena'
+      - nome: 'Na cadência so Samba (Dm)'
+        autor: 'Novos Baianos'
+        inicio: 'Sei que vou morrer não sei o dia'
+      
+      - nome: 'Me deixa em paz (Gm)'
+        autor: 'Monsueto'
+        inicio: 'Se você não me queria'
+      - nome: 'Sem compromisso (Gm)'
+        autor: 'Chico Buarque'
+        inicio: 'Você só dança com ele'
+
+      - nome: 'Direito de sambar (Cm)'
+        autor: 'Batatinha'
+        inicio: 'É proibido sonhar'
+      - nome: 'Imitação (Cm)'
+        autor: 'Batatinha'
+    
