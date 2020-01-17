@@ -577,9 +577,15 @@ blocos:
 
   - nome: "O Caminho"
     musicas:
-      - nome: 'No camino do bem (Dm)'
+      - nome: 'O caminho do bem (Dm)'
         links:
           'yt': 'https://www.youtube.com/watch?v=hwUGJXm02ZQ'
+          'c':  'partituras/o_caminho_do_bem/o_caminho_do_bem_C.pdf'
+          'bb': 'partituras/o_caminho_do_bem/o_caminho_do_bem_Bb.pdf'
+          'eb': 'partituras/o_caminho_do_bem/o_caminho_do_bem_Eb.pdf'
+          'ebnotas': 'partituras/o_caminho_do_bem/o_caminho_do_bem_Eb_notas.pdf'
+          'letra': 'partituras/o_caminho_do_bem/o_caminho_do_bem_letra.pdf'
+
 
       - nome: 'Another Brick in the Wall (Dm)'
         links:
