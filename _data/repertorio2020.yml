@@ -594,6 +594,11 @@ blocos:
       - nome: 'Another Brick in the Wall (Dm)'
         links:
           'yt': 'https://www.youtube.com/watch?v=YR5ApYxkU-U'
+          'c':  'partituras/another_brick/another_brick_C.pdf'
+          'bb': 'partituras/another_brick/another_brick_Bb.pdf'
+          'eb': 'partituras/another_brick/another_brick_Eb.pdf'
+          'ebnotas': 'partituras/another_brick/another_brick_Eb_notas.pdf'
+          'letra': 'partituras/another_brick/another_brick_letra.pdf'
 
 
   - nome: "Saideira"
