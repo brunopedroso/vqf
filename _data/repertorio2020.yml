@@ -530,7 +530,11 @@ blocos:
         links:
           'livro': 'partituras/hermeto.pdf'
           'yt': 'https://www.youtube.com/watch?v=H_EhF57l4oM&feature=youtu.be'
-
+          'c':  'partituras/santo_antonio/santo_antonio_C.pdf'
+          'bb': 'partituras/santo_antonio/santo_antonio_Bb.pdf'
+          'eb': 'partituras/santo_antonio/santo_antonio_Eb.pdf'
+          'ebnotas': 'partituras/santo_antonio/santo_antonio_Eb_notas.pdf'
+          'letra': 'partituras/santo_antonio/santo_antonio_letra.pdf'
       - nome: 'Bebê (Am)'
         links:
           'yt': 'https://www.youtube.com/watch?v=EGqWRias96M'
@@ -741,4 +745,20 @@ blocos:
         inicio: 'Isso aqui ô ô'
       - nome: 'O Bêbado e a equilibrista (F)'
         autor: 'João Bosco'
-        inicio: 'Caía a tarde feito um viaduto'
+        inicio: 'Caía a tarde feito um viaduto'cio: 'O mundo me condena'
+      - nome: 'Na cadência so Samba (Dm)'
+        autor: 'Novos Baianos'
+        inicio: 'Sei que vou morrer não sei o dia'
+      
+      - nome: 'Me deixa em paz (Gm)'
+        autor: 'Monsueto'
+        inicio: 'Se você não me queria'
+      - nome: 'Sem compromisso (Gm)'
+        autor: 'Chico Buarque'
+        inicio: 'Você só dança com ele'
+
+      - nome: 'Direito de sambar (Cm)'
+        autor: 'Batatinha'
+        inicio: 'É proibido sonhar'
+      - nome: 'Imitação (Cm)'
+        autor: '
