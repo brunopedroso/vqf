@@ -11,7 +11,7 @@
 }
 
 parteum = \relative c'' {
-	\key bes \major
+	\key c \major
 	\time 4/4
 	\partial 2 { d8 c  a16 g f8}  d1 |\break
   r2 d'8 c a16 g f8| d1| \break
@@ -147,7 +147,7 @@ partedoisclarinete = {
       \new TimeSig \compassoseparado
       \new Staff {
         \new Voice = "trompete" {
-          \transpose c e {
+          \transpose c d {
             \parteum
             \unfoldRepeats
             \partedoisclarinete
