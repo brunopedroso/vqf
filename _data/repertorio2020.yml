@@ -578,6 +578,12 @@ blocos:
       - nome: 'Come Toghether (Dm)'
         links:
           'yt': 'https://www.youtube.com/watch?v=45cYwDMibGo'
+          'c':  'partituras/come_together/come_together_C.pdf'
+          'bb': 'partituras/come_together/come_together_Bb.pdf'
+          'eb': 'partituras/come_together/come_together_Eb.pdf'
+          'ebnotas': 'partituras/come_together/come_together_Eb_notas.pdf'
+          'letra': 'partituras/come_together/come_together_letra.pdf'
+
 
   - nome: "O Caminho"
     musicas:
