@@ -556,6 +556,11 @@ blocos:
       - nome: 'Andar com Fé (Eb)'
         links:
           'yt': 'https://www.youtube.com/watch?v=cH65dRyJ_Ys'
+          'c':  'partituras/andar_com_fe/andar_com_fe_C.pdf'
+          'bb': 'partituras/andar_com_fe/andar_com_fe_Bb.pdf'
+          'eb': 'partituras/andar_com_fe/andar_com_fe_Eb.pdf'
+          'ebnotas': 'partituras/andar_com_fe/andar_com_fe_Eb_notas.pdf'
+          'letra': 'partituras/andar_com_fe/andar_com_fe_letra.pdf'
 
       - nome: 'Madalena (D)'
         links:
