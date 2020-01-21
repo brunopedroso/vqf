@@ -42,11 +42,7 @@ partedois = \relative c'' {
         b'16 g8 g16 d8 d16 b16 ~ b16 d8 b'16 ~ b16 g8 g16 |
         
         a8 fis8 fis8 d8 ~ d4 a'4 | 
-        g4 \times 2/3 {
-            r8 e8 fis8 }
-        g4 ~ \once \override TupletBracket #'stencil = ##f
-        \times 2/3  {
-            g8 fis8 e8 }
+        g2 \times 2/5 { e4 fis g fis e }
         | 
         d2. r4 } 
 }
@@ -172,7 +168,7 @@ letratoda = {
       \new TimeSig \compassoseparado
       \new Staff {
         \new Voice = "um" {
-		\transpose a d, {
+		\transpose a d {
 			\parteum
 			  
 			\partedois
