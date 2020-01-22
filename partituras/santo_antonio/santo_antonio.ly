@@ -53,7 +53,7 @@ parteum = \relative c'' {
       \new TimeSig \compassoseparado
       \new Staff {
         \new Voice = "saxalto" {
-          \transpose c a' {
+          \transpose c a, {
             \parteum
              
              
