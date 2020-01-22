@@ -1,3 +1,4 @@
+\version "2.18.2"  % necessary for upgrading to future LilyPond versions.
 \include "../formatoversos.ly"
 \include "../nomedasnotas.ly"
 
@@ -11,7 +12,7 @@
 
 parteum = \relative c'' {
 	\key f \major \time 2/4
-	\repeat volta 2 {
+	\repeat volta 2 { 
 	c8 c c d ~| d c bes a ~ | a2 r | \break
 	c8 c c d ~ | d c a g ~ | g2 r| \break
 	bes8 bes bes c~| c bes g a ~ | a \bar "" \break
@@ -175,13 +176,9 @@ letratoda = \lyricmode {
        \new Staff  {
           \new Voice = "letraa" {
             \time 2/4
-%               \intro
             \parteum
-            \break
             \partedois
-            \break
-            \refrao
-             
+            \refrao             
            }
       }
   %           \new ChordNames 
@@ -230,4 +227,3 @@ letratoda = \lyricmode {
   }
 }
 
-\version "2.18.2"  % necessary for upgrading to future LilyPond versions.
