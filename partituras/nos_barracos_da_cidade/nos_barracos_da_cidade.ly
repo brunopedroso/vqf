@@ -1,8 +1,8 @@
 \include "../formatoversos.ly"
 \include "../marcaspadronizadas.ly"
 \include "../nomedasnotas.ly"
-% da transcrição de Karine Dias e base rítmica de partitura da internet  
-% arquivo baixado como partituradebanda-170208215103.pdf
+
+% inspirado na transcrição de Gilberto Gil Songbook Vol 1.
 #(set-global-staff-size 17)
 
 \header{
@@ -20,15 +20,21 @@ parteum = \relative d'' {
           g1 |  
 
         }
-        \break
+}
+partedois = \relative c'' {
     \repeat volta 2 {
-        r4 a8 a16 a16 ~ a8 g8 g8 f16 g16 ~ | 
+        r4 a'8 a16 a16 ~ a8 g8 g8 f16 g16 ~ | 
         g8 a4. r2 | 
-        r4 a8 a a a g g f16 g16 ~ | 
+        r4 a8 a a g g a16 g16 ~ | 
         g8 f4. r2 |
-        r4 a8 a16 a16 ~ a8 g8 g8 f16 g16 ~ | 
-        g8 a4. r2 |
+        r4 a8 a a g g a16 g16 ~ | 
+        g8 f4. r2 |
+        r4 a8 a16 a16 ~ a8 g8 g8 f16 g16 ~ |       
     }
+    \alternative {
+    {g2 r2 |}
+    {g2 r8 d' a c~}
+  }
 }
 
 letraum = \lyricmode {
@@ -39,40 +45,41 @@ letraum = \lyricmode {
 }
 
 
-partedois = \relative c'' {
+partetres = \relative c'' {
+  
     \repeat volta 2 {
-        | 
-        s8. s16 s2. c2 r2 | 
-        s1 \bar "||"
-        s8. s16 s16*9 c'2 r2 | 
-        s64*67 d,2 g2 es2 -. f2 |
-        
+        c'2. 
+        a8 g~ | g2. a8 c | d d16 d r4 r2 |
+        }
+        \alternative {
+          {r2 r8 d a c}
+          {r1 \bar "|." }
         }
 }
 
 letradois = \lyricmode { 
   Nos bar -- ra -- cos da ci -- da -- de
-  Nin -- guém mais tem ilu -- são
-  No po -- der da au -- to -- ri -- da -- de
+  Nin -- guém mais tem i -- lu -- sã -- ã́o
+  No po -- der da_au -- to -- ri -- da -- de
   De to -- mar a de -- ci -- são
-  E o po -- der da au -- to -- ri -- da -- de, se po -- de, não faz ques -- tão
-  Mas se faz ques -- tão, não
-  Con -- se -- gue
-  En -- fren -- tar o tu -- ba -- rão
+%   E o po -- der da au -- to -- ri -- da -- de, se po -- de, não faz ques -- tão
+%   Mas se faz ques -- tão, não
+%   Con -- se -- gue
+%   En -- fren -- tar o tu -- ba -- rão
   
-  Ôôô , ôô
-  Gen -- te es -- tú -- pi -- da
-  Ôôô , ôô
-  Gen -- te hi -- pó -- cri -- ta
-  E o go -- ver -- na -- dor pro -- me -- te,
-  Mas o sis -- te -- ma diz não
-  Os lu -- cros são mui -- to gran -- des,
-  Gran -- des... ie, ie
-  E nin -- guém quer abrir mão, não
-  Mes -- mo uma pe -- que -- na par -- te
-  Já se -- ria a so -- lu -- ção
-  Mas a usu -- ra des -- sa gen -- te
-  Já vi -- rou um alei -- jão
+  ão Ô -- ô -- ô,  ô -- ô
+  Gen -- te_es -- tú -- pi -- da
+  Ô -- ô -- ô,  ô -- ô
+%   Gen -- te hi -- pó -- cri -- ta
+%   E o go -- ver -- na -- dor pro -- me -- te,
+%   Mas o sis -- te -- ma diz não
+%   Os lu -- cros são mui -- to gran -- des,
+%   Gran -- des... ie, ie
+%   E nin -- guém quer abrir mão, não
+%   Mes -- mo uma pe -- que -- na par -- te
+%   Já se -- ria a so -- lu -- ção
+%   Mas a usu -- ra des -- sa gen -- te
+%   Já vi -- rou um alei -- jão
   
   % Ôôô , ôô
 %   Gen -- te es -- tú -- pi -- da
@@ -104,10 +111,10 @@ letratoda = {
       \new TimeSig \compassoseparado
       \new Staff {
         \new Voice = "um" {
-		\transpose c e, {
+		\transpose c a, {
 			\parteum
 			  
-			\partedois
+			\partedois \partetres
 		}
 	}
 	\addlyrics \letratoda
@@ -127,10 +134,10 @@ letratoda = {
       \new TimeSig \compassoseparado
       \new Staff {
         \new Voice = "um" {
-		\transpose a c {
+		\transpose c c, {
 			\parteum
 			  
-			\partedois
+			\partedois \partetres
 		}
 	}
 	\addlyrics \letratoda
@@ -153,10 +160,10 @@ letratoda = {
       \new TimeSig \compassoseparado
       \new Staff {
         \new Voice = "um" {
-		\transpose f a {
+		\transpose c d {
 			\parteum
 			  
-			\partedois
+			\partedois \partetres
 		}
 	}
 	\addlyrics \letratoda
@@ -179,12 +186,12 @@ letratoda = {
       \new Staff {
         \accidentalStyle Score.dodecaphonic
         \new Voice = "um" {
-		\transpose c c {
+		\transpose c a {
       \easyHeadsOn
        \teeny
 			\parteum
 			  
-			\partedois
+			\partedois \partetres
 		}
 	}
 	\addlyrics \letratoda
@@ -219,7 +226,7 @@ letratoda = {
        \new Staff  {
           \new Voice = "letra" {
              \parteum
-             \partedois
+             \partedois \partetres
            }
       }
              \new ChordNames \with {
