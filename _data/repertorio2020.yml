@@ -538,8 +538,12 @@ blocos:
       - nome: 'Bebê (Am)'
         links:
           'yt': 'https://www.youtube.com/watch?v=EGqWRias96M'
+          'c':  'partituras/bebe/bebe_C.pdf'
+          'bb': 'partituras/bebe/bebe_Bb.pdf'
+          'eb': 'partituras/bebe/bebe_Eb.pdf'
+          'ebnotas': 'partituras/bebe/bebe_Eb_notas.pdf'
+
           'partitura': 'http://musicabrasilis.org.br/partituras/hermeto-pascoal-bebe'
-          'eb': 'partituras/take_five/take_five-Sax_Alto_em_Eb.pdf'
           'livro': 'partituras/hermeto.pdf'
 
   - nome: "Gil"
