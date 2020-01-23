@@ -22,6 +22,16 @@ tons:
   }
 </style>
 
+#### Songbooks preliminares
+
+  {% for tom in page.tons  %}
+  <a href='partituras/songbooks/songbook{{ tom }}.pdf' target='_blank'>Songbook em {{ tom }}</a><br/>
+  {% endfor %}
+
+
+#### Playlist do Repertório
+
+<iframe style="width: 100%; height: 90px;" scrolling="no" src="https://midia.borges.net.br:9093/share.php?id=2&amp;secret=vqfcarnaval2020&amp;embed=true"></iframe>
 
 ## Repertório VQF 2020
 
