@@ -9,6 +9,7 @@ tons:
   - Eb_notas
   - letra
 ---
+{% include base.html %}
 
 <style type="text/css" media="screen">
   td {
@@ -25,7 +26,14 @@ tons:
 
 ## Repertório VQF 2020
 
-  <a href='/repertorio_lista'>Lista simples</a>
+  <a href='{{base}}/repertorio_lista'>Lista simples</a><br/>
+
+  <a href='{{base}}/partituras/songbooks/songbookC.pdf'>Songbook em C</a><br/>
+  <a href='{{base}}/partituras/songbooks/songbookBb.pdf'>Songbook em Bb</a><br/>
+  <a href='{{base}}/partituras/songbooks/songbookEb.pdf'>Songbook em Eb</a><br/>
+
+  <a href='{{base}}/partituras/songbooks/songbookletra.pdf'>Songbook Letras/cifra</a><br/>
+  <a href='{{base}}/partituras/songbooks/songbookletrabooklet.pdf'>Songbook Letras/cifra - livrinho</a><br/>
 
   <table>
 
