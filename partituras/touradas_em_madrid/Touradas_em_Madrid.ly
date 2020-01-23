@@ -1,4 +1,7 @@
 \version "2.18.2" 
+\include "../marcaspadronizadas.ly"
+\include "../nomedasnotas.ly"s
+
 
 \header {
     title = "Touradas em Madrid"
@@ -137,22 +140,36 @@ melodiamaior = \relative c'' {
    \carambacaracoles  
 }
 
+letraum = \lyricmode {
+  Eu fui às tou -- ra -- das em Ma -- dri
+  E qua -- se não vol -- to mais a -- qui -- i -- i 
+  Pra ver Pe -- ri -- i -- i bei -- jar Ce -- ci.
+  Eu co -- nhe -- ci u -- ma_es -- pa -- nho -- la
+  Na -- tu -- ral da Ca -- ta -- lu -- u -- nha;
+  Que -- ria que_eu to -- cas -- se cas -- ta -- nho -- la
+  E pe -- gas -- se tou -- ro_à u -- u -- nha.
+  Ca -- ram -- ba! Ca -- ra -- co -- les! Sou do sam -- ba,
+  Não me amo -- les.
+  Pro Bra -- sil eu vou fu -- gir!
+  Is -- to_é con -- ver -- sa mo -- le pa -- ra boi dor -- mir!
+}
+
 letra = \lyricmode {
    _ _ _ _ _ _ _ _ _
    _ _ _ _ _ _ _ _ _
    _ _ _ _ _ _ _ _ _ _
-  Eu fui às tou ra das em Ma dri
-  E qua se não vol to mais a qui -i- -i-
-  Pra ver Pe ri -i- -i- bei jar Ce ci
-  Eu co nhe ci u ma-es pa nho la
-  Na tu ral da Ca ta lu -u- nha;
-  Que ria que-eu to cas se cas ta nho la
-  E pe gas se tou ro-à u -u- nha.
-  Ca ram ba! Ca ra coles! Sou do sam ba,
-  Não me a mo les.
-  Pro Bra sil eu vou fu gir!
-  Is to-é con ver sa mo le pa ra boi dor mir!
-  
+  \letraum
+}
+
+letraintro = \lyricmode {
+  Bum, Pa ra lá ti bum bum
+  Bum, Pa ra lá ti bum bum
+  Bum, Pa ra lá ti bum bum
+  Bum, Pa ra lá ti bum bum
+}
+letratoda = \lyricmode {
+  \letraintro
+ \letraum
 }
 \book {
   \bookOutputSuffix "Sax Alto Eb notas"
@@ -234,11 +251,12 @@ letra = \lyricmode {
   \score {
      <<
 	\new Voice = "clarinete" {
-	  \trocacompasso
+          \trocacompasso
+	  \oneVoice
 	  \oneVoice
 	  \clef G
 	  \key g \major
-	  \transpose f g {
+	  \transpose es f {
 	   \introgeral
 	   \time 4/4
 	   \Segno
@@ -434,4 +452,42 @@ letra = \lyricmode {
         }
   >>
  }
+}
+
+\include "cifra_touradas_em_madrid.ly"
+
+#(set-global-staff-size 14)
+
+\book {
+  \bookOutputName "touradas_em_madrid_letra"
+  \header {
+     instrument = "Letra e Acordes"
+  }
+   \score {
+    <<
+       \new Staff  {
+          \new Voice = "letra" {
+	  \clef G
+	  \key f \major
+	  \transpose c c {
+            \unfoldRepeats {
+	       \time 4/4
+	       \base
+	       \melodiatrompetemenor
+	       \key d \major
+	       \melodiamaior
+	       \notafinal
+               }
+             }
+            }
+       }
+             \new ChordNames \with {
+               \consists "Bar_engraver"
+             }
+             \acordetodo
+             \new Lyrics
+             \lyricsto "letra" \letratoda
+          >>
+              \include "../imprimirsoletras.ly"
+  }
 }

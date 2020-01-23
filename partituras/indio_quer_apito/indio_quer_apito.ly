@@ -4,6 +4,7 @@
 }
 \include "../formatoversos.ly"
 \include "../nomedasnotas.ly"
+\include "../marcaspadronizadas.ly"
 
 %#(set-global-staff-size 17)
 
@@ -22,8 +23,9 @@ parteum = \relative c'' {
 
 letraum = \lyricmode {
  	
-	Ê ê ê ê ê ê 
-	Ín dio quer a pi to se não der pau vai co mer
+  Ê, ê, ê, ê, ê, ê
+  ín -- dio quer a -- pi -- to
+  Se não der, pau vai co -- mer 
 
 }
 
@@ -42,10 +44,10 @@ partedois = \relative c'' {
 
 letradois = \lyricmode { 
 
-	Lá no ba na nal mu lher de bran co 
-	Deu pa ra ín dio co lar es qui si to 
-	Ín dio viu pre sen te mais bo ni to 
-	Eu não quer co lar! Ín dio quer a pi to!
+  Lá no ba -- na -- nal, mu -- lher de bran -- co
+  Le -- vou pra ín -- dio co -- lar es -- qui -- si -- to
+  Ín -- dio viu pre -- sen -- te mais bo -- ni -- to
+  Eu não quer co -- lar! Ín -- dio quer a -- pi -- to!
 
 }
 
@@ -125,7 +127,7 @@ letratoda = {
   }
 }
 
-#(set-global-staff-size 33)
+#(set-global-staff-size 30)
 \book {
   \bookOutputName "indio_quer_apito_Eb_notas"
   \header {
@@ -141,7 +143,6 @@ letratoda = {
             \easyHeadsOn
             \teeny
             \parteum
-            \skip 256 \bar "indio_quer_apito_letra" \break
             \partedois
           }
         }
@@ -149,9 +150,15 @@ letratoda = {
       }
     >>
     \layout {
+      \apertacompasso
     \context { 
 	\Voice 
 	\consists \Gravador_nome_notas
+    }
+    \context {
+      \Score
+      \override SpacingSpanner.base-shortest-duration =
+      #(ly:make-moment 1/4)
     }
     }
   }

@@ -1,4 +1,6 @@
 \include "../formatoversos.ly"
+\include "../marcaspadronizadas.ly"
+\include "../nomedasnotas.ly"
 
 %#(set-global-staff-size 17)
 
@@ -35,11 +37,11 @@ parteum = \relative c' {
 }
 
 letraum = \lyricmode {
- 	
-	Se vo cê  fos se  sin ce ra ô  ô ô ô Au ro ra 
-	Ai meu Deus que bom que e ra ô ô  ô  ô  Au ro ra
 
-
+  Se vo -- cê fos -- se sin -- ce -- ra 
+  Ô ô ô ô, Au -- ro -- ra
+  Ve -- ja só que bom que e -- ra 
+  Ô ô ô ô, Au -- ro -- ra
 }
 
 
@@ -57,10 +59,12 @@ partedois = \relative c' {
 
 letradois = \lyricmode { 
 
-	Um lin do-a par ta men to  com  por tei ro-e-e le va dor 
-	E ar re fri ge ra do pa ra-os di as de ca lor 
-	Mo re na-an tes do no me vo cê te ri a-a go ra 
-	ô ô ô ô Au ro ra
+Um lin -- do_a -- par -- ta -- men -- to 
+Com por -- tei -- ro_e_e -- le -- va -- dor
+E ar re -- fri -- ge -- ra -- do 
+Pa -- ra_os di -- as de ca -- lor
+Ma -- da -- me_An -- tes do no -- me Vo -- cê te -- ri --a_a -- go -- ra
+Ô-- ô-- ô-- ô  Au -- ro -- ra
 }
 
 letratoda = {
@@ -175,9 +179,11 @@ letratoda = {
   }
 }
 
+\include "cifra_aurora.ly"
 
 \version "2.18.2"  % necessary for upgrading to future LilyPond versions.
-'#(set-global-staff-size 20)
+
+#(set-global-staff-size 15)
 
 \book {
   \bookOutputName "aurora_letra"
@@ -188,16 +194,17 @@ letratoda = {
     <<
        \new Staff  {
           \new Voice = "letra" {
-               \intro
              \parteum
              \partedois
            }
       }
-  %           \new ChordNames 
-  %           \acordetodo
+             \new ChordNames \with {
+               \consists "Bar_engraver"
+             }
+             \acordetodo
              \new Lyrics
              \lyricsto "letra" \letratoda
     >>
            \include "../imprimirsoletras.ly"
   }
-}'
+}

@@ -175,7 +175,7 @@ melodiaintro = \relative c'' {
 melodiacanto = \relative c'' {
     r4 b,8 b'~
     \marcaA
-    b g4 e8 | c4 b8 ais~ | ais2~ | ais8 cis fis e] | \break
+    b g4 e8 | c4 b8 ais~ | ais2~ | ais8 cis fis e | \break
     dis2~ | dis16 b8 cis16 dis e8 fis16 | g2~ | g4 b,8 b'~ | b g4 e8 | \break
     b4 cis8 d~ | d2~ | d8^[ fis a gis] |  g^[ fis e d] | cis4 g'8 fis~ | \break
     fis2~ | fis4 b,8 b'~
@@ -192,7 +192,24 @@ melodiacanto = \relative c'' {
    r2\fermata \bar "|."
 }
 
-letra = \lyricmode {
+cantoletra = \relative c'' {
+    r4 b,8 b'~
+    \marcaA
+    b g4 e8 | c4 b8 ais~ | ais2~ | ais8 cis fis e | \break
+    dis2~ | dis16 b8 cis16 dis e8 fis16 | g2~ | g4 b,8 b'~ | b g4 e8 | \break
+    b4 cis8 d~ | d2~ | d8^[ fis a gis] |  g^[ fis e d] | cis4 g'8 fis~ | \break
+    fis2~ | fis4 b,8 b'~
+    \marcaB
+    b g4 e8 | c4 b8 ais~ |  \break
+    ais ais4.~ | ais8^[ cis fis e] | dis2~ | dis16 b8 cis16 dis e8 fis16 | gis2~ |  \break
+    gis2 | a8^[ a fis g] | a^[ gis a b] | a g4.~ | g8^[ b, e g] |  \break
+    b^[ b a g] | fis^[ e dis fis] | e b'4 b8 | a4 g8 c,~ | c a'4 g8 | \break
+    fis^[ e d c] | b4. b8 | e^[ fis g e] | fis4. b8 | fis^[ g a fis] | g b4 b8 | \break
+    a4 g8 c~ | c a4 g8 | fis^[ e d c] | b4. b8 | \break
+    b^[ e g b~] | b a4 b8 | c16 b8 a16 g8 fis | e4 r4 | r2
+}
+
+letraintro = \lyricmode {
    _ _ _ _ _ _ _ _ _
    _ _ _ _ _ _ _ _
    _ _ _ _ _ _ _ _
@@ -201,21 +218,32 @@ letra = \lyricmode {
    _ _ _ _ _ _ _ _
    _ _ _ _ _ _ _ _
    _ _ _ _ _
-  Ma dei ra do Ro sa rinho
-  Vem a ci da-de su a fa ma mos trar
-  E traz com seu pes so al
-  Seu es tan dar te tão o ri gi nal
-
-  Não vem pra fa zer ba ru lho
-  Vem só di zer, e com sa tis fa ção
-  Quei ram ou não quei ram os ju í zes
-  O nos so blo co é de fa to cam pe ão
-
-  E se-a qui es ta mos, can tan do-es ta can ção
-  Vi e mos de fen der a nos sa tra di ção
-  E di zer bem al to que-a in jus ti ça dói
-  Nós so mos “Ma dei ra”, de lei que cu pim não rói
 }
+
+letraum = \lyricmode {
+  Ma -- dei -- ra do ro -- sa -- ri -- nho
+  Ve -- nha_à ci -- da -- de sua fa -- ma mos -- trar
+  E traz, com o_seu pes -- so -- al, seu es -- tan -- dar -- te tão ori -- gi -- nal
+  Não vem pra fa -- zer ba -- ru -- lho
+  Vem só di -- zer
+  E com sa -- tis -- fa -- ção
+  Quei -- ram ou não quei -- ram os juí -- zes
+  O nos -- so blo -- co é de fa -- to cam -- peão
+  E se_a -- qui es -- ta -- mos can -- tan -- do_es -- ta can -- ção
+  Vi -- e -- mos de -- fen -- der a nos -- sa tra -- di -- ção
+  E di -- zer bem al -- to
+  Que_a in -- jus -- ti -- ça dói
+  Nós so -- mos ma -- dei -- ra de lei que cu -- pim não rói.
+}
+
+letra = \lyricmode {
+  \letraintro
+  \letraum
+}
+
+letratoda = \lyricmode {
+  \letraum}
+
 \book {
   \bookOutputSuffix "Sax Alto Eb"
   \header {
@@ -499,13 +527,17 @@ letra = \lyricmode {
         
   >>
       \layout {
+        \apertacompasso
     \context {
       \Voice
       \consists \Gravador_nome_notas
     }
     }
  }
-}#(set-global-staff-size 20)
+}
+
+
+#(set-global-staff-size 16)
 
 \book {
   \bookOutputName "madeira_que_cupim_nao_roi_letra"
@@ -516,9 +548,7 @@ letra = \lyricmode {
     <<
        \new Staff  {
           \new Voice = "letra" {
-               \intro
-             \parteum
-             \partedois
+               \cantoletra
            }
       }
   %           \new ChordNames 

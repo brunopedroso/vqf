@@ -149,7 +149,7 @@ letratoda = {
 \book {
  \bookOutputName "taih_Eb_notas"
  \header {
-  instrument = "Para instrumentos em Eb"
+  instrument = "Eb"
  }
  \score {
   <<
@@ -168,16 +168,22 @@ letratoda = {
   }
 	>>
 	\layout {
+	    \apertacompasso
 	    \context {
 	    \Voice
 	    \consists \Gravador_nome_notas   
 	    }
+	    \context {
+	      \Score
+	      \override SpacingSpanner.base-shortest-duration = 
+	      #(ly:make-moment 1/4)
 	    }
 	    }
+  }
 }
 
 \version "2.18.2" % necessary for upgrading to future LilyPond versions.
-#(set-global-staff-size 20)
+#(set-global-staff-size 16)
 
 \book {
   \bookOutputName "taih_letra"
@@ -188,7 +194,6 @@ letratoda = {
     <<
        \new Staff  {
           \new Voice = "letra" {
-               \intro
              \parteum
              \partedois
            }

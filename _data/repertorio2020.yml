@@ -530,7 +530,11 @@ blocos:
         links:
           'livro': 'partituras/hermeto.pdf'
           'yt': 'https://www.youtube.com/watch?v=H_EhF57l4oM&feature=youtu.be'
-
+          'c':  'partituras/santo_antonio/santo_antonio_C.pdf'
+          'bb': 'partituras/santo_antonio/santo_antonio_Bb.pdf'
+          'eb': 'partituras/santo_antonio/santo_antonio_Eb.pdf'
+          'ebnotas': 'partituras/santo_antonio/santo_antonio_Eb_notas.pdf'
+          'letra': 'partituras/santo_antonio/santo_antonio_letra.pdf'
       - nome: 'Bebê (Am)'
         links:
           'yt': 'https://www.youtube.com/watch?v=EGqWRias96M'
@@ -543,10 +547,20 @@ blocos:
       - nome: 'Extra (Cm)'
         links:
           'yt': 'https://www.youtube.com/watch?v=mh9drfcfPuU&feature=youtu.be'
+          'c':  'partituras/extra/extra_C.pdf'
+          'bb': 'partituras/extra/extra_Bb.pdf'
+          'eb': 'partituras/extra/extra_Eb.pdf'
+          'ebnotas': 'partituras/extra/extra_Eb_notas.pdf'
+          'letra': 'partituras/extra/extra_letra.pdf'
 
       - nome: 'Andar com Fé (Eb)'
         links:
           'yt': 'https://www.youtube.com/watch?v=cH65dRyJ_Ys'
+          'c':  'partituras/andar_com_fe/andar_com_fe_C.pdf'
+          'bb': 'partituras/andar_com_fe/andar_com_fe_Bb.pdf'
+          'eb': 'partituras/andar_com_fe/andar_com_fe_Eb.pdf'
+          'ebnotas': 'partituras/andar_com_fe/andar_com_fe_Eb_notas.pdf'
+          'letra': 'partituras/andar_com_fe/andar_com_fe_letra.pdf'
 
       - nome: 'Madalena (D)'
         links:
@@ -569,16 +583,33 @@ blocos:
       - nome: 'Come Toghether (Dm)'
         links:
           'yt': 'https://www.youtube.com/watch?v=45cYwDMibGo'
+          'c':  'partituras/come_together/come_together_C.pdf'
+          'bb': 'partituras/come_together/come_together_Bb.pdf'
+          'eb': 'partituras/come_together/come_together_Eb.pdf'
+          'ebnotas': 'partituras/come_together/come_together_Eb_notas.pdf'
+          'letra': 'partituras/come_together/come_together_letra.pdf'
+
 
   - nome: "O Caminho"
     musicas:
-      - nome: 'No camino do bem (Dm)'
+      - nome: 'O caminho do bem (Dm)'
         links:
           'yt': 'https://www.youtube.com/watch?v=hwUGJXm02ZQ'
+          'c':  'partituras/o_caminho_do_bem/o_caminho_do_bem_C.pdf'
+          'bb': 'partituras/o_caminho_do_bem/o_caminho_do_bem_Bb.pdf'
+          'eb': 'partituras/o_caminho_do_bem/o_caminho_do_bem_Eb.pdf'
+          'ebnotas': 'partituras/o_caminho_do_bem/o_caminho_do_bem_Eb_notas.pdf'
+          'letra': 'partituras/o_caminho_do_bem/o_caminho_do_bem_letra.pdf'
+
 
       - nome: 'Another Brick in the Wall (Dm)'
         links:
           'yt': 'https://www.youtube.com/watch?v=YR5ApYxkU-U'
+          'c':  'partituras/another_brick/another_brick_C.pdf'
+          'bb': 'partituras/another_brick/another_brick_Bb.pdf'
+          'eb': 'partituras/another_brick/another_brick_Eb.pdf'
+          'ebnotas': 'partituras/another_brick/another_brick_Eb_notas.pdf'
+          'letra': 'partituras/another_brick/another_brick_letra.pdf'
 
 
   - nome: "Saideira"
@@ -681,6 +712,15 @@ blocos:
           'trump1' : 'partituras/singsingsing/SingSingSing_Trumpet1.pdf'
           'trump1_clarin_solo' : 'partituras/singsingsing/SingSingSing_Trumpet1_ClarinetSoloDuet.pdf'
           'clarin_solo' : 'partituras/singsingsing/SingSingSing_ClarinetSolo.pdf'
+
+      - nome: 'Massa Real (Eb)'
+        links:
+          'yt': 'https://www.youtube.com/watch?v=EnEJ4TwMoQI'
+          'c':  'partituras/massa_real/massa_real_C.pdf'
+          'bb': 'partituras/massa_real/massa_real_Bb.pdf'
+          'eb': 'partituras/massa_real/massa_real_Eb.pdf'
+          'ebnotas': 'partituras/massa_real/massa_real_Eb_notas.pdf'
+          'letra': 'partituras/massa_real/massa_real_letra.pdf'
 
 
   - nome: "Sambas"

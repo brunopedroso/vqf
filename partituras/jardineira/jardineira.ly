@@ -1,29 +1,19 @@
-
-\layout{
-	indent = 0
-	ragged-right = ##t
-
-    \context {
-      \Score
-      %\override BarLine #'transparent = ##t
-    }
-}
-
+\version "2.18.2"  % necessary for upgrading to future LilyPond versions.
+\include "../formatoversos.ly"
+\include "../nomedasnotas.ly"
+\include "../marcaspadronizadas.ly"
 
 \header{
   title = "Jardineira (ritmo simpl.)"
-  subtitle = "Para instrumentos em C"
 }
 
-\markup { \vspace #2 }
 
+#(set-global-staff-size 18)
 
-parteum = \relative c' {
+parteum = \relative c'' {
 	\key bes \major
 	
-	\mark "primeira"	
-
-  	r4 f f f   f d bes d   f2 g2 ees2 c2
+  	r4 \marcaA f f f   f d bes d   f2 g2 ees2 c2
 	\break
 	r4 g' g g   g2 ees4 f   g2 a2 f1
 	\break
@@ -46,12 +36,10 @@ letraum = \lyricmode {
 }
 
 
-partedois = \relative c' {
+partedois = \relative c'' {
 	\key bes \major
-
-	\mark "segunda"
-
-	bes'1 a2 g f2. ees4 c1 g'1 f2 d bes1
+        \marcaB
+	bes'1   a2 g f2. ees4 c1 g'1 f2 d bes1
 	\break
 
 	\repeat volta 2 {
@@ -70,36 +58,189 @@ letradois = \lyricmode {
 	
 }
 
-\score {
-	<<
-	\new Voice = "um" {
-		\transpose bes bes' {
-			\parteum
-		}
-	}
-	\new Lyrics \lyricsto "um" {
-        \letraum
-    }
-	>>
+letratoda = \lyricmode {
+  \letraum
+  \letradois
 }
 
-\markup { \vspace #2 }
-
-\score {
-	<<
-	\new Voice = "dois" {
-		\transpose bes bes' {
-			\partedois
-		}
-	}
-	\new Lyrics \lyricsto "dois" {
-        \letradois
-    }
-	>>
+\book {
+  \bookOutputName "jardineira_C"
+  \header{
+  instrument = "Para instrumentos em C"
+  }
+  \score {
+	  <<
+          \new TimeSig \compassoseparado
+  	  \new Voice = "um" {
+		  \transpose bes bes {
+			  \parteum
+		  }
+	  }
+          
+	  \new Lyrics \lyricsto "um" {
+          \letraum
+      }
+	  >>
+  }
+  
+  \markup { \vspace #2 }
+  
+  \score {
+	  <<
+	  \new Voice = "dois" {
+		  \transpose bes bes {
+			  \partedois
+		  }
+	  }
+	  \new Lyrics \lyricsto "dois" {
+          \letradois
+      }
+	  >>
+  }
 }
 
-\version "2.18.2"  % necessary for upgrading to future LilyPond versions.
-#(set-global-staff-size 20)
+\book {
+  \bookOutputName "jardineira_Bb"
+  \header{
+  instrument = "Para instrumentos em Bb"
+  }
+  \score {
+	  <<
+          \new TimeSig \compassoseparado
+  	  \new Voice = "um" {
+		  \transpose bes c {
+			  \parteum
+		  }
+	  }
+          
+	  \new Lyrics \lyricsto "um" {
+          \letraum
+      }
+	  >>
+  }
+  
+  \markup { \vspace #2 }
+  
+  \score {
+	  <<
+	  \new Voice = "dois" {
+		  \transpose bes c {
+			  \partedois
+		  }
+	  }
+	  \new Lyrics \lyricsto "dois" {
+          \letradois
+      }
+	  >>
+  }
+}
+
+
+\book {
+  \bookOutputName "jardineira_Eb"
+  \header{
+  instrument = "Para instrumentos em Eb"
+  }
+  \score {
+	  <<
+          \new TimeSig \compassoseparado
+  	  \new Voice = "um" {
+		  \transpose bes g {
+			  \parteum
+		  }
+	  }
+          
+	  \new Lyrics \lyricsto "um" {
+          \letraum
+      }
+	  >>
+  }
+  
+  \markup { \vspace #2 }
+  
+  \score {
+	  <<
+	  \new Voice = "dois" {
+		  \transpose bes g {
+			  \partedois
+		  }
+	  }
+	  \new Lyrics \lyricsto "dois" {
+          \letradois
+      }
+	  >>
+  }
+}
+
+
+
+#(set-global-staff-size 28)
+
+\book {
+  \bookOutputName "jardineira_Eb_notas"
+  \header{
+  instrument = "Para instrumentos em Eb"
+  }
+  \score {
+	  <<
+          \new TimeSig \compassoseparado
+           \accidentalStyle Score.dodecaphonic
+  	  \new Voice = "um" {
+		  \transpose bes g {
+		     \easyHeadsOn
+		      \teeny
+			  \parteum
+		  }
+	  }
+          
+	  \new Lyrics \lyricsto "um" {
+          \letraum
+      }
+	  >>
+	  \layout {
+	  \context {
+      \Voice
+      \consists \Gravador_nome_notas
+    }
+        \context {
+      \Score 
+      \override SpacingSpanner.base-shortest-duration = #(ly:make-moment 1/4)
+	}
+	}
+  }
+  
+  \markup { \vspace #2 }
+  
+  \score {
+	  <<
+	     \accidentalStyle Score.dodecaphonic
+	  \new Voice = "dois" {
+		  \transpose bes g {
+		     \easyHeadsOn
+		      \teeny
+			  \partedois
+		  }
+	  }
+	  \new Lyrics \lyricsto "dois" {
+          \letradois
+      }
+	  >>
+	  \layout {
+	  \context {
+      \Voice
+      \consists \Gravador_nome_notas
+    }
+        \context {
+      \Score 
+      \override SpacingSpanner.base-shortest-duration = #(ly:make-moment 1/4)
+	}
+	}
+  }
+}
+
+\include "cifra_jardineira.ly"
+
+#(set-global-staff-size 15)
 
 \book {
   \bookOutputName "jardineira_letra"
@@ -110,13 +251,14 @@ letradois = \lyricmode {
     <<
        \new Staff  {
           \new Voice = "letra" {
-               \intro
              \parteum
              \partedois
            }
       }
-  %           \new ChordNames 
-  %           \acordetodo
+            \new ChordNames \with {
+              \consists "Bar_engraver"
+              }
+             \acordetodo
              \new Lyrics
              \lyricsto "letra" \letratoda
     >>

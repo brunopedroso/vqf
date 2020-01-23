@@ -1,5 +1,6 @@
 \include "../formatoversos.ly"
-\include "../nomedasnotas.ly"
+\include "../nomedasnotas.ly"
+\include "../marcaspadronizadas.ly"
 
 \header{
   title = "Allah-lá-ô"
@@ -9,7 +10,7 @@
 #(set-global-staff-size 17)
 
 
-parteum = \relative c' {
+parteum = \relative c'' {
   \time 2/4
   \key bes \major
   r8 \mark \default d8  d d | f4 d8 bes | ees c4 a8 | bes2 |
@@ -33,17 +34,17 @@ parteum = \relative c' {
 
 letraum = \lyricmode {
   
-  A llah lá ô   ô   ô   ô   ô   ô   ô 
-  Mas  que  ca lor  ô   ô   ô  ô   ô   ô
+  A -- llah -- lá -- ô   ô   ô   ô   ô   ô   ô 
+  Mas  que  ca -- lor  ô   ô   ô  ô   ô   ô
   
-  A tra ves sa mos  o  de ser to  do  Sa a ra
-  O  sol  es ta va  quen te  e  quei mou  a  nos sa  ca ra
+  A -- tra -- ves -- sa -- mos  o  de -- ser -- to  do  Sa --ha -- ra
+  O  sol  es -- ta -- va  quen -- te  e  quei -- mou  a  nos -- sa  ca -- ra
   
-  A llah lá ô   ô   ô   ô   ô   ô   ô 
+  A -- llah -- lá -- ô   ô   ô   ô   ô   ô   ô 
 }
 
 
-partedois = \relative c' {
+partedois = \relative c'' {
    r4  \mark \default d4 | f f | d bes | g4 g |   
   
   \bar "alalao_letra" \break
@@ -70,12 +71,12 @@ partedois = \relative c' {
 
 letradois = \lyricmode { 
   
-  Vi e mos  do  E gi to
-  E  mui tas  ve zes  nós  ti ve mos  que  re zar
-  A llah   A llah   A llah   meu  bom  A llah
-  Man de  á  gua  pra  io iô
-  Man de  á  gua  pra  ia iá
-  A llah   meu  bom  A llah
+  Vi -- e -- mos  do  E -- gi -- to,
+  E  mui -- tas  ve -- zes  nós  ti -- ve -- mos  que  re -- zar
+  A -- llah   A -- llah   A -- llah,   meu  bom  A -- llah!
+  Man -- de  á  -- gua  pra  Io -- iô
+  Man -- de  á  -- gua  pra  Ia -- iá
+  A -- llah,   meu  bom  A -- llah
   
 }
 
@@ -94,7 +95,7 @@ letratoda = {
       \new TimeSig \compassoseparado
 	\new Staff {
 	  \new Voice = "saxalto" {
-	    \transpose bes g' {
+	    \transpose bes g {
 	      \parteum
 	      \skip 256 \bar "alalao_letra" \break 
 	      \partedois
@@ -166,7 +167,7 @@ letratoda = {
 	\new Staff {
        \accidentalStyle Score.dodecaphonic
 	  \new Voice = "saxalto" {
-	    \transpose bes g' {
+	    \transpose bes g {
             \easyHeadsOn
             \teeny
 	      \parteum
@@ -191,7 +192,11 @@ letratoda = {
 }
 
   
-\version "2.18.2"  '#(set-global-staff-size 20)
+\version "2.18.2"  
+
+\include "cifra_alalao.ly"
+
+#(set-global-staff-size 15)
 
 \book {
   \bookOutputName "alalao_letra"
@@ -202,16 +207,17 @@ letratoda = {
     <<
        \new Staff  {
           \new Voice = "letra" {
-               \intro
              \parteum
              \partedois
            }
       }
-  %           \new ChordNames 
-  %           \acordetodo
+             \new ChordNames \with {
+               \consists "Bar_engraver"
+             }
+             \acordetodo
              \new Lyrics
              \lyricsto "letra" \letratoda
     >>
            \include "../imprimirsoletras.ly"
   }
-}'
+}

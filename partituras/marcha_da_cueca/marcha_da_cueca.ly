@@ -1,5 +1,6 @@
 \include "../formatoversos.ly"
 \include "../marcaspadronizadas.ly"
+\include "../nomedasnotas.ly"
 %#(set-global-staff-size 21)
 
 \header{
@@ -138,6 +139,45 @@ letratoda = {
 }
 
 \version "2.18.2" % necessary for upgrading to future LilyPond versions.
+#(set-global-staff-size 38)
+
+\book {
+  \bookOutputName "marcha_da_cueca_Eb_notas"
+  \header {
+    instrument = "Para instrumentos em Eb"
+  }
+  \score {
+    <<
+      \new TimeSig \compassoseparado
+       \accidentalStyle Score.dodecaphonic
+      \new Staff {
+        \new Voice = "saxalto" {
+          \transpose bes g' {
+            \teeny
+            \easyHeadsOn
+            \parteum
+            \partedois
+          }
+        }
+        \addlyrics \letratoda
+      }
+    >>
+    \layout {
+      \apertacompasso
+      \context {
+        \Voice
+        \consists \Gravador_nome_notas
+      }
+      \context {
+        \Score
+        \override SpacingSpanner.base-shortest-duration = 
+        #(ly:make-moment 1/4)
+      }
+    }
+  }
+}
+
+
 #(set-global-staff-size 20)
 
 \book {
@@ -149,7 +189,7 @@ letratoda = {
     <<
        \new Staff  {
           \new Voice = "letra" {
-               \intro
+
              \parteum
              \partedois
            }

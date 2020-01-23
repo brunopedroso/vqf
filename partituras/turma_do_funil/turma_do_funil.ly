@@ -1,3 +1,4 @@
+\version "2.18.2"  % necessary for upgrading to future LilyPond versions.
 \include "../formatoversos.ly"
 \include "../nomedasnotas.ly"
 
@@ -195,8 +196,10 @@ letratoda = {
   }
 }
 
-\version "2.18.2"  % necessary for upgrading to future LilyPond versions.
-#(set-global-staff-size 20)
+\include "cifra_turma_do_funil.ly"
+
+
+#(set-global-staff-size 15)
 
 \book {
   \bookOutputName "turma_do_funil_letra"
@@ -207,13 +210,14 @@ letratoda = {
     <<
        \new Staff  {
           \new Voice = "letra" {
-               \intro
              \parteum
              \partedois
            }
       }
-  %           \new ChordNames 
-  %           \acordetodo
+             \new ChordNames \with {
+               \consists "Bar_engraver"
+             }
+             \acordetodo
              \new Lyrics
              \lyricsto "letra" \letratoda
     >>

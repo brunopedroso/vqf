@@ -1,5 +1,6 @@
 \include "../formatoversos.ly"
 \include "../nomedasnotas.ly"
+\include "../marcaspadronizadas.ly"
 
 \header{
   title = "Moliendo Cafe"
@@ -37,6 +38,12 @@ parteum = \relative do' {
 
 
 letraum = \lyricmode { 
+  Cuan -- do la tar -- de lan -- gui -- de -- ce re -- na -- cen las som -- bras
+  Y en la quie -- tud los ca -- fe -- ta -- les vuel -- ven a sen -- tir
+  El son tris -- tón, can -- ción de amor de la vie -- ja mo -- lien -- da
+  Que en el le -- tar -- go de la no -- che pa -- re -- ce de -- cir
+  cha cha cha  _ _ _
+  _ _ _ _ _ _ 
  }
 
 
@@ -55,6 +62,11 @@ partedois = \relative do''  {
 } 
 
 letradois = \lyricmode { 
+  Una pe -- na de amor, una tris -- te -- za
+  Lle -- va el zam -- bo ma -- nuel en su amar -- gu -- ra
+  Pa -- sa in -- can -- sa -- ble la no -- che, 
+  mo -- lien -- do ca -- fé 
+  _ _ _ _ _ _ _ _ _ _ _ _
 }
 letratres = \lyricmode {
 }
@@ -104,7 +116,7 @@ letratoda = {
       \new TimeSig \compassoseparado
       \new Staff {
         \new Voice = "trombone" {
-          \transpose mi sol' {
+          \transpose mi sol {
             \parteum
 %             \skip 256 \bar "moliendo_cafe_letra" \break
             \partedois
@@ -135,7 +147,7 @@ letratoda = {
       \new TimeSig \compassoseparado
       \new Staff {
         \new Voice = "trompete" {
-          \transpose sol do' {
+          \transpose sol do {
             \parteum
 %             \skip 256 \bar "moliendo_cafe_letra" \break
             \partedois
@@ -190,7 +202,7 @@ letratoda = {
 }
 }
 \version "2.18.2"  % necessary for upgrading to future LilyPond versions.
-#(set-global-staff-size 20)
+#(set-global-staff-size 16)
 
 \book {
   \bookOutputName "moliendo_cafe_letra"
@@ -201,7 +213,7 @@ letratoda = {
     <<
        \new Staff  {
           \new Voice = "letra" {
-               \intro
+%                \intro
              \parteum
              \partedois
            }

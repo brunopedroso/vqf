@@ -16,7 +16,7 @@
 
 % partes da música
 %parte: melodia
-melodiaintro = {
+intro = {
 		\time 4/4
   \compressFullBarRests
   \key d \minor
@@ -34,7 +34,7 @@ melodiaintro = {
     }
     }
 }
-melodiaum = {
+parteum = {
   \relative c'{
       \compressFullBarRests
       d8. \marcaB a16 d8 r r4 c8 d |
@@ -52,8 +52,8 @@ melodiaum = {
       }
 }
 
-melodiadois = {
-  relative c'{
+partedois = {
+  \relative c'{
     a8 \marcaC r16 e r4 r a8 g |
       a8. f16 r4 r f8 g |
       a4. c8 g4. a8 |
@@ -164,7 +164,7 @@ letratoda = {
   \score {
     <<
       \tempo 4 = 90
-      \unfoldRepeats \new Staff \melodiaintro \break \melodiaum \break \melodiadois
+      \unfoldRepeats \new Staff \intro \break \parteum \break \partedois
       \unfoldRepeats \new Staff \baixo
     >>
     \midi { }
@@ -178,8 +178,8 @@ letratoda = {
   \header { poet = "C / Dó (Gm)" }
   \score {
     <<
-      %\new Staff \melodia
-      \new Staff \transpose f bes' { \melodiaintro \break \melodiaum \break \melodiadois }
+      %\new Staff \parte
+      \new Staff \transpose f bes' { \intro \break \parteum \break \partedois }
       \new Staff { \clef bass f bes \baixo }
     >>
   }
@@ -192,7 +192,7 @@ letratoda = {
    <<
      \new Staff { 
        \transpose f c'  {
-         \melodiaintro  \melodiaum \break \melodiadois }
+         \intro  \parteum \break \partedois }
      }
    >>
  }
@@ -206,11 +206,11 @@ letratoda = {
       \new TimeSig \compassoseparado
       \new Staff {
         \transpose f g' { 
-          \melodiaintro 
+          \intro 
           \break
-          \melodiaum 
+          \parteum 
           \break
-          \melodiadois }
+          \partedois }
          \addlyrics \letratoda
       }
     >>
@@ -232,7 +232,7 @@ letratoda = {
   \header { poet = "C / Dó (Gm)" }
   \score {
     <<
-      \new Staff { \transpose f bes'  \melodiaintro \break \melodiaum \break \melodiadois }
+      \new Staff { \transpose f bes'  \intro \break \parteum \break \partedois }
     >>
   }
 }
@@ -260,9 +260,9 @@ letratoda = {
         \transpose f g'' { 
             \easyHeadsOn
             \teeny
-          \melodiaintro \break
-          \melodiaum \break
-          \melodiadois }
+          \intro \break
+          \parteum \break
+          \partedois }
          \addlyrics \letratoda
       }
     >>
@@ -277,7 +277,9 @@ letratoda = {
 			}
     }
   }
-}'#(set-global-staff-size 20)
+}
+
+#(set-global-staff-size 16)
 
 \book {
   \bookOutputName "carinito_letra"
@@ -288,7 +290,7 @@ letratoda = {
     <<
        \new Staff  {
           \new Voice = "letra" {
-               \intro
+%                \intro
              \parteum
              \partedois
            }
@@ -296,8 +298,8 @@ letratoda = {
   %           \new ChordNames 
   %           \acordetodo
              \new Lyrics
-             \lyricsto "letra" \letratoda
+             \lyricsto "letra" \letra
     >>
            \include "../imprimirsoletras.ly"
   }
-}'
+}

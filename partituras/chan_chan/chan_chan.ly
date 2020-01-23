@@ -253,6 +253,7 @@ PartPFiveVoiceOne =  \relative d, {
 }
 
 letraum =  \lyricmode {
+  _ _ _ _ _ _ _ _ _ _ _ _ 
   DeAl -- to Ce -- dro voy pa --
   ra Mar -- ca -- "né," lle -- goa Cue -- "to," voy pa -- ra Ma -- ya
   -- "rí." DeAl -- to Ce -- dro voy pa -- ra Mar -- ca -- "né," lle --
@@ -423,10 +424,10 @@ letratoda = \lyricmode {
   \score {
     <<
 	\new Staff {
-   \accidentalStyle Score.dodecaphonic
+   \accidentalStyle Score.dodecaphonic
 	  \new Voice = "saxalto" {
-	    \easyHeadsOn
-        \teeny
+	    \easyHeadsOn
+        \teeny
         \PartPOneVoiceOne
 	   	  }
 	}
@@ -444,21 +445,7 @@ letratoda = \lyricmode {
   }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-'#(set-global-staff-size 20)
+#(set-global-staff-size 18)
 
 \book {
   \bookOutputName "chan_chan_letra"
@@ -469,9 +456,11 @@ letratoda = \lyricmode {
     <<
        \new Staff  {
           \new Voice = "letra" {
-               \intro
-             \parteum
-             \partedois
+%                \intro
+%              \parteum
+%              \partedois
+                \unfoldRepeats
+                \PartPTwoVoiceOne
            }
       }
   %           \new ChordNames 
@@ -481,4 +470,4 @@ letratoda = \lyricmode {
     >>
            \include "../imprimirsoletras.ly"
   }
-}'
+}

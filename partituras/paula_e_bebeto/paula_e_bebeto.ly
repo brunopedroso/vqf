@@ -160,7 +160,7 @@ letratoda = \lyricmode {
       \new TimeSig \compassoseparado
       \new Staff {
         \new Voice = "saxalto" {
-          \transpose d e {
+          \transpose d b {
             \intro
             \parteum
 %             \skip 256 \bar "paula_e_bebeto_letra" \break
@@ -185,7 +185,7 @@ letratoda = \lyricmode {
       \new TimeSig \compassoseparado
       \new Staff {
         \new Voice = "trombone" {
-          \transpose d a {
+          \transpose d d {
             \intro
             \parteum
 %             \skip 256 \bar "paula_e_bebeto_letra" \break

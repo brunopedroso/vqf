@@ -1,4 +1,7 @@
 \include "../formatoversos.ly"
+\include "../marcaspadronizadas.ly"
+\include "../nomedasnotas.ly"
+
 #(set-global-staff-size 16)
 
 \header{
@@ -77,11 +80,11 @@ partedois = \relative c'' {
   r8 f,8 a8 c8 |
   f4 r8 f8 |
   f8 e8 g8 f8 |   d4 
-  \bar "me_da_um_dinheiro_aih_letra" \break
+  \pulalinha
   r8 f8 |
   f8 f8 e8 d8 |
   c8 f8 
-  \bar "me_da_um_dinheiro_aih_letra" \break
+  \pulalinha
   r8 c8 |
   c16 c8 c16 d8 e | f2
 }
@@ -90,9 +93,9 @@ letradois = \lyricmode {
   Não vai dar?
   Não vai dar não?
   Vo cê vai ver a gran de con fu sã ão
-  Que-eu vou fa zer be ben do-a té ca ir
+  Que_eu vou fa zer be ben do_a -- té ca ir
   Me dá, me dá, me dá, oi!
-  Me dá um di nhei ro-a í!
+  Me dá um di nhei ro -- a í!
 }
 
 letratoda = {
@@ -180,10 +183,53 @@ letratoda = {
 }
 
 \version "2.18.2"  % necessary for upgrading to future LilyPond versions.
+
+#(set-global-staff-size 38)
+\book {
+  \bookOutputName "me_da_um_dinheiro_ai_Eb_notas"
+   \header{
+  }
+  \score {
+  <<
+    \new TimeSig	\compassoseparado
+    \new Staff {
+           \accidentalStyle Score.dodecaphonic
+      \set Staff.instrumentName = "Canto"
+      \context Staff <<
+        \context Voice = "melodia" { 
+            \easyHeadsOn
+            \teeny
+		\transpose f g {
+		  \voiceOne 
+		  \parteum 
+		  \partedois 
+		}
+        }
+      \addlyrics { \letratoda}
+      >>
+      
+    }
+
+  >>
+  
+  \layout {
+             \apertacompasso
+    \context {
+      \Voice
+      \consists \Gravador_nome_notas
+    } 	
+}
+  }
+}
+
+letracantada = \lyricmode {
+  \letraum
+  \letradois
+}
 #(set-global-staff-size 20)
 
 \book {
-  \bookOutputName "me_da_um_dinheiro_aih_letra"
+  \bookOutputName "me_da_um_dinheiro_ai_letra"
   \header {
      instrument = "Letra e Acordes"
   }
@@ -191,7 +237,8 @@ letratoda = {
     <<
        \new Staff  {
           \new Voice = "letra" {
-               \intro
+%                \intro
+             \unfoldRepeats
              \parteum
              \partedois
            }
@@ -199,7 +246,7 @@ letratoda = {
   %           \new ChordNames 
   %           \acordetodo
              \new Lyrics
-             \lyricsto "letra" \letratoda
+             \lyricsto "letra" \letracantada
     >>
            \include "../imprimirsoletras.ly"
   }
