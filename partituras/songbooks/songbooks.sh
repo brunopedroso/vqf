@@ -1,9 +1,9 @@
 #!/bin/bash
 
 #rascunho da criação da capa
-convert ../../img/2019-capasongbook.png -gravity Center -density 72 -pointsize 30 caption:"Vai Quem Fica\nSongbook Carnaval    $(date +%Y)\nv. $(date +%d-%m-%Y)\n\n" -append  -background white -size 595x842 -page a4 capa.pdf
+convert ../../img/2020-capasongbook.png -gravity Center -density 72 -pointsize 30 caption:"Vai Quem Fica\nSongbook Carnaval    $(date +%Y)\nv. $(date +%d-%m-%Y)\n\n" -append  -background white -size 595x842 -page a4 capa.pdf
 
-arqrep="../../_data/repertorio2019.yml"
+arqrep="../../_data/repertorio2020.yml"
 
 #Captura e Geração de nomes dos blocos em pdf
 

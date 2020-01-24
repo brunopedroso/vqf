@@ -56,7 +56,7 @@ blocos:
           'bb': 'partituras/eu_vi_mamae_oxum_na_cachoeira/mamae_oxum-Bb.pdf'
           'eb': 'partituras/eu_vi_mamae_oxum_na_cachoeira/mamae_oxum-Eb.pdf'
           'ebnotas': 'partituras/eu_vi_mamae_oxum_na_cachoeira/mamae_oxum-Eb_notas.pdf'
-          'letra': 'partituras/eu_vi_mamae_oxum_na_cachoeira/eu_vi_mamae_oxum_na_cachoeira_letra.pdf'
+          'letra': 'partituras/eu_vi_mamae_oxum_na_cachoeira/mamae_oxum_letra.pdf'
 
       - nome: 'O Abre Alas (Dm)'
         links:
@@ -169,7 +169,8 @@ blocos:
           'tromb': 'partituras/a_ra/a_ra_Trombone.pdf'
           'tromp': 'partituras/a_ra/a_ra_Trompetes.pdf'
           'tuba': 'partituras/a_ra/a_ra_Tuba.pdf'
-
+          'letra': 'partituras/a_ra/a_ra_letra.pdf'
+          
       - nome: 'Emoriô (Dm)'
         links:
           'midi': 'partituras/emorioh/emorioh_C.midi'
@@ -191,7 +192,7 @@ blocos:
   - nome: "Latinas"
     musicas:
 
-      - nome: 'Bessame Muhco (Dm)'
+      - nome: 'Bésame Mucho (Dm)'
 
       - nome: 'Guantanamera (Dm)'
 
@@ -287,12 +288,13 @@ blocos:
       - nome: 'O trenzinho do caipira (C)'
         links:
           'yt': 'https://www.youtube.com/watch?v=DC8oFe5bkeY'
-          'c': 'partituras/trenzinho/trenzinhoCaipiraC.png'
-          'bb': 'partituras/trenzinho/trenzinhoCaipiraBb.png'
+          'bb': 'partituras/trenzinho/trenzinho_Bb.pdf'
           'eb': 'partituras/trenzinho/trenzinho_Eb.pdf'
-          'c-letra': 'partituras/trenzinho/trenzinho_C.pdf'
-          'bb-letra': 'partituras/trenzinho/trenzinho_Bb.pdf'
+          'c': 'partituras/trenzinho/trenzinho_C.pdf'
+          'bb-ext': 'partituras/trenzinho/trenzinhoCaipiraBb.png'
+          'c-ext': 'partituras/trenzinho/trenzinhoCaipiraC.png'
           'midi': 'partituras/trenzinho/trenzinho_C.midi'
+          'letra': 'partituras/trenzinho/trenzinho_letra.pdf'
 
   - nome: "Gypsi"
     musicas:
@@ -351,6 +353,8 @@ blocos:
           'c':  'partituras/corta_jaca/Corta_Jaca.pdf'
           'bb': 'partituras/corta_jaca/Corta_Jaca-Clarinete_e_Sax_Tenor_em_Bb.pdf'
           'eb': 'partituras/corta_jaca/Corta_Jaca-Sax_Alto_em_Eb.pdf'
+          'ebnotas': 'partituras/corta_jaca/corta_jaca-Eb_notas.pdf'
+          'letra':  'partituras/corta_jaca/corta_jaca_letra.pdf'
 
       - nome: 'Folia de Reis (F)'
         links:
@@ -366,6 +370,7 @@ blocos:
           'part Bb': 'partituras/benguele/benguele-Bb.pdf'
           'part Eb': 'partituras/benguele/benguele-Eb.pdf'
           'midi':    'partituras/benguele/benguele.midi'
+          'letra':    'partituras/benguele/benguele_letra.pdf'
 
   - nome: "Jazz"
     musicas:
@@ -385,7 +390,6 @@ blocos:
           'Tuba': 'partituras/haitian_fight_song/haitian_fight_song_C_Tuba.pdf'
           'cgeral':  'partituras/haitian_fight_song/haitian_fight_song_C_Geral.pdf'
           'midi':  'partituras/haitian_fight_song/haitian_fight_song_Geral.midi'
-          'letra': 'partituras/haitian_fight_song/haitian_fight_song_letra.pdf'
 
       - nome: 'Take Five (Dm)'
         links:
@@ -407,6 +411,8 @@ blocos:
           'c': 'partituras/angelus/angelus_C.pdf'
           'bb': 'partituras/angelus/angelus_Bb.pdf'
           'eb': 'partituras/angelus/angelus_Eb.pdf'
+          'ebnotas': 'partituras/angelus/angelus_Eb_notas.pdf'
+          'letra': 'partituras/angelus/angelus_letra.pdf'
 
       - nome: 'Bola de Meia (G)'
         links:
@@ -437,6 +443,8 @@ blocos:
           'c':  'partituras/cachaca/cachaca_C.pdf'
           'bb': 'partituras/cachaca/cachaca_Bb.pdf'
           'eb': 'partituras/cachaca/cachaca_Eb.pdf'
+          'ebnotas': 'partituras/cachaca/cachaca_Eb_notas.pdf'
+          'letra': 'partituras/cachaca/cachaca_letra.pdf'
 
       - nome: 'Me dá um dinheiro aí (Bb)'
         links:
@@ -444,6 +452,8 @@ blocos:
           'c':  'partituras/me_da_um_dinheiro_aih/me_da_um_dinheiro_ai_C.pdf'
           'bb': 'partituras/me_da_um_dinheiro_aih/me_da_um_dinheiro_ai_Bb.pdf'
           'eb': 'partituras/me_da_um_dinheiro_aih/me_da_um_dinheiro_ai_Eb.pdf'
+          'ebnotas': 'partituras/me_da_um_dinheiro_aih/me_da_um_dinheiro_ai_Eb.pdf'
+          'letra': 'partituras/me_da_um_dinheiro_aih/me_da_um_dinheiro_ai_letra.pdf'
 
       - nome: 'Marcha da Cueca (Bb)'
         links:
@@ -451,13 +461,15 @@ blocos:
           'c':  'partituras/marcha_da_cueca/marcha_da_cueca_C.pdf'
           'bb': 'partituras/marcha_da_cueca/marcha_da_cueca_Bb.pdf'
           'eb': 'partituras/marcha_da_cueca/marcha_da_cueca_Eb.pdf'
+          'ebnotas': 'partituras/marcha_da_cueca/marcha_da_cueca_Eb.pdf'
+          'letra': 'partituras/marcha_da_cueca/marcha_da_cueca_letra.pdf'
 
       - nome: 'Vassourinhas (Bb)'
         links:
           'gravacao': 'partituras/vassourinhas/vassourinhas.midi'
-          'c':  'partituras/vassourinhas/Vassourinhas-Instrumentos_em_C.pdf'
-          'bb': 'partituras/vassourinhas/Vassourinhas-Clarinete_e_Sax_Tenor_em_Bb.pdf'
-          'eb': 'partituras/vassourinhas/Vassourinhas-Sax_Alto_Eb.pdf'
+          'c':  'partituras/vassourinhas/vassourinhas-Instrumentos_em_C.pdf'
+          'bb': 'partituras/vassourinhas/vassourinhas-Clarinete_e_Sax_Tenor_em_Bb.pdf'
+          'eb': 'partituras/vassourinhas/vassourinhas-Sax_Alto_Eb.pdf'
 
 
   - nome: "Frevos"
@@ -469,6 +481,8 @@ blocos:
           'c':  'partituras/madeira_que_cupim_nao_roi/madeira_que_cupim_nao_roi-Melodia_em_C.pdf'
           'bb': 'partituras/madeira_que_cupim_nao_roi/madeira_que_cupim_nao_roi-Trompete_em_Bb.pdf'
           'eb': 'partituras/madeira_que_cupim_nao_roi/madeira_que_cupim_nao_roi-Sax_Alto_Eb.pdf'
+          'ebnotas': 'partituras/madeira_que_cupim_nao_roi/madeira_que_cupim_nao_roi-Sax_Alto_Eb_notas.pdf'
+          'letra': 'partituras/madeira_que_cupim_nao_roi/madeira_que_cupim_nao_roi_letra.pdf'
 
       - nome: 'Frevo e Ciranda (Em)'
         links:
@@ -476,6 +490,8 @@ blocos:
           'c':   'partituras/frevo_e_ciranda/frevo_e_ciranda-melodia_C.pdf'
           'bb':  'partituras/frevo_e_ciranda/frevo_e_ciranda-melodia_Bb.pdf'
           'eb':  'partituras/frevo_e_ciranda/frevo_e_ciranda-melodia_Eb.pdf'
+          'ebnotas':  'partituras/frevo_e_ciranda/frevo_e_ciranda-melodia_Eb_notas.pdf'
+          'letra':  'partituras/frevo_e_ciranda/frevo_e_ciranda_letra.pdf'
 
       - nome: 'Cabelo de fogo (Cm)'
         links:
@@ -483,7 +499,9 @@ blocos:
           'c':   'partituras/cabelo_de_fogo/cabelo_de_fogo_C.pdf'
           'bb':  'partituras/cabelo_de_fogo/cabelo_de_fogo_Bb.pdf'
           'eb':  'partituras/cabelo_de_fogo/cabelo_de_fogo_Eb.pdf'
+          'ebnotas':  'partituras/cabelo_de_fogo/cabelo_de_fogo_Eb_notas.pdf'
           'midi':  'partituras/cabelo_de_fogo/cabelo_de_fogo_C.midi'
+          'letra':  'partituras/cabelo_de_fogo/cabelo_de_fogo_Eb.pdf'
 
 
   - nome: "Pastorinhas"
@@ -494,6 +512,8 @@ blocos:
           'c':  'partituras/pastorinhas/pastorinhas_C.pdf'
           'bb': 'partituras/pastorinhas/pastorinhas_Bb.pdf'
           'eb': 'partituras/pastorinhas/pastorinhas_Eb.pdf'
+          'ebnotas': 'partituras/pastorinhas/pastorinhas_Eb_notas.pdf'
+          'letra': 'partituras/pastorinhas/pastorinhas_letra.pdf'
 
       - nome: 'Taí (Gm)'
         links:
@@ -501,6 +521,8 @@ blocos:
           'c':  'partituras/taih/taih_C.pdf'
           'bb': 'partituras/taih/taih_Bb.pdf'
           'eb': 'partituras/taih/taih_Eb.pdf'
+          'ebnotas': 'partituras/taih/taih_Eb_notas.pdf'
+          'letra': 'partituras/taih/taih_Eb.pdf'
 
       - nome: 'Quem sabe sabe (Gm)'
         links:
@@ -508,6 +530,8 @@ blocos:
           'c':  'partituras/quem_sabe_sabe/quem_sabe_sabe_C.pdf'
           'bb': 'partituras/quem_sabe_sabe/quem_sabe_sabe_Bb.pdf'
           'eb': 'partituras/quem_sabe_sabe/quem_sabe_sabe_Eb.pdf'
+          'ebnotas': 'partituras/quem_sabe_sabe/quem_sabe_sabe_Eb_notas.pdf'
+          'letra': 'partituras/quem_sabe_sabe/quem_sabe_sabe_letra.pdf'
 
       - nome: 'Saca-rolhas (Gm)'
         links:
@@ -515,6 +539,8 @@ blocos:
           'c':  'partituras/saca_rolhas/saca_rolhas_C.pdf'
           'bb': 'partituras/saca_rolhas/saca_rolhas_Bb.pdf'
           'eb': 'partituras/saca_rolhas/saca_rolhas_Eb.pdf'
+          'ebnotas': 'partituras/saca_rolhas/saca_rolhas_Eb_notas.pdf'
+          'eb': 'partituras/saca_rolhas/saca_rolhas_letra.pdf'
 
       - nome: 'Índio quer apito (Gm)'
         links:
@@ -522,6 +548,8 @@ blocos:
           'c':  'partituras/indio_quer_apito/indio_quer_apito_C.pdf'
           'bb': 'partituras/indio_quer_apito/indio_quer_apito_Bb.pdf'
           'eb': 'partituras/indio_quer_apito/indio_quer_apito_Eb.pdf'
+          'ebnotas': 'partituras/indio_quer_apito/indio_quer_apito_Eb_notas.pdf'
+          'letra': 'partituras/indio_quer_apito/indio_quer_apito_letra.pdf'
 
 
   - nome: "Hermeto"
@@ -535,6 +563,7 @@ blocos:
           'eb': 'partituras/santo_antonio/santo_antonio_Eb.pdf'
           'ebnotas': 'partituras/santo_antonio/santo_antonio_Eb_notas.pdf'
           'letra': 'partituras/santo_antonio/santo_antonio_letra.pdf'
+
       - nome: 'Bebê (Am)'
         links:
           'yt': 'https://www.youtube.com/watch?v=EGqWRias96M'
@@ -577,6 +606,11 @@ blocos:
       - nome: 'Nos Barracos da Cidade (Dm)'
         links:
           'yt': 'https://www.youtube.com/watch?v=j0OCVXZ9a7A'
+          'c':  'partituras/nos_barracos_da_cidade/nos_barracos_da_cidade_C.pdf'
+          'bb': 'partituras/nos_barracos_da_cidade/nos_barracos_da_cidade_Bb.pdf'
+          'eb': 'partituras/nos_barracos_da_cidade/nos_barracos_da_cidade_Eb.pdf'
+          'ebnotas': 'partituras/nos_barracos_da_cidade/nos_barracos_da_cidade_Eb_notas.pdf'
+          'letra': 'partituras/nos_barracos_da_cidade/nos_barracos_da_cidade_letra.pdf'
 
   - nome: "Beatles"
     musicas:
@@ -625,12 +659,14 @@ blocos:
           'c':  'partituras/bandeira_branca/bandeira_branca_C.pdf'
           'bb': 'partituras/bandeira_branca/bandeira_branca_Bb.pdf'
           'eb': 'partituras/bandeira_branca/bandeira_branca_Eb.pdf'
+          'ebnotas': 'partituras/bandeira_branca/bandeira_branca_Eb_notas.pdf'
+          'eb': 'partituras/bandeira_branca/bandeira_branca_letra.pdf'
 
 
   - nome: "Sem Bloco"
     musicas:
 
-      - nome: 'Maractu Nação do Amor (D)'
+      - nome: 'Maracatu Nação do Amor (D)'
         links:
           'yt (Db)': 'https://www.youtube.com/watch?v=M80Zw9OY_os'
 
@@ -726,43 +762,80 @@ blocos:
           'ebnotas': 'partituras/massa_real/massa_real_Eb_notas.pdf'
           'letra': 'partituras/massa_real/massa_real_letra.pdf'
 
+      - nome: 'É D'oxum'
+        links:
+          'yt': 'https://www.youtube.com/watch?v=EnEJ4TwMoQI'
 
   - nome: "Sambas"
     musicas:
       - nome: 'Fita Amarela (Dm)'
         autor: 'Noel Rosa'
         inicio: 'Quando eu morrer'
+        links:
+          'letra': 'partituras/fita_amarela/fita_amarela_letra.pdf'
+        
       - nome: 'Filosofia (Dm)'
         autor: 'Noel Rosa'
         inicio: 'O mundo me condena'
-      - nome: 'Na cadência so Samba (Dm)'
+        links:
+          'letra': 'partituras/filosofia/filosofia_letra.pdf'
+
+        - nome: 'Na cadência so Samba (Dm)'
         autor: 'Novos Baianos'
         inicio: 'Sei que vou morrer não sei o dia'
+        links:
+          'letra': 'partituras/na_cadencia_do_samba/na_cadencia_do_samba_letra.pdf'
       
       - nome: 'Me deixa em paz (Gm)'
         autor: 'Monsueto'
         inicio: 'Se você não me queria'
+        links:
+          'letra': 'partituras/me_deixa_em_paz/me_deixa_em_paz_letra.pdf'
+
       - nome: 'Sem compromisso (Gm)'
         autor: 'Chico Buarque'
         inicio: 'Você só dança com ele'
+        links:
+          'letra': 'partituras/sem_compromisso/sem_compromisso_letra.pdf'
 
       - nome: 'Direito de sambar (Cm)'
         autor: 'Batatinha'
         inicio: 'É proibido sonhar'
+        links:
+          'letra': 'partituras/direito_de_sambar/direito_de_sambar_letra.pdf'
+
       - nome: 'Imitação (Cm)'
         autor: 'Batatinha'
         inicio: 'Ninguém sabe quem sou eu'
+        links:
+          'letra': 'partituras/imitacao/imitacao_letra.pdf'
 
       - nome: 'Felicidade (G)'
         autor: 'Tom Jobim'
         inicio: 'Tristeza não tem fim'
+        links:
+          'letra': 'partituras/felicidade/felicidade_letra.pdf'
 
       - nome: 'Aquarela do Brasil (F)'
         autor: 'Ari Barroso'
         inicio: 'Brasil, meu Brasil brasileiro'
-      - nome: 'Isso aqui o que é (F)'
+        links:
+          'letra': 'partituras/aquarela_do_brasil/aquarela_do_brasil_letra.pdf'
+
+        - nome: 'Isso aqui o que é (F)'
         autor: 'Ari Barroso'
         inicio: 'Isso aqui ô ô'
-      - nome: 'O Bêbado e a equilibrista (F)'
+        links:
+          'letra': 'partituras/isso_aqui_o_que_eh/isso_aqui_o_que_eh_letra.pdf'
+
+        - nome: 'O Bêbado e a equilibrista (F)'
         autor: 'João Bosco'
         inicio: 'Caía a tarde feito um viaduto'
+        links:
+          'letra': 'partituras/o_bebado_e_a_equilibrista/o_bebado_e_a_equilibrista_letra.pdf'
+
+      - nome: 'O Morro não tem vez (C?)'
+        autor: 'Tom Jobin/Vinícius de Moraes'
+        inicio: 'O morro não tem vez'
+        links:
+          'letra': 'partituras/o_morro_nao_tem_vez/o_morro_nao_tem_vez_letra.pdf'
