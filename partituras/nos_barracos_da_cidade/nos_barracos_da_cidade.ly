@@ -160,7 +160,7 @@ letratoda = {
       \new TimeSig \compassoseparado
       \new Staff {
         \new Voice = "um" {
-		\transpose c d {
+		\transpose c d, {
 			\parteum
 			  
 			\partedois \partetres
@@ -186,7 +186,7 @@ letratoda = {
       \new Staff {
         \accidentalStyle Score.dodecaphonic
         \new Voice = "um" {
-		\transpose c a {
+		\transpose c a, {
       \easyHeadsOn
        \teeny
 			\parteum
