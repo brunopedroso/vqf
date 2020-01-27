@@ -200,14 +200,18 @@ blocos:
 
       - nome: 'Bésame Mucho (Dm)'
         links:
-          'c': 'partituras/besame_mucho/besame_mucho_c.pdf'
-          'bb': 'partituras/besame_mucho/besame_mucho_bb.pdf'
-          'eb': 'partituras/besame_mucho/besame_mucho_eb.pdf'
-          'ebnotas': 'partituras/besame_mucho/besame_mucho_ebnotas.pdf'
+          'c': 'partituras/besame_mucho/besame_mucho_C.pdf'
+          'bb': 'partituras/besame_mucho/besame_mucho_Bb.pdf'
+          'eb': 'partituras/besame_mucho/besame_mucho_Eb.pdf'
+          'ebnotas': 'partituras/besame_mucho/besame_mucho_Eb_notas.pdf'
           'letra': 'partituras/besame_mucho/besame_mucho_letra.pdf'
-          
+
       - nome: 'Guantanamera (Dm)'
         links:
+          'c': 'partituras/guantanamera/guantanamera_C.pdf'
+          'bb': 'partituras/guantanamera/guantanamera_Bb.pdf'
+          'eb': 'partituras/guantanamera/guantanamera_Eb.pdf'
+          'ebnotas': 'partituras/guantanamera/guantanamera_Eb_notas.pdf'
           'letra': 'partituras/guantanamera/guantanamera_letra.pdf'
 
       - nome: 'Chan Chan (Dm)'
