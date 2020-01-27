@@ -23,9 +23,14 @@ blocos:
       - nome: 'African Marketplace (F)'
         links:
           'gravacao': 'http://rudemechanicalorchestra.org/music/african-marketplace'
-          'c': 'http://rudemechanicalorchestra.org/music/african-marketplace'
-          'bb': 'http://rudemechanicalorchestra.org/music/african-marketplace'
-          'eb': 'http://rudemechanicalorchestra.org/music/african-marketplace'
+          'c-ext': 'http://rudemechanicalorchestra.org/music/african-marketplace'
+          'bb-ext': 'http://rudemechanicalorchestra.org/music/african-marketplace'
+          'eb-ext': 'http://rudemechanicalorchestra.org/music/african-marketplace'
+          'c': 'partituras/african_marketplace/african_marketplace_C.pdf'
+          'bb': 'partituras/african_marketplace/african_marketplace_Bb.pdf'
+          'eb': 'partituras/african_marketplace/african_marketplace_letra.pdf'
+          'ebnotas': 'partituras/african_marketplace/african_marketplace_letra.pdf'
+          'letra': 'partituras/african_marketplace/african_marketplace_letra.pdf'
 
       - nome: 'Caravan (Fm)'
         links:
@@ -85,6 +90,7 @@ blocos:
           'bb': 'partituras/turma_do_funil/turma_do_funil_Bb.pdf'
           'eb': 'partituras/turma_do_funil/turma_do_funil_Eb.pdf'
           'ebnotas': 'partituras/turma_do_funil/turma_do_funil_Eb_notas.pdf'
+          'letra': 'partituras/turma_do_funil/turma_do_funil_letra.pdf'
 
 
   - nome: "Pierrot"
@@ -193,8 +199,12 @@ blocos:
     musicas:
 
       - nome: 'Bésame Mucho (Dm)'
-
+        links:
+          'letra': 'partituras/besame_mucho/besame_mucho_letra.pdf'
+ 
       - nome: 'Guantanamera (Dm)'
+        links:
+          'letra': 'partituras/guantanamera/guantanamera_letra.pdf'
 
       - nome: 'Chan Chan (Dm)'
         links:
@@ -323,6 +333,11 @@ blocos:
           'gravacao': 'partituras/pe_na_tuba/pe_na_tuba.mp3'
           'juntos': 'partituras/pe_na_tuba/pe_na_tuba_juntos.pdf'
           'separ': 'partituras/pe_na_tuba/pe_na_tuba_separados.pdf'
+          'c': 'partituras/pe_na_tuba/pe_na_tuba_C.pdf'
+          'bb': 'partituras/pe_na_tuba/pe_na_tuba_Bb.pdf'
+          'eb': 'partituras/pe_na_tuba/pe_na_tuba_Eb.pdf'
+          'ebnotas': 'partituras/pe_na_tuba/pe_na_tuba_Eb.pdf'
+          'letra': 'partituras/pe_na_tuba/pe_na_tuba_letra.pdf'
 
 
   - nome: "Comportamento"
@@ -342,7 +357,7 @@ blocos:
       - nome: 'Bela Ciao (Fm)'
         links:
           'yt': 'https://www.youtube.com/watch?v=V9sXDNMvZjA'
-
+          'letra': 'partituras/bella_ciao/bella_ciao_letra.pdf'
 
   - nome: "Maxixes"
     musicas:
@@ -362,6 +377,8 @@ blocos:
           'c':  'partituras/folia_de_reis/folia_de_reis-Trombone_em_C.pdf'
           'bb': 'partituras/folia_de_reis/folia_de_reis-Trompete_em_Bb.pdf'
           'eb': 'partituras/folia_de_reis/folia_de_reis-Sax_Alto_Eb.pdf'
+          'ebnotas': 'partituras/folia_de_reis/folia_de_reis-Sax_Alto_Eb.pdf'
+          'letra': 'partituras/folia_de_reis/folia_de_reis_letra.pdf'
 
       - nome: 'Benguelê (F)'
         links:
@@ -378,6 +395,7 @@ blocos:
       - nome: 'Mulatu Astatke - Yèkèrmo Sèw (Gm)'
         links:
           'yt': 'https://www.youtube.com/watch?v=qRtyE6Lqd4o'
+          'letra': 'partituras/yekermo_sew/yekermo_sew_letra.pdf'
 
       - nome: 'Haitian Fight Song (Gm)'
         links:
@@ -390,16 +408,19 @@ blocos:
           'Tuba': 'partituras/haitian_fight_song/haitian_fight_song_C_Tuba.pdf'
           'cgeral':  'partituras/haitian_fight_song/haitian_fight_song_C_Geral.pdf'
           'midi':  'partituras/haitian_fight_song/haitian_fight_song_Geral.midi'
+          'letra': 'partituras/haitian_fight_song/haitian_fight_song_C.pdf'
 
       - nome: 'Take Five (Dm)'
         links:
           'gravacao': 'partituras/take_five/take_five.midi'
           'c':  'partituras/take_five/take_five-Instrumentos_em_C.pdf'
           'bb': 'partituras/take_five/take_five-Instrumentos_em_Bb.pdf'
+          'letra': 'partituras/take_five/take_five_letra.pdf'
 
       - nome: 'Joshua Fit The Battle Of Jericho (Dm)'
         links:
           'yt': 'https://www.youtube.com/watch?v=gHCHALeQkrs'
+          'letra': 'partituras/joshua_fit_the_battle_of_jericho/joshua_letra.pdf'
 
   - nome: "Bituca"
     musicas:
@@ -470,6 +491,8 @@ blocos:
           'c':  'partituras/vassourinhas/vassourinhas-Instrumentos_em_C.pdf'
           'bb': 'partituras/vassourinhas/vassourinhas-Clarinete_e_Sax_Tenor_em_Bb.pdf'
           'eb': 'partituras/vassourinhas/vassourinhas-Sax_Alto_Eb.pdf'
+          'letra':  'partituras/vassourinhas/vassourinhas-Instrumentos_em_C.pdf'
+          'ebnotas': 'partituras/vassourinhas/vassourinhas-Sax_Alto_Eb.pdf'
 
 
   - nome: "Frevos"
@@ -540,7 +563,7 @@ blocos:
           'bb': 'partituras/saca_rolhas/saca_rolhas_Bb.pdf'
           'eb': 'partituras/saca_rolhas/saca_rolhas_Eb.pdf'
           'ebnotas': 'partituras/saca_rolhas/saca_rolhas_Eb_notas.pdf'
-          'eb': 'partituras/saca_rolhas/saca_rolhas_letra.pdf'
+          'letra': 'partituras/saca_rolhas/saca_rolhas_letra.pdf'
 
       - nome: 'Índio quer apito (Gm)'
         links:
@@ -571,7 +594,7 @@ blocos:
           'bb': 'partituras/bebe/bebe_Bb.pdf'
           'eb': 'partituras/bebe/bebe_Eb.pdf'
           'ebnotas': 'partituras/bebe/bebe_Eb_notas.pdf'
-
+          'letra': 'partituras/bebe/bebe_letra.pdf'
           'partitura': 'http://musicabrasilis.org.br/partituras/hermeto-pascoal-bebe'
           'livro': 'partituras/hermeto.pdf'
 
@@ -598,10 +621,12 @@ blocos:
       - nome: 'Madalena (D)'
         links:
           'yt': 'https://www.youtube.com/watch?v=BfWst51fvNM'
-
+          'letra': 'partituras/madalena/madalena_letra.pdf'
+ 
       - nome: 'Patuscada de Gandhi (F)'
         links:
           'yt': 'https://www.youtube.com/watch?v=9IcCliBDJ9A'
+          'letra': 'partituras/patuscada_de_gandhi/patuscada_de_gandhi_letra.pdf'
 
       - nome: 'Nos Barracos da Cidade (Dm)'
         links:
@@ -617,6 +642,7 @@ blocos:
       - nome: 'Obladi oblada (Bb)'
         links:
           'yt': 'https://www.youtube.com/watch?v=_Paqe2-BCYM'
+          'letra': 'partituras/obladi_oblada/obladi_oblada_letra.pdf'
 
       - nome: 'Come Toghether (Dm)'
         links:
@@ -660,7 +686,7 @@ blocos:
           'bb': 'partituras/bandeira_branca/bandeira_branca_Bb.pdf'
           'eb': 'partituras/bandeira_branca/bandeira_branca_Eb.pdf'
           'ebnotas': 'partituras/bandeira_branca/bandeira_branca_Eb_notas.pdf'
-          'eb': 'partituras/bandeira_branca/bandeira_branca_letra.pdf'
+          'letra': 'partituras/bandeira_branca/bandeira_branca_letra.pdf'
 
 
   - nome: "Sem Bloco"
@@ -765,6 +791,7 @@ blocos:
       - nome: 'É D'oxum'
         links:
           'yt': 'https://www.youtube.com/watch?v=EnEJ4TwMoQI'
+          'letra': 'partituras/eh_d_oxum/eh_d_oxum_letra.pdf'
 
   - nome: "Sambas"
     musicas:
@@ -826,7 +853,7 @@ blocos:
         autor: 'Ari Barroso'
         inicio: 'Isso aqui ô ô'
         links:
-          'letra': 'partituras/isso_aqui_o_que_eh/isso_aqui_o_que_eh_letra.pdf'
+          'letra': 'partituras/isto_aqui_o_que_eh/isto_aqui_o_que_eh_letra.pdf'
 
         - nome: 'O Bêbado e a equilibrista (F)'
         autor: 'João Bosco'
