@@ -354,9 +354,13 @@ blocos:
           'letra': 'partituras/comportamento_geral/comportamento_geral_letra.pdf'
           'midi': 'partituras/comportamento_geral/comportamento_geral.midi'
 
-      - nome: 'Bela Ciao (Fm)'
+      - nome: 'Bella Ciao (Fm)'
         links:
           'yt': 'https://www.youtube.com/watch?v=V9sXDNMvZjA'
+          'c': 'partituras/bella_ciao/bella_ciao_c.pdf'
+          'bb': 'partituras/bella_ciao/bella_ciao_bb.pdf'
+          'eb': 'partituras/bella_ciao/bella_ciao_wb.pdf'
+          'ebnotas': 'partituras/bella_ciao/bella_ciao_ebnotas.pdf'
           'letra': 'partituras/bella_ciao/bella_ciao_letra.pdf'
 
   - nome: "Maxixes"
