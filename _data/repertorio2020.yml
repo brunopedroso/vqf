@@ -870,17 +870,3 @@ blocos:
         inicio: 'O morro não tem vez'
         links:
           'letra': 'partituras/o_morro_nao_tem_vez/o_morro_nao_tem_vez_letra.pdf'
-)'
-        autor: 'Tom Jobim'
-        inicio: 'Tristeza não tem fim'
-        links:
-          'letra': 'partituras/felicidade/felicidade_letra.pdf'
-
-      - nome: 'Aquarela do Brasil (F)'
-        autor: 'Ari Barroso'
-        inicio: 'Brasil, meu Brasil brasileiro'
-        links:
-          'letra': 'partituras/aquarela_do_brasil/aquarela_do_brasil_letra.pdf'
-
-        - nome: 'Isso aqui o que é (F)'
-        autor: 'A
