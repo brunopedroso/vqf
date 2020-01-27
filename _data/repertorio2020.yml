@@ -792,7 +792,7 @@ blocos:
           'ebnotas': 'partituras/massa_real/massa_real_Eb_notas.pdf'
           'letra': 'partituras/massa_real/massa_real_letra.pdf'
 
-      - nome: 'É De Oxum'
+      - nome: "É D'Oxum"
         links:
           'yt': 'https://www.youtube.com/watch?v=EnEJ4TwMoQI'
           'letra': 'partituras/eh_d_oxum/eh_d_oxum_letra.pdf'
@@ -804,14 +804,14 @@ blocos:
         inicio: 'Quando eu morrer'
         links:
           'letra': 'partituras/fita_amarela/fita_amarela_letra.pdf'
-        
+
       - nome: 'Filosofia (Dm)'
         autor: 'Noel Rosa'
         inicio: 'O mundo me condena'
         links:
           'letra': 'partituras/filosofia/filosofia_letra.pdf'
 
-        - nome: 'Na cadência so Samba (Dm)'
+      - nome: 'Na cadência so Samba (Dm)'
         autor: 'Novos Baianos'
         inicio: 'Sei que vou morrer não sei o dia'
         links:
@@ -853,13 +853,13 @@ blocos:
         links:
           'letra': 'partituras/aquarela_do_brasil/aquarela_do_brasil_letra.pdf'
 
-        - nome: 'Isso aqui o que é (F)'
+      - nome: 'Isso aqui o que é (F)'
         autor: 'Ari Barroso'
         inicio: 'Isso aqui ô ô'
         links:
           'letra': 'partituras/isto_aqui_o_que_eh/isto_aqui_o_que_eh_letra.pdf'
 
-        - nome: 'O Bêbado e a equilibrista (F)'
+      - nome: 'O Bêbado e a equilibrista (F)'
         autor: 'João Bosco'
         inicio: 'Caía a tarde feito um viaduto'
         links:
