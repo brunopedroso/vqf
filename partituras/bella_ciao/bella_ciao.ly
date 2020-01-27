@@ -257,7 +257,7 @@ letratoda = \lyricmode {
           \new Voice = "letra" {
                            
              \parteum
-                \partedois
+             \partedois
                 
            }
       }
