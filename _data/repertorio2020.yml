@@ -642,6 +642,10 @@ blocos:
       - nome: 'Obladi oblada (Bb)'
         links:
           'yt': 'https://www.youtube.com/watch?v=_Paqe2-BCYM'
+          'c': 'partituras/obladi_oblada/obladi_oblada_C.pdf'
+          'bb': 'partituras/obladi_oblada/obladi_oblada_Bb.pdf'
+          'eb': 'partituras/obladi_oblada/obladi_oblada_Eb.pdf'
+          'ebnotas': 'partituras/obladi_oblada/obladi_oblada_Eb_notas.pdf'
           'letra': 'partituras/obladi_oblada/obladi_oblada_letra.pdf'
 
       - nome: 'Come Toghether (Dm)'
@@ -866,3 +870,17 @@ blocos:
         inicio: 'O morro não tem vez'
         links:
           'letra': 'partituras/o_morro_nao_tem_vez/o_morro_nao_tem_vez_letra.pdf'
+)'
+        autor: 'Tom Jobim'
+        inicio: 'Tristeza não tem fim'
+        links:
+          'letra': 'partituras/felicidade/felicidade_letra.pdf'
+
+      - nome: 'Aquarela do Brasil (F)'
+        autor: 'Ari Barroso'
+        inicio: 'Brasil, meu Brasil brasileiro'
+        links:
+          'letra': 'partituras/aquarela_do_brasil/aquarela_do_brasil_letra.pdf'
+
+        - nome: 'Isso aqui o que é (F)'
+        autor: 'A
