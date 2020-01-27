@@ -1,20 +1,20 @@
 \version "2.18.2"  % necessary for upgrading to future LilyPond versions
-\language english
+% \language english
 
 acordesum = \chordmode {
   \time 3/4
   \partial 4 { s4}
-  c2.:m | f:m | c:m | f:m|
+  c2:m s4 | f:m | c:m | f:m|
   c:m | f:m | c:m |
   g:7  | 
 }
 
 acordesdois = \chordmode {
  c:m | g:m7 | c:9- | f:m7 |
-bes:9| g:m7 | g:9 | aes:maj |
-aes:maj | 
+bes:9| g:m7 | g:9 | aes:7maj |
+aes:7maj | 
 d:m5- | 
-ab:7 | 
+aes:7 | 
  g:7 |  g:7 |  g:7 |  g:7 |  
 }
 

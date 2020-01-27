@@ -4,7 +4,7 @@
 \include "../nomedasnotas.ly"
 \include "../formatoversos.ly"
 
-\language "portugues"
+
 \header {
     worknumber = "reggae"
     encodingdate = "2020-01-03"
@@ -13,57 +13,57 @@
     }
 
 #(set-global-staff-size 18)
-intro =  \relative do'' {
-    \key do \major \time 3/4
-\partial 4 r16 \marcaA  re8 do16 
-\tuplet 3/2 {mi8 la, la~} la4 r8. mi'16 \tuplet 3/2 {re8 do la~} la4
-r16 re8 do16 \tuplet 3/2 {mi8 la, la} r4 r8. mi'16 \tuplet 3/2 {re8 do la'~} la4
-re,8. do16 \tuplet 3/2 {mi8 la, la} r4 r8. mi'16 \tuplet 3/2 {re8 do la~} la4 sol
-la2. r  
+intro =  \relative c'' {
+    \key c \major \time 3/4
+\partial 4 r16 \marcaA  d8 c16 
+\tuplet 3/2 {e8 a, a~} a4 r8. e'16 \tuplet 3/2 {d8 c a~} a4
+r16 d8 c16 \tuplet 3/2 {e8 a, a} r4 r8. e'16 \tuplet 3/2 {d8 c a'~} a4
+d,8. c16 \tuplet 3/2 {e8 a, a} r4 r8. e'16 \tuplet 3/2 {d8 c a~} a4 g
+a2. r  
 
 }
-parteum = \relative do'' {
-\marcaB la8 la16 sol la2 do16 si8 la16~la sol8 mi16~ mi4
-mi8 mi16 re mi2 | la16 sol8 fa16 mi8 fa mi4| \break
-do8 do16 la do2 | re16 mi8 re16 ~ re do8 re16 ~ re4 | \break
-fa8 fa16 mi fa2 | sol16 la8 sol16 ~ sol fa8 sol16 ~sol4 | \break
-si8 si16 la si2 | do16 do8 si16 ~ si si8 la16 ~ la8 sols8 %~  |
+parteum = \relative c'' {
+\marcaB a8 a16 g a2 c16 b8 a16~a g8 e16~ e4
+e8 e16 d e2 | a16 g8 f16 e8 f e4| \break
+c8 c16 a c2 | d16 e8 d16 ~ d c8 d16 ~ d4 | \break
+f8 f16 e f2 | g16 a8 g16 ~ g f8 g16 ~g4 | \break
+b8 b16 a b2 | c16 c8 b16 ~ b b8 a16 ~ a8 gis8 %~  |
 }
 
-partebaseantesref = \relative do'' {
-  sols2. | r | r | r |
+partebaseantesref = \relative c'' {
+  gis2. | r | r | r |
 }
-parteantesrefrao = \relative do' {
-  \tuplet 3/2 {mi8 mi mi sols sols sols si ~ si fa' } 
-  mi4 ~ mi8 res16 mi fa8 mi  
-  \tuplet 3/2 {mi,8 mi mi sols sols sols si ~ si fa' } 
-  mi4 ~ mi8 res16 mi fa8 mi  
+parteantesrefrao = \relative c' {
+  \tuplet 3/2 {e8 e e gis gis gis b ~ b f' } 
+  e4 ~ e8 dis16 e f8 e  
+  \tuplet 3/2 {e,8 e e gis gis gis b ~ b f' } 
+  e4 ~ e8 dis16 e f8 e  
 }
 
 
-refrao = \relative do'' {
+refrao = \relative c'' {
 \marcaC 
-la8 la16 sol la2 | re8 res16 re ~ re do res8 re4 | \break
-la8 la16 sol la2 | re8 res16 re ~ re do res8 re4| \break
-la8 la16 sol la2 | re8 res16 re ~ re do8 res16 ~ res re8 do16~ | do16 la8 la16 ~ la2
+a8 a16 g a2 | d8 dis16 d ~ d c dis8 d4 | \break
+a8 a16 g a2 | d8 dis16 d ~ d c dis8 d4| \break
+a8 a16 g a2 | d8 dis16 d ~ d c8 dis16 ~ dis d8 c16~ | c16 a8 a16 ~ a2
 r2.}
 
-partedois = \relative do'' {
-  \tuplet 3/2 {la8 la sol } \tuplet 3/2 {la la sol } \tuplet 3/2 {la la sol } 
-  \tuplet 3/2 {la la sol } \tuplet 3/2 {la la la,}
-  \tuplet 3/2 {re re do} mi8. re16 ~ re2 | r2. |
-  \tuplet 3/2 {sol8 sol fa} \tuplet 3/2 {sol sol fa} \tuplet 3/2 {sol sol fa} 
-  \tuplet 3/2 {sol sol fa} \tuplet 3/2 {sol sol sol,}
-  \tuplet 3/2 {do do la } re8. do16 ~ do2  
+partedois = \relative c'' {
+  \tuplet 3/2 {a8 a g } \tuplet 3/2 {a a g } \tuplet 3/2 {a a g } 
+  \tuplet 3/2 {a a g } \tuplet 3/2 {a a a,}
+  \tuplet 3/2 {d d c} e8. d16 ~ d2 | r2. |
+  \tuplet 3/2 {g8 g f} \tuplet 3/2 {g g f} \tuplet 3/2 {g g f} 
+  \tuplet 3/2 {g g f} \tuplet 3/2 {g g g,}
+  \tuplet 3/2 {c c a } d8. c16 ~ c2  
 }
 
-partedoisb = \relative do'' {
-  si,16 do8 re16 ~ re do8 si16 do8 si | la2.
-  si16 do8 re16 ~ re do8 si16 do8 re | mi2.
+partedoisb = \relative c'' {
+  b,16 c8 d16 ~ d c8 b16 c8 b | a2.
+  b16 c8 d16 ~ d c8 b16 c8 d | e2.
 }
 
 
-parteumtuba =  \relative fas, {
+parteumtuba =  \relative fis, {
     }
 
 letraintro = \lyricmode {
@@ -147,6 +147,13 @@ letratoda = \lyricmode {
   \letradoisb
 }
 
+letracifra = \lyricmode {
+  \letraintro
+  \letraum
+  \letrarefrao
+  \letradois
+  \letradoisb
+} 
 \book {
   \bookOutputName "extra_C"
   \header {
@@ -157,7 +164,7 @@ letratoda = \lyricmode {
       \new TimeSig \compassoseparado
       \new Staff {
         \new Voice = "saxalto" {
-            \transpose do mib {
+            \transpose c es {
         \tempo 4 = 75 {
               \intro             
              \parteum
@@ -183,7 +190,7 @@ letratoda = \lyricmode {
       \new Staff {
 %				\trackB
         \new Voice = "saxalto" {
-          \transpose do mib {
+          \transpose c es {
           \tempo 4 = 75 {
             \unfoldRepeats {
               \intro             
@@ -214,7 +221,7 @@ letratoda = \lyricmode {
       \new TimeSig \compassoseparado
       \new Staff {
         \new Voice = "saxalto" {
-          \transpose do do {
+          \transpose c c {
               \intro             
              \parteum
                 \break
@@ -243,7 +250,7 @@ letratoda = \lyricmode {
       \new TimeSig \compassoseparado
       \new Staff {
         \new Voice = "trombone" {
-          \transpose do fa {
+          \transpose c f {
               \intro             
              \parteum
                 \break
@@ -277,7 +284,7 @@ letratoda = \lyricmode {
         \new Voice = "saxalto" {
           \easyHeadsOn
           \teeny
-          \transpose do do {
+          \transpose c c {
               \intro             
              \parteum
                 \break
@@ -330,7 +337,7 @@ letratoda = \lyricmode {
              }
              \acordetodo
              \new Lyrics
-             \lyricsto "letra" \letratoda
+             \lyricsto "letra" \letracifra
     >>
            \include "../imprimirsoletras.ly"
   }
