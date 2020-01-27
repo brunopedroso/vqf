@@ -399,6 +399,10 @@ blocos:
       - nome: 'Mulatu Astatke - Yèkèrmo Sèw (Gm)'
         links:
           'yt': 'https://www.youtube.com/watch?v=qRtyE6Lqd4o'
+          'c': 'partituras/yekermo_sew/yekermo_sew_C.pdf'
+          'bb': 'partituras/yekermo_sew/yekermo_sew_Bb.pdf'
+          'eb': 'partituras/yekermo_sew/yekermo_sew_Eb.pdf'
+          'ebnotas': 'partituras/yekermo_sew/yekermo_Eb_notas.pdf'
           'letra': 'partituras/yekermo_sew/yekermo_sew_letra.pdf'
 
       - nome: 'Haitian Fight Song (Gm)'
