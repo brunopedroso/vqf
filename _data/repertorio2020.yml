@@ -436,6 +436,10 @@ blocos:
       - nome: 'Joshua Fit The Battle Of Jericho (Dm)'
         links:
           'yt': 'https://www.youtube.com/watch?v=gHCHALeQkrs'
+          'c': 'partituras/joshua_fit_the_battle_of_jericho/joshua_C.pdf'
+          'bb': 'partituras/joshua_fit_the_battle_of_jericho/joshua_Bb.pdf'
+          'eb': 'partituras/joshua_fit_the_battle_of_jericho/joshua_Eb.pdf'
+          'ebnotas': 'partituras/joshua_fit_the_battle_of_jericho/joshua_Eb_notas.pdf'
           'letra': 'partituras/joshua_fit_the_battle_of_jericho/joshua_letra.pdf'
 
   - nome: "Bituca"
@@ -642,7 +646,16 @@ blocos:
       - nome: 'Patuscada de Gandhi (F)'
         links:
           'yt': 'https://www.youtube.com/watch?v=9IcCliBDJ9A'
-          'letra': 'partituras/patuscada_de_gandhi/patuscada_de_gandhi_letra.pdf'
+          'c': 'partituras/patuscada_de_gandhi/patuscada_C.pdf'
+          'bb': 'partituras/patuscada_de_gandhi/patuscada_Bb.pdf'
+          'eb': 'partituras/patuscada_de_gandhi/patuscada_Eb.pdf'
+          'tubabb': 'partituras/patuscada_de_gandhi/patuscada-Tuba-Bb.pdf'
+          'tubaeb': 'partituras/patuscada_de_gandhi/patuscada-Tuba-Eb.pdf'
+          'trombone': 'partituras/patuscada_de_gandhi/patuscada-Trombone.pdf'
+          'trompete2': 'partituras/patuscada_de_gandhi/patuscada-Trompete2.pdf'
+          'tenor': 'partituras/patuscada_de_gandhi/patuscada-tenor.pdf'
+          'flauta': 'partituras/patuscada_de_gandhi/patuscada-flauta.pdf'
+          'letra': 'partituras/patuscada_de_gandhi/patuscada_letra.pdf'
 
       - nome: 'Nos Barracos da Cidade (Dm)'
         links:
