@@ -641,6 +641,10 @@ blocos:
       - nome: 'Madalena (D)'
         links:
           'yt': 'https://www.youtube.com/watch?v=BfWst51fvNM'
+          'c': 'partituras/madalena/madalena_C.pdf'
+          'bb': 'partituras/madalena/madalena_Bb.pdf'
+          'eb': 'partituras/madalena/madalena_Eb.pdf'
+          'ebnotas': 'partituras/madalena/madalena_Eb_notas.pdf'
           'letra': 'partituras/madalena/madalena_letra.pdf'
  
       - nome: 'Patuscada de Gandhi (F)'
