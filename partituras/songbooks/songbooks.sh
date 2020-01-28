@@ -28,12 +28,17 @@ for t in ${tons_livros[@]}; do
 done
 
 
+# Comando para gerar booklet de 4 páginas por folha (8 frente e verso)
+pdftops songbookletra.pdf -| psbook | psnup -2 -PA4 |ps2pdf - basebook.pdf
+pdftk basebook.pdf cat 1-endodd output -| pdftops - -  | psnup -2 -PA4 | ps2pdf - basei.pdf
+pdftk basebook.pdf cat 1-endeven output -| pdftops - - | psnup -2 -PA4 | ps2pdf - basep.pdf
+pdftk A=basei.pdf B=basep.pdf shuffle A B output songbookletrabooklet.pdf
+
+#| ps2pdf -sPAPERSIZE=a4  - songbookletrabooklet.pdf
+
 #Limpa arquivos provisórios gerados
 shopt -s extglob
 rm !(song*).pdf
 rm *.txt
-
-# Comando para gerar booklet de 4 páginas por folha (8 frente e verso)
-pdftops songbookletra.pdf -| psbook -s24 | psnup -4 -PA4 | ps2pdf -sPAPERSIZE=a4  - songbookletrabooklet.pdf
 
 
