@@ -271,29 +271,6 @@ blocos:
           'ebnotas': 'partituras/mulata_bossa_nova/mulata_bossa_nova_Eb_notas.pdf'
           'letra': 'partituras/mulata_bossa_nova/mulata_bossa_nova_letra.pdf'
 
-
-  - nome: "Lento"
-    musicas:
-      - nome: 'The fool on the hill (C)'
-        links:
-          'mid': 'partituras/fool_on_the_hill.midi'
-          'yt': 'https://www.youtube.com/watch?v=_Wt0I60ZGp0'
-          'c': 'partituras/fool_on_the_hill/fool_on_the_hill_C.pdf'
-          'bb': 'partituras/fool_on_the_hill/fool_on_the_hill_Bb.pdf'
-          'eb': 'partituras/fool_on_the_hill/fool_on_the_hill_Eb.pdf'
-          'ebnotas': 'partituras/fool_on_the_hill/fool_on_the_hill_Eb_notas.pdf'
-          'letra': 'partituras/fool_on_the_hill/fool_on_the_hill_letra.pdf'
-
-      - nome: 'O trenzinho do caipira (C)'
-        links:
-          'yt': 'https://www.youtube.com/watch?v=DC8oFe5bkeY'
-          'c': 'partituras/trenzinho/trenzinhoCaipiraC.png'
-          'bb': 'partituras/trenzinho/trenzinhoCaipiraBb.png'
-          'eb': 'partituras/trenzinho/trenzinho_Eb.pdf'
-          'c-letra': 'partituras/trenzinho/trenzinho_C.pdf'
-          'bb-letra': 'partituras/trenzinho/trenzinho_Bb.pdf'
-          'midi': 'partituras/trenzinho/trenzinho_C.midi'
-
   - nome: "Gypsi"
     musicas:
       - nome: 'Blues Cigano (Dm)'
@@ -323,34 +300,16 @@ blocos:
           'separ': 'partituras/pe_na_tuba/pe_na_tuba_separados.pdf'
 
 
-  - nome: "Comportamento"
-    musicas:
-
-      - nome: 'Comportamento Geral (Fm)'
-        links:
-          'yt': 'https://www.youtube.com/watch?v=RLxQ1UyHDD4'
-          'c': 'partituras/comportamento_geral/comportamento_geral_C.pdf'
-          'bb': 'partituras/comportamento_geral/comportamento_geral_Bb.pdf'
-          'eb': 'partituras/comportamento_geral/comportamento_geral_Eb.pdf'
-          'Tuba': 'partituras/comportamento_geral/comportamento_geral_C_Tuba.pdf'
-          'ebnotas':  'partituras/comportamento_geral/comportamento_geral_Eb_notas.pdf'
-          'letra': 'partituras/comportamento_geral/comportamento_geral_letra.pdf'
-          'midi': 'partituras/comportamento_geral/comportamento_geral.midi'
-
-      - nome: 'Bela Ciao (Fm)'
-        links:
-          'yt': 'https://www.youtube.com/watch?v=V9sXDNMvZjA'
-
-
   - nome: "Maxixes"
     musicas:
 
       - nome: 'Corta Jaca (Dm)'
         links:
           'gravacao': 'partituras/corta_jaca/corta_jaca.midi'
-          'c':  'partituras/corta_jaca/Corta_Jaca.pdf'
-          'bb': 'partituras/corta_jaca/Corta_Jaca-Clarinete_e_Sax_Tenor_em_Bb.pdf'
-          'eb': 'partituras/corta_jaca/Corta_Jaca-Sax_Alto_em_Eb.pdf'
+          'c':  'partituras/corta_jaca/corta_jaca.pdf'
+          'bb': 'partituras/corta_jaca/corta_jaca-Clarinete_e_Sax_Tenor_em_Bb.pdf'
+          'eb': 'partituras/corta_jaca/corta_jaca-Sax_Alto_em_Eb.pdf'
+          'letra': 'partituras/corta_jaca/corta_jaca_letra.pdf'
 
       - nome: 'Folia de Reis (F)'
         links:
@@ -399,6 +358,10 @@ blocos:
 
   - nome: "Bituca"
     musicas:
+
+      - nome: 'Para Lennon e McCartney (Cm)'
+        links:
+          'yt': 'https://www.youtube.com/watch?v=e9-c8b76OMk'
 
       - nome: 'Ângelus (C)'
         links:
@@ -542,54 +505,6 @@ blocos:
           'eb': 'partituras/take_five/take_five-Sax_Alto_em_Eb.pdf'
           'livro': 'partituras/hermeto.pdf'
 
-  - nome: "Gil"
-    musicas:
-      - nome: 'Extra (Cm)'
-        links:
-          'yt': 'https://www.youtube.com/watch?v=mh9drfcfPuU&feature=youtu.be'
-          'c':  'partituras/extra/extra_C.pdf'
-          'bb': 'partituras/extra/extra_Bb.pdf'
-          'eb': 'partituras/extra/extra_Eb.pdf'
-          'ebnotas': 'partituras/extra/extra_Eb_notas.pdf'
-          'letra': 'partituras/extra/extra_letra.pdf'
-
-      - nome: 'Andar com Fé (Eb)'
-        links:
-          'yt': 'https://www.youtube.com/watch?v=cH65dRyJ_Ys'
-          'c':  'partituras/andar_com_fe/andar_com_fe_C.pdf'
-          'bb': 'partituras/andar_com_fe/andar_com_fe_Bb.pdf'
-          'eb': 'partituras/andar_com_fe/andar_com_fe_Eb.pdf'
-          'ebnotas': 'partituras/andar_com_fe/andar_com_fe_Eb_notas.pdf'
-          'letra': 'partituras/andar_com_fe/andar_com_fe_letra.pdf'
-
-      - nome: 'Madalena (D)'
-        links:
-          'yt': 'https://www.youtube.com/watch?v=BfWst51fvNM'
-
-      - nome: 'Patuscada de Gandhi (F)'
-        links:
-          'yt': 'https://www.youtube.com/watch?v=9IcCliBDJ9A'
-
-      - nome: 'Nos Barracos da Cidade (Dm)'
-        links:
-          'yt': 'https://www.youtube.com/watch?v=j0OCVXZ9a7A'
-
-  - nome: "Beatles"
-    musicas:
-      - nome: 'Obladi oblada (Bb)'
-        links:
-          'yt': 'https://www.youtube.com/watch?v=_Paqe2-BCYM'
-
-      - nome: 'Come Toghether (Dm)'
-        links:
-          'yt': 'https://www.youtube.com/watch?v=45cYwDMibGo'
-          'c':  'partituras/come_together/come_together_C.pdf'
-          'bb': 'partituras/come_together/come_together_Bb.pdf'
-          'eb': 'partituras/come_together/come_together_Eb.pdf'
-          'ebnotas': 'partituras/come_together/come_together_Eb_notas.pdf'
-          'letra': 'partituras/come_together/come_together_letra.pdf'
-
-
   - nome: "O Caminho"
     musicas:
       - nome: 'O caminho do bem (Dm)'
@@ -610,6 +525,55 @@ blocos:
           'eb': 'partituras/another_brick/another_brick_Eb.pdf'
           'ebnotas': 'partituras/another_brick/another_brick_Eb_notas.pdf'
           'letra': 'partituras/another_brick/another_brick_letra.pdf'
+
+
+  - nome: "Gil"
+    musicas:
+
+      - nome: 'Patuscada de Gandhi (F)'
+        links:
+          'yt': 'https://www.youtube.com/watch?v=9IcCliBDJ9A'
+
+      - nome: 'Madalena (D)'
+        links:
+          'yt': 'https://www.youtube.com/watch?v=BfWst51fvNM'
+
+      - nome: 'Andar com Fé (Eb)'
+        links:
+          'yt': 'https://www.youtube.com/watch?v=cH65dRyJ_Ys'
+          'c':  'partituras/andar_com_fe/andar_com_fe_C.pdf'
+          'bb': 'partituras/andar_com_fe/andar_com_fe_Bb.pdf'
+          'eb': 'partituras/andar_com_fe/andar_com_fe_Eb.pdf'
+          'ebnotas': 'partituras/andar_com_fe/andar_com_fe_Eb_notas.pdf'
+          'letra': 'partituras/andar_com_fe/andar_com_fe_letra.pdf'
+
+      - nome: 'Extra (Cm)'
+        links:
+          'yt': 'https://www.youtube.com/watch?v=mh9drfcfPuU&feature=youtu.be'
+          'c':  'partituras/extra/extra_C.pdf'
+          'bb': 'partituras/extra/extra_Bb.pdf'
+          'eb': 'partituras/extra/extra_Eb.pdf'
+          'ebnotas': 'partituras/extra/extra_Eb_notas.pdf'
+          'letra': 'partituras/extra/extra_letra.pdf'
+
+
+
+
+
+  - nome: "Beatles"
+    musicas:
+      - nome: 'Come Toghether (Dm)'
+        links:
+          'yt': 'https://www.youtube.com/watch?v=45cYwDMibGo'
+          'c':  'partituras/come_together/come_together_C.pdf'
+          'bb': 'partituras/come_together/come_together_Bb.pdf'
+          'eb': 'partituras/come_together/come_together_Eb.pdf'
+          'ebnotas': 'partituras/come_together/come_together_Eb_notas.pdf'
+          'letra': 'partituras/come_together/come_together_letra.pdf'
+
+      - nome: 'Obladi oblada (Bb)'
+        links:
+          'yt': 'https://www.youtube.com/watch?v=_Paqe2-BCYM'
 
 
   - nome: "Saideira"
@@ -721,6 +685,45 @@ blocos:
           'eb': 'partituras/massa_real/massa_real_Eb.pdf'
           'ebnotas': 'partituras/massa_real/massa_real_Eb_notas.pdf'
           'letra': 'partituras/massa_real/massa_real_letra.pdf'
+
+      - nome: 'The fool on the hill (C)'
+        links:
+          'mid': 'partituras/fool_on_the_hill.midi'
+          'yt': 'https://www.youtube.com/watch?v=_Wt0I60ZGp0'
+          'c': 'partituras/fool_on_the_hill/fool_on_the_hill_C.pdf'
+          'bb': 'partituras/fool_on_the_hill/fool_on_the_hill_Bb.pdf'
+          'eb': 'partituras/fool_on_the_hill/fool_on_the_hill_Eb.pdf'
+          'ebnotas': 'partituras/fool_on_the_hill/fool_on_the_hill_Eb_notas.pdf'
+          'letra': 'partituras/fool_on_the_hill/fool_on_the_hill_letra.pdf'
+
+      - nome: 'O trenzinho do caipira (C)'
+        links:
+          'yt': 'https://www.youtube.com/watch?v=DC8oFe5bkeY'
+          'c': 'partituras/trenzinho/trenzinhoCaipiraC.png'
+          'bb': 'partituras/trenzinho/trenzinhoCaipiraBb.png'
+          'eb': 'partituras/trenzinho/trenzinho_Eb.pdf'
+          'c-letra': 'partituras/trenzinho/trenzinho_C.pdf'
+          'bb-letra': 'partituras/trenzinho/trenzinho_Bb.pdf'
+          'midi': 'partituras/trenzinho/trenzinho_C.midi'
+
+      - nome: 'Comportamento Geral (Fm)'
+        links:
+          'yt': 'https://www.youtube.com/watch?v=RLxQ1UyHDD4'
+          'c': 'partituras/comportamento_geral/comportamento_geral_C.pdf'
+          'bb': 'partituras/comportamento_geral/comportamento_geral_Bb.pdf'
+          'eb': 'partituras/comportamento_geral/comportamento_geral_Eb.pdf'
+          'Tuba': 'partituras/comportamento_geral/comportamento_geral_C_Tuba.pdf'
+          'ebnotas':  'partituras/comportamento_geral/comportamento_geral_Eb_notas.pdf'
+          'letra': 'partituras/comportamento_geral/comportamento_geral_letra.pdf'
+          'midi': 'partituras/comportamento_geral/comportamento_geral.midi'
+
+      - nome: 'Bela Ciao (Fm)'
+        links:
+          'yt': 'https://www.youtube.com/watch?v=V9sXDNMvZjA'
+
+      - nome: 'Nos Barracos da Cidade (Dm)'
+        links:
+          'yt': 'https://www.youtube.com/watch?v=j0OCVXZ9a7A'
 
 
   - nome: "Sambas"
