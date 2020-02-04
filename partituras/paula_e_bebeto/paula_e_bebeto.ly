@@ -185,7 +185,7 @@ letratoda = \lyricmode {
       \new TimeSig \compassoseparado
       \new Staff {
         \new Voice = "trombone" {
-          \transpose d d {
+          \transpose d e {
             \intro
             \parteum
 %             \skip 256 \bar "paula_e_bebeto_letra" \break
@@ -258,3 +258,9 @@ letratoda = \lyricmode {
            \include "../imprimirsoletras.ly"
   }
 }
+ {\fontsize #-7 "Milton Nascimento / Caetano Veloso"}
+     instrument = "Eb"
+  }
+  \score {
+    <<
+      \new TimeSig \c
