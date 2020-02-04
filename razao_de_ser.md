@@ -29,7 +29,7 @@ Essa é a melhor forma que tenho, hoje, para expressar os princípios que nortea
 
 Cada uma das palavras dessa frase tem uma razão de ser na minha cabeça. Porque carnaval? porque um bloco de rua? porque pequeno? porque de surpresa? porque pela manhã? porque crianças e idosos?
 
-Ora, carnaval de rua em Brasília é por si só expressão de uma posição política sobre a cidade e sua cultura - precisamos de mais rodas e menos palcos. Precisamos de mais tribos, mais diversas, mais auto-confiantes; não queremos uma multidão homogênea. Precisamos saber conviver melhor com nossas diferenças e dividir os espaços. Precisamos nos apropriar desses espaços lindos da nossa cidade e convivermos mais.
+Ora, carnaval de rua em Brasília é por si só expressão de uma posição política sobre a cidade e sua cultura - precisamos de mais rodas e menos palcos. Precisamos de mais tribos, mais diversas, mais auto-confiantes; não queremos uma multidão homogênea. Precisamos saber conviver melhor com nossas diferenças e dividir os espaços. Precisamos nos apropriar desses espaços lindos da nossa cidade e conviver mais.
 
 Esse é só um pequeno exemplo. Há muitos motivos que levam a cada uma dessas decisões. Mas antes e acima de tudo, no meu ponto de vista, existe o que tentei expressar naquela frase-síntese: amigos e música, nessa ordem. O resto é, de certo modo, acidental.
 
