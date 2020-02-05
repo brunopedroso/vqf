@@ -119,7 +119,7 @@ letratoda = {
       \new TimeSig \compassoseparado
       \new Staff {
         \new Voice = "um" {
-		\transpose c c {
+		\transpose d g, {
 			\parteum
 			  
 			\partedois
@@ -142,7 +142,7 @@ letratoda = {
       \new TimeSig \compassoseparado
       \new Staff {
         \new Voice = "um" {
-		\transpose a c {
+		\transpose d bes {
 			\parteum
 			  
 			\partedois
@@ -168,7 +168,7 @@ letratoda = {
       \new TimeSig \compassoseparado
       \new Staff {
         \new Voice = "um" {
-		\transpose a d {
+		\transpose d c {
 			\parteum
 			  
 			\partedois
@@ -194,7 +194,7 @@ letratoda = {
       \new Staff {
         \accidentalStyle Score.dodecaphonic
         \new Voice = "um" {
-		\transpose c c {
+		\transpose a c {
       \easyHeadsOn
        \teeny
 			\parteum
@@ -247,3 +247,22 @@ letratoda = {
            \include "../imprimirsoletras.ly"
   }
 }
+        \accidentalStyle Score.dodecaphonic
+        \new Voice = "um" {
+		\transpose c c {
+      \easyHeadsOn
+       \teeny
+			\parteum
+			  
+			\partedois
+		}
+	}
+	\addlyrics \letratoda
+    }
+	>>
+	\layout {
+	        \context {
+      \Voice
+      \consists \Gravador_nome_notas
+      }
+   
