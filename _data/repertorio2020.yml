@@ -812,9 +812,14 @@ blocos:
           'letra': 'partituras/comportamento_geral/comportamento_geral_letra.pdf'
           'midi': 'partituras/comportamento_geral/comportamento_geral.midi'
 
-      - nome: 'Bela Ciao (Fm)'
+      - nome: 'Bella Ciao (Fm)'
         links:
           'yt': 'https://www.youtube.com/watch?v=V9sXDNMvZjA'
+          'c':  'partituras/bella_ciao/bella_ciao_C.pdf'
+          'bb':  'partituras/bella_ciao/bella_ciao_Bb.pdf'
+          'eb':  'partituras/bella_ciao/bella_ciao_Eb.pdf'
+          'ebnotas':  'partituras/bella_ciao/bella_ciao_Eb_notas.pdf'
+          'letra':  'partituras/bella_ciao/bella_ciao_letra.pdf'
 
       - nome: 'Nos Barracos da Cidade (Dm)'
         links:
