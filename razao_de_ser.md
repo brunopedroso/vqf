@@ -22,9 +22,9 @@ Provavelmente ainda vou rever e melhorar essa síntese no futuro, mas por hoje a
 
 Gosto muito da palavra Cultivar, pois ela abrange tanto o cuidado e o desfrute das amizades antigas como a semeadura das novas. Também poderia incluir a seleção das plantas e a poda dos galhos que estão fracos, mas não costumamos fazer isso no VQF. Por hora, prefiro cultivar uma agro-floresta forte e diversa, em que as folhas secas caiam por si sós, leves e dançantes, adubando o solo para os que ficam.
 
-Também gosto em particular do fato de que, nessa frase, as Amizades vêm antes da Música. A música é fundamental. Ela é o meio através do qual nos encontramos, nosso solvente universal. Ela representa tanto um objetivo em comum, um compromisso, um desafio, que nos faz crescer juntos e nos ajudarmos, como um ingrediente delicioso da nossa festa, cuja própria razão de ser, no entanto, acaba sendo a de celebrar... a nossa amizade.
+Também gosto em particular do fato de que, nessa frase, as Amizades vêm antes da Música. A música é fundamental. Ela é o meio através do qual nos encontramos, nosso solvente universal. Ela representa tanto um objetivo em comum, um compromisso, um desafio, que nos faz crescer juntos e nos ajudarmos; como um ingrediente delicioso da nossa festa, cuja própria razão de ser, no entanto, acaba sendo a de celebrar... a nossa amizade.
 
-Essa é a melhor forma que tenho, hoje, para expressar os princípios que norteam tudo que penso sobre o VQF. Outros elementos são importantes, com certeza, mas me parecem ser secundários e derivados. Por exemplo:
+Essa é a melhor forma que tenho, hoje, para expressar os princípios que norteiam tudo que penso sobre o VQF. Outros elementos são importantes, com certeza, mas me parecem ser secundários e derivados. Por exemplo:
 
 \- Escolhemos fazer um bloco de carnaval de rua pequeno e sair de surpresa na rua dessa cidade careta, pela manhã, levando junto a criançada e os avós.
 
@@ -62,7 +62,7 @@ A princípio, essa lista reflete, em grande parte, a minha forma particular de v
 - Preferimos o coletivo sobre o individual;
 - Para que o coletivo funcione, é preciso que as pessoas assumam e cumpram suas reponsabilidades individuais;
 - Valorizamos o compromisso e os combinados prévios;
-- Nos esforçamos para não fazer cobranças - as pessoas devem estar conosco e se empenharem porque querem e gostam;
+- Nos esforçamos para não fazer cobranças - as pessoas devem estar conosco e se empenhar porque querem e gostam;
 - O nosso carnaval é o melhor do mundo! Pelo simples fato de que ele é o nosso, na nossa cidade, com os nossos amigos. O resto é secundário.
 
 Se lembrarem de outros pontos, me mandem. Pretendo colecioná-los aqui como referência viva, para que possamos nos conhecer melhor e nos fortalecer.
