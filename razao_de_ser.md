@@ -9,7 +9,7 @@ Uma das coisas que mais me fascina no carnaval é essa dualidade que o habita - 
 
 Eu já participei de um bom bocado de grupos antes, muitos deles musicais. Isso faz parte de quem eu sou. Uma lição em particular que ficou guardada no meu coração foi que a saúde e a longevidade do grupo dependem fortemente de os integrantes estarem unidos em torno de um mesmo objetivo. Senão, cedo ou tarde, as discordâncias superficiais acabam expondo as diferenças mais profundas e a coisa desanda. E eu, sentimental que sou, sempre sofro muito com isso.
 
-As pessoas têm objetivos diferentes na vida. Isso é inevitável e, no meu entender, extremamente saudável. Alguns desalinhamento são perfeitamente superáveis e fazem parte de qualquer convívio humano. Outros são mais profundos. O limite exato que diferencia uma coisa da outra é naturalmente difuso e relativo. Mas tem coisas que acredito que devam ser minimamente definidas, pra gente não ficar perdendo energia discutindo só pra descobrir depois que nosso problema é estarmos aqui por motivos diferentes.
+As pessoas têm objetivos diferentes na vida. Isso é inevitável e, no meu entender, extremamente saudável. Mas para o grupo funcionar, tem coisas que acredito que devam ser minimamente definidas.
 
 Já comecei a escrever isso várias vezes, mas nunca terminei. Acho que, em parte, por não sentir confiança de ter chegado no ponto que queria. Peço desculpas e assumo toda a responsabilidade por eventuais desentendimentos que possamos ter tido por conta desse atraso. Mas a verdade é que eu já reformulei esse pensamento muitas vezes, então acho que ele nunca vai ficar perfeito mesmo. Então entendi que é melhor escrever de algum jeito e ir melhorando com o tempo.
 
@@ -59,6 +59,7 @@ A princípio, essa lista reflete, em grande parte, a minha forma particular de v
 - Variamos o local dos ensaios e em particular variamos entre espaços privados e públicos;
 - Não decidimos tudo por votação, e tentamos evitar discussões sobretudo em aspectos meramente práticos;
 - Preferimos o coletivo sobre o individual;
+- Para que o coletivo funcione, é preciso que as pessoas assumam e cumpram suas reponsabilidades individuais;
 - Valorizamos o compromisso e os combinados prévios;
 - Nos esforçamos para não fazer cobranças - as pessoas devem estar conosco e se empenharem porque querem e gostam;
 - O nosso carnaval é o melhor do mundo! Pelo simples fato de que ele é o nosso, na nossa cidade, com os nossos amigos. O resto é secundário.
