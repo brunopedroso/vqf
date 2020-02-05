@@ -2,6 +2,7 @@
 layout: default
 title: Razão de Ser
 ---
+{% include base.html %}
 
 ## Porque o Vai Quem Fica existe?
 
@@ -44,12 +45,12 @@ A princípio, essa lista reflete, em grande parte, a minha forma particular de v
 - Todos que quiserem e se sentirem bem aqui são bem vindos;
 - Não queremos que o bloco cresça;
 - Não 'divulgamos' o bloco, nós 'convidamos' os amigos;
-- Saímos de manhã cedinho;
+- Saímos [de manhã cedinho]({{base}}/2015/02/10/horario-da-concentracao);
 - Saímos em um lugar surpresa, na Asa Norte;
 - Saímos pelo meio das quadras, queremos que as pessoas desçam e venham brincar conosco;
 - Saímos pela calçada e atravessamos a rua na faixa;
 - Fazemos questão de não sujar a rua (só confete e serpentina, que se desfazem na primeira chuva);
-- Queremos que as crianças e os mais velhos participem;
+- Queremos que as [crianças]({{base}}/2015/02/02/carnaval-com-criancas) e os mais velhos participem;
 - Todos que chegarem no carnaval são bem vindos, inclusive aquele bêbado chato que toca junto e atrapalha (com quem precisamos achar o jeito de conviver);
 - Apesar de nos esforçarmos, nós 'erramos' a execução das músicas, e está tudo bem;
 - Não somos nem pretendemos (aqui) ser músicos profissionais;
