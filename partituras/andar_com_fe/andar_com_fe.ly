@@ -119,7 +119,7 @@ letratoda = {
       \new TimeSig \compassoseparado
       \new Staff {
         \new Voice = "um" {
-		\transpose d g {
+		\transpose d g, {
 			\parteum
 			  
 			\partedois
