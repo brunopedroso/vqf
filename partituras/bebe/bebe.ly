@@ -188,9 +188,10 @@ florflauta = \relative c'' {
             \transpose c a {
             \parteum
             \break
+            \transpose c c, {
               \partedois
             \break
-            \partetres              
+            \partetres         }     
             }
           }
         }

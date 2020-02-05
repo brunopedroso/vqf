@@ -52,7 +52,7 @@ refrao = \relative c'' {
   c8 c c c ~ | c g gis a ~ | a2 | \break
   r4.. d16 | g8. d16 g8. d16 | g8. d16 b4 | 
   g'8. d16 g8. d16 | g8. d16 b4 | \break
-  c8 c c c ~ | c g a g ~ | g2 |
+  c8 c c c ~ | c g a f ~ | f2 \fermata \bar "|."
 }
 
 letradois = \lyricmode { 
