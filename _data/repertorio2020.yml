@@ -281,14 +281,6 @@ blocos:
           'letra': 'partituras/pegando_fogo/pegando_fogo_letra.pdf'
           'midi': 'partituras/pegando_fogo/pegando_fogo_C.midi'
 
-      - nome: 'Mulata bossa nova (F)'
-        links:
-          'gravacao': ''
-          'c':  'partituras/mulata_bossa_nova/mulata_bossa_nova_C.pdf'
-          'bb': 'partituras/mulata_bossa_nova/mulata_bossa_nova_Bb.pdf'
-          'eb': 'partituras/mulata_bossa_nova/mulata_bossa_nova_Eb.pdf'
-          'ebnotas': 'partituras/mulata_bossa_nova/mulata_bossa_nova_Eb_notas.pdf'
-          'letra': 'partituras/mulata_bossa_nova/mulata_bossa_nova_letra.pdf'
 
   - nome: "Gypsi"
     musicas:
@@ -541,16 +533,6 @@ blocos:
           'eb': 'partituras/saca_rolhas/saca_rolhas_Eb.pdf'
           'ebnotas': 'partituras/saca_rolhas/saca_rolhas_Eb_notas.pdf'
           'letra': 'partituras/saca_rolhas/saca_rolhas_letra.pdf'
-
-      - nome: 'Índio quer apito (Gm)'
-        links:
-          'gravacao': 'https://s3.amazonaws.com/brunopedroso/vqf/b2/5_Indio.mp3'
-          'c':  'partituras/indio_quer_apito/indio_quer_apito_C.pdf'
-          'bb': 'partituras/indio_quer_apito/indio_quer_apito_Bb.pdf'
-          'eb': 'partituras/indio_quer_apito/indio_quer_apito_Eb.pdf'
-          'ebnotas': 'partituras/indio_quer_apito/indio_quer_apito_Eb_notas.pdf'
-          'letra': 'partituras/indio_quer_apito/indio_quer_apito_letra.pdf'
-
 
   - nome: "Hermeto"
     musicas:
@@ -893,8 +875,20 @@ blocos:
         links:
           'letra': 'partituras/o_bebado_e_a_equilibrista/o_bebado_e_a_equilibrista_letra.pdf'
 
-      - nome: 'O Morro não tem vez (C?)'
+      - nome: 'Mestre-sala dos mares (F)'
+        autor: 'João Bosco'
+        inicio: 'Há muito tempo nas águas da guanabara'
+
+      - nome: 'É hoje (?)'
+        autor: 'Baeta Neves (União da Ilha - 1982)'
+        inicio: 'Há muito tempo nas águas da guanabara'
+
+      - nome: 'O Morro não tem vez (Am)'
         autor: 'Tom Jobin/Vinícius de Moraes'
         inicio: 'O morro não tem vez'
         links:
           'letra': 'partituras/o_morro_nao_tem_vez/o_morro_nao_tem_vez_letra.pdf'
+
+      - nome: 'Maracangalha (C)'
+        autor: 'Dorival Caymmi'
+        inicio: 'Eu vou pra Maracanglha, eu vou'
