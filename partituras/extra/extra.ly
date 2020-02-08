@@ -26,6 +26,7 @@ parteum = \relative c'' {
 \marcaB a8 a16 g a2 c16 b8 a16~a g8 e16~ e4
 e8 e16 d e2 | a16 g8 f16 e8 f e4| \break
 c8 c16 a c2 | d16 e8 d16 ~ d c8 d16 ~ d4 | \break
+d8 d16 c d2 | e16 g8 f16 ~ f e8 f16 ~ f4 | \break
 f8 f16 e f2 | g16 a8 g16 ~ g f8 g16 ~g4 | \break
 b8 b16 a b2 | c16 c8 b16 ~ b b8 a16 ~ a8 gis8 %~  |
 }
@@ -84,22 +85,22 @@ Nos -- sa di -- re -- ção
 Fle -- cha -- a -- a
 Nos -- so co -- ra -- ção 
 Pu -- xa -- a -- a
-Pe -- lo nos -- so_a -- mo -- or
+Pe -- lo nos -- so_a -- mor
+Ra -- cha -- a -- a
+Os mu -- ros da pri -- são
  }
  
 letrapartebaseantesrefrao = \lyricmode {
 - - - - - - - -
 - - - - - - - - 
 - - - - - - - - 
-- 
+- - 
 } 
  letrarefrao = \lyricmode {
-Ra -- cha -- a -- a
-Os mu -- ros da pri -- são
 Ex -- tra -- a -- a 
 Res -- ta_u -- ma_i -- lu -- sã -- ão 
-%Ex -- tra -- a -- a  
-%Res -- ta_u -- ma_i -- lu -- sã -- ão 
+Ex -- tra -- a -- a  
+Res -- ta_u -- ma_i -- lu -- sã -- ão 
 Ex -- tra -- a -- a  
 A -- bra -- -se ca -- da -- bra -- -se_a pri -- são
 }
@@ -342,3 +343,5 @@ letracifra = \lyricmode {
            \include "../imprimirsoletras.ly"
   }
 }
+               \parteantesrefrao
+   
