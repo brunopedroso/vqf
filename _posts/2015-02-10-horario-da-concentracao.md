@@ -24,26 +24,17 @@ description: "Horário de concentração"
 </style>
 
 <br/><br/>
-#### **ATENÇÃO:** Isso foi escrito em 10 de fevereiro de 2015!
-**CUIDADO** para não confundir o compromisso de horário! Nosso compromisso pra 2019 é:
-* **concentração a partir de 8:00**
-* **Apito inicial e 1o bloco às 9:00 em ponto!**
-
-Conto com todos para cumprirmos com esse compromisso.
-
-**Amo vocês todos!**
-
 ### Horário de concentração
 
-O horário de concentração do bloco é às **9:00 da manhã**.
+O horário de concentração do bloco é às **8:00 da manhã**.
 
 Sim, é bastante cedo. Muitos de nós têm dificuldade em acordar cedo assim, especialmente no carnaval. É bastante compreensível.
 
 Por outro lado, não podemos simplesmente esperar chegar todo mundo pra começar. Seria desrespeito com quem chegou cedo, inclusive com o público, que inclui crianças com horário pra almoçar e tudo mais.
 
-Como o horário oficial marcado é às 10, o bloco pode tranquilamente atrasar um bocadinho pra sair, e acabar saindo por volta das 11... Isso faz parte... Mas depois disso começa a ficar demais.
+O horário oficial marcado de início é às 9, o bloco pode tranquilamente atrasar um bocadinho pra sair, e acabar saindo por volta das 9:15, ou no máximo 9:30... Isso faz parte, pode até acontecer... Mas depois disso começa a ficar demais.
 
-**Mas, se o bloco sai às 11, porque chegar às 9?**
+**Mas, se o bloco sai às 9, porque chegar às 8?**
 
 Você está marcando mais cedo só pra fazer pressão, e o pessoal acabar chegando na hora?
 
@@ -98,7 +89,7 @@ Foi como eu me senti quando não consegui fazer meus amigos chegarem na hora cer
 
 Tudo isso pra dizer que você pode chegar ao bloco **no horário que quiser.**
 
-Não poderemos esperar pra sempre. O bloco vai ter que sair por volta das 11 por respeito aos demais.
+Não poderemos esperar pra sempre. O bloco vai ter que sair por volta das 9 por respeito aos demais.
 
 Lamentarei profundamente se você perder o começo da roda, mas entenderei.
 
