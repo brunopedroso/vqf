@@ -3,12 +3,14 @@
 \include "../formatoversos.ly"
 \include "../nomedasnotas.ly"
 
-#(set-global-staff-size 16)
 
-\header{
+\header {
   title = "Máscara Negra"
   composer = "Zé Keti"
 }
+
+#(set-global-staff-size 16)
+
 
 parteum = \relative c' {
 	\key bes \major
@@ -16,9 +18,9 @@ parteum = \relative c' {
 	\partial 4 { d'8 \mark \default c} | d8. f,  f8 ~| f ees' d c |  d8. f, r8 | r2 | 
 	\break
 	f8 d' c bes |   fis d' c bes |  d8. g, r8 | r4
-	\bar "mascara_negra_letra" \break
+	\bar "" \break
 	c8 d | ees ees ees ees |  f ees d c  | d d ees e |  f8 f r8 
-	\bar "mascara_negra_letra" \break
+	\bar "" \break
 	d | \tuplet 3/2 {f4 ees c } | g4 a | bes2 | r2 |
 	\break
 }
@@ -40,41 +42,46 @@ partedois = \relative c'' {
    \repeat volta 2 {
   \tuplet 3/2 {d4 ees f} |  \tuplet 3/2 {bes, c d } | \tuplet 3/2 {ees 
                                                                                   
-%  \bar "mascara_negra_letra" \break  
+%  \bar "" \break  
   
   f g } | \tuplet 3/2 { c, d ees } |  \tuplet 3/2 { f g 
-  \bar "mascara_negra_letra" \break 
+  \bar "" \break 
   a } | \tuplet 3/2 { f g a }
   }
   \alternative {
     { \tuplet 3/2 { c bes a } |  bes2
   
-  \bar "mascara_negra_letra" \break
+  \bar "" \break
   
   \tuplet 3/2 { c4 bes a } | \tuplet 3/2 { g a bes} | f2 | r8
-  %\bar "mascara_negra_letra" \break
+  %\bar "" \break
   g8 g a | ees2 | r8 f f g |  \tuplet 3/2 { d4 c bes} |   c2
-  \bar "mascara_negra_letra" \break }
+  \bar "" \break }
     {
       \tuplet 3/2 {c'4 bes a} |   aes4 g }
-  }
-  \bar "mascara_negra_letra" \break 
-  \repeat volta 2 {
+  } 
+}
+
+
+partetres = \relative c'' {
+	\mark \default
+		\unfoldRepeats
+	 \repeat volta 2 {
   r c8 d  |  ees4 f8 d~ | d c 
-  %\bar "mascara_negra_letra" \break 
+  %\bar "" \break 
   bes c | d4 ees8 c8~ | 
-  \bar "mascara_negra_letra" \break 
+  \bar "" \break 
   c4 a8  bes | 
   }
   \alternative {
     {c4 d8 b8 ~ | b2 | r2
-    \bar "mascara_negra_letra" \break 
+    \bar "" \break 
     }
     {c4 d8 bes8~ | bes2 | r2 }
   }
 
-
 }
+
 
 letradois = \lyricmode { 
 
@@ -88,7 +95,9 @@ letradois = \lyricmode {
 	Na mes -- ma más -- ca -- ra ne -- gra  
 	Que_es -- con -- de_o teu ros -- to, 
 	Eu que -- ro ma -- tar a sau -- da -- de! 
-	
+}
+
+letratres = \lyricmode {	
 	Vou bei -- jar te_a -- go -- ra, 
 	Não me le -- ve_a mal,  
 	Ho -- je_é car --  na -- val! 
@@ -103,12 +112,7 @@ letradois = \lyricmode {
 letratoda = {
   \letraum
   \letradois
-}
-
-parteumsaxalto = {
-  \transpose c c' {
-  \parteum
-  }
+		\letratres
 }
 
 
@@ -142,9 +146,6 @@ acordetodo = \chordmode {
 	\acordesdois
 }
 
-partedoisclarinete = {
-  \transpose c c {\partedois}
-}
 
 \book {
   \bookOutputName "mascara_negra_Bb"
@@ -158,9 +159,11 @@ partedoisclarinete = {
         \new Voice = "trompete" {
           \transpose bes g {
             \parteum
-            \skip 256 \bar "mascara_negra_letra" \break
+									\break
             \unfoldRepeats
-            \partedoisclarinete
+            \partedois
+									\break
+            \partetres
 		}
 	}
 	\addlyrics {\letratoda}
@@ -182,9 +185,11 @@ partedoisclarinete = {
         \new Voice = "trombone" {
           \transpose bes f {
             \parteum
-            \skip 256 \bar "mascara_negra_letra" \break
+									\break
             \unfoldRepeats
             \partedois
+									\break
+            \partetres
 		}
 	}
 	\addlyrics {\letratoda}
@@ -206,11 +211,13 @@ partedoisclarinete = {
       \new TimeSig \compassoseparado
       \new Staff {
         \new Voice = "saxalto" {
-          \transpose bes d {
-            \parteumsaxalto
-            \skip 256 \bar "mascara_negra_letra" \break
+          \transpose bes d' {
+            \parteum
+									\break
             \unfoldRepeats
-            \partedois
+            \transpose c c, {\partedois}
+									\break
+            \partetres
 		}
 	}
 	\addlyrics {\letratoda}
@@ -233,12 +240,15 @@ partedoisclarinete = {
       \new Staff {
         \accidentalStyle Score.dodecaphonic
         \new Voice = "saxalto" {
-          \transpose bes d {
+          \transpose bes d' {
             \easyHeadsOn
             \teeny
-            \parteumsaxalto
-%             \skip 256 \bar "mascara_negra_letra" \pulalinha
-            \partedois
+            \parteum
+									\break
+            \unfoldRepeats
+            \transpose c c, {\partedois}
+									\break
+            \partetres
           }
         }
         \addlyrics \letratoda
@@ -273,6 +283,7 @@ partedoisclarinete = {
              \parteum
              \unfoldRepeats
              \partedois
+										\partetres
            }
       }
              \new ChordNames \with {               
@@ -284,4 +295,23 @@ partedoisclarinete = {
     >>
            \include "../imprimirsoletras.ly"
   }
-}
+}eeny
+            \parteum
+									\break
+            \unfoldRepeats
+            \transpose c c, {\partedois}
+									\break
+            \partetres
+          }
+        }
+        \addlyrics \letratoda
+      }
+    >>
+    \layout {
+        \context {
+      \Voice
+      \consists \Gravador_nome_notas
+      }
+    \context {
+      \Score 
+      \override SpacingSpanner.base-shortest-duration = #
