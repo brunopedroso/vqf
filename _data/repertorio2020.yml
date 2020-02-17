@@ -605,15 +605,6 @@ blocos:
           'ebnotas': 'partituras/madalena/madalena_Eb_notas.pdf'
           'letra': 'partituras/madalena/madalena_letra.pdf'
 
-      - nome: 'Andar com Fé (Eb)'
-        links:
-          'yt': 'https://www.youtube.com/watch?v=cH65dRyJ_Ys'
-          'c':  'partituras/andar_com_fe/andar_com_fe_C.pdf'
-          'bb': 'partituras/andar_com_fe/andar_com_fe_Bb.pdf'
-          'eb': 'partituras/andar_com_fe/andar_com_fe_Eb.pdf'
-          'ebnotas': 'partituras/andar_com_fe/andar_com_fe_Eb_notas.pdf'
-          'letra': 'partituras/andar_com_fe/andar_com_fe_letra.pdf'
-
       - nome: 'Extra (Cm)'
         links:
           'yt': 'https://www.youtube.com/watch?v=mh9drfcfPuU&feature=youtu.be'
@@ -622,6 +613,15 @@ blocos:
           'eb': 'partituras/extra/extra_Eb.pdf'
           'ebnotas': 'partituras/extra/extra_Eb_notas.pdf'
           'letra': 'partituras/extra/extra_letra.pdf'
+
+      - nome: 'Andar com Fé (Eb)'
+        links:
+          'yt': 'https://www.youtube.com/watch?v=cH65dRyJ_Ys'
+          'c':  'partituras/andar_com_fe/andar_com_fe_C.pdf'
+          'bb': 'partituras/andar_com_fe/andar_com_fe_Bb.pdf'
+          'eb': 'partituras/andar_com_fe/andar_com_fe_Eb.pdf'
+          'ebnotas': 'partituras/andar_com_fe/andar_com_fe_Eb_notas.pdf'
+          'letra': 'partituras/andar_com_fe/andar_com_fe_letra.pdf'
 
 
   - nome: "Beatles"
