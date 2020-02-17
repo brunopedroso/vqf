@@ -72,7 +72,7 @@ refrao = \relative c' {
    r4. g8 \tuplet 3/2 {g4 g fis } 
    }
    \alternative {
-   {g8 g a8 [ a] d8[ d16 a] ~ a[ a16 d8] |}
+   {a4  a8 [ a] d8[ d16 a] ~ a[ a16 d8] |}
     {d1 \fermata \bar "|."}
    }
 }
@@ -118,7 +118,7 @@ letrarefrao = \lyricmode {
   En -- tra_em be -- co sai em beco!
   Vai na pró -- xi -- ma ca -- pe -- la
   E_acen -- de uma ve -- la
-  Para não pas -- sar fo -- me
+  Para não pas -- sar fome1
 }
 
 
@@ -302,3 +302,56 @@ letracifra = \lyricmode {
            \include "../imprimirsoletras.ly"
   }
 }
+    \new Staff {
+        \accidentalStyle Score.dodecaphonic
+        \new Voice = "saxalto" {
+          \easyHeadsOn
+          \teeny
+          \transpose c a {
+             \parteum
+                \break
+                \partedois
+                \refrao
+          }
+        }
+        \addlyrics \letratoda
+      }
+    >>
+     \layout {
+       \apertacompasso
+    \context {
+      \Voice
+      \consists \Gravador_nome_notas
+    }
+    }
+  }
+}
+
+
+\include "cifra_madalena.ly"
+
+#(set-global-staff-size 18)
+
+\book {
+  \bookOutputName "madalena_letra"
+  \header {
+     instrument = "Letra e Acordes"
+  }
+   \score {
+    <<
+       \new Staff  {
+          \new Voice = "letra" {
+            
+             \parteum
+                \partedois
+                \refrao
+           }
+      }
+             \new ChordNames \with {
+               \consists "Bar_engraver"
+             }
+             \acordetodo
+             \new Lyrics
+             \lyricsto "letra" \letracifra
+    >>
+           
