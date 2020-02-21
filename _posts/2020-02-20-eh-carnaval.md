@@ -5,7 +5,7 @@ description: "Cante com vontade, minha gente, porque hoje já é carnaval."
 ---
 {% include base.html %}
 
-### Vai Quem Fica, este Sábado!
+### Vai Quem Fica de Sábado!
 
 Chegou a hora, minha gente! Vamos nos reencontrar logo mais para celebrar mais um ano da nossa brincadeira séria.
 
@@ -46,7 +46,7 @@ Ah, sim. O Lugar:
 
 **👉 Eu não vou mandar outra mensagem avisando. O lugar simplesmente estará aí na hora certa.**
 
-O melhor que você pode fazer é já ir passando o link dessa página para os **amigos do peito** que você pretende convidar. Assim ele já podem ir lendo essas palavras, o que é muito importante pra nós!
+O melhor que você pode fazer é já ir passando o link dessa página para os **amigos do peito** que você pretende convidar. Assim eles já podem ir lendo essas palavras, o que é muito importante pra nós!
 
 
 
