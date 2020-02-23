@@ -13,62 +13,62 @@
 
 PartPOneVoiceOne =  \relative a' {
   r16 -"" -"D m" -\markup{ \italic {Batuque} } <a f d a>16 <a f d a>16
-  <a f d a>16 r8 <a f d a>8 -"A7/E" | % 2
+  <a f d a>16 r8 <a f d a>8 -"A7/E" | 
   r16 <g cis, a a'>16 <cis, a g' a>16 <g' cis, a a'>16 r8 <g cis, a>8
-  | % 3
+  | 
   r16 -"D m" <a f d a>16 <a f d a>16 <a f d a>16 r8 <a, a' f d>8
-  -"A7/E" | % 4
+  -"A7/E" | 
   r16 <cis a g' a>16 <g' cis, a a'>16 <g cis, a a'>16 r8 <cis, a g'>8
-  | % 5
+  | 
   r16 -\markup{ \italic {Canto} } d'8 ( e16 f16 g16 a16 bes16 -"A7/E"
-  ) | % 6
-  a16 gis16 a16 cis16 e8 f8 | % 7
-  e16 d8 a16 c16 bes8 e,16 -"A7/E" | % 8
-  <a a,>8. e16 <a a,>4 | % 9
+  ) | 
+  a16 gis16 a16 cis16 e8 f8 | 
+  e16 d8 a16 c16 bes8 e,16 -"A7/E" | 
+  <a a,>8. e16 <a a,>4 | 
   r16 -\markup{ \italic {Batuque} } <a, f d a>16 <a f d a>16 <a f d a>16
   r8 <a f d a>8 -"A7/E" | 
   r16 <cis, a g' a>16 <g' cis, a a'>16 <g cis, a a'>16 r8 <g cis, a>8
-  | % 11
-  r16 <a f d a>16 <a f d a>16 <a, a' f d>16 r8 <a a' f d>8 -"A7/E" | % 12
-  r16 <cis a g' a>16 <g' cis, a a'>16 <cis, a g' a>16 r8 <cis a g' a>8 | % 13
-  r16 -"D7" d'8 -\markup{ \italic {Canto} } es16  d16 ( cis16 d16 a'16 ) | % 14
-  g fis g16 bes16 d8 d8 -> | % 15
-  r16 a8 bes16 a16 ( gis16 a16 cis16 ) | % 16
+  | 
+  r16 <a f d a>16 <a f d a>16 <a, a' f d>16 r8 <a a' f d>8 -"A7/E" | 
+  r16 <cis a g' a>16 <g' cis, a a'>16 <cis, a g' a>16 r8 <cis a g' a>8 | 
+  r16 -"D7" d'8 -\markup{ \italic {Canto} } es16  d16 ( cis16 d16 a'16 ) | 
+  g fis g16 bes16 d8 d8 -> | 
+  r16 a8 bes16 a16 ( gis16 a16 cis16 ) | 
   e16 ( d16 a16 f16 ) d8 d8 ->
-  r16 -"" -"D7" d8 es16 d16 ( cis16 d16 a'16 ) | % 2
-  g16 fis16 g16 bes16 d8 d8 -">A7" | % 3
-  r16 a8 bes16 a16 ( gis16 a16 e'16 ) | % 4
+  r16 -"" -"D7" d8 es16 d16 ( cis16 d16 a'16 ) | 
+  g16 fis16 g16 bes16 d8 d8 -">A7" | 
+  r16 a8 bes16 a16 ( gis16 a16 e'16 ) | 
   d16 <a,, a' f d>16 -\markup{ \italic {Batuque} } <a a' f d>16 <a' f d a>16
-  r8 <a f d a>8 | % 5
+  r8 <a f d a>8 | 
   r16 -"A7/E" <cis, a g' a>16 <g' cis, a a'>16 <cis, a g' a>16 r8 <cis a
-  g' a>8 | % 6
-  r16 <a a' f d>16 <a' f d a>16 <a, a' f d>16 r8 <a a' f d>8 -"A7/E" | % 7
-  r16 <g' cis, a a'>16 <cis, a g' a>16 <g' cis, a a'>16 r8 <g cis, a a'>8  | % 8
-  <d' a f d>4 <d' a f d>4 -\markup{ \italic {Fine} } | % 9
+  g' a>8 | 
+  r16 <a a' f d>16 <a' f d a>16 <a, a' f d>16 r8 <a a' f d>8 -"A7/E" | 
+  r16 <g' cis, a a'>16 <cis, a g' a>16 <g' cis, a a'>16 r8 <g cis, a a'>8  | 
+  <d' a f d>4 <d' a f d>4 -\markup{ \italic {Fine} } | 
   \repeat volta 2 {
-    | % 9
+    | 
     c,4 -\markup{ \italic {Coro e Dança} } -"C 7" <d' bes>4 |
-    r16 <c e,>8 <b es,>16 <bes d,>8 <bes, d>8 | % 11
-    <c a>4 <c' a>4 | % 12
-    r16 a8 f16 c8 a8 | % 13
-    bes4 -"C7" <g' e>4 | % 14
-    c,4 <g' e>4  | % 15
-    f8[ g8 a8 bes8] | % 16
+    r16 <c e,>8 <b es,>16 <bes d,>8 <bes, d>8 | 
+    <c a>4 <c' a>4 | 
+    r16 a8 f16 c8 a8 | 
+    bes4 -"C7" <g' e>4 | 
+    c,4 <g' e>4  | 
+    f8[ g8 a8 bes8] | 
     b16 c8 f16 d16 ( c16 a16 f16 )
     c4 -"" -"C7" <bes' d>4 |
     %c,8 <bes' e c>16 <bes
-    %e c>16 s4 \change Staff="1" | % 2
+    %e c>16 s4 \change Staff="1" | 
     r16 <c e,>8 <b es,>16 <bes d,>8 <bes, d>8 |
-    <c a>4 <c' a>4 | % 4
-    r16 a8 f16 c8 a8| % 5
+    <c a>4 <c' a>4 | 
+    r16 a8 f16 c8 a8| 
   }
     \alternative {
-    {f4  <f' a,>4 | % 6
-    r16 e8 d16 cis8 d8 | % 7
+    {f4  <f' a,>4 | 
+    r16 e8 d16 cis8 d8 | 
     <a a'>4 -"A7" ~ <a' a,>8 e8 
-  | % 8
+  | 
   <a a,>2 |}
-  {bes,4 <g' d>4 | % 9
+  {bes,4 <g' d>4 | 
   c,4 -"C7" <c' e,>4 |
   <f, a,>2
   <f a,>8 r8 <g a cis,>8 \f  \bar "|."
@@ -77,115 +77,115 @@ PartPOneVoiceOne =  \relative a' {
 }
 
 PartPOneVoiceTwo =  \relative d, {
-  d8. -"" a'16 f'8. a,16 | % 1
-  e8. a16 e'8. a,16 | % 2
-  d,8. a'16 f'8. a,16 | % 3
-  e8. a16 e'8. a,16 | % 4
-  d,16 <d'' a f>8 <d a f>16 <d a f>8 <d a f>8 | % 5
-  e,16 <g cis a>8 <g cis a>16 <g cis a>8 <g cis a>8 | % 6
-  d16 <d' a f>8 <d a f>16 <d a f>8 <d a f>8 | % 7
-  e,16 <g cis a>8 <g cis a>16 <g cis a>8 <g cis a>8 | \break % 8 
+  d8. -"" a'16 f'8. a,16 | 
+  e8. a16 e'8. a,16 | 
+  d,8. a'16 f'8. a,16 | 
+  e8. a16 e'8. a,16 | 
+  d,16 <d'' a f>8 <d a f>16 <d a f>8 <d a f>8 | 
+  e,16 <g cis a>8 <g cis a>16 <g cis a>8 <g cis a>8 | 
+  d16 <d' a f>8 <d a f>16 <d a f>8 <d a f>8 | 
+  e,16 <g cis a>8 <g cis a>16 <g cis a>8 <g cis a>8 | \break  
   d,8 a'16 s16 f'8. a,16 | %9
-  e8. a16 e'8. a,16 | % 10
-  d,8. a'16 f'8. a,16 | % 11
-  e8. a16 e'8. a,16 | \break % 12
-  d,16 <fis' c' fis>8 <fis c' fis>16 <fis c' fis>8 <fis c' fis>8 | % 13
-  g,16 <d'' bes g>8 <d bes g>16 <d bes g>8 <d bes g>8 | % 14
-  a,16 <g' a cis>8 <g a cis>16 <g a cis>8 <g a cis>8 | % 15
-  d16 <d' a f>8 <d a f>16 <d a f>8 <d a f>8 | \break % 16
-  d,,16 <fis' c' fis>8 <fis c' fis>16 <fis c' fis>8 <fis c' fis>8 | % 17
-  g,16 <d'' bes g>8 <d bes g>16 <d bes g>8 <d bes g>8 | % 18
-  a,16 <g' a cis>8 <g a cis>16 <g a cis>8 <g a cis>8 | % 19
-   d,8. a'16 f'8. a,16 | \break % 20
-   e8. a16 e'8. a,16 | % 21
-  d,8. a'16 f'8. a,16 | % 22
-  e8. a16 e'8. a,16 | % 23
-  <d d,>4 <d' a f d>4 | \break % 24
+  e8. a16 e'8. a,16 | 
+  d,8. a'16 f'8. a,16 | 
+  e8. a16 e'8. a,16 | \break 
+  d,16 <fis' c' fis>8 <fis c' fis>16 <fis c' fis>8 <fis c' fis>8 | 
+  g,16 <d'' bes g>8 <d bes g>16 <d bes g>8 <d bes g>8 | 
+  a,16 <g' a cis>8 <g a cis>16 <g a cis>8 <g a cis>8 | 
+  d16 <d' a f>8 <d a f>16 <d a f>8 <d a f>8 | \break 
+  d,,16 <fis' c' fis>8 <fis c' fis>16 <fis c' fis>8 <fis c' fis>8 | 
+  g,16 <d'' bes g>8 <d bes g>16 <d bes g>8 <d bes g>8 | 
+  a,16 <g' a cis>8 <g a cis>16 <g a cis>8 <g a cis>8 | 
+   d,8. a'16 f'8. a,16 | \break 
+   e8. a16 e'8. a,16 | 
+  d,8. a'16 f'8. a,16 | 
+  e8. a16 e'8. a,16 | 
+  <d d,>4 <d' a f d>4 | \break 
   \repeat volta 2 {
-    e,8 <bes' e c>16 <bes e c>16 c,8 <bes' e c>16 <bes e c>16 | % 25
-    e,16 <bes' e c>8 <bes e c>16 c,8 <bes' e c>8 | % 26
-    f8 <f' c a>16 <f c a>16 c,8 <f' c a>16 <f c a>16 | % 27
-    f,16 <f' c a>8 <f c a>16 c,8 <f' c a>8 | % 28
-    e,8 <bes' e c>16 <bes e c>16 c,8 <bes' e c>16 <bes e c>16 | % 29
-    e,8 <bes' e c>16 <bes e c>16 c,8 <bes' e c>16 <bes e c>16 | % 30
-    c,8 <f' c a>16 <f c a>16 f,8 <f' c a>16 <f c a>16| % 31
-    f,16 <f' c a>8 <f c a>16 c,8 <f' c a>8 \break % 32
-    e,8 <bes' e c>16 <bes e c>16 c,8 <bes' e c>16 <bes e c>16 | % 33
-    e,8 <bes' e c>16 <bes e c>16 c,8 <bes' e c>16 <bes e c>16 | % 34
-    f8 <f' c a>16 <f c a>16 c,8 <f' c a>16 <f c a>16| % 35
-    f,16 <f' c a>8 <f c a>16 c,8 <f' c a>8 \break % 36
+    e,8 <bes' e c>16 <bes e c>16 c,8 <bes' e c>16 <bes e c>16 | 
+    e,16 <bes' e c>8 <bes e c>16 c,8 <bes' e c>8 | 
+    f8 <f' c a>16 <f c a>16 c,8 <f' c a>16 <f c a>16 | 
+    f,16 <f' c a>8 <f c a>16 c,8 <f' c a>8 | 
+    e,8 <bes' e c>16 <bes e c>16 c,8 <bes' e c>16 <bes e c>16 | 
+    e,8 <bes' e c>16 <bes e c>16 c,8 <bes' e c>16 <bes e c>16 | 
+    c,8 <f' c a>16 <f c a>16 f,8 <f' c a>16 <f c a>16| 
+    f,16 <f' c a>8 <f c a>16 c,8 <f' c a>8 \break 
+    e,8 <bes' e c>16 <bes e c>16 c,8 <bes' e c>16 <bes e c>16 | 
+    e,8 <bes' e c>16 <bes e c>16 c,8 <bes' e c>16 <bes e c>16 | 
+    f8 <f' c a>16 <f c a>16 c,8 <f' c a>16 <f c a>16| 
+    f,16 <f' c a>8 <f c a>16 c,8 <f' c a>8 \break 
   }
   \alternative {
     { 
-      d, <a' d f>16 <a d f> f8 <a d f>16 <a d f> | % 37
-      d,16 <a' d f>8 <a d f>16 <a d f>8 <a d f> | % 38
-      a,8 <g' a cis e>16 <g a cis e> e8 <g a cis e>16 <g a cis e>16 | % 39
-      a,8[ <a a'>8-> <bes bes'>8-> <b b'>8->] | % 40
+      d, <a' d f>16 <a d f> f8 <a d f>16 <a d f> | 
+      d,16 <a' d f>8 <a d f>16 <a d f>8 <a d f> | 
+      a,8 <g' a cis e>16 <g a cis e> e8 <g a cis e>16 <g a cis e>16 | 
+      a,8[ <a a'>8-> <bes bes'>8-> <b b'>8->] | 
     }
     {
-      d <bes' d g>16 <bes d g> g8 <bes d g>16 <bes d g> | % 41
-      c,8 <bes' c e>16 <bes c e> e,8 <bes' c e>16 <bes c e> | % 38
-      f8 <a c f>16 <a c f> c,8 <a' c f>16 <a c f>16 | % 39
+      d <bes' d g>16 <bes d g> g8 <bes d g>16 <bes d g> | 
+      c,8 <bes' c e>16 <bes c e> e,8 <bes' c e>16 <bes c e> | 
+      f8 <a c f>16 <a c f> c,8 <a' c f>16 <a c f>16 | 
       <f a c f>4 <a, cis e a>4-> \f
     }
   }
-  }
+}
 
 
 saxtenor =  \relative a' {
-  r8.-"Dm" -\markup{ \italic {Batuque} }   a'16 f8. a16 | % 1
-  e8. -"A7/E"  a16 g8. a16 | % 2
-  d,8. -"Dm" a'16 f8. a16 | % 3
-  e8. -"A7/E" a16 g8. a16[ | % 4
+  r8.-"Dm" -\markup{ \italic {Batuque} }   a'16 f8. a16 | 
+  e8. -"A7/E"  a16 g8. a16 | 
+  d,8. -"Dm" a'16 f8. a16 | 
+  e8. -"A7/E" a16 g8. a16[ | 
   d,16] -"Dm"-\markup{ \italic {Canto} } d8 ( e16 f16 g16 a16 bes16 -"A7/E"
-  ) | % 6
-  a16 gis16 a16 cis16 e8 f8 | % 7
-  e16 d8 a16 c16 bes8 e,16 -"A7/E" | % 8
-  <a a,>8. e16 <a a,>4 | % 9
-  d,8.-"Dm" -\markup{ \italic {Batuque} }   a'16 f8. a16 | % 1
-  e8. -"A7/E"  a16 g8. a16 | % 2
-  d,8. -"Dm" a'16 f8. a16 | % 3
-  e8. -"A7/E" a16 g8. a16[ | % 4
-  d,16] -"D7" d8 -\markup{ \italic {Canto} } es16  d16 ( cis16 d16 a'16 ) | % 14
-  g fis g16 bes16 d8 d8 -> | % 15
-  r16 a8 bes16 a16 ( gis16 a16 cis16 ) | % 16
+  ) | 
+  a16 gis16 a16 cis16 e8 f8 | 
+  e16 d8 a16 c16 bes8 e,16 -"A7/E" | 
+  <a a,>8. e16 <a a,>4 | 
+  d,8.-"Dm" -\markup{ \italic {Batuque} }   a'16 f8. a16 | 
+  e8. -"A7/E"  a16 g8. a16 | 
+  d,8. -"Dm" a'16 f8. a16 | 
+  e8. -"A7/E" a16 g8. a16[ | 
+  d,16] -"D7" d8 -\markup{ \italic {Canto} } es16  d16 ( cis16 d16 a'16 ) | 
+  g fis g16 bes16 d8 d8 -> | 
+  r16 a8 bes16 a16 ( gis16 a16 cis16 ) | 
   e16 ( d16 a16 f16 ) d8 d8 ->
-  r16 -"" -"D7" d8 es16 d16 ( cis16 d16 a'16 ) | % 2
-  g16 fis16 g16 bes16 d8 d8 -">A7" | % 3
-  r16 a8 bes16 a16 ( gis16 a16 [e'16 ) | % 4
-  d8.]-"Dm" -\markup{ \italic {Batuque} }   a16 f8. a16 | % 1
-  e8. -"A7/E"  a16 g8. a16 | % 2
-  d,8. -"Dm" a'16 f8. a16 | % 3
-  e8. -"A7/E" a16 g8. a16[ | % 4
-  d8.]-"Dm" a16 f8. a16 | % 1
-  e8. -"A7/E"  a16 g8. a16 | % 2
-  d,8. -"Dm" a'16 f8. a16 | % 3
-  e8. -"A7/E" a16 g8. a16 | % 4 
-  <d a f d>4 <d' a f d>4 -\markup{ \italic {Fine} } | % 9
+  r16 -"" -"D7" d8 es16 d16 ( cis16 d16 a'16 ) | 
+  g16 fis16 g16 bes16 d8 d8 -">A7" | 
+  r16 a8 bes16 a16 ( gis16 a16 [e'16 ) | 
+  d8.]-"Dm" -\markup{ \italic {Batuque} }   a16 f8. a16 | 
+  e8. -"A7/E"  a16 g8. a16 | 
+  d,8. -"Dm" a'16 f8. a16 | 
+  e8. -"A7/E" a16 g8. a16[ | 
+  d8.]-"Dm" a16 f8. a16 | 
+  e8. -"A7/E"  a16 g8. a16 | 
+  d,8. -"Dm" a'16 f8. a16 | 
+  e8. -"A7/E" a16 g8. a16 |  
+  <d a f d>4 <d' a f d>4 -\markup{ \italic {Fine} } | 
   \repeat volta 2 {
-    | % 9
+    | 
     c,4 -\markup{ \italic {Coro e Dança} } -"C 7" <d' bes>4 |
-    r16 <c e,>8 <b es,>16 <bes d,>8 <bes, d>8 | % 11
-    <c a>4 <c' a>4 | % 12
-    r16 a8 f16 c8 a8 | % 13
-    bes4 -"C7" <g' e>4 | % 14
-    c,4 <g' e>4  | % 15
-    f8[ g8 a8 bes8] | % 16
+    r16 <c e,>8 <b es,>16 <bes d,>8 <bes, d>8 | 
+    <c a>4 <c' a>4 | 
+    r16 a8 f16 c8 a8 | 
+    bes4 -"C7" <g' e>4 | 
+    c,4 <g' e>4  | 
+    f8[ g8 a8 bes8] | 
     b16 c8 f16 d16 ( c16 a16 f16 )
     c4 -"" -"C7" <bes' d>4 |
     %c,8 <bes' e c>16 <bes
-    %e c>16 s4 \change Staff="1" | % 2
+    %e c>16 s4 \change Staff="1" | 
     r16 <c e,>8 <b es,>16 <bes d,>8 <bes, d>8 |
-    <c a>4 <c' a>4 | % 4
-    r16 a8 f16 c8 a8| % 5
+    <c a>4 <c' a>4 | 
+    r16 a8 f16 c8 a8| 
   }
     \alternative {
-    {f4  <f' a,>4 | % 6
-    r16 e8 d16 cis8 d8 | % 7
+    {f4  <f' a,>4 | 
+    r16 e8 d16 cis8 d8 | 
     <a a'>4 -"A7" ~ <a' a,>8 e8 
-  | % 8
+  | 
   <a a,>2 |}
-  {bes,4 <g' d>4 | % 9
+  {bes,4 <g' d>4 | 
   c,4 -"C7" <c' e,>4 |
   <f, a,>2
   <f a,>8 r8 <g a cis,>8 \f  \bar "|."
@@ -193,60 +193,60 @@ saxtenor =  \relative a' {
   }
 }
 
-saxalto =  \relative a' {
-  r8.-"Dm" -\markup{ \italic {Batuque} }   a'16 f8. a16 | % 1
-  e8. -"A7/E"  a16 g8. a16 | % 2
-  d,8. -"Dm" a'16 f8. a16 | % 3
-  e8. -"A7/E" a16 g8. a16[ | % 4
+saxalto =  \relative a'' {
+ r8. -"Dm" -\markup{ \italic {Batuque} } a16 f8. a16 | 
+  e8. -"A7/E"  a16 g8. a16 | 
+  d,8. -"Dm" a'16 f8. a16 | 
+  e8. -"A7/E" a16 g8. a16[ | 
   d,16] -"Dm"-\markup{ \italic {Canto} } d8 ( e16 f16 g16 a16 bes16 -"A7/E"
-  ) | % 6
-  a16 gis16 a16 cis16 e8 f8 | % 7
-  e16 d8 a16 c16 bes8 e,16 -"A7/E" | % 8
-  <a a,>8. e16 <a a,>4 | % 9
-  d,8.-"Dm" -\markup{ \italic {Batuque} }   a'16 f8. a16 | % 1
-  e8. -"A7/E"  a16 g8. a16 | % 2
-  d,8. -"Dm" a'16 f8. a16 | % 3
-  e8. -"A7/E" a16 g8. a16[ | % 4
-  d,16] -"D7" d8 -\markup{ \italic {Canto} } es16  d16 ( cis16 d16 a'16 ) | % 14
-  g fis g16 bes16 d8 d8 -> | % 15
-  r16 a8 bes16 a16 ( gis16 a16 cis16 ) | % 16
+  ) | 
+  a16 gis16 a16 cis16 e8 f8 | 
+  e16 d8 a16 c16 bes8 e,16 -"A7/E" | 
+  <a a,>8. e16 <a a,>4 | 
+  d,8.-"Dm" -\markup{ \italic {Batuque} }   a'16 f8. a16 | 
+  e8. -"A7/E"  a16 g8. a16 | 
+  d,8. -"Dm" a'16 f8. a16 | 
+  e8. -"A7/E" a16 g8. a16[ | 
+  d,16] -"D7" d8 -\markup{ \italic {Canto} } es16  d16 ( cis16 d16 a'16 ) | 
+  g fis g16 bes16 d8 d8 -> | 
+  r16 a8 bes16 a16 ( gis16 a16 cis16 ) | 
   e16 ( d16 a16 f16 ) d8 d8 ->
-  r16 -"" -"D7" d8 es16 d16 ( cis16 d16 a'16 ) | % 2
-  g16 fis16 g16 bes16 d8 d8 -">A7" | % 3
-  r16 a8 bes16 a16 ( gis16 a16 [e'16 ) | % 4
-  d8.]-"Dm" -\markup{ \italic {Batuque} }   a16 f8. a16 | % 1
-  e8. -"A7/E"  a16 g8. a16 | % 2
-  d,8. -"Dm" a'16 f8. a16 | % 3
-  e8. -"A7/E" a16 g8. a16[ | % 4
-  d8.]-"Dm" a16 f8. a16 | % 1
-  e8. -"A7/E"  a16 g8. a16 | % 2
-  d,8. -"Dm" a'16 f8. a16 | % 3
-  e8. -"A7/E" a16 g8. a16 | % 4 
-  <d, a f d>4 <d' a f d>4 -\markup{ \italic {Fine} } | % 9
+  r16 -"" -"D7" d8 es16 d16 ( cis16 d16 a'16 ) | 
+  g16 fis16 g16 bes16 d8 d8 -">A7" | 
+  r16 a8 bes16 a16 ( gis16 a16 [e'16 ) | 
+  d8.]-"Dm" -\markup{ \italic {Batuque} }   a16 f8. a16 | 
+  e8. -"A7/E"  a16 g8. a16 | 
+  d,8. -"Dm" a'16 f8. a16 | 
+  e8. -"A7/E" a16 g8. a16[ | 
+  d8.]-"Dm" a16 f8. a16 | 
+  e8. -"A7/E"  a16 g8. a16 | 
+  d,8. -"Dm" a'16 f8. a16 | 
+  e8. -"A7/E" a16 g8. a16 |  
+  <d, a f d>4 <d' a f d>4 -\markup{ \italic {Fine} } | 
   \repeat volta 2 {
-    | % 9
+    | 
     c,4 -\markup{ \italic {Coro e Dança} } -"C 7" <d' bes>4 |
-    r16 <c e,>8 <b es,>16 <bes d,>8 <bes, d>8 | % 11
-    <c a>4 <c' a>4 | % 12
-    r16 a8 f16 c8 a8 | % 13
-    bes4 -"C7" <g' e>4 | % 14
-    c,4 <g' e>4  | % 15
-    f8[ g8 a8 bes8] | % 16
+    r16 <c e,>8 <b es,>16 <bes d,>8 <bes, d>8 | 
+    <c a>4 <c' a>4 | 
+    r16 a8 f16 c8 a8 | 
+    bes4 -"C7" <g' e>4 | 
+    c,4 <g' e>4  | 
+    f8[ g8 a8 bes8] | 
     b16 c8 f16 d16 ( c16 a16 f16 )
     c4 -"" -"C7" <bes' d>4 |
     %c,8 <bes' e c>16 <bes
-    %e c>16 s4 \change Staff="1" | % 2
+    %e c>16 s4 \change Staff="1" | 
     r16 <c e,>8 <b es,>16 <bes d,>8 <bes, d>8 |
-    <c a>4 <c' a>4 | % 4
-    r16 a8 f16 c8 a8| % 5
+    <c a>4 <c' a>4 | 
+    r16 a8 f16 c8 a8| 
   }
     \alternative {
-    {f4  <f' a,>4 | % 6
-    r16 e8 d16 cis8 d8 | % 7
+    {f4  <f' a,>4 | 
+    r16 e8 d16 cis8 d8 | 
     <a a'>4 -"A7" ~ <a' a,>8 e8 
-  | % 8
+  | 
   <a a,>2 |}
-  {bes,4 <g' d>4 | % 9
+  {bes,4 <g' d>4 | 
   c,4 -"C7" <c' e,>4 |
   <f, a,>2
   <f a,>8 r8 <g a cis,>8 \f  \bar "|."
@@ -292,8 +292,18 @@ letratoda = \lyricmode {
   Nos -- sa dan -- ça cor -- ta-ja -- ca, cor -- ta-ja -- ca!
 }
 
-% The score definition
-\score {
+
+\book {
+  \bookOutputName "corta_jaca_C"
+  \header {
+    title = "Corta Jaca (Gaúcho de cá e lá)"
+    composer =  "Francisca Gonzaga (1847-1935)"
+    instrument = "Instrumentos em C"
+    arranger = "Bloco Vai Quem Fica"
+    copyright = "(ɔ) - CC BY-SA 4.0" 
+    tagline = "Criado com Software Livre - Lilypond"  % removida mensagem de lilypond 
+  }
+  \score {
   <<
     \new PianoStaff <<
       \set PianoStaff.instrumentName = "Piano"
@@ -313,12 +323,12 @@ letratoda = \lyricmode {
   >>
   \layout {}
   % To create MIDI output, uncomment the following line:
-   \midi {
-   \tempo 4 = 80 }
+   \midi { \tempo 4 = 80 }
+ }
 }
 
 \book {
-  \bookOutputSuffix "Clarinete e Sax Tenor em Bb"
+   \bookOutputName "corta_jaca_Bb"
   \header {
     title = "Corta Jaca (Gaúcho de cá e lá)"
     composer =  "Francisca Gonzaga (1847-1935)"
@@ -353,11 +363,11 @@ letratoda = \lyricmode {
 }
 
 \book {
-  \bookOutputSuffix "Sax Alto em Eb"
+    \bookOutputName "corta_jaca_Eb"
   \header {
     title = "Corta Jaca (Gaúcho de cá e lá)"
     composer =  "Francisca Gonzaga (1847-1935)"
-    instrument = "Sax Alto em Eb"
+    instrument = "Instrumentos em Eb"
     arranger = "Bloco Vai Quem Fica"
     copyright = "(ɔ) - CC BY-SA 4.0" 
     tagline = "Criado com Software Livre - Lilypond"  % removida mensagem de lilypond 
@@ -383,7 +393,7 @@ letratoda = \lyricmode {
 #(set-global-staff-size 30)
 
 \book {
-  \bookOutputSuffix "Eb_notas"
+    \bookOutputName "corta_jaca_Eb_notas"
   \header {
     title = "Corta Jaca (Gaúcho de cá e lá)"
     composer =  "Francisca Gonzaga (1847-1935)"
@@ -420,6 +430,9 @@ letratoda = \lyricmode {
      }    
 }
 
+
+\include "cifra_corta_jaca.ly"
+\include "../cifra-formatos.ly"
 #(set-global-staff-size 14)
 
 \book {
@@ -431,13 +444,17 @@ letratoda = \lyricmode {
     <<
        \new Staff  {
           \new Voice = "letratoda" {
+            	  \time 2/4
 %                \intro
              \saxalto
 %              \partedois
            }
       }
-  %           \new ChordNames 
-  %           \acordetodo
+              \new ChordNames \with {
+               \consists "Bar_engraver"
+                \override BarLine #'stencil = \barracifra
+		}             
+             \acordetodo
              \new Lyrics
              \lyricsto "letratoda" \letratoda
     >>
