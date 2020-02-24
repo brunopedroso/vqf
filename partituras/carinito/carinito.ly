@@ -279,7 +279,10 @@ letratoda = {
   }
 }
 
-#(set-global-staff-size 16)
+\include "../cifra-formatos.ly"
+\include "cifra_carinito.ly"
+
+#(set-global-staff-size 13)
 
 \book {
   \bookOutputName "carinito_letra"
@@ -295,8 +298,11 @@ letratoda = {
              \partedois
            }
       }
-  %           \new ChordNames 
-  %           \acordetodo
+              \new ChordNames \with {
+               \consists "Bar_engraver"
+                \override BarLine #'stencil = \barracifra
+             }
+             \acordetodo
              \new Lyrics
              \lyricsto "letra" \letra
     >>
