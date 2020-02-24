@@ -52,7 +52,7 @@ parteum =  \relative c'' {
   es4. f,8 ~ | 
   f8 g8 as8 bes8 | 
   c2 ~ | 
-  c4 c4 \bar "|."
+  c4 c4
 }
 
 letratoda = \lyricmode {
@@ -77,15 +77,17 @@ letratodacorde = \lyricmode {
    Sleep up -- on my shoul -- der as we creep
    A -- cross the sand so I may keep
    The me -- mory of our cara -- van
-   _
   This is so ex -- cit -- ing
   You are so in -- vit -- ing
   Rest -- ing in my arms
-  As I thrill to the ma % -- gic charms
-%   Of you be -- side me here be -- neath the blue
+  As I thrill to the ma -- gic
+  charms Of you
+ %  be -- side me here be -- neath the blue
 %   My dream of love is com -- ing true
 %   With -- in our desert cara -- van
 }
+
+
 \book {
   \bookOutputName "caravan_Eb"
   \header {
@@ -116,6 +118,7 @@ letratodacorde = \lyricmode {
       \new Voice = "trompete" {
         \transpose bes c' {
           \parteum
+           \bar "|."
         }
       }
       >>
@@ -134,6 +137,7 @@ letratodacorde = \lyricmode {
       \new Staff <<
       \new Voice = "trombone" {
         \parteum
+         \bar "|."
       }
               \addlyrics \letratoda
       >>
@@ -160,6 +164,7 @@ letratodacorde = \lyricmode {
           \easyHeadsOn
           \teeny
         \parteum
+         \bar "|."
         }
       }
       >>
@@ -175,9 +180,11 @@ letratodacorde = \lyricmode {
 
 \version "2.18.2"
 
+\include "../cifra-formatos.ly"
 \include "cifra_caravan.ly"
 
-#(set-global-staff-size 14)
+
+#(set-global-staff-size 15)
 
 \book {
   \bookOutputName "caravan_letra"
@@ -190,11 +197,13 @@ letratodacorde = \lyricmode {
           \new Voice = "letra" {
             \unfoldRepeats
              \parteum
+             \bar "|."
            }
       }
-             \new ChordNames \with {               
+             \new ChordNames \with {
                \consists "Bar_engraver"
-               }
+                \override BarLine #'stencil = \barracifra
+             }
              \acordetodo
              \new Lyrics
              \lyricsto "letra" \letratodacorde
