@@ -76,8 +76,8 @@ partedois =  \relative c'' {
 
 
 letradois = \lyricmode { 
-  Quie -- ro te -- e -- ner -- te muy _ cer -- ca
-  Mi -- i -- rar -- me en tus ojos
+  Quie -- ro te -- e -- ner -- te muy cer -- ca
+  Mi -- i -- rar -- me en tus o -- jos
   Ver -- te jun -- to a mí
   Pien -- sa que ta -- al -- vez ma -- a -- ña -- na
   Yo ya es -- ta -- ré _ le -- jos
@@ -179,29 +179,6 @@ letratoda = \lyricmode {
   }
 }
 
-\book {
-  \bookOutputName "besame_mucho_letra"
-  \header {
-     instrument = "Letra e Acordes"
-  }
-   \score {
-    <<
-       \new Staff  {
-          \new Voice = "letraa" {
-            \time 2/4
-            \parteum
-            \partedois
-                         
-           }
-      }
-  %           \new ChordNames 
-  %           \acordetodo
-             \new Lyrics
-             \lyricsto "letraa" \letratoda
-    >>
-           \include "../imprimirsoletras.ly"
-  }
-}
 
 #(set-global-staff-size 30)
 
@@ -240,3 +217,34 @@ letratoda = \lyricmode {
   }
 }
 
+\include "../cifra-formatos.ly"
+\include "cifra_besame_mucho.ly"
+
+#(set-global-staff-size 16)
+
+\book {
+  \bookOutputName "besame_mucho_letra"
+  \header {
+     instrument = "Letra e Acordes"
+  }
+   \score {
+    <<
+       \new Staff  {
+          \new Voice = "letraa" {
+            \time 2/4
+            \parteum
+            \partedois
+                         
+           }
+      }
+                   \new ChordNames \with {
+               \consists "Bar_engraver"
+                \override BarLine #'stencil = \barracifra
+             }
+             \acordetodo
+             \new Lyrics
+             \lyricsto "letraa" \letratoda
+    >>
+           \include "../imprimirsoletras.ly"
+  }
+}
