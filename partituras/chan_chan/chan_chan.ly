@@ -254,27 +254,33 @@ PartPFiveVoiceOne =  \relative d, {
 
 letraum =  \lyricmode {
   _ _ _ _ _ _ _ _ _ _ _ _ 
-  DeAl -- to Ce -- dro voy pa --
-  ra Mar -- ca -- "né," lle -- goa Cue -- "to," voy pa -- ra Ma -- ya
-  -- "rí." DeAl -- to Ce -- dro voy pa -- ra Mar -- ca -- "né," lle --
-  goa Cue -- "to," voy pa -- ra Ma -- ya -- "rí." 
+  De_Al -- to Ce -- dro voy pa -- ra Mar -- ca -- né, 
+  lle -- go_a Cue -- rí. voy pa -- ra Ma -- ya -- rí. 
+  De_Al -- to Ce -- dro voy pa -- ra Mar -- ca -- né, 
+  lle --  go_a Cue -- rí. voy pa -- ra Ma -- ya -- rí. 
 }
 
 letradois = \lyricmode {
-  DeAl -- to Ce -- dro
-  voy pa -- ra Mar -- ca -- "né," lle -- goa Cue -- "to," voy pa -- ra
-  Ma -- ya -- "rí." El ca -- ri -- ño que te ten -- "go," no te lo pue
-  -- do ne -- "gar." Se me sa -- le la ba -- bi -- ta no lo pue -- do
-  e -- vi -- "tar." Cuan -- do Jua -- ni -- cay Chan -- Chan cer --
-  "nían" a -- re -- na en el "mar," co -- mo sa -- cu -- "dí" -- ael
-  ji -- "be," a Chan -- Chan le da -- ba pe -- "na." Lim -- piael ca
-  -- mi -- no de pa -- "ja," que yo me quie -- ro sen -- tar en a --
-  quel tron -- co que ve -- o ya -- "sí" no pue -- do lle -- "gar!"
-  DeAl -- to Ce -- dro voy pa -- ra Mar -- ca -- "né," lle -- goa Cue
-  -- "to," voy pa -- ra Ma -- ya -- "rí." DeAl -- to Ce -- dro voy pa
-  -- ra Mar -- ca -- "né," lle -- goa Cue -- "to," voy pa -- ra Ma --
-  ya -- "rí." DeAl -- to Ce -- dro voy pa -- ra Mar -- ca -- "né," lle
-  -- goa Cue -- "to," voy pa -- ra Ma -- ya -- "rí."
+  De_Al -- to Ce -- dro voy pa -- ra Mar -- ca -- né, 
+  lle -- go_a Cue -- rí. voy pa -- ra Ma -- ya -- rí. 
+  El ca -- ri -- ño que te ten -- go, 
+  no te lo pue -- do ne -- gar. 
+  Se me sa -- le la ba -- bi -- ta 
+  no lo pue -- do  e -- vi -- tar. 
+  Cuan -- do Juan -- y -- cay Chan -- Chan 
+  en el mar cer -- nían a -- re -- na, 
+  co -- mo sa -- cu -- dí -- a_el ji -- be, 
+  A Chan -- Chan le da -- ba pe -- na. 
+  Lim -- pia_el ca -- mi -- no de pa -- ja, 
+  que yo me quie -- ro sen -- tar 
+  en a -- quel tron -- co que ve -- o
+  ya -- sí no pue -- do lle -- gar!
+  De_Al -- to Ce -- dro voy pa -- ra Mar -- ca -- né, 
+  lle -- go_a Cue -- rí, voy pa -- ra Ma -- ya -- rí. 
+  De_Al -- to Ce -- dro voy pa -- ra Mar -- ca -- né, 
+  lle -- go-a Cue -- rí. voy pa -- ra Ma -- ya -- rí. 
+  De_Al -- to Ce -- dro voy pa -- ra Mar -- ca -- né, 
+  lle -- go_a Cue -- rí. voy pa -- ra Ma -- ya -- rí.
 }
 
 letratoda = \lyricmode {
@@ -445,7 +451,11 @@ letratoda = \lyricmode {
   }
 }
 
-#(set-global-staff-size 18)
+
+\include "../cifra-formatos.ly"
+\include "cifra_chan_chan.ly"
+
+#(set-global-staff-size 14)
 
 \book {
   \bookOutputName "chan_chan_letra"
@@ -460,13 +470,17 @@ letratoda = \lyricmode {
 %              \parteum
 %              \partedois
                 \unfoldRepeats
-                \PartPTwoVoiceOne
+                \repeat volta 180 d4
+               
            }
       }
-  %           \new ChordNames 
-  %           \acordetodo
+             \new ChordNames \with {
+               \consists "Bar_engraver"
+                \override BarLine #'stencil = \barracifra
+             }
+             \acordetodo
              \new Lyrics
-             \lyricsto "letra" \letratoda
+             \lyricsto "letra" \letradois
     >>
            \include "../imprimirsoletras.ly"
   }

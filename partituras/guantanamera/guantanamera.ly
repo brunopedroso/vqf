@@ -248,10 +248,10 @@ letratoda = \lyricmode {
   }
 }
 
-
+\include "../cifra-formatos.ly"
 \include "cifra_guantanamera.ly"
 
-#(set-global-staff-size 17)
+#(set-global-staff-size 14)
 
 \book {
   \bookOutputName "guantanamera_letra"
@@ -268,7 +268,10 @@ letratoda = \lyricmode {
                          
            }
       }
-             \new ChordNames 
+             \new ChordNames \with {
+               \consists "Bar_engraver"
+                \override BarLine #'stencil = \barracifra
+             }
              \acordetodo
              \new Lyrics
              \lyricsto "letraa" \letratoda

@@ -28,10 +28,10 @@ parteum = \relative c'' {
 
 letraum = \lyricmode {
  	
-	O -- Jar -- di -- nei -- ra --  por -- quees -- tás --  tão --  tris -- te -- 
-	Mas --  o --  que --  foi --  que --  tea  -- con -- te -- ceu -- 
-	Foi --  a --  ca -- mé -- lia --  que --  ca -- iu  -- do --  ga -- lho -- 
-	Deu --  dois --  sus -- pi -- ros --  e --  de -- pois --  mor -- reu
+	O Jar -- di -- nei -- ra por -- que_es -- tás tão tris -- te 
+	Mas o que foi que te_a -- con -- te -- ceu
+	Foi a ca -- mé -- lia que ca -- iu do ga -- lho 
+	Deu dois sus -- pi -- ros e de -- pois mor -- reu
 
 }
 
@@ -52,9 +52,10 @@ partedois = \relative c'' {
 
 letradois = \lyricmode { 
 
-	Vem --  jar -- di -- ne -- ei -- ra  -- vem --  meu --  a -- mor -- 
-	Não --  fi -- que --  tris -- te --  quees -- se --  mun -- doé --  to -- do --  seu -- 
-	Tu --  és --  mui -- to --  mais --  bo -- ni -- ta --  quea  --  ca -- mé -- lia --  que --  mor -- reu
+	Vem jar -- di -- ne -- ei -- ra! 
+	Vem --  meu --  a -- mor! 
+	Não fi -- ques tris -- te que_es -- se mun -- do_é to -- do teu 
+	Tu és mui -- to mais bo -- ni -- ta que_a ca -- mé -- lia que mor -- reu!
 	
 }
 
@@ -238,6 +239,7 @@ letratoda = \lyricmode {
   }
 }
 
+\include "../cifra-formatos.ly"
 \include "cifra_jardineira.ly"
 
 #(set-global-staff-size 15)
@@ -255,9 +257,10 @@ letratoda = \lyricmode {
              \partedois
            }
       }
-            \new ChordNames \with {
-              \consists "Bar_engraver"
-              }
+             \new ChordNames \with {
+               \consists "Bar_engraver"
+                \override BarLine #'stencil = \barracifra
+             }
              \acordetodo
              \new Lyrics
              \lyricsto "letra" \letratoda
