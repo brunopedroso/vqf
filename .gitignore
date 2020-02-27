@@ -1,3 +1,4 @@
 /_site
 .directory*
 todo.txt
+sync.sh
