@@ -29,8 +29,6 @@ blocos:
           'c': 'partituras/african_marketplace/african_marketplace_C.pdf'
           'bb': 'partituras/african_marketplace/african_marketplace_Bb.pdf'
           'eb': 'partituras/african_marketplace/african_marketplace_letra.pdf'
-          'ebnotas': 'partituras/african_marketplace/african_marketplace_letra.pdf'
-          'letra': 'partituras/african_marketplace/african_marketplace_letra.pdf'
 
       - nome: 'Caravan (Fm)'
         links:
@@ -291,7 +289,6 @@ blocos:
           'eb': 'partituras/blues_cigano/blues_cigano_Eb.pdf'
           'Tuba': 'partituras/blues_cigano/blues_cigano_C_Tuba.pdf'
           'ebnotas':  'partituras/blues_cigano/blues_cigano_Eb_notas.pdf'
-          'letra': 'partituras/blues_cigano/blues_cigano_letra.pdf'
           'midi': 'partituras/blues_cigano/blues_cigano_C.midi'
 
       - nome: 'Tetris (Am)'
@@ -301,7 +298,6 @@ blocos:
           'eb': 'partituras/tetris/tetris_Eb.pdf'
           'Tuba': 'partituras/tetris/tetris_C_Tuba.pdf'
           'ebnotas':  'partituras/tetris/tetris_Eb_notas.pdf'
-          'letra': 'partituras/tetris/tetris_letra.pdf'
           'midi': 'partituras/tetris/tetris_C.midi'
 
       - nome: 'Pé na tuba (Am)'
@@ -313,7 +309,6 @@ blocos:
           'bb': 'partituras/pe_na_tuba/pe_na_tuba_Bb.pdf'
           'eb': 'partituras/pe_na_tuba/pe_na_tuba_Eb.pdf'
           'ebnotas': 'partituras/pe_na_tuba/pe_na_tuba_Eb.pdf'
-          'letra': 'partituras/pe_na_tuba/pe_na_tuba_letra.pdf'
 
 
   - nome: "Maxixes"
@@ -335,7 +330,6 @@ blocos:
           'bb': 'partituras/folia_de_reis/folia_de_reis-Trompete_em_Bb.pdf'
           'eb': 'partituras/folia_de_reis/folia_de_reis-Sax_Alto_Eb.pdf'
           'ebnotas': 'partituras/folia_de_reis/folia_de_reis-Sax_Alto_Eb.pdf'
-          'letra': 'partituras/folia_de_reis/folia_de_reis_letra.pdf'
 
       - nome: 'Benguelê (F)'
         links:
@@ -356,7 +350,6 @@ blocos:
           'bb': 'partituras/yekermo_sew/yekermo_sew_Bb.pdf'
           'eb': 'partituras/yekermo_sew/yekermo_sew_Eb.pdf'
           'ebnotas': 'partituras/yekermo_sew/yekermo_Eb_notas.pdf'
-          'letra': 'partituras/yekermo_sew/yekermo_sew_letra.pdf'
 
       - nome: 'Haitian Fight Song (Gm)'
         links:
@@ -369,14 +362,13 @@ blocos:
           'Tuba': 'partituras/haitian_fight_song/haitian_fight_song_C_Tuba.pdf'
           'cgeral':  'partituras/haitian_fight_song/haitian_fight_song_C_Geral.pdf'
           'midi':  'partituras/haitian_fight_song/haitian_fight_song_Geral.midi'
-          'letra': 'partituras/haitian_fight_song/haitian_fight_song_C.pdf'
 
       - nome: 'Take Five (Dm)'
         links:
           'gravacao': 'partituras/take_five/take_five.midi'
           'c':  'partituras/take_five/take_five-Instrumentos_em_C.pdf'
           'bb': 'partituras/take_five/take_five-Instrumentos_em_Bb.pdf'
-          'letra': 'partituras/take_five/take_five_letra.pdf'
+          'eb': 'partituras/take_five/take_five-Instrumentos_em_Eb.pdf
 
       - nome: 'Joshua Fit The Battle Of Jericho (Dm)'
         links:
@@ -402,7 +394,6 @@ blocos:
           'bb': 'partituras/angelus/angelus_Bb.pdf'
           'eb': 'partituras/angelus/angelus_Eb.pdf'
           'ebnotas': 'partituras/angelus/angelus_Eb_notas.pdf'
-          'letra': 'partituras/angelus/angelus_letra.pdf'
 
       - nome: 'Bola de Meia (G)'
         links:
@@ -493,7 +484,6 @@ blocos:
           'eb':  'partituras/cabelo_de_fogo/cabelo_de_fogo_Eb.pdf'
           'ebnotas':  'partituras/cabelo_de_fogo/cabelo_de_fogo_Eb_notas.pdf'
           'midi':  'partituras/cabelo_de_fogo/cabelo_de_fogo_C.midi'
-          'letra':  'partituras/cabelo_de_fogo/cabelo_de_fogo_Eb.pdf'
 
 
   - nome: "Pastorinhas"
@@ -544,7 +534,6 @@ blocos:
           'bb': 'partituras/santo_antonio/santo_antonio_Bb.pdf'
           'eb': 'partituras/santo_antonio/santo_antonio_Eb.pdf'
           'ebnotas': 'partituras/santo_antonio/santo_antonio_Eb_notas.pdf'
-          'letra': 'partituras/santo_antonio/santo_antonio_letra.pdf'
 
       - nome: 'Bebê (Am)'
         links:
@@ -553,7 +542,6 @@ blocos:
           'bb': 'partituras/bebe/bebe_Bb.pdf'
           'eb': 'partituras/bebe/bebe_Eb.pdf'
           'ebnotas': 'partituras/bebe/bebe_Eb_notas.pdf'
-          'letra': 'partituras/bebe/bebe_letra.pdf'
           'partitura': 'http://musicabrasilis.org.br/partituras/hermeto-pascoal-bebe'
           'livro': 'partituras/hermeto.pdf'
 
