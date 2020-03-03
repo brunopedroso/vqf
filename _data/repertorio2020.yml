@@ -28,7 +28,6 @@ blocos:
           'eb-ext': 'http://rudemechanicalorchestra.org/music/african-marketplace'
           'c': 'partituras/african_marketplace/african_marketplace_C.pdf'
           'bb': 'partituras/african_marketplace/african_marketplace_Bb.pdf'
-          'eb': 'partituras/african_marketplace/african_marketplace_letra.pdf'
 
       - nome: 'Caravan (Fm)'
         links:
@@ -321,7 +320,7 @@ blocos:
           'bb': 'partituras/corta_jaca/corta_jaca_Bb.pdf'
           'eb': 'partituras/corta_jaca/corta_jaca_Eb.pdf'
           'ebnotas': 'partituras/corta_jaca/corta_jaca-Eb_notas.pdf'
-          'letra':  'partituras/corta_jaca/corta_jaca_letra.pdf'
+          'letra': 'partituras/corta_jaca/corta_jaca_letra.pdf'
 
       - nome: 'Folia de Reis (F)'
         links:
@@ -368,7 +367,7 @@ blocos:
           'gravacao': 'partituras/take_five/take_five.midi'
           'c':  'partituras/take_five/take_five-Instrumentos_em_C.pdf'
           'bb': 'partituras/take_five/take_five-Instrumentos_em_Bb.pdf'
-          'eb': 'partituras/take_five/take_five-Instrumentos_em_Eb.pdf
+          'eb': 'partituras/take_five/take_five-Instrumentos_em_Eb.pdf'
 
       - nome: 'Joshua Fit The Battle Of Jericho (Dm)'
         links:

@@ -9,6 +9,10 @@ arqrep="../../_data/repertorio2020.yml"
 grep -e 'C.pdf' -e '^  - nome' $arqrep | sed "s/.*: \+\\x27\(.*\)\x27/\1/g" - > listaC.txt 
 grep nome listaC.txt | sed 's/.* "\(.*\)"/\1/g'|  sed 's/ \([[:alpha:]]\)/_\1/g' - > blocos.txt
 
+
+#geração de colinhas - rascunho
+#cat listaC.txt | convert -density 72 -background white label:@- -page A4 colinha.pdf
+
 #geração dos pdfs
 while read i 
 do 
@@ -22,7 +26,8 @@ tons_livros=(C Bb Eb Eb_notas letra)
 for t in ${tons_livros[@]}; do
         grep -e $t'.pdf' -e '^  - nome' $arqrep | sed "s/.*: \+\\x27\(.*\)\x27/\1/g" - > lista$t'.txt'
 	sed 's/partituras/../g' lista$t.txt | sed  's/.* "\(.*\)"/\1\.pdf/g' | sed 's/ \([[:alpha:]]\)/_\1/g' - > lista$t'comblocos.txt'
-	convert  ../../img/2020-capasongbook.png -size 450x80 -density 300 -pointsize 8 -font Calibri label:"Vai Quem Fica - Carnaval $(date +%Y)\nv.$(date +%d-%m-%Y)" -gravity center -append -extent 1190x1684 -page a4 -fill white -pointsize 13 -font Calibri -annotate -70-275 "$t" capalivro.pdf
+
+	convert  "$basecapa" -gravity south -splice 0x352  -pointsize 60 -font Calibri -annotate +0+124 "Vai Quem Fica - Carnaval $(date +%Y)\nv.$(date +%d-%m-%Y)" -gravity center -append -fill white -pointsize 160 -font Calibri -annotate -350-1170 "$t" capalivro.pdf
 	pdftk capalivro.pdf $(cat lista${t}'comblocos.txt') cat output songbook$t'.pdf'
 done
 
@@ -42,4 +47,3 @@ pdftk A=basei.pdf B=basep.pdf shuffle A B output songbookletrabooklet.pdf
 shopt -s extglob
 rm !(song*).pdf
 rm *.txt
-
