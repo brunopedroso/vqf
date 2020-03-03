@@ -4,6 +4,7 @@
 bracordes = {
   <c es ges bes>1-\markup { \concat { "m" "5" \smaller {\flat} "/7"} }
   <c e g bes d'>1-\markup { \concat{"7/9"} }
+  <c e g b'>1-\markup { \concat{"7M"} }
 }
 
 acordesbr = #(append
