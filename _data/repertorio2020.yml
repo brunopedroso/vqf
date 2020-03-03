@@ -28,8 +28,6 @@ blocos:
           'eb-ext': 'http://rudemechanicalorchestra.org/music/african-marketplace'
           'c': 'partituras/african_marketplace/african_marketplace_C.pdf'
           'bb': 'partituras/african_marketplace/african_marketplace_Bb.pdf'
-          'eb': 'partituras/african_marketplace/african_marketplace_letra.pdf'
-          'ebnotas': 'partituras/african_marketplace/african_marketplace_letra.pdf'
 
       - nome: 'Caravan (Fm)'
         links:
@@ -317,10 +315,10 @@ blocos:
 
       - nome: 'Corta Jaca (Dm)'
         links:
-          'gravacao': 'partituras/corta_jaca/corta_jaca.midi'
-          'c':  'partituras/corta_jaca/Corta_Jaca.pdf'
-          'bb': 'partituras/corta_jaca/Corta_Jaca-Clarinete_e_Sax_Tenor_em_Bb.pdf'
-          'eb': 'partituras/corta_jaca/Corta_Jaca-Sax_Alto_em_Eb.pdf'
+          'gravacao': 'partituras/corta_jaca/corta_jaca_C.midi'
+          'c':  'partituras/corta_jaca/corta_jaca_C.pdf'
+          'bb': 'partituras/corta_jaca/corta_jaca_Bb.pdf'
+          'eb': 'partituras/corta_jaca/corta_jaca_Eb.pdf'
           'ebnotas': 'partituras/corta_jaca/corta_jaca-Eb_notas.pdf'
           'letra': 'partituras/corta_jaca/corta_jaca_letra.pdf'
 
@@ -369,6 +367,7 @@ blocos:
           'gravacao': 'partituras/take_five/take_five.midi'
           'c':  'partituras/take_five/take_five-Instrumentos_em_C.pdf'
           'bb': 'partituras/take_five/take_five-Instrumentos_em_Bb.pdf'
+          'eb': 'partituras/take_five/take_five-Instrumentos_em_Eb.pdf'
 
       - nome: 'Joshua Fit The Battle Of Jericho (Dm)'
         links:
@@ -394,7 +393,6 @@ blocos:
           'bb': 'partituras/angelus/angelus_Bb.pdf'
           'eb': 'partituras/angelus/angelus_Eb.pdf'
           'ebnotas': 'partituras/angelus/angelus_Eb_notas.pdf'
-          'letra': 'partituras/angelus/angelus_letra.pdf'
 
       - nome: 'Bola de Meia (G)'
         links:
