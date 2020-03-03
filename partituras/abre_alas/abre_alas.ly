@@ -36,10 +36,10 @@ parteum = \relative c' {
 }
 
 letratoda = \lyricmode { 
-	Ô  a  bre   a  las   que-eu   que  ro   pas  sar  
-	Ô  a  bre   a  las   que-eu   que  ro   pas  sar  
-	Eu   sou   da   li  ra   não   pos  so   ne  gar
-	Ro  sa   de   ou  ro   é   quem   vai   ga  nhar
+	Ô  a -- bre   a -- las   que_eu   que -- ro   pas -- sar  
+	Ô  a -- bre   a -- las   que_eu   que -- ro   pas -- sar  
+	Eu   sou   da   li -- ra   não   pos -- so   ne -- gar
+	Ro -- sa   de   ou -- ro   é   quem   vai   ga -- nhar
 }
 
 \book {
@@ -152,6 +152,7 @@ letratoda = \lyricmode {
 }
 }
 
+\include "../cifra-formatos.ly"
 \include "cifra_abre_alas.ly"
 
 \version "2.18.2"  % necessary for upgrading to future LilyPond versions.
@@ -171,9 +172,10 @@ letratoda = \lyricmode {
 %              \partedois
            }
       }
-             \new ChordNames \with {               
+             \new ChordNames \with {
                \consists "Bar_engraver"
-               }
+                \override BarLine #'stencil = \barracifra
+             }
              \acordetodo
              \new Lyrics
              \lyricsto "letratoda" \letratoda
