@@ -1,10 +1,11 @@
 \version "2.18.2"
 
 \layout {
-          #(layout-set-staff-size 6)
+         #(layout-set-staff-size 6)
          indent = #25
          short-indent = #25
-         \override NoteHead #'transparent = ##t
+        \set majorSevenSymbol = \markup { 7+ }
+        \override NoteHead #'transparent = ##t
          \override KeySignature #'transparent = ##t
          \override TupletBracket #'transparent = ##t
          \override TupletNumber #'transparent = ##t
@@ -30,11 +31,14 @@
         \context { 
                   \Voice
                   \hide Tie
-                            }
-        \context {
+        
+	}
+%	\context {
+%	  	  \chords
+%	           \set majorSevenSymbol = \markup { 7+ }
+%		}
+   	\context {
                  \ChordNames
-                 \set chordNamemajorSevenSymbol = \markup { "7M"}
-                 \set chordNameSeparator = \markup { \typewriter / }
                  \override BarLine.bar-extent = #'(-2 . 2)             
                  \override ChordName #'font-size = #13
 %                  \override ChordName #'font-series = #'bold
