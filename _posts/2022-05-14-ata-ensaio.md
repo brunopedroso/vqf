@@ -38,22 +38,16 @@ Naturalmente, não vamos tocar todas. Ainda vamos escolher.É apenas uma lista i
 As que estão com tonalidade é porque a gente já tocou um poquinho no sábado.
 
 #### Bloco do Chico
-- Pelas tabelas
+- Mambembe (D)
+- Para todos (C)
+- Pelas tabelas (C)
+- Apesar de você (D)
+- Sem compromisso (Em)
 - Morena de angola
-- Apesar de você
 - Deixa a menina
-- Sem compromisso
 - Pecado do lado de baixo / Boi Voador
 - Construção / Deus lhe pague
-- Mambembe
 - Brejo da cruz
-- Para todos (C)
-
-#### Recuperar o bloco do Moacir
-#### Recuperar o bloco de Jazz
-- cantaloupe
-- take5
-- ...
 
 #### Bloco Regae
 - Árvore (Edson Gomes) (C)
@@ -62,17 +56,28 @@ As que estão com tonalidade é porque a gente já tocou um poquinho no sábado.
 - Mama áfrica (C)
 
 #### Bloco Olodum
-- Faraó
 - Miss her (G?)
 - Madagascar (Am)
 - Revolta Olodum (Am ou Dm)
 - Requebra
+- Faraó
 
 #### Bloco Axé
-- Que bloco é esse
-- Negrume da noite
+- Que bloco é esse (Em)
+- Negrume da noite (G)
 - Araketu bom demais
 - Pequena Eva
+
+#### Recuperar o bloco do Moacir
+#### Recuperar o bloco de Jazz
+- cantaloupe
+- take5
+- ...
+
+#### Pro bloco do 'O Caminho'
+- [Todos estão surdos](https://www.youtube.com/watch?v=267_8xyXu8g) ([vs do chico science](https://www.youtube.com/watch?v=V4xTKGrSiH0))
+    - gravações originais em E 
+    - a gente pensou em mudar pra F pra encaixar com as outras do bloco
 
 #### Sem bloco ainda
 - Volte para o seu lar
