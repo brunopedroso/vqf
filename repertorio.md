@@ -51,7 +51,7 @@ tons:
 
   <table>
 
-    {% for bloco in site.data.repertorio_hjonk_2022.blocos  %}
+    {% for bloco in site.data.repertorio_honk_2022.blocos  %}
 
       <tr>
         <td>
