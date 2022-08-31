@@ -24,7 +24,7 @@ tons:
 </style>
 
 
-## Repertório VQF Honk 2022
+<!-- ## Repertório VQF Honk 2022
 
 <br/><br/>
 
@@ -43,11 +43,8 @@ tons:
   </div>
 
 <br/><br/><br/>
-  
+   -->
 ## Músicas
-
-#### (Ainda aberto a sugestões. Ainda sem ordem definida.)
-
 
   <table>
 
