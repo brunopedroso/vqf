@@ -192,7 +192,6 @@ blocos:
           'ebnotas': 'partituras/o_caminho_do_bem/o_caminho_do_bem_Eb_notas.pdf'
           'letra': 'partituras/o_caminho_do_bem/o_caminho_do_bem_letra.pdf'
 
-
       - nome: 'Another Brick in the Wall (Dm)'
         links:
           'yt': 'https://www.youtube.com/watch?v=YR5ApYxkU-U'
@@ -201,6 +200,8 @@ blocos:
           'eb': 'partituras/another_brick/another_brick_Eb.pdf'
           'ebnotas': 'partituras/another_brick/another_brick_Eb_notas.pdf'
           'letra': 'partituras/another_brick/another_brick_letra.pdf'
+
+      - nome: 'Que beleza'
 
   - nome: "Bituca"
     musicas:

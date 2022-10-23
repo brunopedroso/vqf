@@ -30,6 +30,8 @@ tons:
 
 Estou tentando manter um pequeno **plano pros próximo ensaios**, e um registro do que a gente tem ensaiado **[AQUI](https://www.notion.so/VQF-Ensaios-pra-2023-1e41b893c9ff4b299679c221ff465705)**
 
+E aqui está a listagem de [todos nossos repertórios antigos](todos_repertorios).
+
 As músicas abaixos são apenas um retrato do que temos/pretendemos hoje. Ainda está bastante aberto a mudanças:
 
 ## Músicas
