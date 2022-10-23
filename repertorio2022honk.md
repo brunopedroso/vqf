@@ -24,19 +24,13 @@ tons:
 </style>
 
 
-## Repertório VQF Carnaval 2023 (10 anos)
-
-**ENSAIOS: Todo sábado de 15:00 às 19:00.** Lugar definido na hora (grupo de transmissão do zap).
-
-Estou tentando manter um pequeno **plano pros próximo ensaios**, e um registro do que a gente tem ensaiado **[AQUI](https://www.notion.so/VQF-Ensaios-pra-2023-1e41b893c9ff4b299679c221ff465705)**
-
-As músicas abaixos são apenas um retrato do que temos/pretendemos hoje. Ainda está bastante aberto a mudanças:
+## Repertório VQF Honk 2022
 
 ## Músicas
 
   <table>
 
-    {% for bloco in site.data.repertorio2023.blocos  %}
+    {% for bloco in site.data.repertorio_honk_2022.blocos  %}
 
       <tr>
         <td>
