@@ -28,11 +28,8 @@ tons:
 
 **ENSAIOS: Todo sábado de 15:00 às 19:00.** Lugar definido na hora (grupo de transmissão do zap).
 
-Estou tentando manter um pequeno **plano pros próximo ensaios**, e um registro do que a gente tem ensaiado **[AQUI](https://www.notion.so/VQF-Ensaios-pra-2023-1e41b893c9ff4b299679c221ff465705)**
+**[Cronograma pros próximo ensaios](https://proximal-bench-36b.notion.site/VQF-2023-Ensaios-1e41b893c9ff4b299679c221ff465705)**
 
-E aqui está a listagem de [todos nossos repertórios antigos](todos_repertorios).
-
-As músicas abaixos são apenas um retrato do que temos/pretendemos hoje. Ainda está bastante aberto a mudanças:
 
 ## Músicas
 

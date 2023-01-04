@@ -10,6 +10,17 @@ blocos:
 
       - nome: 'Coisa número 5'
         links:
+          'trompete':  'partituras/coisa5/trompete/Coisa5-VQF_FINAL_Trumpet_Bb.pdf'
+          'trompete-guia':  'partituras/coisa5/trompete/Coisa5-VQF_FINAL_Trompete.mp3'
+          'trombone':  'partituras/coisa5/trombone/Coisa5-VQF_FINAL_Trombone.pdf'
+          'trombone-guia':  'partituras/coisa5/trombone/Coisa5-VQF_FINAL_Trombone.mp3'
+          'tenor':  'partituras/coisa5/sax_tenor/Coisa5-VQF_FINAL_TenorSax.pdf'
+          'tenor-guia':  'partituras/coisa5/sax_tenor/Coisa5-VQF_FINAL_TenorSax.mp3'
+          'alto':  'partituras/coisa5/sax_alto/Coisa5-VQF_FINAL_AltoSax.pdf'
+          'alto-guia':  'partituras/coisa5/sax_alto/Coisa5-VQF_FINAL_Alto_Sax.mp3'
+          'baritono':  'partituras/coisa5/sax_baritono/Coisa5-VQF_FINAL_BaritoneSax.pdf'
+          'baritono-guia':  'partituras/coisa5/sax_baritono/Coisa5-VQF_FINAL_BaritoneSax.mp3'
+          'guia-geral':  'partituras/coisa5/COISA5.mp3'
           
   - nome: "Olodum"
     musicas:
