@@ -3,10 +3,15 @@ blocos:
   - nome: "Moa"
     musicas:
 
-      - nome: 'Coisa número 1 (Dm)'
+      - nome: 'Vera Cruz (Milton)'
         links:
-          'partitura': 'partituras/coisa_num_1/Coisa_n_1-Score_and_Parts.pdf'
-          'guia': 'partituras/coisa_num_1/coisa1-guia.mp3'
+          'guia':  'partituras/vera_cruz/vera_cruz_guia.mp3'
+          'geral':  'partituras/vera_cruz/VeraCruz-GERAL.pdf'
+          'alto':  'partituras/vera_cruz/VeraCruz-SAXALTO.pdf'
+          'tenor':  'partituras/vera_cruz/VeraCruz-SAXTENOR.pdf'
+          'trombone':  'partituras/vera_cruz/VeraCruz-TROMBONE.pdf'
+          'trompete':  'partituras/vera_cruz/VeraCruz-TROMPETE.pdf'
+          'tuba':  'partituras/vera_cruz/VeraCruz-TUBA.pdf'
 
       - nome: 'Coisa número 5'
         links:
@@ -22,6 +27,11 @@ blocos:
           'baritono-guia':  'partituras/coisa5/sax_baritono/Coisa5-VQF_FINAL_BaritoneSax.mp3'
           'guia-geral':  'partituras/coisa5/COISA5.mp3'
           
+      - nome: 'Coisa número 1 (Dm)'
+        links:
+          'partitura': 'partituras/coisa_num_1/Coisa_n_1-Score_and_Parts.pdf'
+          'guia': 'partituras/coisa_num_1/coisa1-guia.mp3'
+
   - nome: "Olodum"
     musicas:
 
