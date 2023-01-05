@@ -23,31 +23,22 @@ tons:
   }
 </style>
 
-#### Songbooks preliminares
 
-  {% for tom in page.tons  %}
-  <a href='partituras/songbooks/songbook{{ tom }}.pdf' target='_blank'>Songbook em {{ tom }}</a><br/>
-  {% endfor %}
+## Repertório VQF Carnaval 2023 (10 anos)
+
+**ENSAIOS: **
+Sábado de 15:00 às 19:00.
+Quartas de 19:00 às 22:00
+Lugar definido na hora (grupo de transmissão do zap).
+
+**[Cronograma de ensaios detalhado](https://proximal-bench-36b.notion.site/VQF-2023-Ensaios-1e41b893c9ff4b299679c221ff465705)**
 
 
-#### Playlist do Repertório
-
-<iframe style="width: 100%; height: 90px;" scrolling="no" src="https://midia.borges.net.br:9093/share.php?id=7&amp;secret=vqfcarnaval2020&amp;embed=true"></iframe>
-
-## Repertório VQF 2020
-
-  <a href='{{base}}/repertorio_lista'>Lista simples</a><br/>
-
-  <a href='{{base}}/partituras/songbooks/songbookC.pdf'>Songbook em C</a><br/>
-  <a href='{{base}}/partituras/songbooks/songbookBb.pdf'>Songbook em Bb</a><br/>
-  <a href='{{base}}/partituras/songbooks/songbookEb.pdf'>Songbook em Eb</a><br/>
-
-  <a href='{{base}}/partituras/songbooks/songbookletra.pdf'>Songbook Letras/cifra</a><br/>
-  <a href='{{base}}/partituras/songbooks/songbookletrabooklet.pdf'>Songbook Letras/cifra - livrinho</a><br/>
+## Músicas
 
   <table>
 
-    {% for bloco in site.data.repertorio2020.blocos  %}
+    {% for bloco in site.data.repertorio2023.blocos  %}
 
       <tr>
         <td>

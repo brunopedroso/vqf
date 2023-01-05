@@ -1,0 +1,388 @@
+blocos:
+
+  - nome: "Gil"
+    musicas:
+
+      - nome: 'Patuscada de Gandhi (F)'
+        links:
+          'yt': 'https://www.youtube.com/watch?v=9IcCliBDJ9A'
+          'c': 'partituras/patuscada_de_gandhi/patuscada_C.pdf'
+          'bb': 'partituras/patuscada_de_gandhi/patuscada_Bb.pdf'
+          'eb': 'partituras/patuscada_de_gandhi/patuscada_Eb.pdf'
+          'tubabb': 'partituras/patuscada_de_gandhi/patuscada-Tuba-Bb.pdf'
+          'tubaeb': 'partituras/patuscada_de_gandhi/patuscada-Tuba-Eb.pdf'
+          'trombone': 'partituras/patuscada_de_gandhi/patuscada-Trombone.pdf'
+          'trompete2': 'partituras/patuscada_de_gandhi/patuscada-Trompete2.pdf'
+          'tenor': 'partituras/patuscada_de_gandhi/patuscada-tenor.pdf'
+          'flauta': 'partituras/patuscada_de_gandhi/patuscada-flauta.pdf'
+          'letra': 'partituras/patuscada_de_gandhi/patuscada_letra.pdf'
+
+      - nome: 'Madalena (D)'
+        links:
+          'yt': 'https://www.youtube.com/watch?v=BfWst51fvNM'
+          'c': 'partituras/madalena/madalena_C.pdf'
+          'bb': 'partituras/madalena/madalena_Bb.pdf'
+          'eb': 'partituras/madalena/madalena_Eb.pdf'
+          'ebnotas': 'partituras/madalena/madalena_Eb_notas.pdf'
+          'letra': 'partituras/madalena/madalena_letra.pdf'
+
+      - nome: 'Extra (Cm)'
+        links:
+          'yt': 'https://www.youtube.com/watch?v=mh9drfcfPuU&feature=youtu.be'
+          'c':  'partituras/extra/extra_C.pdf'
+          'bb': 'partituras/extra/extra_Bb.pdf'
+          'eb': 'partituras/extra/extra_Eb.pdf'
+          'ebnotas': 'partituras/extra/extra_Eb_notas.pdf'
+          'letra': 'partituras/extra/extra_letra.pdf'
+
+      - nome: 'Andar com Fé (Eb)'
+        links:
+          'yt': 'https://www.youtube.com/watch?v=cH65dRyJ_Ys'
+          'c':  'partituras/andar_com_fe/andar_com_fe_C.pdf'
+          'bb': 'partituras/andar_com_fe/andar_com_fe_Bb.pdf'
+          'eb': 'partituras/andar_com_fe/andar_com_fe_Eb.pdf'
+          'ebnotas': 'partituras/andar_com_fe/andar_com_fe_Eb_notas.pdf'
+          'letra': 'partituras/andar_com_fe/andar_com_fe_letra.pdf'
+
+
+  - nome: "O Caminho"
+    musicas:
+      - nome: 'Todos estão surdos (F)'
+
+      - nome: 'O caminho do bem (Dm)'
+        links:
+          'yt': 'https://www.youtube.com/watch?v=hwUGJXm02ZQ'
+          'c':  'partituras/o_caminho_do_bem/o_caminho_do_bem_C.pdf'
+          'bb': 'partituras/o_caminho_do_bem/o_caminho_do_bem_Bb.pdf'
+          'eb': 'partituras/o_caminho_do_bem/o_caminho_do_bem_Eb.pdf'
+          'ebnotas': 'partituras/o_caminho_do_bem/o_caminho_do_bem_Eb_notas.pdf'
+          'letra': 'partituras/o_caminho_do_bem/o_caminho_do_bem_letra.pdf'
+
+
+      - nome: 'Another Brick in the Wall (Dm)'
+        links:
+          'yt': 'https://www.youtube.com/watch?v=YR5ApYxkU-U'
+          'c':  'partituras/another_brick/another_brick_C.pdf'
+          'bb': 'partituras/another_brick/another_brick_Bb.pdf'
+          'eb': 'partituras/another_brick/another_brick_Eb.pdf'
+          'ebnotas': 'partituras/another_brick/another_brick_Eb_notas.pdf'
+          'letra': 'partituras/another_brick/another_brick_letra.pdf'
+
+  - nome: "Bituca"
+    musicas:
+
+      - nome: 'Para Lennon e McCartney (Cm)'
+        links:
+          'yt': 'https://www.youtube.com/watch?v=e9-c8b76OMk'
+
+      - nome: 'Ângelus (C)'
+        links:
+          'yt': 'https://www.youtube.com/watch?v=3K3qJVKBlh4'
+          'mid': 'partituras/angelus/angelus_C.midi'
+          'c': 'partituras/angelus/angelus_C.pdf'
+          'bb': 'partituras/angelus/angelus_Bb.pdf'
+          'eb': 'partituras/angelus/angelus_Eb.pdf'
+          'ebnotas': 'partituras/angelus/angelus_Eb_notas.pdf'
+          'letra': 'partituras/angelus/angelus_letra.pdf'
+
+      - nome: 'Bola de Meia (G)'
+        links:
+          'yt': 'https://www.youtube.com/watch?v=G9RS2BkbqHw'
+          'mid': 'partituras/bola_de_meia/bola_de_meia.midi'
+          'c': 'partituras/bola_de_meia/bola_de_meia_C.pdf'
+          'bb': 'partituras/bola_de_meia/bola_de_meia_Bb.pdf'
+          'eb': 'partituras/bola_de_meia/bola_de_meia_Eb.pdf'
+          'ebnotas': 'partituras/bola_de_meia/bola_de_meia_Eb_notas.pdf'
+          'letra': 'partituras/bola_de_meia/bola_de_meia_letra.pdf'
+
+      - nome: 'Paula e Bebeto (G)'
+        links:
+          'yt': 'https://www.youtube.com/watch?v=-T-esXst0sc'
+          'mid': 'partituras/paula_e_bebeto/paula_e_bebeto_C.midi'
+          'c': 'partituras/paula_e_bebeto/paula_e_bebeto_C.pdf'
+          'bb': 'partituras/paula_e_bebeto/paula_e_bebeto_Bb.pdf'
+          'eb': 'partituras/paula_e_bebeto/paula_e_bebeto_Eb.pdf'
+          'ebnotas': 'partituras/paula_e_bebeto/paula_e_bebeto_Eb_notas.pdf'
+          'letra': 'partituras/paula_e_bebeto/paula_e_bebeto_letra.pdf'
+
+  - nome: "Chico"
+    musicas:
+
+      - nome: 'Para todos (C)'
+        links:
+          'c':  'partituras/para_todos/para_todosC.pdf'
+          'bb': 'partituras/para_todos/para_todosBb.pdf'
+          'eb': 'partituras/para_todos/para_todosEb.pdf'
+
+      - nome: 'Pelas tabelas (C)'
+        links:
+          'c':  'partituras/pelas_tabelas/pelas_tabelasC.pdf'
+          'bb': 'partituras/pelas_tabelas/pelas_tabelasBb.pdf'
+          'eb': 'partituras/pelas_tabelas/pelas_tabelasEb.pdf'
+
+      - nome: 'Mambembe (D)'
+        links:
+          'c':  'partituras/mambembe/mambembeC.pdf'
+          'bb': 'partituras/mambembe/mambembeBb.pdf'
+          'eb': 'partituras/mambembe/mambembeEb.pdf'
+
+      - nome: 'Apesar de você (D)'
+        links:
+          'c':  'partituras/apesar_de_voce/apesar_de_voceC.pdf'
+          'bb': 'partituras/apesar_de_voce/apesar_de_voceBb.pdf'
+          'eb': 'partituras/apesar_de_voce/apesar_de_voceEb.pdf'
+
+  # - nome: "Regae"
+  #   musicas:
+  #     - nome: 'Arvore (C? G?)'
+  #       links:
+  #         'yt': 'https://www.youtube.com/watch?v=iW7z0Iw6bW0'
+
+  #     - nome: 'Concrete Jungle (Dm)'
+  #       links:
+  #         'todos': 'partituras/concrete_jungle/Concrete_Jungle2-Score_and_Parts.pdf'
+  #         'guia': 'partituras/concrete_jungle/concrete_jungle.mp3'
+
+  #     - nome: '------> tuba'
+  #       links:
+  #         'tuba': 'partituras/concrete_jungle/Concrete_Jungle2-Sousaphone.pdf'
+  #         'guia_tuba': 'partituras/concrete_jungle/guia_tuba.mp3'
+  #     - nome: '------> trombone'
+  #       links:
+  #         'trombone': 'partituras/concrete_jungle/Concrete_Jungle2-Trombone.pdf'
+  #         'guia_trombone': 'partituras/concrete_jungle/guia_trombone.mp3'
+  #     - nome: '------> tenor'
+  #       links:
+  #         'tenor': 'partituras/concrete_jungle/Concrete_Jungle2-Tenor_Saxophone.pdf'
+  #         'guia_tenor': 'partituras/concrete_jungle/guia_tenor.mp3'
+  #     - nome: '------> alto'
+  #       links:
+  #         'alto': 'partituras/concrete_jungle/Concrete_Jungle2-Alto_Saxophone.pdf'
+  #         'guia_alto': 'partituras/concrete_jungle/guia_alto.mp3'
+  #     - nome: '------> trompete'
+  #       links:
+  #         'trompete': 'partituras/concrete_jungle/Concrete_Jungle2-Bb_Trumpet_1.pdf'
+  #         'guia_trompete': 'partituras/concrete_jungle/guia_trompete.mp3'
+
+  #     - nome: 'Pedrada'
+  #       links:
+  #         'yt': 'https://www.youtube.com/watch?v=qfWoph8jxz0'
+
+
+
+  - nome: "Afoxés"
+    musicas:
+
+      - nome: 'A volta do Malandro (Bb)'
+        links:
+          'yt':  'https://www.youtube.com/watch?v=FE3-WIyFXhY'
+          'midi':  'partituras/volta_do_malandro/volta_do_malandro.midi'
+          'C':  'partituras/volta_do_malandro/volta_do_malandro_C.pdf'
+          'Bb':  'partituras/volta_do_malandro/volta_do_malandro_Bb.pdf'
+          'Eb':  'partituras/volta_do_malandro/volta_do_malandro_Eb.pdf'
+          'ebnotas':  'partituras/volta_do_malandro/volta_do_malandro_Eb_notas.pdf'
+          'letra': 'partituras/volta_do_malandro/volta_do_malandro_letra.pdf'
+
+      - nome: 'Um canto de afoxé para o bloco do Ilê (Bb)'
+        links:
+          'yt (E)':  'https://www.youtube.com/watch?v=9eXbh-6xxUQ'
+          'midi':  'partituras/canto_de_afoxeh/canto_de_afoxeh.midi' 
+          'C':  'partituras/canto_de_afoxeh/canto_de_afoxeh_C.pdf'
+          'Bb':  'partituras/canto_de_afoxeh/canto_de_afoxeh_Bb.pdf'
+          'Eb':  'partituras/canto_de_afoxeh/canto_de_afoxeh_Eb.pdf'
+          'ebnotas':  'partituras/canto_de_afoxeh/canto_de_afoxeh_Eb_notas.pdf'
+          'letra': 'partituras/canto_de_afoxeh/canto_de_afoxeh_letra.pdf'
+
+      - nome: 'A Rã (Dm)'
+        links:
+          'mid': 'partituras/a_ra/a_ra.mid'
+          'mp3': 'partituras/a_ra/a_ra_FINAL.mp3'
+          'geral': 'partituras/a_ra/a_ra_GERAL.pdf'
+          'harmonia': 'partituras/a_ra/a_ra_Harmonia.pdf'
+          'sax_bar': 'partituras/a_ra/a_ra_SaxBaritono.pdf'
+          'sax_ten': 'partituras/a_ra/a_ra_SaxTenor.pdf'
+          'tromb': 'partituras/a_ra/a_ra_Trombone.pdf'
+          'tromp': 'partituras/a_ra/a_ra_Trompetes.pdf'
+          'tuba': 'partituras/a_ra/a_ra_Tuba.pdf'
+          'letra': 'partituras/a_ra/a_ra_letra.pdf'
+          
+      - nome: 'Emoriô (Dm)'
+        links:
+          'midi': 'partituras/emorioh/emorioh_C.midi'
+          'c': 'partituras/emorioh/emorioh_C.pdf'
+          'bb': 'partituras/emorioh/emorioh_Bb.pdf'
+          'eb': 'partituras/emorioh/emorioh_Eb.pdf'
+          'ebnotas': 'partituras/emorioh/emorioh_Eb_notas.pdf'
+          'letra': 'partituras/emorioh/emorioh_letra.pdf'
+
+      - nome: 'Bananeira (Gm)'
+        links:
+          'midi': 'partituras/bananeira/bananeira_C.midi'
+          'c': 'partituras/bananeira/bananeira_C.pdf'
+          'bb': 'partituras/bananeira/bananeira_Bb.pdf'
+          'eb': 'partituras/bananeira/bananeira_Eb.pdf'
+          'ebnotas': 'partituras/bananeira/bananeira_Eb_notas.pdf'
+          'letra': 'partituras/bananeira/bananeira_letra.pdf'
+
+  - nome: "Maxixes"
+    musicas:
+
+      - nome: 'Corta Jaca (Dm)'
+        links:
+          'gravacao': 'partituras/corta_jaca/corta_jaca.midi'
+          'c':  'partituras/corta_jaca/Corta_Jaca.pdf'
+          'bb': 'partituras/corta_jaca/Corta_Jaca-Clarinete_e_Sax_Tenor_em_Bb.pdf'
+          'eb': 'partituras/corta_jaca/Corta_Jaca-Sax_Alto_em_Eb.pdf'
+          'ebnotas': 'partituras/corta_jaca/corta_jaca-Eb_notas.pdf'
+          'letra':  'partituras/corta_jaca/corta_jaca_letra.pdf'
+
+      - nome: 'Folia de Reis (F)'
+        links:
+          'gravacao': 'partituras/folia_de_reis/folia_de_reis.midi'
+          'c':  'partituras/folia_de_reis/folia_de_reis-Trombone_em_C.pdf'
+          'bb': 'partituras/folia_de_reis/folia_de_reis-Trompete_em_Bb.pdf'
+          'eb': 'partituras/folia_de_reis/folia_de_reis-Sax_Alto_Eb.pdf'
+          'ebnotas': 'partituras/folia_de_reis/folia_de_reis-Sax_Alto_Eb.pdf'
+          'letra': 'partituras/folia_de_reis/folia_de_reis_letra.pdf'
+
+      - nome: 'Benguelê (F)'
+        links:
+          'youtube': 'https://www.youtube.com/watch?v=DMXSecu0yEY'
+          'part C':  'partituras/benguele/benguele-C.pdf'
+          'part Bb': 'partituras/benguele/benguele-Bb.pdf'
+          'part Eb': 'partituras/benguele/benguele-Eb.pdf'
+          'midi':    'partituras/benguele/benguele.midi'
+          'letra':    'partituras/benguele/benguele_letra.pdf'
+
+  - nome: "African"
+    musicas:
+
+      - nome: 'Máscara Negra (F)'
+        links:
+          'c':  'partituras/mascara_negra/mascara_negra_C.pdf'
+          'bb': 'partituras/mascara_negra/mascara_negra_Bb.pdf'
+          'eb': 'partituras/mascara_negra/mascara_negra_Eb.pdf'
+          'ebnotas': 'partituras/mascara_negra/mascara_negra_Eb_notas.pdf'
+          'letra': 'partituras/mascara_negra/mascara_negra_letra.pdf'
+
+      - nome: 'Circo (F)'
+        links:
+          'gravacao': 'https://s3.amazonaws.com/brunopedroso/vqf/b1/3_Circo.mp3'
+          'c':  'partituras/circo/circo_C.pdf'
+          'bb': 'partituras/circo/circo_Bb.pdf'
+          'eb': 'partituras/circo/circo_Eb.pdf'
+          'ebnotas': 'partituras/circo/circo_Eb_notas.pdf'
+          'letra': 'partituras/circo/circo_letra.pdf'
+
+      - nome: 'African Marketplace (F)'
+        links:
+          'gravacao': 'http://rudemechanicalorchestra.org/music/african-marketplace'
+          'c-ext': 'http://rudemechanicalorchestra.org/music/african-marketplace'
+          'bb-ext': 'http://rudemechanicalorchestra.org/music/african-marketplace'
+          'eb-ext': 'http://rudemechanicalorchestra.org/music/african-marketplace'
+          'c': 'partituras/african_marketplace/african_marketplace_C.pdf'
+          'bb': 'partituras/african_marketplace/african_marketplace_Bb.pdf'
+          'eb': 'partituras/african_marketplace/african_marketplace_letra.pdf'
+          'ebnotas': 'partituras/african_marketplace/african_marketplace_letra.pdf'
+          'letra': 'partituras/african_marketplace/african_marketplace_letra.pdf'
+
+      - nome: 'Caravan (Fm)'
+        links:
+          'gravacao': 'https://www.youtube.com/watch?v=r95flkZciJE'
+          'c':  'partituras/caravan/caravan_C.pdf'
+          'bb': 'partituras/caravan/caravan_Bb.pdf'
+          'eb': 'partituras/caravan/caravan_Eb.pdf'
+          'ebnotas': 'partituras/caravan/caravan_Eb_notas.pdf'
+          'letra': 'partituras/caravan/caravan_letra.pdf'
+
+  - nome: "Pescadores"
+    musicas:
+
+      - nome: 'Marcha dos Pescadores (Dm)'
+        links:
+          'c': 'partituras/marcha_dos_pescadores/marcha_dos_pescadores_C.pdf'
+          'bb': 'partituras/marcha_dos_pescadores/marcha_dos_pescadores_Bb.pdf'
+          'eb': 'partituras/marcha_dos_pescadores/marcha_dos_pescadores_Eb.pdf'
+          'ebnotas': 'partituras/marcha_dos_pescadores/marcha_dos_pescadores_Eb_notas.pdf'
+          'letra': 'partituras/marcha_dos_pescadores/marcha_dos_pescadores_letra.pdf'
+          'midi': 'partituras/marcha_dos_pescadores/marcha_dos_pescadores_Geral.midi'
+
+      - nome: 'Eu Vi Mamãe Oxum na Cachoeira (Dm)'
+        links:
+          'gravacao': 'https://www.youtube.com/watch?v=ou5w5tm5FOY'
+          'c': 'partituras/eu_vi_mamae_oxum_na_cachoeira/mamae_oxum-C.pdf'
+          'bb': 'partituras/eu_vi_mamae_oxum_na_cachoeira/mamae_oxum-Bb.pdf'
+          'eb': 'partituras/eu_vi_mamae_oxum_na_cachoeira/mamae_oxum-Eb.pdf'
+          'ebnotas': 'partituras/eu_vi_mamae_oxum_na_cachoeira/mamae_oxum-Eb_notas.pdf'
+          'letra': 'partituras/eu_vi_mamae_oxum_na_cachoeira/mamae_oxum_letra.pdf'
+
+      - nome: 'O Abre Alas (Dm)'
+        links:
+          'gravacao': 'https://s3.amazonaws.com/brunopedroso/vqf/b1/1_AbreAlas.mp3'
+          'c':  'partituras/abre_alas/abre_alas_C.pdf'
+          'bb': 'partituras/abre_alas/abre_alas_Bb.pdf'
+          'eb': 'partituras/abre_alas/abre_alas_Eb.pdf'
+          'ebnotas': 'partituras/abre_alas/abre_alas_Eb_notas.pdf'
+          'letra': 'partituras/abre_alas/abre_alas_letra.pdf'
+
+      - nome: 'Turma do Funil (Dm)'
+        links:
+          'gravacao': 'https://s3.amazonaws.com/brunopedroso/vqf/b2/4_Funil.mp3'
+          'c':  'partituras/turma_do_funil/turma_do_funil_C.pdf'
+          'bb': 'partituras/turma_do_funil/turma_do_funil_Bb.pdf'
+          'eb': 'partituras/turma_do_funil/turma_do_funil_Eb.pdf'
+          'ebnotas': 'partituras/turma_do_funil/turma_do_funil_Eb_notas.pdf'
+          'letra': 'partituras/turma_do_funil/turma_do_funil_letra.pdf'
+
+  - nome: "Latinas"
+    musicas:
+
+      - nome: 'Bésame Mucho (Dm)'
+        links:
+          'c': 'partituras/besame_mucho/besame_mucho_C.pdf'
+          'bb': 'partituras/besame_mucho/besame_mucho_Bb.pdf'
+          'eb': 'partituras/besame_mucho/besame_mucho_Eb.pdf'
+          'ebnotas': 'partituras/besame_mucho/besame_mucho_Eb_notas.pdf'
+          'letra': 'partituras/besame_mucho/besame_mucho_letra.pdf'
+
+      - nome: 'Guantanamera (Dm)'
+        links:
+          'c': 'partituras/guantanamera/guantanamera_C.pdf'
+          'bb': 'partituras/guantanamera/guantanamera_Bb.pdf'
+          'eb': 'partituras/guantanamera/guantanamera_Eb.pdf'
+          'ebnotas': 'partituras/guantanamera/guantanamera_Eb_notas.pdf'
+          'letra': 'partituras/guantanamera/guantanamera_letra.pdf'
+
+      - nome: 'Chan Chan (Dm)'
+        links:
+          'yt': 'https://www.youtube.com/watch?v=UXwLBS3yUkA'
+          'midi': 'partituras/chan_chan/chan_chan_Geral.midi'
+          'c': 'partituras/chan_chan/chan_chan_C.pdf'
+          'bb': 'partituras/chan_chan/chan_chan_Bb.pdf'
+          'eb': 'partituras/chan_chan/chan_chan_Eb.pdf'
+          'ebnotas': 'partituras/chan_chan/chan_chan_Eb_notas.pdf'
+          'letra': 'partituras/chan_chan/chan_chan_letra.pdf'
+          'Tuba': 'partituras/chan_chan/chan_chan_Tuba.pdf'
+          'Guitarra': 'partituras/chan_chan/chan_chan_Geral.pdf'
+          'Geral': 'partituras/chan_chan/chan_chan_Geral.pdf'
+
+      - nome: 'Cariñito'
+        links:
+          'yt': 'https://www.youtube.com/watch?v=Op0dN_U4L5s'
+          'c': 'partituras/carinito/carinito_tromboneC.pdf'
+          'bb': 'partituras/carinito/carinito_Bb.pdf'
+          'eb': 'partituras/carinito/carinito_Eb.pdf'
+          'Tuba': 'partituras/carinito/carinito_C_Tuba.pdf'
+          'ebnotas':  'partituras/carinito/carinito_Eb_notas.pdf'
+          'letra': 'partituras/carinito/carinito_letra.pdf'
+          'midi': 'partituras/carinito/carinito_C.midi'
+
+      - nome: 'Moliendo Café (Cm)'
+        links:
+          'yt': 'https://www.youtube.com/watch?v=QiHmiZQNgL4'
+          'c': 'partituras/moliendo_cafe/moliendo_cafe_C.pdf'
+          'bb': 'partituras/moliendo_cafe/moliendo_cafe_Bb.pdf'
+          'eb': 'partituras/moliendo_cafe/moliendo_cafe_Eb.pdf'
+          'ebnotas':  'partituras/moliendo_cafe/moliendo_cafe_Eb_notas.pdf'
+          'letra': 'partituras/moliendo_cafe/moliendo_cafe_letra.pdf'
+          'midi': 'partituras/moliendo_cafe/moliendo_cafe_C.midi'
