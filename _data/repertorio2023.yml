@@ -1,17 +1,37 @@
 blocos:
 
-  - nome: "Moa"
+  - nome: ""
     musicas:
 
-      - nome: 'Vera Cruz (Milton)'
+      - nome: 'Vera Cruz (Gm)'
         links:
-          'guia':  'partituras/vera_cruz/vera_cruz_guia.mp3'
+          'geral-guia':  'partituras/vera_cruz/vera_cruz_guia.mp3'
+          'alto-guia':  'partituras/vera_cruz/guia_alto.mpga'
+          'caixas-guia':  'partituras/vera_cruz/guia_caixas.mpga'
+          'surdo-guia':  'partituras/vera_cruz/guia_surdo.mpga'
+          'tenor-guia':  'partituras/vera_cruz/guia_tennor.mpga'
+          'trombone-guia':  'partituras/vera_cruz/guia_trombone.mpga'
+          'trompete-guia':  'partituras/vera_cruz/guia_trompete.mpga'
+          '':  ''
           'geral':  'partituras/vera_cruz/VeraCruz-GERAL.pdf'
           'alto':  'partituras/vera_cruz/VeraCruz-SAXALTO.pdf'
           'tenor':  'partituras/vera_cruz/VeraCruz-SAXTENOR.pdf'
           'trombone':  'partituras/vera_cruz/VeraCruz-TROMBONE.pdf'
           'trompete':  'partituras/vera_cruz/VeraCruz-TROMPETE.pdf'
           'tuba':  'partituras/vera_cruz/VeraCruz-TUBA.pdf'
+
+      - nome: 'Descarrego (Am)'
+        links:
+          'guia':  'partituras/descarrego/descarrego.mp3'
+          'todos':  'partituras/descarrego/Descarrego-Score_and_Parts.pdf'
+          'trompete':  'partituras/descarrego/Descarrego-Bb_Trumpet.pdf'
+          'alto':  'partituras/descarrego/Descarrego-Alto_Saxophone.pdf'
+          'tenor':  'partituras/descarrego/Descarrego-Tenor_Saxophone.pdf'
+          'trombone':  'partituras/descarrego/Descarrego-Trombone.pdf'
+          'tuba':  'partituras/descarrego/Descarrego-Tuba.pdf'
+
+  - nome: "Moa"
+    musicas:
 
       - nome: 'Coisa número 5'
         links:
@@ -290,8 +310,9 @@ blocos:
 
   - nome: "Regae"
     musicas:
-      - nome: 'Arvore (C? G?)'
+      - nome: 'Arvore (Am)'
         links:
+          'partitura': 'partituras/arvore/Arvore.pdf'
           'yt': 'https://www.youtube.com/watch?v=iW7z0Iw6bW0'
 
       - nome: 'Concrete Jungle (Dm)'
