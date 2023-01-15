@@ -344,6 +344,7 @@ blocos:
       - nome: 'Pedrada'
         links:
           'yt': 'https://www.youtube.com/watch?v=qfWoph8jxz0'
+          'partitura': 'partituras/pedrada/Pedrada.pdf'
 
   - nome: "Afoxés"
     musicas:
