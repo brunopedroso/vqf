@@ -5,7 +5,7 @@ blocos:
 
       - nome: 'Vera Cruz (Gm)'
         links:
-          'geral-guia':  'partituras/vera_cruz/vera_cruz_guia.mp3'
+          'geral-guia':  'partituras/vera_cruz/vera_cruz_guia.mpga'
           'alto-guia':  'partituras/vera_cruz/guia_alto.mpga'
           'caixas-guia':  'partituras/vera_cruz/guia_caixas.mpga'
           'surdo-guia':  'partituras/vera_cruz/guia_surdo.mpga'
