@@ -5,6 +5,7 @@ title: Razão de Ser
 {% include base.html %}
 
 ## Porque o Vai Quem Fica existe?
+(05/fev/2020)
 
 Uma das coisas que mais me fascina no carnaval é essa dualidade que o habita - ele é ao mesmo tempo brincadeira e coisa séria. Adoro brincadeira e leviandade (vocês já devem ter percebido). Mas também tenho um sentimento realmente profundo de propósito, missão e religião com tudo isso. E é por isso que escrevo hoje - pra tentar expressar algumas coisas que eu realmente levo a sério.
 

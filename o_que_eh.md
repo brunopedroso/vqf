@@ -16,6 +16,7 @@ title: O que é o VQF?
 </style>
 
 ## O que é o VQF?
+(05/jan/2023)
 
 Levei muitos anos para conseguir conceber e escrever aquele outro texto - [Porque o VQF existe?](./razao_de_ser) Levei outros tantos, cheios de conflitos e reflexões, pra chegar a este. Se ali tentei expressar POR QUE, aqui tento humildemente descrever O QUE é o VQF, na minha visão. Não sou sociólogo ou antropólogo nem nada, mas me permiti filosofar a respeito.
 
