@@ -17,7 +17,7 @@ Com o tempo isso acabou se tornando bem nítido pra mim. E é ainda mais agora, 
 
 Toda tecnologia traz benefícios, mas também um custo associado, normalmente bem mais difícil de perceber. A humanidade ainda não entendeu todas as consequencias que várias dessas “novas” tecnologias de comunicação, ligadas à internet, têm na nossa vida. Em vários sentidos! Chegando até a problemas enormes como manipulação de democracias inteiras, em episódios como o da [Cambridge Analytica](https://pt.wikipedia.org/wiki/Esc%C3%A2ndalo_de_dados_Facebook%E2%80%93Cambridge_Analytica). Mas, não menos importante, também em microcosmos, como o nosso.
 
-No caso dos grupos de zap, o que aparentemente poderia ser uma ferramenta utilíssima acaba tendo consequências tão importantes, embora sutis, que simplesmente acho não vale a pena usá-la num contexto como o nosso.
+No caso dos grupos de zap, o que aparentemente poderia ser uma ferramenta utilíssima acaba tendo consequências tão importantes, embora sutis, que simplesmente acho que não vale a pena usá-la num contexto como o nosso.
 
 Certamente há mais problemas no uso do grupo de zap para o VQF do que os que listo aqui, mas estes são os que estou vendo agora:
 
