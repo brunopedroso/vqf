@@ -28,7 +28,7 @@ Começo tentando delinear o que me parece que o VQF NÃO É - ele não é um gru
 
 De fato nós já tocamos em festas, por pagamento ou por amor; já participamos algumas vezes do Honk, da caminhada pelos portadores de síndrome de down; já fizemos várias coisas assim. Não vejo problemas. Primeiro porque toda essa reflexão leva (tem levado) tempo, durante o qual estamos refletindo e mudando; e segundo porque o espírito da coisa é ser leve e natural. Se há uma parte do grupo com vontade de ir tocar em algum lugar, porque criar caso? deixa o povo!
 
-Eu continuo achando artificial, que a gente faça uma apresentação, dada a concepção de VQF que explico a seguir. Assim como acho estranho dizer que vou num “show do Bola Preta”, ou numa festa em que “o Olodum vai tocar”. Oras, aqueles 10 músicos que vieram não SÃO o Olodum. Eles são músicos do Olodum, tudo bem. Mas dizer que aquilo ali é o Olodum, eu acho bem estranho.
+Eu continuo achando artificial que a gente faça uma apresentação, dada a concepção de VQF que explico a seguir. Assim como acho estranho dizer que vou num “show do Bola Preta”, ou numa festa em que “o Olodum vai tocar”. Oras, aqueles 10 músicos que vieram não SÃO o Olodum. Eles são músicos do Olodum, tudo bem. Mas dizer que aquilo ali é o Olodum, eu acho bem estranho.
 
 A partir daí, naturalmente surgem questões confusas como: qualquer um pode usar o nome Vai Quem Fica pra tocar em qualquer lugar? Quem decide? Como? Quantas pessoas precisam pra decidir? E pra tocar? São questões que demonstram como toda essa discussão é complexa e sutil.
 
