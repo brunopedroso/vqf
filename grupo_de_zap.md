@@ -1,6 +1,6 @@
 ---
 layout: default
-title: porque eu não participo do grupo de zap?
+title: Porque eu não participo do grupo de zap?
 ---
 {% include base.html %}
 
