@@ -52,85 +52,54 @@ blocos:
           'partitura': 'partituras/coisa_num_1/Coisa_n_1-Score_and_Parts.pdf'
           'guia': 'partituras/coisa_num_1/coisa1-guia.mp3'
 
-  - nome: "Olodum"
+  - nome: "Regae"
+    musicas:
+      - nome: 'Arvore (Am)'
+        links:
+          'partitura': 'partituras/arvore/Arvore.pdf'
+          'yt': 'https://www.youtube.com/watch?v=iW7z0Iw6bW0'
+
+      - nome: 'Pedrada (Bb)'
+        links:
+          'yt': 'https://www.youtube.com/watch?v=qfWoph8jxz0'
+          'partitura': 'partituras/pedrada/Pedrada.pdf'
+
+      - nome: 'Concrete Jungle (Dm)'
+        links:
+          'todos': 'partituras/concrete_jungle/Concrete_Jungle2-Score_and_Parts.pdf'
+          'guia': 'partituras/concrete_jungle/concrete_jungle.mp3'
+          'guia_tuba': 'partituras/concrete_jungle/guia_tuba.mp3'
+          'guia_trombone': 'partituras/concrete_jungle/guia_trombone.mp3'
+          'guia_tenor': 'partituras/concrete_jungle/guia_tenor.mp3'
+          'guia_alto': 'partituras/concrete_jungle/guia_alto.mp3'
+          'guia_trompete': 'partituras/concrete_jungle/guia_trompete.mp3'
+
+  - nome: "Chico"
     musicas:
 
-      - nome: 'Deusa do amor'
+      - nome: 'Para todos (C)'
         links:
+          'c':  'partituras/para_todos/para_todosC.pdf'
+          'bb': 'partituras/para_todos/para_todosBb.pdf'
+          'eb': 'partituras/para_todos/para_todosEb.pdf'
 
-      - nome: 'Várias Queixas'
+      - nome: 'Pelas tabelas (C)'
         links:
-          
-      - nome: 'Revolta Olodum'
+          'c':  'partituras/pelas_tabelas/pelas_tabelasC.pdf'
+          'bb': 'partituras/pelas_tabelas/pelas_tabelasBb.pdf'
+          'eb': 'partituras/pelas_tabelas/pelas_tabelasEb.pdf'
+
+      - nome: 'Mambembe (D)'
         links:
+          'c':  'partituras/mambembe/mambembeC.pdf'
+          'bb': 'partituras/mambembe/mambembeBb.pdf'
+          'eb': 'partituras/mambembe/mambembeEb.pdf'
 
-  - nome: "Ilê"
-    musicas:
-
-      - nome: 'Que bloco é esse? (Em)'
+      - nome: 'Apesar de você (D)'
         links:
-
-      - nome: 'Negrume da noite (G)'
-        links:
-          
-  - nome: "Hermeto"
-    musicas:
-      - nome: 'Santo Antônio (Fm)'
-        links:
-          'livro': 'partituras/hermeto.pdf'
-          'yt': 'https://www.youtube.com/watch?v=H_EhF57l4oM&feature=youtu.be'
-          'c':  'partituras/santo_antonio/santo_antonio_C.pdf'
-          'bb': 'partituras/santo_antonio/santo_antonio_Bb.pdf'
-          'eb': 'partituras/santo_antonio/santo_antonio_Eb.pdf'
-          'ebnotas': 'partituras/santo_antonio/santo_antonio_Eb_notas.pdf'
-          'letra': 'partituras/santo_antonio/santo_antonio_letra.pdf'
-
-      - nome: 'Bebê (Am)'
-        links:
-          'yt': 'https://www.youtube.com/watch?v=EGqWRias96M'
-          'c':  'partituras/bebe/bebe_C.pdf'
-          'bb': 'partituras/bebe/bebe_Bb.pdf'
-          'eb': 'partituras/bebe/bebe_Eb.pdf'
-          'ebnotas': 'partituras/bebe/bebe_Eb_notas.pdf'
-          'letra': 'partituras/bebe/bebe_letra.pdf'
-          'partitura': 'http://musicabrasilis.org.br/partituras/hermeto-pascoal-bebe'
-          'livro': 'partituras/hermeto.pdf'
-
-
-  - nome: "Balancê"
-    musicas:
-
-      - nome: 'Chuva Suor e Cerveja (C)'
-        links:
-          'yt': 'https://www.youtube.com/watch?v=PhFxuVUMFn8'
-          'c': 'partituras/chuva_suor_e_cerveja/chuva_suor_e_cerveja_C.pdf'
-          'bb': 'partituras/chuva_suor_e_cerveja/chuva_suor_e_cerveja_Bb.pdf'
-          'eb': 'partituras/chuva_suor_e_cerveja/chuva_suor_e_cerveja_Eb.pdf'
-          'ebnotas': 'partituras/chuva_suor_e_cerveja/chuva_suor_e_cerveja_Eb_notas.pdf'
-          'letra': 'partituras/chuva_suor_e_cerveja/chuva_suor_e_cerveja_letra.pdf'
-
-      - nome: 'O Balancê (F)'
-        links:
-          'yt': 'https://www.youtube.com/watch?v=TuPFzT8BJag'
-          'c': 'partituras/balanceh/balanceh_C.pdf'
-          'bb': 'partituras/balanceh/balanceh_Bb.pdf'
-          'eb': 'partituras/balanceh/balanceh_Eb.pdf'
-          'ebnotas': 'partituras/balanceh/balanceh_Eb_notas.pdf'
-          'letra': 'partituras/balanceh/balanceh_letra.pdf'
-          'midi': 'partituras/balanceh/balanceh_C.midi'
-
-      - nome: 'Pegando fogo (F)'
-        links:
-          'yt': 'https://www.youtube.com/watch?v=vtpZdHOyL_Q'
-          'c': 'partituras/pegando_fogo/pegando_fogo_C.pdf'
-          'bb': 'partituras/pegando_fogo/pegando_fogo_Bb.pdf'
-          'eb': 'partituras/pegando_fogo/pegando_fogo_Eb.pdf'
-          'ebnotas': 'partituras/pegando_fogo/pegando_fogo_Eb_notas.pdf'
-          'letra': 'partituras/pegando_fogo/pegando_fogo_letra.pdf'
-          'midi': 'partituras/pegando_fogo/pegando_fogo_C.midi'
-
-      - nome: 'Festa do Interior'
-        links:
+          'c':  'partituras/apesar_de_voce/apesar_de_voceC.pdf'
+          'bb': 'partituras/apesar_de_voce/apesar_de_voceBb.pdf'
+          'eb': 'partituras/apesar_de_voce/apesar_de_voceEb.pdf'
 
 
   - nome: "Jazz"
@@ -173,6 +142,86 @@ blocos:
           'eb': 'partituras/joshua_fit_the_battle_of_jericho/joshua_Eb.pdf'
           'ebnotas': 'partituras/joshua_fit_the_battle_of_jericho/joshua_Eb_notas.pdf'
           'letra': 'partituras/joshua_fit_the_battle_of_jericho/joshua_letra.pdf'        
+
+  # - nome: "Olodum"
+  #   musicas:
+
+  #     - nome: 'Deusa do amor'
+  #       links:
+
+  #     - nome: 'Várias Queixas'
+  #       links:
+          
+  #     - nome: 'Revolta Olodum'
+  #       links:
+
+  # - nome: "Ilê"
+  #   musicas:
+
+  #     - nome: 'Que bloco é esse? (Em)'
+  #       links:
+
+  #     - nome: 'Negrume da noite (G)'
+  #       links:
+          
+  # - nome: "Hermeto"
+  #   musicas:
+  #     - nome: 'Santo Antônio (Fm)'
+  #       links:
+  #         'livro': 'partituras/hermeto.pdf'
+  #         'yt': 'https://www.youtube.com/watch?v=H_EhF57l4oM&feature=youtu.be'
+  #         'c':  'partituras/santo_antonio/santo_antonio_C.pdf'
+  #         'bb': 'partituras/santo_antonio/santo_antonio_Bb.pdf'
+  #         'eb': 'partituras/santo_antonio/santo_antonio_Eb.pdf'
+  #         'ebnotas': 'partituras/santo_antonio/santo_antonio_Eb_notas.pdf'
+  #         'letra': 'partituras/santo_antonio/santo_antonio_letra.pdf'
+
+  #     - nome: 'Bebê (Am)'
+  #       links:
+  #         'yt': 'https://www.youtube.com/watch?v=EGqWRias96M'
+  #         'c':  'partituras/bebe/bebe_C.pdf'
+  #         'bb': 'partituras/bebe/bebe_Bb.pdf'
+  #         'eb': 'partituras/bebe/bebe_Eb.pdf'
+  #         'ebnotas': 'partituras/bebe/bebe_Eb_notas.pdf'
+  #         'letra': 'partituras/bebe/bebe_letra.pdf'
+  #         'partitura': 'http://musicabrasilis.org.br/partituras/hermeto-pascoal-bebe'
+  #         'livro': 'partituras/hermeto.pdf'
+
+
+  - nome: "Balancê"
+    musicas:
+
+      - nome: 'Chuva Suor e Cerveja (C)'
+        links:
+          'yt': 'https://www.youtube.com/watch?v=PhFxuVUMFn8'
+          'c': 'partituras/chuva_suor_e_cerveja/chuva_suor_e_cerveja_C.pdf'
+          'bb': 'partituras/chuva_suor_e_cerveja/chuva_suor_e_cerveja_Bb.pdf'
+          'eb': 'partituras/chuva_suor_e_cerveja/chuva_suor_e_cerveja_Eb.pdf'
+          'ebnotas': 'partituras/chuva_suor_e_cerveja/chuva_suor_e_cerveja_Eb_notas.pdf'
+          'letra': 'partituras/chuva_suor_e_cerveja/chuva_suor_e_cerveja_letra.pdf'
+
+      - nome: 'O Balancê (F)'
+        links:
+          'yt': 'https://www.youtube.com/watch?v=TuPFzT8BJag'
+          'c': 'partituras/balanceh/balanceh_C.pdf'
+          'bb': 'partituras/balanceh/balanceh_Bb.pdf'
+          'eb': 'partituras/balanceh/balanceh_Eb.pdf'
+          'ebnotas': 'partituras/balanceh/balanceh_Eb_notas.pdf'
+          'letra': 'partituras/balanceh/balanceh_letra.pdf'
+          'midi': 'partituras/balanceh/balanceh_C.midi'
+
+      - nome: 'Pegando fogo (F)'
+        links:
+          'yt': 'https://www.youtube.com/watch?v=vtpZdHOyL_Q'
+          'c': 'partituras/pegando_fogo/pegando_fogo_C.pdf'
+          'bb': 'partituras/pegando_fogo/pegando_fogo_Bb.pdf'
+          'eb': 'partituras/pegando_fogo/pegando_fogo_Eb.pdf'
+          'ebnotas': 'partituras/pegando_fogo/pegando_fogo_Eb_notas.pdf'
+          'letra': 'partituras/pegando_fogo/pegando_fogo_letra.pdf'
+          'midi': 'partituras/pegando_fogo/pegando_fogo_C.midi'
+
+      - nome: 'Festa do Interior'
+        links:
 
 
   - nome: "Gil"
@@ -280,71 +329,6 @@ blocos:
           'eb': 'partituras/paula_e_bebeto/paula_e_bebeto_Eb.pdf'
           'ebnotas': 'partituras/paula_e_bebeto/paula_e_bebeto_Eb_notas.pdf'
           'letra': 'partituras/paula_e_bebeto/paula_e_bebeto_letra.pdf'
-
-  - nome: "Chico"
-    musicas:
-
-      - nome: 'Para todos (C)'
-        links:
-          'c':  'partituras/para_todos/para_todosC.pdf'
-          'bb': 'partituras/para_todos/para_todosBb.pdf'
-          'eb': 'partituras/para_todos/para_todosEb.pdf'
-
-      - nome: 'Pelas tabelas (C)'
-        links:
-          'c':  'partituras/pelas_tabelas/pelas_tabelasC.pdf'
-          'bb': 'partituras/pelas_tabelas/pelas_tabelasBb.pdf'
-          'eb': 'partituras/pelas_tabelas/pelas_tabelasEb.pdf'
-
-      - nome: 'Mambembe (D)'
-        links:
-          'c':  'partituras/mambembe/mambembeC.pdf'
-          'bb': 'partituras/mambembe/mambembeBb.pdf'
-          'eb': 'partituras/mambembe/mambembeEb.pdf'
-
-      - nome: 'Apesar de você (D)'
-        links:
-          'c':  'partituras/apesar_de_voce/apesar_de_voceC.pdf'
-          'bb': 'partituras/apesar_de_voce/apesar_de_voceBb.pdf'
-          'eb': 'partituras/apesar_de_voce/apesar_de_voceEb.pdf'
-
-  - nome: "Regae"
-    musicas:
-      - nome: 'Arvore (Am)'
-        links:
-          'partitura': 'partituras/arvore/Arvore.pdf'
-          'yt': 'https://www.youtube.com/watch?v=iW7z0Iw6bW0'
-
-      - nome: 'Concrete Jungle (Dm)'
-        links:
-          'todos': 'partituras/concrete_jungle/Concrete_Jungle2-Score_and_Parts.pdf'
-          'guia': 'partituras/concrete_jungle/concrete_jungle.mp3'
-
-      - nome: '------> tuba'
-        links:
-          'tuba': 'partituras/concrete_jungle/Concrete_Jungle2-Sousaphone.pdf'
-          'guia_tuba': 'partituras/concrete_jungle/guia_tuba.mp3'
-      - nome: '------> trombone'
-        links:
-          'trombone': 'partituras/concrete_jungle/Concrete_Jungle2-Trombone.pdf'
-          'guia_trombone': 'partituras/concrete_jungle/guia_trombone.mp3'
-      - nome: '------> tenor'
-        links:
-          'tenor': 'partituras/concrete_jungle/Concrete_Jungle2-Tenor_Saxophone.pdf'
-          'guia_tenor': 'partituras/concrete_jungle/guia_tenor.mp3'
-      - nome: '------> alto'
-        links:
-          'alto': 'partituras/concrete_jungle/Concrete_Jungle2-Alto_Saxophone.pdf'
-          'guia_alto': 'partituras/concrete_jungle/guia_alto.mp3'
-      - nome: '------> trompete'
-        links:
-          'trompete': 'partituras/concrete_jungle/Concrete_Jungle2-Bb_Trumpet_1.pdf'
-          'guia_trompete': 'partituras/concrete_jungle/guia_trompete.mp3'
-
-      - nome: 'Pedrada'
-        links:
-          'yt': 'https://www.youtube.com/watch?v=qfWoph8jxz0'
-          'partitura': 'partituras/pedrada/Pedrada.pdf'
 
   - nome: "Afoxés"
     musicas:
