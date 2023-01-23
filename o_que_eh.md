@@ -59,3 +59,8 @@ Mas, então, **o que é o VQF?** Devo de novo me referir ao argumento usado no i
 Que história é essa? Eu diria algo como “o nosso jeito de brincar o carnaval de Brasília”. Um jeito intencionalmente influenciado por vários outros, e que construímos (ainda estamos) ao longo desses anos. Todas nossas pequenas tradições. Sair de manhã, com a criançada; fazer mistério com o lugar; começar na padoca; estilo de repertório, de ensaio; o Carinhoso na janela; tudo. Essas varias coisinhas que a gente vai colecionando com o tempo, e vai aprendendo a gostar delas, não por serem certas ou erradas, ou mais ou menos “tradicionais”, ou o que quer que seja. Mas apenas por ser o NOSSO jeitinho de brincar. Por contarem a NOSSA história. Só isso. Como aquela cena do velhinho do [UP, altas aventuras](https://pt.wikipedia.org/wiki/Up_(filme)), no final do filme, abrindo o álbum de aventuras, ora almejadas, e percebendo que os pequenos momentos da vida que foi de fato vivida é que foram a verdadeira aventura.
 
 Minha escolha é ao menos tentar viver a utopia de manter a lógica daquele primeiro encontro ao longo dos anos. Sermos pessoas que se esbarraram acidentalmente e todos os anos agora se encontram no carnaval e saem tocando sem rumo, relembrando e celebrando os anos de amizade. A arte do encontro. Por ela mesma.
+
+<br/>
+<br/>
+<br/>
+<br/>

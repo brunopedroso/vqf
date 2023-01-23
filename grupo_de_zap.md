@@ -64,3 +64,8 @@ De minha parte, não tenho qualquer poder instituído pra dizer que o grupo que 
 Ademais, todos têm meu contato. Qualquer assunto, pra mim, será sempre bem vindo. Mas o lugar, pra mim, são os encontros presenciais e calorosos, nos ensaios ao longo do ano. É ali que o VQF acontece de fato.
 
 P.S. Para avisos curtos e diretos, com sabem, tenho mantido uma lista de distribuição no zap. Pra participar (ou para sair) dela, basta me pedir;
+
+<br/>
+<br/>
+<br/>
+<br/>
