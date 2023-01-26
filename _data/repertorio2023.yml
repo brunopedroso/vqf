@@ -148,9 +148,13 @@ blocos:
 
       - nome: 'Deusa do amor'
         links:
+          'partitura': 'partituras/deusa_do_amor/deusa_do_amor.pdf'
+          'guia': 'partituras/deusa_do_amor/guia.mp3'
 
       - nome: 'Várias Queixas'
         links:
+          'partitura': 'partituras/varias_queixas/VariasQueixas.pdf'
+          'guia': 'partituras/varias_queixas/guia.mp3'
           
       - nome: 'Revolta Olodum'
         links:
