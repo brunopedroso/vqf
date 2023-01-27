@@ -158,6 +158,8 @@ blocos:
           
       - nome: 'Revolta Olodum (Em)'
         links:
+          'partitura': 'partituras/revolta_olodum/RevoltaOlodum.pdf'
+          'guia': 'partituras/revolta_olodum/guia.mp3'
 
   - nome: "Ilê"
     musicas:
