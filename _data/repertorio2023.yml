@@ -169,6 +169,10 @@ blocos:
 
       - nome: 'Negrume da noite (G)'
         links:
+          'partitura': 'partituras/negrume/Negrume.pdf'
+          'guia': 'partituras/negrume/guia.mp3'
+          'yt': 'https://www.youtube.com/watch?v=rTuYYAx1qG8'
+          
           
   # - nome: "Hermeto"
   #   musicas:
