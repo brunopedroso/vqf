@@ -146,14 +146,20 @@ blocos:
   - nome: "Olodum"
     musicas:
 
-      - nome: 'Deusa do amor'
+      - nome: 'Deusa do amor (Em)'
         links:
+          'partitura': 'partituras/deusa_do_amor/deusa_do_amor.pdf'
+          'guia': 'partituras/deusa_do_amor/guia.mp3'
 
-      - nome: 'Várias Queixas'
+      - nome: 'Várias Queixas (G)'
         links:
+          'partitura': 'partituras/varias_queixas/VariasQueixas.pdf'
+          'guia': 'partituras/varias_queixas/guia.mp3'
           
-      - nome: 'Revolta Olodum'
+      - nome: 'Revolta Olodum (Em)'
         links:
+          'partitura': 'partituras/revolta_olodum/RevoltaOlodum.pdf'
+          'guia': 'partituras/revolta_olodum/guia.mp3'
 
   - nome: "Ilê"
     musicas:
@@ -163,6 +169,10 @@ blocos:
 
       - nome: 'Negrume da noite (G)'
         links:
+          'partitura': 'partituras/negrume/Negrume.pdf'
+          'guia': 'partituras/negrume/guia.mp3'
+          'yt': 'https://www.youtube.com/watch?v=rTuYYAx1qG8'
+          
           
   # - nome: "Hermeto"
   #   musicas:
