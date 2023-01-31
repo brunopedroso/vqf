@@ -220,9 +220,6 @@ blocos:
           'letra': 'partituras/pegando_fogo/pegando_fogo_letra.pdf'
           'midi': 'partituras/pegando_fogo/pegando_fogo_C.midi'
 
-      - nome: 'Festa do Interior'
-        links:
-
 
   - nome: "Gil"
     musicas:
