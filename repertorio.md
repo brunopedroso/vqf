@@ -27,12 +27,17 @@ tons:
 ## Repertório VQF Carnaval 2023 (10 anos)
 
 **ENSAIOS: **
+
 Sábado de 15:00 às 19:00.
+
 Quartas de 19:00 às 22:00
+
 Lugar definido na hora (grupo de transmissão do zap).
+
 
 **[Cronograma de ensaios detalhado](https://proximal-bench-36b.notion.site/VQF-2023-Ensaios-1e41b893c9ff4b299679c221ff465705)**
 
+[Sambas pra tocarmos nos intervalos](https://proximal-bench-36b.notion.site/Sambas-VQF-7266d6052fdc4f6581aa41439a997d66)
 
 ## Músicas
 

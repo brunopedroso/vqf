@@ -5,6 +5,7 @@ title: Razão de Ser
 {% include base.html %}
 
 ## Porque o Vai Quem Fica existe?
+(05/fev/2020)
 
 Uma das coisas que mais me fascina no carnaval é essa dualidade que o habita - ele é ao mesmo tempo brincadeira e coisa séria. Adoro brincadeira e leviandade (vocês já devem ter percebido). Mas também tenho um sentimento realmente profundo de propósito, missão e religião com tudo isso. E é por isso que escrevo hoje - pra tentar expressar algumas coisas que eu realmente levo a sério.
 
@@ -40,32 +41,7 @@ Há um último aspecto em partitular que quero mencionar, por ser um demônio mu
 
 Pra finalizar, gostaria de deixar, sem explicações, uma lista de outras coisas que fazemos e somos, por opção, e que, de um modo ou de outro segue (ou pretende) essa mesma linha de raciocínio.
 
-A princípio, essa lista reflete, em grande parte, a minha forma particular de ver as coisas e de tentar cultivar aqueles princípios que formulei. Podemos e devemos refletir e discutir sobre esses pontos, completar e reformular essa lista. (Mas sem exarcebações e ansiedades também! Estamos aqui pra curtir, não pra ficar discutindo! =P)
-
-- Todos que quiserem e se sentirem bem aqui são bem vindos;
-- Não queremos que o bloco cresça;
-- Não 'divulgamos' o bloco, nós 'convidamos' os amigos;
-- Saímos [de manhã cedinho]({{base}}/2015/02/10/horario-da-concentracao);
-- Saímos em um lugar surpresa, na Asa Norte;
-- Saímos pelo meio das quadras, queremos que as pessoas desçam e venham brincar conosco;
-- Saímos pela calçada e atravessamos a rua na faixa;
-- Fazemos questão de não sujar a rua (só confete e serpentina, que se desfazem na primeira chuva);
-- Queremos que as [crianças]({{base}}/2015/02/02/carnaval-com-criancas) e os mais velhos participem;
-- Todos que chegarem no carnaval são bem vindos, inclusive aquele bêbado chato que toca junto e atrapalha (com quem precisamos achar o jeito de conviver);
-- Apesar de nos esforçarmos, nós 'erramos' a execução das músicas, e está tudo bem;
-- Não somos nem pretendemos (aqui) ser músicos profissionais;
-- Os arranjos das músicas não são (em sua grande maioria) escritos, mas acabam surgindo fruto da contribuição de cada um;
-- A contribuição de cada um é mais importante do que a 'qualidade' do arranjo e da execução.
-- Tocamos as músicas do nosso jeito, mesmo que seja diferente do que o autor imaginou, escreveu ou gravou;
-- Variamos o local dos ensaios e em particular variamos entre espaços privados e públicos;
-- Não decidimos tudo por votação, e tentamos evitar discussões sobretudo em aspectos meramente práticos;
-- Preferimos o coletivo sobre o individual;
-- Para que o coletivo funcione, é preciso que as pessoas assumam e cumpram suas reponsabilidades individuais;
-- Valorizamos o compromisso e os combinados prévios;
-- Nos esforçamos para não fazer cobranças - as pessoas devem estar conosco e se empenhar porque querem e gostam;
-- O nosso carnaval é o melhor do mundo! Pelo simples fato de que ele é o nosso, na nossa cidade, com os nossos amigos. O resto é secundário.
-
-Se lembrarem de outros pontos, me mandem. Pretendo colecioná-los aqui como referência viva, para que possamos nos conhecer melhor e nos fortalecer.
+(A lista que vivia aqui foi extraída pra outro texto - ['Como Funciona o VQF?'](./como))
 
 Viva o Vai Quem Fica!
 
