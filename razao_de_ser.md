@@ -41,7 +41,7 @@ Há um último aspecto em partitular que quero mencionar, por ser um demônio mu
 
 Pra finalizar, gostaria de deixar, sem explicações, uma lista de outras coisas que fazemos e somos, por opção, e que, de um modo ou de outro segue (ou pretende) essa mesma linha de raciocínio.
 
-(A lista que vivia aqui foi extraída pra outro texto - ['Como Funciona o VQF?'](/como))
+(A lista que vivia aqui foi extraída pra outro texto - ['Como Funciona o VQF?'](./como))
 
 Viva o Vai Quem Fica!
 
