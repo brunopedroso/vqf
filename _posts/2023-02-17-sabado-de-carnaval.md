@@ -19,7 +19,7 @@ Foi começo de querência fervilhada de fazer que vai falar e não dizer. É man
 
 Isso de convidar assim, no descuidado, toda a gente, não é coisa ajustada. Convívio certo, de querência mesma, duradoura... isso a gente faz na boca miúda, um a um. Gente querida só. Aqui a gente zela pelo cuidado. Carece. Por isso solicito o seu obséquio, seu auxílio, nesses assuntos ao que valho muita importância.
 
-Sei também de outro, que faz pão, légua e meia mais lá pra. No perto dum balão. Acho que é oito. Cento e. Não sei. Acaso seja a da três. Dita quatrocentos... Desgosto.
+Sei também de outro, que faz pão, légua e meia mais lá pra. No perto dum balão. Acho que é oito. Cento e. Não sei. Acaso seja a da quatrocentos e três... Desgosto.
 
 Tirei pestana com a teimosia e foi dibruçado no deserto eixo que alembrei de ir dar conta do lugar, fiz que dobrei a esquina imaginária, escalei mais quatro quarteirões que também num quiseram de colocar aqui, desci o suor e subi as iris. Acho que o primeiro palpite que dei é o melhor. Firme. Pronto. Fico com esse.
 
