@@ -21,11 +21,10 @@ Isso de convidar assim, no descuidado, toda a gente, não é coisa ajustada. Con
 
 Sei também de outro, que faz pão, légua e meia mais lá pra. No perto dum balão. Acho que é oito. Cento e. Não sei. Acaso seja a da dez. Dita setecentos... Desgosto.
 
-Tirei pestana com a teimosia e foi dibruçado no deserto eixo que alembrei de ir dar conta do lugar, fiz que dobrei a esquina imaginária, escalei mais quatro quarteirões que também num quiseram de colocar aqui, desci o suor e subi as iris. Acho que o primeiro palpite que dei é o melhor. Firme. Pronto. Fico com esse.
-
-Oito horas em ponto a gente sai sai de andança.
+Tirei pestana com a teimosia e foi dibruçado no deserto eixo que alembrei de ir dar conta do lugar, fiz que dobrei a esquina imaginária, escalei mais quatro quarteirões que também num quiseram de colocar aqui, desci o suor e subi as iris. Acho que o primeiro palpite que dei é o melhor. Firme. Pronto. Fico com esse. Oito horas em ponto a gente sai sai de andança.
 
 A menos que a idéia divirja durante a noite. Acho que o mais seguro, mesmo, é ler essas linhas uma última vez lá no raiar do sol. Nunca se sabe. "Viver é coisa muito perigosa."
+
 
 <br/>
 <br/>
