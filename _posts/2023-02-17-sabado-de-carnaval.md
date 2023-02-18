@@ -17,7 +17,7 @@ Compadre meu Quelemém sempre diz que coisas, algumas, se precisa ter muita aten
 
 Foi começo de querência fervilhada de fazer que vai falar e não dizer. É mania que dá em gente o fazer de conta que. Mire veja - saber, saber, mesmo, onde o bando esbarra, afasto. Sei de uma padaria treze, dita trezentos. Ou quem sabe não? Suspeito. Tem outra lá pras banda de baixo, diz que cento e onze ou coisa assim. "Divêrjo todo o mundo.... Eu quase que nada não sei. Mas desconfio de muita coisa."
 
-Isso de convidar assim, no descuidado, toda a gente, não é coisa ajustada. Convívio certo, de querência mesma, duradoura... isso a gente faz na boca miúda, um a um. Gente querida só. Lá pras bandas dos lados outros é que se gosta de festa assim, gente muita. Arre. Lá pra lá! Aqui não. Carece cuidado. Por isso solicito o seu obséquio, seu auxílio, nesses assuntos ao que valho muita importância.
+Isso de convidar assim, no descuidado, toda a gente, não é coisa ajustada. Convívio certo, de querência mesma, duradoura... isso a gente faz na boca miúda, um a um. Gente querida só. Aqui a gente zela pelo cuidado. Carece. Por isso solicito o seu obséquio, seu auxílio, nesses assuntos ao que valho muita importância.
 
 Sei também de outro, que faz pão, légua e meia mais lá pra. No perto dum balão. Acho que é oito. Cento e. Não sei. Acaso seja a da dez. Dita setecentos... Desgosto.
 
