@@ -9,7 +9,7 @@ description: "Cante com vontade, minha gente, porque hoje já é carnaval."
 
 "Assim, é como conto. Antes conto as coisas que formaram passado para mim com mais pertença. Vou lhe falar. Lhe falo do sertão. Do que não sei. Um grande sertão! Não sei. Ninguém ainda não sabe. Só umas raríssimas pessoas e só essas poucas veredas, veredazinhas. O que muito lhe agradeço é a sua fineza de atenção."
 
-Compadre meu Quelemém sempre diz que coisas, algumas, se precisa ter muita atenção. Sujar o chão, rejeito. E peço que se ajuntem, que isso é assunto dos mais sérios. Não se pisa, nem de miudado, em canteiro de planta cuidada. Recuso. Andança boa, de bando, carece respeito e conviver demorado. Cumpro. Por isso dispusemos sacos vereda toda. A isso solicito seu maior zero. Confiança!
+Compadre meu Quelemém sempre diz que coisas, algumas, se precisa ter muita atenção. Sujar o chão, rejeito. E peço que se ajuntem, que isso é assunto dos mais sérios. Não se pisa, nem de miudado, em canteiro de planta cuidada. Recuso. Andança boa, de bando, carece respeito e conviver demorado. Cumpro. Por isso dispusemos sacos vereda toda. A isso solicito seu maior zelo. Confiança!
 
 <div style='margin: auto; text-align: center; width: 100%'>
   <img src='{{base}}/img/2023/saco.jpg' width='30%'/>
