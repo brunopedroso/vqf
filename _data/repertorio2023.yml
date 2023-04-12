@@ -23,6 +23,7 @@ blocos:
       - nome: 'Descarrego (Am)'
         links:
           'guia':  'partituras/descarrego/descarrego.mp3'
+          'letra':  'partituras/descarrego/Descarrego_letra.pdf'
           'todos':  'partituras/descarrego/Descarrego-Score_and_Parts.pdf'
           'trompete':  'partituras/descarrego/Descarrego-Bb_Trumpet.pdf'
           'alto':  'partituras/descarrego/Descarrego-Alto_Saxophone.pdf'
