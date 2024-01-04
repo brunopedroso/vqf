@@ -59,6 +59,13 @@ blocos:
     musicas:
       - nome: 'Santa Clara (D)'
         links:
+            'guia': 'partituras/santa_clara/guia.mp3'
+            'Geral': 'partituras/santa_clara/santa_clara-Score_and_Parts.pdf'
+            'Trompete': 'partituras/santa_clara/santa_clara-Trumpet.pdf'
+            'Alto': 'partituras/santa_clara/santa_clara-Alto_Sax.pdf'
+            'Tenor': 'partituras/santa_clara/santa_clara-Tenor_Sax.pdf'
+            'Trombone': 'partituras/santa_clara/santa_clara-Trombone.pdf'
+            'Tuba': 'partituras/santa_clara/santa_clara-Tuba.pdf'
 
       - nome: 'Os Alquimistas estão chegando (D)'
         links:
