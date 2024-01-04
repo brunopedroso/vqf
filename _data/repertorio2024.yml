@@ -57,12 +57,19 @@ blocos:
       
   - nome: "Ben"
     musicas:
-
-      - nome: 'Os Alquimistas estão chegando'
+      - nome: 'Santa Clara (D)'
         links:
 
-      - nome: 'Santa Clara'
+      - nome: 'Os Alquimistas estão chegando (D)'
         links:
+          'guia (mp3)': 'partituras/os_alquimistas/guia.mp3'
+          'Geral': 'partituras/os_alquimistas/Os_Alquimistas-Score_and_Parts.pdf'
+          'Trompete': 'partituras/os_alquimistas/Os_Alquimistas-Trumpet.pdf'
+          'Alto': 'partituras/os_alquimistas/Os_Alquimistas-Alto_Sax.pdf'
+          'Trombone': 'partituras/os_alquimistas/Os_Alquimistas-Trombone.pdf'
+          'Tenor': 'partituras/os_alquimistas/Os_Alquimistas-Tenor_Sax.pdf'
+          'Tuba': 'partituras/os_alquimistas/Os_Alquimistas-Tuba.pdf'
+
 
       - nome: 'Charles'
         links:
