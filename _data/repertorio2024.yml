@@ -42,7 +42,13 @@ blocos:
 
       - nome: 'Cravo e canela (C)'
         links:
-          'yt': ''
+          'guia': 'partituras/cravo_e_canela/guia.mp3'
+          'Geral': 'partituras/cravo_e_canela/cravo_e_canela-Score_and_Parts.pdf'
+          'Alto': 'partituras/cravo_e_canela/cravo_e_canela-Alto_Sax.pdf'
+          'Trompete': 'partituras/cravo_e_canela/cravo_e_canela-Trumpet.pdf'
+          'Tenor': 'partituras/cravo_e_canela/cravo_e_canela-Tenor_Sax.pdf'
+          'Trombone': 'partituras/cravo_e_canela/cravo_e_canela-Trombone.pdf'
+          'Tuba': 'partituras/cravo_e_canela/cravo_e_canela-Tuba.pdf'
 
       - nome: 'Bola de Meia (G)'
         links:
