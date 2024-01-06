@@ -84,17 +84,18 @@ blocos:
           'Tuba': 'partituras/os_alquimistas/Os_Alquimistas-Tuba.pdf'
 
 
-      - nome: 'Charles'
+      - nome: 'Charles/Caramba/Fio/Taj-Mahal (D/Bm)'
         links:
+          'guia': 'partituras/ben_poutourri/guia.mp3'
+          'Geral': 'partituras/ben_poutourri/ben-poutpourri-Score_and_Parts.pdf'
+          'C': 'partituras/ben_poutourri/ben-poutpourri-1st_Trombone.pdf'
+          'C (acomp)': 'partituras/ben_poutourri/ben-poutpourri-Trombone.pdf'
+          'Eb': 'partituras/ben_poutourri/ben-poutpourri-Alto_Saxophone_1.pdf'
+          'Eb (acomp)': 'partituras/ben_poutourri/ben-poutpourri-Alto_Saxophone_2.pdf'
+          'Bb': 'partituras/ben_poutourri/ben-poutpourri-Bb_Trumpet_1.pdf'
+          'Bb (acomp)': 'partituras/ben_poutourri/ben-poutpourri-Bb_Trumpet_2.pdf'
+          'Tuba': 'partituras/ben_poutourri/ben-poutpourri-Tuba.pdf'
 
-      - nome: 'Caramba'
-        links:
-
-      - nome: 'Fio Maravilha'
-        links:
-
-      - nome: 'Taj Mahal'
-        links:
 
   - nome: "Moa"
     musicas:
