@@ -88,8 +88,8 @@ blocos:
         links:
           'guia': 'partituras/ben_poutourri/guia.mp3'
           'Geral': 'partituras/ben_poutourri/ben-poutpourri-Score_and_Parts.pdf'
-          'C': 'partituras/ben_poutourri/ben-poutpourri-1st_Trombone.pdf'
-          'C (acomp)': 'partituras/ben_poutourri/ben-poutpourri-Trombone.pdf'
+          'C': 'partituras/ben_poutourri/ben-poutpourri-Trombone_1.pdf'
+          'C (acomp)': 'partituras/ben_poutourri/ben-poutpourri-Trombone_2.pdf'
           'Eb': 'partituras/ben_poutourri/ben-poutpourri-Alto_Saxophone_1.pdf'
           'Eb (acomp)': 'partituras/ben_poutourri/ben-poutpourri-Alto_Saxophone_2.pdf'
           'Bb': 'partituras/ben_poutourri/ben-poutpourri-Bb_Trumpet_1.pdf'
