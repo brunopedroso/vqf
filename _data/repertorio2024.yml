@@ -145,9 +145,10 @@ blocos:
         links:
           'guia': 'partituras/master_blaster/guia.mp3'
           'Geral': 'partituras/master_blaster/master_blaster-Score_and_Parts.pdf'
-          'Trumpet': 'partituras/master_blaster/master_blaster-Bb_Trumpet_1.pdf'
-          'Alto': 'partituras/master_blaster/master_blaster-Alto_Saxophone_2.pdf'
-          'Trombone': 'partituras/master_blaster/master_blaster-Trombone_1.pdf'
+          'Trumpet': 'partituras/master_blaster/master_blaster-Bb_Trumpet.pdf'
+          'Alto': 'partituras/master_blaster/master_blaster-Alto_Saxophone.pdf'
+          'Tenor': 'partituras/master_blaster/master_blaster-Tenor_Saxophone.pdf'
+          'Trombone': 'partituras/master_blaster/master_blaster-Trombone.pdf'
           'Tuba': 'partituras/master_blaster/master_blaster-Tuba.pdf'
 
   - nome: "Chico"
