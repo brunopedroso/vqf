@@ -24,7 +24,7 @@ tons:
 </style>
 
 
-## Repertório VQF Carnaval 2023 (10 anos)
+## Repertório VQF Carnaval 2024
 
 **ENSAIOS: **
 
@@ -35,7 +35,7 @@ Quartas de 19:00 às 22:00
 Lugar definido na hora (grupo de transmissão do zap).
 
 
-**[Cronograma de ensaios detalhado](https://proximal-bench-36b.notion.site/VQF-2023-Ensaios-1e41b893c9ff4b299679c221ff465705)**
+**[Cronograma de ensaios detalhado](https://www.notion.so/VQF-2024-7a4da96019db4a60b1739d0a8b9703e3?pvs=4)**
 
 [Sambas pra tocarmos nos intervalos](https://proximal-bench-36b.notion.site/Sambas-VQF-7266d6052fdc4f6581aa41439a997d66)
 
@@ -43,7 +43,7 @@ Lugar definido na hora (grupo de transmissão do zap).
 
   <table>
 
-    {% for bloco in site.data.repertorio2023.blocos  %}
+    {% for bloco in site.data.repertorio2024.blocos  %}
 
       <tr>
         <td>
