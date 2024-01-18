@@ -213,6 +213,7 @@ blocos:
 
       - nome: 'Toneladas de desejos (C)'
         links:
+          'convenção: virada ile->toneladas': 'partituras/toneladas/virada_ile_toneladas.mp3'
 
   - nome: "Balancê"
     musicas:
