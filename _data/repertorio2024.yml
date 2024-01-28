@@ -132,16 +132,6 @@ blocos:
           'yt': 'https://www.youtube.com/watch?v=qfWoph8jxz0'
           'partitura': 'partituras/pedrada/Pedrada.pdf'
 
-      - nome: 'Concrete Jungle (Dm)'
-        links:
-          'todos': 'partituras/concrete_jungle/Concrete_Jungle2-Score_and_Parts.pdf'
-          'guia': 'partituras/concrete_jungle/concrete_jungle.mp3'
-          'guia_tuba': 'partituras/concrete_jungle/guia_tuba.mp3'
-          'guia_trombone': 'partituras/concrete_jungle/guia_trombone.mp3'
-          'guia_tenor': 'partituras/concrete_jungle/guia_tenor.mp3'
-          'guia_alto': 'partituras/concrete_jungle/guia_alto.mp3'
-          'guia_trompete': 'partituras/concrete_jungle/guia_trompete.mp3'
-
       - nome: 'Master Blaster (Cm)'
         links:
           'guia': 'partituras/master_blaster/guia.mp3'
@@ -151,6 +141,16 @@ blocos:
           'Tenor': 'partituras/master_blaster/master_blaster-Tenor_Saxophone.pdf'
           'Trombone': 'partituras/master_blaster/master_blaster-Trombone.pdf'
           'Tuba': 'partituras/master_blaster/master_blaster-Tuba.pdf'
+
+      - nome: 'Concrete Jungle (Dm)'
+        links:
+          'todos': 'partituras/concrete_jungle/Concrete_Jungle2-Score_and_Parts.pdf'
+          'guia': 'partituras/concrete_jungle/concrete_jungle.mp3'
+          'guia_tuba': 'partituras/concrete_jungle/guia_tuba.mp3'
+          'guia_trombone': 'partituras/concrete_jungle/guia_trombone.mp3'
+          'guia_tenor': 'partituras/concrete_jungle/guia_tenor.mp3'
+          'guia_alto': 'partituras/concrete_jungle/guia_alto.mp3'
+          'guia_trompete': 'partituras/concrete_jungle/guia_trompete.mp3'
 
   - nome: "Chico"
     musicas:
