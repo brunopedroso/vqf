@@ -32,7 +32,7 @@ tons:
 
 #### Playlist do Repertório
 
-<iframe style="width: 100%; height: 90px;" scrolling="no" src="https://midia.borges.net.br:9093/share.php?id=7&amp;secret=vqfcarnaval2020&amp;embed=true"></iframe>
+<iframe style="width: 100%; height: 90px;" scrolling="no" src="https://midia.borges.net.br/share.php?id=7&amp;secret=vqfcarnaval2020&amp;embed=true"></iframe>
 
 ## Repertório VQF 2020
 
