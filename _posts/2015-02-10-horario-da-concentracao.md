@@ -32,9 +32,9 @@ Sim, é bastante cedo. Muitos de nós têm dificuldade em acordar cedo assim, es
 
 Por outro lado, não podemos simplesmente esperar chegar todo mundo pra começar. Seria desrespeito com quem chegou cedo, inclusive com o público, que inclui crianças com horário pra almoçar e tudo mais.
 
-O horário oficial marcado de início é às 9, o bloco pode tranquilamente atrasar um bocadinho pra sair, e acabar saindo por volta das 9:15, ou no máximo 9:30... Isso faz parte, pode até acontecer... Mas depois disso começa a ficar demais.
+O horário oficial marcado de início é às 8:30, o bloco pode às vezes atrasar um bocadinho pra sair, e acabar saindo por volta das 8:45, ou no máximo 9:00! Isso faz parte, pode acontecer... Mas depois disso começa a ficar demais.
 
-**Mas, se o bloco sai às 9, porque chegar às 8?**
+**Mas, se o bloco sai às 8:30, porque chegar às 8?**
 
 Você está marcando mais cedo só pra fazer pressão, e o pessoal acabar chegando na hora?
 
@@ -89,7 +89,7 @@ Foi como eu me senti quando não consegui fazer meus amigos chegarem na hora cer
 
 Tudo isso pra dizer que você pode chegar ao bloco **no horário que quiser.**
 
-Não poderemos esperar pra sempre. O bloco vai ter que sair por volta das 9 por respeito aos demais.
+Não poderemos esperar pra sempre. O bloco vai ter que sair por volta das 8:30 por respeito aos demais, que se esforçaram.
 
 Lamentarei profundamente se você perder o começo da roda, mas entenderei.
 
