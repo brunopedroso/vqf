@@ -153,6 +153,41 @@ letratodacorde = {
 #(set-global-staff-size 33)
 
 \book {
+  \bookOutputName "emorioh_C_notas"
+  \header {
+    instrument = "Instrumentos em C"
+  }
+  \score {
+    <<
+      \new TimeSig \compassoseparado
+	\new Staff {
+	  \accidentalStyle Score.dodecaphonic
+	  \new Voice = "saxalto" {
+	      \easyHeadsOn
+	      \teeny
+	      \parteum
+	      \partedois
+		  }
+	  \addlyrics {\letratoda}
+	}
+    >>
+    \layout {
+    \context {
+    \Voice
+    \consists \Gravador_nome_notas
+    }
+    \context {
+      \Score 
+      \override SpacingSpanner.base-shortest-duration = #(ly:make-moment 1/4)
+	}
+
+    }
+  }
+}
+
+
+
+\book {
   \bookOutputName "emorioh_Eb_notas"
   \header {
     instrument = "Instrumentos em Eb"
@@ -218,3 +253,26 @@ letratodacorde = {
            \include "../imprimirsoletras.ly"
   }
 }
+ew Voice = "saxalto" {
+	    \transpose bes g' {
+	      \easyHeadsOn
+	      \teeny
+	      \parteum
+	      \partedois
+	    }
+	  }
+	  \addlyrics {\letratoda}
+	}
+    >>
+    \layout {
+    \context {
+    \Voice
+    \consists \Gravador_nome_notas
+    }
+    \context {
+      \Score 
+      \override SpacingSpanner.base-shortest-duration = #(ly:make-moment 1/4)
+	}
+
+    }
+  
