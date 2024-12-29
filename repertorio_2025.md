@@ -26,6 +26,14 @@ tons:
 
 ## Repertório VQF Carnaval 2025
 
+### Livros
+
+  - [alto](/partituras/livros_2025/alto.pdf)
+  - [tenor](/partituras/livros_2025/tenor.pdf)
+  - [trombone](/partituras/livros_2025/trombone.pdf)
+  - [trompete](/partituras/livros_2025/trompete.pdf)
+  - [tuba](/partituras/livros_2025/tuba.pdf)
+
 ### Planejamento de ensaios [AQUI](https://proximal-bench-36b.notion.site/VQF-2025-10f5ad3bdfdc80a2a3a0ccf760ff0028)
 
 ### Partituras e gravações:
