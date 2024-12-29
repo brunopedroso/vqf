@@ -197,11 +197,11 @@ blocos:
           'trompete':  'partituras/pierrot_apaixonado/arranjo_novo/pierrot_PARTITURAS/pierrot_TROMPETE.pdf'
           'tuba':  'partituras/pierrot_apaixonado/arranjo_novo/pierrot_PARTITURAS/pierrot_TUBA.pdf'
           
-          'geral_audio':  'partituras/pierrot_apaixonado/arranjo_novo/PIERROT_AUDIOS/PIERROT_FINAL-GERAL2.mp3'
+          'geral_audio':  'partituras/pierrot_apaixonado/arranjo_novo/PIERROT_AUDIOS/PIERROT_FINAL-GERAL2.mpga'
           'alto_audio':  'partituras/pierrot_apaixonado/arranjo_novo/PIERROT_AUDIOS/PIERROT_FINAL-SAX ALTO.mp3'
           'tenor_audio':  'partituras/pierrot_apaixonado/arranjo_novo/PIERROT_AUDIOS/PIERROT_FINAL-SAX TENOR.mp3'
           'trompete_audio':  'partituras/pierrot_apaixonado/arranjo_novo/PIERROT_AUDIOS/PIERROT_FINAL-TROMPETE.mp3'
-          'trombone_audio':  'partituras/pierrot_apaixonado/arranjo_novo/PIERROT_AUDIOS/PIERROT_FINAL-TROMBONE.mp3'
+          'trombone_audio':  'partituras/pierrot_apaixonado/arranjo_novo/PIERROT_AUDIOS/PIERROT_FINAL-TROMBONE.mpga'
           'tuba_audio':  'partituras/pierrot_apaixonado/arranjo_novo/PIERROT_AUDIOS/PIERROT_FINAL-TUBA.mp3'
 
 
