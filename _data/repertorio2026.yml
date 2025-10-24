@@ -171,6 +171,22 @@ blocos:
         #   'letra': 'partituras/bebe/bebe_letra.pdf'
         #   'partitura': 'http://musicabrasilis.org.br/partituras/hermeto-pascoal-bebe'
         #   'livro': 'partituras/hermeto.pdf'
+        links:
+          'geral_audio': 'partituras/bebe/arranjo_novo/Bebe.mp3'
+          'geral_part': 'partituras/bebe/arranjo_novo/Bebe-Score_and_Parts.pdf'
+          'alto_audio': 'partituras/bebe/arranjo_novo/Bebe-Alto_Saxophone.mp3'
+          'alto_part': 'partituras/bebe/arranjo_novo/Bebe-Alto_Saxophone.pdf'
+          'clar_audio': 'partituras/bebe/arranjo_novo/Bebe-Bb_Clarinet.mp3'
+          'clar_part': 'partituras/bebe/arranjo_novo/Bebe-Bb_Clarinet.pdf'
+          'tromp_audio': 'partituras/bebe/arranjo_novo/Bebe-Bb_Trumpet.mp3'
+          'tromp_part': 'partituras/bebe/arranjo_novo/Bebe-Bb_Trumpet.pdf'
+          'tenor_audio': 'partituras/bebe/arranjo_novo/Bebe-Tenor_Saxophone.mp3'
+          'tenor_part': 'partituras/bebe/arranjo_novo/Bebe-Tenor_Saxophone.pdf'
+          'tromb_audio': 'partituras/bebe/arranjo_novo/Bebe-Trombone.mp3'
+          'tromb_part': 'partituras/bebe/arranjo_novo/Bebe-Trombone.pdf'
+          'tuba_audio': 'partituras/bebe/arranjo_novo/Bebe-Tuba.mp3'
+          'tuba_part': 'partituras/bebe/arranjo_novo/Bebe-Tuba.pdf'
+
 
 
   - nome: "Abre Alas"
