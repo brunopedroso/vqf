@@ -162,15 +162,6 @@ blocos:
         #   'letra': 'partituras/santo_antonio/santo_antonio_letra.pdf'
 
       - nome: 'Bebê (Am)'
-        # links:
-        #   'yt': 'https://www.youtube.com/watch?v=EGqWRias96M'
-        #   'c':  'partituras/bebe/bebe_C.pdf'
-        #   'bb': 'partituras/bebe/bebe_Bb.pdf'
-        #   'eb': 'partituras/bebe/bebe_Eb.pdf'
-        #   'ebnotas': 'partituras/bebe/bebe_Eb_notas.pdf'
-        #   'letra': 'partituras/bebe/bebe_letra.pdf'
-        #   'partitura': 'http://musicabrasilis.org.br/partituras/hermeto-pascoal-bebe'
-        #   'livro': 'partituras/hermeto.pdf'
         links:
           'geral_audio': 'partituras/bebe/arranjo_novo/Bebe.mp3'
           'geral_part': 'partituras/bebe/arranjo_novo/Bebe-Score_and_Parts.pdf'
@@ -211,6 +202,28 @@ blocos:
 
       - nome: 'Taí (Dm) - arranjo novo!'
         links:
+          'GERAL_audio':  'partituras/taih/arranjo_novo/AUDIO/TAÍ_FINAL-GERAL.mp3'
+          'GERAL_part':  'partituras/taih/arranjo_novo/PDF/TAÍ-GERAL.pdf'
+          
+          'CLARINETE_audio':  'partituras/taih/arranjo_novo/AUDIO/TAÍ_FINAL-CLARINETE.mp3'
+          'CLARINETE_part':  'partituras/taih/arranjo_novo/PDF/TAÍ-CLARINETE.pdf'
+
+          'SAX_ALTO_audio':  'partituras/taih/arranjo_novo/AUDIO/TAÍ_FINAL-SAX_ALTO.mp3'
+          'SAX_ALTO_part':  'partituras/taih/arranjo_novo/PDF/TAÍ-SAX_ALTO.pdf'
+          
+          'SAX_TENOR_audio':  'partituras/taih/arranjo_novo/AUDIO/TAÍ_FINAL-SAX_TENOR.mp3'
+          'SAX_TENOR_part':  'partituras/taih/arranjo_novo/PDF/TAÍ-SAX_TENOR.pdf'
+
+          'TROMBONE_audio':  'partituras/taih/arranjo_novo/AUDIO/TAÍ_FINAL-TROMBONE.mp3'
+          'TROMBONE_part':  'partituras/taih/arranjo_novo/PDF/TAÍ-TROMBONE.pdf'
+
+          'TROMPETE_audio':  'partituras/taih/arranjo_novo/AUDIO/TAÍ_FINAL-TROMPETE.mp3'
+          'TROMPETE_part':  'partituras/taih/arranjo_novo/PDF/TAÍ-TROMPETE.pdf'
+
+          'SAX_TUBA_audio':  'partituras/taih/arranjo_novo/AUDIO/TAÍ_FINAL-SAX_TUBA.mp3'
+          'SAX_TUBA_part':  'partituras/taih/arranjo_novo/PDF/TAÍ-TUBA.pdf'
+
+
 
       - nome: 'Turma do Funil (Dm)'
         links:
