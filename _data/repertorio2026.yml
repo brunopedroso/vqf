@@ -152,14 +152,15 @@ blocos:
   - nome: "Hermeto"
     musicas:
       - nome: 'Santo Antônio (Fm)'
-        # links:
-        #   'livro': 'partituras/hermeto.pdf'
-        #   'yt': 'https://www.youtube.com/watch?v=H_EhF57l4oM&feature=youtu.be'
-        #   'c':  'partituras/santo_antonio/santo_antonio_C.pdf'
-        #   'bb': 'partituras/santo_antonio/santo_antonio_Bb.pdf'
-        #   'eb': 'partituras/santo_antonio/santo_antonio_Eb.pdf'
-        #   'ebnotas': 'partituras/santo_antonio/santo_antonio_Eb_notas.pdf'
-        #   'letra': 'partituras/santo_antonio/santo_antonio_letra.pdf'
+        links:
+          'audio': 'partituras/santo_antonio/arranjo_novo/sto_antonio.mp3'
+          'clarineta': 'partituras/santo_antonio/arranjo_novo/sto_antonio-Bb_Clarinet.pdf'
+          'trompete': 'partituras/santo_antonio/arranjo_novo/sto_antonio-Bb_Trumpet.pdf'
+          'alto': 'partituras/santo_antonio/arranjo_novo/sto_antonio-Alto_Saxophone.pdf'
+          'tenor': 'partituras/santo_antonio/arranjo_novo/sto_antonio-Tenor_Saxophone.pdf'
+          'trombone': 'partituras/santo_antonio/arranjo_novo/sto_antonio-Trombone.pdf'
+          'tuba': 'partituras/santo_antonio/arranjo_novo/sto_antonio-Tuba.pdf'
+          'geral': 'partituras/santo_antonio/arranjo_novo/sto_antonio-Score_and_Parts.pdf'
 
       - nome: 'Bebê (Am)'
         links:
