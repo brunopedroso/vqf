@@ -111,8 +111,8 @@ blocos:
           'yt1':  'https://www.youtube.com/watch?v=lOl6xNdWWjo'
           'yt2':  'https://www.youtube.com/watch?v=aAXBDwb6oPU'
 
-      - nome: 'Lágrimas de Folião (Dm)'
-        links:
+      # - nome: 'Lágrimas de Folião (Dm)'
+      #   links:
           
 
   - nome: "Axé 1"
@@ -201,30 +201,6 @@ blocos:
           'ebnotas': 'partituras/mascara_negra/mascara_negra_Eb_notas.pdf'
           'letra': 'partituras/mascara_negra/mascara_negra_letra.pdf'
 
-      - nome: 'Taí (Dm) - arranjo novo!'
-        links:
-          'GERAL_audio':  'partituras/taih/arranjo_novo/AUDIO/TAÍ_FINAL-GERAL.mp3'
-          'GERAL_part':  'partituras/taih/arranjo_novo/PDF/TAÍ-GERAL.pdf'
-          
-          'CLARINETE_audio':  'partituras/taih/arranjo_novo/AUDIO/TAÍ_FINAL-CLARINETE.mp3'
-          'CLARINETE_part':  'partituras/taih/arranjo_novo/PDF/TAÍ-CLARINETE.pdf'
-
-          'SAX_ALTO_audio':  'partituras/taih/arranjo_novo/AUDIO/TAÍ_FINAL-SAX_ALTO.mp3'
-          'SAX_ALTO_part':  'partituras/taih/arranjo_novo/PDF/TAÍ-SAX_ALTO.pdf'
-          
-          'SAX_TENOR_audio':  'partituras/taih/arranjo_novo/AUDIO/TAÍ_FINAL-SAX_TENOR.mp3'
-          'SAX_TENOR_part':  'partituras/taih/arranjo_novo/PDF/TAÍ-SAX_TENOR.pdf'
-
-          'TROMBONE_audio':  'partituras/taih/arranjo_novo/AUDIO/TAÍ_FINAL-TROMBONE.mp3'
-          'TROMBONE_part':  'partituras/taih/arranjo_novo/PDF/TAÍ-TROMBONE.pdf'
-
-          'TROMPETE_audio':  'partituras/taih/arranjo_novo/AUDIO/TAÍ_FINAL-TROMPETE.mp3'
-          'TROMPETE_part':  'partituras/taih/arranjo_novo/PDF/TAÍ-TROMPETE.pdf'
-
-          'SAX_TUBA_audio':  'partituras/taih/arranjo_novo/AUDIO/TAÍ_FINAL-SAX_TUBA.mp3'
-          'SAX_TUBA_part':  'partituras/taih/arranjo_novo/PDF/TAÍ-TUBA.pdf'
-
-
 
       - nome: 'Turma do Funil (Dm)'
         links:
@@ -257,58 +233,46 @@ blocos:
           'ebnotas': 'partituras/eu_vi_mamae_oxum_na_cachoeira/mamae_oxum-Eb_notas.pdf'
           'letra': 'partituras/eu_vi_mamae_oxum_na_cachoeira/mamae_oxum_letra.pdf'
 
+      - nome: 'Taí (Dm) - arranjo novo!'
+        links:
+          'GERAL_audio':  'partituras/taih/arranjo_novo/AUDIO/TAÍ_FINAL-GERAL.mp3'
+          'GERAL_part':  'partituras/taih/arranjo_novo/PDF/TAÍ-GERAL.pdf'
+          
+          'CLARINETE_audio':  'partituras/taih/arranjo_novo/AUDIO/TAÍ_FINAL-CLARINETE.mp3'
+          'CLARINETE_part':  'partituras/taih/arranjo_novo/PDF/TAÍ-CLARINETE.pdf'
+
+          'SAX_ALTO_audio':  'partituras/taih/arranjo_novo/AUDIO/TAÍ_FINAL-SAX_ALTO.mp3'
+          'SAX_ALTO_part':  'partituras/taih/arranjo_novo/PDF/TAÍ-SAX_ALTO.pdf'
+          
+          'SAX_TENOR_audio':  'partituras/taih/arranjo_novo/AUDIO/TAÍ_FINAL-SAX_TENOR.mp3'
+          'SAX_TENOR_part':  'partituras/taih/arranjo_novo/PDF/TAÍ-SAX_TENOR.pdf'
+
+          'TROMBONE_audio':  'partituras/taih/arranjo_novo/AUDIO/TAÍ_FINAL-TROMBONE.mp3'
+          'TROMBONE_part':  'partituras/taih/arranjo_novo/PDF/TAÍ-TROMBONE.pdf'
+
+          'TROMPETE_audio':  'partituras/taih/arranjo_novo/AUDIO/TAÍ_FINAL-TROMPETE.mp3'
+          'TROMPETE_part':  'partituras/taih/arranjo_novo/PDF/TAÍ-TROMPETE.pdf'
+
+          'SAX_TUBA_audio':  'partituras/taih/arranjo_novo/AUDIO/TAÍ_FINAL-SAX_TUBA.mp3'
+          'SAX_TUBA_part':  'partituras/taih/arranjo_novo/PDF/TAÍ-TUBA.pdf'
 
 
   - nome: "Bituca"
     musicas:
 
-      - nome: 'Vera Cruz (Gm)'
-        links:
-          'geral-guia':  'partituras/vera_cruz/vera_cruz_guia.mpga'
-          'caixas-guia':  'partituras/vera_cruz/guia_caixas.mpga'
-          'surdo-guia':  'partituras/vera_cruz/guia_surdo.mpga'
-          'alto-guia':  'partituras/vera_cruz/guia_alto.mpga'
-          'tenor-guia':  'partituras/vera_cruz/guia_tennor.mpga'
-          'trombone-guia':  'partituras/vera_cruz/guia_trombone.mpga'
-          'trompete-guia':  'partituras/vera_cruz/guia_trompete.mpga'
-          'tuba-guia':  'partituras/vera_cruz/guia_tuba.mpga'
-          '':  ''
-          'geral':  'partituras/vera_cruz/VeraCruz-GERAL.pdf'
-          'alto':  'partituras/vera_cruz/VeraCruz-SAXALTO.pdf'
-          'tenor':  'partituras/vera_cruz/VeraCruz-SAXTENOR.pdf'
-          'trombone':  'partituras/vera_cruz/VeraCruz-TROMBONE.pdf'
-          'trompete':  'partituras/vera_cruz/VeraCruz-TROMPETE.pdf'
-          'tuba':  'partituras/vera_cruz/VeraCruz-TUBA.pdf'
-
       - nome: 'Para Lennon e McCartney (Cm)'
         links:
           'yt': 'https://www.youtube.com/watch?v=e9-c8b76OMk'
 
-      - nome: 'Tudo que você podia ser (Dm)'
+      - nome: 'Ângelus (C)'
         links:
-          "GERAL": "partituras/tudo_que_vc_podia_ser/PDF_PARTES/GERAL.pdf"
-          "TUBA": "partituras/tudo_que_vc_podia_ser/PDF_PARTES/TUBA.pdf"
-          "TROMBONE": "partituras/tudo_que_vc_podia_ser/PDF_PARTES/TROMBONE.pdf"
-          "TENOR": "partituras/tudo_que_vc_podia_ser/PDF_PARTES/TENOR.pdf"
-          "ALTO": "partituras/tudo_que_vc_podia_ser/PDF_PARTES/ALTO.pdf"
-          "TROMPETE": "partituras/tudo_que_vc_podia_ser/PDF_PARTES/TROMPETE.pdf"
-          '':  ''
-          "audio_GERAL": "partituras/tudo_que_vc_podia_ser/AUDIO/GERAL.mp3"
-          "audio_Tuba": "partituras/tudo_que_vc_podia_ser/AUDIO/Tuba.mp3"
-          "audio_Trombone": "partituras/tudo_que_vc_podia_ser/AUDIO/Trombone.mp3"
-          "audio_SaxTenor": "partituras/tudo_que_vc_podia_ser/AUDIO/SaxTenor.mp3"
-          "audio_SaxAlto": "partituras/tudo_que_vc_podia_ser/AUDIO/SaxAlto.mp3"
-          "audio_Trompete": "partituras/tudo_que_vc_podia_ser/AUDIO/Trompete.mp3"
-
-      - nome: 'Cravo e canela (C)'
-        links:
-          'guia': 'partituras/cravo_e_canela/guia.mp3'
-          'Geral': 'partituras/cravo_e_canela/cravo_e_canela-Score_and_Parts.pdf'
-          'Alto': 'partituras/cravo_e_canela/cravo_e_canela-Alto_Sax.pdf'
-          'Trompete': 'partituras/cravo_e_canela/cravo_e_canela-Trumpet.pdf'
-          'Tenor': 'partituras/cravo_e_canela/cravo_e_canela-Tenor_Sax.pdf'
-          'Trombone': 'partituras/cravo_e_canela/cravo_e_canela-Trombone.pdf'
-          'Tuba': 'partituras/cravo_e_canela/cravo_e_canela-Tuba.pdf'
+          'yt': 'https://www.youtube.com/watch?v=3K3qJVKBlh4'
+          'mid': 'partituras/angelus/angelus_C.midi'
+          'c': 'partituras/angelus/angelus_C.pdf'
+          'bb': 'partituras/angelus/angelus_Bb.pdf'
+          'eb': 'partituras/angelus/angelus_Eb.pdf'
+          'ebnotas': 'partituras/angelus/angelus_Eb_notas.pdf'
+          'letra': 'partituras/angelus/angelus_letra.pdf'
 
       - nome: 'Bola de Meia (G)'
         links:
