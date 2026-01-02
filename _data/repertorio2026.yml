@@ -574,6 +574,8 @@ blocos:
           'ebnotas':  'partituras/frevo_e_ciranda/frevo_e_ciranda-melodia_Eb_notas.pdf'
           'letra':  'partituras/frevo_e_ciranda/frevo_e_ciranda_letra.pdf'
 
+      - nome: 'Pra tirar coco (Cm)'
+
       - nome: 'Cabelo de fogo (Cm)'
         links:
           'youtube': 'https://www.youtube.com/watch?v=orm4PuCYysA'
