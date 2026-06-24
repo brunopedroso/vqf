@@ -1,8 +1,6 @@
 #!/bin/bash
 
-#rascunho da criação da capa
-convert ../../img/2020-capasongbook.png -gravity center -density 72 -pointsize 20 caption:"Vai Quem Fica\nSongbook Carnaval $(date +%Y)\nv.$(date +%d-%m-%Y) \n \n\n" -append  -background white -size 595x842 -page a4 capa.pdf
-#-size -page a4
+basecapa="../../img/2020-capasongbook.png"
 arqrep="../../_data/repertorio2020.yml"
 
 #Captura e Geração de nomes dos blocos em pdf
@@ -10,6 +8,10 @@ arqrep="../../_data/repertorio2020.yml"
 #Captura
 grep -e 'C.pdf' -e '^  - nome' $arqrep | sed "s/.*: \+\\x27\(.*\)\x27/\1/g" - > listaC.txt 
 grep nome listaC.txt | sed 's/.* "\(.*\)"/\1/g'|  sed 's/ \([[:alpha:]]\)/_\1/g' - > blocos.txt
+
+
+#geração de colinhas - rascunho
+#cat listaC.txt | convert -density 72 -background white label:@- -page A4 colinha.pdf
 
 #geração dos pdfs
 while read i 
@@ -24,8 +26,8 @@ tons_livros=(C Bb Eb Eb_notas letra)
 for t in ${tons_livros[@]}; do
         grep -e $t'.pdf' -e '^  - nome' $arqrep | sed "s/.*: \+\\x27\(.*\)\x27/\1/g" - > lista$t'.txt'
 	sed 's/partituras/../g' lista$t.txt | sed  's/.* "\(.*\)"/\1\.pdf/g' | sed 's/ \([[:alpha:]]\)/_\1/g' - > lista$t'comblocos.txt'
-	convert -page a4 -density 150 -pointsize 12 caption:"${t}" -rotate -39 -gravity SouthWest -density 72 -extent 595x842 -transparent white "$t".pdf;
-	pdftk capa.pdf stamp $t.pdf  output capalivro.pdf
+
+	convert  "$basecapa" -gravity south -splice 0x352  -pointsize 60 -font Calibri -annotate +0+124 "Vai Quem Fica - Carnaval $(date +%Y)\nv.$(date +%d-%m-%Y)" -gravity center -append -fill white -pointsize 160 -font Calibri -annotate -350-1170 "$t" capalivro.pdf
 	pdftk capalivro.pdf $(cat lista${t}'comblocos.txt') cat output songbook$t'.pdf'
 done
 
@@ -45,4 +47,3 @@ pdftk A=basei.pdf B=basep.pdf shuffle A B output songbookletrabooklet.pdf
 shopt -s extglob
 rm !(song*).pdf
 rm *.txt
-

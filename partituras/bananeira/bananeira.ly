@@ -17,27 +17,27 @@
 }
 
 bananeiranaosei = \relative a' {
-  c16 c a8 d \bar "bananeira_letra" \break
+  c16 c a8 d \bar  " " \break
     a16 a | 
-    c c a d~d \bar "bananeira_letra" \break 
+    c c a d~d \bar  " " \break 
     a c c | 
-    a16 a16 d8 a8 \bar "bananeira_letra" \break 
+    a16 a16 d8 a8 \bar  " " \break 
     c16 d16 | 
-    e16 d16 c16 a16 ~ a8 \bar "bananeira_letra" \break 
+    e16 d16 c16 a16 ~ a8 \bar  " " \break 
     d,16 d16  | 
-    f f  d8 g8 \bar "bananeira_letra" \break
+    f f  d8 g8 \bar  " " \break
     d16 d16  | 
-    f16 f16 d16 g16 ~ g16 \bar "bananeira_letra" \break
+    f16 f16 d16 g16 ~ g16 \bar  " " \break
     d16 f16 f16  | 
     d16 d16 g8 d8 f16 g16  | 
 }
 
 nofundodoquintal = \relative a' {
-  g2~ | g8 r16 \bar "bananeira_letra" \break
+  g2~ | g8 r16 \bar  " " \break
   a16 c16 bes a g  | 
-  a2 ~ | a8. \bar "bananeira_letra" \break
+  a2 ~ | a8. \bar  " " \break
   e'16 g16 f16 e16 d16 |
-  e2 ~| e8. \bar "bananeira_letra" \break
+  e2 ~| e8. \bar  " " \break
   e16 g16 f16 e16 d16  | 
   e2 ~ | e4 r8 a,16 a
 }
@@ -50,11 +50,11 @@ parteum =  \relative a' {
   }
    \alternative {
      {a16 g16 f16 d16 ~ d8 a'16 a16}
-     {a16 g16 f16 d16 ~ d8 \bar "bananeira_letra" }
+     {a16 g16 f16 d16 ~ d8 \bar  " " }
    }
 }
 partedois = \relative a' {
-  \bar "bananeira_letra" \break \marcaB a8 \bar "||"
+  \bar  " " \break \marcaB a8 \bar "||"
    \nofundodoquintal
 }
 
@@ -75,7 +75,7 @@ partetres =\relative a' {
   
 }
 letraum =  \lyricmode {
-  ba -- na -- nei -- ra, não sei
+  Ba -- na -- nei -- ra, não sei
   ba -- na -- nei -- ra, sei lá
   a ba -- na -- nei -- ra, sei não
   a ma -- nei -- ra de ver
@@ -89,7 +89,7 @@ letraum =  \lyricmode {
 }
 
 letradois = \lyricmode {
-  se -- rá
+  Se -- rá
   no fun -- do do quin -- tal
   quin -- tal do seu o -- lhar
   o -- lhar do co -- ra -- ção
@@ -100,6 +100,23 @@ letradois = \lyricmode {
 letratoda = {
   \letraum
   \letradois
+}
+
+letratodacorde = \lyricmode {
+  Ba -- na -- nei -- ra, não sei
+  ba -- na -- nei -- ra, sei lá
+  a ba -- na -- nei -- ra, sei não
+  a ma -- nei -- ra de ver
+  
+  ba -- na -- nei -- ra, não sei
+  ba -- na -- nei -- ra, sei lá
+  a ba -- na -- nei -- ra, sei não
+  is -- so é lá com vo-cê
+  
+  Se -- rá
+  no fun -- do do quin -- tal
+  quin -- tal do seu o -- lhar
+  o -- lhar do co -- ra -- ção
 }
 
 \book {
@@ -209,7 +226,14 @@ letratoda = {
 
     }
   }
-}'#(set-global-staff-size 20)
+}
+
+
+\include "../cifra-formatos.ly"
+\include "cifra_bananeira.ly"
+
+
+#(set-global-staff-size 15)
 
 \book {
   \bookOutputName "bananeira_letra"
@@ -225,11 +249,14 @@ letratoda = {
              \partedois
            }
       }
-  %           \new ChordNames 
-  %           \acordetodo
+              \new ChordNames \with {
+               \consists "Bar_engraver"
+                \override BarLine #'stencil = \barracifra
+             }
+             \acordetodo
              \new Lyrics
-             \lyricsto "letra" \letratoda
+             \lyricsto "letra" \letratodacorde
     >>
            \include "../imprimirsoletras.ly"
   }
-}'
+}
