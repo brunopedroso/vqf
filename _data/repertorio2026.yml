@@ -108,6 +108,12 @@ blocos:
       - nome: 'Ultimo Dia (Gm)'
         links:
           'partituras':  'partituras/ultimo_dia/ultimo_dia.pdf'
+          'clarineta':  'partituras/ultimo_dia/ultimo_dia_clarineta.pdf'
+          'alto':  'partituras/ultimo_dia/ultimo_dia_alto.pdf'
+          'tenor':  'partituras/ultimo_dia/ultimo_dia_tenor.pdf'
+          'trompete':  'partituras/ultimo_dia/ultimo_dia_trompete.pdf'
+          'trombone':  'partituras/ultimo_dia/ultimo_dia_trombone.pdf'
+          'tuba':  'partituras/ultimo_dia/ultimo_dia_tuba.pdf'
           'yt1':  'https://www.youtube.com/watch?v=lOl6xNdWWjo'
           'yt2':  'https://www.youtube.com/watch?v=aAXBDwb6oPU'
 
@@ -324,10 +330,15 @@ blocos:
           'mp3': 'partituras/a_ra/a_ra_FINAL.mp3'
           'geral': 'partituras/a_ra/a_ra_GERAL.pdf'
           'harmonia': 'partituras/a_ra/a_ra_Harmonia.pdf'
+          'alto': 'partituras/a_ra/a_ra-melodia_Eb.pdf'
+          'clarineta': 'partituras/a_ra/a_ra-melodia_Bb.pdf'
           'sax_bar': 'partituras/a_ra/a_ra_SaxBaritono.pdf'
           'sax_ten': 'partituras/a_ra/a_ra_SaxTenor.pdf'
+          'tenor': 'partituras/a_ra/a_ra_SaxTenor.pdf'
           'tromb': 'partituras/a_ra/a_ra_Trombone.pdf'
+          'trombone': 'partituras/a_ra/a_ra_Trombone.pdf'
           'tromp': 'partituras/a_ra/a_ra_Trompetes.pdf'
+          'trompete': 'partituras/a_ra/a_ra_Trompetes.pdf'
           'tuba': 'partituras/a_ra/a_ra_Tuba.pdf'
           'letra': 'partituras/a_ra/a_ra_letra.pdf'
           
@@ -502,6 +513,12 @@ blocos:
       - nome: 'Coisa número 1 (Dm)'
         links:
           'partitura': 'partituras/coisa_num_1/Coisa_n_1-Score_and_Parts.pdf'
+          'alto': 'partituras/coisa_num_1/coisa_num_1_alto.pdf'
+          'clarineta': 'partituras/coisa_num_1/coisa_num_1_tenor.pdf'
+          'tenor': 'partituras/coisa_num_1/coisa_num_1_tenor.pdf'
+          'trompete': 'partituras/coisa_num_1/coisa_num_1_trompete.pdf'
+          'trombone': 'partituras/coisa_num_1/coisa_num_1_trombone.pdf'
+          'tuba': 'partituras/coisa_num_1/coisa_num_1_tuba.pdf'
           'guia': 'partituras/coisa_num_1/coisa1-guia.mp3'
 
   - nome: "Cachaça"
