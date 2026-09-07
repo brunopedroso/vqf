@@ -23,20 +23,20 @@ tons:
   }
 </style>
 
-
 ## Repertório VQF Carnaval 2026
 
-<!-- ### Livros
+### Livros
 
-  - [alto](/partituras/livros_2025/alto.pdf)
-  - [tenor](/partituras/livros_2025/tenor.pdf)
-  - [trombone](/partituras/livros_2025/trombone.pdf)
-  - [trompete](/partituras/livros_2025/trompete.pdf)
-  - [tuba](/partituras/livros_2025/tuba.pdf) -->
+- [alto](book/book_alto.pdf)
+- [clarineta](book/book_clarineta.pdf)
+- [tenor](book/book_tenor.pdf)
+- [trombone](book/book_trombone.pdf)
+- [trompete](book/book_trompete.pdf)
+- [tuba](book/book_tuba.pdf)
 
 ### Planejamento de ensaios [AQUI](https://proximal-bench-36b.notion.site/VQF-2026-2755ad3bdfdc80aca6f6dca4c2188f64?source=copy_link)
 
-### Partituras e gravações:
+### Partituras e gravações
 
   <table>
 
@@ -83,7 +83,4 @@ tons:
 
     {% endfor  %}
 
-
   </table>
-
-

@@ -20,6 +20,7 @@ from __future__ import annotations
 
 import argparse
 import io
+import json
 import math
 import re
 import sys
@@ -212,6 +213,10 @@ def make_text_pdf(pages: list[list[tuple]], width: float, height: float) -> io.B
         content_obj = page_obj + 1
         stream_parts = []
         for item in items:
+            if item[0] == "rect":
+                _, x, y, w, h = item[:5]
+                stream_parts.append(b"%.2f %.2f %.2f %.2f re f" % (x, y, w, h))
+                continue
             x, y, size, text = item[:4]
             bold = len(item) > 4 and item[4]
             font = b"/F2" if bold else b"/F1"
@@ -251,17 +256,35 @@ def centered_x(text: str, size: int, width: float) -> float:
     return max(36.0, (width - len(text) * size * 0.48) / 2)
 
 
-def make_cover_pdf(instrument: str, repertoire_name: str) -> io.BytesIO:
+def qr_items(qr_json: Path, center_x: float, y: float, module: float) -> list[tuple]:
+    if not qr_json.exists():
+        return []
+    qr = json.loads(qr_json.read_text(encoding="utf-8"))
+    size = int(qr["size"])
+    data = qr["data"]
+    quiet = 4
+    total_width = (size + quiet * 2) * module
+    x0 = center_x - total_width / 2
+    items: list[tuple] = []
+    for row in range(size):
+        for col in range(size):
+            if data[row * size + col]:
+                x = x0 + (col + quiet) * module
+                # QR row 0 is top; PDF y grows upward.
+                rect_y = y + (size - row - 1 + quiet) * module
+                items.append(("rect", x, rect_y, module, module))
+    return items
+
+
+def make_cover_pdf(instrument: str, repertoire_name: str, qr_json: Path) -> io.BytesIO:
     title = f"VQF - {instrument.title()}"
     subtitle = repertoire_name
-    return make_text_pdf(
-        [[
-            (centered_x(title, 24, PAGE_WIDTH), 470, 24, title),
-            (centered_x(subtitle, 14, PAGE_WIDTH), 430, 14, subtitle),
-        ]],
-        PAGE_WIDTH,
-        PAGE_HEIGHT,
-    )
+    items: list[tuple] = [
+        (centered_x(title, 24, PAGE_WIDTH), 520, 24, title),
+        (centered_x(subtitle, 14, PAGE_WIDTH), 485, 14, subtitle),
+    ]
+    items.extend(qr_items(qr_json, PAGE_WIDTH / 2, 290, 2.52))
+    return make_text_pdf([items], PAGE_WIDTH, PAGE_HEIGHT)
 
 
 def make_block_title_pdf(block: str) -> io.BytesIO:
@@ -327,7 +350,7 @@ def add_numbered_pages(writer, reader, first_page_number: int, PdfReader) -> int
     return number
 
 
-def merge_pdfs(picks: list[Pick], output: Path, instrument: str, repertoire_name: str) -> None:
+def merge_pdfs(picks: list[Pick], output: Path, instrument: str, repertoire_name: str, qr_json: Path) -> None:
     PdfReader, PdfWriter = import_pdf_lib()
 
     for pick in picks:
@@ -356,7 +379,7 @@ def merge_pdfs(picks: list[Pick], output: Path, instrument: str, repertoire_name
 
     writer = PdfWriter()
     page_number = 1
-    page_number = add_numbered_pages(writer, PdfReader(make_cover_pdf(instrument, repertoire_name)), page_number, PdfReader)
+    page_number = add_numbered_pages(writer, PdfReader(make_cover_pdf(instrument, repertoire_name, qr_json)), page_number, PdfReader)
     page_number = add_numbered_pages(writer, PdfReader(make_index_pdf(index_entries)), page_number, PdfReader)
     current_block = None
     for pick in picks:
@@ -466,7 +489,7 @@ def main() -> int:
 
         if picks:
             try:
-                merge_pdfs(picks, output, instrument, repertoire.stem)
+                merge_pdfs(picks, output, instrument, repertoire.stem, root / "img" / "qr_repertorio_2026.json")
             except PermissionError as e:
                 raise SystemExit(
                     f"Permission denied while writing {output}.\n"
