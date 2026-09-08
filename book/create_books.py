@@ -46,7 +46,7 @@ INSTRUMENTS: dict[str, list[str]] = {
         "trompete", "trompete_part", "tromp", "tromp_part",
     ],
     "trombone": ["trombone", "trombone_part", "tromb", "tromb_part", "c"],
-    "tuba": ["tuba", "tuba_part", "sax_tuba", "sax_tuba_part", "c"],
+    "tuba": ["tuba", "tuba_part", "sax_tuba", "sax_tuba_part"],
 }
 
 # If a song has no specific/transposition sheet but has exactly one generic PDF
@@ -471,7 +471,8 @@ def main() -> int:
         picks: list[Pick] = []
         missing: list[str] = []
         for song in songs:
-            pick = choose_pdf(song, instrument, root, not args.no_generic_fallback)
+            use_generic_fallback = instrument != "tuba" and not args.no_generic_fallback
+            pick = choose_pdf(song, instrument, root, use_generic_fallback)
             if pick:
                 picks.append(pick)
             else:
