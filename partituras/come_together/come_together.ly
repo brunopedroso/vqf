@@ -86,7 +86,7 @@ letratoda =\lyricmode {
       \new TimeSig \compassoseparado
       \new Staff {
         \new Voice = "saxalto" {
-          \transpose c  a,  {
+          \transpose c  c'  {
             \parteum
             \partedois
              
@@ -109,7 +109,7 @@ letratoda =\lyricmode {
       \new TimeSig \compassoseparado
       \new Staff {
         \new Voice = "trombone" {
-          \transpose c  c {
+          \transpose c  es {
             \parteum
              
             \partedois 
@@ -125,7 +125,7 @@ letratoda =\lyricmode {
     <<
       \new Staff {
         \new Voice = "saxalto" {
-          \transpose c  c {
+          \transpose c  es {
           \tempo 4 = 130 {
             \unfoldRepeats {        
              \parteum
@@ -152,7 +152,7 @@ letratoda =\lyricmode {
       \new TimeSig \compassoseparado
       \new Staff {
         \new Voice = "trompete" {
-          \transpose d e  {
+          \transpose c f,  {
             \parteum
             \partedois 
              
@@ -205,7 +205,7 @@ letratoda =\lyricmode {
       \new Staff {
         \accidentalStyle Score.dodecaphonic
         \new Voice = "saxalto" {
-          \transpose c a   {
+          \transpose c c'   {
             \easyHeadsOn
             \teeny
            { \parteum
@@ -231,4 +231,20 @@ letratoda =\lyricmode {
 }
 
 
-\version "2.18.2"  % necessary for upgrading to future LilyPond versions.
+\version "2.18.2"  % necessary for upgrading to future LilyPond versions.        \parteum
+            \break
+            \partedois 
+            \break
+             
+             
+           }
+      }
+  %           \new ChordNames 
+  %           \acordetodo
+             \new Lyrics
+             \lyricsto "letraa" \letratoda
+    >>
+           \include "../imprimirsoletras.ly"
+  }
+}
+

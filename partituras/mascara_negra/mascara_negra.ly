@@ -295,23 +295,4 @@ acordetodo = \chordmode {
     >>
            \include "../imprimirsoletras.ly"
   }
-}eeny
-            \parteum
-									\break
-            \unfoldRepeats
-            \transpose c c, {\partedois}
-									\break
-            \partetres
-          }
-        }
-        \addlyrics \letratoda
-      }
-    >>
-    \layout {
-        \context {
-      \Voice
-      \consists \Gravador_nome_notas
-      }
-    \context {
-      \Score 
-      \override SpacingSpanner.base-shortest-duration = #
+}
