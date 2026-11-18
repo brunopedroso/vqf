@@ -36,16 +36,16 @@ from typing import Iterable
 #   * instrument-specific links: alto, alto_part, trompete, tromp_part, ...
 #   * transposition links: c, bb, eb, ebnotas
 INSTRUMENTS: dict[str, list[str]] = {
-    "alto": ["alto", "alto_part", "sax_alto", "sax_alto_part", "eb"],
-    "tenor": ["tenor", "tenor_part", "sax_tenor", "sax_tenor_part", "sax_ten", "sax_ten_part", "bb"],
-    "trompete": ["trompete", "trompete_part", "tromp", "tromp_part", "bb"],
+    "alto": ["alto", "alto_part", "sax_alto", "sax_alto_part", "eb", "part eb"],
+    "tenor": ["tenor", "tenor_part", "sax_tenor", "sax_tenor_part", "sax_ten", "sax_ten_part", "bb", "part bb"],
+    "trompete": ["trompete", "trompete_part", "tromp", "tromp_part", "bb", "part bb"],
     "clarineta": [
         "clarineta", "clarineta_part", "clarinete", "clarinete_part", "clar", "clar_part",
-        "bb",
+        "bb", "part bb",
         "tenor", "tenor_part", "sax_tenor", "sax_tenor_part", "sax_ten", "sax_ten_part",
         "trompete", "trompete_part", "tromp", "tromp_part",
     ],
-    "trombone": ["trombone", "trombone_part", "tromb", "tromb_part", "c"],
+    "trombone": ["trombone", "trombone_part", "tromb", "tromb_part", "c", "part c"],
     "tuba": ["tuba", "tuba_part", "sax_tuba", "sax_tuba_part"],
 }
 
